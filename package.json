@@ -1,0 +1,26 @@
+{
+  "name": "awesome-crypto-cards",
+  "version": "1.0.0",
+  "description": "Curated, source-backed directory and dataset of 102+ crypto debit/prepaid cards and stablecoin payment solutions.",
+  "type": "module",
+  "main": "data/cards.json",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "test": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "crypto-card",
+    "stablecoin-card",
+    "usdt-card",
+    "visa",
+    "mastercard",
+    "apple-pay",
+    "google-pay",
+    "web3-payments",
+    "fintech",
+    "dataset"
+  ],
+  "author": "UCard Observer (https://ucard.observer)",
+  "license": "MIT",
+  "homepage": "https://ucard.observer"
+}

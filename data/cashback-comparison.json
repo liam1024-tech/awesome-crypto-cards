@@ -1,0 +1,156 @@
+{
+  "verified": "2026-09-14",
+  "article": "https://ucard.observer/articles/ucard-cashback-comparison/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+  "plans": [
+    {
+      "id": "ether-fi",
+      "name": "ether.fi Core",
+      "asset": "ETHFI",
+      "bands": [
+        {
+          "upTo": 2000,
+          "rate": 0.03
+        },
+        {
+          "upTo": 3000,
+          "rate": 0.01
+        },
+        {
+          "upTo": null,
+          "rate": 0.005
+        }
+      ],
+      "source": "https://help.ether.fi/en/articles/262374-how-does-cashback-work"
+    },
+    {
+      "id": "ethena-pay",
+      "name": "Ethena Pay Standard",
+      "asset": "AVAX",
+      "bands": [
+        {
+          "upTo": 2500,
+          "rate": 0.04
+        },
+        {
+          "upTo": 4000,
+          "rate": 0.01
+        },
+        {
+          "upTo": null,
+          "rate": 0
+        }
+      ],
+      "source": "https://pay.ethena.fi/pricing"
+    },
+    {
+      "id": "plasma-one",
+      "name": "Plasma One Lite",
+      "asset": "XPL",
+      "bands": [
+        {
+          "upTo": 500,
+          "rate": 0.02
+        },
+        {
+          "upTo": null,
+          "rate": 0.001
+        }
+      ],
+      "source": "https://intercom.help/plasma-6c43763cd799/en/articles/15506768-cashback-rates-and-spend-bands-by-tier"
+    }
+  ],
+  "cases": [
+    {
+      "plan": "ether.fi Core",
+      "asset": "ETHFI",
+      "spendUSD": 1000,
+      "nominalRewardUSD": 30,
+      "source": "https://help.ether.fi/en/articles/262374-how-does-cashback-work",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "Ethena Pay Standard",
+      "asset": "AVAX",
+      "spendUSD": 1000,
+      "nominalRewardUSD": 40,
+      "source": "https://pay.ethena.fi/pricing",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "Plasma One Lite",
+      "asset": "XPL",
+      "spendUSD": 1000,
+      "nominalRewardUSD": 10.5,
+      "source": "https://intercom.help/plasma-6c43763cd799/en/articles/15506768-cashback-rates-and-spend-bands-by-tier",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "ether.fi Core",
+      "asset": "ETHFI",
+      "spendUSD": 3000,
+      "nominalRewardUSD": 70,
+      "source": "https://help.ether.fi/en/articles/262374-how-does-cashback-work",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "Ethena Pay Standard",
+      "asset": "AVAX",
+      "spendUSD": 3000,
+      "nominalRewardUSD": 105,
+      "source": "https://pay.ethena.fi/pricing",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "Plasma One Lite",
+      "asset": "XPL",
+      "spendUSD": 3000,
+      "nominalRewardUSD": 12.5,
+      "source": "https://intercom.help/plasma-6c43763cd799/en/articles/15506768-cashback-rates-and-spend-bands-by-tier",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "ether.fi Core",
+      "asset": "ETHFI",
+      "spendUSD": 5000,
+      "nominalRewardUSD": 80,
+      "source": "https://help.ether.fi/en/articles/262374-how-does-cashback-work",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "Ethena Pay Standard",
+      "asset": "AVAX",
+      "spendUSD": 5000,
+      "nominalRewardUSD": 115,
+      "source": "https://pay.ethena.fi/pricing",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    },
+    {
+      "plan": "Plasma One Lite",
+      "asset": "XPL",
+      "spendUSD": 5000,
+      "nominalRewardUSD": 14.5,
+      "source": "https://intercom.help/plasma-6c43763cd799/en/articles/15506768-cashback-rates-and-spend-bands-by-tier",
+      "verified": "2026-09-14",
+      "assumptions": "每月从零累计；全部为普通合格 USD 消费；单笔大于 1 美元；无退款、活动或类别加成。仅名义奖励等值，未扣任何费用，不计币价变化、逐笔舍入与借款利息；不是持卡实测或到账保证。",
+      "article": "https://ucard.observer/articles/ucard-cashback-comparison/"
+    }
+  ]
+}
