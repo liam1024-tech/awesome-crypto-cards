@@ -52,6 +52,8 @@ All dataset files in this repository are exported directly from our automated bu
 | [`data/ucard-coverage.csv`](data/ucard-coverage.csv) | CSV | 103 Cards | Dataset coverage snapshot: KYC status, product operating state, official source counts, and review timestamps. |
 | [`data/ucard-coverage.json`](data/ucard-coverage.json) | JSON | 103 Cards | JSON equivalent of the coverage snapshot, including summary aggregate counts. |
 | [`data/payment-compatibility.csv`](data/payment-compatibility.csv) | CSV | 103 Cards | Matrix of network, issuer, BIN classification, Apple Pay, Google Pay, and AI subscription support. |
+| [`data/status-radar.json`](data/status-radar.json) | JSON | 103 Cards | Live card lifecycle status radar (Active, Degraded, Paused, Winding Down, Closed), emergency delisting risk alerts, and policy changelogs. |
+| [`data/card-changelogs.csv`](data/card-changelogs.csv) | CSV | 60+ Events | Chronological audit log of historical policy and fee shifts (cashback asset conversions, minimum withdrawal limits, lockups, fee updates). |
 | [`data/cashback-comparison.csv`](data/cashback-comparison.csv) | CSV | Tier Scenarios | Nominal cashback comparison modeling across $1,000, $3,000, and $5,000 monthly spend brackets. |
 
 ### Quick Data Loading Example
