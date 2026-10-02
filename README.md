@@ -47,6 +47,8 @@ All dataset files in this repository are exported directly from our automated bu
 | File Path | Format | Records | Description |
 | :--- | :--- | :--- | :--- |
 | [`data/cards.json`](data/cards.json) | JSON | 102 Cards | Complete profiles: metadata, fee schedules, KYC notes, bullet facts, and verified official source URLs. |
+| [`data/crypto-card-bins.json`](data/crypto-card-bins.json) | JSON | 22 BINs | Audited crypto card BIN numbers, card types (Debit/Prepaid), sponsor banks, 3DS, Stripe acceptance ratings, and delisting risk flags. |
+| [`data/crypto-card-bins.csv`](data/crypto-card-bins.csv) | CSV | 22 BINs | CSV equivalent of the verified crypto card BIN directory and sponsor bank mapping. |
 | [`data/ucard-coverage.csv`](data/ucard-coverage.csv) | CSV | 102 Cards | Dataset coverage snapshot: KYC status, product operating state, official source counts, and review timestamps. |
 | [`data/ucard-coverage.json`](data/ucard-coverage.json) | JSON | 102 Cards | JSON equivalent of the coverage snapshot, including summary aggregate counts. |
 | [`data/payment-compatibility.csv`](data/payment-compatibility.csv) | CSV | 102 Cards | Matrix of network, issuer, BIN classification, Apple Pay, Google Pay, and AI subscription support. |
