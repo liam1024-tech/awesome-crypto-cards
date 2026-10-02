@@ -1,10 +1,11 @@
 BIN,Card Product,Brand,Network,Type,Sponsor Bank,Country,Currency,3D Secure,Stripe Rating,WeChat/Alipay,Status,Risk Level
+454924,"ether.fi Cash Visa","ether.fi Cash",Visa,Credit,"Banco Popular de Puerto Rico / Rain",PR,USD,"支持",4,"部分支持",active,"低风险 (Low)"
 404038,"RedotPay Visa Virtual","RedotPay",Visa,Debit,"Epay Global / Transact Payments",HK,USD,"支持 (App 内动态确认)",5,"支持",active,"低风险 (Low)"
 474447,"RedotPay Visa Physical & Virtual","RedotPay",Visa,Debit,"Transact Payments Limited",HK,USD,"支持 (App 确认)",5,"支持",active,"低风险 (Low)"
 536467,"PokePay Mastercard Virtual","PokePay",Mastercard,Prepaid,"Moorwand / Epay Services",HK,USD,"支持 (短信/邮箱验证码)",4,"支持",active,"中低风险 (Low-Med)"
 556150,"PokePay Mastercard Pro","PokePay",Mastercard,Prepaid,"Unicard Financial / Moorwand",HK,USD,"支持 (3DS 动态认证)",4,"支持",active,"中低风险 (Low-Med)"
 489683,"BingX Card Visa","BingX",Visa,Debit,"Rain Liquidity Inc.",US,USD,"支持 (App 内推送确认)",5,"支持",active,"低风险 (Low)"
-485997,"Plasma One / ether.fi Cash Visa","Plasma One",Visa,Debit,"Rain Liquidity Inc.",PR,USD,"支持 (App 实时推送)",5,"支持",active,"低风险 (Low)"
+485997,"Plasma One Visa","Plasma One",Visa,Debit,"Rain Liquidity Inc.",PR,USD,"支持 (App 实时推送)",5,"支持",active,"低风险 (Low)"
 406594,"Bitrefill Card Visa","Bitrefill",Visa,Prepaid,"Transact Payments Malta Limited",MT,EUR,"支持 (Bitrefill App 验证)",4,"条件支持",active,"低风险 (Low)"
 493193,"Crypto.com Visa Card","Crypto.com",Visa,Debit,"Metropolitan Commercial Bank",US,USD,"支持 (手机银行 OTP)",5,"支持",active,"极低风险 (Very Low)"
 540524,"Nexo Card Dual Mode Mastercard","Nexo",Mastercard,Debit / Credit,"DiPocket Limited",LT,EUR,"支持 (App 双向确认)",5,"支持",active,"低风险 (Low)"

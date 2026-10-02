@@ -12785,6 +12785,134 @@
       },
       "url": "https://ucard.observer/cards/bitrefill-card/",
       "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-02",
+      "modified": "2026-10-02",
+      "verified": "2026-10-02",
+      "id": "anodos-card",
+      "name": "Anodos Card",
+      "aliases": "Anodos Labs Neobank Visa Credit",
+      "mark": "A",
+      "group": "独立支付账户",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "申请 Anodos Card 与其提供的虚拟银行账户必须完成全套标准的身份核验 (KYC)，受其合作发卡机构及相关司法管辖区反洗钱法规约束。",
+      "intro": "Anodos Labs 推出的一款结合虚拟账户的免息信用消费卡（Anodos Neobank 旗下），面向合规国家用户。基础款免月费，通过会员阶梯提供更低的外币转换费与 ATM 费。",
+      "model": "0% APR 免息消费账单还款，法币/加密出金消费，依赖持牌银行提供资金托管与清算",
+      "network": "Visa",
+      "region": "按官方可用国家名单（Country Availability）开放；中国大陆（Mainland China）、俄罗斯等禁运与高风险地区在明确的不可发行名单中。",
+      "fee": "基础免年费（Freemium），高级版月费 $9.99/$29.99；非美元国际消费收 1.50% (基础) / 1.25% (Pro) / 1.00% (Elite) FX 费。ATM 取款 $1 + 1.75% 且有月度限额；逾期有 2% 滞纳金。",
+      "rewards": "官方并未强调直接消费返现，核心权益体现在开通更高级会员（Pro/Elite）所享受的更低外汇损耗与更高额度的 ATM 取款免税限额。",
+      "paymentCompatibility": {
+        "sourceName": "Anodos Card",
+        "network": "Visa",
+        "issuer": "合作持牌发卡机构 (Partner Issuer)",
+        "region": "根据管辖权",
+        "researchDate": "2026-10-02",
+        "applePay": {
+          "status": "unknown",
+          "detail": "条款未明确说明是否支持 Apple Pay，需实测。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "条款未明确说明是否支持 Google Pay，需实测。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "官方费率表显示非美金交易有 FX，默认支持国际线上法币消费与订阅。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Anodos Card：官方产品介绍与 Neobank 概述",
+          "url": "https://docs.anodos.finance/products/anodos-neobank"
+        },
+        {
+          "title": "Anodos Card：官方可用国家与受限地区名单",
+          "url": "https://docs.anodos.finance/legal/country-availability-and-restrictions"
+        },
+        {
+          "title": "Anodos Card：用户费率表 (Customer Fees Schedule)",
+          "url": "https://docs.anodos.finance/legal/customer-fees-schedule"
+        },
+        {
+          "title": "Anodos Card：美国消费者计划信用卡条款",
+          "url": "https://docs.anodos.finance/legal/anodos-card-terms-for-u.s.-consumer-program"
+        }
+      ],
+      "facts": [
+        [
+          "产品性质与信用机制",
+          "条款明确这是 0% APR（免息）的信用卡计划；账单周期结束后 21 天内需还款，逾期将产生当前未结余额 2% 的滞纳金。",
+          [
+            3
+          ]
+        ],
+        [
+          "会员与国际交易费 (FX)",
+          "虚拟卡基础免年费；非美元（国际）交易收取 1.50% 的外汇费，升级 Pro 或 Elite 月费会员后可将此项降至 1.25% 或 1.00%。",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "提现与资金账户",
+          "提供关联的虚拟银行账户支持 SEPA 等网络入金出金；基础虚拟账户免费，额外申请收 $20。基础账户的 ATM 每月限额 $5,000。",
+          [
+            2
+          ]
+        ],
+        [
+          "中国大陆等受限地区",
+          "官方发布了一份详尽的禁止发行名单，明确中国大陆（Mainland China）、古巴、俄罗斯、伊朗等国家居民不可申请该卡。",
+          [
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "零息信用卡属性意味着什么",
+          "虽然名为消费卡，Anodos 实际上在发卡行端是以“免息信用卡”来包装这套预付费/出金方案的；若到期未还款会导致 2% 滞纳金，这和很多借记卡直接拒付的逻辑不同。",
+          [
+            0
+          ]
+        ],
+        [
+          "隐藏的兑换与跨境成本",
+          "非美元消费无论哪个等级都会被收取至少 1.00% 的国际交易费（基础版为 1.5%），在做跨境订阅时需把这一隐性汇损加入成本核算。",
+          [
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Anodos Card 支持中国大陆身份注册吗？",
+          "不支持。官方《可用国家与受限地区》名单中明确将“中国大陆（Mainland China）”列为不可申请发卡的地区。"
+        ],
+        [
+          "Anodos Card 的交易费是多少？",
+          "基础款（Freemium）免年费，但所有非美元消费需缴纳 1.50% 的外汇（FX）转换手续费。"
+        ],
+        [
+          "Anodos Card 提供多少返现？",
+          "目前官方产品说明和费率表中并未直接宣传消费返现；高级会员的核心福利是降低手续费费率与提升使用限额。"
+        ],
+        [
+          "Anodos Card 是信用卡吗？",
+          "是的，Anodos 在其美国消费者计划条款中明确称其为“信用卡 (Credit Card)”，虽然标榜 0% 免息，但逾期未结清账单会产生 2% 滞纳金。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://docs.anodos.finance/products/anodos-neobank"
+      },
+      "url": "https://ucard.observer/cards/anodos-card/",
+      "statusLabel": "地区受限 · 资格需核实"
     }
   ]
 }

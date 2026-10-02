@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 102,
-    "current": 96,
-    "kycRequired": 81,
+    "total": 103,
+    "current": 97,
+    "kycRequired": 82,
     "kycConditional": 2,
     "kycUnknown": 13,
     "noKycVerified": 0,
     "closed": 6,
-    "officialSources": 363
+    "officialSources": 367
   },
   "rows": [
     {
@@ -1135,6 +1135,17 @@
       "sourceCount": 3,
       "verified": "2026-10-02",
       "profileUrl": "https://ucard.observer/cards/bitrefill-card/"
+    },
+    {
+      "id": "anodos-card",
+      "name": "Anodos Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 4,
+      "verified": "2026-10-02",
+      "profileUrl": "https://ucard.observer/cards/anodos-card/"
     }
   ]
 }
