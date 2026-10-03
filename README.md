@@ -2,14 +2,14 @@
 
 [![Official Website](https://img.shields.io/badge/Live_Site-ucard.observer-008080?style=for-the-badge&logo=safari&logoColor=white)](https://ucard.observer)
 [![Cards Tracked](https://img.shields.io/badge/Cards_Tracked-103_Brands-blue?style=for-the-badge)](https://ucard.observer/cards/)
-[![Last Verified](https://img.shields.io/badge/Verified-2026--10--02-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
+[![Last Verified](https://img.shields.io/badge/Verified-2026--10--03-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
 [![License](https://img.shields.io/badge/License-MIT_%2F_CC--BY--4.0-orange?style=for-the-badge)](LICENSE)
 [![Data Formats](https://img.shields.io/badge/Data_Formats-JSON_%7C_CSV-blueviolet?style=for-the-badge)](#open-datasets)
 
 > **Curated, source-backed directory and dataset of 103+ crypto debit/prepaid cards (Visa/Mastercard) and stablecoin payment solutions.**  
 > Tracking KYC requirements, fee breakdowns, cashback conditions, Apple Pay / Google Pay support, and overseas AI subscription (ChatGPT / Claude) compatibility.
 
-Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-02**.
+Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-03**.
 
 ---
 
