@@ -1633,6 +1633,24 @@
           "note": "明确免息消费结构与逾期 2% 滞纳金罚息规则。"
         }
       ]
+    },
+    {
+      "id": "solcard",
+      "name": "SolCard",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa",
+      "model": "通过 Solana 钱包充值 SOL / USDC / USDT，刷卡时自动兑换为法定货币清算",
+      "verified": "2026-10-03",
+      "changelogs": [
+        {
+          "date": "2026-10-03",
+          "type": "compliance",
+          "tag": "资料收录",
+          "title": "收录 Solana 生态双轨预付卡",
+          "note": "完成 SolCard 官方资费与条款核验：确立免 KYC 虚拟卡（5% 充值费、$5,000 月额度）与需 KYC 白金卡（0% 充值费、支持 Apple/Google Pay）双层机制，排除香港等受限地区。"
+        }
+      ]
     }
   ]
 }

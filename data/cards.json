@@ -12913,6 +12913,144 @@
       },
       "url": "https://ucard.observer/cards/anodos-card/",
       "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-03",
+      "modified": "2026-10-03",
+      "verified": "2026-10-03",
+      "id": "solcard",
+      "name": "SolCard",
+      "aliases": "SolCard Solana crypto card Visa virtual prepaid SOL USDC USDT",
+      "mark": "S",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "conditional",
+      "kycNote": "SolCard 分为两档：虚拟卡（Virtual Tier）免 KYC 即可开通（限额 $5,000/月，充值费 5%）；白金卡（Platinum Tier）需完成合规身份核验（KYC）以解锁更高额度、Apple Pay / Google Pay 与 0% 充值费。",
+      "intro": "基于 Solana 生态的加密货币预付卡，支持使用 SOL、USDC 与 USDT 等链上资产即时充值。提供免 KYC 的基础虚拟卡（限额 $5,000/月）与需 KYC 的白金卡。",
+      "model": "通过 Solana 钱包充值 SOL / USDC / USDT，刷卡时自动兑换为法定货币清算",
+      "network": "Visa",
+      "region": "支持全球多数地区在线申请与消费；官方条款明确不支持中国香港（Hong Kong）及受国际制裁国家和地区。",
+      "fee": "开卡工本费约 $10；无月费与年费。虚拟卡充值费为 5%，FX 外汇费约 1%~2%；白金卡（需 KYC）充值费 0%，FX 费 0%~1.5%。",
+      "rewards": "官方未设固定常规消费返现，以免 KYC 快速开卡及白金等级 0 充值费为主要产品特色。",
+      "paymentCompatibility": {
+        "sourceName": "SolCard",
+        "network": "Visa",
+        "issuer": "合作持牌发卡机构 (Partner Issuer)",
+        "region": "全球多数地区（排除香港等受限司法辖区）",
+        "researchDate": "2026-10-03",
+        "applePay": {
+          "status": "official",
+          "detail": "白金卡（Platinum Tier）官方明确支持绑定 Apple Pay。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "白金卡（Platinum Tier）官方明确支持绑定 Google Pay。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持线上商户与海外 AI 订阅（ChatGPT / Claude）扣款；外币消费按 FX 费率结算。"
+        }
+      },
+      "sources": [
+        {
+          "title": "SolCard：官方网站与产品特性（2026-10-03 核对）",
+          "url": "https://solcard.cc"
+        },
+        {
+          "title": "SolCard：服务条款与受限地区说明（2026-10-03 核对）",
+          "url": "https://solcard.cc/terms"
+        },
+        {
+          "title": "SolCard：卡片等级、充值费率与 KYC 条件",
+          "url": "https://solcard.cc/faq"
+        }
+      ],
+      "facts": [
+        [
+          "双层 KYC 机制与限额",
+          "虚拟卡无需身份验证（免 KYC）即可在约 30 秒内开通，单月消费限额 $5,000；白金卡需完成 KYC 验证，提供更高额度及手机钱包支持。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "充值费与外汇差价 (FX)",
+          "虚拟卡充值费为 5%，交易 FX 外币转换费约 1%~2%；白金卡享 0% 充值费及 0%~1.5% FX 优惠。无月费或年费。",
+          [
+            2
+          ]
+        ],
+        [
+          "资产与链上充值支持",
+          "支持通过 Solana 去中心化钱包直接转账 SOL、USDC 或 USDT 充值入金，充值确认后转换为卡内美元额度。",
+          [
+            0
+          ]
+        ],
+        [
+          "地区限制与香港排除项",
+          "官方条款明确说明不支持在某些司法管辖区使用，包括中国香港（Hong Kong）及国际制裁名单国家。",
+          [
+            1
+          ]
+        ],
+        [
+          "Apple Pay 与 Google Pay 兼容性",
+          "免 KYC 基础虚拟卡受限于风控无法直接绑定 Apple Pay；需完成 KYC 的白金卡才正式支持添加至 Apple Pay 与 Google Pay。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "免 KYC 虚拟卡与白金卡双轨模式",
+          "SolCard 采用分层结构：初级用户可用钱包直接充值获得单月 $5,000 限额的匿名虚拟卡，但需承担 5% 充值费且不支持手机钱包；若需要绑定 Apple Pay 线下刷卡或免除充值手续费，必须完成完整 KYC 认证升级白金卡。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "Solana 链上即时充值机制",
+          "通过 Solana 高性能网络实现秒级到账，避免了以太坊主网高昂的 Gas 费；但注意预付卡非银行存款账户，不享受政府存款保险（FDIC）。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "SolCard 免 KYC 吗？",
+          "虚拟卡（Virtual Tier）免 KYC，使用邮箱与钱包即可开通；白金卡（Platinum Tier）需要完成合规身份核验（KYC）。"
+        ],
+        [
+          "SolCard 支持 Apple Pay 和 Google Pay 吗？",
+          "基础虚拟卡不支持；需要通过 KYC 认证的白金卡才官方支持添加至 Apple Pay 与 Google Pay。"
+        ],
+        [
+          "SolCard 充值手续费是多少？",
+          "免 KYC 虚拟卡充值收取 5% 手续费；白金卡充值费为 0%。开卡费约 $10。"
+        ],
+        [
+          "SolCard 可以在中国大陆或香港申请使用吗？",
+          "官方条款明确将中国香港（Hong Kong）列入受限制地区；全球其他地区用户可依据官方最新支持名单核对。"
+        ],
+        [
+          "SolCard 支持哪些充值币种？",
+          "支持 Solana 网络上的 SOL、USDC 与 USDT 直接链上充值。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://solcard.cc"
+      },
+      "url": "https://ucard.observer/cards/solcard/",
+      "statusLabel": "地区受限 · 资格需核实"
     }
   ]
 }

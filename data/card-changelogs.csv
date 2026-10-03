@@ -1,4 +1,5 @@
 ﻿"cardId","cardName","date","type","tag","title","note"
+"solcard","SolCard","2026-10-03","compliance","资料收录","收录 Solana 生态双轨预付卡","完成 SolCard 官方资费与条款核验：确立免 KYC 虚拟卡（5% 充值费、$5,000 月额度）与需 KYC 白金卡（0% 充值费、支持 Apple/Google Pay）双层机制，排除香港等受限地区。"
 "ether-fi","ether.fi Cash","2026-10-02","feature","号段透视","透视 454924 虚拟信用卡号段","经 BIN 机构透视确认底层由 Banco Popular de Puerto Rico / Rain 提供清算，为正规 Visa Credit 属性。"
 "bitmart-card","BitMart Card","2026-09-28","incident","清退推进","确认停服与资金风险","BitMart 官方公告停止充值与现货交易，底层 BaaS 机构 PayrNet 暴雷注销，卡片全面进入死卡状态。"
 "anodos-card","Anodos Card","2026-09-26","compliance","名单公布","发布可用国家与受限制地区名单","明确将中国大陆（Mainland China）、俄罗斯等列入不可发卡黑名单。"

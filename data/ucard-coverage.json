@@ -1,17 +1,17 @@
 {
   "title": "U卡观察资料库覆盖快照",
-  "snapshotDate": "2026-10-02",
+  "snapshotDate": "2026-10-03",
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 103,
-    "current": 97,
+    "total": 104,
+    "current": 98,
     "kycRequired": 82,
-    "kycConditional": 2,
+    "kycConditional": 3,
     "kycUnknown": 13,
     "noKycVerified": 0,
     "closed": 6,
-    "officialSources": 367
+    "officialSources": 370
   },
   "rows": [
     {
@@ -1146,6 +1146,17 @@
       "sourceCount": 4,
       "verified": "2026-10-02",
       "profileUrl": "https://ucard.observer/cards/anodos-card/"
+    },
+    {
+      "id": "solcard",
+      "name": "SolCard",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-03",
+      "profileUrl": "https://ucard.observer/cards/solcard/"
     }
   ]
 }

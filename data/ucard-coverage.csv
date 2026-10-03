@@ -102,3 +102,4 @@
 "bingx-card","BingX Card","conditional","视发卡方要求核验","regional","地区受限 · 资格需核实","5","2026-10-02","https://ucard.observer/cards/bingx-card/"
 "bitrefill-card","Bitrefill Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-02","https://ucard.observer/cards/bitrefill-card/"
 "anodos-card","Anodos Card","required","需要 KYC","regional","地区受限 · 资格需核实","4","2026-10-02","https://ucard.observer/cards/anodos-card/"
+"solcard","SolCard","conditional","视发卡方要求核验","regional","地区受限 · 资格需核实","3","2026-10-03","https://ucard.observer/cards/solcard/"
