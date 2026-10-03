@@ -463,7 +463,22 @@
       "network": "按获批卡计划核对",
       "model": "钱包关联卡计划",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-06-01",
+          "type": "reward",
+          "tag": "返现阶梯",
+          "title": "重构月度分段返现与质押等级机制",
+          "note": "明确消费返现根据月度消费区间分档累进计算，最高 6% 返现仅适用于特定超额阶梯。"
+        },
+        {
+          "date": "2026-03-20",
+          "type": "feature",
+          "tag": "多链聚合",
+          "title": "接入以太坊与 Solana 资产聚合消费",
+          "note": "支持在钱包内跨链聚合代币流动性，刷卡即时完成 DEX 兑换与清算扣款。"
+        }
+      ]
     },
     {
       "id": "bitget-wallet",
@@ -590,7 +605,22 @@
       "network": "Visa；由 Wirex 提供卡片基础设施",
       "model": "USDC 充值的数字 Visa 卡",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-31",
+          "type": "feature",
+          "tag": "上线发卡",
+          "title": "基于 Base 链上线原生 USDC 数字 Visa 卡",
+          "note": "联合 Bridge 与 Stripe 发行，支持从 Base 网络存入原生 USDC 为美元卡充值，支持 Apple Pay 与订阅代扣。"
+        },
+        {
+          "date": "2026-08-31",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "确立 0 开卡费与 0 月费基础结构",
+          "note": "首张虚拟卡免工本费，无固定月费，跨币种交易按 Visa 批发汇率自动折算。"
+        }
+      ]
     },
     {
       "id": "cashi",
@@ -628,7 +658,22 @@
       "network": "Visa；Gnosis Pay 为项目管理方，Monavate 相关实体发卡",
       "model": "自托管稳定币钱包余额",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-06-20",
+          "type": "feature",
+          "tag": "公测发卡",
+          "title": "Opera 联合合作方推出 MiniPay 数字借记卡",
+          "note": "连接 Celo 链上 cUSD 与 Tether 稳定币余额，覆盖非洲、拉美及部分东南亚移动支付场景。"
+        },
+        {
+          "date": "2026-06-20",
+          "type": "fee",
+          "tag": "账户维护",
+          "title": "推行零激活费与零月费政策",
+          "note": "卡片激活与日常持有免平台固定费用，非 USD 消费遵从 Visa 国际汇率与网络清算加点。"
+        }
+      ]
     },
     {
       "id": "okx-card",
@@ -728,7 +773,22 @@
       "network": "Visa；由 Rain Liquidity 提供卡计划",
       "model": "USDC / AVAX 支持的 Rain Visa 卡账户",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-15",
+          "type": "feature",
+          "tag": "生态发卡",
+          "title": "Avalanche 基金会联合 Rain 推出生态 Visa 卡",
+          "note": "持卡人可使用 AVAX、WAVAX、USDC、USDT 消费，面向拉丁美洲及加勒比海等合格合规地区开放。"
+        },
+        {
+          "date": "2026-07-15",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "基础款 0 年费与 1% FX 转换费",
+          "note": "基础卡免年费，外币转换收取 1% FX 手续费；国际卡协议设最高 3% 跨境浮动条款。"
+        }
+      ]
     },
     {
       "id": "tangem-pay",
@@ -1188,7 +1248,22 @@
       "network": "Visa；Solayer Pay 产品计划",
       "model": "连接自托管钱包 / 稳定币余额，依产品版本授权消费",
       "verified": "2026-10-02",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-02",
+          "type": "feature",
+          "tag": "品牌更名",
+          "title": "Solayer Emerald 升级为 Solayer Pay",
+          "note": "整合 Solana 生态 sUSD 与 USDC 资产，支持通过 Apple Pay 与 Google Pay 闪付消费。"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "compliance",
+          "tag": "准入核查",
+          "title": "调整地区准入白名单与 KYC 规则",
+          "note": "更新线上合规指引，排除受制裁与未合规司法管辖区，以 App 内实时活体认证为准。"
+        }
+      ]
     },
     {
       "id": "pokepay-card",
@@ -1198,7 +1273,29 @@
       "network": "Visa；具体发卡安排以个人卡协议为准",
       "model": "PokePay 账户余额充值后使用 Visa 卡",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-29",
+          "type": "compliance",
+          "tag": "合规核验",
+          "title": "更新全球可用地区与身份审核",
+          "note": "官方明确支持部分非受限国家护照与合规 KYC，限制中国大陆等高风险管辖区直接开卡。"
+        },
+        {
+          "date": "2026-08-15",
+          "type": "feature",
+          "tag": "钱包集成",
+          "title": "支持 Apple Pay 与 Google Pay 闪付绑定",
+          "note": "虚拟 Visa 卡支持一键推送至 Apple Wallet 与 Google Pay 进行非接触 POS 刷卡。"
+        },
+        {
+          "date": "2026-05-10",
+          "type": "fee",
+          "tag": "费率调整",
+          "title": "优化充值手续费并实行 0 月费",
+          "note": "维持 0 月费策略；明确 USDT/USDC 链上充值折算与发卡机构基础交易扣款结构。"
+        }
+      ]
     },
     {
       "id": "biyapay-easycard",
@@ -1258,7 +1355,22 @@
       "network": "卡组织与发卡实体须以获邀后的地区协议确认",
       "model": "个人会员账户中的稳定币 / 法币转换后支付",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-10",
+          "type": "feature",
+          "tag": "多链自托管",
+          "title": "支持 Base 与 Arbitrum 链上直刷",
+          "note": "结合个人专属 IBAN 账户与 Web3 钱包，链上资产无需提前充值，刷卡时智能合约按需扣款。"
+        },
+        {
+          "date": "2026-05-15",
+          "type": "compliance",
+          "tag": "会员准入",
+          "title": "推行白名单邀请制与欧洲合规 KYC",
+          "note": "目前向受邀会员开放申请，严格遵循欧盟 5AMLD 反洗钱指令与身份地址验证。"
+        }
+      ]
     },
     {
       "id": "karta-card",
@@ -1600,7 +1712,22 @@
       "network": "Mastercard；由欧洲持牌电子货币机构（EMI）合作发行",
       "model": "非托管加密资产（BTC / 闪电网络 / USDT / USDC）入金转为欧元预付借记卡消费",
       "verified": "2026-10-02",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-02",
+          "type": "feature",
+          "tag": "新卡上线",
+          "title": "面向欧洲经济区推出非托管欧元万事达卡",
+          "note": "支持通过链上 BTC、闪电网络、USDT、USDC 零时差兑换为欧元预付卡消费，无月费年费。"
+        },
+        {
+          "date": "2026-10-02",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "确立欧元 0 手续费与 1.5% 跨境外汇转换费",
+          "note": "欧元本土消费免交易手续费，非欧元外币消费收取 1.5% FX 手续费，免开卡费与账户闲置费。"
+        }
+      ]
     },
     {
       "id": "anodos-card",
