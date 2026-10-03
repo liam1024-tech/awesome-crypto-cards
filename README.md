@@ -24,6 +24,17 @@ Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data upda
 
 ---
 
+## 📚 High-Impact Practical Playbooks & Guides
+
+- 🤖 **[ChatGPT Plus & Gemini Advanced AI Subscription Guide](https://ucard.observer/articles/chatgpt-gemini-ai-subscription-crypto-card-guide/)** — Direct payment guide covering Stripe 3DS challenges, zero-tax US billing states, and Google Pay pass-through.
+- 🛍️ **[Amazon & Temu Global E-Commerce Guide](https://ucard.observer/articles/amazon-temu-cross-border-shopping-crypto-card-guide/)** — Minimizing FX conversion spreads, defeating dynamic currency conversion (DCC), and dispute resolution.
+- ✈️ **[Digital Nomad Airbnb & Flight Booking Playbook](https://ucard.observer/articles/digital-nomad-airbnb-flights-crypto-card-guide/)** — Buffer management for 30-day hotel pre-authorization holds, ATM cash access, and multi-region roaming.
+- 🎵 **[Discord Nitro, Spotify & Netflix Entertainment Guide](https://ucard.observer/articles/discord-spotify-netflix-crypto-card-subscription-guide/)** — Overcoming regional billing restrictions, recurring subscription cycles, and card-freezing safety.
+- ⚽ **[FIFA World Cup 2026 Cashless Stadium Travel Guide](https://ucard.observer/articles/fifa-world-cup-2026-travel-crypto-card-guide/)** — Conquering 100% cashless venues across the US, Canada, and Mexico with low-fee stablecoin cards.
+- 📱 **[Apple Pay In-Store Electronics & Apple Store Guide](https://ucard.observer/articles/apple-pay-crypto-card-buy-electronics-guide/)** — Offline NFC contactless tap-to-pay, single-transaction limits, and legally funding gadget purchases without OTC bank freezes.
+
+---
+
 ## 📊 Summary Overview (Representative Cards)
 
 | Card Brand | Network | Funding & Custody Model | KYC Requirement | Base Fees (Issuance / FX) | Cashback Rewards | Apple / Google Pay | AI Subscriptions (GPT / Claude) |
