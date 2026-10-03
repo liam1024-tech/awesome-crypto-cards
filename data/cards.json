@@ -1139,9 +1139,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.bybit.com/en/help-center/article/How-to-Apply-for-Bybit-Card"
+        "status": "official",
+        "path": "/card-art/bybit.webp",
+        "file": "bybit.webp",
+        "imageUrl": "https://www.bybit.com/bycsi-root/common-static/fiat-static/cards/landing_next/kv.png",
+        "sourcePage": "https://www.bybit.com/en/help-center/article/How-to-Apply-for-Bybit-Card",
+        "version": "Bybit Card 官方主视觉",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bybit/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -1703,7 +1707,8 @@
         "status": "official",
         "path": "/card-art/kast.webp",
         "file": "kast.webp",
-        "imageUrl": "https://www.kast.xyz/_next/static/media/kast-standard-card.3a8z3w398wjbl.webp",
+        "sourceFile": "kast.png",
+        "imageUrl": "",
         "sourcePage": "https://www.kast.xyz/",
         "version": "Standard",
         "mode": "contain"
@@ -2557,9 +2562,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://send.it/blogs/send-cards-are-now-available"
+        "status": "official",
+        "path": "/card-art/send-card.webp",
+        "file": "send-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/6911f643c58fecb049f12b3f/6a904034f6a91023d3282816_card-nav.png",
+        "sourcePage": "https://send.it/blogs/send-cards-are-now-available",
+        "version": "Send Card 官方数字卡",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/send-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -5343,9 +5352,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.chippercash.com/chipper-card"
+        "status": "official",
+        "path": "/card-art/chipper-card.webp",
+        "file": "chipper-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/63c81b0c3ad929013f062d70/63cfd27ba43e8f81597c369f_chipper-debit-cards.png",
+        "sourcePage": "https://www.chippercash.com/chipper-card",
+        "version": "Chipper Card 官方借记卡",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/chipper-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -5641,9 +5654,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://fluyez.com/tarjeta-cripto-fluyez/"
+        "status": "official",
+        "path": "/card-art/fluyez-card.webp",
+        "file": "fluyez-card.webp",
+        "imageUrl": "https://fluyez.com/wp-content/uploads/2025/07/tarjeta-virtual.webp",
+        "sourcePage": "https://fluyez.com/tarjeta-cripto-fluyez/",
+        "version": "Fluyez Visa 官方虚拟卡",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/fluyez-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -6791,9 +6808,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.kucoin.com/en-au/support/47497300093939"
+        "status": "official",
+        "path": "/card-art/kucard.webp",
+        "file": "kucard.webp",
+        "imageUrl": "https://assets.staticimg.com/kucard-web-kudos/2.2.18/ssr/_next/static/media/firstScene_eea.0406a158818c3765.jpg",
+        "sourcePage": "https://www.kucoin.com/en-au/support/47497300093939",
+        "version": "KuCard 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/kucard/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -6995,9 +7016,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://1inch.com/card"
+        "status": "official",
+        "path": "/card-art/oneinch-card.webp",
+        "file": "oneinch-card.webp",
+        "imageUrl": "https://1inch.com/assets/1inch-Card-cover.png",
+        "sourcePage": "https://1inch.com/card",
+        "version": "1inch Card 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/oneinch-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -8234,9 +8259,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.safepal.com/en/bank"
+        "status": "official",
+        "path": "/card-art/safepal-fiat24-card.webp",
+        "file": "safepal-fiat24-card.webp",
+        "imageUrl": "https://www.safepal.com/assets/img/bank/hero-card.svg",
+        "sourcePage": "https://www.safepal.com/en/bank",
+        "version": "SafePal Fiat24 官方万事达卡",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/safepal-fiat24-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -8702,9 +8731,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.gate.com/card"
+        "status": "official",
+        "path": "/card-art/gate-card-global.webp",
+        "file": "gate-card-global.webp",
+        "imageUrl": "https://gimg2.staticimgs.com/gatecard/activity/AISUB/webbannercard_20260831_181444_9448415544ce4e77585db49c1e43a188.webp?w=750",
+        "sourcePage": "https://www.gate.com/card",
+        "version": "Gate Card 官方虚拟卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/gate-card-global/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -8917,9 +8950,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://pokepay.com/"
+        "status": "official",
+        "path": "/card-art/pokepay-card.webp",
+        "file": "pokepay-card.webp",
+        "imageUrl": "https://pokepay.cc/images/card-1.png",
+        "sourcePage": "https://pokepay.com/",
+        "version": "PokePay Visa 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/pokepay-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -9676,9 +9713,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://karta.io/"
+        "status": "official",
+        "path": "/card-art/karta-card.webp",
+        "file": "karta-card.webp",
+        "imageUrl": "https://karta.io/images/kard-hero.webp",
+        "sourcePage": "https://karta.io/",
+        "version": "Karta Visa 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/karta-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -10123,9 +10164,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.solflare.com/crypto-card/"
+        "status": "official",
+        "path": "/card-art/solflare-card.webp",
+        "file": "solflare-card.webp",
+        "imageUrl": "https://www.solflare.com/wp-content/uploads/bf-advanced-images/12612/cards-hero-700x0.webp",
+        "sourcePage": "https://www.solflare.com/crypto-card/",
+        "version": "Solflare Card 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/solflare-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -11111,9 +11156,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://fizen.io/card"
+        "status": "official",
+        "path": "/card-art/fizen-card.webp",
+        "file": "fizen-card.webp",
+        "imageUrl": "https://fizen.io/images_webp/card/card_1.webp",
+        "sourcePage": "https://fizen.io/card",
+        "version": "Fizen 虚拟卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/fizen-card/",
       "statusLabel": "版本待核"
@@ -11726,9 +11775,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://busha.io/blog/stablecoin-backed-virtual-usd-cards-are-now-live-on-busha"
+        "status": "official",
+        "path": "/card-art/busha-card.webp",
+        "file": "busha-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/6914fad55fbc5d567a62e234/6a8ee6055f6aae518c4ce1fa_Cards.png",
+        "sourcePage": "https://busha.io/blog/stablecoin-backed-virtual-usd-cards-are-now-live-on-busha",
+        "version": "Busha Card 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/busha-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -12271,9 +12324,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.youhodler.com/crypto-card"
+        "status": "official",
+        "path": "/card-art/youhodler-crypto-card.webp",
+        "file": "youhodler-crypto-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/660a94378d5efa3a1040a72d/660a94378d5efa3a1040a989_illustration_card.webp",
+        "sourcePage": "https://www.youhodler.com/crypto-card",
+        "version": "YouHodler 官方卡面预订插图",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/youhodler-crypto-card/",
       "statusLabel": "版本待核"
@@ -12779,9 +12836,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.bitrefill.com/cards/"
+        "status": "official",
+        "path": "/card-art/bitrefill-card.webp",
+        "file": "bitrefill-card.webp",
+        "imageUrl": "https://cdn.bitrefill.com/content/cn/h_536,w_750/v23/bitrefill-card/landing/v2/hero.webp",
+        "sourcePage": "https://www.bitrefill.com/cards/",
+        "version": "Bitrefill 欧元卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bitrefill-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -13045,9 +13106,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://solcard.cc"
+        "status": "official",
+        "path": "/card-art/solcard.webp",
+        "file": "solcard.webp",
+        "imageUrl": "https://www.solcard.cc/assets/og.jpg",
+        "sourcePage": "https://solcard.cc",
+        "version": "SolCard 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/solcard/",
       "statusLabel": "地区受限 · 资格需核实"
