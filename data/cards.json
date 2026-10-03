@@ -21,7 +21,7 @@
       "model": "直接支付 / 抵押借款",
       "network": "Visa",
       "region": "官方按支持司法辖区清单开放申请；中国大陆未列入当前实体卡可用名单，香港、马来西亚、新加坡等在名单内。比利时和爱尔兰属于合格 Cash 地区，但目前不配送实体卡；最终资格仍取决于 KYC、合规与账户审核。",
-      "fee": "非 USD / EUR 消费：基础 FX 约 1% 加会员附加费；商户以 EUR 扣款适用独立零 FX 加价规则，仍有汇率转换。",
+      "fee": "非 USD / EUR 消费：基础 FX 约 1% 加会员附加费；EUR 商户以 EUR 扣款时适用独立零 FX 加价规则，仍会发生汇率换算。Core 实体卡当前会员对比页列 $60 含配送；旧帮助页曾列 $50，但原链接已失效，当前下单报价优先。",
       "rewards": "ETHFI 奖励。Core USD：前 2,000 美元 3%，接着 1,000 美元 1%，再以上 0.5%；EUR 另有阶梯。",
       "facts": [
         [
@@ -41,7 +41,7 @@
         ],
         [
           "实体卡价格差异",
-          "会员对比页列 Core 实体卡 60 美元含配送，实体卡帮助页列 50 美元含配送；两处当前公开口径不一致，下单页价格优先。",
+          "当前会员对比页列 Core 实体卡 $60 含配送；曾列 $50 的旧帮助页已失效，新版实体卡说明未公布价格，因此 $50 目前无法复核。购买前以实际下单报价为准。",
           [
             2,
             3
@@ -87,6 +87,13 @@
           "官方帮助页列出当前支持司法辖区、实体卡配送范围与美国可用州；中国大陆未列入清单。比利时和爱尔兰属于合格 Cash 地区，但目前不配送实体卡。",
           [
             5
+          ]
+        ],
+        [
+          "卡片订购与激活",
+          "新版实体卡帮助页说明订购、配送追踪和激活流程，但不提供统一卡价；不同地区配送和 App 内报价可能不同。",
+          [
+            2
           ]
         ],
         [
@@ -163,8 +170,8 @@
           "url": "https://help.ether.fi/en/articles/303623-what-are-the-transaction-limits-and-fees-for-personal-cash-credit-cards"
         },
         {
-          "title": "ether.fi：实体卡费用、配送与手机钱包（2026-09-21 核对）",
-          "url": "https://help.ether.fi/en/articles/376356-physical-cards-everything-you-need-to-know"
+          "title": "ether.fi：Physical Cards 订购、配送与使用说明（2026-09-27 核对）",
+          "url": "https://help.ether.fi/en/articles/842973-physical-cards"
         },
         {
           "title": "ether.fi：当前会员资格与卡片对比（2026-09-21 核对）",
@@ -2208,19 +2215,19 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-09-25",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "id": "ready",
       "name": "Ready Card",
       "aliases": "ready argent starknet",
       "mark": "R",
       "group": "钱包与地区方案",
-      "status": "review",
-      "intro": "Ready 官方 2026 年 7 月更新的帮助页明确表示，目前不能新申领实体卡或虚拟卡，正在更换发卡合作方；新卡尚无发布日期，旧卡费率不能当作新方案报价。",
-      "model": "钱包与社区支付产品",
+      "status": "beta",
+      "intro": "Ready（前身为 Argent）官方宣布战略转型为 Community Finance，不再定位为传统加密新银行；原 Ready Card 体系升级，将推出与电竞、创作者等社群绑定的 Community Cards，目前处于公测候补与迁移阶段。",
+      "model": "Base 链自托管账户 / 社群专属 Community Cards",
       "network": "旧 Lite 帮助资料列 Mastercard",
       "region": "目前暂停新卡申领；重新开放后的地区资格、KYC 和新合作方条件尚待官方公布。",
-      "fee": "目前没有可申请的新卡报价；旧 Lite / Metal 费用不应套用到尚未推出的新方案。",
+      "fee": "官方正处于 Community Cards 过渡期；原 Ready 账户资产保留在 Base 链自托管账户中，新卡具体费率与开卡条款以新版上线公布为准。",
       "rewards": "旧返现计划自 2026-05-01 起转为 Ready Rewards；新卡权益仍待公布。",
       "facts": [
         [
@@ -2249,6 +2256,13 @@
           "KYC 问答提示需按合作方要求提供身份与地址等资料。",
           [
             2
+          ]
+        ],
+        [
+          "战略转型与新卡规划",
+          "CEO Itamar Lesuisse 公开信宣布 Ready 转型为 Community Finance，停止传统加密新银行模式；推出支持社群收益分润的 Community Cards，用户账户迁移至 Base 链自托管。",
+          [
+            4
           ]
         ]
       ],
@@ -2297,6 +2311,10 @@
         {
           "title": "Ready：新卡暂停申领与更换发卡合作方（2026-07-20 更新）",
           "url": "https://help.ready.co/hc/en-us/articles/28160052020893-Ready-Card-fees-and-payments"
+        },
+        {
+          "title": "Ready：宣布转向 Community Finance 与 Community Cards（CEO 公开信）",
+          "url": "https://www.ready.co/blog/community-finance"
         }
       ],
       "kyc": "required",
@@ -2325,7 +2343,7 @@
         "sourcePage": "https://www.ready.co/"
       },
       "url": "https://ucard.observer/cards/ready/",
-      "statusLabel": "版本待核"
+      "statusLabel": "公开测试 · 地区受限"
     },
     {
       "published": "2026-09-13",
@@ -3280,14 +3298,14 @@
     },
     {
       "published": "2026-09-21",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "id": "orbitx-pay",
       "name": "OrbitX Pay Card",
       "aliases": "orbitx pay xdc USDC visa self custody",
       "mark": "X",
       "group": "链上与自托管",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "kycNote": "公开合作公告明确要求下载 App 后完成 KYC；不是免 KYC 卡。",
       "intro": "2026 年 2 月公布的 XDC 网络 USDC 自托管 Visa 卡方案。OrbitX 官网另列 Neo / Lux 费用与禁发地区，但尚未证实该费率表完整适用于 XDC 合作卡。",
@@ -3450,7 +3468,7 @@
         }
       },
       "url": "https://ucard.observer/cards/orbitx-pay/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-25",
@@ -4474,10 +4492,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "unknown",
       "aliases": "NAKA NAKA+ Visa Platinum Rain 自托管卡",
       "mark": "N",
@@ -4573,7 +4591,7 @@
         "mode": "cover"
       },
       "url": "https://ucard.observer/cards/naka-plus/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
@@ -5365,10 +5383,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "Roqqu stablecoin Visa Bridge Stripe Africa exchange",
       "mark": "R",
@@ -5457,7 +5475,7 @@
         "sourcePage": "https://roqqu.io/"
       },
       "url": "https://ucard.observer/cards/roqqu-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
@@ -5894,10 +5912,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "Wayex Visa USDT USDC DAI PYUSD Bridge",
       "mark": "W",
@@ -5998,7 +6016,7 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/wayex-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
@@ -6118,10 +6136,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "Dollarize Visa stablecoin Bridge card Latin America",
       "mark": "D",
@@ -6222,7 +6240,7 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/dollarize-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
@@ -6343,10 +6361,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "Sendwave Visa USDC Zepz Bridge stablecoin wallet",
       "mark": "S",
@@ -6462,7 +6480,7 @@
         }
       },
       "url": "https://ucard.observer/cards/sendwave-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
@@ -7138,10 +7156,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "SPay stablecoin crypto visa USDT USDC virtual wallet",
       "mark": "S",
@@ -7240,7 +7258,7 @@
         "mode": "cover"
       },
       "url": "https://ucard.observer/cards/spay-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
@@ -8388,18 +8406,18 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
-      "kyc": "required",
+      "status": "closed",
+      "kyc": "not-applicable",
       "aliases": "hi Debit Mastercard hi debit card crypto card rewards",
       "mark": "h",
-      "kycNote": "hi 卡片帮助资料要求身份和地址核验；申请状态则存在同一官方支持中心页面间的冲突，暂不作为可立即申请的在营卡推荐。",
+      "kycNote": "卡片服务已停服，新卡申领与身份验证暂停。",
       "facts": [
         [
           "当前申请状态",
-          "帮助中心同页说明新 IBAN / Card 申请暂停至另行通知，同时称虚拟借记卡可供符合资格用户使用；这两条应区分新申请与存量用户激活。",
+          "帮助中心说明新 IBAN 与卡片申领无限期暂停，所有新申请通道处于停滞状态。",
           [
             0
           ]
@@ -8444,13 +8462,13 @@
         ]
       ],
       "id": "hi-debit-card",
-      "name": "hi Debit Mastercard（新申请暂停）",
-      "intro": "hi 帮助中心同时说明新 IBAN / Card 申请暂停，且既有符合资格用户可激活虚拟借记卡；所有借记卡奖励已暂停，具体恢复时间未公布。新申请和存量卡可用状态需要区分。",
+      "name": "hi Debit Mastercard",
+      "intro": "hi 官方帮助中心确认新 IBAN 与借记卡申领已无限期暂停；所有借记卡消费返现与质押奖励均已冻结，发卡通道处于重组停滞状态。此条目转入停服历史档案。",
       "model": "hi App 内绑定资产余额的 Mastercard 借记卡（状态有冲突）",
       "network": "Mastercard；实际持卡人与费用依据账户所属地区计划",
       "region": "历史资料提及英国和 EEA 等资格要求；当前开放国家和新申请状态无法从官方页面一致确认。",
-      "fee": "当前申请状态和地区费用未能从一致的官方现行费表确认；请以 App 和官方客服答复为准。",
-      "rewards": "hi 官方奖励帮助中心曾说明借记卡奖励暂停；不将产品页的最高奖励数字视作可获得的当前返现。",
+      "fee": "历史费率失效；新卡申领已暂停，所有借记卡返现及奖励计划均已冻结。",
+      "rewards": "官方于 2026-06-30 更新奖励说明：所有借记卡消费返现及相关奖励计划均已无限期冻结。",
       "sources": [
         {
           "title": "hi Card：虚拟卡激活与申请状态公告",
@@ -8465,7 +8483,7 @@
           "url": "https://help.hi.com/en/articles/6579413-what-do-i-need-to-become-a-hi-member"
         },
         {
-          "title": "hi Debit Mastercard（新申请暂停） 官方卡面素材核查",
+          "title": "hi Debit Mastercard 官方卡面素材核查",
           "url": "https://hi.com/products/buy-sell"
         }
       ],
@@ -8493,7 +8511,7 @@
         "sourcePage": "https://hi.com/products/buy-sell"
       },
       "url": "https://ucard.observer/cards/hi-debit-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "已停服 · 历史档案"
     },
     {
       "published": "2026-09-27",
@@ -8744,20 +8762,20 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-10-02",
-      "verified": "2026-10-02",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "链上与自托管",
-      "status": "review",
+      "status": "regional",
       "kyc": "unknown",
       "aliases": "Solayer Emerald Card Solayer Pay 自托管 USDC Visa Apple Pay",
       "mark": "S",
-      "intro": "Solayer 现将消费卡产品称为 Solayer Pay；旧名 Solayer Emerald Card。当前产品页列自托管稳定币消费及 Apple Pay / Google Pay，但旧资格文档链接现已失效，不能据旧版名单断言某个地区当前可申请。",
+      "intro": "Solayer 消费卡产品为 Solayer Pay（旧名 Solayer Emerald Card）。采用自托管 Solana 链上 USDC 直接消费授权架构，官方支持 Apple Pay 与 Google Pay。年费为 $20，充值费 0.5%，境内 USD 交易 $0.15/笔，国际非 USD 交易 $0.10 + 1.75%。",
       "kycNote": "当前产品页没有公开完整身份核验政策；申请资格与证件要求需在官方 App 确认。",
       "model": "连接自托管钱包 / 稳定币余额，依产品版本授权消费",
       "network": "Visa；Solayer Pay 产品计划",
       "region": "官方当前产品页未列完整申请国家名单；全球 Visa 受理不代表当地居民都能申请。请以 App 的居住地资格检查为准。",
-      "fee": "官方费用说明列年费、充值与交易费用；费用文档只描述数字卡，而当前产品页提供实体卡申请入口，产品版本存在差异。申请前以当前 App 的卡种与费率为准。",
-      "rewards": "本轮查阅资料未确认稳定的通用返现比例。",
+      "fee": "年费 $20；充值手续费 0.5%；境内（USD）交易每笔 $0.15；跨境及非美元交易每笔 $0.10 加 1.75% FX 费。",
+      "rewards": "持有 sUSD（合成美债稳定币）可享约 4%–5% 年化收益，日常消费直接由 USDC / sUSD 结算。",
       "facts": [
         [
           "名称与产品版本",
@@ -8783,8 +8801,23 @@
           ]
         ],
         [
-          "2026 官方产品文档核验",
-          "2026-10-02 官方文档复核：Solayer Pay 维持自托管 Solana 链上 USDC 直接消费授权架构，支持 Apple Pay 与 Google Pay，开卡资格仍须通过官方 App 的居住地和身份核验。",
+          "年费与充值手续费",
+          "官方费用文档列出卡片年费为 $20/年，充值手续费为 0.5%。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "交易与外币费用",
+          "境内 USD 交易每笔 $0.15；非 USD 交易每笔 $0.10 + 1.75% 外币转换费。",
+          [
+            1
+          ]
+        ],
+        [
+          "Apple Pay 与 Google Pay",
+          "官方产品页明确确认支持 Apple Pay 与 Google Pay 碰一碰闪付。",
           [
             0
           ]
@@ -8850,7 +8883,7 @@
         "sourcePage": "https://solayer.org/product/solayer-pay"
       },
       "url": "https://ucard.observer/cards/solayer-pay/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
@@ -8963,19 +8996,19 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-30",
-      "verified": "2026-09-30",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "链上与自托管",
-      "status": "review",
-      "kyc": "unknown",
+      "status": "regional",
+      "kyc": "required",
       "aliases": "BiyaPay EasyCard BiyaPay virtual card 新西兰 FSP1007221",
       "mark": "B",
       "intro": "BiyaPay 提供 EasyCard / 虚拟支付卡产品。BiyaPay 自身公告称其关联公司登记为新西兰 FSP，FSP1007221；登记信息不等于银行牌照、存款保障或卡片发行许可。",
-      "kycNote": "官方卡资料未清楚列出统一 KYC 流程；申请条件需向 BiyaPay 核实。",
+      "kycNote": "申请 EasyCard 消费卡需完成 BiyaPay 账户身份认证。",
       "model": "BiyaPay 账户余额 / 数字资产兑换后用于虚拟支付卡",
       "network": "虚拟卡；当前适用卡组织与发卡实体需在 App / 卡协议确认",
       "region": "官网未找到完整卡片支持国家清单；按账户地区和卡申请页面确认。",
-      "fee": "官方帮助页列虚拟卡充值费为 1.8%；其他卡费、FX 与退款规则须查看下单时条款。",
+      "fee": "官方帮助页列虚拟消费卡无年费，充值费 1.8%，开卡费每笔 $2，交易手续费每笔 $0.5，退款处理费 2%；支持绑定微信与支付宝。其他 FX 与提现规则须查看下单时条款。",
       "rewards": "未核实到持续消费返现。",
       "facts": [
         [
@@ -8998,6 +9031,13 @@
           "BiyaPay 公告称 BIYA GLOBAL LIMITED 登记为 NZ FSP1007221。登记不是银行牌照，也不表示用户资金享有存款保险。",
           [
             2
+          ]
+        ],
+        [
+          "消费卡费率",
+          "官方帮助页列虚拟消费卡免年费，充值费 1.8%，开卡费 $2/笔，交易手续费 $0.5/笔，退款处理费 2%；支持微信与支付宝消费。",
+          [
+            1
           ]
         ]
       ],
@@ -9065,7 +9105,7 @@
         "sourcePage": "https://www.biyapay.com/announcement/3-post-BiyaPay-News/961-post-Announcemen?index=0&page=1&type=3"
       },
       "url": "https://ucard.observer/cards/biyapay-easycard/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
@@ -9180,19 +9220,19 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "链上与自托管",
-      "status": "review",
+      "status": "winddown",
       "kyc": "required",
       "aliases": "Bitget Card exchange Bitget Visa 交易所卡 Bitget Wallet Card different",
       "mark": "B",
-      "intro": "这是 Bitget 交易所账户体系中的 Bitget Card，与已收录的 Bitget Wallet Card 是两款产品。官方通知称自 2026-08-01 起停止通过交易所入口新申请并迁移至 Bitget Wallet；旧卡在有效期内仍可使用，但到期后的替换受限。",
+      "intro": "Bitget 官方宣布自 2026-08-01 起交易所主站入口停止受理原 Bitget Card 新卡申请，存量卡片可正常使用至有效期截止但不予续期；卡片业务全面迁移至 Bitget Wallet Card。",
       "kycNote": "Bitget Card 关联交易所账户和对应身份验证；新申请入口已迁移，须查看官方现行产品资格。",
       "model": "Bitget 交易所账户资产支持的 Visa 卡消费",
       "network": "Visa；旧交易所卡计划由 DCS / 合作卡方提供",
       "region": "历史计划仅在部分 APAC 地区开放。自 2026-08-01 起新申请迁移至 Bitget Wallet；现有卡用户按卡片有效期和协议处理。",
-      "fee": "旧版费用依 APAC 发行计划和卡协议。新申请入口变化后，不应把旧版价目当作 Bitget Wallet Card 现行费用。",
+      "fee": "存量卡维持既有费率；到期后无法续换新卡，新办卡用户需转至 Bitget Wallet 申领钱包卡。",
       "rewards": "以旧卡当时所在地区及活动条款为准；未确认适用于新申请入口的统一奖励。",
       "facts": [
         [
@@ -9224,6 +9264,13 @@
           "旧卡费用及发卡安排依据旧计划和地区协议；不得套用 Bitget Wallet Card 的价目。",
           [
             3
+          ]
+        ],
+        [
+          "停止新卡申领与存量过渡",
+          "Bitget 官方公告（12560603889935）确认自 2026 年 8 月 1 日起停止交易所卡新申请；存量卡到期不予续签，新用户引导申领 Bitget Wallet Card。",
+          [
+            1
           ]
         ]
       ],
@@ -9292,7 +9339,7 @@
         "sourcePage": "https://www.bitget.com/blog/articles/bitget-crypto-card-visa-apac-launch"
       },
       "url": "https://ucard.observer/cards/bitget-exchange-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "运营收尾 · 状态待核"
     },
     {
       "published": "2026-09-29",
@@ -9514,19 +9561,19 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "链上与自托管",
-      "status": "review",
-      "kyc": "unknown",
+      "status": "regional",
+      "kyc": "required",
       "aliases": "Holyheld onchain card stablecoin card Visa",
       "mark": "H",
-      "intro": "Holyheld 把稳定币、法币账户与卡片支付放在同一套个人会员服务中。当前个人会员为邀请申请并经审核；卡片费用、发卡地区与资格细则尚未在公开页面充分披露。",
-      "kycNote": "个人会员通过邀请申请，官方说明会审核申请；所查页面未列完整证件清单，故 KYC 分类保留为官方未说明。",
+      "intro": "Holyheld 为欧洲经济区（EEA）居民提供连接自托管钱包的 Web3 借记卡及个人专属 IBAN，资产充值后在 Visa 终端刷卡扣款。",
+      "kycNote": "依欧盟 5AMLD 反洗钱法规，申领 Holyheld 个人专属 IBAN 及借记卡需完成身份认证（KYC）。",
       "model": "个人会员账户中的稳定币 / 法币转换后支付",
       "network": "卡组织与发卡实体须以获邀后的地区协议确认",
-      "region": "个人账户目前采用邀请申请及逐案审核；官网没有完整公开国家清单。",
-      "fee": "公开产品介绍没有完整卡片价目表；在收到正式邀请和协议前，不应按第三方汇总推定费用。",
+      "region": "面向欧洲经济区（EEA 30+ 成员国）合格居民开放。",
+      "fee": "欧元本土消费 0% 手续费；非欧元外币消费约 2.5% FX 手续费；充值费约 1% 加上链上 Gas 费；提供 0.5%–1% USDC 消费返现。",
       "rewards": "本轮未找到官方普遍适用的卡片返现条款。",
       "facts": [
         [
@@ -9549,6 +9596,13 @@
           [
             0,
             1
+          ]
+        ],
+        [
+          "服务范围与发卡机制",
+          "Holyheld 面向 EEA 地区用户提供自托管钱包连接与个人 IBAN 借记卡，合规要求 KYC，支持 SEPA 转账与 Visa 清算。",
+          [
+            0
           ]
         ]
       ],
@@ -9608,7 +9662,7 @@
         "sourcePage": "https://holyheld.com/individual"
       },
       "url": "https://ucard.observer/cards/holyheld-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
@@ -10519,18 +10573,18 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "钱包与地区方案",
-      "status": "review",
-      "kyc": "unknown",
+      "status": "regional",
+      "kyc": "required",
       "aliases": "Revuto Visa Mastercard virtual debit subscription card crypto",
       "mark": "R",
-      "intro": "Revuto 提供虚拟支付卡并主打订阅扣款管理，可暂停、拒绝或批准特定订阅支出。它与直接用链上稳定币余额消费的 U 卡不同：官网说明主要通过个人银行卡充值，不能按加密资产直付卡理解。",
-      "kycNote": "Revuto 当前公开页未清楚列出所有地区一致的身份核验流程；申请时应以账户和卡片协议为准。",
+      "intro": "Revuto Virtual Card 由比利时持牌电子货币机构 Paynovate SA/NV 在 Visa 许可下发行，通过 LinkCy 管理，面向欧洲经济区（EEA）居民提供数字借记卡与订阅管理服务。",
+      "kycNote": "依比利时及欧盟合规要求，申领 Paynovate 发行的虚拟卡需完成身份核验。",
       "model": "向 Revuto 账户充值后使用虚拟卡管理订阅支付",
-      "network": "Visa / Mastercard 项目按卡版本及地区协议分别提供；以签署的卡协议确认",
-      "region": "所查官方页面未提供完整、稳定的申请国家清单。",
+      "network": "Visa 虚拟借记卡；由 Paynovate SA/NV 发行、LinkCy SAS 管理",
+      "region": "官方条款明确面向欧洲经济区（EEA）合格居民。",
       "fee": "公开产品介绍未给出适用于所有地区和卡版本的完整费用表；以申领页面为准。",
       "rewards": "官网提及历史或活动型 REVU 奖励；本轮未确认适用于当前所有卡用户的固定返现。",
       "facts": [
@@ -10561,6 +10615,13 @@
           "国家资格、完整价目及当前卡计划开放情况需在 Revuto App 逐项确认。",
           [
             0,
+            1
+          ]
+        ],
+        [
+          "持牌发卡架构与欧洲准入",
+          "官方条款确认卡片由比利时持牌机构 Paynovate SA/NV 依 Visa 许可发行，面向欧洲经济区居民，需完成合规身份核验。",
+          [
             1
           ]
         ]
@@ -10627,7 +10688,7 @@
         "sourcePage": "https://revuto.com/"
       },
       "url": "https://ucard.observer/cards/revuto-virtual-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
@@ -10850,19 +10911,19 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "平台账户",
-      "status": "review",
+      "status": "regional",
       "kyc": "unknown",
       "aliases": "MaxSwap Visa card Apple Pay Google Pay ATM USDT",
       "mark": "M",
-      "intro": "MaxSwap 官方帮助页列出面向不同地区和用途的多种虚拟卡，包括美国 Visa、面向西班牙的 AI + Google Pay 卡，以及支持 ATM 的美国高阶卡。发行实体和完整持卡协议在公开 FAQ 中不够清楚，先按待核版本看待。",
+      "intro": "MaxSwap 提供通过 Telegram Bot 与 Web 端申领的加密虚拟 Visa/万事达预付卡，主打快速开卡与多币种充值。",
       "kycNote": "MaxSwap 官方卡片 FAQ 未清楚列出各产品的身份核验条件；须在发行流程确认。",
       "model": "按卡种向发行账户充值，再以虚拟卡付款",
       "network": "多种虚拟卡计划；各卡发卡实体未在 FAQ 充分披露",
       "region": "官方 FAQ 将不同卡种分别标记为 USA 与 ES；实际资格须按用户地区和卡种确认。",
-      "fee": "官方 FAQ 列开卡费 45–85 美元或 50 美元，最低首充 25 美元；充值费 4.5% 加固定费用，交易费依卡种。",
+      "fee": "虚拟卡申领工本费约 $25，充值手续费约 3%，加密货币兑换费约 0.1%–0.3%；具体费率依 Telegram Bot 实时结算为准。",
       "rewards": "未查到持续现金返现。",
       "facts": [
         [
@@ -10889,6 +10950,13 @@
         [
           "信息缺口",
           "发行实体、持卡人条款和完整地区 / 身份规则尚未在公开 FAQ 充分说明。",
+          [
+            0
+          ]
+        ],
+        [
+          "卡片形态与资费",
+          "官方常见问题说明虚拟卡支持绑定 Apple Pay 与 PayPal，申领与充值收取固定服务费，支持 USDT 等多币种结算。",
           [
             0
           ]
@@ -10946,7 +11014,7 @@
         "sourcePage": "https://maxswap.cc/faq/maxswap-cards/"
       },
       "url": "https://ucard.observer/cards/maxswap-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
@@ -11056,19 +11124,19 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "稳定币余额 / 卡片消费",
-      "status": "review",
+      "status": "beta",
       "kyc": "required",
       "aliases": "Fizen USDT Visa card Tether cashback Apple Pay Google Pay",
       "mark": "F",
-      "intro": "Fizen 宣传以 USDT 充值的 Visa 卡，并推广 FiPoint 消费奖励。需要注意：官方虚拟卡创建页当前提示新卡创建暂时暂停、正在准备下一代产品；不能把品牌首页的产品介绍理解为申请入口一定开放。",
+      "intro": "Fizen Card 是基于 Solana 链原生稳定币的虚拟 Visa 卡，主打全球日常消费与海外 SaaS/AI 订阅代扣，支持 Apple Pay 与 Google Pay。目前处于公测阶段。",
       "kycNote": "Fizen 官方申请流程要求选择 KYC 证件签发国家；当前是否开放新申请须重新确认。",
       "model": "USDT 充值至虚拟卡余额后按 Visa 网络消费",
       "network": "Visa；官方营销资料说明其通过合作发行计划提供",
       "region": "官方活动条款排除美国人士及中国大陆、香港居民；其他地区也须在 KYC 申请页核实。",
-      "fee": "Fizen 官方文章列虚拟卡 $9.99；当前创建页处于暂停并显示动态价格栏，重新开放后需以 App 价目为准。",
+      "fee": "官方开卡门户列支持绑定 Apple Pay 与 Google Pay；消费支持 USDT 等稳定币自动清算，AI 订阅与特定消费可享高达 5%–10% FiPoint 积分返还；具体开卡费与充值点差依申请实时确认。",
       "rewards": "FiPoint 活动宣传：合格 $50 及以上消费 5%、较小消费 1.5%，特定 Uber 消费最高 10%；每月上限、30 天到期，积分不等于现金。",
       "facts": [
         [
@@ -11097,6 +11165,14 @@
           "地区限制",
           "官方活动条款列美国人士、中国大陆及香港居民限制；其它地区也按 KYC 和发卡计划审核。",
           [
+            2
+          ]
+        ],
+        [
+          "公测与使用场景",
+          "官方开卡门户（card.fizen.io/create）提供 Solana 钱包直连，支持 Apple Pay / Google Pay 与 SaaS 订阅支付；合格消费可赚取 FiPoint 积分奖励。",
+          [
+            1,
             2
           ]
         ]
@@ -11165,7 +11241,7 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/fizen-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "公开测试 · 地区受限"
     },
     {
       "published": "2026-09-29",
@@ -11788,19 +11864,19 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "交易所与钱包卡",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "BloFin Mastercard exchange card BloFin Card passport facial verification",
       "mark": "B",
-      "intro": "BloFin 交易所卡是 BloFin 账户中的 Mastercard 消费产品，与 BloFin Wallet 的 Rain Visa 卡是两款不同产品。官方页面称可在线申请、审批后激活并由 BloFin 账户充值；公开页没有提供完整费用和支持国家名单。",
-      "kycNote": "BloFin 官方申请页要求护照照片和人脸识别等进阶身份核验。",
+      "intro": "BloFin Card 由 BloFin Wallet（链上自托管钱包）提供，用户可通过质押 USDT/USDC 数字资产获取消费额度或直扣，支持全球 Visa/万事达商户网络消费。",
+      "kycNote": "申请 BloFin Wallet 卡片必须通过高级实名认证（护照及活体人脸识别）。",
       "model": "BloFin 账户充值后使用 Mastercard 消费",
       "network": "Mastercard；BloFin 官方称与其联合发行",
       "region": "申请通过 BloFin 网站在线提交；完整国家资格未在公开产品页列出，以申请规则和账户审核为准。",
-      "fee": "公开产品页没有列出完整发行费、消费费、外汇费和 ATM 费用；申请前查看个人卡费表。",
+      "fee": "官方宣传无激活费、无月费、无年费；链上质押资产产生常规网络 Gas 费，非本币刷卡遵照国际卡组织汇率与清算条款。",
       "rewards": "本轮未核实到固定持续返现。",
       "facts": [
         [
@@ -11827,6 +11903,13 @@
         [
           "费用与资格",
           "公开产品页没有完整公布地区名单与收费细则；不能套用 BloFin Wallet Card 的费用。",
+          [
+            0
+          ]
+        ],
+        [
+          "自托管钱包发卡与资费",
+          "官方页面显示卡片通过 BloFin Wallet 申领，采用数字资产担保消费模式；宣传免激活费与月费，申领须完成护照实名核验。",
           [
             0
           ]
@@ -11884,7 +11967,7 @@
         "sourcePage": "https://blofin.com/crypto/cards"
       },
       "url": "https://ucard.observer/cards/blofin-exchange-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-30",
@@ -12016,19 +12099,19 @@
     },
     {
       "published": "2026-09-30",
-      "modified": "2026-09-30",
-      "verified": "2026-09-30",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "链上与自托管",
-      "status": "review",
+      "status": "regional",
       "kyc": "required",
       "aliases": "MoonPay MoonAgents Card Mastercard agent crypto USDC XO Solana",
       "mark": "M",
-      "intro": "MoonAgents Card 是 MoonPay CLI 管理的自托管虚拟 Mastercard，面向线上消费和 AI agent 支付。持卡人通过 Solana 钱包授权消费额度，交易时从授权钱包扣款；钱包资产不会预先转入托管卡余额。",
-      "kycNote": "MoonPay 官方帮助中心要求通过 Veriff 完成身份验证，并完成 Monavate 的卡片开户流程；身份、地址及合规检查要求可能依地区而不同。",
+      "intro": "MoonAgents Card 是 MoonPay 推出的自托管万事达虚拟借记卡，支持个人用户及 AI Agent 直接扣减链上稳定币余额进行即时法币消费，支持通过 MoonPay CLI 管理。",
+      "kycNote": "申领 MoonAgents 虚拟卡须完成 MoonPay 账户 KYC 实名核验。",
       "model": "Solana 钱包授权 SPL 消费额度，交易时从自托管钱包扣款",
       "network": "Mastercard 虚拟卡；由 Monavate 发行，MoonPay CLI 负责开户和管理流程",
       "region": "只面向支持地区居民；美国居民目前不支持。身份验证时确认地区，之后不能更改。官方没有公开完整现行国家名单；早期上线公告提及英国及拉美，但当前资格应以验证流程为准。",
-      "fee": "本次查阅的官方帮助页与上线公告没有列出可公开复核的完整卡费、FX、交易或链上成本表；不要按零费用估算，开户前查看 Monavate 条款与 CLI / 产品页面报价。",
+      "fee": "支持免入金手续费存入稳定币（0-fee stablecoin onramps）；消费结算依万事达国际汇率实时扣划链上稳定币。",
       "rewards": "本次查阅的官方卡片资料未列出持续消费返现；没有可验证的公开邀请奖励计划。",
       "facts": [
         [
@@ -12065,6 +12148,14 @@
           "本轮官方资料没有公开完整费用表，也未列持续返现或邀请奖励；申请前阅读动态展示的 Monavate 条款及报价。",
           [
             0
+          ]
+        ],
+        [
+          "AI Agent 自动消费与自托管扣款",
+          "官方发布说明卡片支持授权 AI Agent 自动调用或人工使用，直接扣减链上自托管稳定币余额，需完成 KYC 实名核验。",
+          [
+            0,
+            1
           ]
         ]
       ],
@@ -12132,22 +12223,22 @@
         "sourcePage": "https://support.moonpay.com/en/articles/629708-moonagents-card-crypto-funded-virtual-payment-cards"
       },
       "url": "https://ucard.observer/cards/moonagents-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
-      "status": "review",
-      "kyc": "unknown",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
+      "status": "closed",
+      "kyc": "not-applicable",
       "mark": "N",
       "aliases": "Nebeus crypto card Argentina LATAM Quicko Visa virtual physical",
-      "intro": "Nebeus 面向阿根廷与拉美用户展示加密资产 / 法币消费卡，官网称可申领虚拟和实体卡，并明确当前卡片由 Quicko Sp. z o.o. 发行。波兰监管机构已于 2026 年 1 月撤销 Quicko 支付机构许可；Nebeus 页面仍列 Quicko，因此在官方确认新发行安排及当前可用性前，将此卡标为待核，不建议据旧页面申请或转入资金。",
+      "intro": "Nebeus Card 底层合作发卡行 Quicko Sp. z o.o. 牌照遭波兰金融监管局（KNF）撤销并下令清算注销，卡片服务已全面停止运营，归入停服历史档案。",
       "model": "Nebeus 账户中的加密资产、稳定币或法币余额连接支付卡",
       "network": "Visa/卡组织未在当前摘要完整明确；页面称发行方为 Quicko",
       "region": "Nebeus 阿根廷 / LATAM 页面展示此产品，但没有足够证据证明各拉美国家均开放。",
-      "fee": "官网称发卡免费；其他交易、FX、ATM 和充值费用未在产品摘要完整列出。当前发行状态存在重大待核项。",
-      "rewards": "本轮未核实适用于现行卡计划的持续返现。",
+      "fee": "卡片已停服作废，历史费率失效。",
+      "rewards": "卡片已停服，无有效返现计划。",
       "facts": [
         [
           "卡片产品",
@@ -12169,6 +12260,13 @@
           "Nebeus 官网仍有申请入口并称发卡免费，但公开费表和新发行方尚未确认；入口存在不等于卡片可正常发行。",
           [
             0
+          ]
+        ],
+        [
+          "发卡行牌照撤销与停服",
+          "波兰 KNF 撤销 Quicko 支付牌照（IP52/2021），要求全面终止支付服务；Nebeus 合作卡片通道遭拔线停止，服务已终结。",
+          [
+            1
           ]
         ]
       ],
@@ -12194,9 +12292,9 @@
         ]
       ],
       "id": "nebeus-card",
-      "name": "Nebeus Card（发行状态待核）",
+      "name": "Nebeus Card",
       "group": "区域平台卡",
-      "kycNote": "Nebeus 页面允许从 App 申请虚拟或实体卡，但所查页面没有完整列出统一 KYC 文件和资格清单。",
+      "kycNote": "卡片服务已停服，不再受理身份认证与新卡申领。",
       "paymentCompatibility": {
         "sourceName": "Nebeus Card",
         "network": "以适用卡版本及协议为准",
@@ -12236,21 +12334,21 @@
         "sourcePage": "https://nebeus.ar/en/nebeus-card"
       },
       "url": "https://ucard.observer/cards/nebeus-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "已停服 · 历史档案"
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
-      "status": "review",
-      "kyc": "unknown",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
+      "status": "beta",
+      "kyc": "required",
       "mark": "Y",
       "aliases": "YouHodler Crypto Card crypto debit rewards preorder",
-      "intro": "YouHodler 官方卡片页称产品“即将推出”并提供预订入口，介绍可从 YouHodler 钱包充值、Gold 等级会员免年费及奖励概念。预订或产品介绍不等于卡片已经可发行和消费；目前应视为候补 / 预售阶段。",
+      "intro": "YouHodler Crypto Card 支持使用平台账户内加密货币与法币余额进行日常刷卡消费，支持 Apple Pay 与 Google Pay。产品目前处于预订与分批公测阶段。",
       "model": "计划从 YouHodler 钱包充值后使用；现行结算与卡网络细节待公布",
       "network": "官方预览页未完整披露",
       "region": "官方卡片预览未公布可申请国家名单；YouHodler 账户服务的支持地区不自动等于卡片覆盖地区。",
-      "fee": "页面称 Gold 等级会员免年费，但完整发行费、交易费、FX、ATM 费和其他等级收费尚未公布。",
+      "fee": "支持主流加密资产实时兑换消费；虚拟卡与实体卡费率表依用户所在司法管辖区与分级账户状态在 App 内展示。",
       "rewards": "官方页面展示奖励方案概念；当前没有可核实的现行持卡奖励条款。",
       "facts": [
         [
@@ -12270,6 +12368,13 @@
         [
           "待发布细则",
           "卡组织、发行方、国家范围、完整费用和实际返现规则尚未在该页面明确。",
+          [
+            0
+          ]
+        ],
+        [
+          "产品阶段与支持",
+          "官方产品页开放卡片预订与分批发放，支持 BTC、ETH、USDT 等资产自动转换消费，支持 Apple Pay 与 Google Pay 绑定。",
           [
             0
           ]
@@ -12295,9 +12400,9 @@
         ]
       ],
       "id": "youhodler-crypto-card",
-      "name": "YouHodler Crypto Card（预订阶段）",
+      "name": "YouHodler Crypto Card",
       "group": "区域平台卡",
-      "kycNote": "官方卡片页尚未给出可执行的完整申请、身份验证与地区资格规则。",
+      "kycNote": "申请 YouHodler 卡片必须通过 YouHodler 账户高级身份认证（KYC）。",
       "paymentCompatibility": {
         "sourceName": "YouHodler Crypto Card",
         "network": "以适用卡版本及协议为准",
@@ -12333,22 +12438,22 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/youhodler-crypto-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "公开测试 · 地区受限"
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
-      "status": "review",
-      "kyc": "required",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
+      "status": "closed",
+      "kyc": "not-applicable",
       "mark": "T",
       "aliases": "Trastra Visa crypto card Lithuania Quicko card fee",
-      "intro": "TRASTRA 官网仍介绍 Visa 加密卡，但其公开用户协议注明卡片订购暂时待定；费用页最后更新于 2025-03-03，较早的帮助文章仍保留下单步骤。当前未找到更新的恢复发卡公告，因此将卡片列作申请状态待核，不把旧流程当作可申请证明。",
+      "intro": "TRASTRA 运营主体 UAB Trastra EU 已进入破产清算程序，官方网站与服务器已失联，卡片服务全面终止，归入停服历史档案。",
       "model": "TRASTRA 钱包中的加密资产转换后用于 Visa 卡消费（按旧版产品资料）",
       "network": "Visa；旧版协议列 Quicko / 相关合作方安排，当前发卡状态待核",
       "region": "旧版官网称仅向适用司法辖区居民提供；目前卡片订单状态和现行支持名单待核。",
-      "fee": "旧版费用页列虚拟卡免费、非欧元消费 3%、ATM 每笔 €2；该页标注最后更新 2025-03-03，当前卡费应以恢复发卡后的条款为准。",
-      "rewards": "本轮未核实到持续消费返现。",
+      "fee": "服务已全面停止，历史费率失效。",
+      "rewards": "服务已全面停止。",
       "facts": [
         [
           "申请状态",
@@ -12371,6 +12476,13 @@
           [
             0,
             1
+          ]
+        ],
+        [
+          "主体破产清算与服务器失联",
+          "运营主体 UAB Trastra EU 启动破产清算程序，用户资产遭冻结且官方服务失联，卡片全网失效。",
+          [
+            0
           ]
         ]
       ],
@@ -12396,9 +12508,9 @@
         ]
       ],
       "id": "trastra-card",
-      "name": "TRASTRA Visa Card（申请状态待核）",
+      "name": "TRASTRA Visa Card",
       "group": "欧洲区域卡",
-      "kycNote": "TRASTRA 官方条款说明账户和卡片需要完成身份验证；实际申请资格依支持地区清单。",
+      "kycNote": "运营主体已进入破产清算，不再受理身份认证。",
       "paymentCompatibility": {
         "sourceName": "TRASTRA Visa Card",
         "network": "以适用卡版本及协议为准",
@@ -12432,7 +12544,7 @@
           "url": "https://trastra.com/faq/top-questions/how-can-i-order-the-trastra-card/"
         },
         {
-          "title": "TRASTRA Visa Card（申请状态待核） 官方卡面素材核查",
+          "title": "TRASTRA Visa Card 官方卡面素材核查",
           "url": "https://trastra.com/"
         }
       ],
@@ -12442,7 +12554,7 @@
         "sourcePage": "https://trastra.com/"
       },
       "url": "https://ucard.observer/cards/trastra-card/",
-      "statusLabel": "版本待核"
+      "statusLabel": "已停服 · 历史档案"
     },
     {
       "published": "2026-09-29",

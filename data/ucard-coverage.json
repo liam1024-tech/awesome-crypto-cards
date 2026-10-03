@@ -5,13 +5,13 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
     "total": 104,
-    "current": 98,
-    "kycRequired": 82,
+    "current": 95,
+    "kycRequired": 84,
     "kycConditional": 3,
-    "kycUnknown": 13,
+    "kycUnknown": 8,
     "noKycVerified": 0,
-    "closed": 6,
-    "officialSources": 370
+    "closed": 9,
+    "officialSources": 371
   },
   "rows": [
     {
@@ -173,10 +173,10 @@
       "name": "Ready Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
-      "sourceCount": 4,
-      "verified": "2026-09-27",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 5,
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/ready/"
     },
     {
@@ -250,10 +250,10 @@
       "name": "OrbitX Pay Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/orbitx-pay/"
     },
     {
@@ -327,10 +327,10 @@
       "name": "NAKA+ Visa Platinum",
       "kyc": "unknown",
       "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/naka-plus/"
     },
     {
@@ -415,10 +415,10 @@
       "name": "Roqqu Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/roqqu-card/"
     },
     {
@@ -470,10 +470,10 @@
       "name": "Wayex Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/wayex-card/"
     },
     {
@@ -492,10 +492,10 @@
       "name": "Dollarize Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/dollarize-card/"
     },
     {
@@ -514,10 +514,10 @@
       "name": "Sendwave Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/sendwave-card/"
     },
     {
@@ -591,10 +591,10 @@
       "name": "SPay Visa Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/spay-card/"
     },
     {
@@ -698,13 +698,13 @@
     },
     {
       "id": "hi-debit-card",
-      "name": "hi Debit Mastercard（新申请暂停）",
-      "kyc": "required",
-      "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "name": "hi Debit Mastercard",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/hi-debit-card/"
     },
     {
@@ -734,10 +734,10 @@
       "name": "Solayer Pay（Solayer Emerald）",
       "kyc": "unknown",
       "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-10-02",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/solayer-pay/"
     },
     {
@@ -754,12 +754,12 @@
     {
       "id": "biyapay-easycard",
       "name": "BiyaPay EasyCard",
-      "kyc": "unknown",
-      "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-30",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/biyapay-easycard/"
     },
     {
@@ -778,10 +778,10 @@
       "name": "Bitget Card（交易所卡）",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "winddown",
+      "statusLabel": "运营收尾 · 状态待核",
       "sourceCount": 4,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/bitget-exchange-card/"
     },
     {
@@ -809,12 +809,12 @@
     {
       "id": "holyheld-card",
       "name": "Holyheld Card",
-      "kyc": "unknown",
-      "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/holyheld-card/"
     },
     {
@@ -908,12 +908,12 @@
     {
       "id": "revuto-virtual-card",
       "name": "Revuto Virtual Card",
-      "kyc": "unknown",
-      "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/revuto-virtual-card/"
     },
     {
@@ -943,10 +943,10 @@
       "name": "MaxSwap Card",
       "kyc": "unknown",
       "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 1,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/maxswap-card/"
     },
     {
@@ -965,10 +965,10 @@
       "name": "Fizen Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 3,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/fizen-card/"
     },
     {
@@ -1042,10 +1042,10 @@
       "name": "BloFin Card（交易所卡）",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 1,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/blofin-exchange-card/"
     },
     {
@@ -1064,43 +1064,43 @@
       "name": "MoonAgents Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-30",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/moonagents-card/"
     },
     {
       "id": "nebeus-card",
-      "name": "Nebeus Card（发行状态待核）",
-      "kyc": "unknown",
-      "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "name": "Nebeus Card",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
       "sourceCount": 3,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/nebeus-card/"
     },
     {
       "id": "youhodler-crypto-card",
-      "name": "YouHodler Crypto Card（预订阶段）",
-      "kyc": "unknown",
-      "kycLabel": "官方未说明",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "name": "YouHodler Crypto Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 1,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/youhodler-crypto-card/"
     },
     {
       "id": "trastra-card",
-      "name": "TRASTRA Visa Card（申请状态待核）",
-      "kyc": "required",
-      "kycLabel": "需要 KYC",
-      "status": "review",
-      "statusLabel": "版本待核",
+      "name": "TRASTRA Visa Card",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
       "sourceCount": 4,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/trastra-card/"
     },
     {

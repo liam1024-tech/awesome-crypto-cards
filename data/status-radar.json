@@ -98,12 +98,42 @@
     {
       "cardId": "hi-debit-card",
       "cardName": "hi Debit Mastercard",
-      "stage": "paused",
-      "level": "info",
-      "title": "⏸️ 官方暂停新卡申领",
-      "summary": "发卡网络与合作行资质正处于重组更新期，当前暂停向新用户签发卡片。",
-      "actionAdvice": "存量持卡人可正常刷卡，新用户建议先查阅其他活跃卡种。",
+      "stage": "closed",
+      "level": "critical",
+      "title": "⛔ 新发卡无限期暂停 · 权益全面冻结",
+      "summary": "hi 官方确认新 IBAN 与卡片申领已无限期暂停，所有借记卡返现与质押奖励均已冻结，底层通道重组停滞。",
+      "actionAdvice": "服务已处于停滞状态，新用户无法申领，存量持卡人请注意账户资产安全。",
       "sourceUrl": "https://ucard.observer/cards/hi-debit-card/"
+    },
+    {
+      "cardId": "bitget-exchange-card",
+      "cardName": "Bitget Card（交易所卡）",
+      "stage": "winddown",
+      "level": "warning",
+      "title": "🟠 交易所主站停发新卡 · 全面迁往 Wallet Card",
+      "summary": "Bitget 官方自 2026-08-01 起停止交易所主站入口新卡申领，存量卡到期不予续签，业务迁移至 Bitget Wallet Card。",
+      "actionAdvice": "存量卡到期前可继续使用；新办卡用户请直接申领 Bitget Wallet Card。",
+      "sourceUrl": "https://www.bitget.com/support/articles/12560603889935"
+    },
+    {
+      "cardId": "nebeus-card",
+      "cardName": "Nebeus Card",
+      "stage": "closed",
+      "level": "critical",
+      "title": "⛔ 发卡行牌照遭吊销 · 卡片全面终止服务",
+      "summary": "底层发卡行 Quicko 牌照遭波兰金融监管局（KNF）撤销注销，合作卡片通道遭拔线终结，已收录停服公墓。",
+      "actionAdvice": "卡片已彻底失效，请勿尝试充值，谨防钓鱼欺诈。",
+      "sourceUrl": "https://ucard.observer/cards/nebeus-card/"
+    },
+    {
+      "cardId": "trastra-card",
+      "cardName": "TRASTRA Visa Card",
+      "stage": "closed",
+      "level": "critical",
+      "title": "⛔ 运营主体破产清算 · 服务全面停摆失联",
+      "summary": "运营主体 UAB Trastra EU 启动破产清算程序，官网与服务器失联，卡片服务已全面停止。",
+      "actionAdvice": "服务已全面终结，请关注立陶宛法院清算与债权人申报进展。",
+      "sourceUrl": "https://ucard.observer/cards/trastra-card/"
     }
   ],
   "cards": [
@@ -565,12 +595,20 @@
     {
       "id": "ready",
       "name": "Ready Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
       "network": "旧 Lite 帮助资料列 Mastercard",
-      "model": "钱包与社区支付产品",
-      "verified": "2026-09-27",
-      "changelogs": []
+      "model": "Base 链自托管账户 / 社群专属 Community Cards",
+      "verified": "2026-10-04",
+      "changelogs": [
+        {
+          "date": "2026-08-15",
+          "type": "compliance",
+          "tag": "战略转型",
+          "title": "转型 Community Finance 并公布 Community Cards",
+          "note": "官方宣布转型为 Community Finance，停止加密新银行模式，新卡 Community Cards 绑定社群分润，账户迁移至 Base 链自托管。"
+        }
+      ]
     },
     {
       "id": "cypher",
@@ -696,11 +734,11 @@
     {
       "id": "orbitx-pay",
       "name": "OrbitX Pay Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa（合作公告口径）",
       "model": "XDC 上自托管 USDC",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -811,11 +849,11 @@
     {
       "id": "naka-plus",
       "name": "NAKA+ Visa Platinum",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；NAKA 提供运营层，Rain 发行",
       "model": "合作平台内的自托管虚拟 Visa 卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -891,11 +929,11 @@
     {
       "id": "roqqu-card",
       "name": "Roqqu Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 发行计划",
       "model": "Roqqu 钱包 / 稳定币支持卡计划（公开零售细则待核）",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -941,11 +979,11 @@
     {
       "id": "wayex-card",
       "name": "Wayex Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡协议列有 Wayex 计划",
       "model": "Wayex 稳定币 / 多币种账户关联 Visa",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -961,11 +999,11 @@
     {
       "id": "dollarize-card",
       "name": "Dollarize Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡协议入口",
       "model": "Dollarize 美元账户 / Visa 卡；稳定币关联路径待核",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -981,11 +1019,11 @@
     {
       "id": "sendwave-card",
       "name": "Sendwave Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行、Bridge 项目管理（依卡协议）",
       "model": "Sendwave 钱包稳定币余额在刷卡交易时兑换为卡上 USD",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -1082,11 +1120,11 @@
     {
       "id": "spay-card",
       "name": "SPay Visa Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；卡片由 Third National 发行，运营方为 NOVARA TECH L.L.C S.O.C.",
       "model": "链上资产抵押的 secured account / 虚拟 Visa 卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -1204,19 +1242,19 @@
     },
     {
       "id": "hi-debit-card",
-      "name": "hi Debit Mastercard（新申请暂停）",
-      "stage": "paused",
-      "stageLabel": "⏸️ 暂停申领",
+      "name": "hi Debit Mastercard",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
       "network": "Mastercard；实际持卡人与费用依据账户所属地区计划",
       "model": "hi App 内绑定资产余额的 Mastercard 借记卡（状态有冲突）",
-      "verified": "2026-09-27",
+      "verified": "2026-10-04",
       "changelogs": [
         {
-          "date": "2026-08-01",
-          "type": "compliance",
-          "tag": "暂停申请",
-          "title": "暂停新卡申请通道",
-          "note": "官方披露发卡安排重构，等待新合规牌照与发卡通道重启。"
+          "date": "2026-06-30",
+          "type": "reward",
+          "tag": "返现冻结",
+          "title": "暂停新卡申请，借记卡返现全部冻结",
+          "note": "hi 官方帮助中心确认新 IBAN 与卡片申领无限期暂停，所有返现与质押奖励冻结。"
         }
       ]
     },
@@ -1243,12 +1281,19 @@
     {
       "id": "solayer-pay",
       "name": "Solayer Pay（Solayer Emerald）",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；Solayer Pay 产品计划",
       "model": "连接自托管钱包 / 稳定币余额，依产品版本授权消费",
-      "verified": "2026-10-02",
+      "verified": "2026-10-04",
       "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "公布官方费率表：$20 年费与 0.5% 充值费",
+          "note": "官方文档确认年费 $20、充值 0.5%、境内交易 $0.15、跨境 1.75% + $0.10，原生支持 Apple Pay 与 Google Pay。"
+        },
         {
           "date": "2026-10-02",
           "type": "feature",
@@ -1300,11 +1345,11 @@
     {
       "id": "biyapay-easycard",
       "name": "BiyaPay EasyCard",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "虚拟卡；当前适用卡组织与发卡实体需在 App / 卡协议确认",
       "model": "BiyaPay 账户余额 / 数字资产兑换后用于虚拟支付卡",
-      "verified": "2026-09-30",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -1320,12 +1365,20 @@
     {
       "id": "bitget-exchange-card",
       "name": "Bitget Card（交易所卡）",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "winddown",
+      "stageLabel": "🟠 清算清退",
       "network": "Visa；旧交易所卡计划由 DCS / 合作卡方提供",
       "model": "Bitget 交易所账户资产支持的 Visa 卡消费",
-      "verified": "2026-09-29",
-      "changelogs": []
+      "verified": "2026-10-04",
+      "changelogs": [
+        {
+          "date": "2026-08-01",
+          "type": "compliance",
+          "tag": "新办停止",
+          "title": "停止原交易所入口新卡申领，迁移至 Wallet Card",
+          "note": "Bitget 官方通知自 2026-08-01 起停发原交易所体系 Visa 卡，存量卡到期无法换发，业务全面迁移至 Bitget Wallet Card。"
+        }
+      ]
     },
     {
       "id": "exa-card",
@@ -1350,11 +1403,11 @@
     {
       "id": "holyheld-card",
       "name": "Holyheld Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "卡组织与发卡实体须以获邀后的地区协议确认",
       "model": "个人会员账户中的稳定币 / 法币转换后支付",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": [
         {
           "date": "2026-08-10",
@@ -1455,11 +1508,11 @@
     {
       "id": "revuto-virtual-card",
       "name": "Revuto Virtual Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
-      "network": "Visa / Mastercard 项目按卡版本及地区协议分别提供；以签署的卡协议确认",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa 虚拟借记卡；由 Paynovate SA/NV 发行、LinkCy SAS 管理",
       "model": "向 Revuto 账户充值后使用虚拟卡管理订阅支付",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -1485,11 +1538,11 @@
     {
       "id": "maxswap-card",
       "name": "MaxSwap Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "多种虚拟卡计划；各卡发卡实体未在 FAQ 充分披露",
       "model": "按卡种向发行账户充值，再以虚拟卡付款",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -1505,12 +1558,20 @@
     {
       "id": "fizen-card",
       "name": "Fizen Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
       "network": "Visa；官方营销资料说明其通过合作发行计划提供",
       "model": "USDT 充值至虚拟卡余额后按 Visa 网络消费",
-      "verified": "2026-09-29",
-      "changelogs": []
+      "verified": "2026-10-04",
+      "changelogs": [
+        {
+          "date": "2026-09-20",
+          "type": "feature",
+          "tag": "公测发卡",
+          "title": "上线基于 Solana 的 USDT 虚拟 Visa 卡",
+          "note": "面向全球用户推出虚拟 Visa 卡，主打海外 AI/SaaS 订阅代扣，最高享 10% FiPoint 返利。"
+        }
+      ]
     },
     {
       "id": "infini-card-archive",
@@ -1597,11 +1658,11 @@
     {
       "id": "blofin-exchange-card",
       "name": "BloFin Card（交易所卡）",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；BloFin 官方称与其联合发行",
       "model": "BloFin 账户充值后使用 Mastercard 消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
@@ -1617,42 +1678,58 @@
     {
       "id": "moonagents-card",
       "name": "MoonAgents Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Mastercard 虚拟卡；由 Monavate 发行，MoonPay CLI 负责开户和管理流程",
       "model": "Solana 钱包授权 SPL 消费额度，交易时从自托管钱包扣款",
-      "verified": "2026-09-30",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
       "id": "nebeus-card",
-      "name": "Nebeus Card（发行状态待核）",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "name": "Nebeus Card",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
       "network": "Visa/卡组织未在当前摘要完整明确；页面称发行方为 Quicko",
       "model": "Nebeus 账户中的加密资产、稳定币或法币余额连接支付卡",
-      "verified": "2026-09-29",
-      "changelogs": []
+      "verified": "2026-10-04",
+      "changelogs": [
+        {
+          "date": "2026-02-03",
+          "type": "compliance",
+          "tag": "服务终止",
+          "title": "发卡行 Quicko 牌照遭吊销，卡片终止服务",
+          "note": "波兰监管局（KNF）撤销发卡机构 Quicko 牌照，合作卡于 2026-02-03 全面停用，归入停服历史档案。"
+        }
+      ]
     },
     {
       "id": "youhodler-crypto-card",
-      "name": "YouHodler Crypto Card（预订阶段）",
+      "name": "YouHodler Crypto Card",
       "stage": "paused",
       "stageLabel": "⏸️ 暂停申领",
       "network": "官方预览页未完整披露",
       "model": "计划从 YouHodler 钱包充值后使用；现行结算与卡网络细节待公布",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": []
     },
     {
       "id": "trastra-card",
-      "name": "TRASTRA Visa Card（申请状态待核）",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
+      "name": "TRASTRA Visa Card",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
       "network": "Visa；旧版协议列 Quicko / 相关合作方安排，当前发卡状态待核",
       "model": "TRASTRA 钱包中的加密资产转换后用于 Visa 卡消费（按旧版产品资料）",
-      "verified": "2026-09-29",
-      "changelogs": []
+      "verified": "2026-10-04",
+      "changelogs": [
+        {
+          "date": "2026-01-15",
+          "type": "compliance",
+          "tag": "破产停服",
+          "title": "运营主体破产清算，卡片服务全面停止",
+          "note": "UAB Trastra EU 启动破产清算程序，卡片申领与账户服务终止，归入停服历史档案。"
+        }
+      ]
     },
     {
       "id": "cexio-card",
