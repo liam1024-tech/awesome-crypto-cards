@@ -87,13 +87,23 @@
     },
     {
       "cardId": "gnosis-pay",
-      "cardName": "Gnosis Pay（巴西站）",
+      "cardName": "Gnosis Pay",
       "stage": "winddown",
       "level": "warning",
-      "title": "🟠 巴西本地服务计划退出",
-      "summary": "Gnosis Pay 针对巴西本地发卡安排进行调整并逐步退出，欧洲主网不受影响。",
-      "actionAdvice": "拉美地区用户需留意官方邮件提现截止期限通知。",
-      "sourceUrl": "https://ucard.observer/cards/gnosis-pay/"
+      "title": "🟠 消费者卡终止倒计时 · 12月20日全面停止刷卡",
+      "summary": "官方确认全面转型 B2B 基础设施；9月4日关闭新注册，9月30日停止新发卡，消费者卡定于 2026-12-20 停止刷卡。",
+      "actionAdvice": "基于 Safe 智能合约的资金安全不受影响且随时可提取；持卡人请在 12月20日前解绑订阅或迁移至合作方卡片。",
+      "sourceUrl": "https://help.gnosispay.com/articles/1452055581-formal-notice-closure-of-the-gnosis-pay-web-app-and-card-21-september-2026"
+    },
+    {
+      "cardId": "bybit",
+      "cardName": "Bybit Card",
+      "stage": "degraded",
+      "level": "info",
+      "title": "🟡 返现新政 10月5日生效 · 仅限加密资产扣款",
+      "summary": "Bybit 官方返现新规自 10月5日起生效：仅限加密货币直接结算交易享受返现，订阅全额返还收紧为 VIP2 专属。",
+      "actionAdvice": "使用法币余额消费的用户不再享受返现，订阅用户请核实当前 VIP 等级。",
+      "sourceUrl": "https://www.bybit.com/"
     },
     {
       "cardId": "hi-debit-card",
@@ -271,6 +281,13 @@
       "verified": "2026-10-02",
       "changelogs": [
         {
+          "date": "2026-09-28",
+          "type": "compliance",
+          "tag": "独立审计",
+          "title": "完成四大独立财务审计与合规审查",
+          "note": "官方宣布获得四大国际会计师事务所独立财务审计与独立 AML/CFT 风控合规审核，并持续推进在美各州合规牌照落地。"
+        },
+        {
           "date": "2026-08-20",
           "type": "compliance",
           "tag": "合规收紧",
@@ -317,6 +334,13 @@
       "verified": "2026-09-27",
       "changelogs": [
         {
+          "date": "2026-10-05",
+          "type": "reward",
+          "tag": "返现收紧",
+          "title": "返现仅限加密货币直接结算且订阅返还限 VIP2",
+          "note": "官方公告自 2026-10-05 起，返现奖励仅限加密货币直接结算的合格交易，法币扣款不计返现；100% 订阅返还（Netflix/Spotify/ChatGPT/Claude/TradingView）收紧为 VIP Tier 2 Beta 专属。"
+        },
+        {
           "date": "2026-08-15",
           "type": "fee",
           "tag": "费率阶梯",
@@ -355,6 +379,13 @@
       "model": "预付卡（本页收录范围）",
       "verified": "2026-09-27",
       "changelogs": [
+        {
+          "date": "2026-09-01",
+          "type": "fee",
+          "tag": "外汇费率",
+          "title": "新加坡 Midnight Blue 卡外汇费上调至 2.0%",
+          "note": "官方更新新加坡持卡人费率表，入门级 Midnight Blue 借记卡非本地货币消费与 ATM 外币取现手续费由 0.5% 上调至 2.0%，高阶卡维持既有费率。"
+        },
         {
           "date": "2026-08-01",
           "type": "feature",
@@ -412,6 +443,13 @@
       "model": "Safe 智能账户连接的 Visa 消费卡（已公告退出）",
       "verified": "2026-09-30",
       "changelogs": [
+        {
+          "date": "2026-09-30",
+          "type": "incident",
+          "tag": "清退终止",
+          "title": "停止存量卡补发并定于 12 月 20 日终止 C 端刷卡",
+          "note": "官方发布正式清退公告：9 月 4 日关闭新注册，9 月 30 日停止新发卡与 GNO 返现；定于 2026 年 12 月 20 日 23:59 UTC 全面终止消费者卡刷卡服务，转向纯 B2B 发卡基础设施；用户 Safe 合约资金不受影响且可随时提现。"
+        },
         {
           "date": "2026-08-30",
           "type": "incident",
