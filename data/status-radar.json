@@ -144,6 +144,16 @@
       "summary": "运营主体 UAB Trastra EU 启动破产清算程序，官网与服务器失联，卡片服务已全面停止。",
       "actionAdvice": "服务已全面终结，请关注立陶宛法院清算与债权人申报进展。",
       "sourceUrl": "https://ucard.observer/cards/trastra-card/"
+    },
+    {
+      "cardId": "casher-card",
+      "cardName": "CasherCard",
+      "stage": "degraded",
+      "level": "warning",
+      "title": "⚠️ 第三方虚拟预付卡 · 警惕大额资金留存风险",
+      "summary": "CasherCard 为第三方无托管牌照开辟的多链虚拟卡，未公开底层持牌 Sponsor Bank 机构信息，通道随时存在被收单行风控拦截拔线风险。",
+      "actionAdvice": "严禁存放超出单次消费额度的大额资金！仅建议随充随刷用于一次性订阅或小额支付测试。",
+      "sourceUrl": "https://ucard.observer/cards/casher-card/"
     }
   ],
   "cards": [
@@ -156,6 +166,13 @@
       "model": "直接支付 / 抵押借款",
       "verified": "2026-10-02",
       "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "feature",
+          "tag": "原生稳定币",
+          "title": "预告联合 Ethena 发行 EtherFi USD 并筹备接入 Cash 消费",
+          "note": "官方宣布将联合 Ethena 推出原生稳定币 EtherFi USD（由 Ethena 管理储备与合规），计划将其作为全生态基础资产，未来将深度接入 EtherFi Cash 支持直接扣款、收益沉淀、借贷与定制消费返现。"
+        },
         {
           "date": "2026-10-02",
           "type": "feature",
@@ -619,8 +636,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa / Pathward",
       "model": "美国借记卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "feature",
+          "tag": "产品架构",
+          "title": "明确 Visa Debit 与 Coinbase One Amex 信用卡双轨产品线",
+          "note": "官方核实区分两张独立卡片：Pathward 发行的 Visa 借记卡（常驻动态轮换奖励）与 First Electronic Bank 发行的 Coinbase One Amex 信用卡（需付费会员，按 AOC 平台资产规模最高享 4% BTC 阶梯返现）。"
+        },
         {
           "date": "2026-05-10",
           "type": "reward",
@@ -777,27 +801,58 @@
       "network": "Visa（合作公告口径）",
       "model": "XDC 上自托管 USDC",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-10",
+          "type": "feature",
+          "tag": "XDC 网络",
+          "title": "首款接入 XDC Network 现实世界支付借记卡",
+          "note": "OrbitX 携手 XDC Network 与万事达卡清算网络，在超 1.5 亿全球商户终端实现稳定币即时清算。"
+        }
+      ]
     },
     {
       "id": "card-fi",
       "name": "Card.fi",
-      "stage": "active",
-      "stageLabel": "🟢 正常活跃",
+      "stage": "degraded",
+      "stageLabel": "🟡 风控受限",
       "network": "Visa 或 Mastercard（On5 Card Network）",
       "model": "多链充值 / 卡余额结算",
-      "verified": "2026-10-01",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-10-01",
+          "type": "feature",
+          "tag": "开放发卡",
+          "title": "Card.fi 正式开放多网络稳定币发卡",
+          "note": "支持 Arbitrum、Base、Polygon、Solana 等多链 USDT/USDC 充值，披露开卡费、充值网络与推荐返现规则。"
+        },
+        {
+          "date": "2026-09-12",
+          "type": "compliance",
+          "tag": "条款更新",
+          "title": "更新服务条款与分级身份核验",
+          "note": "细化提现规则、日常风控阈值与分级合规审查流程，防范滥用与高风险交易。"
+        }
+      ]
     },
     {
       "id": "moneygram-card",
       "name": "MoneyGram Card",
-      "stage": "active",
-      "stageLabel": "🟢 正常活跃",
-      "network": "Visa；MoneyGram 与 Rain 合作，使用 Crossmint 钱包能力及 Stellar 网络",
-      "model": "MoneyGram App 内 USDC 美元稳定余额 / Visa 消费卡",
-      "verified": "2026-10-01",
-      "changelogs": []
+      "stage": "degraded",
+      "stageLabel": "🟡 风控受限",
+      "network": "Visa；公告列出 Rain 卡基础设施与 Crossmint 钱包能力",
+      "model": "稳定币余额 / Visa 消费卡",
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-09-10",
+          "type": "feature",
+          "tag": "拉美首发",
+          "title": "联合 Rain 与 Visa 在哥伦比亚首发稳定币借记卡",
+          "note": "MoneyGram 宣布推出官方卡片，结合 USDC 账户余额结算与 Visa 全球商户网络，提供跨国资金直达消费通道。"
+        }
+      ]
     },
     {
       "id": "bitmart-card",
@@ -839,7 +894,15 @@
       "network": "Visa Infinite；公开条款一处称 Rain 发行，另一处将 Third National 定义为 Issuer，实际发行方须以个人卡协议和卡背信息确认",
       "model": "自托管钱包中的 USDC 作为抵押，消费记入信用卡账单并按月结算",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-05",
+          "type": "feature",
+          "tag": "抵押模式",
+          "title": "推出加密抵押 0% APR 的 Visa Infinite 信用卡",
+          "note": "Moto 推出基于超额抵押的 Visa Infinite 信用卡，支持以加密资产为担保获取 USDC 循环信用额度，全额按期还款享 0% APR 息费，底层依托持牌银行及 Rain BaaS 架构清算。"
+        }
+      ]
     },
     {
       "id": "avalanche-card",
@@ -891,8 +954,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；NAKA 提供运营层，Rain 发行",
       "model": "合作平台内的自托管虚拟 Visa 卡",
-      "verified": "2026-10-04",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "feature",
+          "tag": "拉美落地",
+          "title": "依托 Rain 基础设施推出 NAKA+ Visa Platinum",
+          "note": "面向拉美地区推出 Visa 白金借记卡，支持稳定币即时清算并对接 Apple Pay 与 Google Pay 移动支付。"
+        }
+      ]
     },
     {
       "id": "takenos-takecard",
@@ -902,7 +973,15 @@
       "network": "Visa；Rain 卡发行基础设施",
       "model": "Takenos 数字美元账户 / Rain Visa 卡",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-08",
+          "type": "feature",
+          "tag": "拉美出海",
+          "title": "面向阿根廷与拉美远程工作者推出国际支付卡",
+          "note": "Takenos 官方推出 Takecard，支持直接扣减美元稳定币并免除当地高昂的外汇结汇税费，支持 Apple Pay 与海外云服务代扣。"
+        }
+      ]
     },
     {
       "id": "western-union-stablecard",
@@ -912,7 +991,15 @@
       "network": "Visa；Rain 卡计划与 Western Union App",
       "model": "USDPT 稳定币支持的数字 Visa 卡",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-15",
+          "type": "compliance",
+          "tag": "合规试点",
+          "title": "西联汇款联合持牌机构推进稳定币卡试点",
+          "note": "西联汇款与持牌银行探索稳定币清算借记卡，将传统汇兑网络与链上美元结算结合，执行银行级 AML 审查。"
+        }
+      ]
     },
     {
       "id": "zar-card",
@@ -921,8 +1008,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 提供发行基础设施",
       "model": "ZAR 数字美元钱包 / Rain Visa 卡",
-      "verified": "2026-09-27",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-09-27",
+          "type": "feature",
+          "tag": "数字美元",
+          "title": "接入 Rain 稳定币网络上线可消费汇款卡",
+          "note": "推出基于数字美元账户的 Visa 虚拟借记卡，支持跨国汇款直达卡片并即刻在各商户终端刷卡消费。"
+        }
+      ]
     },
     {
       "id": "airtm-card",
@@ -932,7 +1027,15 @@
       "network": "Visa；Lead Bank 发行，Bridge 管理",
       "model": "Airtm 账户余额充值 / USD 虚拟 Visa",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-15",
+          "type": "feature",
+          "tag": "美元虚拟卡",
+          "title": "依托 Lead Bank 与 Bridge 推出拉美自由职业者美元卡",
+          "note": "Airtm 联合 Bridge 基础设施推出虚拟 Visa 卡，解决拉美数字游民跨国收款与美金线上消费痛点，支持直接使用 USDC 零汇损结算。"
+        }
+      ]
     },
     {
       "id": "fuse-card",
@@ -952,7 +1055,15 @@
       "network": "Visa；Lead Bank 发行、Bridge 管理",
       "model": "UniFi USD 账户；刷卡时卖出账户稳定币并结算法币",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-18",
+          "type": "compliance",
+          "tag": "跨境结算",
+          "title": "依托 Lead Bank 与 Bridge 推出 UniFi Visa 卡",
+          "note": "面向东南亚数字游民与跨境自由职业者推出稳定币结算 Visa 卡，支持低滑点消费与离岸资金流转。"
+        }
+      ]
     },
     {
       "id": "chipper-card",
@@ -961,8 +1072,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 合作卡计划，发卡安排因国家与卡版本而异",
       "model": "Chipper 账户美元余额充值 / 地区型虚拟 Visa",
-      "verified": "2026-09-27",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-09-27",
+          "type": "feature",
+          "tag": "非洲跨境",
+          "title": "联合 Bridge 上线 Chipper US-USD 稳定币借记卡",
+          "note": "推出支持美元稳定币充值与清算的 Visa 借记卡，大幅降低非洲跨国在线订阅与跨境商户支付门槛。"
+        }
+      ]
     },
     {
       "id": "roqqu-card",
@@ -972,7 +1091,15 @@
       "network": "Visa；Bridge 发行计划",
       "model": "Roqqu 钱包 / 稳定币支持卡计划（公开零售细则待核）",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-05",
+          "type": "feature",
+          "tag": "非洲直通",
+          "title": "联合 Bridge 推出直连加密钱包借记卡",
+          "note": "非洲持牌交易所 Roqqu 联合 Bridge 推出支持即时结算与线上国际支付的美元借记卡，支持直接扣减稳定币。"
+        }
+      ]
     },
     {
       "id": "morse-card",
@@ -981,8 +1108,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank / Bridge 卡计划",
       "model": "Morse 钱包 / 余额关联的虚拟 Visa 卡",
-      "verified": "2026-09-27",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-09-27",
+          "type": "compliance",
+          "tag": "品牌升级",
+          "title": "Sling Money 更名为 Morse 并深化 Bridge 发卡合作",
+          "note": "完成品牌重塑与合规发卡协议升级，依托 Bridge 架构支持多币种国际借记卡与全球点对点清算。"
+        }
+      ]
     },
     {
       "id": "fluyez-card",
@@ -991,8 +1126,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡协议列有 Fluyez 项目",
       "model": "Fluyez 数字资产余额 / 虚拟 Visa",
-      "verified": "2026-09-27",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-09-27",
+          "type": "feature",
+          "tag": "合规借记",
+          "title": "联合 Bridge 推出 Fluyez Crypto Visa 借记卡",
+          "note": "秘鲁合规数字资产平台接入 Bridge 发卡协议，实现账户加密余额向法币的实时合规结算。"
+        }
+      ]
     },
     {
       "id": "thera-card",
@@ -1001,8 +1144,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 法律页面列有 Thera 卡项目",
       "model": "Thera Wallet 稳定币余额 / 虚拟 Visa",
-      "verified": "2026-09-27",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-09-27",
+          "type": "feature",
+          "tag": "企业支付",
+          "title": "公布虚拟 Visa 卡规则与支持国家清单",
+          "note": "推出接入 Bridge 清算架构的 Thera Wallet 借记卡，支持全球自由职业者与团队薪酬结算后即时刷卡。"
+        }
+      ]
     },
     {
       "id": "phantom-cash-card",
@@ -1012,7 +1163,15 @@
       "network": "Visa；Lead Bank 发行，Bridge 管理，Stripe / Phantom 提供基础设施",
       "model": "Phantom CASH 余额 / 虚拟 Visa 借记卡",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-08",
+          "type": "feature",
+          "tag": "公测放量",
+          "title": "基于 Solana 的 Phantom Cash Visa 虚拟卡开启公测",
+          "note": "由 Lead Bank 发行、Bridge 提供支付通道，直接扣除 Phantom 钱包内的 USDC 余额，原生支持 Apple Pay，面向美区合规受邀用户开展小规模公测。"
+        }
+      ]
     },
     {
       "id": "wayex-card",
@@ -1021,8 +1180,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡协议列有 Wayex 计划",
       "model": "Wayex 稳定币 / 多币种账户关联 Visa",
-      "verified": "2026-10-04",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "更新 Wayex Visa 借记卡费率与结算机制",
+          "note": "披露清晰的充值费、跨境转换与提现说明，底层依托 Bridge 合规发卡协议保障清算通畅。"
+        }
+      ]
     },
     {
       "id": "exodus-pay-card",
@@ -1032,7 +1199,15 @@
       "network": "Visa；Bridge 卡计划与地区发行合作方",
       "model": "Exodus Pay / XO Cash 账户连接的 Visa 卡",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-30",
+          "type": "feature",
+          "tag": "多链自托管",
+          "title": "集成 Bridge 架构推出 Exodus Pay 虚拟借记卡",
+          "note": "多链钱包 Exodus 推出内置借记卡功能，用户无需向第三方平台托管资产，刷卡时在链上自动扣减稳定币并完成 Visa 清算。"
+        }
+      ]
     },
     {
       "id": "dollarize-card",
@@ -1042,7 +1217,15 @@
       "network": "Visa；Bridge 卡协议入口",
       "model": "Dollarize 美元账户 / Visa 卡；稳定币关联路径待核",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-06-30",
+          "type": "feature",
+          "tag": "美元储蓄卡",
+          "title": "针对拉美跨境储蓄推出直扣美元账户借记卡",
+          "note": "Dollarize 推出连接美国持牌金融机构的虚拟借记卡，支持拉美居民将本地比索等兑换为美元并直接通过 Visa 全球商户刷卡消费。"
+        }
+      ]
     },
     {
       "id": "solid-card",
@@ -1052,7 +1235,15 @@
       "network": "Visa；按居住地由 Rain 或 Wirex 提供发行服务",
       "model": "Solid 账户余额 / Rain 或 Wirex 持牌合作卡账户",
       "verified": "2026-10-01",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-18",
+          "type": "feature",
+          "tag": "双轨清算",
+          "title": "确立 Rain 与 Wirex 地区分流发卡架构",
+          "note": "Solid 官方明确按持卡人合规居住地分发不同发卡通道：美洲用户走 Rain 架构，欧洲与其余地区走 Wirex 合作通道，实现链上自托管资金实时划转扣款。"
+        }
+      ]
     },
     {
       "id": "sendwave-card",
@@ -1061,8 +1252,16 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行、Bridge 项目管理（依卡协议）",
       "model": "Sendwave 钱包稳定币余额在刷卡交易时兑换为卡上 USD",
-      "verified": "2026-10-04",
-      "changelogs": []
+      "verified": "2026-10-06",
+      "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "feature",
+          "tag": "汇款一体",
+          "title": "公布全合一钱包与 Bridge 发卡合作计划",
+          "note": "跨国汇款巨头 Sendwave 披露与 Bridge 合作协议，推进 USDC 余额直接消费的多功能数字借记卡落地。"
+        }
+      ]
     },
     {
       "id": "gate-card",
@@ -1090,7 +1289,15 @@
       "network": "Visa；按 Bitpanda Card 地区条款发行",
       "model": "Bitpanda 主 / 备用支付资产自动换为 EUR",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-12",
+          "type": "reward",
+          "tag": "返现阶梯",
+          "title": "基于 BEST 质押等级提供最高 2% 比特币返现",
+          "note": "Bitpanda 官方更新卡片权益表：持有不同级别 BEST 代币的用户享受 0.5% 至 2.0% 的 BTC 交易返现，高阶 VIP 会员享 0% 外币交易手续费与每月免费 ATM 取现额度。"
+        }
+      ]
     },
     {
       "id": "kucard",
@@ -1125,7 +1332,15 @@
       "network": "卡网络和发卡合作方依地区条款；CL Card 由 Baanx 提供",
       "model": "Ledger Wallet 资产转入 CL Card 账户后消费",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-06-20",
+          "type": "compliance",
+          "tag": "冷热联动",
+          "title": "CL Card 深度集成 Ledger Live 硬件钱包划转",
+          "note": "由 Baanx 提供发卡合规支持的 CL Card 深度集成至 Ledger Live 生态，支持从 Ledger 硬件冷钱包即时调拨稳定币至借记卡账户，面向英国与欧洲合规居民开放。"
+        }
+      ]
     },
     {
       "id": "oneinch-card",
@@ -1153,7 +1368,15 @@
       "network": "Visa；Tevau 卡计划，地区发行安排以 App 条款为准",
       "model": "先将 USDT 充值进 Tevau 钱包 / 卡账户，再以卡支付",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-28",
+          "type": "fee",
+          "tag": "阶梯工本费",
+          "title": "公布虚拟与实体卡多梯度工本费与闲置费",
+          "note": "披露虚拟卡 $20、实体卡 $100、Metal $199 与 24K Gold $499 价目，明示 90 天未交易后产生阶梯闲置费。"
+        }
+      ]
     },
     {
       "id": "spay-card",
@@ -1163,7 +1386,15 @@
       "network": "Visa；卡片由 Third National 发行，运营方为 NOVARA TECH L.L.C S.O.C.",
       "model": "链上资产抵押的 secured account / 虚拟 Visa 卡",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-25",
+          "type": "compliance",
+          "tag": "条款细化",
+          "title": "正式条款披露跨境手续费与抵押品清算机制",
+          "note": "正式协议列出最高 3% 外汇费与最高 3% 跨境费，并明确抵押品不足时的清算处置与逾期费用规则。"
+        }
+      ]
     },
     {
       "id": "gigbanc-card",
@@ -1191,7 +1422,15 @@
       "network": "Mastercard；卡与支付服务由 Immersve Limited 提供",
       "model": "Binance 账户资产作为担保的 Immersve Mastercard",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-20",
+          "type": "compliance",
+          "tag": "通道调整",
+          "title": "全球与拉美市场多轨结算架构更新",
+          "note": "继欧洲经济区（EEA）服务调整后，Binance Card 在阿根廷、哥伦比亚、巴西等拉美市场由本地合作持牌金融机构继续清算，支持 BUSD/USDT/BNB 现货账户余额即时清偿。"
+        }
+      ]
     },
     {
       "id": "mexc-card",
@@ -1201,7 +1440,15 @@
       "network": "虚拟 Visa；Global 与 APAC 分属不同申请和费率版本",
       "model": "MEXC Fiat 账户余额支付；支持 USDT 转入后刷卡",
       "verified": "2026-09-30",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-10",
+          "type": "feature",
+          "tag": "新卡发布",
+          "title": "面向 Global 与亚太推出万事达/Visa 借记卡",
+          "note": "MEXC 官方推出直连现货账户资产的加密借记卡，实行新用户限时 0 开卡费推广，支持 USDT/USDC 即时清算抵扣，日消费额度最高可达 $10,000。"
+        }
+      ]
     },
     {
       "id": "pionex-card",
@@ -1211,7 +1458,15 @@
       "network": "Visa；虚拟或实体形态及申请资格以账户入口为准",
       "model": "Pionex 卡账户 USDT 余额；美元与 USDT 按官方规则 1:1 计价",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-25",
+          "type": "feature",
+          "tag": "双轨模式",
+          "title": "推出支持美元与加密货币结算的 Pionex Visa 卡",
+          "note": "派网 Pionex 官方上线加密 Visa 借记卡，支持直接扣除量化与现货账户内的稳定币余额，免收年费与月租，面向通过实名认证的合规用户开放。"
+        }
+      ]
     },
     {
       "id": "bit2me-card",
@@ -1221,7 +1476,15 @@
       "network": "Mastercard；PECUNIA CARDS EDE / PECUNPAY 为卡片及支付账户发行与管理方",
       "model": "Bit2Me 钱包资产消费；加密资产支付时按服务规则转换为 EUR",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-06-18",
+          "type": "reward",
+          "tag": "欧洲发卡",
+          "title": "西班牙合规持牌所升级万事达借记卡与 9% 返现池",
+          "note": "受西班牙央行合规监管的 Bit2Me 推出支持 Apple Pay 与 Google Pay 的万事达借记卡，配合 B2M 代币持有量提供最高 9% 阶梯消费返现。"
+        }
+      ]
     },
     {
       "id": "whitebit-nova",
@@ -1231,7 +1494,15 @@
       "network": "Visa；实体卡和虚拟卡可用功能不同",
       "model": "WhiteBIT 账户加密资产按卡片规则即时转换用于 Visa 消费",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-26",
+          "type": "feature",
+          "tag": "配送与激活",
+          "title": "公布实体卡阶梯配送费与停用重启规则",
+          "note": "欧洲持牌所公布实体卡阶梯运费（标准 €12、DHL €20、特快 €40），明示连续 3 个月不活跃自动关卡与 €5 重启费。"
+        }
+      ]
     },
     {
       "id": "jupiter-card",
@@ -1241,7 +1512,15 @@
       "network": "Visa；Rain 或 DCS 按居住地作为发卡合作方",
       "model": "USDC / USDT 充值后先转换为卡内 USD 余额",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-20",
+          "type": "feature",
+          "tag": "生态互联",
+          "title": "Solana 生态 Jupiter 推进借记卡计划",
+          "note": "基于 Solana 生态与 Rain 基础设施，直接支持链上流动性与多代币自动滑点兑换，支持 USDC / SOL 原生抵扣。"
+        }
+      ]
     },
     {
       "id": "safepal-fiat24-card",
@@ -1276,7 +1555,22 @@
       "network": "支付卡；卡网络、发卡国家及 Apple / Google Pay 可用性以账户内实际卡计划为准",
       "model": "USDT / USDC 充值至单独卡余额",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "compliance",
+          "tag": "官方卡面",
+          "title": "完成官方数字卡面核验与素材建档",
+          "note": "穿透检索 Trustee 官方产品与帮助中心原图，核验其黑色碳纤质感数字卡面与欧元结算标识并完成独立 WebP 资产归档。"
+        },
+        {
+          "date": "2026-07-28",
+          "type": "feature",
+          "tag": "支付升级",
+          "title": "扩展欧洲 SEPA 通道与加密直充矩阵",
+          "note": "支持通过 SEPA 银行转账与链上 USDT/EUR 混合扣款，完善欧洲 EEA 区域日常消费与 Apple Pay 体验。"
+        }
+      ]
     },
     {
       "id": "hi-debit-card",
@@ -1304,7 +1598,15 @@
       "network": "美国新卡为 Visa；英国计划与美国版本的网络、费用和奖励应分开核对",
       "model": "从 Uphold 钱包内所选现金、稳定币、加密或金属资产扣款",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-15",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "更新英美借记卡消费返还与外币结算规则",
+          "note": "官方披露英国与美国不同账户层级之加密资产抵扣费率，基础美元/英镑消费免发卡方手续费，支持虚拟与物理双形态。"
+        }
+      ]
     },
     {
       "id": "gate-card-global",
@@ -1314,7 +1616,15 @@
       "network": "不同卡种可能为 Visa 或 Mastercard；按账户卡片协议为准",
       "model": "Gate Pay / Spot 账户资产按卡片规则转换为法币消费",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-31",
+          "type": "reward",
+          "tag": "会员权益",
+          "title": "公布 Gate Card 阶梯返现与 0 FX 外币结算政策",
+          "note": "Gate 针对海外合规持卡人公布全新返现结构，绑定 Gate VIP 等级最高可享 1%~5% USDT 消费返点，并提供免外币兑换费特权。"
+        }
+      ]
     },
     {
       "id": "solayer-pay",
@@ -1388,17 +1698,40 @@
       "network": "虚拟卡；当前适用卡组织与发卡实体需在 App / 卡协议确认",
       "model": "BiyaPay 账户余额 / 数字资产兑换后用于虚拟支付卡",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-12",
+          "type": "fee",
+          "tag": "费率披露",
+          "title": "明确 EasyCard 虚拟卡 1.5% 货币转换与充值费",
+          "note": "官方更新 EasyCard 费率说明：支持离岸账户与加密资产充值，充值手续费 1%~1.5%，非 USD 跨境消费收取 1.5% 货币转换费，支持绑定主流跨境电商与云服务平台。"
+        }
+      ]
     },
     {
       "id": "xapo-bank-card",
       "name": "Xapo Bank Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；由 Xapo Bank 提供银行与卡服务",
+      "network": "Mastercard；由直布罗陀持牌银行 Xapo Bank 发行 World Elite 借记卡",
       "model": "Xapo Bank 美元账户 / 比特币账户关联借记卡",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-18",
+          "type": "feature",
+          "tag": "万事达卡",
+          "title": "推出 World Elite Mastercard 与 BTC 活期生息",
+          "note": "直布罗陀持牌银行 Xapo Bank 推出 World Elite Mastercard 借记卡，支持法币与比特币余额全球消费与 ATM 取现，法币存款享最高 100,000 美元等值 GDGS 保障，活期比特币享年化生息。"
+        },
+        {
+          "date": "2026-04-10",
+          "type": "compliance",
+          "tag": "牌照披露",
+          "title": "公布 GFSC 银行与数字资产双轨监管架构",
+          "note": "公布直布罗陀金融服务委员会（GFSC）全银行与 DLT 牌照，明确资金隔离与独立审计要求，支持 SWIFT/SEPA 与比特币闪电网络出入金。"
+        }
+      ]
     },
     {
       "id": "bitget-exchange-card",
@@ -1426,17 +1759,54 @@
       "network": "Visa Signature；由获授权第三方发卡",
       "model": "自托管钱包资产作支持；USDC 即时付款或按固定利率分期",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "compliance",
+          "tag": "官方卡面",
+          "title": "完成官方 Visa Signature 卡面核验与素材收录",
+          "note": "穿透核查 Exa 官方产品与帮助中心文档，确认其 Visa Signature 卡面设计与 Apple Pay 兼容规格并完成物理图谱建档。"
+        },
+        {
+          "date": "2026-08-10",
+          "type": "feature",
+          "tag": "分期借记",
+          "title": "推出免开卡费与分期信贷功能之数字卡",
+          "note": "面向合格用户提供免费虚拟卡，支持即时稳定币抵扣与 1.5% 外币转换费，提供信贷分期选项。"
+        }
+      ]
     },
     {
       "id": "coca-card",
-      "name": "COCA Visa Card",
+      "name": "COCA Mastercard",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；具体合作发卡实体以当地卡协议为准",
-      "model": "COCA 自托管钱包余额连接 Visa 支付",
+      "network": "Mastercard；由 Wirex Limited (英国) / UAB Wirex (EEA) 发行",
+      "model": "非托管 MPC 钱包直连 Wirex Mastercard 预付卡结算",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "compliance",
+          "tag": "发卡合作与卡种",
+          "title": "明确由 Wirex 合作发行 Mastercard 预付卡（含实体与虚拟卡）",
+          "note": "官方更新卡片专页与服务条款：明确虚拟卡与实体卡由 Wirex Limited（英国）及 UAB Wirex（欧洲经济区）作为万事达卡主会员发行，基于非托管 MPC 钱包结算，并推出实体卡上线激励活动。"
+        },
+        {
+          "date": "2026-08-22",
+          "type": "feature",
+          "tag": "非托管卡",
+          "title": "推出基于 MPC 自托管钱包的加密借记卡",
+          "note": "COCA 联合 Wirex 推出非托管 MPC（多方安全计算）钱包直连借记卡，无助记词私钥分片备份，支持按需扣除链上代币完成 Visa 消费，最高享 5% 消费返现。"
+        },
+        {
+          "date": "2026-06-15",
+          "type": "reward",
+          "tag": "返现规则",
+          "title": "公布阶梯式消费返现与会员权益方案",
+          "note": "公布基于持有量与消费等级的阶梯返现方案，返现以代币形式计入钱包，单笔小额交易设最低门槛。"
+        }
+      ]
     },
     {
       "id": "holyheld-card",
@@ -1471,7 +1841,15 @@
       "network": "Visa；Karta 页面列第三方持牌合作发行安排",
       "model": "自托管钱包充值账户余额，再使用 Visa 卡消费",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-05",
+          "type": "feature",
+          "tag": "轻量发行",
+          "title": "上线主打无月费与快速申领的 Karta Visa 卡",
+          "note": "针对数字游民与跨境订阅场景推出轻量级 Visa 虚拟卡，支持多币种即时结算，免收月度账户维护费。"
+        }
+      ]
     },
     {
       "id": "kolo-card",
@@ -1481,7 +1859,15 @@
       "network": "Visa / Mastercard（依地区与卡计划，官网页面口径并不完全一致）",
       "model": "Kolo 钱包资产在付款时转换后结算",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-28",
+          "type": "feature",
+          "tag": "产品上线",
+          "title": "上线直连 Telegram 钱包的 2% BTC 返现 Visa 卡",
+          "note": "Kolo App 推出直连自托管及 Telegram 钱包资产的 Visa 虚拟卡，合格日常消费按比例直接返还比特币（BTC），支持 Apple Pay 即时绑定。"
+        }
+      ]
     },
     {
       "id": "hyperbeat-pay",
@@ -1491,7 +1877,15 @@
       "network": "Visa；官方条款列 Third National 为发卡方",
       "model": "Cash 模式花账户余额；Credit 模式以资产作抵押借入稳定币消费",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-18",
+          "type": "compliance",
+          "tag": "服务协议",
+          "title": "更新服务条款与跨境清算费率口径",
+          "note": "披露最高 3% 跨境与外汇处理费用，建立与持牌赞助行对齐的合规审查与争议处置流程。"
+        }
+      ]
     },
     {
       "id": "vaultleap-card",
@@ -1501,7 +1895,15 @@
       "network": "Visa；Lead Bank 发行，Bridge Ventures 为项目管理方",
       "model": "自托管钱包入金至 VaultLeap 账户后手动充值预付卡",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-20",
+          "type": "fee",
+          "tag": "合作费率",
+          "title": "披露外币兑换合作转付费用与限额机制",
+          "note": "公布非美元消费约 0.5% 合作通道费，支持自托管数字资产与多层级风控限额管理。"
+        }
+      ]
     },
     {
       "id": "solflare-card",
@@ -1511,7 +1913,15 @@
       "network": "Mastercard；卡片发行合作方依适用地区协议",
       "model": "自托管 Solana 钱包中的 USDC 直接授权消费",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-14",
+          "type": "feature",
+          "tag": "钱包直扣",
+          "title": "Solana 核心钱包上线直连链上资产万事达借记卡",
+          "note": "Solflare 与持牌 BaaS 合作推出借记卡，无需预充值中心化账户，刷卡时在链上按需划转扣减 USDC，支持 Google Pay 移动支付。"
+        }
+      ]
     },
     {
       "id": "tuyo-card",
@@ -1521,17 +1931,47 @@
       "network": "Visa；具体发卡实体依卡协议",
       "model": "Tuyo 账户 / 加密资产余额连接 Visa 消费",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "feature",
+          "tag": "新卡上线",
+          "title": "面向拉美与全球上线 Tuyo Visa 借记卡",
+          "note": "完成 Tuyo 官方核验：面向拉美与全球自由职业者推出直连自托管与多链钱包的 Visa 借记卡，支持 USDC/USDT 即时清算、Apple Pay 与 Google Pay 闪付绑定，免开卡费与月租费。"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "compliance",
+          "tag": "地区政策",
+          "title": "明确不面向英国用户且实体卡筹备中",
+          "note": "官方条款明确服务暂不面向英国居民开放，首期以虚拟卡为主，实体卡仍处于筹备状态。"
+        }
+      ]
     },
     {
       "id": "avici-card",
       "name": "Avici Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；Avici 官方文档称由 Rain 发行",
+      "network": "Visa（Platinum / Signature）；Avici 官方文档称由 Rain 发行",
       "model": "USDC 存入用户控制的抵押合约，生成 Visa 信用消费余额并定期清算",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "fee",
+          "tag": "卡级费率细则",
+          "title": "全面披露 Platinum 与 Signature 卡种费率表及地区名单",
+          "note": "官方文档公布详细费表：虚拟卡 Platinum 首张 $15/后续 $10，Signature 首年 $30/次年起 $20；实体卡 Platinum $50，Signature $75/年费 $20；消费 0% FX 加价，Signature 享 $0 ATM 取现费；公布可用地区含港新马及阿联酋，排除中国大陆。"
+        },
+        {
+          "date": "2026-09-20",
+          "type": "fee",
+          "tag": "汇损优化",
+          "title": "费用页更新为 0% 消费交易费与 0% Forex 加价",
+          "note": "官方披露免除基础交易费与外汇加价，非美元消费仅由 Visa 卡组织按国际网络规则计收约 0.4%–1% 跨境费。"
+        }
+      ]
     },
     {
       "id": "blofin-wallet-card",
@@ -1541,7 +1981,22 @@
       "network": "Visa；BloFin 官方称由 Rain 发行",
       "model": "将 USDT / USDC 转入 Wallet Card；可选 Direct Pay 或抵押授信",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "fee",
+          "tag": "零卡费与VIP阶梯",
+          "title": "官方披露 $0 基础卡费及 VIP 5 享 0% 消费费率",
+          "note": "官方卡片专页全面明确无激活费、年费、闲置费或发卡费，入金充值免手续费；消费费率由常规 1% 随打通的 BloFin Exchange VIP 等级降低，最高档（VIP 5）降至 0%。"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "feature",
+          "tag": "零门槛入金",
+          "title": "钱包版借记卡上线，支持充值零手续费",
+          "note": "推出直连 Web3 钱包的数字借记卡，入金免收手续费，依据 VIP 等级享受 0%–1% 极低消费费率。"
+        }
+      ]
     },
     {
       "id": "revuto-virtual-card",
@@ -1551,7 +2006,15 @@
       "network": "Visa 虚拟借记卡；由 Paynovate SA/NV 发行、LinkCy SAS 管理",
       "model": "向 Revuto 账户充值后使用虚拟卡管理订阅支付",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-15",
+          "type": "feature",
+          "tag": "订阅管控",
+          "title": "上线针对流媒体与 SaaS 循环扣款虚拟借记卡",
+          "note": "针对订阅制付费场景设计，支持一键拦截意外扣费与临时冻结，提供按需分配额度之数字卡。"
+        }
+      ]
     },
     {
       "id": "ripio-card-brazil",
@@ -1561,7 +2024,15 @@
       "network": "Visa；巴西预付卡计划",
       "model": "Ripio 账户内选择加密资产或 BRL 余额，交易时扣款",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-12",
+          "type": "fee",
+          "tag": "巴西本土化",
+          "title": "巴西合规发卡，免开卡费与年费",
+          "note": "面向巴西合规居民发行 Visa 加密借记卡，免收开卡与年费，支持雷亚尔（BRL）与稳定币即时结算。"
+        }
+      ]
     },
     {
       "id": "pexx-mastercard",
@@ -1571,7 +2042,15 @@
       "network": "Mastercard；官方现行帮助页介绍虚拟卡",
       "model": "向 PEXX 卡账户充值 USD、USDT 或 USDC 后进行 Mastercard 消费",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-08",
+          "type": "feature",
+          "tag": "企业与个人",
+          "title": "推出支持泰铢与美元双轨结算的 PEXX 万事达卡",
+          "note": "结合 PEXX 持牌跨境网关，支持直扣加密货币并实时转换为本地法币，提供虚拟与实体双形态万事达借记卡。"
+        }
+      ]
     },
     {
       "id": "maxswap-card",
@@ -1579,9 +2058,24 @@
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
       "network": "多种虚拟卡计划；各卡发卡实体未在 FAQ 充分披露",
-      "model": "按卡种向发行账户充值，再以虚拟卡付款",
+      "model": "按卡种向发行账户充值 USDT/USDC，再以虚拟卡付款",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "fee",
+          "tag": "多卡种阶梯价目",
+          "title": "官方 FAQ 细化 AI Card、Premium 及 ATM 专属卡费率",
+          "note": "官方披露三档详细价目：Virtual AI Card 开卡 $50（充值 4.5%+$1，交易 $0.25+0.4%）；Premium Card 开卡 $45；ATM 取现卡 85 USDT（充值 4.5%，交易 $0.30，每日 ATM 最高取现 $750）。"
+        },
+        {
+          "date": "2026-09-10",
+          "type": "feature",
+          "tag": "Telegram生态",
+          "title": "集成 Telegram 机器人极速申领虚拟卡",
+          "note": "支持在 Telegram 内即时开卡与链上 USDT/USDC 充值，披露开卡工本费约 $25 与 3% 充值手续费。"
+        }
+      ]
     },
     {
       "id": "offramp-card",
@@ -1591,7 +2085,15 @@
       "network": "Visa Signature（官方卡 FAQ）；发行合作方依用户适用协议",
       "model": "向 Offramp 账户从支持网络充值稳定币，转换后用 Visa 余额消费",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-05",
+          "type": "feature",
+          "tag": "免年费发卡",
+          "title": "推出免年费与免开卡费之虚拟 Visa 卡",
+          "note": "支持直接扣减链上自托管稳定币，披露外币消费约 1.5% 与全球 ATM 约 2% 基础费率。"
+        }
+      ]
     },
     {
       "id": "fizen-card",
@@ -1681,7 +2183,15 @@
       "network": "官方个人卡页面未在摘要明确列出卡组织；以适用卡协议为准",
       "model": "Infini 账户中的稳定币余额连接虚拟消费卡",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-20",
+          "type": "feature",
+          "tag": "多卡型矩阵",
+          "title": "全新推出 Pro / AI / Max 个人卡产品线",
+          "note": "全面升级合规通道，发行费 $10、月费 $0，Max 卡型提供 0% FX 汇损并支持大额日常消费。"
+        }
+      ]
     },
     {
       "id": "busha-card",
@@ -1691,7 +2201,15 @@
       "network": "Visa；Busha Card 虚拟卡",
       "model": "Busha 托管账户中的 USD / USDT / USDC 余额支付",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-25",
+          "type": "feature",
+          "tag": "非洲直通",
+          "title": "在西非推出直扣稳定币的 Busha 美元借记卡",
+          "note": "非洲本土持牌平台 Busha 推出虚拟美元卡，支持使用 USDT/USDC 即时入金，打通西非居民在海外主流线上商户的跨境外汇消费通道。"
+        }
+      ]
     },
     {
       "id": "blofin-exchange-card",
@@ -1701,7 +2219,15 @@
       "network": "Mastercard；BloFin 官方称与其联合发行",
       "model": "BloFin 账户充值后使用 Mastercard 消费",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-18",
+          "type": "feature",
+          "tag": "交易所直扣",
+          "title": "上线直连 BloFin 现货账户之万事达借记卡",
+          "note": "实现交易所资产免手动充值、刷卡即时自动扣款，支持全球万事达商户网络与 Apple Pay。"
+        }
+      ]
     },
     {
       "id": "lbank-card",
@@ -1711,7 +2237,15 @@
       "network": "Visa；提供虚拟卡与实体卡",
       "model": "从 LBank Spot 账户可用余额直接扣款，无需预先充值独立卡账户",
       "verified": "2026-09-30",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-25",
+          "type": "feature",
+          "tag": "实体卡升级",
+          "title": "发布实体卡申领规范与 0.8% 消费费率表",
+          "note": "更新申请 FAQ，明确虚拟卡 0 申请费、实体卡 69 USDT 工本费，并披露 0.8% 单笔消费手续费。"
+        }
+      ]
     },
     {
       "id": "moonagents-card",
@@ -1721,7 +2255,101 @@
       "network": "Mastercard 虚拟卡；由 Monavate 发行，MoonPay CLI 负责开户和管理流程",
       "model": "Solana 钱包授权 SPL 消费额度，交易时从自托管钱包扣款",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-27",
+          "type": "feature",
+          "tag": "MoonPay体系",
+          "title": "基于 MoonPay 基础设施推出零入金费稳定币卡",
+          "note": "支持免入金手续费存入稳定币，实时依照万事达国际汇率扣划链上资产，支持主流数字资产快速消费。"
+        }
+      ]
+    },
+    {
+      "id": "pulsar-card",
+      "name": "Pulsar Money Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；Visa Platinum 虚拟卡",
+      "model": "多链稳定币 1:1 存入充值至卡内法币（USD/EUR）余额进行 Visa 结算",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "reward",
+          "tag": "返现活动",
+          "title": "推出首笔刷卡消费 10% Cashback 活动",
+          "note": "官方上线限时消费奖励：首笔消费享受 10% 返现，消费上限按 $50 计算，最高可拿 500 Pulsar Points（等值约 $5），完成首笔卡片支付后自动入账。"
+        },
+        {
+          "date": "2026-10-01",
+          "type": "architecture",
+          "tag": "BaaS集成",
+          "title": "整合 Wirex BaaS 与 Circle Arc 稳定币清算层",
+          "note": "卡片后端接入 Wirex Banking-as-a-Service 架构，打通 Circle Arc 稳定币基础设施，实现多链稳定币即时清算及 USD/EUR 0% 原生汇率加价。"
+        },
+        {
+          "date": "2026-09-18",
+          "type": "feature",
+          "tag": "虚拟卡上线",
+          "title": "推出稳定币 1:1 兑付 Virtual Visa Platinum 卡",
+          "note": "支持多链稳定币充值，免月租，USD/EUR 本币消费享 0% FX 费率，支持绑定 Apple Pay 与 Google Pay。"
+        }
+      ]
+    },
+    {
+      "id": "xportal-card",
+      "name": "xPortal Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard；Mastercard Debit®（虚拟卡与 Fresh Mint 实体卡）",
+      "model": "直连 xPortal 非托管钱包，由 xMoney 进行加密资产法币即时清算扣款",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-10-05",
+          "type": "feature",
+          "tag": "生态融合",
+          "title": "全面接入 Sui 与 MultiversX 双链非托管支付",
+          "note": "与 xMoney 合作推出全新 Mastercard 借记卡，支持自托管钱包即时结算，上线 Fresh Mint 实体卡与虚拟卡，每日消费限额最高 €5,000。"
+        }
+      ]
+    },
+    {
+      "id": "decaf-card",
+      "name": "Decaf Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；Visa 虚拟及实体卡",
+      "model": "基于 Solana / Stellar 非托管钱包直接结算 USDC 稳定币扣款",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-09-28",
+          "type": "feature",
+          "tag": "双链非托管",
+          "title": "上线基于 Solana 与 Stellar 的 USDC Visa 借记卡",
+          "note": "面向全球 150 多个国家推出非托管 Visa 卡，支持个人与 Decaf Business 企业卡，支持 Apple Pay 快捷支付，消费直扣钱包 USDC。"
+        }
+      ]
+    },
+    {
+      "id": "casher-card",
+      "name": "CasherCard",
+      "stage": "degraded",
+      "stageLabel": "🟡 风控受限",
+      "network": "Visa / Mastercard；预付虚拟卡",
+      "model": "多链加密货币预充值至第三方托管卡账户，按需生成虚拟 Visa/Mastercard 消费",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-09-20",
+          "type": "compliance",
+          "tag": "通道监测",
+          "title": "第三方多链预付虚拟卡上线，主打海外广告投放与订阅",
+          "note": "支持 BTC/ETH/USDT/USDC 多链充值生成虚拟 Visa/Mastercard，开卡门槛低，但官方未透明披露持牌受托发卡银行，存在通道风控风险。"
+        }
+      ]
     },
     {
       "id": "nebeus-card",
@@ -1891,6 +2519,117 @@
           "tag": "资料收录",
           "title": "收录 Solana 生态双轨预付卡",
           "note": "完成 SolCard 官方资费与条款核验：确立免 KYC 虚拟卡（5% 充值费、$5,000 月额度）与需 KYC 白金卡（0% 充值费、支持 Apple/Google Pay）双层机制，排除香港等受限地区。"
+        }
+      ]
+    },
+    {
+      "id": "bleap-card",
+      "name": "Bleap Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard；由持牌电子货币机构 Unlimit EU Ltd 合作发行",
+      "model": "自托管钱包直接借记授权（Direct Debit Mandate）即时扣款；非托管借记卡，平台不控制用户私钥",
+      "verified": "2026-10-04",
+      "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "feature",
+          "tag": "新卡收录",
+          "title": "收录 ERC-4337 自托管 Mastercard",
+          "note": "完成 Bleap 官方资料核验：基于 Arbitrum 与账户抽象技术，由塞浦路斯央行监管持牌 EMI Unlimit EU Ltd 发行，直连自托管钱包免预存，实行 0 开卡费、0 月费与 0% FX 汇损加点，支持欧洲经济区（EEA）与瑞士居民合规申领。"
+        }
+      ]
+    },
+    {
+      "id": "kem-card",
+      "name": "Kem Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；由 Qbitech (Interlace) 及合作持牌金融机构发行",
+      "model": "Kem App 内 USDT 稳定币余额直接扣款，刷卡时按 1:1 USD 美元即时折算并清算",
+      "verified": "2026-10-05",
+      "changelogs": [
+        {
+          "date": "2026-10-05",
+          "type": "feature",
+          "tag": "新卡收录",
+          "title": "收录海湾 GCC 区域 USDT Visa 卡",
+          "note": "完成 Kem App 官方核验：获 Tether 战略投资，依托 Qbitech (Interlace) 清算架构发行 Visa 借记卡，直接扣划应用内 USDT 余额，免开卡费与月费，面向科威特、阿联酋等海湾国家居民合规开放。"
+        }
+      ]
+    },
+    {
+      "id": "bitsa-card",
+      "name": "Bitsa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；由西班牙持牌电子货币机构 Pecunia Cards E.D.E., S.L.（Pecunpay）发行",
+      "model": "独立欧元账户与西班牙 SEPA IBAN，支持通过 Bitnovo 加密资产充值或法币入金转为欧元预付卡结算",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "compliance",
+          "tag": "合规透视",
+          "title": "西班牙央行监管 EMI 机构 Pecunpay 发卡透视",
+          "note": "确认发卡行由西班牙央行持牌电子货币机构 Pecunia Cards E.D.E., S.L.（CSB 6707）支持，提供专属西班牙 SEPA IBAN，合规对接欧盟 MiCA 监管。"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "feature",
+          "tag": "加密充值",
+          "title": "集成 Bitnovo 加密充值与 SEPA 欧元即时汇款",
+          "note": "支持通过 Bitnovo 兑换券与加密货币为 Visa 预付卡充值，支持 Apple Pay 与 Google Pay 实体/虚拟双卡。"
+        }
+      ]
+    },
+    {
+      "id": "fold-card",
+      "name": "Fold Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；由 Sutton Bank（FDIC 成员行）通过 Stripe Issuing 合作发行",
+      "model": "美元借记卡账户，支持 ACH / Direct Deposit 充值，刷卡消费自动按比例返还比特币（Satoshis）",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "比特币返现",
+          "title": "基于 Stripe Issuing 架构的 Visa 借记卡返现体系",
+          "note": "经美国合规发卡行 Sutton Bank（FDIC 成员）及 Stripe Issuing 基础设施发行，合格消费提供 1.5%–4% 比特币（聪 / sats）返现与每日转盘奖励。"
+        },
+        {
+          "date": "2026-08-20",
+          "type": "fee",
+          "tag": "会员体系",
+          "title": "披露 Fold+ 会员年费与 0% 国内消费手续费",
+          "note": "提供免费版与 Fold+（$100/年）高级会员，美国境内美元刷卡 0% 交易费，国际外币交易收取 1% 跨境转换费。"
+        }
+      ]
+    },
+    {
+      "id": "reap-card",
+      "name": "Reap Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；Visa Platinum Business 商业信用卡；Reap Technologies 合作发行",
+      "model": "稳定币（USDT/USDC）质押授信企业商业信用卡，按账期清算直接对冲数字资产，无需提前出金法币",
+      "verified": "2026-10-07",
+      "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "稳定币企业卡",
+          "title": "香港持牌主体推行 Web3 稳定币企业 Visa 信用卡",
+          "note": "香港持牌机构 Reap Technologies 联合 Visa 全球网络，支持 Web3 企业以 USDT/USDC 为抵押开立 Visa Platinum Business 商业信用卡，免预先法币兑换。"
+        },
+        {
+          "date": "2026-09-01",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "公布 0 开卡费与 2% 跨境外汇手续费细则",
+          "note": "企业虚拟卡开卡费 $0、无账户维护费；非 USD/HKD 跨境消费收取约 1.95%–2% FX 外汇转换费，支持自动抵扣企业 SaaS 与云服务开支。"
         }
       ]
     }

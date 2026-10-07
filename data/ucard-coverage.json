@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 104,
-    "current": 95,
-    "kycRequired": 84,
-    "kycConditional": 3,
-    "kycUnknown": 8,
+    "total": 113,
+    "current": 104,
+    "kycRequired": 91,
+    "kycConditional": 4,
+    "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 9,
-    "officialSources": 371
+    "officialSources": 391
   },
   "rows": [
     {
@@ -165,7 +165,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/coinbase/"
     },
     {
@@ -261,21 +261,21 @@
       "name": "Card.fi",
       "kyc": "conditional",
       "kycLabel": "视发卡方要求核验",
-      "status": "regional",
-      "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 5,
-      "verified": "2026-10-01",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 4,
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/card-fi/"
     },
     {
       "id": "moneygram-card",
       "name": "MoneyGram Card",
-      "kyc": "required",
-      "kycLabel": "需要 KYC",
-      "status": "regional",
-      "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
-      "verified": "2026-10-01",
+      "kyc": "unknown",
+      "kycLabel": "官方未说明",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 2,
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/moneygram-card/"
     },
     {
@@ -330,7 +330,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-10-04",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/naka-plus/"
     },
     {
@@ -363,7 +363,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/zar-card/"
     },
     {
@@ -407,7 +407,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/chipper-card/"
     },
     {
@@ -429,7 +429,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/morse-card/"
     },
     {
@@ -440,7 +440,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/fluyez-card/"
     },
     {
@@ -451,7 +451,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/thera-card/"
     },
     {
@@ -473,7 +473,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-10-04",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/wayex-card/"
     },
     {
@@ -517,7 +517,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-10-04",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/sendwave-card/"
     },
     {
@@ -797,12 +797,12 @@
     },
     {
       "id": "coca-card",
-      "name": "COCA Visa Card",
+      "name": "COCA Mastercard",
       "kyc": "unknown",
       "kycLabel": "官方未说明",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "verified": "2026-09-29",
       "profileUrl": "https://ucard.observer/cards/coca-card/"
     },
@@ -879,7 +879,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 2,
       "verified": "2026-09-29",
       "profileUrl": "https://ucard.observer/cards/tuyo-card/"
     },
@@ -1071,6 +1071,50 @@
       "profileUrl": "https://ucard.observer/cards/moonagents-card/"
     },
     {
+      "id": "pulsar-card",
+      "name": "Pulsar Money Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/pulsar-card/"
+    },
+    {
+      "id": "xportal-card",
+      "name": "xPortal Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/xportal-card/"
+    },
+    {
+      "id": "decaf-card",
+      "name": "Decaf Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/decaf-card/"
+    },
+    {
+      "id": "casher-card",
+      "name": "CasherCard",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 2,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/casher-card/"
+    },
+    {
       "id": "nebeus-card",
       "name": "Nebeus Card",
       "kyc": "not-applicable",
@@ -1157,6 +1201,61 @@
       "sourceCount": 3,
       "verified": "2026-10-03",
       "profileUrl": "https://ucard.observer/cards/solcard/"
+    },
+    {
+      "id": "bleap-card",
+      "name": "Bleap Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-04",
+      "profileUrl": "https://ucard.observer/cards/bleap-card/"
+    },
+    {
+      "id": "kem-card",
+      "name": "Kem Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-05",
+      "profileUrl": "https://ucard.observer/cards/kem-card/"
+    },
+    {
+      "id": "bitsa-card",
+      "name": "Bitsa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/bitsa-card/"
+    },
+    {
+      "id": "fold-card",
+      "name": "Fold Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/fold-card/"
+    },
+    {
+      "id": "reap-card",
+      "name": "Reap Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-07",
+      "profileUrl": "https://ucard.observer/cards/reap-card/"
     }
   ]
 }
