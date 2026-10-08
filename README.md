@@ -2,14 +2,14 @@
 
 [![Official Website](https://img.shields.io/badge/Live_Site-ucard.observer-008080?style=for-the-badge&logo=safari&logoColor=white)](https://ucard.observer)
 [![Cards Tracked](https://img.shields.io/badge/Cards_Tracked-113_Brands-blue?style=for-the-badge)](https://ucard.observer/cards/)
-[![Last Verified](https://img.shields.io/badge/Verified-2026--10--07-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
+[![Last Verified](https://img.shields.io/badge/Verified-2026--10--08-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
 [![License](https://img.shields.io/badge/License-MIT_%2F_CC--BY--4.0-orange?style=for-the-badge)](LICENSE)
 [![Data Formats](https://img.shields.io/badge/Data_Formats-JSON_%7C_CSV-blueviolet?style=for-the-badge)](#open-datasets)
 
 > **Curated, source-backed directory and dataset of 113+ crypto debit/prepaid cards (Visa/Mastercard) and stablecoin payment solutions.**  
 > Tracking KYC requirements, fee breakdowns, cashback conditions, Apple Pay / Google Pay support, and overseas AI subscription (ChatGPT / Claude) compatibility.
 
-Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-07**.
+Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-08**.
 
 ---
 
@@ -26,6 +26,10 @@ Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data upda
 
 ## 📚 High-Impact Practical Playbooks & Guides
 
+- 🏆 **[Top 10 Crypto Debit Cards in 2026: Comprehensive Benchmark](https://ucard.observer/articles/best-crypto-cards-2026-comprehensive-review/)** — Head-to-head comparison of Bybit, RedotPay, ether.fi, Plasma One, COCA, Fold, Bitsa, Bleap, xPortal, and Reap across issuance, spreads, and custody.
+- 💸 **[Crypto Card Hidden FX Fees & DCC Traps Guide](https://ucard.observer/articles/crypto-card-hidden-fx-fees-dcc-pitfalls-guide/)** — Exposing "zero fee" marketing gimmicks, internal conversion spreads, cross-border markups, and terminal DCC avoidance SOPs.
+- 🔐 **[Non-Custodial Crypto Cards Security & Review](https://ucard.observer/articles/non-custodial-crypto-cards-security-review/)** — Evaluating smart contract accounts (ERC-4337) and MPC key-sharding against issuer bankruptcy, session key risks, and unlimited allowance exploits.
+- 🏢 **[Web3 Corporate Crypto Cards & Business Expense Playbook](https://ucard.observer/articles/web3-corporate-crypto-cards-business-expense-guide/)** — Stablecoin-collateralized commercial credit lines (Reap Card) for corporate SaaS, cloud hosting (AWS), and ad spend with GAAP/IFRS bookkeeping.
 - 🤖 **[ChatGPT Plus & Gemini Advanced AI Subscription Guide](https://ucard.observer/articles/chatgpt-gemini-ai-subscription-crypto-card-guide/)** — Direct payment guide covering Stripe 3DS challenges, zero-tax US billing states, and Google Pay pass-through.
 - 🛍️ **[Amazon & Temu Global E-Commerce Guide](https://ucard.observer/articles/amazon-temu-cross-border-shopping-crypto-card-guide/)** — Minimizing FX conversion spreads, defeating dynamic currency conversion (DCC), and dispute resolution.
 - ✈️ **[Digital Nomad Airbnb & Flight Booking Playbook](https://ucard.observer/articles/digital-nomad-airbnb-flights-crypto-card-guide/)** — Buffer management for 30-day hotel pre-authorization holds, ATM cash access, and multi-region roaming.

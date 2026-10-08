@@ -1861,6 +1861,13 @@
       "verified": "2026-09-29",
       "changelogs": [
         {
+          "date": "2026-10-08",
+          "type": "compliance",
+          "tag": "官方卡面",
+          "title": "完成官方 Visa Platinum 绿色卡面核验与素材接入",
+          "note": "从 Kolo 官方应用商店发行资料与官方展示源复核并收录绿色涂鸦版 Visa Platinum 官方卡面，明确 Apple Pay 与 Google Pay 绑定支持及欧洲经济区合规要求。"
+        },
+        {
           "date": "2026-07-28",
           "type": "feature",
           "tag": "产品上线",

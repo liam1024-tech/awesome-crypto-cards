@@ -1,4 +1,5 @@
 ﻿"cardId","cardName","date","type","tag","title","note"
+"kolo-card","Kolo Card","2026-10-08","compliance","官方卡面","完成官方 Visa Platinum 绿色卡面核验与素材接入","从 Kolo 官方应用商店发行资料与官方展示源复核并收录绿色涂鸦版 Visa Platinum 官方卡面，明确 Apple Pay 与 Google Pay 绑定支持及欧洲经济区合规要求。"
 "pulsar-card","Pulsar Money Card","2026-10-07","reward","返现活动","推出首笔刷卡消费 10% Cashback 活动","官方上线限时消费奖励：首笔消费享受 10% 返现，消费上限按 $50 计算，最高可拿 500 Pulsar Points（等值约 $5），完成首笔卡片支付后自动入账。"
 "bitsa-card","Bitsa Card","2026-10-07","compliance","合规透视","西班牙央行监管 EMI 机构 Pecunpay 发卡透视","确认发卡行由西班牙央行持牌电子货币机构 Pecunia Cards E.D.E., S.L.（CSB 6707）支持，提供专属西班牙 SEPA IBAN，合规对接欧盟 MiCA 监管。"
 "fold-card","Fold Card","2026-10-07","feature","比特币返现","基于 Stripe Issuing 架构的 Visa 借记卡返现体系","经美国合规发卡行 Sutton Bank（FDIC 成员）及 Stripe Issuing 基础设施发行，合格消费提供 1.5%–4% 比特币（聪 / sats）返现与每日转盘奖励。"

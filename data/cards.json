@@ -9869,9 +9869,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://kolo.xyz/"
+        "status": "official",
+        "path": "/card-art/kolo-card.webp",
+        "file": "kolo-card.webp",
+        "imageUrl": "https://apps.apple.com/pt/app/kolo-wallet/id6740210180",
+        "sourcePage": "https://kolo.xyz/",
+        "version": "Kolo Visa Platinum 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/kolo-card/",
       "statusLabel": "地区受限 · 资格需核实"
