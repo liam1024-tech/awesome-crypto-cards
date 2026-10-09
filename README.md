@@ -1,21 +1,21 @@
 # Awesome Crypto Cards & Open Payment Dataset 💳
 
 [![Official Website](https://img.shields.io/badge/Live_Site-ucard.observer-008080?style=for-the-badge&logo=safari&logoColor=white)](https://ucard.observer)
-[![Cards Tracked](https://img.shields.io/badge/Cards_Tracked-113_Brands-blue?style=for-the-badge)](https://ucard.observer/cards/)
-[![Last Verified](https://img.shields.io/badge/Verified-2026--10--08-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
+[![Cards Tracked](https://img.shields.io/badge/Cards_Tracked-117_Brands-blue?style=for-the-badge)](https://ucard.observer/cards/)
+[![Last Verified](https://img.shields.io/badge/Verified-2026--10--09-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
 [![License](https://img.shields.io/badge/License-MIT_%2F_CC--BY--4.0-orange?style=for-the-badge)](LICENSE)
 [![Data Formats](https://img.shields.io/badge/Data_Formats-JSON_%7C_CSV-blueviolet?style=for-the-badge)](#open-datasets)
 
-> **Curated, source-backed directory and dataset of 113+ crypto debit/prepaid cards (Visa/Mastercard) and stablecoin payment solutions.**  
+> **Curated, source-backed directory and dataset of 117+ crypto debit/prepaid cards (Visa/Mastercard) and stablecoin payment solutions.**  
 > Tracking KYC requirements, fee breakdowns, cashback conditions, Apple Pay / Google Pay support, and overseas AI subscription (ChatGPT / Claude) compatibility.
 
-Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-08**.
+Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-09**.
 
 ---
 
 ## 🌐 Quick Access & Online Tools
 
-- 🔍 **[Interactive Card Directory](https://ucard.observer/cards/)** — Filter 113 brands by KYC tier, custody model, and regional availability.
+- 🔍 **[Interactive Card Directory](https://ucard.observer/cards/)** — Filter 117 brands by KYC tier, custody model, and regional availability.
 - 🏆 **[2026 Crypto Card Rankings](https://ucard.observer/rankings/)** — Multi-dimensional ranking prioritizing everyday use, low fees, or cashback rewards.
 - 🧮 **[Fee & Cashback Calculator](https://ucard.observer/tools/fee-calculator/)** — Calculate real monthly net costs factoring in issuance, FX fees, top-up haircuts, and reward tiers.
 - 📱 **[Mobile Wallets & AI Subscriptions Matrix](https://ucard.observer/compare/payment-compatibility/)** — Full compatibility table for Apple Pay, Google Pay, OpenAI, and Anthropic Claude.
@@ -47,11 +47,13 @@ Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data upda
 | **[Plasma One](https://ucard.observer/cards/plasma-one/)** | Visa / MC | Lite / Core / Platinum Account | Required | Free virtual / 0–1% FX | 0.25%–1% in XPL | ✅ Official Support | ✅ Verified Support |
 | **[Bitrefill Card](https://ucard.observer/cards/bitrefill-card/)** | Mastercard | Non-custodial crypto top-up (EEA) | Required (EEA Residents) | €0 Virtual / 0% EUR spend (1.5% FX) | 1%–2% in Bitcoin (BTC) | ✅ Official Support | ✅ Verified (Non-EUR 1.5% FX) |
 | **[RedotPay](https://ucard.observer/cards/redotpay/)** | Visa / MC | Centralized stablecoin balance | Required (Face/ID/Address) | $10 Virtual, $100 Physical / 1.2% FX | 3% USDs (Pro Plan, $18 cap) | ✅ Official Support | ✅ Verified Support |
+| **[Rizon Card](https://ucard.observer/cards/rizon-card/)** | Visa | Non-custodial multi-chain USDC/USDT | Required (ID/Passport) | $10 Virtual / ~1.02% base FX | Up to 2.5% cashback | ✅ Official Support | ✅ Verified Support |
+| **[Oobit Card](https://ucard.observer/cards/oobit-card/)** | Visa | Direct self-custody wallet (MetaMask/Phantom) | Required (Face/ID) | $0 Virtual / 1% transaction fee | Up to 1%–5% cashback | ✅ Official Support | ✅ Verified Support |
 | **[Solayer Pay](https://ucard.observer/cards/solayer-pay/)** | Visa | Self-custody Solana USDC | Required (In-app check) | On-chain authorization / App quote | Variable | ✅ Official Support | ◐ Community tested |
 | **[BingX Card](https://ucard.observer/cards/bingx-card/)** | Visa | Exchange USDT balance | Required (BingX Account) | Free virtual / 1.5% transaction | Tiers up to 3%–5% USDT | ◐ Region dependent | ◐ Community tested |
 | **[Bybit Card](https://ucard.observer/cards/bybit/)** | Mastercard | Exchange account balance (EEA/APAC) | Required (Level 2 KYC) | Free virtual / 0.5% exchange fee | 2%–10% points | ✅ Official Support | ◐ Region dependent |
 
-*Explore all 113 card profiles with complete official source links at [ucard.observer/cards/](https://ucard.observer/cards/).*
+*Explore all 117 card profiles with complete official source links at [ucard.observer/cards/](https://ucard.observer/cards/).*
 
 ---
 
@@ -61,13 +63,13 @@ All dataset files in this repository are exported directly from our automated bu
 
 | File Path | Format | Records | Description |
 | :--- | :--- | :--- | :--- |
-| [`data/cards.json`](data/cards.json) | JSON | 113 Cards | Complete profiles: metadata, fee schedules, KYC notes, bullet facts, and verified official source URLs. |
+| [`data/cards.json`](data/cards.json) | JSON | 117 Cards | Complete profiles: metadata, fee schedules, KYC notes, bullet facts, and verified official source URLs. |
 | [`data/crypto-card-bins.json`](data/crypto-card-bins.json) | JSON | 23 BINs | Audited crypto card BIN numbers, card types (Debit/Prepaid), sponsor banks, 3DS, Stripe acceptance ratings, and delisting risk flags. |
 | [`data/crypto-card-bins.csv`](data/crypto-card-bins.csv) | CSV | 23 BINs | CSV equivalent of the verified crypto card BIN directory and sponsor bank mapping. |
-| [`data/ucard-coverage.csv`](data/ucard-coverage.csv) | CSV | 113 Cards | Dataset coverage snapshot: KYC status, product operating state, official source counts, and review timestamps. |
-| [`data/ucard-coverage.json`](data/ucard-coverage.json) | JSON | 113 Cards | JSON equivalent of the coverage snapshot, including summary aggregate counts. |
-| [`data/payment-compatibility.csv`](data/payment-compatibility.csv) | CSV | 113 Cards | Matrix of network, issuer, BIN classification, Apple Pay, Google Pay, and AI subscription support. |
-| [`data/status-radar.json`](data/status-radar.json) | JSON | 113 Cards | Live card lifecycle status radar (Active, Degraded, Paused, Winding Down, Closed), emergency delisting risk alerts, and policy changelogs. |
+| [`data/ucard-coverage.csv`](data/ucard-coverage.csv) | CSV | 117 Cards | Dataset coverage snapshot: KYC status, product operating state, official source counts, and review timestamps. |
+| [`data/ucard-coverage.json`](data/ucard-coverage.json) | JSON | 117 Cards | JSON equivalent of the coverage snapshot, including summary aggregate counts. |
+| [`data/payment-compatibility.csv`](data/payment-compatibility.csv) | CSV | 117 Cards | Matrix of network, issuer, BIN classification, Apple Pay, Google Pay, and AI subscription support. |
+| [`data/status-radar.json`](data/status-radar.json) | JSON | 117 Cards | Live card lifecycle status radar (Active, Degraded, Paused, Winding Down, Closed), emergency delisting risk alerts, and policy changelogs. |
 | [`data/card-changelogs.csv`](data/card-changelogs.csv) | CSV | 170+ Events | Chronological audit log of historical policy and fee shifts (cashback asset conversions, minimum withdrawal limits, lockups, fee updates). |
 | [`data/cashback-comparison.csv`](data/cashback-comparison.csv) | CSV | Tier Scenarios | Nominal cashback comparison modeling across $1,000, $3,000, and $5,000 monthly spend brackets. |
 
@@ -104,16 +106,16 @@ console.log(`Verified active no-KYC cards: ${noKycCards.length}`); // 0
 
 ## 🔬 Dataset Coverage & Methodology
 
-As of **2026-10-03**:
-- **Total Brand Profiles**: 104
-- **Active / Beta / Review Status**: 98
-- **Discontinued / Archived Records**: 6 *(Historical references preserved to warn users against inactive products like BitMart Card or Morph Black)*
+As of **2026-10-09**:
+- **Total Brand Profiles**: 117
+- **Active / Current Status**: 108
+- **Discontinued / Closed Records**: 9 *(Historical references preserved to warn users against inactive products like BitMart Card or Morph Black)*
 - **KYC Verification Breakdown**:
-  - `KYC Required`: 82 brands
-  - `Conditional / Issuer Discretion`: 3 brands
-  - `Not Stated in Public Documentation`: 13 brands
+  - `KYC Required`: 95 brands
+  - `Conditional / Issuer Discretion`: 4 brands
+  - `Not Stated in Public Documentation`: 9 brands
   - `Verified No-KYC Mainstream Active Cards`: **0** *(Warning: Platforms claiming "100% No-KYC Visa/Mastercard" without identity checks typically operate via unauthorized sub-bins or violate card scheme compliance)*
-- **Total Official Source Links**: 370 verified URLs
+- **Total Official Source Links**: 403 verified URLs
 
 ---
 

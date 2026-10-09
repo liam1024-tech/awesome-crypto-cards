@@ -436,6 +436,13 @@
       "verified": "2026-09-27",
       "changelogs": [
         {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "试点拓展",
+          "title": "MetaMask Card 扩展 Linea L2 极速结算与扩大欧洲测试",
+          "note": "官方宣布 MetaMask Card 扩大与 Mastercard / Baanx 的试点合作，全面接入 Linea 网络毫秒级链上清算，降低 Gas 摩擦并支持更多 ERC-20 资产直接刷卡。"
+        },
+        {
           "date": "2026-08-18",
           "type": "compliance",
           "tag": "暂缓申请",
@@ -730,7 +737,22 @@
       "network": "Visa；卡片通过持牌合作方发行",
       "model": "平台稳定币余额 / 虚拟 Visa",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-01",
+          "type": "compliance",
+          "tag": "资料核验",
+          "title": "Cashi Visa Platinum 费率基线确立",
+          "note": "完成官方条款核验，确定基于 Solana 链上结算与 Stripe Rails 清算的基础费率、KYC 规则与支持地区。"
+        },
+        {
+          "date": "2026-06-15",
+          "type": "feature",
+          "tag": "公测推进",
+          "title": "Cashi 卡片公开测试与 Apple Pay 集成",
+          "note": "官方开放部分地区公测体验，虚拟卡支持绑定 Apple Pay 快捷消费。"
+        }
+      ]
     },
     {
       "id": "kraken-card",
@@ -784,6 +806,13 @@
       "model": "OKX Pay 智能钱包稳定币余额",
       "verified": "2026-09-27",
       "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "feature",
+          "tag": "欧洲试点",
+          "title": "OKX Card 欧洲万事达卡计划稳步推展",
+          "note": "OKX 官方持续推进在欧洲经济区（EEA）的持牌发卡试点，支持多资产钱包实时扣除与阶梯积分权益。"
+        },
         {
           "date": "2026-04-15",
           "type": "compliance",
@@ -1045,7 +1074,22 @@
       "network": "Visa；Lead Bank 发行，Bridge 管理，Fuse 提供入口",
       "model": "Solana USDC 钱包 / 虚拟 Visa 预付卡",
       "verified": "2026-09-27",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-09-15",
+          "type": "compliance",
+          "tag": "资料核验",
+          "title": "Fuse Card 官方条款核验与费用基线确立",
+          "note": "完成 Fuse Wallet 非托管 Visa 借记卡官方条款核验，确定 0% 基础刷卡费与合规开卡地区。"
+        },
+        {
+          "date": "2026-04-10",
+          "type": "feature",
+          "tag": "产品发布",
+          "title": "基于 Fuse Network 的非托管 Visa 卡上线",
+          "note": "官方推出结合智能合约钱包的加密 Visa 卡，支持用 VOLT 与稳定币直接刷卡消费。"
+        }
+      ]
     },
     {
       "id": "unifi-card",
@@ -1514,6 +1558,13 @@
       "verified": "2026-09-29",
       "changelogs": [
         {
+          "date": "2026-10-08",
+          "type": "compliance",
+          "tag": "官方卡面",
+          "title": "完成官方 Visa Platinum 卡面核验与双轨发卡架构更新",
+          "note": "从 Jupiter 官方技术文档复核并录入 Visa Platinum 官方深色质感卡面，明确 Rain 与 DCS 双轨发卡机制及全球 50+ 国合规支持细节。"
+        },
+        {
           "date": "2026-09-20",
           "type": "feature",
           "tag": "生态互联",
@@ -1617,6 +1668,13 @@
       "model": "Gate Pay / Spot 账户资产按卡片规则转换为法币消费",
       "verified": "2026-09-27",
       "changelogs": [
+        {
+          "date": "2026-10-08",
+          "type": "feature",
+          "tag": "生态拓展",
+          "title": "深化 Visa 全球合作并拓展覆盖至全球 40+ 地区",
+          "note": "Gate 官方宣布与 Visa 深化战略合作，进一步将加密 Visa 借记卡推广至全球 40 多个国家与地区，打通全球 1.75 亿家 Visa 受理商户，提供虚拟卡与实体卡多形态，并支持最高 8% 阶梯消费返现。"
+        },
         {
           "date": "2026-08-31",
           "type": "reward",
@@ -2128,7 +2186,22 @@
       "network": "旧版卡网络依卡种和地区；已不可使用",
       "model": "已关闭的旧版个人消费卡计划",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-08-20",
+          "type": "incident",
+          "tag": "服务终结",
+          "title": "Infini Card 旧卡计划全面停服并归档",
+          "note": "旧版机构发卡通道协议到期终止，官方提示持卡人清退余额，产品正式转入历史停服公墓档案。"
+        },
+        {
+          "date": "2025-12-01",
+          "type": "compliance",
+          "tag": "通道维护",
+          "title": "发卡通道重组并暂停新卡注册",
+          "note": "合作通道调整，暂停新用户申请并启动存量账户清算准备。"
+        }
+      ]
     },
     {
       "id": "dupay-card-archive",
@@ -2170,7 +2243,15 @@
       "network": "不再提供可用消费卡",
       "model": "已结束的 Morph Pay 会员卡项目及链上凭证",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-01",
+          "type": "incident",
+          "tag": "服务终结",
+          "title": "Morph Black 卡计划终止并转入公墓档案",
+          "note": "发卡行终止 Visa 合作清算通道，卡片正式停服并进入历史公墓收录。"
+        }
+      ]
     },
     {
       "id": "morph-platinum-archive",
@@ -2180,7 +2261,15 @@
       "network": "不再提供可用消费卡",
       "model": "已结束的 Morph Pay 会员卡项目及链上凭证",
       "verified": "2026-09-29",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-07-01",
+          "type": "incident",
+          "tag": "服务终结",
+          "title": "Morph Platinum 卡计划终止并转入公墓档案",
+          "note": "发卡行终止 Visa 合作清算通道，卡片正式停服并进入历史公墓收录。"
+        }
+      ]
     },
     {
       "id": "infini-personal-card",
@@ -2384,7 +2473,22 @@
       "network": "官方预览页未完整披露",
       "model": "计划从 YouHodler 钱包充值后使用；现行结算与卡网络细节待公布",
       "verified": "2026-10-04",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-05",
+          "type": "feature",
+          "tag": "收益增强",
+          "title": "闲置资产生息联动与瑞士合规借记卡升级",
+          "note": "优化卡内备付金生息体系，持卡人未消费加密资产享有最高 8% 复合收益，虚拟与实体 Mastercard 正式向瑞士及欧洲居民配发。"
+        },
+        {
+          "date": "2026-05-10",
+          "type": "compliance",
+          "tag": "资料核验",
+          "title": "瑞士金融中介机构合规基线确立",
+          "note": "核验 YouHodler SA 瑞士 SRO 成员资质，明确 EEA/瑞士居民准入与 0% 基础月费标准。"
+        }
+      ]
     },
     {
       "id": "trastra-card",
@@ -2637,6 +2741,78 @@
           "tag": "费率公布",
           "title": "公布 0 开卡费与 2% 跨境外汇手续费细则",
           "note": "企业虚拟卡开卡费 $0、无账户维护费；非 USD/HKD 跨境消费收取约 1.95%–2% FX 外汇转换费，支持自动抵扣企业 SaaS 与云服务开支。"
+        }
+      ]
+    },
+    {
+      "id": "thorwallet-card",
+      "name": "THORWallet Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard；持牌金融机构依据 Mastercard 国际卡组织许可发行",
+      "model": "自托管多链钱包直连充值；借记卡，不设中心化资产资金池沉淀；可选配备瑞士合规 IBAN 个人账户",
+      "verified": "2026-10-08",
+      "changelogs": [
+        {
+          "date": "2026-10-08",
+          "type": "product",
+          "tag": "产品收录",
+          "title": "收录支持全球 175+ 国的自托管 Mastercard 借记卡",
+          "note": "完成 THORWallet 官方 Mastercard 借记卡核验，确认支持自托管钱包即时充值消费、瑞士 IBAN 多币种账户，以及美国等 175+ 国合规开卡。"
+        }
+      ]
+    },
+    {
+      "id": "tonhub-card",
+      "name": "Tonhub Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；欧洲持牌金融机构依据 Visa 国际卡组织许可发行",
+      "model": "Tonhub 链上非托管钱包直连扣款，交易时按需划扣 TON 与 USDT；借记卡，不设中心化资金池沉淀；支持配备个人专属 SEPA 银行账户",
+      "verified": "2026-10-09",
+      "changelogs": [
+        {
+          "date": "2026-10-09",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 TON 生态首款非托管 Visa 借记卡",
+          "note": "完成 Tonhub 官方 Visa 借记卡核验，确认支持链上 TON 与 USDT 直接结算、欧洲个人专属 SEPA IBAN 与 Apple Pay 碰一碰支付。"
+        }
+      ]
+    },
+    {
+      "id": "rizon-card",
+      "name": "Rizon Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa Platinum；由 Signify Holdings Inc. 及其子公司 Nimbus LLC (Rain) 依据 Visa 许可合作发行",
+      "model": "非托管多链稳定币钱包直连扣款；刷卡消费时由合作金融机构（Signify/Rain）实时清算稳定币并结算为法币；借记卡，不设中心化资金池沉淀",
+      "verified": "2026-10-09",
+      "changelogs": [
+        {
+          "date": "2026-10-09",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录基于 Privy 多链非托管的 Rizon Visa 借记卡",
+          "note": "完成 Rizon 官方 Visa Platinum 借记卡核验，确认支持多链 USDC/USDT 扣款、Rain BaaS 清算架构、ACH/SEPA 银行账户与 Apple Pay。"
+        }
+      ]
+    },
+    {
+      "id": "oobit-card",
+      "name": "Oobit Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa Platinum；由持牌金融机构合作方（含 Rain / 授权发卡行）依据 Visa 许可发行",
+      "model": "直连外部自托管钱包或 Oobit 账户免预充值直接划扣；消费时触发即时 DEX/流动性结算折算法币；借记卡，不设中心化沉淀资金",
+      "verified": "2026-10-09",
+      "changelogs": [
+        {
+          "date": "2026-10-09",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Tether 战略投资的 Oobit Tap-to-Pay 支付卡",
+          "note": "完成 Oobit 官方 Visa 借记卡与 App 核验，确认支持直连自托管钱包免预存直刷、1% 交易手续费、零开卡费与 Apple Pay 碰一碰闪付。"
         }
       ]
     }

@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 113,
-    "current": 104,
-    "kycRequired": 91,
+    "total": 117,
+    "current": 108,
+    "kycRequired": 95,
     "kycConditional": 4,
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 9,
-    "officialSources": 391
+    "officialSources": 403
   },
   "rows": [
     {
@@ -1256,6 +1256,50 @@
       "sourceCount": 3,
       "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/reap-card/"
+    },
+    {
+      "id": "thorwallet-card",
+      "name": "THORWallet Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-08",
+      "profileUrl": "https://ucard.observer/cards/thorwallet-card/"
+    },
+    {
+      "id": "tonhub-card",
+      "name": "Tonhub Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-09",
+      "profileUrl": "https://ucard.observer/cards/tonhub-card/"
+    },
+    {
+      "id": "rizon-card",
+      "name": "Rizon Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-09",
+      "profileUrl": "https://ucard.observer/cards/rizon-card/"
+    },
+    {
+      "id": "oobit-card",
+      "name": "Oobit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-09",
+      "profileUrl": "https://ucard.observer/cards/oobit-card/"
     }
   ]
 }

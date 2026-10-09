@@ -112,3 +112,7 @@
 "bitsa-card","Bitsa Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-07","https://ucard.observer/cards/bitsa-card/"
 "fold-card","Fold Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-07","https://ucard.observer/cards/fold-card/"
 "reap-card","Reap Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-07","https://ucard.observer/cards/reap-card/"
+"thorwallet-card","THORWallet Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-08","https://ucard.observer/cards/thorwallet-card/"
+"tonhub-card","Tonhub Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-09","https://ucard.observer/cards/tonhub-card/"
+"rizon-card","Rizon Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-09","https://ucard.observer/cards/rizon-card/"
+"oobit-card","Oobit Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-09","https://ucard.observer/cards/oobit-card/"

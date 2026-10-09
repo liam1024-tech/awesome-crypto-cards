@@ -8092,9 +8092,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://docs.jup.ag/user-docs/global/spend/jupiter-card"
+        "status": "official",
+        "path": "/card-art/jupiter-card.webp",
+        "file": "jupiter-card.webp",
+        "imageUrl": "https://mintcdn.com/jupiter-support/ts8n-0A3Q1IinBJ4/images/spend/card-manage.png",
+        "sourcePage": "https://docs.jup.ag/user-docs/global/spend/jupiter-card",
+        "version": "Jupiter Visa Platinum 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/jupiter-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -9872,7 +9876,8 @@
         "status": "official",
         "path": "/card-art/kolo-card.webp",
         "file": "kolo-card.webp",
-        "imageUrl": "https://apps.apple.com/pt/app/kolo-wallet/id6740210180",
+        "sourceFile": "kolo-card.png",
+        "imageUrl": "",
         "sourcePage": "https://kolo.xyz/",
         "version": "Kolo Visa Platinum 官方卡面",
         "mode": "contain"
@@ -12448,7 +12453,8 @@
         "status": "official",
         "path": "/card-art/xportal-card.webp",
         "file": "xportal-card.webp",
-        "imageUrl": "https://cdn.prod.website-files.com/668ba4581fecf62c0ba9e2d5/6852ca5086b62dfd3170fab9_xportal-card.avif",
+        "sourceFile": "xportal-card.png",
+        "imageUrl": "",
         "sourcePage": "https://xportal.com/card",
         "version": "Fresh Mint Mastercard 官方卡面",
         "mode": "contain"
@@ -14415,6 +14421,562 @@
         }
       },
       "url": "https://ucard.observer/cards/reap-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-08",
+      "modified": "2026-10-08",
+      "verified": "2026-10-08",
+      "id": "thorwallet-card",
+      "name": "THORWallet Card",
+      "aliases": "THORWallet Card THORWallet Mastercard Swiss IBAN SEPA TITN non-custodial debit",
+      "mark": "T",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "申领卡片需完成合规身份核验（KYC）。基础虚拟卡通过应用内轻量合规核验快速签发；开立瑞士 IBAN 银行账户或申领 Premium 实体卡需提交合规法定身份证明（护照或身份证）与有效居住地址证明。",
+      "intro": "THORWallet 官方推出的多链自托管 Mastercard 借记卡与瑞士多币种银行账户（Swiss IBAN）。用户私钥始终自主掌控，支持通过钱包内的 USDC 随时充值消费，全球 175+ 国家（包含美国 30+ 州）合规可用。提供 Basic 虚拟卡、Premium 实体卡（0.5% USDC 真实返现）以及支持 CHF、EUR、USD、RMB 多币种清算的瑞士 IBAN 银行账户方案。",
+      "model": "自托管多链钱包直连充值；借记卡，不设中心化资产资金池沉淀；可选配备瑞士合规 IBAN 个人账户",
+      "network": "Mastercard；持牌金融机构依据 Mastercard 国际卡组织许可发行",
+      "region": "面向全球 175+ 国家和地区合规居民开放，包括美国本土（30+ 州）、欧洲及亚太多个司法管辖区；少数地区依审核流程要求提供补充证明；受国际制裁地区除外。",
+      "fee": "Basic 虚拟卡凭邀请码免费（无邀请码 $5 一次性）；Premium 实体卡一次性 $99（无推荐码 $124），无强制月费或年费。加密充值 0% 手续费（瑞士 IBAN 方案为 0.25%–1%）；FX 外汇加价 1.5%（瑞士 IBAN 方案为 1.0%）；ATM 取现境内 $1 / 跨境 $5。",
+      "rewards": "Premium 计划享有每月前 $5,000 消费金额 0.5% 无套路 USDC 真实返现，直接发放到个人链上自托管钱包，无移动钱包或平台代币质押强制要求。",
+      "paymentCompatibility": {
+        "sourceName": "THORWallet Card",
+        "network": "Mastercard",
+        "issuer": "瑞士持牌银行合作伙伴及 Mastercard 授权发卡机构",
+        "region": "全球 175+ 国家（含美国及欧洲多国）",
+        "researchDate": "2026-10-08",
+        "applePay": {
+          "status": "official",
+          "detail": "官方明确支持添加至 Apple Pay，畅刷全球线下零售 POS。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方明确支持添加至 Google Pay 移动钱包。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "Mastercard 借记卡清算网络，支持绑定 OpenAI、Claude 等海外 SaaS 及云服务扣款。"
+        }
+      },
+      "sources": [
+        {
+          "title": "THORWallet 官方卡片与瑞士账户说明（2026-10-08 核对）",
+          "url": "https://www.thorwallet.org/card"
+        },
+        {
+          "title": "THORWallet 官方移动应用下载与产品入口（2026-10-08 核对）",
+          "url": "https://app.thorwallet.org/"
+        },
+        {
+          "title": "THORWallet 官方 Brand Kit 品牌资产（2026-10-08 核对）",
+          "url": "https://www.thorwallet.org/brand-kit"
+        }
+      ],
+      "facts": [
+        [
+          "自托管私钥与即刷即充机制",
+          "资产始终存放在用户的多链自托管钱包中，私钥不离设备；仅在需要消费时用 USDC 充值卡片，从根源规避发卡商倒闭挪用本金。",
+          [
+            0
+          ]
+        ],
+        [
+          "全球 175+ 国家与美国市场覆盖",
+          "极少数同时向美国本土居民合规开放的加密借记卡之一，支持包括加州、纽约、得州等在内的 30 多个美国州。",
+          [
+            0
+          ]
+        ],
+        [
+          "瑞士 IBAN 个人多币种银行账户支持",
+          "高级账户提供受瑞士合规监管的个人专属 IBAN 与 SEPA 转账，支持 CHF、EUR、USD 与 RMB 多币种结算，月额度最高可达 1000 万美元。",
+          [
+            0
+          ]
+        ],
+        [
+          "清晰透明的 0% 充值费与 0.5% USDC 返现",
+          "Basic 与 Premium 计划加密充值 0% 费率；Premium 提供每月前 $5,000 消费 0.5% USDC 真实返现，无质押门槛，直接发放至链上钱包。",
+          [
+            0
+          ]
+        ],
+        [
+          "Mastercard 正规授权与 Apple/Google Pay 支持",
+          "由正规持牌发行方依 Mastercard 授权签发，完美支持 Apple Pay 与 Google Pay 快捷支付。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "私钥在手的非托管现实支付桥梁",
+          "THORWallet 通过自托管钱包与 Mastercard 网络的打通，让用户既保留了链上资产的绝对控制权，又获得了在现实世界数千万商户处刷卡的便利，是自托管卡阵营中的重磅产品。",
+          [
+            0
+          ]
+        ],
+        [
+          "阶梯方案与邀请码免开卡费规则",
+          "Basic 虚拟卡凭有效邀请码可免除 $5 开卡费；Premium 实体卡结账时输入邀请码可立减 20%（$99 购卡）。无强制月费订阅，适合长期低频至中频消费。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "THORWallet Card 是自托管的吗？",
+          "是的。你的核心钱包资产保持完全自托管，私钥由你自己掌握。只有在准备刷卡消费时，你才将相应金额的 USDC 充入卡片账户。"
+        ],
+        [
+          "美国居民可以申领 THORWallet Card 吗？",
+          "可以。THORWallet Card 官方明确面向包括美国在内的 175+ 个国家和地区开放申请，支持美国 30 多个州的合规居民完成验证开卡。"
+        ],
+        [
+          "THORWallet Card 的返现如何发放？",
+          "Premium 会员计划每月前 $5,000 的合格刷卡消费享有 0.5% USDC 返现。返现不以积分或平台锁仓代币形式发放，而是直接按月打入你的链上钱包。"
+        ],
+        [
+          "THORWallet 的瑞士 IBAN 账户是什么？",
+          "该高级账户为用户配备独立的瑞士合规银行 IBAN，支持 SEPA 跨境收付款，支持瑞士法郎（CHF）、欧元（EUR）、美元（USD）和人民币（RMB）多币种对账。"
+        ],
+        [
+          "THORWallet Card 收取月租或年费吗？",
+          "不收取。Basic 虚拟卡和 Premium 实体卡均为一次性工本费制（凭邀请码分别为免费和 $99），没有强制性的月度或年度管理费。"
+        ]
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/thorwallet-card.webp",
+        "file": "thorwallet-card.webp",
+        "imageUrl": "https://www.thorwallet.org/assets/cards/card-premium.png",
+        "sourcePage": "https://www.thorwallet.org/card",
+        "version": "THORWallet Mastercard 官方卡面",
+        "mode": "cover"
+      },
+      "url": "https://ucard.observer/cards/thorwallet-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-09",
+      "modified": "2026-10-09",
+      "verified": "2026-10-09",
+      "id": "tonhub-card",
+      "name": "Tonhub Card",
+      "aliases": "Tonhub Card TON Telegram Visa debit non-custodial SEPA IBAN",
+      "mark": "T",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "申领卡片需通过 Tonhub 移动应用提交合规身份验证（KYC），包括护照或欧盟法定身份证件与有效居住地址证明（POA）。",
+      "intro": "Tonhub 官方推出的 TON 生态首款非托管 Visa 借记卡与个人 SEPA IBAN 银行账户。资产始终保存在用户的非托管钱包中，支持直接使用 TON 与 USDT (Jettons) 链上即时扣款消费。面向欧盟/欧洲经济区合规居民开放，原生支持 Apple Pay 与 Google Pay 碰一碰支付。",
+      "model": "Tonhub 链上非托管钱包直连扣款，交易时按需划扣 TON 与 USDT；借记卡，不设中心化资金池沉淀；支持配备个人专属 SEPA 银行账户",
+      "network": "Visa；欧洲持牌金融机构依据 Visa 国际卡组织许可发行",
+      "region": "当前面向欧盟（EU）及欧洲经济区（EEA，包括法国、德国、意大利、西班牙等）合规居民开放；后续规划拓展至英国、拉美等司法管辖区；大中华区身份暂不开放。",
+      "fee": "虚拟卡签发免费；消费交易手续费 1.5%；非欧元跨境外汇交易依 Visa 国际网络汇率结算；SEPA 法币转账入金免费；无强制账户管理年费或月费。",
+      "rewards": "早鸟用户免发卡费，享有 TON 生态空投积分与合作商户活动权益。",
+      "paymentCompatibility": {
+        "sourceName": "Tonhub Card",
+        "network": "Visa",
+        "issuer": "欧洲合作持牌电子货币机构（EMI）及 Whales Corp",
+        "region": "欧盟及欧洲经济区（EEA）支持国家",
+        "researchDate": "2026-10-09",
+        "applePay": {
+          "status": "official",
+          "detail": "官方明确支持即时添加至 Apple Pay，畅刷全球线下零售 POS。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方明确支持添加至 Google Pay 移动钱包。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "Visa 借记卡清算网络，支持欧洲及海外主流在线商户与 SaaS 订阅扣款。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Tonhub 官方网站与产品入口（2026-10-09 核对）",
+          "url": "https://tonhub.com/"
+        },
+        {
+          "title": "Tonhub Card 官方产品介绍与申领指南（2026-10-09 核对）",
+          "url": "https://tonhub.com/card"
+        },
+        {
+          "title": "TON 官方生态公示：Tonhub 非托管 Visa 借记卡详情（2026-10-09 核对）",
+          "url": "https://ton.org/"
+        }
+      ],
+      "facts": [
+        [
+          "TON 链首款原生自托管 Visa 借记卡",
+          "资产始终存放在用户的 Tonhub 链上非托管钱包中，私钥由用户自主掌控；仅在刷卡消费时触发智能合约按需划扣 TON 或 USDT。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "个人专属欧洲 SEPA IBAN 账户",
+          "为每位持卡人配备独立的合规欧洲 IBAN，支持接收欧元 SEPA 转账与法币入金，实现链上资产与欧洲银行业的合规桥接。",
+          [
+            1
+          ]
+        ],
+        [
+          "清晰透明的 1.5% 消费费率与零开卡费",
+          "虚拟借记卡免费申领，无月费与年费维护负担；日常刷卡消费收取 1.5% 固定通道手续费。",
+          [
+            1
+          ]
+        ],
+        [
+          "Visa 官方许可与 Apple Pay / Google Pay 原生支持",
+          "由欧洲持牌清算机构依 Visa 授权签发，完美支持添加到 Apple Pay 与 Google Pay 进行手机碰一碰闪付。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "欧盟/EEA 合规准入与严格 KYC",
+          "目前限定欧盟及欧洲经济区合规居民申领，必须完成法定身份与居住地址双重核验；不支持虚假海外地址开卡。",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "Telegram 与 TON 生态消费的现实桥梁",
+          "Tonhub Card 打破了以往 TON 链资产只能在链上流转或通过场外 C2C 变现的局限，让 Telegram 生态用户与 TON 持有者能够直接在全球数千万家接受 Visa 的商户处刷卡消费。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "非托管资金安全与私钥主权",
+          "与中心化交易所卡不同，Tonhub Card 在非消费状态下不沉淀用户资金。持卡人不必承担交易所暴雷挪用或平台卷款跑路的风险。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Tonhub Card 是自托管的吗？",
+          "是的。你的 TON 和 USDT 资产保存在你的 Tonhub 非托管钱包中，私钥完全由你掌控。只有在刷卡消费发生时，系统才实时扣除相应数量的代币。"
+        ],
+        [
+          "Tonhub Card 支持哪些代币消费？",
+          "目前原生支持 TON 原生代币以及 TON 链上的 USDT（Jettons），消费时自动按当时实时汇率折算为欧元完成 Visa 网络清算。"
+        ],
+        [
+          "中国大陆居民可以申领 Tonhub Card 吗？",
+          "不能。Tonhub Card 官方合规政策目前严格限定欧盟（EU）及欧洲经济区（EEA）居民申请，需要提供合规的欧盟居住地址证明（POA）与法定身份文件。"
+        ],
+        [
+          "Tonhub Card 支持 Apple Pay 吗？",
+          "支持。卡片获批并激活后，可直接在 Tonhub 移动应用内一键添加至 Apple Pay 或 Google Wallet，畅刷支持非接触闪付的线下商户。"
+        ],
+        [
+          "Tonhub Card 有月费或年费吗？",
+          "没有。虚拟卡开卡免费，没有强制性的月度账户管理费或年费，日常消费仅按每笔 1.5% 计收交易手续费。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://tonhub.com/"
+      },
+      "url": "https://ucard.observer/cards/tonhub-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-09",
+      "modified": "2026-10-09",
+      "verified": "2026-10-09",
+      "id": "rizon-card",
+      "name": "Rizon Card",
+      "aliases": "Rizon Card Visa Platinum stablecoin wallet USDC USDT Privy Rain RedotPay alternative",
+      "mark": "R",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "申请卡片须通过 Rizon App 完成合规身份核验（KYC），提交政府法定身份证明文件与个人基本资料，由合作持牌银行/发卡通道进行审核。",
+      "intro": "Rizon 是一款面向全球用户的多链稳定币非托管钱包与 Visa Platinum 借记卡应用。钱包基于 Privy 架构，支持在 Solana、Polygon、Arbitrum、Base 等多链充值 USDC/USDT，通过 Rain (Signify Holdings) 基础设施发卡，支持绑定 Apple Pay 与 Google Pay 并在全球数千万商户处消费。",
+      "model": "非托管多链稳定币钱包直连扣款；刷卡消费时由合作金融机构（Signify/Rain）实时清算稳定币并结算为法币；借记卡，不设中心化资金池沉淀",
+      "network": "Visa Platinum；由 Signify Holdings Inc. 及其子公司 Nimbus LLC (Rain) 依据 Visa 许可合作发行",
+      "region": "面向美国（部分州除外）、拉美（LATAM）及全球 55+ 合规支持国家与地区开放；中国大陆及受制裁管辖区不可申请。",
+      "fee": "标准版（Standard）虚拟卡开卡费通常为 $10；月度计划可选（约 $6.99/月 或高级会员）；跨境外汇转换费（FX）约 1.02%；ACH / SEPA 银行出金依通道费率结算。",
+      "rewards": "合格消费提供最高 2.5% 现金返现与 RizPoints 积分奖励，支持在 App 内抵扣费用或兑换权益。",
+      "paymentCompatibility": {
+        "sourceName": "Rizon Card",
+        "network": "Visa Platinum",
+        "issuer": "Signify Holdings Inc. (Rain) 及合作持牌金融机构",
+        "region": "美国、拉美及全球 55+ 合规国家 / 地区",
+        "researchDate": "2026-10-09",
+        "applePay": {
+          "status": "official",
+          "detail": "官方明确支持一键即时添加至 Apple Pay，畅刷全球线下零售 POS。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方明确支持添加至 Google Pay 移动钱包。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "Visa Platinum 借记卡段，支持绑定 OpenAI、Claude、AWS、Meta 广告等海外服务扣款。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Rizon 官方网站与产品入口（2026-10-09 核对）",
+          "url": "https://getrizon.com/"
+        },
+        {
+          "title": "Rizon 官方服务条款与发卡合规披露（2026-10-09 核对）",
+          "url": "https://getrizon.com/terms"
+        },
+        {
+          "title": "Rizon 官方常见问题与费率说明（2026-10-09 核对）",
+          "url": "https://getrizon.com/fees"
+        }
+      ],
+      "facts": [
+        [
+          "非托管多链架构与私钥自主",
+          "钱包依托 Privy 架构提供自托管体验，资产以 USDC/USDT 形式保存在用户可控的多链地址（Solana/Polygon/Base 等），平台不托管用户本金。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Visa Platinum 卡网络与 Rain 清算通道",
+          "由 Signify Holdings Inc. 及其子公司 Nimbus LLC (Rain) 提供底层发卡与法币流动性接入，确立正规 Visa Platinum 借记卡卡段。",
+          [
+            1
+          ]
+        ],
+        [
+          "透明的开卡费用与外汇汇率",
+          "虚拟卡开卡费 $10，基础外汇转换费约 1.02%；提供可选的高级订阅会员方案，适合跨境海淘与广告投放。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "全球银行账户功能集成",
+          "配备美国 ACH 与欧洲 SEPA 本地银行收付款能力，支持 50 多个国家的本地银行法币提现。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Apple Pay 与 Google Pay 原生支持",
+          "支持将虚拟 Visa 卡无缝推送到手机钱包，全球线下门店直接碰一碰完成支付。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "RedotPay 飙升替代方案的市场定位",
+          "Rizon 在拉美和全球数字游民社群中热度激增，成为搜索 RedotPay 时的主要飙升关联词之一。相比传统预充值卡，其多链非托管与自托管稳定币管理更加灵活。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "合规身份审查与地区限制",
+          "申领 Rizon Card 必须通过严格的反洗钱（AML）与身份（KYC）核验，不可使用虚假身份开卡；中国大陆用户无法通过审核。",
+          [
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Rizon Card 是自托管钱包吗？",
+          "是的。Rizon 本身采用非托管钱包架构，私钥与助记词掌握在用户自己手中，仅在刷卡时通过合规授权由清算机构按需完成兑付。"
+        ],
+        [
+          "Rizon Card 收取月租吗？",
+          "基础 Standard 方案无强制月租（按次消费计收）；另提供可选的 Gold / Emerald 等付费订阅会员，月费约 $6.99 起，享有更低汇损与更高返现。"
+        ],
+        [
+          "中国大陆居民可以申领 Rizon Card 吗？",
+          "不能。Rizon 目前合规受限国家明确排除了中国大陆、俄罗斯及受制裁管辖区，必须具备支持国家（如美洲、欧洲部分地区）的合法居住与身份证明。"
+        ],
+        [
+          "Rizon 支持哪些链的稳定币？",
+          "当前支持 Solana、Polygon、Arbitrum、Base、Optimism、BSC 等主流 EVM 与非 EVM 网络充值存入 USDC 与 USDT。"
+        ],
+        [
+          "Rizon Card 支持 Apple Pay 吗？",
+          "支持。虚拟 Visa 卡创建并激活后，可直接在应用内一键添加至 Apple Pay 或 Google Wallet。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://getrizon.com/"
+      },
+      "url": "https://ucard.observer/cards/rizon-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-09",
+      "modified": "2026-10-09",
+      "verified": "2026-10-09",
+      "id": "oobit-card",
+      "name": "Oobit Card",
+      "aliases": "Oobit Card Oobit Pay Tether Tap to Pay Visa contactless crypto debit mobile app RedotPay alternative",
+      "mark": "O",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "激活 Oobit 支付卡需完成合规 KYC 身份认证，提交政府签发的护照或身份证件，并通过人脸活体比对核验。",
+      "intro": "Oobit 是一款主打“碰一碰即付”（Tap to Pay）的移动加密货币支付与 Visa 虚拟卡应用，获 Tether 战略投资背书。支持直接连接 MetaMask、Phantom、Trust Wallet 等自托管钱包，消费时无需提前预存资金，直接在商户端扣除 USDT、BTC、ETH 等资产并以法币完成 Visa 清算。",
+      "model": "直连外部自托管钱包或 Oobit 账户免预充值直接划扣；消费时触发即时 DEX/流动性结算折算法币；借记卡，不设中心化沉淀资金",
+      "network": "Visa Platinum；由持牌金融机构合作方（含 Rain / 授权发卡行）依据 Visa 许可发行",
+      "region": "面向全球 100+ 合规国家与地区开放（包括欧洲、拉美如巴西/阿根廷、亚洲部分合规地区如新加坡/泰国/台湾、美国等）；中国大陆及受制裁地区不可用。",
+      "fee": "0 开卡费、0 月费、0 账户维护费；日常刷卡消费收取 1% 交易手续费（最低 $0.25）；非接触式 ATM 取现收取 2.5% 手续费。",
+      "rewards": "官方提供阶梯消费返现权益（最高 1%–5%）以及合作商户促销优惠，奖励以 USDT 或平台积分形式发放。",
+      "paymentCompatibility": {
+        "sourceName": "Oobit Card",
+        "network": "Visa Platinum",
+        "issuer": "持牌合作金融机构（包括 Rain 合作通道）及 Tether 战略生态",
+        "region": "全球 100+ 合规国家与地区（欧洲、拉美、亚太部分地区）",
+        "researchDate": "2026-10-09",
+        "applePay": {
+          "status": "official",
+          "detail": "官方主打 Apple Pay / Google Wallet NFC 碰一碰支付，全球 POS 秒级感应刷卡。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "原生支持 Google Pay 移动钱包闪付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持海外线上电商及 OpenAI、Claude 等主流 SaaS 平台在线刷卡。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Oobit 官方网站与产品入口（2026-10-09 核对）",
+          "url": "https://www.oobit.com/"
+        },
+        {
+          "title": "Oobit 官方费用与定价说明（2026-10-09 核对）",
+          "url": "https://www.oobit.com/fees"
+        },
+        {
+          "title": "Oobit 官方服务条款与卡片发行协议（2026-10-09 核对）",
+          "url": "https://www.oobit.com/terms"
+        }
+      ],
+      "facts": [
+        [
+          "Tether 战略投资与生态深度整合",
+          "获得 Tether 领投支持，深度整合 USDT 原生支付生态与多链结算网络，保障充沛的流动性与清算通道稳定性。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "自托管钱包直刷与免预充值模式",
+          "用户可将自托管钱包（MetaMask/Phantom 等）接入 App，消费时即时触发扣款，无需向中心化账户提前充值巨额备付金。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "零开卡费与透明 1% 交易费",
+          "开卡免费，无年费与维护费；日常刷卡消费收取 1% 透明手续费（保底 $0.25），APP 实时展示明细。",
+          [
+            1
+          ]
+        ],
+        [
+          "Tap to Pay 碰一碰与全球 1.5 亿商户受理",
+          "原生融合 Apple Pay 与 Google Wallet，支持在全球超过 1.5 亿家接受 Visa 非接触感应闪付的零售商户处使用。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "全球 100+ 国家覆盖与严格合规 KYC",
+          "面向欧洲、拉美、亚洲多个合规司法管辖区开放，必须完成合规身份与人脸活体认证，杜绝匿名黑灰产。",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "移动端触碰支付的核心体验突破",
+          "Oobit 改变了加密卡繁琐的“先换汇、再充值、再刷卡”的冗长步骤，通过将 Web3 自托管钱包与 Apple Pay / NFC 协议在底层撮合，实现了类似传统 Apple Cash 的即碰即付体验。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "与 RedotPay 等传统预充虚拟卡的差异",
+          "RedotPay 等产品要求将 USDT 充入中心化账户，而 Oobit 主打连接外部钱包直刷，在用户资金控制权与抗发卡商倒闭风险上有明显优势。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Oobit Card 是实体卡还是虚拟卡？",
+          "Oobit 主打虚拟 Visa 卡与手机钱包 Tap to Pay（碰一碰支付），主要通过加入 Apple Pay 或 Google Wallet 在线下 POS 或线上消费。"
+        ],
+        [
+          "Oobit 刷卡需要提前充值吗？",
+          "不需要。Oobit 支持直接关联外部自托管钱包（如 MetaMask、Phantom），刷卡时系统即时扣减对应价值的加密资产，无需提前垫资预存。"
+        ],
+        [
+          "Oobit Card 有开卡费或月租吗？",
+          "没有。Oobit 不收开卡费、月费或账户闲置费，主要费用为刷卡时的 1% 交易手续费（最低 $0.25）以及 ATM 取现时的 2.5% 费用。"
+        ],
+        [
+          "中国大陆身份证可以开通 Oobit 吗？",
+          "不能。Oobit 的发卡合规网络覆盖全球 100+ 国家，但目前明确不支持中国大陆、俄罗斯及受制裁辖区的居民开卡。"
+        ],
+        [
+          "Oobit 支持哪些加密资产付款？",
+          "原生深度支持 Tether USDT，同时支持 Bitcoin (BTC)、Ethereum (ETH) 等主流加密代币，交易时自动按实时市场汇率折算清算。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.oobit.com/"
+      },
+      "url": "https://ucard.observer/cards/oobit-card/",
       "statusLabel": "地区受限 · 资格需核实"
     }
   ]

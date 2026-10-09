@@ -1,7 +1,7 @@
 {
   "name": "awesome-crypto-cards",
   "version": "1.0.0",
-  "description": "Curated, source-backed directory and dataset of 113+ crypto debit/prepaid cards and stablecoin payment solutions.",
+  "description": "Curated, source-backed directory and dataset of 117+ crypto debit/prepaid cards and stablecoin payment solutions.",
   "type": "module",
   "main": "data/cards.json",
   "scripts": {
