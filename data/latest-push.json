@@ -1,0 +1,29 @@
+{
+  "id": "push-2026-10-08-muz9k0gz",
+  "targetLang": "all",
+  "title": "🔔 [新卡收录] THORWallet Card 官方上线",
+  "body": "非托管 Mastercard 借记卡，私钥自掌管，配瑞士多币种 IBAN 账户，支持全球 175+ 国即刷即充。",
+  "url": "/",
+  "icon": "/card-art/thorwallet-card.webp",
+  "locales": {
+    "zh": {
+      "title": "🔔 [新卡收录] THORWallet Card 官方上线",
+      "body": "非托管 Mastercard 借记卡，私钥自掌管，配瑞士多币种 IBAN 账户，支持全球 175+ 国即刷即充。",
+      "url": "/",
+      "icon": "/card-art/thorwallet-card.webp"
+    },
+    "zh-TW": {
+      "title": "🔔 [新卡收錄] THORWallet Card 官方上線",
+      "body": "非託管 Mastercard 簽帳金融卡，私鑰自掌管，配瑞士多幣種 IBAN 帳戶，支援全球 175+ 國即刷即充。",
+      "url": "/zh-TW/",
+      "icon": "/card-art/thorwallet-card.webp"
+    },
+    "en": {
+      "title": "🔔 [New Card] THORWallet Card Released",
+      "body": "Non-custodial Mastercard debit card with Swiss multi-currency IBAN, supporting 175+ countries.",
+      "url": "/en/",
+      "icon": "/card-art/thorwallet-card.webp"
+    }
+  },
+  "publishedAt": "2026-10-08T08:17:26.627Z"
+}
