@@ -241,15 +241,15 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-09-21",
-      "verified": "2026-09-27",
+      "modified": "2026-10-10",
+      "verified": "2026-10-10",
       "id": "ethena-pay",
       "name": "Ethena Pay",
       "aliases": "ethena USDe 埃塞纳",
       "mark": "E",
       "group": "链上与自托管",
       "status": "regional",
-      "intro": "Ethena Pay 将自托管钱包与担保型 Spend Card 连接。需分别核对 AVAX 分段返现、担保清算、网络换汇费和可能适用的罚金。",
+      "intro": "Ethena Pay 将自托管钱包与担保型 Spend Card 连接，已支持 Apple Pay 闪付。需分别核对 AVAX 分段返现、担保清算、网络换汇费和可能适用的罚金。",
       "model": "钱包担保型消费卡",
       "network": "以获批卡计划为准",
       "region": "仅合格非美国人士。地区条款列有香港、马来西亚、新加坡；中国、台湾等标为 Coming soon，不能据此当作现已开放。卡片资格另由发行安排确认。",
@@ -329,6 +329,14 @@
           [
             0
           ]
+        ],
+        [
+          "Apple Pay 闪付支持",
+          "支持绑定 Apple Pay 移动钱包，可通过 iPhone 与 Apple Watch 进行线下触碰闪付与线上安全支付。",
+          [
+            0,
+            2
+          ]
         ]
       ],
       "sections": [
@@ -386,6 +394,10 @@
         [
           "Ethena Pay 的 0% APR 是否等于没有任何罚金？",
           "不是。价格页仍列最高 40 美元逾期费和最高 29 美元退回付款费，且卡片有担保与清算条件。"
+        ],
+        [
+          "Ethena Pay 是否支持 Apple Pay 闪付？",
+          "支持。卡片支持添加至 Apple 钱包，可通过 iPhone 与 Apple Watch 进行线下非接闪付及线上快捷付款。"
         ]
       ],
       "sources": [
@@ -418,8 +430,8 @@
         "issuer": "钱包担保型发行安排",
         "region": "仅合格非美国人士；🇭🇰🇲🇾🇸🇬，🇨🇳🇹🇼 标 Coming soon",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "支持 Apple Pay 闪付"
         },
         "googlePay": {
           "status": "unknown",

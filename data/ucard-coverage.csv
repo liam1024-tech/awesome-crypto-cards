@@ -1,6 +1,6 @@
 ﻿"id","name","kyc","kycLabel","status","statusLabel","sourceCount","verified","profileUrl"
 "ether-fi","ether.fi Cash","required","需要 KYC","regional","地区受限 · 资格需核实","11","2026-10-02","https://ucard.observer/cards/ether-fi/"
-"ethena-pay","Ethena Pay","required","需要 KYC","regional","地区受限 · 资格需核实","5","2026-09-27","https://ucard.observer/cards/ethena-pay/"
+"ethena-pay","Ethena Pay","required","需要 KYC","regional","地区受限 · 资格需核实","5","2026-10-10","https://ucard.observer/cards/ethena-pay/"
 "plasma-one","Plasma One","required","需要 KYC","regional","地区受限 · 资格需核实","9","2026-10-02","https://ucard.observer/cards/plasma-one/"
 "redotpay","RedotPay","required","需要 KYC","regional","地区受限 · 资格需核实","16","2026-10-02","https://ucard.observer/cards/redotpay/"
 "bybit","Bybit Card","required","需要 KYC","regional","地区受限 · 资格需核实","2","2026-09-27","https://ucard.observer/cards/bybit/"

@@ -227,8 +227,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "以获批卡计划为准",
       "model": "钱包担保型消费卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-10",
       "changelogs": [
+        {
+          "date": "2026-10-10",
+          "type": "feature",
+          "tag": "钱包集成",
+          "title": "正式支持 Apple Pay 闪付非接支付",
+          "note": "虚拟卡与实体卡全面支持添加至 Apple 钱包，可通过 iPhone 与 Apple Watch 进行线下触碰支付与线上快捷结算。"
+        },
         {
           "date": "2026-09-10",
           "type": "feature",

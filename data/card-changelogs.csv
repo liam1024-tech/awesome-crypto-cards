@@ -1,4 +1,5 @@
 ﻿"cardId","cardName","date","type","tag","title","note"
+"ethena-pay","Ethena Pay","2026-10-10","feature","钱包集成","正式支持 Apple Pay 闪付非接支付","虚拟卡与实体卡全面支持添加至 Apple 钱包，可通过 iPhone 与 Apple Watch 进行线下触碰支付与线上快捷结算。"
 "51vcard-archive","51VCard（历史档案）","2026-10-10","incident","暴雷收录","正式归档停服公墓：白标代发平台跑路失联警示","官方服务失联、提现阻断，卡段遭清算行注销，正式录入 UCard Observer 停服公墓与高危警示库。"
 "tonhub-card","Tonhub Card","2026-10-09","product","新品收录","收录 TON 生态首款非托管 Visa 借记卡","完成 Tonhub 官方 Visa 借记卡核验，确认支持链上 TON 与 USDT 直接结算、欧洲个人专属 SEPA IBAN 与 Apple Pay 碰一碰支付。"
 "rizon-card","Rizon Card","2026-10-09","product","新品收录","收录基于 Privy 多链非托管的 Rizon Visa 借记卡","完成 Rizon 官方 Visa Platinum 借记卡核验，确认支持多链 USDC/USDT 扣款、Rain BaaS 清算架构、ACH/SEPA 银行账户与 Apple Pay。"
