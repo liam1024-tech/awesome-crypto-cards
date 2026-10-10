@@ -116,3 +116,6 @@
 "tonhub-card","Tonhub Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-09","https://ucard.observer/cards/tonhub-card/"
 "rizon-card","Rizon Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-09","https://ucard.observer/cards/rizon-card/"
 "oobit-card","Oobit Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-09","https://ucard.observer/cards/oobit-card/"
+"orbi-card","Orbi Mastercard","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-10","https://ucard.observer/cards/orbi-card/"
+"swissborg-card","SwissBorg Crypto Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-10","https://ucard.observer/cards/swissborg-card/"
+"51vcard-archive","51VCard（历史档案）","not-applicable","停服 / 不适用","closed","已停服 · 历史档案","3","2026-10-10","https://ucard.observer/cards/51vcard-archive/"

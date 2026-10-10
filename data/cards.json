@@ -14978,6 +14978,369 @@
       },
       "url": "https://ucard.observer/cards/oobit-card/",
       "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-10",
+      "modified": "2026-10-10",
+      "verified": "2026-10-10",
+      "id": "orbi-card",
+      "name": "Orbi Mastercard",
+      "aliases": "Orbi Mastercard Mexico SoFi Galileo MxDS crypto debit stablecoin SoFiUSD",
+      "mark": "O",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "必须为墨西哥法定合格居民，开卡需通过合规身份核验（KYC），提交墨西哥官方有效证件（如 CURP / 选民证 / 护照）及常住地址证明。",
+      "intro": "墨西哥金融科技公司 Orbi 联合万事达卡（Mastercard）与 SoFi Tech Solutions（前 Galileo）于 2026 年 10 月 8 日正式推出加密支付借记卡。直连墨西哥本地清算交换网络（MxDS），支持持卡人直接使用加密资产与稳定币（含 SoFiUSD）消费，刷卡终端毫秒级自动折算法币比索扣款，并支持实体卡、虚拟卡与 ATM 取现。",
+      "model": "绑定 Orbi 账户中的加密货币与稳定币余额；刷卡时自动即时折算为墨西哥比索（MXN）扣款；借记卡，不设透支额度",
+      "network": "Mastercard；由 SoFi Tech Solutions（前 Galileo）提供万事达 BIN 赞助与清算底层",
+      "region": "面向墨西哥合规居民开放；海外居民无法直接申领，中国大陆及非墨西哥管辖区不受理。",
+      "fee": "虚拟卡申请免费；实体卡首发工本费依当地配送条款核收；0 月费与 0 年费。非本币跨境消费依万事达标准 FX 汇率结算。",
+      "rewards": "享有万事达卡官方权益及特定本地商户返现优惠活动。",
+      "paymentCompatibility": {
+        "sourceName": "Orbi Mastercard",
+        "network": "Mastercard",
+        "issuer": "SoFi Tech Solutions (Galileo) / Mastercard MxDS",
+        "region": "仅限墨西哥合规居民（需 CURP / 本地证件）",
+        "researchDate": "2026-10-10",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持绑定 Apple Pay 与 Google Wallet 移动钱包。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "原生支持 Google Pay 移动支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持线上商户及国际 SaaS 订阅扣款；以实时比索/美元汇率折算。"
+        }
+      },
+      "sources": [
+        {
+          "title": "BusinessWire：Orbi 与 SoFi Tech Solutions 联合万事达在墨西哥推出加密支付卡（2026-10-08）",
+          "url": "https://www.businesswire.com/news/home/20261008005321/en/Orbi-and-SoFi-Tech-Solutions-Partner-with-Mastercard-to-Launch-Crypto-Linked-Card-Program-in-Mexico"
+        },
+        {
+          "title": "Orbi 官方网站与产品介绍（2026-10-10 核对）",
+          "url": "https://www.orbi.mx/"
+        },
+        {
+          "title": "Mastercard 墨西哥：MxDS 交换网络与加密支付计划（2026-10-08）",
+          "url": "https://www.mastercard.com/news/latin-america/es/noticias/2026/10/orbi-mastercard-mexico/"
+        }
+      ],
+      "facts": [
+        [
+          "官方合作与 BIN 赞助底层",
+          "由 SoFi Tech Solutions（前 Galileo）提供底层 BIN 赞助与合规清算架构，为 SoFi 在墨西哥首个加密卡合作项目。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "MxDS 本地清算与自动汇兑",
+          "接入万事达墨西哥本地交换系统（MxDS），刷卡时毫秒级自动将加密资产兑换为法币（MXN），商户无感接收传统法币。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "实体卡、虚拟卡与 ATM 取现",
+          "支持手机端即时生成虚拟卡，可申请实体芯片卡并在全墨及全球万事达 ATM 取现。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "面向墨西哥合规居民",
+          "要求年满 18 岁并完成墨西哥当地合规身份核验，中国大陆及非墨西哥地区居民不可办理。",
+          [
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "拉美加密支付的合规本地化突破",
+          "传统拉美用户使用加密卡常面临境外卡通道的高额外汇转换费与本地商户拒绝率。Orbi 通过万事达 MxDS 本地化清算网络，解决了拉美用户跨境汇款与日常小额消费的汇损痛点。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "稳定币在跨境汇款与日常消费的落地",
+          "Orbi 重点支持包括 SoFiUSD 在内的合规稳定币，让墨西哥用户能够以极低通道成本接收跨境汇款并直接刷卡买单。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Orbi Mastercard 是信用卡还是借记卡？",
+          "是借记卡。直接从 Orbi 账户关联的加密货币或稳定币余额中扣款，消费时自动换汇，不提供信用透支。"
+        ],
+        [
+          "中国大陆居民可以办理 Orbi 卡吗？",
+          "不能。Orbi 严格遵守墨西哥金融合规框架，申请人必须提供墨西哥法定身份凭证（如 CURP 或墨西哥居留身份证件）。"
+        ],
+        [
+          "Orbi Mastercard 支持哪些币种消费？",
+          "支持比特币、以太坊以及主流稳定币（包括 SoFiUSD、USDT、USDC），刷卡时系统自动按实时汇率折算为比索清算。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.orbi.mx/"
+      },
+      "url": "https://ucard.observer/cards/orbi-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-10",
+      "modified": "2026-10-10",
+      "verified": "2026-10-10",
+      "id": "swissborg-card",
+      "name": "SwissBorg Crypto Card",
+      "aliases": "SwissBorg Crypto Card Mastercard virtual EEA UK Switzerland MEX BORG cashback Apple Pay",
+      "mark": "S",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "必须为欧洲经济区（EEA 30+ 国）、英国或瑞士合规居民，开卡需完成 SwissBorg Level 1/2 身份核验，提交护照或国民身份证及居住证明。",
+      "intro": "欧洲合规加密财富管理平台 SwissBorg 联合万事达卡（Mastercard）推出的虚拟加密借记卡。现已正式向欧洲 30 多个国家居民全面取消排队与会员等级限制。通过 SwissBorg Meta-Exchange (MEX) 智能路由聚合撮合，支持直接使用 BTC、ETH、SOL、USDC、EURC 等代币折算法币扣款，支持 Apple Pay 与 Google Pay，并按会员等级返还 BORG 代币。",
+      "model": "直接绑定 SwissBorg App 多币种钱包资产；刷卡时由内部 MEX 聚合引擎以最优即时汇率折算为欧元/法币清算；虚拟借记卡",
+      "network": "Mastercard；由欧洲持牌金融机构依据万事达卡许可合作发行",
+      "region": "面向欧洲经济区（EEA 30+ 国，包括法国、德国、意大利、西班牙等）、英国和瑞士合规居民完全开放；中国大陆、美国及受制裁地区不可申请。",
+      "fee": "虚拟卡生成免费；无月费与年费。欧元消费享 0% 额外手续费；非欧元境外消费依万事达标准外汇牌价结算。内部代币兑换按 MEX 聚合优选费率。",
+      "rewards": "消费按 SwissBorg 忠诚度等级（Standard / Community / Pioneer / Generation）获得对应 BORG 代币返现奖励。",
+      "paymentCompatibility": {
+        "sourceName": "SwissBorg Crypto Card",
+        "network": "Mastercard",
+        "issuer": "欧洲持牌合作机构 / SwissBorg Solutions",
+        "region": "欧洲经济区 (EEA 30+ 国)、英国、瑞士",
+        "researchDate": "2026-10-10",
+        "applePay": {
+          "status": "official",
+          "detail": "官方完整支持即时添加至 Apple Pay。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方完整支持添加至 Google Pay。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "高兼容性虚拟万事达卡，支持 ChatGPT、Claude、Cursor 及欧洲各类线上订阅。"
+        }
+      },
+      "sources": [
+        {
+          "title": "SwissBorg 官方网站与 Crypto Card 权益介绍（2026-10-10 核对）",
+          "url": "https://swissborg.com/crypto-card"
+        },
+        {
+          "title": "SwissBorg 帮助中心：卡片申请、支持地区与 Apple Pay 指引（2026-10-10 核对）",
+          "url": "https://help.swissborg.com/hc/en-gb/articles/swissborg-crypto-card-overview"
+        },
+        {
+          "title": "Bitcoin.com：SwissBorg 全面取消排队限制并向欧洲 30+ 国开放（2026-07-30）",
+          "url": "https://news.bitcoin.com/swissborg-unveils-crypto-card-across-30-european-countries/"
+        }
+      ],
+      "facts": [
+        [
+          "全面取消排队与会员等级限制",
+          "此前仅对高阶质押用户开放，现已全面取消候补名单与等级要求，欧洲支持辖区内通过 KYC 的用户均可即刻开通。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "MEX 聚合撮合即时清算",
+          "利用 SwissBorg Meta-Exchange 智能订单路由，刷卡时实时比较多个流动性提供商并撮合最低滑点完成法币清算。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "主流多币种与稳定币支持",
+          "支持直接扣划 BTC、ETH、SOL 以及合规稳定币（USDC、EURC 等），无需提前手动将代币变现为法币。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "原生支持 Apple Pay 与 Google Pay",
+          "虚拟卡创建后可立即推送绑定至 Apple Wallet 与 Google Wallet，支持欧洲及全球非接触感应支付。",
+          [
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "合规欧洲老牌机构的稳健度优势",
+          "相较于市面上频繁更换通道的野鸡代发卡平台，SwissBorg 在欧洲合规运营多年，持有法国、瑞士等国合规注册，通道稳定性与合规储备明显更优。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "多币种无感直扣与透明汇损",
+          "传统 U 卡多要求充入特定 USDT 格式，SwissBorg 依托其自研 MEX 聚合路由，让用户能在主流公链资产上直接刷卡，免去繁琐的手动 Swap 步骤。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "SwissBorg Crypto Card 支持实体卡吗？",
+          "目前主推虚拟万事达卡，可通过 Apple Pay 与 Google Pay 在全球线下实体商户刷手机消费。"
+        ],
+        [
+          "中国大陆居民可以申领 SwissBorg 卡吗？",
+          "不能。SwissBorg 严格仅限欧洲经济区（EEA）、英国与瑞士合规居民，必须提交当地居留身份与地址证明。"
+        ],
+        [
+          "SwissBorg 刷卡返现怎么发放？",
+          "返现以平台的 BORG 代币形式发放至用户的 SwissBorg 账户中，返现比例依据用户的质押与忠诚度等级决定。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://swissborg.com/crypto-card"
+      },
+      "url": "https://ucard.observer/cards/swissborg-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-10",
+      "modified": "2026-10-10",
+      "verified": "2026-10-10",
+      "id": "51vcard-archive",
+      "name": "51VCard（历史档案）",
+      "aliases": "51VCard 历史档案 跑路 停服 虚拟卡 暴雷 停服公墓 scam rugpull",
+      "mark": "5",
+      "group": "停服与历史档案",
+      "status": "closed",
+      "kyc": "not-applicable",
+      "kycNote": "平台已全面跑路停服，卡片通道作废，服务不再适用任何真实 KYC。",
+      "intro": "51VCard 曾是面向中文社区以“充值 USDT 免繁琐 KYC、即刻生成海外虚拟 Visa/Mastercard 订阅 ChatGPT 与海外服务”为卖点的第三方代发卡中介平台。后因资金链断裂与通道封禁，相继出现提现受阻、充值未到账与扣款拦截，最终官方彻底失联跑路，已被正式归档收录《停服公墓》，作为野鸡代发平台跑路卷款的典型反面警示案例。",
+      "model": "已全面停服。历史为中心化资金池代充预付虚拟卡，现资金通道已彻底关闭",
+      "network": "Visa / Mastercard（历史第三方白标转租号段，现已全部拔线作废）",
+      "region": "服务已终结。历史曾面向全球及中国大陆无门槛吸纳加密资金开卡。",
+      "fee": "服务已彻底停止。历史收取约 $3–$10 开卡费及 2%–3% 充值手续费；存量余额已无法提现。",
+      "rewards": "无返现。卡片与平台已彻底死亡。",
+      "paymentCompatibility": {
+        "sourceName": "51VCard（已停服）",
+        "network": "Visa / Mastercard（已拔线）",
+        "issuer": "已失联跑路第三方平台",
+        "region": "已停服 · 历史档案",
+        "researchDate": "2026-10-10",
+        "applePay": {
+          "status": "unsupported",
+          "detail": "平台已全面停服跑路，卡段已被清算行全量注销拔线。"
+        },
+        "googlePay": {
+          "status": "unsupported",
+          "detail": "卡片已彻底失效，无法绑定任何移动钱包。"
+        },
+        "aiSubscriptions": {
+          "status": "unsupported",
+          "detail": "历史代扣卡段已遭主流风控系统与收单行全量拉黑拉爆。"
+        }
+      },
+      "sources": [
+        {
+          "title": "UCard Observer 风险警示录：51VCard 停服与跑路事件调查归档（2026-10-10）",
+          "url": "https://ucard.observer/cards/51vcard-archive/#risk-alert"
+        },
+        {
+          "title": "社区公开暴雷与提现中断维权反馈记录（2026-10-10 核对）",
+          "url": "https://x.com/search?q=51vcard"
+        },
+        {
+          "title": "51VCard（历史档案） 官方卡面素材核查",
+          "url": "https://ucard.observer/cards/51vcard-archive/"
+        }
+      ],
+      "facts": [
+        [
+          "平台全面跑路与资金损失警示",
+          "51VCard 官方目前已停止一切运营与客服支持，存量用户充值余额无法提回，属于不可挽回的资产损失案例。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "野鸡中介代发卡通道的高危本质",
+          "平台无持牌金融牌照，依赖层层转租的第三方白标 BIN 号段，一旦遭遇风控拉黑或通道方断供，极易选择卷款跑路。",
+          [
+            0
+          ]
+        ],
+        [
+          "以免 KYC 订阅为噱头的引流陷阱",
+          "历史主要以帮助国内用户免 KYC 订阅 ChatGPT、Midjourney 为由吸引充值，用户缺乏法律追偿手段。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "为什么说小作坊代发卡永远不能留存资金？",
+          "51VCard 等野鸡平台的商业模式极其脆弱：发卡行通道一封，资金池就断裂；且运营团队匿名境外运作，跑路成本趋近于零。这再次警示读者：使用任何非持牌第三方虚拟卡，必须严格遵守“用多少充多少、绝不留存过夜资金”的铁律。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "认准持牌机构与自托管，远离二道贩子",
+          "正规 U 卡由持牌 EMI（如欧洲电子货币机构）或受监管银行清算，资金受信托隔离保护；或采用 Gnosis Safe 等链上智能合约自托管。中介白标转租类卡片没有任何资金隔离保护。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "51VCard 里面的余额还能提现出来吗？",
+          "不能。平台服务器与提现网关已彻底关闭失联，请勿轻信网络上任何声称“代追回51VCard余额”的二次诈骗中介。"
+        ],
+        [
+          "为什么 51VCard 以前可以绑定 ChatGPT？",
+          "早期其转租的境外虚拟卡号段尚未被 OpenAI 与 Stripe 标记为高危欺诈 BIN；随着大量滥用与拒付，该号段被支付网关全网拦截，平台失去盈利能力后迅速跑路。"
+        ],
+        [
+          "如何避免踩中类似 51VCard 的跑路陷阱？",
+          "1. 坚决不使用匿名团队无牌运营的代发平台；2. 优先选择支持自托管或持牌大型合规平台；3. 即使使用小众临时卡，也绝不在账户中存放超过单笔消费额的资金。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://ucard.observer/cards/51vcard-archive/"
+      },
+      "url": "https://ucard.observer/cards/51vcard-archive/",
+      "statusLabel": "已停服 · 历史档案"
     }
   ]
 }

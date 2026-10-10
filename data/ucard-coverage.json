@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 117,
-    "current": 108,
-    "kycRequired": 95,
+    "total": 120,
+    "current": 110,
+    "kycRequired": 97,
     "kycConditional": 4,
     "kycUnknown": 9,
     "noKycVerified": 0,
-    "closed": 9,
-    "officialSources": 403
+    "closed": 10,
+    "officialSources": 412
   },
   "rows": [
     {
@@ -1300,6 +1300,39 @@
       "sourceCount": 3,
       "verified": "2026-10-09",
       "profileUrl": "https://ucard.observer/cards/oobit-card/"
+    },
+    {
+      "id": "orbi-card",
+      "name": "Orbi Mastercard",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-10",
+      "profileUrl": "https://ucard.observer/cards/orbi-card/"
+    },
+    {
+      "id": "swissborg-card",
+      "name": "SwissBorg Crypto Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-10",
+      "profileUrl": "https://ucard.observer/cards/swissborg-card/"
+    },
+    {
+      "id": "51vcard-archive",
+      "name": "51VCard（历史档案）",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
+      "sourceCount": 3,
+      "verified": "2026-10-10",
+      "profileUrl": "https://ucard.observer/cards/51vcard-archive/"
     }
   ]
 }

@@ -154,6 +154,16 @@
       "summary": "CasherCard 为第三方无托管牌照开辟的多链虚拟卡，未公开底层持牌 Sponsor Bank 机构信息，通道随时存在被收单行风控拦截拔线风险。",
       "actionAdvice": "严禁存放超出单次消费额度的大额资金！仅建议随充随刷用于一次性订阅或小额支付测试。",
       "sourceUrl": "https://ucard.observer/cards/casher-card/"
+    },
+    {
+      "cardId": "51vcard-archive",
+      "cardName": "51VCard（历史档案）",
+      "stage": "closed",
+      "level": "critical",
+      "title": "⛔ 野鸡白标代发卡平台跑路 · 充值提现全面断联",
+      "summary": "平台曾以免 KYC 订阅海外服务为噱头吸纳 USDT，后续出现提现受阻与消费拦截，最终彻底关停跑路失联。",
+      "actionAdvice": "已被收录停服公墓，切勿轻信任何声称可解冻余额的同名钓鱼账号。",
+      "sourceUrl": "https://ucard.observer/cards/51vcard-archive/"
     }
   ],
   "cards": [
@@ -2813,6 +2823,67 @@
           "tag": "新品收录",
           "title": "收录 Tether 战略投资的 Oobit Tap-to-Pay 支付卡",
           "note": "完成 Oobit 官方 Visa 借记卡与 App 核验，确认支持直连自托管钱包免预存直刷、1% 交易手续费、零开卡费与 Apple Pay 碰一碰闪付。"
+        }
+      ]
+    },
+    {
+      "id": "orbi-card",
+      "name": "Orbi Mastercard",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard；由 SoFi Tech Solutions（前 Galileo）提供万事达 BIN 赞助与清算底层",
+      "model": "绑定 Orbi 账户中的加密货币与稳定币余额；刷卡时自动即时折算为墨西哥比索（MXN）扣款；借记卡，不设透支额度",
+      "verified": "2026-10-10",
+      "changelogs": [
+        {
+          "date": "2026-10-08",
+          "type": "feature",
+          "tag": "官方上线",
+          "title": "联合万事达与 SoFi 在墨西哥正式推出加密借记卡",
+          "note": "Orbi 携手 Mastercard 与 SoFi Tech Solutions 接入墨西哥本地交换网络 MxDS，支持稳定币即时兑换为比索消费。"
+        }
+      ]
+    },
+    {
+      "id": "swissborg-card",
+      "name": "SwissBorg Crypto Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard；由欧洲持牌金融机构依据万事达卡许可合作发行",
+      "model": "直接绑定 SwissBorg App 多币种钱包资产；刷卡时由内部 MEX 聚合引擎以最优即时汇率折算为欧元/法币清算；虚拟借记卡",
+      "verified": "2026-10-10",
+      "changelogs": [
+        {
+          "date": "2026-07-30",
+          "type": "feature",
+          "tag": "全面开放",
+          "title": "取消排队名单全面向欧洲 30+ 国开放虚拟万事达卡",
+          "note": "面向欧洲经济区、英国和瑞士居民取消等候名单，支持 Apple Pay / Google Pay 并通过 MEX 自动清算。"
+        }
+      ]
+    },
+    {
+      "id": "51vcard-archive",
+      "name": "51VCard（历史档案）",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
+      "network": "Visa / Mastercard（历史第三方白标转租号段，现已全部拔线作废）",
+      "model": "已全面停服。历史为中心化资金池代充预付虚拟卡，现资金通道已彻底关闭",
+      "verified": "2026-10-10",
+      "changelogs": [
+        {
+          "date": "2026-10-10",
+          "type": "incident",
+          "tag": "暴雷收录",
+          "title": "正式归档停服公墓：白标代发平台跑路失联警示",
+          "note": "官方服务失联、提现阻断，卡段遭清算行注销，正式录入 UCard Observer 停服公墓与高危警示库。"
+        },
+        {
+          "date": "2024-06-15",
+          "type": "incident",
+          "tag": "通道中断",
+          "title": "提现延迟与消费扣款大面积拦截",
+          "note": "平台通道方风控升级，出现大量拒付与提现排队，随后官方运营逐步停滞。"
         }
       ]
     }
