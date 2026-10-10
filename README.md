@@ -2,14 +2,14 @@
 
 [![Official Website](https://img.shields.io/badge/Live_Site-ucard.observer-008080?style=for-the-badge&logo=safari&logoColor=white)](https://ucard.observer)
 [![Cards Tracked](https://img.shields.io/badge/Cards_Tracked-117_Brands-blue?style=for-the-badge)](https://ucard.observer/cards/)
-[![Last Verified](https://img.shields.io/badge/Verified-2026--10--09-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
+[![Last Verified](https://img.shields.io/badge/Verified-2026--10--10-brightgreen?style=for-the-badge)](https://ucard.observer/research/ucard-coverage/)
 [![License](https://img.shields.io/badge/License-MIT_%2F_CC--BY--4.0-orange?style=for-the-badge)](LICENSE)
 [![Data Formats](https://img.shields.io/badge/Data_Formats-JSON_%7C_CSV-blueviolet?style=for-the-badge)](#open-datasets)
 
 > **Curated, source-backed directory and dataset of 117+ crypto debit/prepaid cards (Visa/Mastercard) and stablecoin payment solutions.**  
 > Tracking KYC requirements, fee breakdowns, cashback conditions, Apple Pay / Google Pay support, and overseas AI subscription (ChatGPT / Claude) compatibility.
 
-Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-09**.
+Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data updated and verified as of **2026-10-10**.
 
 ---
 
@@ -36,6 +36,7 @@ Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data upda
 - 🎵 **[Discord Nitro, Spotify & Netflix Entertainment Guide](https://ucard.observer/articles/discord-spotify-netflix-crypto-card-subscription-guide/)** — Overcoming regional billing restrictions, recurring subscription cycles, and card-freezing safety.
 - ⚽ **[FIFA World Cup 2026 Cashless Stadium Travel Guide](https://ucard.observer/articles/fifa-world-cup-2026-travel-crypto-card-guide/)** — Conquering 100% cashless venues across the US, Canada, and Mexico with low-fee stablecoin cards.
 - 📱 **[Apple Pay In-Store Electronics & Apple Store Guide](https://ucard.observer/articles/apple-pay-crypto-card-buy-electronics-guide/)** — Offline NFC contactless tap-to-pay, single-transaction limits, and legally funding gadget purchases without OTC bank freezes.
+- 🛡️ **[Crypto Card Mobile Security & Data Deletion Guide](https://ucard.observer/articles/crypto-card-app-privacy-and-data-erasure/)** — China App Store distribution limits, anti-phishing TestFlight precautions, GDPR Right to Erasure vs. AML statutory 5-7 year data retention.
 
 ---
 
@@ -72,6 +73,8 @@ All dataset files in this repository are exported directly from our automated bu
 | [`data/status-radar.json`](data/status-radar.json) | JSON | 117 Cards | Live card lifecycle status radar (Active, Degraded, Paused, Winding Down, Closed), emergency delisting risk alerts, and policy changelogs. |
 | [`data/card-changelogs.csv`](data/card-changelogs.csv) | CSV | 170+ Events | Chronological audit log of historical policy and fee shifts (cashback asset conversions, minimum withdrawal limits, lockups, fee updates). |
 | [`data/cashback-comparison.csv`](data/cashback-comparison.csv) | CSV | Tier Scenarios | Nominal cashback comparison modeling across $1,000, $3,000, and $5,000 monthly spend brackets. |
+| [`data/app-privacy-matrix.csv`](data/app-privacy-matrix.csv) | CSV | 108 Cards | Audit of mobile app stores (App Store / Google Play coverage, China App Store availability), web portal options, self-service account deletion, and GDPR compliance ratings. |
+| [`data/app-privacy-matrix.json`](data/app-privacy-matrix.json) | JSON | 108 Cards | JSON matrix of crypto card mobile presence, store direct availability, and statutory AML account closure paths. |
 
 ### Quick Data Loading Example
 

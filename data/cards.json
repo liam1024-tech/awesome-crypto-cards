@@ -215,7 +215,7 @@
         "region": "约 171 国 / 美国部分州；含 🇭🇰🇲🇾🇸🇬，🇨🇳大陆不在名单",
         "applePay": {
           "status": "community",
-          "detail": "社群实测"
+          "detail": "社群反馈"
         },
         "googlePay": {
           "status": "unknown",
@@ -223,7 +223,7 @@
         },
         "aiSubscriptions": {
           "status": "community",
-          "detail": "社群实测（有 Google One AI 扣款记录）"
+          "detail": "社群反馈（有 Google One AI 扣款记录）"
         }
       },
       "cardArt": {
@@ -850,7 +850,7 @@
         ],
         [
           "2026 最新费率与兼容性核查",
-          "2026-10-02 官方资料复核：虚拟卡开卡费维持 $10、实体卡 $100；非 USD 交易收取 1.2% FX 费；Apple Pay、Google Pay 官方明确支持，ChatGPT、Claude 等海外 AI 订阅为社群实测 / 官方提及未确认。",
+          "2026-10-02 官方资料复核：虚拟卡开卡费维持 $10、实体卡 $100；非 USD 交易收取 1.2% FX 费；Apple Pay、Google Pay 官方明确支持，ChatGPT、Claude 等海外 AI 订阅为社群反馈 / 官方提及未确认。",
           [
             0
           ]
@@ -1707,7 +1707,7 @@
         },
         "aiSubscriptions": {
           "status": "community",
-          "detail": "社群实测（Claude 订阅 + 美国 ACH）"
+          "detail": "社群反馈（Claude 订阅 + 美国 ACH）"
         }
       },
       "cardArt": {
@@ -1920,15 +1920,15 @@
         "region": "🇨🇳大陆方案与欧洲/非洲/拉美方案分开",
         "applePay": {
           "status": "community",
-          "detail": "社群实测"
+          "detail": "社群反馈"
         },
         "googlePay": {
           "status": "community",
-          "detail": "社群实测"
+          "detail": "社群反馈"
         },
         "aiSubscriptions": {
           "status": "community",
-          "detail": "社群实测（ChatGPT / Claude 订阅）"
+          "detail": "社群反馈（ChatGPT / Claude 订阅）"
         }
       },
       "cardArt": {
@@ -13447,11 +13447,11 @@
         "researchDate": "2026-10-02",
         "applePay": {
           "status": "unknown",
-          "detail": "条款未明确说明是否支持 Apple Pay，需实测。"
+          "detail": "条款未明确说明是否支持 Apple Pay，待核验。"
         },
         "googlePay": {
           "status": "unknown",
-          "detail": "条款未明确说明是否支持 Google Pay，需实测。"
+          "detail": "条款未明确说明是否支持 Google Pay，待核验。"
         },
         "aiSubscriptions": {
           "status": "official",
