@@ -1,6 +1,6 @@
 {
-  "verified": "2026-10-02",
-  "scope": "已审计加密货币支付卡 BIN 码与赞助行透视数据",
+  "verified": "2026-10-11",
+  "scope": "已审计U卡 BIN 码与赞助行透视数据",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "bins": [
     {
@@ -217,7 +217,7 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "极低风险 (Very Low)",
-      "notes": "加密支付行业标杆合规卡，由纽约持牌商业银行存款托管。"
+      "notes": "U卡领域标杆合规产品，由纽约持牌商业银行存款托管。"
     },
     {
       "bin": "540524",
@@ -283,7 +283,7 @@
       "threeDS": "支持",
       "stripeRating": 4,
       "stripeScore": "良好 (Good Acceptance)",
-      "stripeNote": "老牌合规加密支付卡，Contis/Solaris 银行体系托管清算。",
+      "stripeNote": "老牌合规U卡，Contis/Solaris 银行体系托管清算。",
       "walletMainland": "支持",
       "walletMainlandNote": "支持绑定国际卡快捷消费。",
       "status": "active",
@@ -554,6 +554,30 @@
       "statusLabel": "⛔ 已停服注销 (Terminated)",
       "riskLevel": "已暴雷/死卡 (Graveyard)",
       "notes": "早期匿名发卡服务，底层 BaaS 暴雷后全线作废注销。"
+    },
+    {
+      "bin": "537100",
+      "cardId": "bitget-wallet",
+      "name": "Sutton Bank Mastercard Corporate Purchasing",
+      "brand": "Bitget Wallet / Sutton Bank",
+      "scheme": "Mastercard",
+      "type": "Credit",
+      "typeLabel": "企业采购卡 (Corporate Purchasing)",
+      "level": "Corporate",
+      "sponsorBank": "Sutton Bank",
+      "country": "US",
+      "countryName": "美国",
+      "currency": "USD",
+      "threeDS": "支持",
+      "stripeRating": 4,
+      "stripeScore": "良好 (Good Acceptance)",
+      "stripeNote": "属于 Sutton Bank 企业采购卡段，实测可用于主流国际商户与 SaaS 订阅扣款。",
+      "walletMainland": "部分支持",
+      "walletMainlandNote": "支持 Apple Pay 闪付；国内微信/支付宝绑定受境外企业卡政策及商户类别码限制。",
+      "status": "active",
+      "statusLabel": "🟢 活跃测试中",
+      "riskLevel": "中风险 (Medium)",
+      "notes": "537100 属 Sutton Bank 企业采购卡段（非预付卡），Bitget 赴美新卡实测为 53710058。需注意持卡人为企业授权用卡人而非银行员工，缺乏个人消费者保护；网络关于万事达特许批量发卡及 Gate/GoPay 同源传闻已被核实为误读。"
     }
   ]
 }

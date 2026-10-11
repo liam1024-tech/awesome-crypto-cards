@@ -1,6 +1,6 @@
 {
   "verified": "2026-10-02",
-  "description": "全网加密货币支付卡实时存续状态、生命周期阶段与政策费率变动历史数据",
+  "description": "全网U卡实时存续状态、生命周期阶段与政策费率变动历史数据",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "stages": {
     "active": {
@@ -8,7 +8,7 @@
       "label": "🟢 正常活跃",
       "shortLabel": "正常活跃",
       "badgeClass": "status-active",
-      "desc": "开卡与刷卡通道通畅，官方费率与商户兼容性正常，资金由持牌机构正常清算。",
+      "desc": "官方资料仍显示可使用或申请；未发现已确认的停发或停服公告。资格、费用和可用地区仍须按适用条款核对。",
       "color": "#00c950"
     },
     "degraded": {
@@ -146,16 +146,6 @@
       "sourceUrl": "https://ucard.observer/cards/trastra-card/"
     },
     {
-      "cardId": "casher-card",
-      "cardName": "CasherCard",
-      "stage": "degraded",
-      "level": "warning",
-      "title": "⚠️ 第三方虚拟预付卡 · 警惕大额资金留存风险",
-      "summary": "CasherCard 为第三方无托管牌照开辟的多链虚拟卡，未公开底层持牌 Sponsor Bank 机构信息，通道随时存在被收单行风控拦截拔线风险。",
-      "actionAdvice": "严禁存放超出单次消费额度的大额资金！仅建议随充随刷用于一次性订阅或小额支付测试。",
-      "sourceUrl": "https://ucard.observer/cards/casher-card/"
-    },
-    {
       "cardId": "51vcard-archive",
       "cardName": "51VCard（历史档案）",
       "stage": "closed",
@@ -176,6 +166,13 @@
       "model": "直接支付 / 抵押借款",
       "verified": "2026-10-02",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "reward",
+          "tag": "海外实测",
+          "title": "马来西亚线下加油实测：3% 返现与 ETHFI 7天锁仓提示",
+          "note": "马来西亚加油实测 RM100，Core 档 3% 返现扣除 1.39% 汇损后净得约 RM1.63；提醒 ETHFI 强制锁仓 7 天且满 $5 方可提现，到手收益受币价波动影响。"
+        },
         {
           "date": "2026-10-06",
           "type": "feature",
@@ -227,8 +224,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "以获批卡计划为准",
       "model": "钱包担保型消费卡",
-      "verified": "2026-10-10",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "reward",
+          "tag": "海外实测",
+          "title": "马来西亚线下加油实测：4% 返现与 1.14% 汇损验证",
+          "note": "马来西亚加油实测 RM100，标准档 4% 返现扣除 1.14% 卡网络外汇转换费后净赚约 RM2.90；提醒 AVAX 币价波动及月度 $2,500 额度上限。"
+        },
         {
           "date": "2026-10-10",
           "type": "feature",
@@ -596,8 +600,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "部分方案为 Mastercard",
       "model": "按地区区分的钱包卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "号段与风控",
+          "title": "Sutton Bank 万事达企业卡与中国护照开卡核查",
+          "note": "社区实测出现 Sutton Bank 万事达企业采购卡（53710058）；中国大陆用户需持护照申请，非员工卡且无个人消费者法定保护。官方帮助中心仍称大陆不可申，官网卡页则列入，口径冲突。阶梯返现 2%–3% 属实。"
+        },
         {
           "date": "2026-08-01",
           "type": "fee",
@@ -681,8 +692,8 @@
     {
       "id": "ready",
       "name": "Ready Card",
-      "stage": "paused",
-      "stageLabel": "⏸️ 暂停申领",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "旧 Lite 帮助资料列 Mastercard",
       "model": "Base 链自托管账户 / 社群专属 Community Cards",
       "verified": "2026-10-04",
@@ -749,12 +760,19 @@
     {
       "id": "cashi",
       "name": "Cashi Card",
-      "stage": "paused",
-      "stageLabel": "⏸️ 暂停申领",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；卡片通过持牌合作方发行",
       "model": "平台稳定币余额 / 虚拟 Visa",
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "条款核验",
+          "title": "按 10 月 9 日生效条款补充平台与服务主体",
+          "note": "Cashi 最新通用条款把 Cashi Ltd.（香港）列为平台主体，GBP Payments Corp.（加拿大 FINTRAC 注册 MSB）负责部分受监管服务；Visa 卡由未具名合作发卡方发行，主体角色已在资料页分开说明。"
+        },
         {
           "date": "2026-10-01",
           "type": "compliance",
@@ -778,8 +796,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；英国和 EEA 由 Monavate 相关实体发行",
       "model": "交易所加密资产与现金余额",
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "reward",
+          "tag": "奖励规则核验",
+          "title": "补充 30 天 Max 欢迎奖励、工资匹配与排除项",
+          "note": "Kraken 返现页于 2026-10-08 更新：新 Krak 账户首 30 天可获 Max 档；合资格地区另有 1% 工资匹配。补充按商户结算时等级计算的规则、非合格交易排除项，以及以加密资产消费时可能出现的兑换价差。"
+        },
         {
           "date": "2026-06-01",
           "type": "feature",
@@ -821,8 +846,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "EEA 为 Mastercard；其他地区可能是 Visa 或 Mastercard",
       "model": "OKX Pay 智能钱包稳定币余额",
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "reward",
+          "tag": "促销到期核对",
+          "title": "移除已兑完的 2026 年 9 月限时返现加码",
+          "note": "OKX 官方持续返现 FAQ 标注该 9 月活动已全部兑完；本次从卡片现行事实中移除这项限时加码，保留仍有效的基础返现规则。"
+        },
         {
           "date": "2026-10-06",
           "type": "feature",
@@ -860,12 +892,19 @@
     {
       "id": "card-fi",
       "name": "Card.fi",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
-      "network": "Visa 或 Mastercard（On5 Card Network）",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa 或 Mastercard；官网称由 On5 Card Network 发卡",
       "model": "多链充值 / 卡余额结算",
-      "verified": "2026-10-06",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "reward",
+          "tag": "返现规则核验",
+          "title": "补录官网公布的分级刷卡返现",
+          "note": "Card.fi 当前产品页列出咖啡店 10%（每月最多 10 USDT），以及 Classic 0.8%、Premium 1%、Metal 1.2% / 2% 的分级返现、月度上限和上月消费门槛；充值、转账与 ATM 不计返现。18% 属于另列的可变余额收益。"
+        },
         {
           "date": "2026-10-01",
           "type": "feature",
@@ -885,12 +924,19 @@
     {
       "id": "moneygram-card",
       "name": "MoneyGram Card",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
-      "network": "Visa；公告列出 Rain 卡基础设施与 Crossmint 钱包能力",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；官方产品页确认支持 Apple Pay 与 Google Wallet",
       "model": "稳定币余额 / Visa 消费卡",
-      "verified": "2026-10-06",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "官方产品页核验",
+          "title": "补充身份验证、手机钱包及免月年费说明",
+          "note": "MoneyGram 官方卡页明确要求完成身份验证后激活，并列 Apple Pay / Google Wallet 和免月费、年费。页面未给出完整发行费、充值、FX、ATM 或持续返现条款；地区资格仍按当地 App 核对。"
+        },
         {
           "date": "2026-09-10",
           "type": "feature",
@@ -1086,8 +1132,8 @@
     {
       "id": "fuse-card",
       "name": "Fuse Card",
-      "stage": "paused",
-      "stageLabel": "⏸️ 暂停申领",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行，Bridge 管理，Fuse 提供入口",
       "model": "Solana USDC 钱包 / 虚拟 Visa 预付卡",
       "verified": "2026-09-27",
@@ -1157,7 +1203,7 @@
           "date": "2026-08-05",
           "type": "feature",
           "tag": "非洲直通",
-          "title": "联合 Bridge 推出直连加密钱包借记卡",
+          "title": "联合 Bridge 推出直连U卡",
           "note": "非洲持牌交易所 Roqqu 联合 Bridge 推出支持即时结算与线上国际支付的美元借记卡，支持直接扣减稳定币。"
         }
       ]
@@ -1331,8 +1377,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行，Bridge 管理并使用 Stripe Issuing",
       "model": "Gate US 账户稳定币余额 / 虚拟 Visa",
-      "verified": "2026-10-01",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "传闻澄清",
+          "title": "澄清与 Sutton 537100 无关，实为 Lead Bank Visa 卡",
+          "note": "针对社区传闻 Gate 与 Bitget 同源 Sutton Bank 537100 企业卡，核查表明 Gate US Card 为 Lead Bank 发行的 Visa 卡（经 Bridge 与 Stripe Issuing），清算网络与发卡行均不相同。"
+        },
         {
           "date": "2026-09-03",
           "type": "feature",
@@ -1367,8 +1420,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；EEA 版由 Wallester AS 发行，其他地区版本按当地协议",
       "model": "KuCoin 账户余额；交易时把所选加密资产兑换为结算币",
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "EEA 争议规则",
+          "title": "补充 KuCard 交易争议时限与最高处理费",
+          "note": "KuCoin EU 帮助中心说明 EEA 版交易争议须在交易日起 60 天内提出，审查需 3–60 天；特定情况下最高收 €30，受当地法律限制。该规则没有外推至澳大利亚版本。"
+        },
         {
           "date": "2026-06-20",
           "type": "fee",
@@ -1507,7 +1567,7 @@
           "type": "feature",
           "tag": "新卡发布",
           "title": "面向 Global 与亚太推出万事达/Visa 借记卡",
-          "note": "MEXC 官方推出直连现货账户资产的加密借记卡，实行新用户限时 0 开卡费推广，支持 USDT/USDC 即时清算抵扣，日消费额度最高可达 $10,000。"
+          "note": "MEXC 官方推出直连现货账户资产的U卡，实行新用户限时 0 开卡费推广，支持 USDT/USDC 即时清算抵扣，日消费额度最高可达 $10,000。"
         }
       ]
     },
@@ -1871,7 +1931,7 @@
           "date": "2026-08-22",
           "type": "feature",
           "tag": "非托管卡",
-          "title": "推出基于 MPC 自托管钱包的加密借记卡",
+          "title": "推出基于 MPC 自托管钱包的U卡",
           "note": "COCA 联合 Wirex 推出非托管 MPC（多方安全计算）钱包直连借记卡，无助记词私钥分片备份，支持按需扣除链上代币完成 Visa 消费，最高享 5% 消费返现。"
         },
         {
@@ -2062,8 +2122,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；BloFin 官方称由 Rain 发行",
       "model": "将 USDT / USDC 转入 Wallet Card；可选 Direct Pay 或抵押授信",
-      "verified": "2026-09-29",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "fee",
+          "tag": "VIP 费率核对",
+          "title": "补全消费手续费与各档月额度",
+          "note": "按 BloFin Wallet Card 官方费率表补列 VIP 0–5 的 1.00% 至 0% 即时消费手续费、对应等级门槛和每月额度；额度每月 1 日重置，VIP 5 的 0% 仅在 $20,000 月额度内适用。该费用不是返现。"
+        },
         {
           "date": "2026-10-06",
           "type": "fee",
@@ -2112,7 +2179,7 @@
           "type": "fee",
           "tag": "巴西本土化",
           "title": "巴西合规发卡，免开卡费与年费",
-          "note": "面向巴西合规居民发行 Visa 加密借记卡，免收开卡与年费，支持雷亚尔（BRL）与稳定币即时结算。"
+          "note": "面向巴西合规居民发行 Visa U卡，免收开卡与年费，支持雷亚尔（BRL）与稳定币即时结算。"
         }
       ]
     },
@@ -2180,8 +2247,8 @@
     {
       "id": "fizen-card",
       "name": "Fizen Card",
-      "stage": "paused",
-      "stageLabel": "⏸️ 暂停申领",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
       "network": "Visa；官方营销资料说明其通过合作发行计划提供",
       "model": "USDT 充值至虚拟卡余额后按 Visa 网络消费",
       "verified": "2026-10-04",
@@ -2449,18 +2516,18 @@
     {
       "id": "casher-card",
       "name": "CasherCard",
-      "stage": "degraded",
-      "stageLabel": "🟡 风控受限",
-      "network": "Visa / Mastercard；预付虚拟卡",
-      "model": "多链加密货币预充值至第三方托管卡账户，按需生成虚拟 Visa/Mastercard 消费",
-      "verified": "2026-10-07",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "官网展示 Visa；页脚称合作方可能包括 Visa / Mastercard，具体卡片网络按开卡时显示为准",
+      "model": "将支持的加密资产充值至卡片余额后使用虚拟卡消费；具体 BIN 与服务方以开卡页为准",
+      "verified": "2026-10-11",
       "changelogs": [
         {
-          "date": "2026-09-20",
+          "date": "2026-10-11",
           "type": "compliance",
-          "tag": "通道监测",
-          "title": "第三方多链预付虚拟卡上线，主打海外广告投放与订阅",
-          "note": "支持 BTC/ETH/USDT/USDC 多链充值生成虚拟 Visa/Mastercard，开卡门槛低，但官方未透明披露持牌受托发卡银行，存在通道风控风险。"
+          "tag": "收费与发行信息核验",
+          "title": "以官网现行页面重写费用、KYC 与发行信息",
+          "note": "官网主推卡标价 $4、充值费 5%，列单笔 $5,000 和月度 $50,000 上限并宣传 Google Pay；FAQ 又称部分虚拟卡可免费。页脚称发卡服务由受监管第三方提供，但未列具体发行实体。主页退款宣传与通用条款的礼品卡退款规则范围不清，已撤下未有来源支持的免牌照、全球可申请和不支持手机钱包等断言。"
         }
       ]
     },
@@ -2489,14 +2556,14 @@
       "stageLabel": "⏸️ 暂停申领",
       "network": "官方预览页未完整披露",
       "model": "计划从 YouHodler 钱包充值后使用；现行结算与卡网络细节待公布",
-      "verified": "2026-10-04",
+      "verified": "2026-10-11",
       "changelogs": [
         {
-          "date": "2026-10-05",
-          "type": "feature",
-          "tag": "收益增强",
-          "title": "闲置资产生息联动与瑞士合规借记卡升级",
-          "note": "优化卡内备付金生息体系，持卡人未消费加密资产享有最高 8% 复合收益，虚拟与实体 Mastercard 正式向瑞士及欧洲居民配发。"
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "开放状态更正",
+          "title": "更正卡片仍处预订阶段，撤回已发卡与返现确认",
+          "note": "YouHodler 官方卡页仍写“almost here”并提供预订入口；正文未公布发行方、完整费率或可执行返现细则。导航的“2% cashback”不足以确认现行卡片权益，资料页状态改为待核。"
         },
         {
           "date": "2026-05-10",
@@ -2846,7 +2913,7 @@
           "date": "2026-10-08",
           "type": "feature",
           "tag": "官方上线",
-          "title": "联合万事达与 SoFi 在墨西哥正式推出加密借记卡",
+          "title": "联合万事达与 SoFi 在墨西哥正式推出U卡",
           "note": "Orbi 携手 Mastercard 与 SoFi Tech Solutions 接入墨西哥本地交换网络 MxDS，支持稳定币即时兑换为比索消费。"
         }
       ]
@@ -2891,6 +2958,78 @@
           "tag": "通道中断",
           "title": "提现延迟与消费扣款大面积拦截",
           "note": "平台通道方风控升级，出现大量拒付与提现排队，随后官方运营逐步停滞。"
+        }
+      ]
+    },
+    {
+      "id": "fasset-card",
+      "name": "Fasset Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa",
+      "model": "向 Fasset Card 充值 USDT，按 USD 余额通过 Visa 消费",
+      "verified": "2026-10-11",
+      "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "feature",
+          "tag": "新增卡片档案",
+          "title": "核实 Fasset Card 虚拟 Visa 预付卡开放申请",
+          "note": "官方帮助中心说明虚拟卡可用 USDT 充值，9.99 USDT 一次性发行费，马来西亚在可发卡名单内。2026-10-06 费率页列 $10,000 日限额，但官网产品 FAQ 仍列 $2,000；地区名单也有不一致，申请前需看 App。OWN Points 未披露现金兑换比例。"
+        }
+      ]
+    },
+    {
+      "id": "krak-card-us",
+      "name": "Krak Card (US)",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；官方资料称 Lead Bank 发行，Stripe 管理卡计划",
+      "model": "Krak 账户美元及支持的加密资产消费",
+      "verified": "2026-10-11",
+      "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "feature",
+          "tag": "新增美国卡档案",
+          "title": "区分美国 Krak Visa 借记卡与 Kraken Card",
+          "note": "Krak 官方说明美国卡由 Lead Bank 发行、Stripe 管理，仅面向合资格美国个人用户；纽约、缅因、马萨诸塞和印第安纳州除外。境外交易费的两篇官方说明存在冲突，返现档位另将于 2026-10-15 调整。"
+        }
+      ]
+    },
+    {
+      "id": "laso-cards",
+      "name": "Laso Crypto Prepaid Cards",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "官方公开资料未披露；不同卡型需分别核实",
+      "model": "按卡型使用加密资产或稳定币充值预付卡",
+      "verified": "2026-10-11",
+      "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "compliance",
+          "tag": "新增待核档案",
+          "title": "收录 Laso 加密充值预付卡并标注未披露发行方",
+          "note": "Laso 官方页面列出美国、加拿大、国际及可充值等不同预付卡，并公布各自的限额和费用；公开页面未明确卡组织与发行实体，档案状态保留为待核。App 覆盖地区不等于卡片可申请地区。"
+        }
+      ]
+    },
+    {
+      "id": "altitude-card",
+      "name": "Altitude Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa Signature Corporate；官方公告称由 Rain 提供支持，公开卡片页未列具体发卡银行",
+      "model": "Altitude 企业账户余额 / 稳定币支持的 Visa 公司卡",
+      "verified": "2026-10-11",
+      "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "product",
+          "tag": "新增企业卡档案",
+          "title": "收录 Altitude 企业虚拟 Visa Card",
+          "note": "核实官方 2026-06-10 上线公告、产品页和 2026-09-14 奖励条款。该卡面向合资格企业，支持 Apple Pay / Google Wallet；旅行 2%、指定 Startup Stack 商户 1.5%、其他类别 1%，每月按 100 点兑换 1 USDC。地区名单和发卡银行名称未在公开卡片页披露。"
         }
       ]
     }

@@ -22,3 +22,4 @@ BIN,Card Product,Brand,Network,Type,Sponsor Bank,Country,Currency,3D Secure,Stri
 456725,"Tangem Pay Visa Virtual","Tangem",Visa,Prepaid,"Rain Liquidity Inc.",US,USD,"支持",5,"条件支持",active,"低风险 (Low)"
 410039,"Avalanche Card Visa","Avalanche",Visa,Debit,"Rain Liquidity Inc.",US,USD,"支持",5,"不支持大陆申请",active,"低风险 (Low)"
 428836,"Wasabi / N Round Visa (历史卡段)","Wasabi",Visa,Prepaid,"PayrNet (已吊销)",LT,EUR,"不可用",1,"不可用",closed,"已暴雷/死卡 (Graveyard)"
+537100,"Sutton Bank Mastercard Corporate Purchasing","Bitget Wallet / Sutton Bank",Mastercard,Credit,"Sutton Bank",US,USD,"支持",4,"部分支持",active,"中风险 (Medium)"

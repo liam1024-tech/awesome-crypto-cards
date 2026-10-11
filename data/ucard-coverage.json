@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 120,
-    "current": 110,
-    "kycRequired": 97,
-    "kycConditional": 4,
-    "kycUnknown": 9,
+    "total": 124,
+    "current": 114,
+    "kycRequired": 101,
+    "kycConditional": 5,
+    "kycUnknown": 8,
     "noKycVerified": 0,
     "closed": 10,
-    "officialSources": 412
+    "officialSources": 438
   },
   "rows": [
     {
@@ -33,7 +33,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-10-10",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/ethena-pay/"
     },
     {
@@ -142,8 +142,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
-      "verified": "2026-09-27",
+      "sourceCount": 7,
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/bitget-wallet/"
     },
     {
@@ -209,7 +209,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/cashi/"
     },
     {
@@ -220,7 +220,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/kraken-card/"
     },
     {
@@ -242,7 +242,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 7,
-      "verified": "2026-09-27",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/okx-card/"
     },
     {
@@ -264,18 +264,18 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 4,
-      "verified": "2026-10-06",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/card-fi/"
     },
     {
       "id": "moneygram-card",
       "name": "MoneyGram Card",
-      "kyc": "unknown",
-      "kycLabel": "官方未说明",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 2,
-      "verified": "2026-10-06",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/moneygram-card/"
     },
     {
@@ -528,7 +528,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-10-01",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/gate-card/"
     },
     {
@@ -549,8 +549,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 6,
-      "verified": "2026-09-27",
+      "sourceCount": 7,
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/kucard/"
     },
     {
@@ -902,7 +902,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/blofin-wallet-card/"
     },
     {
@@ -1111,7 +1111,7 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 2,
-      "verified": "2026-10-07",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/casher-card/"
     },
     {
@@ -1130,10 +1130,10 @@
       "name": "YouHodler Crypto Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "beta",
-      "statusLabel": "公开测试 · 地区受限",
+      "status": "review",
+      "statusLabel": "版本待核",
       "sourceCount": 1,
-      "verified": "2026-10-04",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/youhodler-crypto-card/"
     },
     {
@@ -1333,6 +1333,50 @@
       "sourceCount": 3,
       "verified": "2026-10-10",
       "profileUrl": "https://ucard.observer/cards/51vcard-archive/"
+    },
+    {
+      "id": "fasset-card",
+      "name": "Fasset Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 7,
+      "verified": "2026-10-11",
+      "profileUrl": "https://ucard.observer/cards/fasset-card/"
+    },
+    {
+      "id": "krak-card-us",
+      "name": "Krak Card (US)",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 4,
+      "verified": "2026-10-11",
+      "profileUrl": "https://ucard.observer/cards/krak-card-us/"
+    },
+    {
+      "id": "laso-cards",
+      "name": "Laso Crypto Prepaid Cards",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 7,
+      "verified": "2026-10-11",
+      "profileUrl": "https://ucard.observer/cards/laso-cards/"
+    },
+    {
+      "id": "altitude-card",
+      "name": "Altitude Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 4,
+      "verified": "2026-10-11",
+      "profileUrl": "https://ucard.observer/cards/altitude-card/"
     }
   ]
 }
