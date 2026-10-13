@@ -164,7 +164,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa",
       "model": "直接支付 / 抵押借款",
-      "verified": "2026-10-02",
+      "verified": "2026-10-11",
       "changelogs": [
         {
           "date": "2026-10-11",
@@ -174,11 +174,18 @@
           "note": "马来西亚加油实测 RM100，Core 档 3% 返现扣除 1.39% 汇损后净得约 RM1.63；提醒 ETHFI 强制锁仓 7 天且满 $5 方可提现，到手收益受币价波动影响。"
         },
         {
+          "date": "2026-10-11",
+          "type": "feature",
+          "tag": "支付通道",
+          "title": "接入 MoonPay 支付基础设施并支持 liquid 金库份额在 PassimPay 商户直接消费",
+          "note": "两件事同周发生但属于不同能力：ether.fi 采用 MoonPay 全套基础设施处理法币进出与账户通道，由 PR Newswire 发布；liquidBTC、liquidETH 与 liquidUSD 金库份额可直接作为 PassimPay 商户的支付方式。前者是支付基础设施替换，后者是「用金库份额刷卡」，不等于卡片本身变成自托管卡。"
+        },
+        {
           "date": "2026-10-06",
           "type": "feature",
           "tag": "原生稳定币",
-          "title": "预告联合 Ethena 发行 EtherFi USD 并筹备接入 Cash 消费",
-          "note": "官方宣布将联合 Ethena 推出原生稳定币 EtherFi USD（由 Ethena 管理储备与合规），计划将其作为全生态基础资产，未来将深度接入 EtherFi Cash 支持直接扣款、收益沉淀、借贷与定制消费返现。"
+          "title": "正式发行自有稳定币 ether.fi USD，由 Ethena 管理储备",
+          "note": "官方发布自有美元稳定币 ether.fi USD，储备由 Ethena 提供与管理。多家媒体在 10 月 6 日至 7 日跟进报道。此前本站记录的是「预告联合 Ethena 发行」，本条为正式发行更新。"
         },
         {
           "date": "2026-10-02",
@@ -277,8 +284,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；产品页称 Rain 按 Visa 许可发行，国际卡条款则将 Third National 定义为 Issuer；具体发行方以个人卡协议和卡背为准",
       "model": "自托管稳定币余额",
-      "verified": "2026-10-02",
+      "verified": "2026-10-07",
       "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "reward",
+          "tag": "限时活动",
+          "title": "Platinum 健康商户 10% 返现活动（10/7 14:00 UTC 起至 10/21 23:59:59 UTC）",
+          "note": "Platinum 会员在指定健康品牌官网、App 或门店直接消费可享 10% 返现，账户全部卡片合计上限 US$75（约 750 美元合格消费触顶）。合格品牌共 13 个：可穿戴 WHOOP、Oura、Garmin；恢复 Therabody；补剂与营养 iHerb、Healf、Blueprint、IM8、AG1、Holland & Barrett；检测 Neko Health、Function Health、Superpower。第三方零售商、市场、经销商与诊所（含 Amazon、eBay、药房、百货）不合格；礼品卡、代金券与先买后付部分不合格。支付须在活动期内授权并成功结算。10% 促销费率取代原有分类返现且不叠加，促销上限与等级月度上限分开计算。返现以 Spending Credit 发放，每笔有 45 天 hold，不可提现。需在 App 内看到 Wellness offer 方可参加，活动可能提前结束。"
+        },
         {
           "date": "2026-09-01",
           "type": "reward",
@@ -316,8 +330,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "具体卡网络与币种以获批卡片为准",
       "model": "平台账户内稳定币支付",
-      "verified": "2026-10-02",
+      "verified": "2026-10-08",
       "changelogs": [
+        {
+          "date": "2026-10-08",
+          "type": "feature",
+          "tag": "法币通道",
+          "title": "支持收款方以墨西哥比索（MXN）入账并走 SPEI 本地清算",
+          "note": "官方公告确认用户可发送加密资产、收款方以墨西哥比索（MXN）到账，走墨西哥本地银行通道，官方称多数转账 5 分钟内到达。这是出金与汇款能力，不代表墨西哥本地的卡片申领资格。"
+        },
+        {
+          "date": "2026-10-08",
+          "type": "feature",
+          "tag": "合作伙伴",
+          "title": "与 Nium 合作扩展稳定币法币出金通道",
+          "note": "官方与 Nium 达成合作，借助其本地清算网络把稳定币出金扩展至更多市场，报道覆盖约 900 万用户规模。新增币种与到账时间以 App 内实际通道为准。"
+        },
         {
           "date": "2026-09-28",
           "type": "compliance",
@@ -369,8 +397,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "依地区卡计划核对",
       "model": "交易所关联支付卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-05",
+          "type": "reward",
+          "tag": "奖励收紧",
+          "title": "确认仅加密资产出资的交易可获奖励积分或返现，判定按商户入账日",
+          "note": "官方帮助中心确认自 2026-10-05 10:00 UTC 起，奖励资格只保留给以加密资产出资的交易，法币余额出资既拿不到奖励积分、也拿不到返现，不只影响返现比例。资格按商户入账日而非授权日判定：在 10 月 5 日 10:00 UTC 之前授权、之后才入账的交易同样适用新规则；Bybit Pay 自 2025-12-15 起已实行同一套仅限加密资产的规则。"
+        },
         {
           "date": "2026-10-05",
           "type": "reward",
@@ -415,8 +450,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "依地区卡片核对",
       "model": "预付卡（本页收录范围）",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "reward",
+          "tag": "返现档位",
+          "title": "官方日常消费返现档位为 4.5%，超过每月 5,000 美元的部分降为 1%",
+          "note": "官方奖励页把日常消费返现列为最高 4.5%，其中超过每月 5,000 美元的部分降为 1%。官方卡片页仍沿用「最高 5%」的宣传语，但该数字对应的是旅行类奖励，不能与日常消费返现混用。"
+        },
+        {
+          "date": "2026-10-01",
+          "type": "fee",
+          "tag": "费率调整",
+          "title": "外币交易改为按自然月额度计费，超出部分 2.0%",
+          "note": "官方帮助中心列明自 2026-10-01 起外币交易改按自然月额度计费：额度内免收，超出部分按 2.0% 计收；不活跃费也在同一批更新中调整为 £6 / €6。这与「外币交易一律免费」的旧口径不同：实际是否产生费用、产生多少，取决于当月累计的外币消费额。"
+        },
         {
           "date": "2026-09-01",
           "type": "fee",
@@ -454,7 +503,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard / Crypto Life",
       "model": "自托管钱包扣款",
-      "verified": "2026-09-27",
+      "verified": "2026-10-07",
       "changelogs": [
         {
           "date": "2026-10-07",
@@ -486,8 +535,22 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；公告称卡片由 Monavate 发行，Gnosis Pay 提供项目管理",
       "model": "Safe 智能账户连接的 Visa 消费卡（已公告退出）",
-      "verified": "2026-09-30",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-12-20",
+          "type": "incident",
+          "tag": "服务终结",
+          "title": "确认消费者卡与网页 App 于 12 月 20 日 23:59 UTC 停止工作",
+          "note": "官方资料确认消费者卡与网页 App 都将于 2026-12-20 23:59 UTC 停止工作，与此前公告的终止时间一致。该日期之后 Gnosis Pay 的消费者侧服务不再可用，服务如何延续取决于账户能否迁移到合作 App。"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "compliance",
+          "tag": "迁移路径",
+          "title": "确认迁移仅限 EUR 账户，且属于另立新合同而非原协议续期",
+          "note": "官方帮助中心说明只有 EUR 账户可以迁移到合作 App：EUR 账户转 Rebind，USD 与 GBP 账户不在迁移范围内，USD 方向另列 Picnic / MiniPay，GBP 官方称仍在处理中，可迁移不等于所有 Gnosis Pay 用户都能平移。终止通知写明加入合作方计划「不构成与 Gnosis Pay 及 Monavate 现有合同安排的延续或变更」；Rebind 条款也写明其卡片仍由 Gnosis Pay 发行，因此底层发行方不变，但用户与 Rebind 之间成立的是新合同。"
+        },
         {
           "date": "2026-09-30",
           "type": "incident",
@@ -602,6 +665,13 @@
       "model": "按地区区分的钱包卡",
       "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "feature",
+          "tag": "扫码支付",
+          "title": "官方披露 QR Pay 近 30 天处理逾 25 万笔支付，其中 44% 发生在超市",
+          "note": "Bitget Wallet 官方披露 QR Pay 在过去 30 天处理超过 250,000 笔支付，其中 44% 的扫码支付发生在超市。这是官方自述的运营数据，不是第三方审计数字，记录时标注来源为官方口径。"
+        },
         {
           "date": "2026-10-11",
           "type": "compliance",
@@ -774,6 +844,13 @@
           "note": "Cashi 最新通用条款把 Cashi Ltd.（香港）列为平台主体，GBP Payments Corp.（加拿大 FINTRAC 注册 MSB）负责部分受监管服务；Visa 卡由未具名合作发卡方发行，主体角色已在资料页分开说明。"
         },
         {
+          "date": "2026-10-07",
+          "type": "reward",
+          "tag": "限时活动",
+          "title": "TOKEN2049 期间 Grab 打车 20% 返现，上限 $25（10/7–10/11，已结束）",
+          "note": "Cashi 官方在 TOKEN2049 期间对 Grab 打车提供 20% 返现，上限 $25。活动窗口为 2026-10-07 至 10-11，属一次性活动，现已结束。此处按历史活动记录，避免用户误以为仍在有效期内。"
+        },
+        {
           "date": "2026-10-01",
           "type": "compliance",
           "tag": "资料核验",
@@ -821,8 +898,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Gnosis Pay 为项目管理方，Monavate 相关实体发卡",
       "model": "自托管稳定币钱包余额",
-      "verified": "2026-09-27",
+      "verified": "2026-10-10",
       "changelogs": [
+        {
+          "date": "2026-10-10",
+          "type": "reward",
+          "tag": "奖励调整",
+          "title": "官方说明当日 Boost 奖励按低于近几周的水平发放",
+          "note": "MiniPay 官方公告称当日 Boost 奖励「以低于近几周的费率」发放，并说明 Boost 最高约为余额的每周 2%、费率持续评估。这是奖励下调说明，不是新功能发布，转述时不要使用「上线」措辞。"
+        },
         {
           "date": "2026-06-20",
           "type": "feature",
@@ -878,8 +962,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（合作公告口径）",
       "model": "XDC 上自托管 USDC",
-      "verified": "2026-10-04",
+      "verified": "2026-10-08",
       "changelogs": [
+        {
+          "date": "2026-10-08",
+          "type": "feature",
+          "tag": "多链入金",
+          "title": "新增 Sei、Unichain、Sonic、Hyperliquid 与 Linea 五条入金链",
+          "note": "OrbitX Pay 新增 5 条充值网络：Sei、Unichain、Sonic、Hyperliquid、Linea，官方同时持续推进东南亚线下扫码场景。本站档案此前对 OrbitX 的费率归属仍标注「待核」，本条只记录链支持范围，不改写费率结论。"
+        },
         {
           "date": "2026-07-10",
           "type": "feature",
@@ -928,8 +1019,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；官方产品页确认支持 Apple Pay 与 Google Wallet",
       "model": "稳定币余额 / Visa 消费卡",
-      "verified": "2026-10-11",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "上线期费用条款公布：购买交易不收费，连续三个月以上无活动收不活跃费",
+          "note": "官方产品页给出了上线期的费用组合：无月费、无年费，购买交易不收费，另列一项在连续三个月以上无活动后适用的不活跃费。该组合属于上线期条款，会随官方公告调整。"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "计划区分",
+          "title": "确认这是新的稳定币卡计划，旧 Pathward 账户已于 2025-12-26 结束",
+          "note": "这是与旧账户不同的新卡计划：此前的旧账户产品由 Pathward 发行，已于 2025-12-26 结束；本次是新的稳定币余额支持卡片，两者不能按同一产品的版本更新理解，否则会误判可用范围与条款。"
+        },
         {
           "date": "2026-10-11",
           "type": "compliance",
@@ -1028,8 +1133,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 为发行方，Paera 运营卡账户",
       "model": "Rain Visa 预付账户；稳定币充值后消费",
-      "verified": "2026-09-27",
+      "verified": "2026-10-12",
       "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "实体卡",
+          "title": "Tangem Pay 推出首批实体 Visa 卡，Early Birds 限量 5,000 张",
+          "note": "Tangem Pay 由虚拟卡扩展至实体卡：首批 Early Birds 塑料卡限量 5,000 张，需在 App 内下单，可在 Visa 受理网络与 ATM 使用。多家媒体确认首发数量为 5,000，并有报道提到部分国家限制配送。实体卡权益与费率应单独核对，不能直接套用 Basic 虚拟卡条款。"
+        },
         {
           "date": "2026-08-25",
           "type": "feature",
@@ -1136,8 +1248,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行，Bridge 管理，Fuse 提供入口",
       "model": "Solana USDC 钱包 / 虚拟 Visa 预付卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "compliance",
+          "tag": "资料核验",
+          "title": "Bridge 卡协议引用路径 /card-agreements/fuse-network-card 已失效，改用当前路径",
+          "note": "本站此前引用的 Bridge 卡协议路径 /card-agreements/fuse-network-card 已停止解析，2026-10-13 核对时改用当前有效的 /card-agreements/fuse-card。这是引用来源的维护性修正，核对中未记录该卡费率或权益变动，卡片条款仍以 Bridge 官方协议页面为准。"
+        },
         {
           "date": "2026-09-15",
           "type": "compliance",
@@ -1267,10 +1386,17 @@
       "name": "Phantom Cash Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；Lead Bank 发行，Bridge 管理，Stripe / Phantom 提供基础设施",
+      "network": "Visa；Lead Bank 发行；卡计划由 Bridge 迁移至 Stripe（官方帮助中心 2026-10 说明）",
       "model": "Phantom CASH 余额 / 虚拟 Visa 借记卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-05",
+          "type": "architecture",
+          "tag": "发卡方迁移",
+          "title": "发行方由 Bridge 迁移至 Stripe，存量虚拟卡自 2026-10-05 起自动换发",
+          "note": "官方帮助中心说明借记卡发行方自 Bridge 迁移至 Stripe：自 2026-10-05 起，原有 Bridge 发行的虚拟 Phantom 借记卡会被自动替换，卡号、有效期和安全码都会改变，迁移在 10 月内分批完成。卡组织仍为 Visa，地区仍限美国（纽约州除外），费用口径未变；绑定了旧卡的订阅与钱包需要在替换完成后重新绑定。"
+        },
         {
           "date": "2026-09-08",
           "type": "feature",
@@ -1341,8 +1467,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；按居住地由 Rain 或 Wirex 提供发行服务",
       "model": "Solid 账户余额 / Rain 或 Wirex 持牌合作卡账户",
-      "verified": "2026-10-01",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-12",
+          "type": "reward",
+          "tag": "锁仓门槛",
+          "title": "FUSE 锁仓门槛提高：Prime 70,000、Ultra 600,000",
+          "note": "官方帮助中心把 FUSE 锁仓要求自 2026-10-12 起提高到 Prime 70,000、Ultra 600,000（原为 50,000 与 400,000）；在该日之前完成的锁仓，在整个 12 个月锁定期内仍按旧额度执行。官方费用页在本次核对时仍显示调整前的数字，实际档位应以奖励页与公告为准。"
+        },
+        {
+          "date": "2026-10-09",
+          "type": "feature",
+          "tag": "多链出金",
+          "title": "提现支持 Arbitrum、Base、BNB Chain、Ethereum 与 Fuse 多链",
+          "note": "Solid 官方确认提现支持 Arbitrum、Base、BNB Chain、Ethereum 与 Fuse 等网络。另有报道提到欧元卡在 Credit 模式下消费 EURC 或 soUSD 无 FX 费用、Activity 洞察按类别追踪消费与返现；这两项以 App 内当前说明为准，本次未逐项核对。"
+        },
         {
           "date": "2026-08-18",
           "type": "feature",
@@ -1488,7 +1628,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Tevau 卡计划，地区发行安排以 App 条款为准",
       "model": "先将 USDT 充值进 Tevau 钱包 / 卡账户，再以卡支付",
-      "verified": "2026-09-27",
+      "verified": "2026-09-28",
       "changelogs": [
         {
           "date": "2026-09-28",
@@ -1524,8 +1664,15 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；Bridge 曾提供卡计划",
       "model": "美元账户 / Visa 卡（运营收尾状态未明确）",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "incident",
+          "tag": "提取截止",
+          "title": "官网带日期提示要求 2026-07-31 前提取全部资金，停用日期仍未公布",
+          "note": "Gigbanc 官网当前带收尾提示，要求用户在 2026-07-31 前提取全部资金；2026-10-13 核对时该日期已过，卡片停用的具体时间官方仍未给出。本站按「清算清退」标注而非已确认停服，尚未提取余额的持卡人应尽快处理并留意官方后续说明。"
+        },
         {
           "date": "2026-09-15",
           "type": "incident",
@@ -1573,13 +1720,27 @@
     },
     {
       "id": "pionex-card",
-      "name": "Pionex Visa Card",
+      "name": "Pionex Card（Visa / Mastercard）",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；虚拟或实体形态及申请资格以账户入口为准",
+      "network": "Visa 与 Mastercard 两个版本并存（另有 Mastercard 版 Pionex Gold Card）",
       "model": "Pionex 卡账户 USDT 余额；美元与 USDT 按官方规则 1:1 计价",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "产品分线",
+          "title": "Visa、Mastercard 与 Gold Card 明确为三条产品线，返现口径各不相同",
+          "note": "按 2026-10-13 核对的官方帮助中心口径，Visa 卡返现、MasterCard 返现计划指南与 Gold Card FAQ 分别维护：Visa 版为最高 1% 无上限，Mastercard 版列本地非美元交易 0.1%–1%，Gold Card 为邀请制预购的 Mastercard 产品，产品页另宣传「最高 6% 返现」的类别加成。原先「1% 返现」的单一表述只对应 Visa 版，持卡人应先确认自己持有的是哪条产品线再对照返现条款。"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "compliance",
+          "tag": "资料核验",
+          "title": "原引用的两篇 support.pionex.com 帮助文已下线，改用当前帮助中心",
+          "note": "本站此前引用的 support.pionex.com 两篇帮助文（费率表、Visa 返现调整公告）在 2026-10-13 核查时已无法访问，现改用 Pionex 官方帮助中心（help.pionex.com）当前在线的返现与 Gold Card 文章。费率细节以卡内实际记录为准。"
+        },
         {
           "date": "2026-07-25",
           "type": "feature",
@@ -1609,19 +1770,33 @@
     },
     {
       "id": "whitebit-nova",
-      "name": "WhiteBIT Nóva Card",
+      "name": "WhiteBIT Nóva Card（EUR 暂停 / 新增 USD）",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；实体卡和虚拟卡可用功能不同",
+      "network": "Visa；Nóva EUR 卡（暂停中）与 Nóva USD 卡（新上线，虚拟卡）为不同产品，卡产品提供方为 Hashbank（USD 卡）",
       "model": "WhiteBIT 账户加密资产按卡片规则即时转换用于 Visa 消费",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新增产品线",
+          "title": "新增独立的 Nóva USD 卡（虚拟 Visa，Hashbank 提供卡产品）",
+          "note": "WhiteBIT 新推出的 Nóva USD 卡为虚拟 Visa 卡，卡产品由 Hashbank 提供；官方帮助中心（2026-09-29 更新）列每月返现上限 25 USD、累计满 5 USDC 可提取，新用户首笔交易有 5% 欢迎返现，返现币种为 BTC 或 WBT，覆盖 15 个以上类别并须匹配 MCC。2026-10-13 核对时官方明确它「不是 EUR 卡的迁移，而是面向 whitebit.com 用户的新卡」，与原 Nóva EUR 卡不是同一张卡的续期关系，比较权益前需先确认持有的是哪一张卡。"
+        },
         {
           "date": "2026-09-26",
           "type": "feature",
           "tag": "配送与激活",
           "title": "公布实体卡阶梯配送费与停用重启规则",
           "note": "欧洲持牌所公布实体卡阶梯运费（标准 €12、DHL €20、特快 €40），明示连续 3 个月不活跃自动关卡与 €5 重启费。"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "compliance",
+          "tag": "合规暂停",
+          "title": "Nóva EUR 卡因 MiCA 过渡自 2026-06-30 起暂停，待 WhiteBIT Europe 上线后迁移",
+          "note": "官方迁移说明写明：原 Nóva EUR 卡自 2026-06-30 起进入暂停（账户内显示 Frozen 或 Suspended），卡保留在账户中但无法交易，也不能自行恢复，需待 WhiteBIT Europe（whitebit.eu）上线后完成迁移。截至 2026-10-13 核对该状态仍持续：这是 MiCA 过渡导致的暂停而非卡片关闭，恢复时间取决于 WhiteBIT Europe 的上线进度而非用户操作。"
         }
       ]
     },
@@ -1632,8 +1807,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 或 DCS 按居住地作为发卡合作方",
       "model": "USDC / USDT 充值后先转换为卡内 USD 余额",
-      "verified": "2026-09-29",
+      "verified": "2026-10-08",
       "changelogs": [
+        {
+          "date": "2026-10-08",
+          "type": "feature",
+          "tag": "链上扫码",
+          "title": "上线 On-Chain QR Payments，可扫码并从指定钱包余额扣款",
+          "note": "Jupiter Mobile 上线链上二维码支付：扫描受支持的二维码后可直接从钱包余额付款，并可在付款时选择由哪个钱包出账。媒体同期报道 QR 支付正在推动加密卡增长。"
+        },
         {
           "date": "2026-10-08",
           "type": "compliance",
@@ -1682,7 +1864,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "支付卡；卡网络、发卡国家及 Apple / Google Pay 可用性以账户内实际卡计划为准",
       "model": "USDT / USDC 充值至单独卡余额",
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "changelogs": [
         {
           "date": "2026-10-06",
@@ -1743,7 +1925,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "不同卡种可能为 Visa 或 Mastercard；按账户卡片协议为准",
       "model": "Gate Pay / Spot 账户资产按卡片规则转换为法币消费",
-      "verified": "2026-09-27",
+      "verified": "2026-10-08",
       "changelogs": [
         {
           "date": "2026-10-08",
@@ -1893,8 +2075,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Signature；由获授权第三方发卡",
       "model": "自托管钱包资产作支持；USDC 即时付款或按固定利率分期",
-      "verified": "2026-09-29",
+      "verified": "2026-10-06",
       "changelogs": [
+        {
+          "date": "2026-10-06",
+          "type": "feature",
+          "tag": "运营数据",
+          "title": "官方披露规模：15,000 张卡、$14M 存款、每月 $2M 刷卡、$2M 固定利率 USDC 贷款",
+          "note": "Exa 官方披露运营数据：已发行 15,000 张卡、存款 $14M、每月刷卡消费 $2M、固定利率 USDC 贷款规模 $2M，全部在链上。属官方自述口径，不是第三方审计数字。"
+        },
         {
           "date": "2026-10-06",
           "type": "compliance",
@@ -1918,8 +2107,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；由 Wirex Limited (英国) / UAB Wirex (EEA) 发行",
       "model": "非托管 MPC 钱包直连 Wirex Mastercard 预付卡结算",
-      "verified": "2026-09-29",
+      "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-11",
+          "type": "reward",
+          "tag": "额度机制",
+          "title": "$COCA 质押可提升每月 Claim Capacity：每多质押 100 $COCA 永久 +$1",
+          "note": "COCA 官方帮助中心说明，每月可领取奖励存在 Claim Capacity 上限，可通过三种 Booster 提升：Payment（刷卡量）、Loyalty（连续持有等级）与 Staking。Staking Booster 规则为：每额外质押 100 $COCA，只要资金保持质押状态，Claim Capacity 永久 +$1。原 digest 表述为「新的 Staking Booster 提升每月领取上限」，这属于既有机制的补充说明，不是全新产品。"
+        },
         {
           "date": "2026-10-06",
           "type": "compliance",
@@ -1993,7 +2189,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa / Mastercard（依地区与卡计划，官网页面口径并不完全一致）",
       "model": "Kolo 钱包资产在付款时转换后结算",
-      "verified": "2026-09-29",
+      "verified": "2026-10-08",
       "changelogs": [
         {
           "date": "2026-10-08",
@@ -2018,8 +2214,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；官方条款列 Third National 为发卡方",
       "model": "Cash 模式花账户余额；Credit 模式以资产作抵押借入稳定币消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-07",
       "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "运营数据",
+          "title": "Liquid Banking 累计交易量超过 $150M",
+          "note": "Hyperbeat 官方披露其 Liquid Banking 累计交易量超过 $150M。此前报道显示该产品把稳定币存款与 Visa 卡消费整合在 Hyperliquid 生态内。属官方自述口径。"
+        },
         {
           "date": "2026-09-18",
           "type": "compliance",
@@ -2050,12 +2253,26 @@
     {
       "id": "solflare-card",
       "name": "Solflare Card",
-      "stage": "active",
-      "stageLabel": "🟢 正常活跃",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
       "network": "Mastercard；卡片发行合作方依适用地区协议",
       "model": "自托管 Solana 钱包中的 USDC 直接授权消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "incident",
+          "tag": "服务暂停",
+          "title": "确认卡片自 2026-07-28 起暂停，官方称发卡方 Kulipa「难以维持运营」",
+          "note": "官方帮助中心的最新表述是发卡合作方 Kulipa「难以维持运营」，并未表述为该公司已经停止运营；卡片自 2026-07-28 起停止工作，本站按 review 标注。暂停期间页面记录的费用与限额条款不产生实际适用。"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "feature",
+          "tag": "恢复预告",
+          "title": "预告以 Apple Pay、更高限额与返现恢复，原定 8 月窗口已过",
+          "note": "官方预告恢复后将提供 Apple Pay、更高限额与返现，但这些属于恢复后的计划能力，当前不可用。帮助页更新至 2026-10-05 仍显示暂停，原预告的 8 月恢复窗口已经过去。"
+        },
         {
           "date": "2026-08-14",
           "type": "feature",
@@ -2072,7 +2289,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；具体发卡实体依卡协议",
       "model": "Tuyo 账户 / 加密资产余额连接 Visa 消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": [
         {
           "date": "2026-10-04",
@@ -2097,7 +2314,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（Platinum / Signature）；Avici 官方文档称由 Rain 发行",
       "model": "USDC 存入用户控制的抵押合约，生成 Visa 信用消费余额并定期清算",
-      "verified": "2026-09-29",
+      "verified": "2026-10-06",
       "changelogs": [
         {
           "date": "2026-10-06",
@@ -2208,7 +2425,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "多种虚拟卡计划；各卡发卡实体未在 FAQ 充分披露",
       "model": "按卡种向发行账户充值 USDT/USDC，再以虚拟卡付款",
-      "verified": "2026-10-04",
+      "verified": "2026-10-06",
       "changelogs": [
         {
           "date": "2026-10-06",
@@ -2362,8 +2579,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "官方个人卡页面未在摘要明确列出卡组织；以适用卡协议为准",
       "model": "Infini 账户中的稳定币余额连接虚拟消费卡",
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "changelogs": [
+        {
+          "date": "2026-10-04",
+          "type": "feature",
+          "tag": "运营数据",
+          "title": "Infini Earn USD 在 $40M 额度内认购率超过 95%，参考 APY 约 8%",
+          "note": "Infini 官方披露 Infini Earn USD 在 $40M 总额度内认购率超过 95%，参考年化约 8%，并提到 8 月新增 $15M 额度。参考 APY 不是保证收益，额度可能随时变化。"
+        },
         {
           "date": "2026-09-20",
           "type": "feature",
@@ -2454,6 +2678,13 @@
       "model": "多链稳定币 1:1 存入充值至卡内法币（USD/EUR）余额进行 Visa 结算",
       "verified": "2026-10-07",
       "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "reward",
+          "tag": "限时活动",
+          "title": "Pulsar Pro 十月返现翻倍：刷卡 2% 提至 4%，订阅类 4% 提至 8%（以积分发放）",
+          "note": "Pulsar Money 官方在十月把 Pro 档返现翻倍：普通刷卡由 2% 提升到 4%，Claude、X 等订阅类消费由 4% 提升到 8%，奖励以积分形式发放。属限时活动，结束后应恢复原费率。"
+        },
         {
           "date": "2026-10-07",
           "type": "reward",
@@ -2674,8 +2905,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa",
       "model": "0% APR 免息消费账单还款，法币/加密出金消费，依赖持牌银行提供资金托管与清算",
-      "verified": "2026-10-02",
+      "verified": "2026-10-07",
       "changelogs": [
+        {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "客户端",
+          "title": "Anodos App 上架 Google Play",
+          "note": "Anodos 官方确认 App 已在 Google Play 上架，补全 Android 端客户端分发渠道。"
+        },
         {
           "date": "2026-09-26",
           "type": "compliance",
@@ -2820,6 +3058,20 @@
           "note": "香港持牌机构 Reap Technologies 联合 Visa 全球网络，支持 Web3 企业以 USDT/USDC 为抵押开立 Visa Platinum Business 商业信用卡，免预先法币兑换。"
         },
         {
+          "date": "2026-10-05",
+          "type": "feature",
+          "tag": "权益扩充",
+          "title": "与 Collinson 合作，为合格 Reap 卡引入 Priority Pass 机场贵宾室权益",
+          "note": "Reap 与 Collinson International 达成合作，向符合条件的 Reap 发行卡提供 Priority Pass 机场贵宾室体验。由 PR Newswire 原稿发布，行业媒体随后跟进。合格卡等级、可携同行人数与年度使用次数须以官方条款为准。"
+        },
+        {
+          "date": "2026-10-05",
+          "type": "feature",
+          "tag": "企业支付",
+          "title": "Reap Virtual Assets 让代币化资产直接刷卡消费；并与 AIR by Animoca Brands、Minds、Pivota 试点智能体商务",
+          "note": "两项独立进展：Reap Virtual Assets 把比特币等虚拟资产转为可直接刷卡消费的额度，无需先卖出；Animoca Brands 旗下 AIR 与 Minds 联合 Reap、Pivota 试点 AI 智能体商务的身份与结算。第二项属于试点，不能写成已上线产品。"
+        },
+        {
           "date": "2026-09-01",
           "type": "fee",
           "tag": "费率公布",
@@ -2962,6 +3214,204 @@
       ]
     },
     {
+      "id": "lava-card",
+      "name": "Lava Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa；官方产品页展示 Visa Infinite 卡面，条款写明卡计划由发行方在 Visa 授权下发行",
+      "model": "担保信用卡（secured credit card）：只能从账户美元余额扣款，不提供无担保信用额度；美元来源为稳定币充值、银行转账、工资直存，或用 BTC 抵押通过 BLOC 借出",
+      "verified": "2026-10-12",
+      "changelogs": [
+        {
+          "date": "2026-10-12",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Lava Card（Visa 担保信用卡）",
+          "note": "完成 Lava 官方产品页、FAQ 与卡片条款核验：无年费，外币 0% 外汇费与 0% 跨境费，合作商户消费返 5% 比特币（美国 3%、美国以外 1%）；卡片为担保信用卡，只能花账户美元余额，美元可用稳定币、银行转账、工资直存或 BTC 抵押借款（BLOC）入金。申请资格与发行方法定名称官方未公开逐国名单。"
+        }
+      ]
+    },
+    {
+      "id": "ubot-maicoin-card",
+      "name": "聯邦銀行 MaiCoin 聯名卡",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（Signature 等级）",
+      "model": "银行信用卡：由联邦银行核卡并授予信用额度，消费计入账单按期还款；回馈以 U 币发放，再在 MaiCoin / MAX 生态内兑换加密资产",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录联邦银行 MaiCoin 联名卡（Visa Signature 台湾信用卡）",
+          "note": "这是联邦银行与 MaiCoin 集团合作的台湾本地信用卡，不是稳定币消费卡：由银行核卡授信，消费计入账单按期还款，加密只出现在回馈环节。基础回馈 0.5% U 币、按指定条件分级最高 4.5%，U 币可在 MaiCoin / MAX 生态兑换比特币、以太币、USDT、USDC 或 MAX 代币，最低兑换门槛 100 U 币。正卡年费 NT$2,000、附卡 NT$1,000，首年免年费，之后申办电子账单或年消费满 NT$60,000 可免次年年费；申办限台湾居民并通过银行征审。官方活动页未明确列出 Apple Pay 与 Google Pay 支持情况，不能按支持处理。"
+        }
+      ]
+    },
+    {
+      "id": "kgi-crypto-rewards-card",
+      "name": "凱基銀行 幣享卡",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard",
+      "model": "银行信用卡：由凯基银行核卡授信，消费累积点数；点数可在合作交易所兑换比特币、以太币、USDT、USDC 等加密资产",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录凯基银行币享卡（Mastercard 台湾信用卡）",
+          "note": "凯基银行发行的 Mastercard 信用卡，官方定位为台湾首张点数可换加密货币的信用卡，同样不是稳定币消费卡：点数只是兑换入口，消费并不直接发币，兑换走合作的台湾交易所。回馈国内 1%、海外 2%，海外交易手续费另计回馈、合计约 3.5%，指定类别另有最高 12%–15% 加码点数，加码档位由银行当期活动决定并会更新。正卡年费 NT$3,000、附卡 NT$1,500，首年免年费，之后按银行公告的减免条件可免次年年费；申办限台湾居民并通过银行征审。官方产品页未明确列出 Apple Pay 与 Google Pay 支持情况，不能按支持处理。"
+        }
+      ]
+    },
+    {
+      "id": "startale-card",
+      "name": "Startale Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（官方公告口径；官方称可在 Visa 受理网络超过 1.5 亿商户使用）",
+      "model": "自托管借记卡：资产保留在用户钱包中，消费时直接扣减；官方称未使用的资产在消费前仍可继续产生收益",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Startale Card（自托管稳定币 Visa 卡，仍处候补阶段）",
+          "note": "Startale 集团（Soneium 生态，索尼参与投资）推出的自托管稳定币 Visa 卡：资产留在用户自己的钱包中，消费时从自托管余额扣款，官方称未消费的资产在消费前可继续产生收益。官方口径为 2026-07-13 公布并开放候补，申请走 Startale App 候补，尚未全面开放申请，本站按 beta 记录。公告阶段官方未公布费率表——年费、开卡费、FX 费与充值费均未列出，不应按「免费」理解——返现比例与上限也未公布；官方称回馈以稳定币（USDSC）入账。官方称可在 Visa 受理网络超过 1.5 亿商户使用，但未公布逐国可申请名单。"
+        }
+      ]
+    },
+    {
+      "id": "bix-card",
+      "name": "Bix Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（官方站点口径）",
+      "model": "自托管借记卡：资产在用户自己的钱包中，消费时扣减自托管余额；宣传口径为用稳定币直接支付日常消费",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Bix Card（自托管 USDC / USDT Visa 卡，美国 29 州可用）",
+          "note": "Bix 推出的自托管钱包加 Visa 卡组合：用户在应用内持有 USDC 或 USDT，消费时直接从自托管余额扣款。官方称截至 2026 年 9 月已在 29 个州可用，并计划扩展到 49 个州，可用性按州而非按国划分，具体名单以官方应用内结果为准。本次核对时官方站点未公布费率表与返现结构，年费、开卡费、FX 费与充值费均未列出，不应按「无费用」理解。公开报道提到同品牌另有区域站点以托管模式运营，两种模式的资产控制方式与对手方风险完全不同，申请前须确认所申请的是哪一套。"
+        }
+      ]
+    },
+    {
+      "id": "arq-card",
+      "name": "ARQ Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（官方帮助中心与产品页口径）",
+      "model": "借记卡：以账户美元余额扣款，USDC 可兑换为美元余额；官方定位为把数字美元用于日常消费的账户加卡组合",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 ARQ Card（DolarApp 更名而来的 Mastercard）",
+          "note": "DolarApp 于 2026-03-02 起更名为 ARQ，卡片随之改称 ARQ Card：账户以美元余额计价，用户把 USDC 换成美元余额后直接刷卡，加密货币到法币的兑换发生在用卡之前。官方口径为 Mastercard，覆盖墨西哥、阿根廷、巴西与哥伦比亚，申请资格取决于当地账户开立条件，官方未公布逐国细则。本次核对时官方帮助中心未提供完整费率表，也未公布返现结构；第三方资料列的 0–2% 返现缺乏官方页面支撑，本站按未公布处理。"
+        }
+      ]
+    },
+    {
+      "id": "orbi-sofi-mastercard",
+      "name": "Orbi × SoFi Tech Solutions Mastercard",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（官方新闻稿口径）",
+      "model": "加密链接卡：官方公告口径为把加密资产用于消费的链接式卡片；扣款结构、是否自托管与信用额度安排均未在公告中说明",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "公告阶段收录 Orbi × SoFi Tech Solutions Mastercard（墨西哥）",
+          "note": "Orbi 与 SoFi Tech Solutions（原 Galileo）合作、走 Mastercard 网络的加密链接卡，2026-10-08 由双方发布，面向墨西哥市场。公告阶段只披露合作结构、卡组织与目标市场：费用、返现、可用国家清单与具体开卡时间均未公布，官方新闻稿也未披露费率表与回馈结构，本站按 review 标注。SoFi Tech Solutions 提供的是发卡与处理技术，公告未明示实际发卡机构，把技术方当作发卡行会误判争议处理对象。这是与 Orbi 自有卡不同的另一套产品，两者不能共用一个档案；在官方公布开卡渠道之前，不应把它列入可选方案。"
+        }
+      ]
+    },
+    {
+      "id": "peanut-card",
+      "name": "Peanut Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（官方帮助页口径）",
+      "model": "自托管虚拟借记卡：资产留在用户自己的钱包中，消费时扣减 USDC 余额；卡本身为虚拟卡",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Peanut Card（自托管 USDC Visa 虚拟卡，beta 阶段）",
+          "note": "peanut.me（Squirrel Labs 开发）推出的自托管 USDC Visa 虚拟卡，卡计划由 Rain 提供基础设施：资产留在用户自己的钱包中，消费时直接扣减 USDC 余额。官方帮助页列无开卡费、无月费、无年费，跨境消费另按 1% 国际服务费计收，国内消费不适用这 1%。官方帮助页未列出返现或回馈结构，本站按无返现记录。产品仍处 beta 阶段，官方称面向全球但列有约 17 个不支持的国家或地区，费用与地区清单都可能调整。"
+        }
+      ]
+    },
+    {
+      "id": "x-money-card",
+      "name": "X Money Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（官方产品页口径）",
+      "model": "借记卡：从 X Money 账户美元余额扣款，账户由合作银行提供存款与支付基础设施；官方另提供余额利息",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 X Money Card（美国美元账户 Visa 借记卡，非加密卡）",
+          "note": "X 公司推出的 X Money 账户配套 Visa 借记卡，分实体金属卡与虚拟卡，从账户美元余额扣款。这张卡本身不是加密卡：没有加密资产托管、没有链上结算，也不以稳定币计价，本站收录它是因为它是该窗口内最受关注的美国消费卡发布，不代表它属于加密卡类别。官方称账户无月费、无账户管理费；消费返现最高 3%（Premium / Premium+ 账户），账户余额提供 6% 年化收益（APY），两者均与账户等级绑定，免费账户不适用最高档。存款与支付由合作银行 Cross River Bank 提供；官方称面向美国用户开放，公开报道称 2026-10 起免费账户亦可使用。"
+        }
+      ]
+    },
+    {
+      "id": "waldenpay-virtual-card",
+      "name": "WaldenPay 虚拟卡",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "官方产品页未明示卡组织。第三方资料称 Visa，但本次核对未获官方页面支撑，本站按未公布记录。",
+      "model": "充值型虚拟卡：以加密货币充值后用于消费；官方未说明充值到消费之间的资产归属与托管结构",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 WaldenPay 虚拟卡（USDT 充值、免 KYC，资料不全）",
+          "note": "WaldenPay 于 2026-10-05 发布的加密货币充值虚拟卡，宣传以 USDT 充值、无需 KYC 即可用于线上消费。本次核对时官方产品页未明示发卡机构、卡组织与合规主体——第三方资料称 Visa，但未获官方页面支撑，本站按未公布记录——也未公布完整费率表与返现结构，本站不引用第三方数字。免 KYC 是宣传口径而非降低风险：发卡方没有经过验证的持卡人身份记录，一旦发生争议或资金问题，用户缺少可追索的账户关系。卡片的信息披露程度明显低于持牌发卡机构发行的同类产品，本站按 review 标注。"
+        }
+      ]
+    },
+    {
+      "id": "ustarpay-virtual-card",
+      "name": "UstarPay 虚拟卡",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "官方未明示卡组织。官方页面出现 Visa 相关标识，但本次核对未获明确的官方文字说明，本站按未公布记录。",
+      "model": "充值型虚拟卡：以 USDT 充值后用于消费；官方说明设有资格与合规审核流程",
+      "verified": "2026-10-13",
+      "changelogs": [
+        {
+          "date": "2026-10-13",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 UstarPay 虚拟卡（USDT 充值，官方未明示卡组织）",
+          "note": "UstarPay 于 2026-07-30 推出应用与虚拟卡，支持以 USDT 充值并用于日常消费，官方称持有加拿大 MSB（货币服务业务）牌照，产品以中文用户为主要宣传对象之一。本次核对时官方页面未以文字明示卡组织与发卡机构（页面出现 Visa 相关标识不足以作为卡组织证据），也未公布费率表与返现结构，本站按未公布记录。加拿大 MSB 是货币服务业务的反洗钱注册，不等于存款保障或卡片争议处理机制。地区方面官方称面向「受支持与受监管的地区」并指向外部链接页，未在站点内公布逐国名单。"
+        }
+      ]
+    },
+    {
       "id": "fasset-card",
       "name": "Fasset Card",
       "stage": "active",
@@ -3030,6 +3480,13 @@
           "tag": "新增企业卡档案",
           "title": "收录 Altitude 企业虚拟 Visa Card",
           "note": "核实官方 2026-06-10 上线公告、产品页和 2026-09-14 奖励条款。该卡面向合资格企业，支持 Apple Pay / Google Wallet；旅行 2%、指定 Startup Stack 商户 1.5%、其他类别 1%，每月按 100 点兑换 1 USDC。地区名单和发卡银行名称未在公开卡片页披露。"
+        },
+        {
+          "date": "2026-10-07",
+          "type": "feature",
+          "tag": "财务工具",
+          "title": "支持在 App 内下载对账单、卡账单与转账凭证，Altitude Accounting 接入 Xero",
+          "note": "Altitude 官方更新：账户对账单、卡账单与转账确认可直接在 App 内下载；Altitude Accounting 与 Xero 打通，可连接 Xero 并做科目映射。属企业卡才有的财务工作流能力。"
         }
       ]
     }

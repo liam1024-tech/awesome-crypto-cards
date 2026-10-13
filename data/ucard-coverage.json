@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 124,
-    "current": 114,
-    "kycRequired": 101,
+    "total": 135,
+    "current": 125,
+    "kycRequired": 111,
     "kycConditional": 5,
-    "kycUnknown": 8,
+    "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 10,
-    "officialSources": 438
+    "officialSources": 510
   },
   "rows": [
     {
@@ -22,7 +22,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 11,
-      "verified": "2026-10-02",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/ether-fi/"
     },
     {
@@ -44,7 +44,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 9,
-      "verified": "2026-10-02",
+      "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/plasma-one/"
     },
     {
@@ -55,7 +55,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 16,
-      "verified": "2026-10-02",
+      "verified": "2026-10-08",
       "profileUrl": "https://ucard.observer/cards/redotpay/"
     },
     {
@@ -65,8 +65,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
-      "verified": "2026-09-27",
+      "sourceCount": 4,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/bybit/"
     },
     {
@@ -76,8 +76,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
-      "verified": "2026-09-27",
+      "sourceCount": 4,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/crypto-com/"
     },
     {
@@ -88,7 +88,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-27",
+      "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/metamask/"
     },
     {
@@ -98,8 +98,8 @@
       "kycLabel": "需要 KYC",
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
-      "sourceCount": 5,
-      "verified": "2026-09-30",
+      "sourceCount": 7,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/gnosis-pay/"
     },
     {
@@ -231,7 +231,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-09-27",
+      "verified": "2026-10-10",
       "profileUrl": "https://ucard.observer/cards/minipay-card/"
     },
     {
@@ -253,7 +253,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-10-04",
+      "verified": "2026-10-08",
       "profileUrl": "https://ucard.observer/cards/orbitx-pay/"
     },
     {
@@ -274,8 +274,8 @@
       "kycLabel": "需要 KYC",
       "status": "review",
       "statusLabel": "版本待核",
-      "sourceCount": 2,
-      "verified": "2026-10-11",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/moneygram-card/"
     },
     {
@@ -319,7 +319,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-12",
       "profileUrl": "https://ucard.observer/cards/tangem-pay/"
     },
     {
@@ -351,7 +351,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-09-27",
       "profileUrl": "https://ucard.observer/cards/western-union-stablecard/"
     },
@@ -385,7 +385,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 2,
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/fuse-card/"
     },
     {
@@ -462,7 +462,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/phantom-cash-card/"
     },
     {
@@ -505,8 +505,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
-      "verified": "2026-10-01",
+      "sourceCount": 6,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/solid-card/"
     },
     {
@@ -583,7 +583,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-27",
+      "verified": "2026-09-28",
       "profileUrl": "https://ucard.observer/cards/tevau-card/"
     },
     {
@@ -605,7 +605,7 @@
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/gigbanc-card/"
     },
     {
@@ -632,13 +632,13 @@
     },
     {
       "id": "pionex-card",
-      "name": "Pionex Visa Card",
+      "name": "Pionex Card（Visa / Mastercard）",
       "kyc": "required",
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/pionex-card/"
     },
     {
@@ -654,13 +654,13 @@
     },
     {
       "id": "whitebit-nova",
-      "name": "WhiteBIT Nóva Card",
+      "name": "WhiteBIT Nóva Card（EUR 暂停 / 新增 USD）",
       "kyc": "required",
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
-      "verified": "2026-09-27",
+      "sourceCount": 4,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/whitebit-nova/"
     },
     {
@@ -671,7 +671,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-29",
+      "verified": "2026-10-08",
       "profileUrl": "https://ucard.observer/cards/jupiter-card/"
     },
     {
@@ -693,7 +693,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-27",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/trustee-plus-card/"
     },
     {
@@ -726,7 +726,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-27",
+      "verified": "2026-10-08",
       "profileUrl": "https://ucard.observer/cards/gate-card-global/"
     },
     {
@@ -758,7 +758,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/biyapay-easycard/"
     },
@@ -780,7 +780,7 @@
       "kycLabel": "需要 KYC",
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/bitget-exchange-card/"
     },
@@ -792,7 +792,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-09-29",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/exa-card/"
     },
     {
@@ -803,7 +803,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/coca-card/"
     },
     {
@@ -836,7 +836,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-08",
       "profileUrl": "https://ucard.observer/cards/kolo-card/"
     },
     {
@@ -847,7 +847,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-09-29",
+      "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/hyperbeat-pay/"
     },
     {
@@ -866,10 +866,10 @@
       "name": "Solflare Card",
       "kyc": "required",
       "kycLabel": "需要 KYC",
-      "status": "regional",
-      "statusLabel": "地区受限 · 资格需核实",
+      "status": "review",
+      "statusLabel": "版本待核",
       "sourceCount": 3,
-      "verified": "2026-09-29",
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/solflare-card/"
     },
     {
@@ -880,7 +880,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/tuyo-card/"
     },
     {
@@ -891,7 +891,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-09-29",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/avici-card/"
     },
     {
@@ -923,7 +923,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-09-29",
       "profileUrl": "https://ucard.observer/cards/ripio-card-brazil/"
     },
@@ -934,7 +934,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-09-29",
       "profileUrl": "https://ucard.observer/cards/pexx-mastercard/"
     },
@@ -946,7 +946,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 1,
-      "verified": "2026-10-04",
+      "verified": "2026-10-06",
       "profileUrl": "https://ucard.observer/cards/maxswap-card/"
     },
     {
@@ -1023,7 +1023,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/infini-personal-card/"
     },
     {
@@ -1044,7 +1044,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/blofin-exchange-card/"
     },
@@ -1055,7 +1055,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "verified": "2026-09-30",
       "profileUrl": "https://ucard.observer/cards/lbank-card/"
     },
@@ -1077,7 +1077,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/pulsar-card/"
     },
@@ -1110,7 +1110,7 @@
       "kycLabel": "视发卡方要求核验",
       "status": "review",
       "statusLabel": "版本待核",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/casher-card/"
     },
@@ -1143,7 +1143,7 @@
       "kycLabel": "停服 / 不适用",
       "status": "closed",
       "statusLabel": "已停服 · 历史档案",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/trastra-card/"
     },
@@ -1154,7 +1154,7 @@
       "kycLabel": "官方未说明",
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-09-29",
       "profileUrl": "https://ucard.observer/cards/cexio-card/"
     },
@@ -1176,7 +1176,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-02",
       "profileUrl": "https://ucard.observer/cards/bitrefill-card/"
     },
@@ -1187,8 +1187,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
-      "verified": "2026-10-02",
+      "sourceCount": 5,
+      "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/anodos-card/"
     },
     {
@@ -1198,7 +1198,7 @@
       "kycLabel": "视发卡方要求核验",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-03",
       "profileUrl": "https://ucard.observer/cards/solcard/"
     },
@@ -1209,7 +1209,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/bleap-card/"
     },
@@ -1231,7 +1231,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-07",
       "profileUrl": "https://ucard.observer/cards/bitsa-card/"
     },
@@ -1275,7 +1275,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-09",
       "profileUrl": "https://ucard.observer/cards/tonhub-card/"
     },
@@ -1286,7 +1286,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-09",
       "profileUrl": "https://ucard.observer/cards/rizon-card/"
     },
@@ -1297,7 +1297,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-09",
       "profileUrl": "https://ucard.observer/cards/oobit-card/"
     },
@@ -1308,7 +1308,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-10",
       "profileUrl": "https://ucard.observer/cards/orbi-card/"
     },
@@ -1335,6 +1335,127 @@
       "profileUrl": "https://ucard.observer/cards/51vcard-archive/"
     },
     {
+      "id": "lava-card",
+      "name": "Lava Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 13,
+      "verified": "2026-10-12",
+      "profileUrl": "https://ucard.observer/cards/lava-card/"
+    },
+    {
+      "id": "ubot-maicoin-card",
+      "name": "聯邦銀行 MaiCoin 聯名卡",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/ubot-maicoin-card/"
+    },
+    {
+      "id": "kgi-crypto-rewards-card",
+      "name": "凱基銀行 幣享卡",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/kgi-crypto-rewards-card/"
+    },
+    {
+      "id": "startale-card",
+      "name": "Startale Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/startale-card/"
+    },
+    {
+      "id": "bix-card",
+      "name": "Bix Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/bix-card/"
+    },
+    {
+      "id": "arq-card",
+      "name": "ARQ Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/arq-card/"
+    },
+    {
+      "id": "orbi-sofi-mastercard",
+      "name": "Orbi × SoFi Tech Solutions Mastercard",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/orbi-sofi-mastercard/"
+    },
+    {
+      "id": "peanut-card",
+      "name": "Peanut Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/peanut-card/"
+    },
+    {
+      "id": "x-money-card",
+      "name": "X Money Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/x-money-card/"
+    },
+    {
+      "id": "waldenpay-virtual-card",
+      "name": "WaldenPay 虚拟卡",
+      "kyc": "unknown",
+      "kycLabel": "官方未说明",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/waldenpay-virtual-card/"
+    },
+    {
+      "id": "ustarpay-virtual-card",
+      "name": "UstarPay 虚拟卡",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 3,
+      "verified": "2026-10-13",
+      "profileUrl": "https://ucard.observer/cards/ustarpay-virtual-card/"
+    },
+    {
       "id": "fasset-card",
       "name": "Fasset Card",
       "kyc": "required",
@@ -1352,7 +1473,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "verified": "2026-10-11",
       "profileUrl": "https://ucard.observer/cards/krak-card-us/"
     },

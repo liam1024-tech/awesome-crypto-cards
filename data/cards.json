@@ -5,8 +5,8 @@
   "cards": [
     {
       "published": "2026-09-13",
-      "modified": "2026-10-02",
-      "verified": "2026-10-02",
+      "modified": "2026-10-11",
+      "verified": "2026-10-11",
       "id": "ether-fi",
       "name": "ether.fi Cash",
       "invite": {
@@ -486,8 +486,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-10-02",
-      "verified": "2026-10-02",
+      "modified": "2026-10-07",
+      "verified": "2026-10-07",
       "id": "plasma-one",
       "name": "Plasma One",
       "inviteLink": {
@@ -781,8 +781,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-10-02",
-      "verified": "2026-10-02",
+      "modified": "2026-10-08",
+      "verified": "2026-10-08",
       "id": "redotpay",
       "name": "RedotPay",
       "aliases": "redot 红点 红点卡",
@@ -1085,8 +1085,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-05",
+      "verified": "2026-10-13",
       "id": "bybit",
       "name": "Bybit Card",
       "aliases": "bybit 交易所卡",
@@ -1127,6 +1127,13 @@
           [
             1
           ]
+        ],
+        [
+          "奖励资格改为仅限加密资产出资",
+          "官方帮助中心写明自 2026-10-05 10:00 UTC 起，只有以加密资产出资的交易可获得奖励积分或返现，用法币余额出资的交易不再获得积分或返现。这不只是返现比例变化：法币出资同时失去奖励积分。",
+          [
+            2
+          ]
         ]
       ],
       "sections": [
@@ -1142,6 +1149,13 @@
           "资料页能帮助准备核对事项，但审批仍由对应服务方依据实际资料处理。本站不提供开卡通过率，也不代办。",
           [
             0
+          ]
+        ],
+        [
+          "资格判定看商户入账日而不是授权日",
+          "官方 FAQ 说明：若交易在 2026-10-05 10:00 UTC 前授权、但商户在 10 月 6 日才入账，仍按新规则处理。因此跨期的授权时间不能作为旧规则的依据。Bybit Pay 自 2025-12-15 起已适用同样的仅限加密资产规则。",
+          [
+            3
           ]
         ]
       ],
@@ -1159,6 +1173,14 @@
         {
           "title": "Bybit：卡片费用与消费限额（2026-09-10 更新）",
           "url": "https://www.bybit.com/en/help-center/article/Fees-and-Spending-Limits-Bybit-Card"
+        },
+        {
+          "title": "Bybit：卡片奖励说明——2026-10-05 起仅加密资产出资的交易可获积分或返现（官方帮助中心；2026-10-13 核对）",
+          "url": "https://www.bybit.com/en/help-center/article/Introduction-to-Bybit-Card-Rewards"
+        },
+        {
+          "title": "Bybit：卡片奖励常见问题——判定以商户入账日为准（官方帮助中心；2026-10-13 核对）",
+          "url": "https://www.bybit.com/en/help-center/article/FAQ-Bybit-Card-Rewards"
         }
       ],
       "kyc": "required",
@@ -1179,7 +1201,8 @@
         "aiSubscriptions": {
           "status": "official",
           "detail": "官方订阅返现明列 OpenAI、Claude（限部分国家，EEA 除外）"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -1196,7 +1219,7 @@
     {
       "published": "2026-09-13",
       "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "verified": "2026-10-13",
       "id": "crypto-com",
       "name": "Crypto.com Card",
       "aliases": "crypto com CRO U卡",
@@ -1222,6 +1245,20 @@
           "临时授权会占用可用余额，不能仅凭余额减少判断已完成最终扣款。",
           [
             0
+          ]
+        ],
+        [
+          "外币交易改为按月额度计费（2026-10-01 生效）",
+          "官方帮助中心列明自 2026-10-01 起外币交易按自然月额度处理：额度内免收，超出部分按 2.0% 计费；同一批更新还把不活跃费调整为 £6 / €6。这与「外币交易一律免费」的旧口径不同，实际成本取决于当月累计消费额。",
+          [
+            2
+          ]
+        ],
+        [
+          "日常消费返现档位为 4.5%",
+          "官方奖励页列日常消费最高 4.5%（超过每月 5,000 美元的部分降为 1%）。官方卡片页仍保留「最高 5%」的宣传语，但该数字对应的是旅行类奖励而非日常消费，不能当作日常消费返现比例。",
+          [
+            3
           ]
         ]
       ],
@@ -1255,6 +1292,14 @@
         {
           "title": "Crypto.com Card 官方卡面素材核查",
           "url": "https://crypto.com/en/cards/"
+        },
+        {
+          "title": "Crypto.com：英国预付卡费用与限额——2026-10-01 起外币交易按月额度计费（官方帮助中心；2026-10-13 核对）",
+          "url": "https://help.crypto.com/en/articles/5977242-crypto-com-prepaid-visa-card-fees-and-limits-united-kingdom"
+        },
+        {
+          "title": "Crypto.com：Level Up 奖励与权益——日常消费档位最高 4.5%（官方帮助中心；2026-10-13 核对）",
+          "url": "https://help.crypto.com/en/articles/12017612-level-up-rewards-and-benefits"
         }
       ],
       "kyc": "required",
@@ -1275,7 +1320,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -1291,8 +1337,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-09-13",
-      "verified": "2026-09-27",
+      "modified": "2026-10-07",
+      "verified": "2026-10-07",
       "id": "metamask",
       "name": "MetaMask Card",
       "aliases": "metamask 小狐狸 Linea",
@@ -1395,7 +1441,7 @@
     {
       "published": "2026-09-13",
       "modified": "2026-09-30",
-      "verified": "2026-09-30",
+      "verified": "2026-10-13",
       "id": "gnosis-pay",
       "name": "Gnosis Pay",
       "aliases": "gnosis gnosis card safe",
@@ -1443,6 +1489,13 @@
           [
             3
           ]
+        ],
+        [
+          "迁移仅限 EUR 账户",
+          "官方帮助中心说明只有 EUR 账户可以迁移到合作 App，USD 与 GBP 账户不在迁移范围内（USD 方向另列 Picnic / MiniPay，GBP 官方称仍在处理中）。可迁移不等于所有 Gnosis Pay 用户都能平移。",
+          [
+            5
+          ]
         ]
       ],
       "sections": [
@@ -1468,6 +1521,14 @@
             1,
             2,
             3
+          ]
+        ],
+        [
+          "迁移到 Rebind 是另立合同，不是原协议续期",
+          "官方终止通知写明：加入合作方计划「不构成与 Gnosis Pay 及 Monavate 现有合同安排的延续或变更」。Rebind 条款同时写明其卡片仍由 Gnosis Pay 发行，因此底层发行方不变，但用户与 Rebind 之间成立的是新合同，权利义务以新条款为准。",
+          [
+            5,
+            6
           ]
         ]
       ],
@@ -1505,6 +1566,14 @@
         {
           "title": "Gnosis Pay 官方卡面素材核查",
           "url": "https://www.gnosispay.com.br/"
+        },
+        {
+          "title": "Gnosis Pay：可迁移至哪些 App——EUR 账户转 Rebind、USD 与 GBP 不适用（官方帮助中心；2026-10-13 核对）",
+          "url": "https://help.gnosispay.com/articles/9340240615-which-apps-you-can-move-to"
+        },
+        {
+          "title": "Rebind：Gnosis Pay 迁移说明与卡片条款（官方站点；2026-10-13 核对）",
+          "url": "https://rebind.co/gnosis-pay"
         }
       ],
       "kyc": "required",
@@ -1525,7 +1594,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -3047,8 +3117,8 @@
     },
     {
       "published": "2026-09-21",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-10",
+      "verified": "2026-10-10",
       "id": "minipay-card",
       "name": "MiniPay Card",
       "aliases": "minipay opera celo USDT USDC cUSD digital gold",
@@ -3406,8 +3476,8 @@
     },
     {
       "published": "2026-09-21",
-      "modified": "2026-10-04",
-      "verified": "2026-10-04",
+      "modified": "2026-10-08",
+      "verified": "2026-10-08",
       "id": "orbitx-pay",
       "name": "OrbitX Pay Card",
       "aliases": "orbitx pay xdc USDC visa self custody",
@@ -3763,7 +3833,7 @@
     {
       "published": "2026-09-27",
       "modified": "2026-10-11",
-      "verified": "2026-10-11",
+      "verified": "2026-10-13",
       "id": "moneygram-card",
       "name": "MoneyGram Card",
       "aliases": "MoneyGram 稳定币卡 Visa 哥伦比亚",
@@ -3814,6 +3884,20 @@
             1,
             0
           ]
+        ],
+        [
+          "上线期费用口径",
+          "官方产品页称上线阶段取得与使用虚拟卡不收费：无月费、无年费，购买交易亦不收费。官方同时列有不活跃费，在连续三个月以上无活动后适用。该口径属于上线期条款，会随官方公告调整。",
+          [
+            2
+          ]
+        ],
+        [
+          "这是新的稳定币卡计划，不是旧账户的续期",
+          "MoneyGram 此前的旧账户产品由 Pathward 发行并已于 2025-12-26 结束；本次发布的是新的稳定币余额支持卡片，属于另一套卡计划。把两者当作同一产品的版本更新会误判可用范围与条款。",
+          [
+            2
+          ]
         ]
       ],
       "sections": [
@@ -3854,6 +3938,10 @@
         {
           "title": "MoneyGram：MoneyGram Card 官方产品页（身份验证、手机钱包与月/年费）",
           "url": "https://www.moneygram.com/us/en/moneygram-card"
+        },
+        {
+          "title": "MoneyGram：官方新闻中心——MoneyGram Card 发布（2026-09-10）",
+          "url": "https://corporate.moneygram.com/news"
         }
       ],
       "paymentCompatibility": {
@@ -3873,7 +3961,7 @@
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
         },
-        "researchDate": "2026-10-11"
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -4417,8 +4505,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-12",
+      "verified": "2026-10-12",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -4462,6 +4550,14 @@
             0,
             2,
             3
+          ]
+        ],
+        [
+          "实体卡与卡组织（2026-10-12 复核）",
+          "官方等级表现已把实体卡纳入正式档位：Basic 为至多 3 张 Visa Platinum，Plus 为至多 5 张 Visa Signature 且首张实体卡下单免费；官网同时列 Early Birds Edition 实体卡（限前 5,000 名）。此前资料按“仅虚拟卡、实体卡配送费依国家变化”描述，现据官方等级页更正。",
+          [
+            0,
+            2
           ]
         ]
       ],
@@ -4834,6 +4930,10 @@
         {
           "title": "Western Union：Stablecard 与 Rain 上线公告",
           "url": "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-Stablecard-in-Partnership-with-Rain/default.aspx"
+        },
+        {
+          "title": "Western Union Stablecard 官方卡面素材核查",
+          "url": "https://apps.apple.com/us/app/stablecard-by-western-union/id6767097267"
         }
       ],
       "paymentCompatibility": {
@@ -4855,9 +4955,19 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.westernunion.com/global/en/digital-assets-stablecard.html"
+        "status": "official",
+        "path": "/card-art/western-union-stablecard.webp",
+        "file": "western-union-stablecard.webp",
+        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/fd/1f/04fd1fe4-bafc-a463-230a-6616966b47c8/en_stablecard_4_ios_1284x2778_sm.jpg/1284x2778bb.jpg",
+        "sourcePage": "https://apps.apple.com/us/app/stablecard-by-western-union/id6767097267",
+        "version": "Stablecard by Western Union 实体卡官方卡面",
+        "mode": "contain",
+        "crop": {
+          "left": 386,
+          "top": 498,
+          "width": 560,
+          "height": 446
+        }
       },
       "url": "https://ucard.observer/cards/western-union-stablecard/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -5096,8 +5206,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
       "group": "独立钱包与支付卡",
       "status": "beta",
       "kyc": "required",
@@ -5167,8 +5277,8 @@
           "url": "https://fusewallet.com/blog/fuse-card"
         },
         {
-          "title": "Bridge：Fuse 卡持卡协议",
-          "url": "https://www.bridge.xyz/card-agreements/fuse-network-card"
+          "title": "Fuse：Bridge 卡协议（原 fuse-network-card 路径已失效，改用当前路径；2026-10-13 核对）",
+          "url": "https://www.bridge.xyz/card-agreements/fuse-card"
         }
       ],
       "paymentCompatibility": {
@@ -5187,7 +5297,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -5333,22 +5444,22 @@
           "不同卡版本",
           "Chipper 帮助中心把当地货币卡与 Nigeria US-USD、NG-USD 卡分开列明，费用和资金余额不可混用。",
           [
-            1
+            0
           ]
         ],
         [
           "US-USD 费用示例",
           "尼日利亚 US-USD 卡开卡费 5 美元、月维护费 1 美元，单笔上限 2,000 美元。",
           [
-            1
+            0
           ]
         ],
         [
           "稳定币关系",
           "Chipper 钱包支持 USDC、USDT、RLUSD、PYUSD 入金，但卡片各版本的充值 / 转换路径应按当地 App 查看。",
           [
-            2,
-            3
+            1,
+            2
           ]
         ],
         [
@@ -5364,8 +5475,8 @@
           "稳定币钱包不等于所有卡都直接扣链上资产",
           "Chipper 的稳定币钱包和当地卡余额是相关但不同功能。只有官方明确说明的地区与产品路径才可视为卡直接使用稳定币。",
           [
-            1,
-            2
+            0,
+            1
           ]
         ]
       ],
@@ -5389,8 +5500,8 @@
       "rewards": "未核实到跨国家统一刷卡返现。",
       "sources": [
         {
-          "title": "Chipper Cash：Chipper Card 产品页",
-          "url": "https://www.chippercash.com/chipper-card"
+          "title": "Chipper 帮助中心：Chipper Card 集合页，含各市场卡种与限额（2026-10-12 复核；原 chippercash.com 产品页已不可访问）",
+          "url": "https://support.chippercash.com/en/collections/2927247-chipper-card"
         },
         {
           "title": "Chipper：Nigeria US-USD 卡费用与申请",
@@ -5428,8 +5539,8 @@
         "path": "/card-art/chipper-card.webp",
         "file": "chipper-card.webp",
         "imageUrl": "https://cdn.prod.website-files.com/63c81b0c3ad929013f062d70/63cfd27ba43e8f81597c369f_chipper-debit-cards.png",
-        "sourcePage": "https://www.chippercash.com/chipper-card",
-        "version": "Chipper Card 官方借记卡",
+        "sourcePage": "https://support.chippercash.com/en/collections/2927247-chipper-card",
+        "version": "Chipper Card 官方借记卡（官网产品页已不可访问，卡图主素材域名与帮助中心一致）",
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/chipper-card/",
@@ -5524,9 +5635,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://roqqu.io/"
+        "status": "official",
+        "path": "/card-art/roqqu-card.webp",
+        "file": "roqqu-card.webp",
+        "imageUrl": "https://roqqu.io/assets/images/virtualcards.png",
+        "sourcePage": "https://roqqu.io/",
+        "version": "Roqqu Visa 虚拟卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/roqqu-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -5832,17 +5947,21 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://help.getthera.com/en/articles/15423603-what-is-the-thera-wallet-virtual-visa-card-and-how-can-i-use-it"
+        "status": "official",
+        "path": "/card-art/thera-card.webp",
+        "file": "thera-card.webp",
+        "imageUrl": "https://downloads.intercomcdn.com/i/o/i70ex4os/769255/99892cbecbe211585485a21b8680/ed1705837086d2e2106cb985337ed549.png",
+        "sourcePage": "https://help.getthera.com/en/articles/15423603-what-is-the-thera-wallet-virtual-visa-card-and-how-can-i-use-it",
+        "version": "Thera Wallet 虚拟 Visa 卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/thera-card/",
       "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -5886,6 +6005,13 @@
           [
             1
           ]
+        ],
+        [
+          "发卡方迁移（2026-10）",
+          "Phantom 官方帮助中心说明借记卡发行方由 Bridge 迁移至 Stripe：自 2026-10-05 起，原有 Bridge 发行的虚拟 Phantom 借记卡会被自动替换，卡号随之变更，迁移在 10 月内分批完成。卡组织仍为 Visa，地区仍限美国（纽约州除外），费用口径未变。",
+          [
+            3
+          ]
         ]
       ],
       "sections": [
@@ -5895,6 +6021,13 @@
           [
             0,
             1
+          ]
+        ],
+        [
+          "发行方变更不影响卡片定位，但卡号会变",
+          "Bridge 换为 Stripe 只是后端卡计划的承接方变化：卡仍是 Visa、仍只面向美国（纽约州除外）、虚拟卡费用口径不变。但既有 Bridge 卡会被自动补发为新卡，卡号、有效期和安全码都会改变，绑定了旧卡的订阅与钱包需要在替换完成后重新绑定。",
+          [
+            3
           ]
         ]
       ],
@@ -5912,7 +6045,7 @@
       "name": "Phantom Cash Card",
       "intro": "Phantom Cash 账户内的虚拟 Visa 卡，以 CASH 余额消费；美国（纽约州除外）开放，支持 Apple Pay / Google Pay。",
       "model": "Phantom CASH 余额 / 虚拟 Visa 借记卡",
-      "network": "Visa；Lead Bank 发行，Bridge 管理，Stripe / Phantom 提供基础设施",
+      "network": "Visa；Lead Bank 发行；卡计划由 Bridge 迁移至 Stripe（官方帮助中心 2026-10 说明）",
       "region": "官方帮助中心当前限定美国，纽约州除外；暂未公布其他地区卡片开放时间。",
       "fee": "虚拟卡发行和美国消费免费；国际购买费用可能发生，并在确认前显示。",
       "rewards": "未核实到 Phantom Card 消费返现；CASH 账户收益与刷卡返现需分开看。",
@@ -5930,8 +6063,8 @@
           "url": "https://help.phantom.com/articles/44800531617939"
         },
         {
-          "title": "Bridge：Phantom 卡协议",
-          "url": "https://www.bridge.xyz/card-agreements/phantom-card"
+          "title": "Phantom：帮助中心「更新你的替换虚拟借记卡」——卡发行方由 Bridge 迁移至 Stripe（2026-10-12 更新；2026-10-13 核对）",
+          "url": "https://help.phantom.com/articles/update-your-replacement-virtual-phantom-debit-card-us-only-56135715481619"
         }
       ],
       "paymentCompatibility": {
@@ -5950,7 +6083,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -6298,8 +6432,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-10-01",
-      "verified": "2026-10-01",
+      "modified": "2026-10-09",
+      "verified": "2026-10-13",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -6328,6 +6462,14 @@
           [
             3
           ]
+        ],
+        [
+          "FUSE 锁仓额自 2026-10-12 起提高",
+          "官方帮助中心写明自 2026-10-12 起 Prime 的 FUSE 锁仓额变为 70,000、Ultra 变为 600,000（原为 50,000 与 400,000）。生效日为 10 月 12 日。在该日之前完成的锁仓在整个 12 个月锁定期内维持旧额度，不受新标准影响。",
+          [
+            4,
+            5
+          ]
         ]
       ],
       "sections": [
@@ -6338,6 +6480,13 @@
             0,
             1,
             2
+          ]
+        ],
+        [
+          "费用页与奖励页的档位表可能短期不一致",
+          "官方费用页在本次核对时仍显示调整前的 50,000 / 400,000 数字。两页分别维护，档位判断应以奖励页与公告为准，并注意锁仓时点决定适用哪一套额度。",
+          [
+            4
           ]
         ]
       ],
@@ -6375,6 +6524,14 @@
         {
           "title": "Solid：卡片费用、限额与外汇费率",
           "url": "https://support.solid.xyz/en/articles/13885984-solid-fees-and-limits-the-complete-overview"
+        },
+        {
+          "title": "Solid：奖励机制说明——2026-10-12 起 Prime / Ultra 的 FUSE 锁仓额提高（官方帮助中心；2026-10-13 核对）",
+          "url": "https://support.solid.xyz/en/articles/15587319-how-does-solid-rewards-work"
+        },
+        {
+          "title": "Solid：Rewards Reimagined 官方公告（2026-10-06）",
+          "url": "https://www.solid.xyz/post/rewards-reimagined"
         }
       ],
       "paymentCompatibility": {
@@ -6393,7 +6550,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -7121,8 +7279,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-09-28",
+      "verified": "2026-09-28",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -7336,8 +7494,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
       "group": "独立钱包与支付卡",
       "status": "winddown",
       "kyc": "unknown",
@@ -7364,6 +7522,13 @@
         [
           "资金安全提醒",
           "不要通过旧推广链接充值或向陌生人提供账户信息；若有旧余额，联系官方页面提供的客服渠道。",
+          [
+            0
+          ]
+        ],
+        [
+          "官方公布资金提取截止日",
+          "Gigbanc 官网当前带收尾提示，要求用户在 2026-07-31 前提取全部资金；该日期已过，卡片停用具体时间官方仍未给出。本站按「清算清退」标注，不写成已确认停服。",
           [
             0
           ]
@@ -7427,7 +7592,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -7724,8 +7890,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -7761,6 +7927,15 @@
           [
             0
           ]
+        ],
+        [
+          "Visa、Mastercard 与 Gold Card 是三套口径",
+          "官方帮助中心分别维护 Visa 卡返现、MasterCard 返现计划指南与 Gold Card FAQ：Visa 版为最高 1% 无上限，Mastercard 版列本地非美元交易 0.1%–1%，Gold Card 为邀请制预购的 Mastercard 产品。原先「1% 返现」的单一表述只对应 Visa 版。",
+          [
+            1,
+            2,
+            3
+          ]
         ]
       ],
       "sections": [
@@ -7770,6 +7945,15 @@
           [
             0,
             1
+          ]
+        ],
+        [
+          "原引用的两篇官方帮助文已下线",
+          "本站此前引用的 support.pionex.com 两篇帮助文（费率表、Visa 返现调整公告）在 2026-10-13 核查时已无法访问。本站改用 Pionex 官方帮助中心（help.pionex.com）当前在线的返现与 Gold Card 文章，费率细节以卡内实际记录为准。",
+          [
+            1,
+            2,
+            3
           ]
         ]
       ],
@@ -7788,29 +7972,29 @@
         ]
       ],
       "id": "pionex-card",
-      "name": "Pionex Visa Card",
+      "name": "Pionex Card（Visa / Mastercard）",
       "intro": "Pionex Visa Card 从 Pionex 卡账户余额支付。官方费用表列消费交易费 1%、符合条件交易 1% 返现；本地美元消费的返现另有公告自 2026-03-20 调整至 0.1%。",
       "model": "Pionex 卡账户 USDT 余额；美元与 USDT 按官方规则 1:1 计价",
-      "network": "Visa；虚拟或实体形态及申请资格以账户入口为准",
+      "network": "Visa 与 Mastercard 两个版本并存（另有 Mastercard 版 Pionex Gold Card）",
       "region": "卡片仅向 Pionex 支持并审核通过的地区开放；官网商户受理范围不等于居民可申请范围。",
       "fee": "当前官方费率表列每月首笔金额不超过 $1 的交易免费；之后小额交易每笔收 0.2 USDT。此项与一般刷卡费分开；本地 USD 返现公告与费率表其他返现口径仍有差异，按交易币种和 App 记录确认。",
-      "rewards": "费用表列合格交易 1% 返现且无上限；另有单独公告将本地 USD 消费返现从 1% 调整至 0.1%（2026-03-20 生效）。适用交易范围应在 App 内确认。",
+      "rewards": "Visa 版官方返现口径为最高 1%、无上限；Mastercard 版官方返现指南列本地非美元交易 0.1%–1%；另有 Pionex Gold Card（Mastercard，官方说明为邀请制预购）。产品页另宣传「最高 6% 返现」的类别加成。三套数字针对不同卡版本与类别，不能当成同一个固定比例。",
       "sources": [
-        {
-          "title": "Pionex Visa Card：费用与返现规则（2026-04 更新）",
-          "url": "https://support.pionex.com/hc/en-us/articles/48279498374169-Card-Fee-Schedule"
-        },
-        {
-          "title": "Pionex VISA Card：本地美元消费返现调整公告",
-          "url": "https://support.pionex.com/hc/en-us/articles/56164094631705-Pionex-VISA-Card-Rebate-Rate-Update"
-        },
         {
           "title": "Pionex Card：官方产品入口",
           "url": "https://www.pionex.com/card"
         },
         {
-          "title": "Pionex Visa Card 官方卡面素材核查",
-          "url": "https://blog.pionex.com/"
+          "title": "Pionex：Cashback 常见问题——Visa 卡最高 1% 无上限（2026-10-12 更新；2026-10-13 核对）",
+          "url": "https://help.pionex.com/en/articles/14616381"
+        },
+        {
+          "title": "Pionex：MasterCard 返现计划指南——非美元本地交易 0.1%–1%（2026-10-13 核对；原引用的 support.pionex.com 两篇帮助文已不可访问）",
+          "url": "https://help.pionex.com/en/articles/15418063"
+        },
+        {
+          "title": "Pionex：Gold Card 资格、定价与返现 FAQ（2026-10-10 更新；2026-10-13 核对）",
+          "url": "https://help.pionex.com/en/articles/16926500"
         }
       ],
       "paymentCompatibility": {
@@ -7829,7 +8013,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
         "status": "official",
@@ -7979,8 +8164,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -8022,6 +8207,20 @@
           [
             0
           ]
+        ],
+        [
+          "EUR 卡暂停与新 USD 卡并非续期关系",
+          "官方迁移说明写明：原 Nóva EUR 卡自 2026-06-30 起进入暂停（账户内显示 Frozen 或 Suspended），卡保留在账户中但无法交易，也不能自行恢复，需待 WhiteBIT Europe 上线后完成迁移。官方同时明确新 Nóva USD 卡「不是 EUR 卡的迁移，而是面向 whitebit.com 用户的新卡」。把两者当作同一产品的版本更新会误判可用性。",
+          [
+            1
+          ]
+        ],
+        [
+          "新 Nóva USD 卡的国家清单包含中国大陆",
+          "新 Nóva USD 卡的官方可用国家清单里包含中国大陆、马来西亚、新加坡、土耳其、阿联酋、巴西、印度等；这与原 EUR 卡以 EEA 为主的范围明显不同。清单是产品可用范围，不等于本站对其可靠性的推荐；申请与支付仍以 App 内实际结果为准。",
+          [
+            2
+          ]
         ]
       ],
       "sections": [
@@ -8031,6 +8230,14 @@
           [
             0,
             1
+          ]
+        ],
+        [
+          "两张卡的返现上限币种不同",
+          "原 EUR 卡帮助页写每月上限 25 EUR，新 USD 卡帮助页写每月上限 25 USD，提取门槛同为满 5 USDC。这不是同一上限换了符号，而是两张不同卡各自的条款。比较时必须先确认持有的是哪一张卡。",
+          [
+            1,
+            3
           ]
         ]
       ],
@@ -8049,25 +8256,29 @@
         ]
       ],
       "id": "whitebit-nova",
-      "name": "WhiteBIT Nóva Card",
-      "intro": "WhiteBIT Nóva 是从交易所账户余额消费的 Visa 借记卡，提供虚拟和实体形态。官方当前申请名单以欧洲地区为主，并列有乌克兰；马来西亚不在申请名单中。",
+      "name": "WhiteBIT Nóva Card（EUR 暂停 / 新增 USD）",
+      "intro": "WhiteBIT 的 Nóva 卡分两条产品线：原 Nóva EUR 卡因 MiCA 过渡自 2026-06-30 起暂停，待 WhiteBIT Europe 上线后迁移；另推出独立的新 Nóva USD 卡（虚拟 Visa，卡产品由 Hashbank 提供）供 whitebit.com 用户使用。两者不是同一张卡的续期关系。",
       "model": "WhiteBIT 账户加密资产按卡片规则即时转换用于 Visa 消费",
-      "network": "Visa；实体卡和虚拟卡可用功能不同",
-      "region": "官方申请国家列有 EEA 多国、挪威、冰岛、列支敦士登及乌克兰；并另列禁止使用地区。申请名单与实际支付可用地区不同。",
-      "fee": "费用页另列实体卡配送：标准 €12、DHL €20、Express €40；连续三个月不活跃会自动关闭卡，重新启用收 €5。ATM 和交易费用仍按官方费表。返现类别与比例会随 App 当前活动动态变化。",
-      "rewards": "官方帮助页列每月 cashback 上限 25 EUR，最少 5 USDC 才可申请提取；最高比例和类别按 App / 卡计划条款确认。",
+      "network": "Visa；Nóva EUR 卡（暂停中）与 Nóva USD 卡（新上线，虚拟卡）为不同产品，卡产品提供方为 Hashbank（USD 卡）",
+      "region": "Nóva EUR 卡原面向 EEA 多国、挪威、冰岛、列支敦士登及乌克兰；自 2026-06-30 起暂停，直至 WhiteBIT Europe（whitebit.eu）上线并完成迁移。新 Nóva USD 卡另附独立的国家清单，其中包含中国大陆、马来西亚、新加坡、土耳其、阿联酋、巴西、印度等。申请名单与实际支付可用地区不同。",
+      "fee": "Nóva EUR 卡原费率表（实体卡配送标准 €12、DHL €20、Express €40，连续三个月不活跃自动关闭、重新启用 €5）对应的是暂停前的 EUR 产品，暂停期间不适用。新 Nóva USD 卡官方说明为虚拟卡、无配送费；具体交易与 FX 费按 App 与卡条款确认。",
+      "rewards": "Nóva EUR 卡原帮助页列每月返现上限 25 EUR、满 5 USDC 可申请提取。新 Nóva USD 卡官方帮助中心（2026-09-29 更新）列每月返现上限 25 USD、累计满 5 USDC 可提取，新用户首笔交易有 5% 欢迎返现，返现币种为 BTC 或 WBT，覆盖 15 个以上类别并须匹配 MCC。两者是不同产品的两套口径，不能混用。",
       "sources": [
-        {
-          "title": "WhiteBIT Nóva：产品资格、地区、费率和限额",
-          "url": "https://help.whitebit.com/hc/en-gb/articles/23273438576925-WhiteBIT-N%C3%B3va-debit-card"
-        },
-        {
-          "title": "WhiteBIT Nóva：申请身份验证要求",
-          "url": "https://help.whitebit.com/hc/en-gb/articles/35510220399773-N%C3%B3va-Card-Eligibility-and-KYC-Requirements"
-        },
         {
           "title": "WhiteBIT：Nóva Card 产品页",
           "url": "https://whitebit.com/crypto-card"
+        },
+        {
+          "title": "WhiteBIT：Nóva 卡迁移说明——EUR 卡自 2026-06-30 暂停、待 WhiteBIT Europe 上线（2026-07-17 更新；2026-10-13 核对，原引用的两篇帮助文已下线）",
+          "url": "https://help.whitebit.com/hc/en-gb/articles/37251766213277-WhiteBIT-Nova-Card-migration"
+        },
+        {
+          "title": "WhiteBIT：Nóva USD 借记卡说明——虚拟 Visa、Hashbank 提供、支持 Apple Pay / Google Pay（2026-09-06 更新；2026-10-13 核对）",
+          "url": "https://help.whitebit.com/hc/en-gb/articles/38452309219229"
+        },
+        {
+          "title": "WhiteBIT：Nóva USD 返现类别与 MCC 清单——每月上限 25 USD（2026-09-29 更新；2026-10-13 核对）",
+          "url": "https://help.whitebit.com/hc/en-gb/articles/38461998477981"
         }
       ],
       "paymentCompatibility": {
@@ -8086,20 +8297,25 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-13"
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://whitebit.com/crypto-card"
+        "status": "official",
+        "path": "/card-art/whitebit-nova.webp",
+        "file": "whitebit-nova.webp",
+        "imageUrl": "https://bff.whitebit.com/_ipx/w_1600&q_90&f_webp/https%3A%2F%2Fwhitebit.com%2Fimg%2Fcrypto-card%2Fnova-card.webp",
+        "sourcePage": "https://whitebit.com/crypto-card",
+        "version": "WhiteBIT Nóva 实体卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/whitebit-nova/",
       "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-29",
+      "modified": "2026-10-08",
+      "verified": "2026-10-08",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -8368,8 +8584,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-06",
+      "verified": "2026-10-06",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -8735,8 +8951,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-08",
+      "verified": "2026-10-08",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -9193,12 +9409,20 @@
         {
           "title": "BiyaPay EasyCard 产品公告",
           "url": "https://www.biyapay.com/announcement/3-post-BiyaPay-News/961-Announcemen"
+        },
+        {
+          "title": "BiyaPay EasyCard 官方卡面素材核查",
+          "url": "https://www.biyapay.com/"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.biyapay.com/announcement/3-post-BiyaPay-News/961-post-Announcemen?index=0&page=1&type=3"
+        "status": "official",
+        "path": "/card-art/biyapay-easycard.webp",
+        "file": "biyapay-easycard.webp",
+        "imageUrl": "https://public.hxdsmy.com/static/MTc0NDcwODY1ODA0MzQ2NzMyNQ==_1744708830006.webp",
+        "sourcePage": "https://www.biyapay.com/",
+        "version": "BiyaPay 卡面官方渲染图（未确认即 EasyCard 卡面）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/biyapay-easycard/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -9437,20 +9661,29 @@
         {
           "title": "Bitget：交易所卡计划条款",
           "url": "https://www.bitget.com/support/articles/12560603799842"
+        },
+        {
+          "title": "Bitget Card（交易所卡） 官方卡面素材核查",
+          "url": "https://www.bitget.com/cards/landing"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.bitget.com/blog/articles/bitget-crypto-card-visa-apac-launch"
+        "status": "official",
+        "path": "/card-art/bitget-exchange-card.webp",
+        "file": "bitget-exchange-card.webp",
+        "sourceFile": "bitget-exchange-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://www.bitget.com/cards/landing",
+        "version": "Bitget Card Visa Platinum 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bitget-exchange-card/",
       "statusLabel": "运营收尾 · 状态待核"
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-06",
+      "verified": "2026-10-06",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -9584,8 +9817,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-11",
+      "verified": "2026-10-11",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "unknown",
@@ -9913,8 +10146,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-08",
+      "verified": "2026-10-08",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -10025,8 +10258,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-07",
+      "verified": "2026-10-07",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "unknown",
@@ -10246,9 +10479,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://vaultleap.com/help-center/vaultleap-card-how-it-works"
+        "status": "official",
+        "path": "/card-art/vaultleap-card.webp",
+        "file": "vaultleap-card.webp",
+        "imageUrl": "https://vaultleap.com/images/homepage/app-mockup-card.webp",
+        "sourcePage": "https://vaultleap.com/",
+        "version": "VaultLeap Visa DEBIT 官方卡面（官网 mockup 中的卡面）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/vaultleap-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -10256,13 +10493,13 @@
     {
       "published": "2026-09-29",
       "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "verified": "2026-10-13",
       "group": "链上与自托管",
-      "status": "regional",
+      "status": "review",
       "kyc": "required",
       "aliases": "Solflare self custody USDC Mastercard Google Pay",
       "mark": "S",
-      "intro": "Solflare Card 是 Solana 钱包连接的自托管 Mastercard，可直接从钱包 USDC 余额消费，不需要先向传统预付卡充值。官方产品页和帮助中心对 Apple Pay 状态的文案并不一致；Google Pay 已明确列出，添加前以 App 显示为准。",
+      "intro": "Solflare Card 目前处于暂停状态：官方称发卡合作方 Kulipa 难以维持运营，卡片自 2026-07-28 起停止工作，官方同时表示正在接入新的发卡合作方。原本预告的 8 月恢复未按期实现，截至本次核对官方页面仍显示暂停。这是 Solana 钱包连接的自托管 Mastercard，恢复后可继续从钱包 USDC 余额消费。",
       "kycNote": "Solflare 官方帮助中心要求完成 KYC，身份文件须由符合资格的国家签发。",
       "model": "自托管 Solana 钱包中的 USDC 直接授权消费",
       "network": "Mastercard；卡片发行合作方依适用地区协议",
@@ -10299,6 +10536,20 @@
           [
             2
           ]
+        ],
+        [
+          "暂停原因与当前状态",
+          "官方帮助中心的原文是发卡合作方 Kulipa「难以维持运营」，并未表述为该公司已经停止运营。卡片自 2026-07-28 起停止工作。官方称正在接入新的发卡合作方并预告恢复，但该页更新至 2026-10-05 仍显示暂停，原预告的 8 月窗口已经过去。",
+          [
+            2
+          ]
+        ],
+        [
+          "恢复后的功能属于预告而非现状",
+          "官方列出的恢复内容包含 Apple Pay、更高限额与返现，这些是恢复后的计划能力，当前不可用。暂停期间本页记录的费用与限额条款不产生实际适用。",
+          [
+            2
+          ]
         ]
       ],
       "sections": [
@@ -10327,7 +10578,7 @@
         "network": "以适用卡版本为准",
         "issuer": "发行合作方须见所在地卡协议",
         "region": "EEA、英国及官方逐案支持的其他地区",
-        "researchDate": "2026-09-29",
+        "researchDate": "2026-10-13",
         "applePay": {
           "status": "unknown",
           "detail": "本轮查阅的官方资料未列明；不代表不支持。"
@@ -10347,12 +10598,12 @@
           "url": "https://www.solflare.com/crypto-card/"
         },
         {
-          "title": "Solflare Card 官方帮助中心",
+          "title": "Solflare Card 官方帮助中心（2026-10-12 复核）",
           "url": "https://help.solflare.com/en/collections/16737550-solflare-card"
         },
         {
-          "title": "Solflare Card 非美元 FX 费用",
-          "url": "https://help.solflare.com/en/articles/12890985-understanding-solflare-card-foreign-exchange-fx-fees"
+          "title": "Solflare Card：暂停后恢复、Apple Pay、限额与返现说明（2026-10-12 复核；原 FX 费用文章已下线）",
+          "url": "https://help.solflare.com/en/articles/17335647-solflare-card-pauses-july-28th-and-returns-with-apple-pay-higher-limits-and-cashback"
         }
       ],
       "cardArt": {
@@ -10365,12 +10616,12 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/solflare-card/",
-      "statusLabel": "地区受限 · 资格需核实"
+      "statusLabel": "版本待核"
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -10479,8 +10730,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-06",
+      "verified": "2026-10-06",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -10828,9 +11079,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://revuto.com/"
+        "status": "official",
+        "path": "/card-art/revuto-virtual-card.webp",
+        "file": "revuto-virtual-card.webp",
+        "imageUrl": "https://revuto.com/resources/images/cards-photo.jpg",
+        "sourcePage": "https://revuto.com/",
+        "version": "Revuto Mastercard Debit 官方卡面（官方宣传图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/revuto-virtual-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -10936,12 +11191,20 @@
         {
           "title": "Ripio Card 官方帮助中心",
           "url": "https://help-br.ripio.com/space/HCB/1523516790/Como%2Bmudar%2Ba%2Bmoeda%2Bde%2Bpagamento%2Bcom%2Bo%2BRipio%2BCard"
+        },
+        {
+          "title": "Ripio Card（巴西） 官方卡面素材核查",
+          "url": "https://ripio.com/pt/produtos/cartao-cripto"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://ripio-site-hyc7175uy6ti.ripio.com/pt/produtos/cartao-cripto"
+        "status": "official",
+        "path": "/card-art/ripio-card-brazil.webp",
+        "file": "ripio-card-brazil.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/5f17344acf2c6d3c3a1d6238/67d43f415881814723e30532_KOB_9004-AR%400%2C4x.webp",
+        "sourcePage": "https://ripio.com/pt/produtos/cartao-cripto",
+        "version": "Ripio Card 实体 Visa 卡官方照片",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/ripio-card-brazil/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -10972,16 +11235,23 @@
         ],
         [
           "旧 Visa 卡状态",
-          "PEXX 官方通知称 Visa 卡计划于 2026-01-11 停止，旧卡不可继续消费；当前 Mastercard 是独立现行卡种。",
+          "PEXX 曾公告 Visa 卡计划于 2026-01-11 停止，旧卡不可继续消费；当前 Mastercard 是独立现行卡种。该停用公告页在 2026-10-12 复核时已下线，旧状态只按历史记录保留。",
           [
-            1
+            2
           ]
         ],
         [
           "费用",
-          "当前帮助页列 1.8% processing fee、每笔最高 $0.30 授权费、至少 $1 入金；部分地区收 $2 issuance fee。",
+          "官方帮助页列 1.8% processing fee、每笔最高 $0.30 授权费、至少 $1 入金；部分地区收 $2 issuance fee。",
           [
             0
+          ]
+        ],
+        [
+          "消费限额",
+          "PEXX 帮助中心单列卡片消费限额文章；额度按账户与验证状态核定，应在 App 内核对当前适用值。",
+          [
+            1
           ]
         ],
         [
@@ -10995,9 +11265,9 @@
       "sections": [
         [
           "不要再使用旧 Visa 卡的支付信息",
-          "旧 Visa 卡计划已经停止，商户订阅或付款方式应更新至用户当前可用的 PEXX Mastercard。",
+          "旧 Visa 卡计划已停止，商户订阅或付款方式应更新至用户当前可用的 PEXX Mastercard。原停用公告页在 2026-10-12 复核时已下线，此处按历史记录保留该结论。",
           [
-            1
+            2
           ]
         ]
       ],
@@ -11034,30 +11304,38 @@
       },
       "sources": [
         {
-          "title": "PEXX 卡类型与费用官方帮助页（Mastercard）",
-          "url": "https://faq.pexx.com/en/articles/11923944-what-types-of-pexx-cards-are-available"
+          "title": "PEXX 帮助中心：如何获取 PEXX 虚拟卡（2026-10-12 复核；原「卡类型」文章已改版为虚拟卡指引）",
+          "url": "https://faq.pexx.com/en/articles/11923944-how-do-i-get-the-pexx-virtual-card"
         },
         {
-          "title": "PEXX Visa 卡停用官方 FAQ",
-          "url": "https://faq.pexx.com/en/articles/13385368-visa-card-discontinuation-faqs"
+          "title": "PEXX 帮助中心：卡片消费限额（2026-10-12 复核）",
+          "url": "https://faq.pexx.com/en/articles/17348456-what-are-the-card-spending-limits"
         },
         {
           "title": "PEXX Services Terms of Use",
           "url": "https://faq.pexx.com/en/articles/9614840-pexx-services-terms-of-use"
+        },
+        {
+          "title": "PEXX Mastercard 官方卡面素材核查",
+          "url": "https://pexx.com/"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://faq.pexx.com/en/articles/11923944-what-types-of-pexx-cards-are-available"
+        "status": "official",
+        "path": "/card-art/pexx-mastercard.webp",
+        "file": "pexx-mastercard.webp",
+        "imageUrl": "https://pexx.com/images/HOME-_-All-New-Pexx-Card.avif",
+        "sourcePage": "https://pexx.com/",
+        "version": "PEXX 虚拟卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/pexx-mastercard/",
       "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-10-04",
-      "verified": "2026-10-04",
+      "modified": "2026-10-06",
+      "verified": "2026-10-06",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "unknown",
@@ -11264,9 +11542,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.offramp.xyz/"
+        "status": "official",
+        "path": "/card-art/offramp-card.webp",
+        "file": "offramp-card.webp",
+        "imageUrl": "https://www.offramp.xyz/assets/product-assets/use-section/scene-card.png",
+        "sourcePage": "https://www.offramp.xyz/",
+        "version": "Offramp Visa 卡官方卡面（官网 mockup 中的卡面）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/offramp-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -11790,8 +12072,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-04",
+      "verified": "2026-10-04",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -11894,9 +12176,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.infini.money/en/personal"
+        "status": "official",
+        "path": "/card-art/infini-personal-card.webp",
+        "file": "infini-personal-card.webp",
+        "imageUrl": "https://www.infini.money/images/v4/pricing/card-black.png",
+        "sourcePage": "https://www.infini.money/en/pricing",
+        "version": "Infini 黑色 Visa 卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/infini-personal-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -12108,12 +12394,20 @@
         {
           "title": "BloFin Card 官方产品页及申请规则",
           "url": "https://blofin.com/crypto/cards"
+        },
+        {
+          "title": "BloFin Card（交易所卡） 官方卡面素材核查",
+          "url": "https://wallet.blofin.com/en/card"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://blofin.com/crypto/cards"
+        "status": "official",
+        "path": "/card-art/blofin-exchange-card.webp",
+        "file": "blofin-exchange-card.webp",
+        "imageUrl": "https://wallet.blofin.com/images/card/hero-card.jpg",
+        "sourcePage": "https://wallet.blofin.com/en/card",
+        "version": "BloFin Visa Platinum 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/blofin-exchange-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -12236,12 +12530,20 @@
         {
           "title": "LBank Card 上线公告（含 Apple Pay / Google Pay，2026-06-26）",
           "url": "https://www.lbank.com/uk/support/articles/2070438941353312256"
+        },
+        {
+          "title": "LBank Card 官方卡面素材核查",
+          "url": "https://www.lbank.com/fiat-card?cardType=virtual"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.lbank.com/fa/support/articles/2103365233169924096"
+        "status": "official",
+        "path": "/card-art/lbank-card.webp",
+        "file": "lbank-card.webp",
+        "imageUrl": "https://www.lbank.com/static-client/common/images/resources/1da5cf2f-59d7-473e-b37a-078dd1b220ad.png",
+        "sourcePage": "https://www.lbank.com/fiat-card?cardType=virtual",
+        "version": "LBank Card 虚拟卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/lbank-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -12473,12 +12775,20 @@
         {
           "title": "Pulsar Money 官方博客：首笔消费 10% Cashback 活动与积分体系",
           "url": "https://pulsar.money/blog"
+        },
+        {
+          "title": "Pulsar Money Card 官方卡面素材核查",
+          "url": "https://apps.apple.com/us/app/id6757467196"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://pulsar.money/"
+        "status": "official",
+        "path": "/card-art/pulsar-card.webp",
+        "file": "pulsar-card.webp",
+        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/e9/78/83e97880-b628-9f15-6f51-22377995f24a/App_Store_-_1260_x_2736_-_EN_-_11.png/1260x2736bb.png",
+        "sourcePage": "https://apps.apple.com/us/app/id6757467196",
+        "version": "Pulsar Money Visa Platinum 官方卡面（官方 App Store 图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/pulsar-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -12698,8 +13008,8 @@
           "url": "https://decaf.so/"
         },
         {
-          "title": "Decaf 官方文档：USDC 结算、支持地区与费率机制",
-          "url": "https://docs.decaf.so/"
+          "title": "Decaf 官方帮助中心：钱包、银行账户与卡片支持文档（2026-10-12 复核；原 docs.decaf.so 已无法解析）",
+          "url": "https://intercom.help/decaf/en/collections/19652441-decaf-wallet"
         }
       ],
       "cardArt": {
@@ -12842,12 +13152,20 @@
         {
           "title": "CasherCard：Terms & Conditions（2026-06-06 更新）",
           "url": "https://cashercard.com/terms-and-conditions"
+        },
+        {
+          "title": "CasherCard 官方卡面素材核查",
+          "url": "https://cashercard.com/blog"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://cashercard.com/"
+        "status": "official",
+        "path": "/card-art/casher-card.webp",
+        "file": "casher-card.webp",
+        "imageUrl": "https://cashercard.com/app/api/uploads/blog/54b5779a-34ec-42b6-aeef-46b02c424598.jpg",
+        "sourcePage": "https://cashercard.com/blog",
+        "version": "CasherCard 虚拟卡官方卡面（官网博客主图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/casher-card/",
       "statusLabel": "版本待核"
@@ -13084,10 +13402,9 @@
       "facts": [
         [
           "申请状态",
-          "TRASTRA 官方协议写明 card ordering is temporarily pending；官网其他下单说明较旧，不能据此判断已恢复发卡。",
+          "TRASTRA 官方协议曾写明 card ordering is temporarily pending；官网其他下单说明较旧，不能据此判断已恢复发卡。",
           [
-            0,
-            2
+            0
           ]
         ],
         [
@@ -13106,8 +13423,16 @@
           ]
         ],
         [
+          "官网当前无法访问",
+          "2026-10-12 复核：trastra.com 域名仍在注册有效期内，但官网首页、用户协议、费用表和下单说明等路径均返回 404，与运营主体 UAB Trastra EU 破产清算的记录一致。卡片状态维持停服档，旧链接仅作历史存档，不作现行条款依据。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
           "主体破产清算与服务器失联",
-          "运营主体 UAB Trastra EU 启动破产清算程序，用户资产遭冻结且官方服务失联，卡片全网失效。",
+          "运营主体 UAB Trastra EU 启动破产清算程序，用户资产遭冻结且官方服务失联，卡片全网失效。2026-10-12 复核：trastra.com 域名仍在注册有效期内，但官网首页与各子路径均返回 404，站点实际已不可访问。",
           [
             0
           ]
@@ -13159,16 +13484,12 @@
       },
       "sources": [
         {
-          "title": "TRASTRA 官方用户协议（卡片订购暂时待定）",
+          "title": "TRASTRA 旧版官方用户协议（2026-10-12 复核：域名仍注册但该路径已返回 404）",
           "url": "https://trastra.com/user-agreement/"
         },
         {
-          "title": "TRASTRA 官方费用表（最后更新 2025-03-03）",
+          "title": "TRASTRA 旧版官方费用表，最后更新 2025-03-03（2026-10-12 复核：该路径已返回 404）",
           "url": "https://trastra.com/fees/"
-        },
-        {
-          "title": "TRASTRA 官方下单说明（较早流程）",
-          "url": "https://trastra.com/faq/top-questions/how-can-i-order-the-trastra-card/"
         },
         {
           "title": "TRASTRA Visa Card 官方卡面素材核查",
@@ -13271,12 +13592,26 @@
         {
           "title": "波兰金融监管局：撤销 Quicko 支付机构许可",
           "url": "https://www.knf.gov.pl/?articleId=96890&p_id=18"
+        },
+        {
+          "title": "CEX.IO Card（项目转换中） 官方卡面素材核查",
+          "url": "https://cex.io/"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://support.cex.io/en/articles/13460417-important-cex-io-card-update"
+        "status": "official",
+        "path": "/card-art/cexio-card.webp",
+        "file": "cexio-card.webp",
+        "imageUrl": "https://cex.io/resources/get-my-debit-card/banner-top.png",
+        "sourcePage": "https://cex.io/",
+        "version": "CEX.IO Card 虚拟卡官方卡面（官网宣传图中的卡面裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 1125,
+          "top": 930,
+          "width": 750,
+          "height": 570
+        }
       },
       "url": "https://ucard.observer/cards/cexio-card/",
       "statusLabel": "运营收尾 · 状态待核"
@@ -13438,9 +13773,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://fiat.bingx.com/en/card/landing"
+        "status": "official",
+        "path": "/card-art/bingx-card.webp",
+        "file": "bingx-card.webp",
+        "imageUrl": "https://static-app.bb-os.com/fe-common/fiat/card/pc.mp4?x-oss-process=video/snapshot,t_3000,f_jpg,w_1920,h_0,ar_auto",
+        "sourcePage": "https://fiat.bingx.com/en/card/landing",
+        "version": "BingX Card Visa Platinum 官方卡面（官网主视觉视频截帧）",
+        "mode": "cover"
       },
       "url": "https://ucard.observer/cards/bingx-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -13484,16 +13823,20 @@
       },
       "sources": [
         {
-          "title": "Bitrefill Card：官方产品与功能介绍（2026-10-02 核对）",
-          "url": "https://www.bitrefill.com/cards/"
+          "title": "Bitrefill Card：官方产品与功能介绍（2026-10-12 复核）",
+          "url": "https://www.bitrefill.com/card/"
         },
         {
-          "title": "Bitrefill Card：官方帮助中心概述与申请流程（2026-10-02 核对）",
-          "url": "https://help.bitrefill.com/hc/en-us/articles/12398471293842-Bitrefill-Card-Overview"
+          "title": "Bitrefill 帮助中心：Bitrefill Card 入门与常见问题（2026-10-12 复核；原两篇 Overview / Limits 文章已下线）",
+          "url": "https://help.bitrefill.com/hc/en-us/sections/17221820761490-Getting-Started-with-your-Bitrefill-Card"
         },
         {
-          "title": "Bitrefill Card：官方费用、外汇与限额说明（2026-10-02 核对）",
-          "url": "https://help.bitrefill.com/hc/en-us/articles/12398471294098-Bitrefill-Card-Limits-and-Fees"
+          "title": "Bitrefill 帮助中心：Bitrefill Card 费用说明（2026-10-12 复核）",
+          "url": "https://help.bitrefill.com/hc/en-us/articles/15088527425682-What-are-the-fees-for-the-Bitrefill-Card"
+        },
+        {
+          "title": "Bitrefill 帮助中心：Bitrefill Card 限额与等级（2026-10-12 复核）",
+          "url": "https://help.bitrefill.com/hc/en-us/articles/19598918059538-What-are-the-different-limits-and-tiers-for-the-Bitrefill-Card"
         }
       ],
       "facts": [
@@ -13579,8 +13922,8 @@
         "path": "/card-art/bitrefill-card.webp",
         "file": "bitrefill-card.webp",
         "imageUrl": "https://cdn.bitrefill.com/content/cn/h_536,w_750/v23/bitrefill-card/landing/v2/hero.webp",
-        "sourcePage": "https://www.bitrefill.com/cards/",
-        "version": "Bitrefill 欧元卡官方卡面",
+        "sourcePage": "https://www.bitrefill.com/card/",
+        "version": "Bitrefill 欧元卡官方卡面（原 /cards 路径已下线）",
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bitrefill-card/",
@@ -13588,8 +13931,8 @@
     },
     {
       "published": "2026-10-02",
-      "modified": "2026-10-02",
-      "verified": "2026-10-02",
+      "modified": "2026-10-07",
+      "verified": "2026-10-07",
       "id": "anodos-card",
       "name": "Anodos Card",
       "aliases": "Anodos Labs Neobank Visa Credit",
@@ -13639,6 +13982,10 @@
         {
           "title": "Anodos Card：美国消费者计划信用卡条款",
           "url": "https://docs.anodos.finance/legal/anodos-card-terms-for-u.s.-consumer-program"
+        },
+        {
+          "title": "Anodos Card 官方卡面素材核查",
+          "url": "https://anodos.finance/"
         }
       ],
       "facts": [
@@ -13707,9 +14054,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://docs.anodos.finance/products/anodos-neobank"
+        "status": "official",
+        "path": "/card-art/anodos-card.webp",
+        "file": "anodos-card.webp",
+        "imageUrl": "https://anodos.finance/_next/static/media/GlobalCard.6549927f.png",
+        "sourcePage": "https://anodos.finance/",
+        "version": "Anodos Visa Signature 官方卡面（官网首页产品图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/anodos-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -13753,16 +14104,20 @@
       },
       "sources": [
         {
-          "title": "SolCard：官方网站与产品特性（2026-10-03 核对）",
+          "title": "SolCard：官方网站与产品特性（2026-10-12 复核）",
+          "url": "https://www.solcard.cc/"
+        },
+        {
+          "title": "SolCard：服务条款与受限地区说明（2026-10-12 复核）",
+          "url": "https://www.solcard.cc/terms"
+        },
+        {
+          "title": "SolCard：卡片等级、充值费率与 KYC 条件（2026-10-12 复核；原 /faq 路径已下线，费率改由官网与条款披露）",
+          "url": "https://www.solcard.cc/terms"
+        },
+        {
+          "title": "SolCard 官方卡面素材核查",
           "url": "https://solcard.cc"
-        },
-        {
-          "title": "SolCard：服务条款与受限地区说明（2026-10-03 核对）",
-          "url": "https://solcard.cc/terms"
-        },
-        {
-          "title": "SolCard：卡片等级、充值费率与 KYC 条件",
-          "url": "https://solcard.cc/faq"
         }
       ],
       "facts": [
@@ -13895,16 +14250,20 @@
       },
       "sources": [
         {
-          "title": "Bleap Card：官方产品主页与自托管特性（2026-10-04 核对）",
-          "url": "https://bleap.finance/"
+          "title": "Bleap Card：官方产品主页与自托管特性（2026-10-12 复核）",
+          "url": "https://www.bleap.finance/"
         },
         {
-          "title": "Bleap Card：官方帮助中心、KYC 与使用指南（2026-10-04 核对）",
-          "url": "https://help.bleap.finance"
+          "title": "Bleap Card：官方帮助中心、KYC 与使用指南（2026-10-12 复核）",
+          "url": "https://help.bleap.finance/en/"
         },
         {
-          "title": "Bleap Card：卡片服务条款与发卡机构 Unlimit EU Ltd 条款（2026-10-04 核对）",
-          "url": "https://bleap.finance/terms"
+          "title": "Bleap Card：卡片服务条款与费用披露，含发卡机构 Unlimit EU Ltd 条款（2026-10-12 复核；原 /terms 路径已下线）",
+          "url": "https://www.bleap.finance/legal-agreements"
+        },
+        {
+          "title": "Bleap Card 官方卡面素材核查",
+          "url": "https://www.bleap.finance/en-us/card"
         }
       ],
       "facts": [
@@ -13990,9 +14349,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://bleap.finance/"
+        "status": "official",
+        "path": "/card-art/bleap-card.webp",
+        "file": "bleap-card.webp",
+        "imageUrl": "https://cdn.bleap.finance/website-images/PhysicalCardImage.webp",
+        "sourcePage": "https://www.bleap.finance/en-us/card",
+        "version": "Bleap 实体卡官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bleap-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -14187,12 +14550,16 @@
           "url": "https://bitsacard.com/"
         },
         {
-          "title": "Bitsa 官方费率与账户类型说明（2026-10-07 核对）",
-          "url": "https://bitsacard.com/pricing"
+          "title": "Bitsa 官方费率与账户类型说明（2026-10-12 复核；原 /pricing 路径已下线，费率并入官网与帮助中心）",
+          "url": "https://bitsacard.com/es/planes"
         },
         {
-          "title": "Bitsa 卡片服务条款与发行方 Pecunpay 合规信息（2026-10-07 核对）",
-          "url": "https://bitsacard.com/legal"
+          "title": "Bitsa 官方帮助中心：卡片、费用与限额（2026-10-12 复核；原 /legal 路径已下线，帮助中心迁至独立域名）",
+          "url": "https://soporte.bitsacard.com/hc/es/sections/360000355718-Comisiones-y-L%C3%ADmites"
+        },
+        {
+          "title": "Bitsa 卡片一般条款与发行方 Pecunpay 合规信息（2026-10-12 复核）",
+          "url": "https://bitsacard.com/es/condiciones-generales-de-la-tarjeta"
         }
       ],
       "facts": [
@@ -14770,12 +15137,16 @@
           "url": "https://tonhub.com/"
         },
         {
-          "title": "Tonhub Card 官方产品介绍与申领指南（2026-10-09 核对）",
-          "url": "https://tonhub.com/card"
+          "title": "Tonhub 官方产品与卡片介绍（2026-10-12 复核；原 /card 路径已下线，卡片说明并入官网首页）",
+          "url": "https://www.tonhub.com/"
         },
         {
           "title": "TON 官方生态公示：Tonhub 非托管 Visa 借记卡详情（2026-10-09 核对）",
           "url": "https://ton.org/"
+        },
+        {
+          "title": "Tonhub Card 官方卡面素材核查",
+          "url": "https://apps.apple.com/us/app/id1607656232"
         }
       ],
       "facts": [
@@ -14859,9 +15230,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://tonhub.com/"
+        "status": "official",
+        "path": "/card-art/tonhub-card.webp",
+        "file": "tonhub-card.webp",
+        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/63/1e/32631ed9-4474-64c7-0c33-b31b8a5a86a7/4-2.png/1290x2796bb.png",
+        "sourcePage": "https://apps.apple.com/us/app/id1607656232",
+        "version": "Tonhub Visa Debit 官方卡面（官方 App Store 图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/tonhub-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -14905,16 +15280,20 @@
       },
       "sources": [
         {
-          "title": "Rizon 官方网站与产品入口（2026-10-09 核对）",
-          "url": "https://getrizon.com/"
+          "title": "Rizon 官方网站与产品入口（2026-10-12 复核）",
+          "url": "https://www.getrizon.com/"
         },
         {
-          "title": "Rizon 官方服务条款与发卡合规披露（2026-10-09 核对）",
-          "url": "https://getrizon.com/terms"
+          "title": "Rizon 官方服务条款与发卡合规披露（2026-10-12 复核；原 /terms 路径已下线）",
+          "url": "https://www.getrizon.com/terms-of-service"
         },
         {
-          "title": "Rizon 官方常见问题与费率说明（2026-10-09 核对）",
-          "url": "https://getrizon.com/fees"
+          "title": "Rizon 官方费率与限额表（2026-10-12 复核；原 /fees 路径已下线）",
+          "url": "https://www.getrizon.com/fees-and-limits"
+        },
+        {
+          "title": "Rizon Card 官方卡面素材核查",
+          "url": "https://getrizon.com/card"
         }
       ],
       "facts": [
@@ -14997,9 +15376,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://getrizon.com/"
+        "status": "official",
+        "path": "/card-art/rizon-card.webp",
+        "file": "rizon-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/67ef7f45861719f51a47c19c/67ffab826b4e439a79e46e2e_hero-p-1600.webp",
+        "sourcePage": "https://getrizon.com/card",
+        "version": "Rizon Visa Platinum 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/rizon-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -15043,16 +15426,20 @@
       },
       "sources": [
         {
-          "title": "Oobit 官方网站与产品入口（2026-10-09 核对）",
+          "title": "Oobit 官方网站与产品入口（2026-10-12 复核）",
           "url": "https://www.oobit.com/"
         },
         {
-          "title": "Oobit 官方费用与定价说明（2026-10-09 核对）",
-          "url": "https://www.oobit.com/fees"
+          "title": "Oobit 官方常见问题：卡片手续费、清算与奖励发放口径（2026-10-12 复核，原 /fees 页已下线）",
+          "url": "https://www.oobit.com/faq"
         },
         {
-          "title": "Oobit 官方服务条款与卡片发行协议（2026-10-09 核对）",
+          "title": "Oobit 官方服务条款与卡片发行协议（2026-10-12 复核）",
           "url": "https://www.oobit.com/terms"
+        },
+        {
+          "title": "Oobit Card 官方卡面素材核查",
+          "url": "https://www.oobit.com/crypto-card"
         }
       ],
       "facts": [
@@ -15137,9 +15524,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.oobit.com/"
+        "status": "official",
+        "path": "/card-art/oobit-card.webp",
+        "file": "oobit-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/689f5720d02bfbed3bbc3f87/6a9e7e8d2d2d996a36c4eff5_Crypto%20Card%20OG.png",
+        "sourcePage": "https://www.oobit.com/crypto-card",
+        "version": "Oobit Visa Platinum 官方卡面",
+        "mode": "cover"
       },
       "url": "https://ucard.observer/cards/oobit-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -15191,8 +15582,12 @@
           "url": "https://www.orbi.mx/"
         },
         {
-          "title": "Mastercard 墨西哥：MxDS 交换网络与加密支付计划（2026-10-08）",
-          "url": "https://www.mastercard.com/news/latin-america/es/noticias/2026/10/orbi-mastercard-mexico/"
+          "title": "Mastercard Newsroom：拉丁美洲与加密支付新闻索引（2026-10-12 复核；原 2026-10 拉美专页链接已失效）",
+          "url": "https://newsroom.mastercard.com/"
+        },
+        {
+          "title": "Orbi Mastercard 官方卡面素材核查",
+          "url": "https://apps.apple.com/mx/app/id1636735037"
         }
       ],
       "facts": [
@@ -15261,9 +15656,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.orbi.mx/"
+        "status": "official",
+        "path": "/card-art/orbi-card.webp",
+        "file": "orbi-card.webp",
+        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/8e/db/c78edbb0-043d-af3c-01de-e0e4e58bb650/3_apple_store_v03_1284_x_2778-producto.png/1284x2778bb.png",
+        "sourcePage": "https://apps.apple.com/mx/app/id1636735037",
+        "version": "Orbi Mastercard 官方卡面（官方 App Store 图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/orbi-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -15307,16 +15706,16 @@
       },
       "sources": [
         {
-          "title": "SwissBorg 官方网站与 Crypto Card 权益介绍（2026-10-10 核对）",
-          "url": "https://swissborg.com/crypto-card"
+          "title": "SwissBorg：Crypto Debit Card 官方产品页（2026-10-12 复核）",
+          "url": "https://swissborg.com/crypto-debit-card"
         },
         {
-          "title": "SwissBorg 帮助中心：卡片申请、支持地区与 Apple Pay 指引（2026-10-10 核对）",
-          "url": "https://help.swissborg.com/hc/en-gb/articles/swissborg-crypto-card-overview"
+          "title": "SwissBorg 帮助中心：Crypto Debit Card 常见问题与支持地区（2026-10-12 复核）",
+          "url": "https://help.swissborg.com/hc/en-gb/articles/42850564502545-SwissBorg-Crypto-Debit-Card-FAQs"
         },
         {
-          "title": "Bitcoin.com：SwissBorg 全面取消排队限制并向欧洲 30+ 国开放（2026-07-30）",
-          "url": "https://news.bitcoin.com/swissborg-unveils-crypto-card-across-30-european-countries/"
+          "title": "SwissBorg 帮助中心：如何申请并激活 Crypto Debit Card（2026-10-12 复核）",
+          "url": "https://help.swissborg.com/hc/en-gb/articles/42848427305361-How-to-Request-and-Activate-Your-SwissBorg-Crypto-Debit-Card"
         }
       ],
       "facts": [
@@ -15385,9 +15784,19 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://swissborg.com/crypto-card"
+        "status": "official",
+        "path": "/card-art/swissborg-card.webp",
+        "file": "swissborg-card.webp",
+        "imageUrl": "https://cdn.sanity.io/images/bor5n0ip/production/05efa44728389cdef165bca74e652af06b44bdea-2312x1132.png",
+        "sourcePage": "https://swissborg.com/crypto-debit-card",
+        "version": "SwissBorg 借记 Mastercard 官方卡面",
+        "mode": "contain",
+        "crop": {
+          "left": 347,
+          "top": 116,
+          "width": 1599,
+          "height": 944
+        }
       },
       "url": "https://ucard.observer/cards/swissborg-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -15506,6 +15915,1472 @@
       },
       "url": "https://ucard.observer/cards/51vcard-archive/",
       "statusLabel": "已停服 · 历史档案"
+    },
+    {
+      "published": "2026-10-12",
+      "modified": "2026-10-12",
+      "verified": "2026-10-12",
+      "id": "lava-card",
+      "name": "Lava Card",
+      "aliases": "Lava Card Lava Card Visa Infinite bitcoin BTC cashback self-custody overlay 比特币 抵押",
+      "mark": "L",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "卡片条款要求用卡人本人提供真实、完整的信息，并明确排除受美国制裁或封锁的个人；账户开立与卡片激活走 Lava 应用的申请与合规流程。条款未公布证件清单或分级 KYC 档位，应按获批时应用内要求准备身份文件。",
+      "intro": "Lava 面向长期持有比特币的用户：以 BTC 抵押借出美元、再把美元放到 Visa 卡上消费，并用稳定币、银行转账或工资直存给美元余额充值。卡片本身是担保信用卡，只能花账户里已有的美元。",
+      "model": "担保信用卡（secured credit card）：只能从账户美元余额扣款，不提供无担保信用额度；美元来源为稳定币充值、银行转账、工资直存，或用 BTC 抵押通过 BLOC 借出",
+      "network": "Visa；官方产品页展示 Visa Infinite 卡面，条款写明卡计划由发行方在 Visa 授权下发行",
+      "region": "卡片可在 Visa 国际受理范围内使用（官方称 150+ 国家、1.5 亿以上商户）；申请与持卡资格取决于用户审批与适用条款。国际版条款要求用卡人声明自己不是美国公民、且是为美国境外用户开立的卡片；美国用户适用单独的美国条款，两者资格条件不同。Lava 未公布逐国的可申请名单。",
+      "fee": "无年费、无最低消费要求。外币交易 0% 外汇费、0% 跨境费，按 Visa 官方汇率结算且官方称不加点差；逾期费 $0，退票费最高 $29；ATM 取现收 2%、每笔最低 $1。国际版条款自 2026-05-21 生效，购买年利率 (APR) 为 0%，发行方与 Lava 保留未来对新消费引入利息的权利。抵押借贷另按 BLOC 条款计息，不包含在上述卡费用内。",
+      "rewards": "合格消费返比特币：所有用户在与 Lava 合作商户消费返 5%；其他合格消费按用户所在地区分档，美国用户 3%、美国以外用户 1%。返现按交易结算时间即时入账，可在 Lava 应用内查看累计。罚款、税款、保险、房产租赁中介、中小学及教育服务等类别不参与返现。",
+      "paymentCompatibility": {
+        "sourceName": "Lava Card",
+        "network": "Visa",
+        "issuer": "发行方名称印在卡背；官方条款未在网页公布其法定名称",
+        "region": "Visa 全球受理；申请资格取决于用户审批，国际版条款面向美国境外用户",
+        "researchDate": "2026-10-12",
+        "applePay": {
+          "status": "unknown",
+          "detail": "本次核对的官方产品页、FAQ 与卡片条款均未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "本次核对的官方资料均未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方资料未单独说明 AI 订阅类商户的返现或风控口径；卡片按 Visa 通用受理处理。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Lava Card 官方产品页：返现比例、无年费、无 FX 费与 Visa Infinite 卡面（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/card"
+        },
+        {
+          "title": "Lava 官方 FAQ：How does Lava Card work（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/how-does-lava-card-work"
+        },
+        {
+          "title": "Lava 官方 FAQ：What are the rewards rates for the Lava Card（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/what-are-the-rewards-rates-for-the-lava-card"
+        },
+        {
+          "title": "Lava 官方 FAQ：Is the Lava Card a credit card or a debit card（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/is-the-lava-card-a-credit-card-or-a-debit-card"
+        },
+        {
+          "title": "Lava 官方 FAQ：Where is the Lava Card available（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/where-is-the-lava-card-available"
+        },
+        {
+          "title": "Lava 官方 FAQ：Does Lava Card charge an FX fee（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/does-lava-card-charge-an-fx-fee"
+        },
+        {
+          "title": "Lava 官方 FAQ：Which merchant categories are not eligible for rewards on Lava Card（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/which-merchant-categories-are-not-eligible-for-rewards-on-lava-card"
+        },
+        {
+          "title": "Lava 官方 FAQ：What are the benefits included with the Lava Card（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/faq/what-are-the-benefits-included-with-the-lava-card"
+        },
+        {
+          "title": "Lava Card 国际版卡片条款：费率表、担保账户结构与美国境外用户声明（2026-05-21 生效；2026-10-12 核对）",
+          "url": "https://www.lava.xyz/card-terms-international"
+        },
+        {
+          "title": "Lava Card 美国版条款与开户披露（2026-10-12 核对）",
+          "url": "https://www.lava.xyz/card-terms-us"
+        },
+        {
+          "title": "Lava 官方 X：美元余额可通过 SPEI 以墨西哥比索入金，免转账费（2026-10-09）",
+          "url": "https://x.com/lava_xyz/status/2108559356270882914"
+        },
+        {
+          "title": "Lava 官方 X：Lava Card 手续费与 FX 说明（2026-10-09）",
+          "url": "https://x.com/lava_xyz/status/2108619754667930077"
+        },
+        {
+          "title": "Rain 禁止事项清单（Lava 国际版条款要求用卡人先行阅读）",
+          "url": "https://legal.raincards.xyz/legal/prohibitions"
+        }
+      ],
+      "facts": [
+        [
+          "卡片类型与扣款方式",
+          "条款明确 Lava Card 是担保信用卡：只能花账户中已有的美元余额，不提供无担保信用。美元可通过稳定币充值、银行转账、工资直存，或用 BTC 抵押通过 BLOC 借出。把「以 BTC 抵押」理解为卡片本身自托管并不准确：抵押品用于担保账户，卡的扣款对象是美元余额。",
+          [
+            1,
+            3,
+            8
+          ]
+        ],
+        [
+          "返现档位与地区差异",
+          "合作商户消费返 5%；其他合格消费美国用户 3%、美国以外用户 1%，返现以比特币发放并在交易结算时入账。三类数字来自官方 FAQ，不是第三方测算。",
+          [
+            2
+          ]
+        ],
+        [
+          "不参与返现的类别",
+          "官方列出罚款、税款、保险销售与保费、房产经纪与租赁、中小学、以及其他教育服务类别不参与返现。商户类别由收单侧 MCC 判定，个别商户归类可能与直觉不同。",
+          [
+            6
+          ]
+        ],
+        [
+          "费用与利息口径",
+          "当前条款列 0% 外汇费、0% 跨境费、$0 逾期费、退票费最高 $29、ATM 取现 2%（最低 $1），购买 APR 为 0%。条款同时写明发行方与 Lava 保留未来引入利息的权利，届时会提前披露。",
+          [
+            8,
+            9
+          ]
+        ],
+        [
+          "资格与地区",
+          "国际版条款要求用卡人声明自己不是美国公民、且卡片是为美国境外用户开立的；美国用户适用另一套条款。Lava 没有公布逐国可申请清单，Visa 的受理范围不代表当地居民都能获批。",
+          [
+            4,
+            8,
+            9
+          ]
+        ],
+        [
+          "卡组织权益",
+          "官方 FAQ 列 24/7 Visa 客服、最高 $20,000 购物保障、最高 $25,000 延长保修、全球租车保险、旅行意外险与行李遗失险等。这类权益由 Visa 与发行方条款决定，具体赔付条件以卡组织文件为准。",
+          [
+            7
+          ]
+        ],
+        [
+          "抵押借贷与卡费用分开计算",
+          "BLOC 抵押借贷固定利率区间为 6.50%–8.50%，与卡片本身的无年费、零 FX 结构是两套成本。比较真实成本时不能只按卡片费率表计算。",
+          [
+            0,
+            8
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "「无 FX 费」≠ 无汇率成本",
+          "官方称外币交易按 Visa 官方汇率结算且 Lava 不加点差，条款亦列 0% 外汇费与 0% 跨境费。这是把卡组织的换算基准当作最终汇率，并不代表跨币种消费不存在任何汇率差异。",
+          [
+            5,
+            8
+          ]
+        ],
+        [
+          "担保信用卡不等于免还款",
+          "卡片只能花已有美元，但用 BLOC 借出的美元仍需按借贷条款偿还，抵押品价值下跌到低于未偿金额时会触发清算事件条件。用卡前应把还款与清算规则一并读完。",
+          [
+            1,
+            8
+          ]
+        ],
+        [
+          "入金通道新增墨西哥比索与欧元",
+          "官方在 2026-10-09 说明可用 SPEI 以墨西哥比索入金（比索折算后进入美元余额，不收转账费），EEA 用户可走 SEPA 汇入欧元。这是入金通道，不代表当地居民都能申请卡片。",
+          [
+            10
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Lava Card 是信用卡还是借记卡？",
+          "官方口径是担保信用卡 (secured credit card)：从账户美元余额直接扣款，只能花已经到账的美元，不提供无担保信用。"
+        ],
+        [
+          "Lava Card 有年费和 FX 费吗？",
+          "没有年费，也没有最低消费要求；外币交易 0% 外汇费与 0% 跨境费，官方称按 Visa 官方汇率结算且不加点差。"
+        ],
+        [
+          "Lava Card 的返现是多少？",
+          "合作商户消费返 5% 比特币；其他合格消费美国用户 3%、美国以外用户 1%，返现按交易结算入账。"
+        ],
+        [
+          "Lava Card 需要 KYC 吗？",
+          "需要走 Lava 应用的申请与合规流程，条款要求所提供信息真实完整并排除受制裁个人；但官方未公布具体证件清单，不能按免 KYC 理解。"
+        ],
+        [
+          "中国大陆用户能申请吗？",
+          "官方没有公布逐国可申请名单，国际版条款要求用卡人声明自己不是美国公民。中国大陆用户的资格需以应用内申请结果为准，本站不做推断。"
+        ]
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/lava-card.webp",
+        "file": "lava-card.webp",
+        "imageUrl": "https://framerusercontent.com/images/ea108pMzjnB761CEASsNvmP4I.png",
+        "sourcePage": "https://www.lava.xyz/card",
+        "version": "官方 Lava Visa Infinite 黑色卡面（官网产品图）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/lava-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "ubot-maicoin-card",
+      "name": "聯邦銀行 MaiCoin 聯名卡",
+      "aliases": "聯邦 MaiCoin 聯名卡 Union Bank MaiCoin 聯名卡 U-coin 加密回饋 台灣 信用卡 MAX 幣託",
+      "mark": "聯",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "这是台湾联邦银行发行的信用卡，按银行信用卡标准征审：需为台湾居民、提供收入证明与财力证明，由银行核卡。加密回馈只是回馈币种，不改变信用卡的征审与还款义务。",
+      "intro": "联邦银行与 MaiCoin 集团合作的联名信用卡，回馈以「U 币」形式发放，可兑换成比特币、以太币、USDT、USDC 或 MAX 代币。它首先是一张台湾本地信用卡，加密只是回馈的计价与兑换方式。",
+      "model": "银行信用卡：由联邦银行核卡并授予信用额度，消费计入账单按期还款；回馈以 U 币发放，再在 MaiCoin / MAX 生态内兑换加密资产",
+      "network": "Visa（Signature 等级）",
+      "region": "台湾。申办与核卡限台湾居民，需通过联邦银行的信用卡征审。",
+      "fee": "正卡年费 NT$2,000、附卡 NT$1,000；首年免年费，之后申办电子账单或年消费达 NT$60,000 即可免次年年费。海外交易按国际组织规定可能另收手续费，具体以银行公告为准。",
+      "rewards": "基础回馈 0.5% U 币，按指定条件分级最高 4.5%；U 币可在 MaiCoin / MAX 生态兑换比特币、以太币、USDT、USDC 或 MAX 代币，最低兑换门槛 100 U 币。加码档位与适用商户由银行当期活动公告决定，会更新。",
+      "paymentCompatibility": {
+        "sourceName": "聯邦銀行 MaiCoin 聯名卡",
+        "network": "Visa",
+        "issuer": "聯邦銀行 Union Bank of Taiwan（官方活动页署名）",
+        "region": "台湾，需通过银行信用卡征审",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方活动页本次核对未明确列出 Apple Pay 支持情况，不能按支持处理；实际绑卡能力以银行与钱包公告为准。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方活动页本次核对未明确列出 Google Pay 支持情况，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户是否计入回馈加码或基础回馈；信用卡按 Visa 通用受理处理。"
+        }
+      },
+      "sources": [
+        {
+          "title": "聯邦銀行 MaiCoin 聯名卡官方活動頁：年費、U 币回馈与兑换规则（2026-10-13 核对）",
+          "url": "https://activity.ubot.com.tw/2026MaiCoinCard/index.htm"
+        },
+        {
+          "title": "ABMedia：聯邦銀行 MaiCoin 聯名卡上市報導（2026-10-13 核对）",
+          "url": "https://abmedia.io/ubot-maicoin-credit-card-crypto-cashback"
+        },
+        {
+          "title": "工商時報：聯邦銀行與 MaiCoin 合作發卡報導（2026-04-23）",
+          "url": "https://www.chinatimes.com/newspapers/20260423000428-260209"
+        }
+      ],
+      "facts": [
+        [
+          "这是银行信用卡，不是稳定币消费卡",
+          "卡片由联邦银行核卡并授信，消费计入信用卡账单按期还款，与「先充值再用 USDT 消费」的加密借记卡是两类产品。加密只出现在回馈环节：回馈以 U 币发放并在 MaiCoin / MAX 生态兑换。比较费率时应把它放进台湾信用卡的语境，而不是加密卡的费用表语境。",
+          [
+            0
+          ]
+        ],
+        [
+          "回馈以 U 币计价，兑换有门槛",
+          "基础回馈 0.5% U 币，满足条件最高 4.5%；U 币需在 MaiCoin / MAX 生态兑换为比特币、以太币、USDT、USDC 或 MAX 代币，最低兑换 100 U 币。加码档位由银行活动决定并会更新，官方页面上的当期条件不等于长期费率。",
+          [
+            0
+          ]
+        ],
+        [
+          "年费与减免条件",
+          "正卡 NT$2,000、附卡 NT$1,000，首年免年费；之后申办电子账单或年消费满 NT$60,000 可免次年年费。减免条件是「或」关系，不是同时满足。",
+          [
+            0
+          ]
+        ],
+        [
+          "申请资格限台湾居民",
+          "申办需通过联邦银行的信用卡征审，需台湾居民身份与财力证明。这不是可以用旅行证件远程申请的加密卡。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "加密回馈不等于加密资产敞口可控",
+          "回馈以 U 币入账、需在 MaiCoin / MAX 生态兑换成加密资产，因此加密价格波动发生在兑换之后。拿到 U 币本身不等同于已经持有比特币。",
+          [
+            0
+          ]
+        ],
+        [
+          "台湾银行发卡与境外加密卡的风控逻辑不同",
+          "这张卡走台湾银行的信用卡征审与征信体系，与境外发卡机构审核的加密卡在责任、争议处理和可用地区上互不相通，不能用同一套经验推断。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "聯邦銀行 MaiCoin 聯名卡是加密卡吗？",
+          "它是联邦银行发行的 Visa 信用卡，回馈以 U 币发放并可在 MaiCoin / MAX 生态兑换加密资产；卡片本身不是稳定币充值消费卡。"
+        ],
+        [
+          "需要什么资格才能申请？",
+          "需为台湾居民并通过联邦银行的信用卡征审，提供收入与财力证明。"
+        ],
+        [
+          "回馈怎么算？",
+          "基础回馈 0.5% U 币，按银行当期活动条件分级最高 4.5%；U 币兑换加密资产的最低门槛为 100 U 币。"
+        ],
+        [
+          "有年费吗？",
+          "正卡 NT$2,000、附卡 NT$1,000，首年免年费；之后申办电子账单或年消费满 NT$60,000 可免次年年费。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方页面列明的申办对象为台湾居民，需通过银行征审。本站不对其他身份的可申请性作推断。"
+        ]
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/ubot-maicoin-card.webp",
+        "file": "ubot-maicoin-card.webp",
+        "sourceFile": "ubot-maicoin-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://activity.ubot.com.tw/2026MaiCoinCard/index.htm",
+        "version": "聯邦 MaiCoin 聯名卡 Visa Signature 官方卡面（官方活动页宣传图裁切）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/ubot-maicoin-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "kgi-crypto-rewards-card",
+      "name": "凱基銀行 幣享卡",
+      "aliases": "凱基 幣享卡 KGI 幣享卡 KGI Bank crypto rewards card 台灣 信用卡 加密回饋 BitoPro MAX",
+      "mark": "凱",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "由凯基银行发行的信用卡，按台湾银行信用卡标准征审：需台湾居民身份与财力证明，由银行核卡授信。",
+      "intro": "凯基银行发行的信用卡，主打通路回馈点数可兑换加密资产，官方定位为台湾首张点数可换加密货币的信用卡。与交易所联名不同，这张卡没有绑定单一交易所品牌，兑换走合作的台湾交易所。",
+      "model": "银行信用卡：由凯基银行核卡授信，消费累积点数；点数可在合作交易所兑换比特币、以太币、USDT、USDC 等加密资产",
+      "network": "Mastercard",
+      "region": "台湾。申办与核卡限台湾居民，需通过凯基银行的信用卡征审。",
+      "fee": "正卡年费 NT$3,000、附卡 NT$1,500；首年免年费，之后按银行公告的减免条件可免次年年费。",
+      "rewards": "国内消费 1%、海外消费 2%，另加海外交易手续费回馈，合计约 3.5%；指定类别另有最高 12%–15% 的加码点数。点数可在合作的台湾交易所兑换比特币、以太币、USDT、USDC。加码类别与档位由银行当期活动决定，会更新。",
+      "paymentCompatibility": {
+        "sourceName": "凱基銀行 幣享卡",
+        "network": "Mastercard",
+        "issuer": "凱基銀行 KGI Bank（官方产品页署名）",
+        "region": "台湾，需通过银行信用卡征审",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方产品页本次核对未明确列出 Apple Pay 支持情况，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方产品页本次核对未明确列出 Google Pay 支持情况，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户是否计入指定类别加码；按 Mastercard 通用受理处理。"
+        }
+      },
+      "sources": [
+        {
+          "title": "凱基銀行 幣享卡官方產品頁：年費、回饋比例與點數兌換（2026-10-13 核对）",
+          "url": "https://www.kgibank.com.tw/webpages/crypto-currency-credit-card/index.html"
+        },
+        {
+          "title": "grenade.tw：凱基幣享卡 2026 使用指南（第三方整理，2026-10-13 核对）",
+          "url": "https://grenade.tw/blog/kgibank-crypto-card/"
+        },
+        {
+          "title": "CardPilled 周报：幣享卡被纳入追踪（2026-10-06）",
+          "url": "https://cardpilled.com/news/weekly-wrap-2026-10-06"
+        }
+      ],
+      "facts": [
+        [
+          "点数是兑换入口，不是直接发币",
+          "消费累积的是银行点数，需在合作交易所兑换成加密资产，因此兑换环节取决于交易所的开户与提领规则。把「点数可换币」理解为消费直接返币并不准确。",
+          [
+            0
+          ]
+        ],
+        [
+          "国内与海外回馈不同，海外另加手续费回馈",
+          "国内 1%、海外 2%，海外交易手续费另计回馈，合计约 3.5%；指定类别另有最高 12%–15% 加码。三类数字针对不同场景，不能相加成一个统一比例。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "加码档位由当期活动决定",
+          "官方页面上的加码类别与比例是活动条款，会随银行公告更新。长期成本应看基础回馈而非最高档位。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "申请资格限台湾居民",
+          "与交易所联名卡不同，这张卡没有绑定单一交易所品牌，但申办仍限台湾居民并通过凯基银行征审。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "没有交易所联名不等于兑换更自由",
+          "官方未与单一交易所独家绑定，但兑换仍走合作交易所，仍受该交易所的开户、KYC 与提领规则约束。",
+          [
+            0
+          ]
+        ],
+        [
+          "海外回馈与海外手续费是两笔账",
+          "海外消费 2% 回馈与海外交易手续费回馈是分别计算的，官方给出的「合计约 3.5%」包含手续费返还部分，实际到手取决于发卡行当期公告。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "凱基幣享卡是加密卡吗？",
+          "它是凯基银行发行的 Mastercard 信用卡，点数可在合作交易所兑换加密资产；卡片本身不是稳定币充值消费卡。"
+        ],
+        [
+          "回馈比例是多少？",
+          "国内 1%、海外 2%，海外交易手续费另计回馈，合计约 3.5%；指定类别另有最高 12%–15% 加码点数。"
+        ],
+        [
+          "点数能换哪些币？",
+          "官方列出比特币、以太币、USDT、USDC，兑换在合作的台湾交易所完成。"
+        ],
+        [
+          "需要什么资格？",
+          "需为台湾居民并通过凯基银行的信用卡征审。"
+        ],
+        [
+          "有年费吗？",
+          "正卡 NT$3,000、附卡 NT$1,500，首年免年费，之后按银行公告的减免条件可免。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.kgibank.com.tw/webpages/crypto-currency-credit-card/index.html"
+      },
+      "url": "https://ucard.observer/cards/kgi-crypto-rewards-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "startale-card",
+      "name": "Startale Card",
+      "aliases": "Startale Card Soneium Sony 索尼 自托管 Visa 稳定币 日本 waitlist USDSC",
+      "mark": "S",
+      "group": "独立钱包与支付卡",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "官方说明通过 Startale App 开户并完成身份验证后进入候补名单；官方未公布证件清单或分级 KYC 档位，应按获批时应用内要求准备身份文件。",
+      "intro": "Startale 集团（Soneium 生态，索尼参与投资）推出的自托管稳定币 Visa 卡：资产留在用户自己的钱包里，消费时从自托管余额扣款，未消费的资产可继续产生收益。卡片于 2026-07-13 公布并开放候补，尚未全面开放申请。",
+      "model": "自托管借记卡：资产保留在用户钱包中，消费时直接扣减；官方称未使用的资产在消费前仍可继续产生收益",
+      "network": "Visa（官方公告口径；官方称可在 Visa 受理网络超过 1.5 亿商户使用）",
+      "region": "官方称面向 Visa 全球受理范围，申请通过 Startale App 候补；公告以日本市场为宣传重点，官方未公布逐国可申请名单。",
+      "fee": "官方公告阶段未公布费率表。年费、开卡费、FX 费与充值费均未在官方页面列出，不应按「免费」理解。",
+      "rewards": "官方称以稳定币形式回馈至用户账户（公告口径为以 USDSC 发放）；未使用的资产在消费前继续产生收益。返现比例与上限官方未公布。",
+      "paymentCompatibility": {
+        "sourceName": "Startale Card",
+        "network": "Visa",
+        "issuer": "Startale Group（官方公告署名；发卡机构与卡计划承接方官方未明示）",
+        "region": "官方称 Visa 全球受理；申请走 Startale App 候补，未公布逐国名单",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方公告与候补页本次核对均未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方公告与候补页本次核对均未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的适用口径；卡片按 Visa 通用受理处理。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Startale 官方公告：Startale Card 候补名单开放、自托管结构与稳定币回馈（2026-07-13）",
+          "url": "https://startale.com/en/blog/startale-card-waitlist"
+        },
+        {
+          "title": "PR TIMES：Startale Card 官方日文新闻稿（2026-07-13）",
+          "url": "https://prtimes.jp/main/html/rd/p/000000024.000114522.html"
+        },
+        {
+          "title": "BeInCrypto：Startale 在 WebX Tokyo 发布 Visa 卡报道（2026-10-13 核对）",
+          "url": "https://beincrypto.com/startale-launch-ofk-visa-card/"
+        }
+      ],
+      "facts": [
+        [
+          "仍在候补阶段，不是已可申请的卡",
+          "官方公告口径为 2026-07-13 开放候补名单，申请通道为 Startale App 候补。本站按 beta 标注，不写成已可普遍申请。",
+          [
+            0
+          ]
+        ],
+        [
+          "自托管结构决定风险位置",
+          "资产留在用户自己的钱包中，消费时扣减自托管余额。这与交易所托管卡的风险完全不同：没有中心化机构代为持有资产，但私钥与合约风险由用户承担。",
+          [
+            0
+          ]
+        ],
+        [
+          "官方未公布费率",
+          "公告阶段未列出年费、开卡费、FX 费或充值费。第三方引用的费率数字在本次核对时没有官方页面支撑，本站不采用。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "未消费资产继续生息是产品主张",
+          "官方称未使用的资产在消费前仍可继续产生收益，回馈以稳定币入账。这是产品主张，实际收益来源与保障机制官方未详述。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "自托管卡的收益从哪来需要单独问",
+          "「未消费资产继续生息」意味着资产在等待消费期间被投入到某个收益来源。官方公告未说明该来源、是否承担本金风险、以及消费时如何即时赎回。把它当成普通活期余额不准确。",
+          [
+            0
+          ]
+        ],
+        [
+          "公布与可用之间有距离",
+          "2026-07-13 的公告是发布与候补，不等同于卡已可申请、可绑 Apple Pay 或可在所有 Visa 商户使用。可用性应以官方后续公告为准。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Startale Card 现在可以申请吗？",
+          "官方口径是 2026-07-13 开放候补名单，通过 Startale App 候补，尚未全面开放申请。"
+        ],
+        [
+          "这是自托管卡吗？",
+          "是。官方说明资产保留在用户钱包中，消费时从自托管余额扣减，未消费的资产在消费前可继续产生收益。"
+        ],
+        [
+          "费用和返现是多少？",
+          "官方公告阶段均未公布费率表与返现比例，本站不引用第三方数字。"
+        ],
+        [
+          "卡组织是什么？",
+          "官方公告口径为 Visa，并称可在 Visa 受理网络超过 1.5 亿商户使用。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方未公布逐国可申请名单，公告以日本市场为宣传重点。可否申请需以官方后续公告为准，本站不做推断。"
+        ]
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/startale-card.webp",
+        "file": "startale-card.webp",
+        "sourceFile": "startale-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://startale.com/en/blog/startale-card-waitlist",
+        "version": "Startale Visa Platinum 官方卡面（官方公告图）",
+        "mode": "contain",
+        "crop": {
+          "left": 470,
+          "top": 470,
+          "width": 960,
+          "height": 560
+        }
+      },
+      "url": "https://ucard.observer/cards/startale-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "bix-card",
+      "name": "Bix Card",
+      "aliases": "BIX Card Bix 自托管 USDC USDT Visa 美国 self-custody spending",
+      "mark": "B",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方说明需完成身份验证后开卡；官方未公布证件清单或分级 KYC 档位，应按开卡时应用内要求准备身份文件。",
+      "intro": "Bix 推出的自托管钱包加 Visa 卡组合：用户在应用内持有 USDC 或 USDT，消费时直接从自托管余额扣款。卡片自 2025 年底公布后逐步在美国铺开，官方称截至 2026 年 9 月已在 29 个州可用。",
+      "model": "自托管借记卡：资产在用户自己的钱包中，消费时扣减自托管余额；宣传口径为用稳定币直接支付日常消费",
+      "network": "Visa（官方站点口径）",
+      "region": "美国。官方称截至 2026 年 9 月已在 29 个州可用，并计划向 49 个州扩展；具体州名单以官方应用内结果为准。",
+      "fee": "官方站点在本次核对时未公布费率表，年费、开卡费、FX 费与充值费均未列出，不应按「无费用」理解。",
+      "rewards": "官方站点在本次核对时未公布返现比例或回馈结构。",
+      "paymentCompatibility": {
+        "sourceName": "Bix Card",
+        "network": "Visa",
+        "issuer": "Bix Ltd（官方站点署名；官方未在页面上明示发卡银行与卡计划承接方）",
+        "region": "美国，官方称 2026-09 已在 29 个州可用",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方站点本次核对未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方站点本次核对未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的适用口径。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Bix 官方站点（2026-10-13 核对；费率与返现未在页面公布）",
+          "url": "https://bix.fi/"
+        },
+        {
+          "title": "Decrypt：Bix 自托管卡报道（2026-09-25）",
+          "url": "https://decrypt.co/379300/bix-card-connects-self-custody-with-everyday-spending"
+        },
+        {
+          "title": "AInvest：Bix 托管模式相关报道（2026-10-13 核对）",
+          "url": "https://www.ainvest.com/news/custodial-bix-card-2609/"
+        }
+      ],
+      "facts": [
+        [
+          "美国部分州可用，不是全国可用",
+          "官方称截至 2026 年 9 月已在 29 个州可用，目标是扩展到 49 个州。可用性按州而非按国划分，未覆盖州的用户无法开卡。",
+          [
+            0
+          ]
+        ],
+        [
+          "同名品牌存在两套托管模式",
+          "公开报道提到同品牌另有区域站点以托管模式宣传。自托管与托管是两种资产控制方式，风险位置完全不同，选卡前必须确认所申请的是哪一套。",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "官方未公布费率与返现",
+          "本次核对时官方站点没有费率表，也没有返现说明。第三方列出的数字没有官方页面支撑，本站不采用。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "自托管与托管的边界要认准",
+          "同一品牌在不同市场可能以不同托管模式运营。自托管意味着资产由用户自己的密钥控制，托管则由运营方代为持有。两个模式的对手方风险不可互换。",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Bix Card 在美国哪些州可用？",
+          "官方称截至 2026 年 9 月已在 29 个州可用，并计划扩展到 49 个州；具体州名单以应用内结果为准。"
+        ],
+        [
+          "这是自托管卡吗？",
+          "官方定位为自托管钱包加 Visa 卡，消费从自托管余额扣款。注意另有同名区域站点以托管模式宣传，申请前需确认模式。"
+        ],
+        [
+          "费用和返现是多少？",
+          "官方站点本次核对未公布费率表与返现结构，本站不引用第三方数字。"
+        ],
+        [
+          "卡组织是什么？",
+          "官方站点口径为 Visa。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方列明的可用范围是美国的部分州，未提及其他地区。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://bix.fi/"
+      },
+      "url": "https://ucard.observer/cards/bix-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "arq-card",
+      "name": "ARQ Card",
+      "aliases": "ARQ Card DolarApp 更名 USDC Mastercard 墨西哥 阿根廷 巴西 哥伦比亚 美元账户",
+      "mark": "A",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方帮助中心说明需完成账户身份验证后开卡；官方未公布证件清单或分级 KYC 档位，应按开户时应用内要求准备身份文件。",
+      "intro": "DolarApp 于 2026-03-02 更名为 ARQ，卡片随之改称 ARQ Card：用美元余额支撑的 Mastercard，用户把 USDC 换成美元余额后直接刷卡消费。主要面向拉美用户，官方称覆盖墨西哥、阿根廷、巴西与哥伦比亚。",
+      "model": "借记卡：以账户美元余额扣款，USDC 可兑换为美元余额；官方定位为把数字美元用于日常消费的账户加卡组合",
+      "network": "Mastercard（官方帮助中心与产品页口径）",
+      "region": "官方称覆盖墨西哥、阿根廷、巴西与哥伦比亚；申请资格取决于当地账户开立条件，官方未公布逐国细则。",
+      "fee": "官方帮助中心在本次核对时未提供完整费率表；年费、开卡费、FX 费与入金费需以应用内条款为准，不应按「免费」理解。",
+      "rewards": "第三方资料列 0–2% 返现，但官方帮助中心在本次核对时未公布返现结构。本站不把第三方数字写成官方口径。",
+      "paymentCompatibility": {
+        "sourceName": "ARQ Card",
+        "network": "Mastercard",
+        "issuer": "ARQ（官方更名公告署名；官方未在帮助中心明示发卡机构）",
+        "region": "墨西哥、阿根廷、巴西、哥伦比亚（官方口径）",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方帮助中心本次核对未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方帮助中心本次核对未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的适用口径。"
+        }
+      },
+      "sources": [
+        {
+          "title": "ARQ 官方帮助中心：DolarApp 更名 ARQ 公告（2026-03-02 生效；2026-10-13 核对）",
+          "url": "https://www.arqfinance.com/en-MX/help/articles/meet-our-new-brand-dolarapp-is-now-arq"
+        },
+        {
+          "title": "CardPilled：ARQ Card 费用与返现整理（第三方，2026-10-13 核对）",
+          "url": "https://cardpilled.com/cards/arq-card"
+        },
+        {
+          "title": "UCardRadar：ARQ Card 条目（第三方，2026-10-13 核对）",
+          "url": "https://ucardradar.com/cards/arq-card"
+        }
+      ],
+      "facts": [
+        [
+          "DolarApp 已更名 ARQ",
+          "官方帮助中心公告说明品牌由 DolarApp 更名为 ARQ，卡片随之改称 ARQ Card。原 DolarApp 名称的旧资料对应的是同一产品的更名前状态。",
+          [
+            0
+          ]
+        ],
+        [
+          "以 USDC 兑换美元余额后消费",
+          "账户以美元余额计价，用户把 USDC 换成美元余额再刷卡。这意味着加密货币到法币的兑换发生在用卡之前，卡片本身扣的是美元余额。",
+          [
+            0
+          ]
+        ],
+        [
+          "官方未公布完整费率表",
+          "本次核对时官方帮助中心没有完整费率表，返现结构也未公布。第三方列的 0–2% 返现缺乏官方页面支撑，本站按未公布处理。",
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "USDC 兑换环节的成本不在卡费率表里",
+          "用户需要先把 USDC 兑换为美元余额。兑换价差与手续费由账户侧条款决定，不会出现在卡片费率表中，比较成本时要一并计算。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "ARQ Card 和 DolarApp 是什么关系？",
+          "ARQ 是 DolarApp 于 2026-03-02 起使用的新品牌，卡片随之更名为 ARQ Card，是同一产品的更名。"
+        ],
+        [
+          "卡组织是什么？",
+          "官方口径为 Mastercard。"
+        ],
+        [
+          "在哪些国家可用？",
+          "官方称覆盖墨西哥、阿根廷、巴西与哥伦比亚；申请资格取决于当地账户开立条件。"
+        ],
+        [
+          "返现是多少？",
+          "官方帮助中心本次核对未公布返现结构，本站不把第三方列的 0–2% 写成官方口径。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方列明的覆盖国家为墨西哥、阿根廷、巴西与哥伦比亚，未提及中国。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.arqfinance.com/en-MX/help/articles/meet-our-new-brand-dolarapp-is-now-arq"
+      },
+      "url": "https://ucard.observer/cards/arq-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "orbi-sofi-mastercard",
+      "name": "Orbi × SoFi Tech Solutions Mastercard",
+      "aliases": "Orbi SoFi Mastercard 墨西哥 crypto-linked card Galileo 加密链接卡",
+      "mark": "O",
+      "group": "独立钱包与支付卡",
+      "status": "review",
+      "kyc": "required",
+      "kycNote": "官方新闻稿说明发卡走当地持牌机构与身份验证流程；具体证件与审核标准官方未公布，应按开放申请时的官方说明准备。",
+      "intro": "Orbi 与 SoFi Tech Solutions（原 Galileo）合作、走 Mastercard 网络的加密链接卡，2026-10-08 由双方发布，面向墨西哥市场。公告阶段只披露合作结构与上线意向，费用、返现与具体开卡时间均未公布。",
+      "model": "加密链接卡：官方公告口径为把加密资产用于消费的链接式卡片；扣款结构、是否自托管与信用额度安排均未在公告中说明",
+      "network": "Mastercard（官方新闻稿口径）",
+      "region": "墨西哥（官方新闻稿口径）。",
+      "fee": "官方新闻稿未披露费率表。",
+      "rewards": "官方新闻稿未披露返现或回馈结构。",
+      "paymentCompatibility": {
+        "sourceName": "Orbi × SoFi Tech Solutions Mastercard",
+        "network": "Mastercard",
+        "issuer": "Orbi 与 SoFi Tech Solutions 合作发行（官方新闻稿署名；具体发卡机构未明示）",
+        "region": "墨西哥（官方公告口径）",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方新闻稿未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方新闻稿未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方公告未说明任何商户类别的适用口径。"
+        }
+      },
+      "sources": [
+        {
+          "title": "SoFi Tech Solutions 官方新闻稿：与 Orbi、Mastercard 合作在墨西哥推出加密链接卡（2026-10-08）",
+          "url": "https://tech.sofi.com/news/sofi-tech-solutions-orbi-mastercard-launch-crypto-linked-card-mexico/"
+        },
+        {
+          "title": "Finviz 转载：SoFi Tech Solutions、Orbi 与 Mastercard 合作报道（2026-10-13 核对）",
+          "url": "https://finviz.com/news/400322/sofi-tech-solutions-orbi-and-mastercard-partner-to-launch-crypto-linked-card-in-mexico"
+        },
+        {
+          "title": "The Paypers：SoFi Tech Solutions 与 Orbi 将在墨西哥推出加密链接卡（2026-10-13 核对）",
+          "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/sofi-tech-solutions-and-orbi-to-launch-crypto-linked-card-in-mexico"
+        }
+      ],
+      "facts": [
+        [
+          "这是公告阶段的产品，尚未公布可用性",
+          "官方新闻稿发布于 2026-10-08，披露的是合作结构、卡组织与目标市场。开卡时间、费率、返现、可用国家清单均未公布，本站按 review 标注。",
+          [
+            0
+          ]
+        ],
+        [
+          "与 Orbi 自有卡是不同产品",
+          "Orbi 自有卡已在本站收录。这张卡是 Orbi 与 SoFi Tech Solutions 合作、走 SoFi 技术栈的另一套产品，两者不能共用一个档案。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "SoFi Tech Solutions 是技术方不是发卡行",
+          "SoFi Tech Solutions（原 Galileo）提供的是发卡与处理技术，公告未明示实际发卡机构。把技术方当作发卡行会误判争议处理对象。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "公告不等于可以申请",
+          "发布合作意向与卡片真正开放申请之间通常还有发卡机构审批、合规落地与分阶段推广。在官方公布开卡渠道之前，不应把它列入可选方案。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "这张卡现在可以申请吗？",
+          "官方于 2026-10-08 发布合作公告，尚未公布开卡时间与渠道，本站按公告阶段标注。"
+        ],
+        [
+          "和 Orbi 现有的卡是同一张吗？",
+          "不是。Orbi 自有卡已单独收录，这张是 Orbi 与 SoFi Tech Solutions 合作、走 Mastercard 的新产品。"
+        ],
+        [
+          "费用和返现是多少？",
+          "官方新闻稿未披露费率与返现，本站不引用第三方推测。"
+        ],
+        [
+          "在哪些国家可用？",
+          "官方公告口径为墨西哥。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方公告未提及中国，也未公布申请资格清单。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://tech.sofi.com/news/sofi-tech-solutions-orbi-mastercard-launch-crypto-linked-card-mexico/"
+      },
+      "url": "https://ucard.observer/cards/orbi-sofi-mastercard/",
+      "statusLabel": "版本待核"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "peanut-card",
+      "name": "Peanut Card",
+      "aliases": "Peanut Card 花生卡 Squirrel Labs Rain 自托管 USDC Visa 虚拟卡",
+      "mark": "P",
+      "group": "独立钱包与支付卡",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "官方帮助页说明开卡需完成身份验证（使用 Sumsub 完成验证流程）；官方未公布证件清单，应按开卡时应用内要求准备身份文件。",
+      "intro": "peanut.me（Squirrel Labs 开发）推出的自托管 USDC Visa 虚拟卡，卡计划由 Rain 提供基础设施：用户在自托管钱包里持有 USDC，消费时直接从钱包扣款。目前处于 beta 阶段，官方列有约 17 个不支持的地区。",
+      "model": "自托管虚拟借记卡：资产留在用户自己的钱包中，消费时扣减 USDC 余额；卡本身为虚拟卡",
+      "network": "Visa（官方帮助页口径）",
+      "region": "官方称面向全球，但列有约 17 个不支持的国家或地区；申请资格取决于身份验证结果。",
+      "fee": "官方帮助页列：无开卡费、无月费、无年费；跨境消费按 1% 国际服务费（International Service Assessment）计收。",
+      "rewards": "官方帮助页未列出返现或回馈结构，即无返现。",
+      "paymentCompatibility": {
+        "sourceName": "Peanut Card",
+        "network": "Visa",
+        "issuer": "卡计划由 Rain 提供基础设施（官方帮助页口径）；实际发卡机构官方未明示",
+        "region": "官方称全球可用，另有约 17 个不支持地区清单",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方帮助页本次核对未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方帮助页本次核对未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的适用口径；卡片按 Visa 通用受理处理。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Peanut 官方帮助页：Peanut Card 费用、自托管结构与地区限制（2026-10-13 核对）",
+          "url": "https://peanut.me/en/help/peanut-card"
+        },
+        {
+          "title": "CardPilled：Peanut Card 条目（第三方，2026-10-13 核对）",
+          "url": "https://cardpilled.com/cards/peanut-card"
+        },
+        {
+          "title": "Spendnode：2026 年 8 月加密卡链上交易量统计（2026-10-13 核对）",
+          "url": "https://www.spendnode.io/crypto-cards/stats/august-2026/"
+        }
+      ],
+      "facts": [
+        [
+          "无发卡费、月费与年费，跨境另收 1%",
+          "官方帮助页列无开卡费、无月费、无年费；跨境消费按 1% 国际服务费计收。国内消费没有这 1%，跨境才有，两者不能混为一谈。",
+          [
+            0
+          ]
+        ],
+        [
+          "自托管意味着资产在用户钱包",
+          "卡计划由 Rain 提供基础设施，但资产留在用户自己的钱包中，消费时扣减 USDC 余额。基础设施提供方不等于资产托管方。",
+          [
+            0
+          ]
+        ],
+        [
+          "beta 阶段且有不支持地区清单",
+          "官方称全球可用但有约 17 个不支持的国家或地区。处于 beta 阶段的产品条款与可用性都可能变动。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "无返现",
+          "官方帮助页未列出返现或回馈结构，本站按无返现记录，不引用第三方推测的返现比例。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "1% 只对跨境消费生效",
+          "国际服务费按跨境交易计收，国内消费不适用。按「所有消费都多 1%」估算成本会高估。",
+          [
+            0
+          ]
+        ],
+        [
+          "beta 产品的条款会变",
+          "beta 阶段的费用与地区清单都可能调整，用卡前应重新核对官方帮助页当期口径。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Peanut Card 收费吗？",
+          "官方帮助页列无开卡费、无月费、无年费；跨境消费另收 1% 国际服务费。"
+        ],
+        [
+          "是自托管卡吗？",
+          "是。资产留在用户自己的钱包中，消费时扣减 USDC 余额；卡计划由 Rain 提供基础设施。"
+        ],
+        [
+          "有返现吗？",
+          "官方帮助页未列出返现或回馈结构，本站按无返现记录。"
+        ],
+        [
+          "卡组织是什么？",
+          "官方口径为 Visa，卡为虚拟卡。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方称全球可用但列有约 17 个不支持的国家或地区；具体是否包含中国大陆需以应用内身份验证结果为准。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://peanut.me/en/help/peanut-card"
+      },
+      "url": "https://ucard.observer/cards/peanut-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "x-money-card",
+      "name": "X Money Card",
+      "aliases": "X Money Card X Card Visa 借记卡 Elon Musk 马斯克 Cross River 美国 cashback APY",
+      "mark": "X",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方开户需完成身份验证并通过合作银行的账户开立流程；官方未公布证件清单或分级 KYC 档位，应按开户时应用内要求准备身份文件。",
+      "intro": "X 公司推出的 X Money 账户配套 Visa 借记卡，2019 年品牌的首次消费金融产品：分为实体金属卡与虚拟卡，账户提供余额利息与消费返现。需要说明的是，这张卡本身不是加密卡——它扣的是账户里的美元余额，与稳定币消费卡是两类产品。",
+      "model": "借记卡：从 X Money 账户美元余额扣款，账户由合作银行提供存款与支付基础设施；官方另提供余额利息",
+      "network": "Visa（官方产品页口径）",
+      "region": "美国。官方称面向美国用户开放，2026-10 起免费账户亦可使用。",
+      "fee": "官方称账户无月费、无账户管理费；卡片返现按账户等级区分。具体费率以官方产品页当期条款为准。",
+      "rewards": "官方称消费返现最高 3%（Premium / Premium+ 账户），账户余额提供 6% 年化收益（APY）。返现比例与利息均与账户等级绑定，非所有账户适用最高档。",
+      "paymentCompatibility": {
+        "sourceName": "X Money Card",
+        "network": "Visa",
+        "issuer": "存款与支付由 Cross River Bank 提供（官方合作银行新闻稿口径）",
+        "region": "美国",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方产品页本次核对未明确列出 Apple Pay 支持情况，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方产品页本次核对未明确列出 Google Pay 支持情况，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的返现适用口径；卡片按 Visa 通用受理处理。"
+        }
+      },
+      "sources": [
+        {
+          "title": "X Money 官方产品页：账户、卡片、返现与余额利息（2026-10-13 核对）",
+          "url": "https://money.x.com/"
+        },
+        {
+          "title": "Cross River Bank 新闻稿：为 X Money 提供支付基础设施（2026-10-13 核对）",
+          "url": "https://www.crossriver.com/newsroom/cross-river-powers-x-money-first-p2p-payments-experience-built-into-us-social-media-platform"
+        },
+        {
+          "title": "USA Today：X Money 与 X Visa 卡上线报道（2026-07-31）",
+          "url": "https://www.usatoday.com/story/money/2026/07/31/elon-musk-launches-x-money-x-visa-card/91126643007/"
+        }
+      ],
+      "facts": [
+        [
+          "这不是加密卡，是美元账户借记卡",
+          "卡片从 X Money 账户的美元余额扣款，与「充值 USDT 再消费」的加密卡在资金来源、合规路径和风险位置上完全不同。本站收录它是因为它是该窗口内最受关注的美国消费卡发布，不代表它属于加密卡类别。",
+          [
+            0
+          ]
+        ],
+        [
+          "返现与利息都绑定账户等级",
+          "官方口径为最高 3% 返现、6% 年化收益，两者均与 Premium / Premium+ 账户等级绑定，免费账户不适用最高档。",
+          [
+            0
+          ]
+        ],
+        [
+          "存款与支付由合作银行提供",
+          "Cross River Bank 的官方新闻稿说明其为 X Money 提供支付基础设施，即存款与结算走合作银行。这是美国消费者金融产品的常见结构。",
+          [
+            1
+          ]
+        ],
+        [
+          "免费账户已可使用",
+          "公开报道称 2026 年 10 月起免费账户亦可使用，此前需要 Premium 订阅。具体资格以官方当期说明为准。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "把它放进加密卡比较表会得出错误结论",
+          "这张卡没有加密资产托管、没有链上结算、也不以稳定币计价。若与稳定币消费卡并列比较费用与返现，结论会误导。",
+          [
+            0
+          ]
+        ],
+        [
+          "最高档返现与利息有条件",
+          "3% 返现与 6% APY 都绑定付费账户等级。按最高档估算实际收益，需要先把账户等级对应的实际数字确认清楚。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "X Money Card 是加密卡吗？",
+          "不是。它从 X Money 账户的美元余额扣款，是 Visa 借记卡；加密资产或稳定币不参与其结算。"
+        ],
+        [
+          "返现和利息是多少？",
+          "官方称返现最高 3%、账户余额年化最高 6%，两者都与 Premium / Premium+ 账户等级绑定。"
+        ],
+        [
+          "免费账户能用吗？",
+          "公开报道称 2026 年 10 月起免费账户亦可使用，此前需要 Premium 订阅；具体资格以官方当期说明为准。"
+        ],
+        [
+          "在哪里可以申请？",
+          "官方称面向美国用户开放。"
+        ],
+        [
+          "中国大陆用户可以申请吗？",
+          "官方列明的开放范围是美国，未提及其他地区。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://money.x.com/"
+      },
+      "url": "https://ucard.observer/cards/x-money-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "waldenpay-virtual-card",
+      "name": "WaldenPay 虚拟卡",
+      "aliases": "WaldenPay Virtual Card USDT TRC20 免KYC 虚拟卡 隐私 crypto-funded virtual card",
+      "mark": "W",
+      "group": "独立钱包与支付卡",
+      "status": "review",
+      "kyc": "unknown",
+      "kycNote": "官方产品页以「无需 KYC」为卖点宣传，但本次核对未能从官方页面确认其发卡机构、适用司法管辖区与合规主体。免 KYC 意味着没有经过验证的持卡人身份，出现争议时缺乏可追索的账户关系，风险由用户承担。",
+      "intro": "WaldenPay 于 2026-10-05 发布的加密货币充值虚拟卡，宣传以 USDT 充值、无需 KYC 即可用于线上消费。官方产品页以隐私为卖点，但未公布发卡机构与卡组织。卡片的信息披露程度明显低于持牌发卡机构发行的同类产品，本站按需复核（review）标注。",
+      "model": "充值型虚拟卡：以加密货币充值后用于消费；官方未说明充值到消费之间的资产归属与托管结构",
+      "network": "官方产品页未明示卡组织。第三方资料称 Visa，但本次核对未获官方页面支撑，本站按未公布记录。",
+      "region": "官方称面向全球，未公布具体支持与不支持的国家或地区清单。",
+      "fee": "官方产品页在本次核对时未公布完整费率表。第三方资料提到滚动 30 天消费低于 US$2,000 时充值费 5%，但本次核对未获官方页面支撑。",
+      "rewards": "官方产品页未列出返现或回馈结构。",
+      "paymentCompatibility": {
+        "sourceName": "WaldenPay 虚拟卡",
+        "network": "官方未明示卡组织",
+        "issuer": "官方产品页未公布发卡机构与合规主体",
+        "region": "官方称全球，未公布逐国清单",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方产品页未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方产品页未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明任何商户类别的适用口径。"
+        }
+      },
+      "sources": [
+        {
+          "title": "WaldenPay 官方产品页：虚拟加密货币卡（2026-10-13 核对；页面未公布发卡机构与卡组织）",
+          "url": "https://waldenpay.com/waldenpay-virtual-crypto-card"
+        },
+        {
+          "title": "WebDisclosure：WaldenPay 发布加密货币充值虚拟卡新闻稿（2026-10-05）",
+          "url": "https://www.webdisclosure.com/press-release/waldenpay-announces-crypto-funded-virtual-card-for-private-everyday-spending-BHlrBQ3n9w4"
+        },
+        {
+          "title": "CardPilled 周报：WaldenPay 被纳入追踪（2026-10-06）",
+          "url": "https://cardpilled.com/news/weekly-wrap-2026-10-06"
+        }
+      ],
+      "facts": [
+        [
+          "官方未公布发卡机构与卡组织",
+          "本次核对时官方产品页没有明示发卡机构、卡组织或合规主体。缺少这些信息意味着争议处理与资金追索路径不明，本站按 review 标注。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "免 KYC 是宣传口径，不是降低风险",
+          "官方以免 KYC 为卖点。免 KYC 意味着发卡方没有经过验证的持卡人身份记录，一旦发生争议或资金问题，用户缺少可追索的账户关系。",
+          [
+            0
+          ]
+        ],
+        [
+          "费率未经官方确认",
+          "第三方资料提到滚动 30 天消费低于 US$2,000 时充值费 5%，但官方产品页本次核对未公布费率表，本站不把该数字写成官方口径。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "发布与可用性分离",
+          "产品于 2026-10-05 发布，官方称可用但未公布地区清单。发布新闻稿不等于产品已在所有宣称地区稳定运行。",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "缺少发卡机构信息的卡要单独对待",
+          "持牌发卡机构的产品有明确的争议处理、存款保障与监管投诉路径。官方页面不披露发卡机构的产品不具备这些路径，本站把它与其他卡分开标注。",
+          [
+            0
+          ]
+        ],
+        [
+          "免 KYC 与合规风险",
+          "免 KYC 的充值型卡在多地监管框架下属于高风险产品，用户的资金流向与来源说明义务并未因此免除。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "WaldenPay 虚拟卡是什么？",
+          "2026-10-05 发布的加密货币充值虚拟卡，宣传以 USDT 充值、无需 KYC 可用于线上消费。"
+        ],
+        [
+          "卡组织是什么？",
+          "官方产品页本次核对未明示卡组织，第三方称 Visa 但未获官方页面支撑。"
+        ],
+        [
+          "费用是多少？",
+          "官方产品页本次核对未公布完整费率表，本站不引用第三方数字。"
+        ],
+        [
+          "需要 KYC 吗？",
+          "官方以免 KYC 为卖点宣传，但本次核对未能从官方页面确认其发卡机构与合规主体。"
+        ],
+        [
+          "中国大陆用户可以使用吗？",
+          "官方称面向全球但未公布地区清单。本站不对其在此地区的可用性作推断。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://waldenpay.com/waldenpay-virtual-crypto-card"
+      },
+      "url": "https://ucard.observer/cards/waldenpay-virtual-card/",
+      "statusLabel": "版本待核"
+    },
+    {
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "verified": "2026-10-13",
+      "id": "ustarpay-virtual-card",
+      "name": "UstarPay 虚拟卡",
+      "aliases": "UstarPay Virtual Card USDT 虚拟卡 加拿大 MSB 中文 稳定币 充值卡",
+      "mark": "U",
+      "group": "独立钱包与支付卡",
+      "status": "review",
+      "kyc": "required",
+      "kycNote": "官方称持加拿大 MSB 牌照并设有资格与合规审核流程；官方未公布证件清单或分级 KYC 档位，应按开户时应用内要求准备身份文件。",
+      "intro": "UstarPay 于 2026-07-30 推出应用与虚拟卡，支持以 USDT 充值并用于日常消费，官方称持有加拿大 MSB（货币服务业务）牌照。产品以中文用户为主要宣传对象之一，但官方页面未明示卡组织与发卡机构。",
+      "model": "充值型虚拟卡：以 USDT 充值后用于消费；官方说明设有资格与合规审核流程",
+      "network": "官方未明示卡组织。官方页面出现 Visa 相关标识，但本次核对未获明确的官方文字说明，本站按未公布记录。",
+      "region": "官方称面向「受支持与受监管的地区」，具体清单通过官方链接页提供；本次核对未获逐国可申请名单。",
+      "fee": "官方页面在本次核对时未公布完整费率表。",
+      "rewards": "官方页面未列出返现或回馈结构。",
+      "paymentCompatibility": {
+        "sourceName": "UstarPay 虚拟卡",
+        "network": "官方未明示卡组织",
+        "issuer": "UstarPay（官方称持加拿大 MSB 牌照；发卡机构未公布）",
+        "region": "官方称「受支持与受监管的地区」，未公布逐国清单",
+        "researchDate": "2026-10-13",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方页面未提及 Apple Pay，不能按支持处理。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方页面未提及 Google Pay，不能按支持处理。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明任何商户类别的适用口径。"
+        }
+      },
+      "sources": [
+        {
+          "title": "UstarPay 官方站点（2026-10-13 核对；未公布卡组织与费率表）",
+          "url": "https://www.ustarpay.com/"
+        },
+        {
+          "title": "Chainwire：UstarPay 发布应用与虚拟卡、支持 USDT 充值新闻稿（2026-08-11）",
+          "url": "https://chainwire.org/2026/08/11/ustarpay-announces-app-and-virtual-card-first-launch-supporting-usdt-deposits-and-real-world-spending/"
+        },
+        {
+          "title": "Financial IT：UstarPay 虚拟卡发布报道（2026-10-13 核对）",
+          "url": "https://financialit.net/news/cryptocurrencies/ustarpay-announces-app-and-virtual-card-first-launch-supporting-usdt-deposits"
+        }
+      ],
+      "facts": [
+        [
+          "官方未公布卡组织",
+          "本次核对时官方页面未以文字明示卡组织；页面标识不足以作为卡组织证据。本站按未公布记录。",
+          [
+            0
+          ]
+        ],
+        [
+          "MSB 牌照与卡片保障是两回事",
+          "加拿大 MSB 是货币服务业务的注册，属于反洗钱监管范畴，不等于存款保障或卡片争议处理机制。把 MSB 当成资金安全背书并不准确。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "费率未公布",
+          "本次核对时官方页面没有费率表，本站不引用第三方数字。",
+          [
+            0
+          ]
+        ],
+        [
+          "地区以官方链接页为准",
+          "官方称面向「受支持与受监管的地区」并指向一个外部链接页，未在站点内公布逐国名单。可用性判断应以官方渠道当期说明为准。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "牌照类型决定用户能主张什么",
+          "MSB 注册是反洗钱合规要求，不提供存款保险，也不改变卡片争议的处理路径。判断资金安全要看发卡机构与其所在地的消费者保护框架，而不是看注册类型。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "UstarPay 虚拟卡是什么？",
+          "2026-07-30 推出的应用与虚拟卡，支持以 USDT 充值用于消费，官方称持加拿大 MSB 牌照。"
+        ],
+        [
+          "卡组织是什么？",
+          "官方页面本次核对未以文字明示卡组织，本站按未公布记录。"
+        ],
+        [
+          "费用是多少？",
+          "官方页面本次核对未公布费率表，本站不引用第三方数字。"
+        ],
+        [
+          "MSB 牌照意味着什么？",
+          "加拿大 MSB 是货币服务业务的反洗钱注册，属于监管合规范畴，不等于存款保障或卡片争议处理机制。"
+        ],
+        [
+          "中国大陆用户可以使用吗？",
+          "官方称面向「受支持与受监管的地区」并指向外部链接页，未在站点内公布逐国名单。本站不作推断。"
+        ]
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.ustarpay.com/"
+      },
+      "url": "https://ucard.observer/cards/ustarpay-virtual-card/",
+      "statusLabel": "版本待核"
     },
     {
       "published": "2026-10-11",
@@ -15646,9 +17521,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://fasset.com/fasset-card/"
+        "status": "official",
+        "path": "/card-art/fasset-card.webp",
+        "file": "fasset-card.webp",
+        "imageUrl": "https://fasset.com/images/lp-s7-card.avif",
+        "sourcePage": "https://fasset.com/fasset-card/",
+        "version": "官方 Visa 卡面（官网产品图）",
+        "mode": "contain"
       },
       "group": "独立钱包与支付卡",
       "url": "https://ucard.observer/cards/fasset-card/",
@@ -15759,6 +17638,10 @@
         {
           "title": "Krak：Krak Rewards FAQ（2026-09-16 更新）",
           "url": "https://support.krak.app/articles/krak-rewards-faq"
+        },
+        {
+          "title": "Krak Card (US) 官方卡面素材核查",
+          "url": "https://krak.app/card"
         }
       ],
       "paymentCompatibility": {
@@ -15781,9 +17664,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://support.krak.app/articles/getting-started-with-us-krak-card"
+        "status": "official",
+        "path": "/card-art/krak-card-us.webp",
+        "file": "krak-card-us.webp",
+        "imageUrl": "https://assets-cms.kraken.com/images/51n36hrp/facade/2821987e509f7bb1bb202cb1716289633dd645ae-1696x1002.png",
+        "sourcePage": "https://krak.app/card",
+        "version": "官方 Krak Mastercard 卡面（Kraken 官方产品图）",
+        "mode": "contain"
       },
       "group": "交易所卡",
       "url": "https://ucard.observer/cards/krak-card-us/",
@@ -15940,9 +17827,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://laso.finance/"
+        "status": "official",
+        "path": "/card-art/laso-cards.webp",
+        "file": "laso-cards.webp",
+        "imageUrl": "https://laso.finance/assets/card-with-x-numbers-Bh6Geu6Z.png",
+        "sourcePage": "https://laso.finance/",
+        "version": "官方 Virtual Card 卡面",
+        "mode": "contain"
       },
       "group": "独立钱包与支付卡",
       "url": "https://ucard.observer/cards/laso-cards/",
@@ -16088,9 +17979,13 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://altitude.xyz/card"
+        "status": "official",
+        "path": "/card-art/altitude-card.webp",
+        "file": "altitude-card.webp",
+        "imageUrl": "https://altitude.xyz/card/carousel/row1-01.webp",
+        "sourcePage": "https://altitude.xyz/card",
+        "version": "官方 VISA Signature Corporate 卡面",
+        "mode": "contain"
       },
       "group": "独立钱包与支付卡",
       "url": "https://ucard.observer/cards/altitude-card/",

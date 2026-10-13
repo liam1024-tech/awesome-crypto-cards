@@ -1,29 +1,29 @@
 {
-  "id": "push-2026-10-08-muz9k0gz",
+  "id": "push-2026-10-12-mv5ib5el",
   "targetLang": "all",
-  "title": "🔔 [新卡收录] THORWallet Card 官方上线",
-  "body": "非托管 Mastercard 借记卡，私钥自掌管，配瑞士多币种 IBAN 账户，支持全球 175+ 国即刷即充。",
-  "url": "/",
-  "icon": "/card-art/thorwallet-card.webp",
+  "title": "🔔 [深度复盘] BitMart 恶意跑路：提现冻结、资产去向成谜",
+  "body": "拆解 BitMart 停运全过程：提现被实质冻结、员工接管官方账号维权、创始人回避资金去向。附官方一手时间线与用户处置清单。",
+  "url": "/articles/bitmart-collapse-forensic-review/",
+  "icon": "/organization-logo.png",
   "locales": {
     "zh": {
-      "title": "🔔 [新卡收录] THORWallet Card 官方上线",
-      "body": "非托管 Mastercard 借记卡，私钥自掌管，配瑞士多币种 IBAN 账户，支持全球 175+ 国即刷即充。",
-      "url": "/",
-      "icon": "/card-art/thorwallet-card.webp"
+      "title": "🔔 [深度复盘] BitMart 恶意跑路：提现冻结、资产去向成谜",
+      "body": "拆解 BitMart 停运全过程：提现被实质冻结、员工接管官方账号维权、创始人回避资金去向。附官方一手时间线与用户处置清单。",
+      "url": "/articles/bitmart-collapse-forensic-review/",
+      "icon": "/organization-logo.png"
     },
     "zh-TW": {
-      "title": "🔔 [新卡收錄] THORWallet Card 官方上線",
-      "body": "非託管 Mastercard 簽帳金融卡，私鑰自掌管，配瑞士多幣種 IBAN 帳戶，支援全球 175+ 國即刷即充。",
-      "url": "/zh-TW/",
-      "icon": "/card-art/thorwallet-card.webp"
+      "title": "🔔 [深度復盤] BitMart 惡意跑路：提領凍結、資產去向成謎",
+      "body": "拆解 BitMart 停運全過程：提領被實質凍結、員工接管官方賬號維權、創始人迴避資金去向。附官方一手時間線與使用者處置清單。",
+      "url": "/zh-TW/articles/bitmart-collapse-forensic-review/",
+      "icon": "/organization-logo.png"
     },
     "en": {
-      "title": "🔔 [New Card] THORWallet Card Released",
-      "body": "Non-custodial Mastercard debit card with Swiss multi-currency IBAN, supporting 175+ countries.",
-      "url": "/en/",
-      "icon": "/card-art/thorwallet-card.webp"
+      "title": "🔔 [Deep Dive] BitMart's Malicious Exit: Withdrawals Frozen, Funds Missing",
+      "body": "How BitMart's wind-down froze withdrawals, triggered a staff revolt, and left fund flows unanswered — with a sourced timeline and a holder checklist.",
+      "url": "/en/articles/bitmart-collapse-forensic-review/",
+      "icon": "/organization-logo.png"
     }
   },
-  "publishedAt": "2026-10-08T08:17:26.627Z"
+  "publishedAt": "2026-10-12T17:09:06.717Z"
 }
