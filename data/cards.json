@@ -18913,12 +18913,20 @@
         {
           "title": "Cardless 官方合作新闻发布与条款（2026-10-14 核对）",
           "url": "https://cardless.com"
+        },
+        {
+          "title": "Coinbase One Card 官方卡面素材核查",
+          "url": "https://www.cardless.com/customers/coinbase"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://coinbase.com"
+        "status": "official",
+        "path": "/card-art/coinbase-one-card.webp",
+        "file": "coinbase-one-card.webp",
+        "imageUrl": "https://framerusercontent.com/images/VWYMwX3HKtmJv0WjQiv4x2uDg.png",
+        "sourcePage": "https://www.cardless.com/customers/coinbase",
+        "version": "Coinbase One American Express 官方卡面（Cardless 官方产品图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/coinbase-one-card/",
       "statusLabel": "地区受限 · 资格需核实"

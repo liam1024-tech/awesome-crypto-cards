@@ -141,7 +141,7 @@
 "belo-lux-card","belo LUX Virtual Visa Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-14","https://ucard.observer/cards/belo-lux-card/"
 "lemon-credit-card","Lemon Bitcoin-Backed Credit Card","required","需要 KYC","regional","地区受限 · 资格需核实","2","2026-10-14","https://ucard.observer/cards/lemon-credit-card/"
 "world-card","World Card","required","需要 KYC","beta","公开测试 · 地区受限","2","2026-10-14","https://ucard.observer/cards/world-card/"
-"coinbase-one-card","Coinbase One Card","required","需要 KYC","regional","地区受限 · 资格需核实","2","2026-10-14","https://ucard.observer/cards/coinbase-one-card/"
+"coinbase-one-card","Coinbase One Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-14","https://ucard.observer/cards/coinbase-one-card/"
 "brighty-card","Brighty App Card","required","需要 KYC","regional","地区受限 · 资格需核实","2","2026-10-14","https://ucard.observer/cards/brighty-card/"
 "zeal-card","Zeal Visa Debit Card","required","需要 KYC","regional","地区受限 · 资格需核实","2","2026-10-14","https://ucard.observer/cards/zeal-card/"
 "walt-card","Walt Crypto Card","required","需要 KYC","beta","公开测试 · 地区受限","2","2026-10-14","https://ucard.observer/cards/walt-card/"
