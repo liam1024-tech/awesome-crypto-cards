@@ -490,6 +490,10 @@
       "verified": "2026-10-07",
       "id": "plasma-one",
       "name": "Plasma One",
+      "pageTitle": "Plasma One（Plasma U卡）：发卡地区、实体卡申请条件、苹果返现与邀请码",
+      "pageTitleEn": "Plasma One: Regions, Apple Cashback & Invite Code",
+      "metaDescription": "Plasma One（Plasma U卡）全面评测：解答是否欧洲卡、发卡地区与支持国家、实体卡申请条件、Apple 消费返现与邀请码 4XPNLR 详细规则。核验日期 2026-09-29。",
+      "metaDescriptionEn": "Comprehensive review of Plasma One (Plasma UCard): European or offshore card origin, supported countries, physical card requirements, Apple Pay cashback, and invite code 4XPNLR rules.",
       "inviteLink": {
         "captured": "2026-09-24",
         "url": "https://www.plasma.org/download/4XPNLR",
@@ -671,6 +675,26 @@
         ]
       ],
       "faq": [
+        [
+          "Plasma One 是不是欧洲卡？是哪个地区的卡？",
+          "Plasma One 不是单纯的欧洲卡。它由注册于美国的 Third National（以及 Rain 等合规金融科技伙伴）按 Visa 许可发卡，全球账户底层接入 Bridge（Stripe 旗下机构）。其发卡属地为美国/全球离岸合规架构，开出的是美元（USD）Visa 卡，而非仅限于欧洲经济区（EEA）本地发行的欧元卡。"
+        ],
+        [
+          "Plasma One 支持哪些国家和地区申请？",
+          "Plasma One 支持全球多个国家和地区的合法居民申请（包括北美、欧洲、拉美与部分亚太地区）。但受合规与发卡监管限制，中国大陆身份证件属于直接受限名单；若持有支持地区的长期居留身份（如欧洲、美加、港澳等）及合规地址证明（Proof of Address），可通过官方审核开通。"
+        ],
+        [
+          "Plasma One 实体卡申请条件与门槛是什么？",
+          "申请 Plasma One 实体卡须先通过高级实名认证（KYC，包含有效护照、3D 活体人脸识别及境外地址证明 POA）。此外，实体卡通常要求账户达到特定等级（如 Core 或 Platinum 会员）或在自托管钱包内满足最低质押/持仓门槛，且需支付相应的实体卡工本与跨国快递邮寄费用，具体以 Plasma App 内实时申请提示为准。"
+        ],
+        [
+          "Plasma One 苹果返现（Apple Pay 与 Apple 消费返现）规则是怎样的？",
+          "Plasma One 全面支持绑定 Apple Pay 进行手机触碰支付（NFC）。在返现规则方面，持有 Plasma One 绑定 Apple Pay 进行日常消费可享基础消费返现（Lite 档首 $500 享 2%，Core 档按阶梯最高 3%，Platinum 档最高 4%）；若在特定 Apple 官方渠道或合作科技消费场景，还可叠加或享受指定比例的 XPL 奖励，每周定期结算入账。"
+        ],
+        [
+          "Plasma One 邀请码是多少？怎么使用？",
+          "Plasma One 官方推荐邀请码为 4XPNLR。用户在下载 Plasma App（或通过官方下载链接 https://www.plasma.org/download/4XPNLR）注册开户时填入邀请码 4XPNLR，即可激活受邀专属返现权益与优先发卡资格（根据官方邀请人方案，享有最高 1% 的额外消费返现奖励与专属特权）。"
+        ],
         [
           "Plasma One 现在必须有邀请码才能申请吗？",
           "官网目前提供直接下载与申请入口；本站的 4XPNLR 是推荐代码，不代表申请资格或获批保证。身份、居住地和证件限制仍需核对。"
@@ -3403,6 +3427,10 @@
       "verified": "2026-10-11",
       "id": "okx-card",
       "name": "OKX Card",
+      "pageTitle": "OKX Card（OKX U卡）：申请条件、即时返现与支持地区",
+      "pageTitleEn": "OKX Card: Eligibility, Instant Cashback & Regions",
+      "metaDescription": "OKX Card（OKX U卡）申请与评测：解答 OKX 有 U卡吗、申请条件与 KYC 门槛、即时返现最高 10% 规则、支持国家地区与消费币种。核验日期 2026-09-21。",
+      "metaDescriptionEn": "OKX Card (OKX UCard) application and review: does OKX have a crypto card, Level 2 KYC requirements, instant cashback tiers up to 10%, supported jurisdictions, and eligible stablecoins.",
       "aliases": "okx pay USDC USDG USDT mastercard 欧易卡",
       "mark": "O",
       "group": "交易所卡",
@@ -3501,6 +3529,22 @@
         ]
       ],
       "faq": [
+        [
+          "OKX 有 U卡吗？",
+          "有。OKX 于 2026 年初正式推出了官方加密支付卡——OKX Card，连接 OKX Pay 智能自托管/半托管钱包。用户可以直接使用账户内的 USDC、USDG 或 USDT 稳定币余额在全网 Visa / Mastercard 线上商户及线下 POS 机消费刷卡。"
+        ],
+        [
+          "OKX Card 申请条件与 KYC 门槛是什么？",
+          "申请 OKX Card 必须持有已通过高级身份认证（Level 2 KYC，需上传有效护照或身份证件及完成 3D 活体人脸核验）的 OKX 账户，并且账户所有者的居住地必须处于 OKX Card 官方开放支持的国家与司法辖区（需通过官方地址证明 POA 校验）。"
+        ],
+        [
+          "OKX Card 即时返现规则与比例是怎样的？",
+          "OKX Card 推出持续即时返现计划：持卡人使用合规稳定币（如 USDG）在合资格商户消费时，普通用户可享 2% 即时返现；VIP 1 为 4%、VIP 2 为 4.5%、VIP 3 为 5%、VIP 4 及以上最高可享 10% 即时返现。返现以稳定币形式即时结算至 OKX Pay 账户，各 VIP 等级设有每月返现上限。"
+        ],
+        [
+          "OKX Card 目前支持哪些国家地区和消费币种？",
+          "目前 OKX Card 实行分地区发卡架构：欧洲 EEA 版本（面向欧盟成员国与挪威居民，由 Mastercard 合作发行）支持 USDC 与 USDG，消费时自动按 0.1% 市场点差兑换为欧元（EUR）结算；澳大利亚版本（面向年满 18 岁的合规澳洲居民）额外支持 USDT 等多币种；其他国家和地区正按合规进度逐步开放。"
+        ],
         [
           "OKX Card 需要 KYC 吗？",
           "需要。账户必须完成 OKX 要求的身份验证和其他合规检查。"
