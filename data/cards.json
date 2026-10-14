@@ -10477,9 +10477,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://hyperbeat.org/"
+        "status": "official",
+        "path": "/card-art/hyperbeat-pay.webp",
+        "file": "hyperbeat-pay.webp",
+        "sourceFile": "hyperbeat-pay.png",
+        "imageUrl": "",
+        "sourcePage": "https://apps.apple.com/us/app/hyperbeat-pay/id6761489730",
+        "version": "Hyperbeat Visa Platinum 官方卡面（官方 App Store 界面裁切）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/hyperbeat-pay/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -16519,9 +16524,14 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.kgibank.com.tw/webpages/crypto-currency-credit-card/index.html"
+        "status": "official",
+        "path": "/card-art/kgi-crypto-rewards-card.webp",
+        "file": "kgi-crypto-rewards-card.webp",
+        "sourceFile": "kgi-crypto-rewards-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://www.kgibank.com.tw/webpages/crypto-currency-credit-card/index.html",
+        "version": "凱基銀行幣享卡 Mastercard 官方立式卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/kgi-crypto-rewards-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -16774,9 +16784,14 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://bix.fi/"
+        "status": "official",
+        "path": "/card-art/bix-card.webp",
+        "file": "bix-card.webp",
+        "sourceFile": "bix-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://bix.fi/",
+        "version": "Bix Card 官方独立卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bix-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -16830,6 +16845,10 @@
         {
           "title": "UCardRadar：ARQ Card 条目（第三方，2026-10-13 核对）",
           "url": "https://ucardradar.com/cards/arq-card"
+        },
+        {
+          "title": "ARQ Card 官方卡面素材核查",
+          "url": "https://apps.apple.com/us/app/arq-formerly-dolarapp/id1567954123"
         }
       ],
       "facts": [
@@ -16889,9 +16908,14 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.arqfinance.com/en-MX/help/articles/meet-our-new-brand-dolarapp-is-now-arq"
+        "status": "official",
+        "path": "/card-art/arq-card.webp",
+        "file": "arq-card.webp",
+        "sourceFile": "arq-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://apps.apple.com/us/app/arq-formerly-dolarapp/id1567954123",
+        "version": "ARQ Virtual Mastercard 官方卡面（官方 App Store 界面裁切）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/arq-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -17802,9 +17826,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://bewildcard.com/"
+        "status": "official",
+        "path": "/card-art/wildcard-yeka.webp",
+        "file": "wildcard-yeka.webp",
+        "sourceFile": "wildcard-yeka.png",
+        "imageUrl": "",
+        "sourcePage": "https://bewildcard.com/",
+        "version": "WildCard（野卡）官方虚拟卡面（官方应用静态资源）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/wildcard-yeka/",
       "statusLabel": "版本待核"

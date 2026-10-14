@@ -124,7 +124,7 @@
 "kgi-crypto-rewards-card","凱基銀行 幣享卡","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-13","https://ucard.observer/cards/kgi-crypto-rewards-card/"
 "startale-card","Startale Card","required","需要 KYC","beta","公开测试 · 地区受限","3","2026-10-13","https://ucard.observer/cards/startale-card/"
 "bix-card","Bix Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-13","https://ucard.observer/cards/bix-card/"
-"arq-card","ARQ Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-13","https://ucard.observer/cards/arq-card/"
+"arq-card","ARQ Card","required","需要 KYC","regional","地区受限 · 资格需核实","4","2026-10-13","https://ucard.observer/cards/arq-card/"
 "orbi-sofi-mastercard","Orbi × SoFi Tech Solutions Mastercard","required","需要 KYC","review","版本待核","3","2026-10-13","https://ucard.observer/cards/orbi-sofi-mastercard/"
 "peanut-card","Peanut Card","required","需要 KYC","beta","公开测试 · 地区受限","3","2026-10-13","https://ucard.observer/cards/peanut-card/"
 "x-money-card","X Money Card","required","需要 KYC","regional","地区受限 · 资格需核实","3","2026-10-13","https://ucard.observer/cards/x-money-card/"

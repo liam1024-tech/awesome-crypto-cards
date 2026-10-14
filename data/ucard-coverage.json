@@ -11,7 +11,7 @@
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 11,
-    "officialSources": 569
+    "officialSources": 570
   },
   "rows": [
     {
@@ -1396,7 +1396,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/arq-card/"
     },
