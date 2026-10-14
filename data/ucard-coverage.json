@@ -11,7 +11,7 @@
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 11,
-    "officialSources": 564
+    "officialSources": 568
   },
   "rows": [
     {
@@ -1121,7 +1121,7 @@
       "kycLabel": "停服 / 不适用",
       "status": "closed",
       "statusLabel": "已停服 · 历史档案",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-04",
       "profileUrl": "https://ucard.observer/cards/nebeus-card/"
     },
@@ -1528,7 +1528,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/based-card/"
     },
@@ -1539,7 +1539,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/deblock-card/"
     },
@@ -1550,7 +1550,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/belo-lux-card/"
     },

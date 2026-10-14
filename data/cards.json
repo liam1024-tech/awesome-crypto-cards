@@ -11779,7 +11779,8 @@
         "status": "official",
         "path": "/card-art/fizen-card.webp",
         "file": "fizen-card.webp",
-        "imageUrl": "https://fizen.io/images_webp/card/card_1.webp",
+        "sourceFile": "fizen-card.png",
+        "imageUrl": "",
         "sourcePage": "https://fizen.io/card",
         "version": "Fizen 虚拟卡官方卡面",
         "mode": "contain"
@@ -13391,12 +13392,26 @@
         {
           "title": "CEX.IO 官方卡片更新（同一合作方 Quicko）",
           "url": "https://support.cex.io/en/articles/13460417-important-cex-io-card-update"
+        },
+        {
+          "title": "Nebeus Card 官方卡面素材核查",
+          "url": "https://nebeus.com/nebeus-card"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://nebeus.ar/en/nebeus-card"
+        "status": "official",
+        "path": "/card-art/nebeus-card.webp",
+        "file": "nebeus-card.webp",
+        "imageUrl": "https://nebeus.com/_next/static/media/step1.5615448e.png",
+        "sourcePage": "https://nebeus.com/nebeus-card",
+        "version": "Nebeus Mastercard EUR 实体卡官方卡面（官网宣传图裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 125,
+          "top": 395,
+          "width": 830,
+          "height": 524
+        }
       },
       "url": "https://ucard.observer/cards/nebeus-card/",
       "statusLabel": "已停服 · 历史档案"
@@ -17962,9 +17977,19 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://phemex.com/cards"
+        "status": "official",
+        "path": "/card-art/phemex-card.webp",
+        "file": "phemex-card.webp",
+        "imageUrl": "https://img.phemex.com/v1/7bd2e225-4bd9-46e4-801e-70492ae5ef81/1280-x1280.PNG",
+        "sourcePage": "https://phemex.com/cards",
+        "version": "Phemex Mastercard 官方虚拟卡面（官方帮助中心产品图裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 800,
+          "top": 129,
+          "width": 417,
+          "height": 261
+        }
       },
       "url": "https://ucard.observer/cards/phemex-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -18428,12 +18453,20 @@
         {
           "title": "BasedApp 开发者文档与发卡条款（2026-10-14 核对）",
           "url": "https://docs.basedapp.io"
+        },
+        {
+          "title": "Based Card 官方卡面素材核查",
+          "url": "https://based.one/cash"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://based.one"
+        "status": "official",
+        "path": "/card-art/based-card.webp",
+        "file": "based-card.webp",
+        "imageUrl": "https://based.one/cash/teal-card.svg",
+        "sourcePage": "https://based.one/cash",
+        "version": "Based Visa Teal 官方矢量卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/based-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -18515,12 +18548,20 @@
         {
           "title": "法国审慎监管局 ACPR 与金融市场管理局 AMF 注册公示（2026-10-14 核对）",
           "url": "https://acpr.banque-france.fr"
+        },
+        {
+          "title": "Deblock Visa Card 官方卡面素材核查",
+          "url": "https://deblock.com/en/cards"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://deblock.com"
+        "status": "official",
+        "path": "/card-art/deblock-card.webp",
+        "file": "deblock-card.webp",
+        "imageUrl": "https://deblock.com/_next/static/media/card-free.ec2c115a.webp",
+        "sourcePage": "https://deblock.com/en/cards",
+        "version": "Deblock Visa 官方标准卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/deblock-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -18602,12 +18643,21 @@
         {
           "title": "Pomelo 支付技术合作公告（2026-10-14 核对）",
           "url": "https://pomelo.la"
+        },
+        {
+          "title": "belo LUX Virtual Visa Card 官方卡面素材核查",
+          "url": "https://belo.app/lux"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://belo.app"
+        "status": "official",
+        "path": "/card-art/belo-lux-card.webp",
+        "file": "belo-lux-card.webp",
+        "sourceFile": "belo-lux-card.png",
+        "imageUrl": "",
+        "sourcePage": "https://belo.app/lux",
+        "version": "belo LUX Visa 官方虚拟卡面（官方 App Store 截屏提取）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/belo-lux-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -18953,9 +19003,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://brighty.app"
+        "status": "official",
+        "path": "/card-art/brighty-card.webp",
+        "file": "brighty-card.webp",
+        "imageUrl": "https://brighty.app/assets/hand-with-card.441pWm1-_ZURliO.png",
+        "sourcePage": "https://brighty.app",
+        "version": "Brighty Visa 官方卡片产品图",
+        "mode": "cover"
       },
       "url": "https://ucard.observer/cards/brighty-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -19040,9 +19094,19 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://zeal.app"
+        "status": "official",
+        "path": "/card-art/zeal-card.webp",
+        "file": "zeal-card.webp",
+        "imageUrl": "https://www.zeal.app/images/686fccbf2f715ff18b8841f2_FreezeCard%201.5.png",
+        "sourcePage": "https://zeal.app",
+        "version": "Zeal Visa Debit 官方卡面",
+        "mode": "contain",
+        "crop": {
+          "left": 344,
+          "top": 512,
+          "width": 688,
+          "height": 488
+        }
       },
       "url": "https://ucard.observer/cards/zeal-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -19537,7 +19601,8 @@
         "status": "official",
         "path": "/card-art/fasset-card.webp",
         "file": "fasset-card.webp",
-        "imageUrl": "https://fasset.com/images/lp-s7-card.avif",
+        "sourceFile": "fasset-card.png",
+        "imageUrl": "",
         "sourcePage": "https://fasset.com/fasset-card/",
         "version": "官方 Visa 卡面（官网产品图）",
         "mode": "contain"
