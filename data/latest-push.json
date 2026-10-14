@@ -1,29 +1,29 @@
 {
-  "id": "push-2026-10-12-mv5ib5el",
+  "id": "push-2026-10-13-mv66bd32",
   "targetLang": "all",
-  "title": "🔔 [深度复盘] BitMart 恶意跑路：提现冻结、资产去向成谜",
-  "body": "拆解 BitMart 停运全过程：提现被实质冻结、员工接管官方账号维权、创始人回避资金去向。附官方一手时间线与用户处置清单。",
-  "url": "/articles/bitmart-collapse-forensic-review/",
-  "icon": "/organization-logo.png",
+  "title": "🔔 [新卡收录] 新增 10 款，数据库扩至 135 款",
+  "body": "X 公司的 X Money 借记卡、索尼参投的 Startale 自托管卡、两张台湾银行加密卡，以及更名后的 ARQ（前 DolarApp）。",
+  "url": "/cards/",
+  "icon": "/social/brand-card.png",
   "locales": {
     "zh": {
-      "title": "🔔 [深度复盘] BitMart 恶意跑路：提现冻结、资产去向成谜",
-      "body": "拆解 BitMart 停运全过程：提现被实质冻结、员工接管官方账号维权、创始人回避资金去向。附官方一手时间线与用户处置清单。",
-      "url": "/articles/bitmart-collapse-forensic-review/",
-      "icon": "/organization-logo.png"
+      "title": "🔔 [新卡收录] 新增 10 款，数据库扩至 135 款",
+      "body": "X 公司的 X Money 借记卡、索尼参投的 Startale 自托管卡、两张台湾银行加密卡，以及更名后的 ARQ（前 DolarApp）。",
+      "url": "/cards/",
+      "icon": "/social/brand-card.png"
     },
     "zh-TW": {
-      "title": "🔔 [深度復盤] BitMart 惡意跑路：提領凍結、資產去向成謎",
-      "body": "拆解 BitMart 停運全過程：提領被實質凍結、員工接管官方賬號維權、創始人迴避資金去向。附官方一手時間線與使用者處置清單。",
-      "url": "/zh-TW/articles/bitmart-collapse-forensic-review/",
-      "icon": "/organization-logo.png"
+      "title": "🔔 [新卡收錄] 新增 10 款，資料庫擴至 135 款",
+      "body": "X 公司的 X Money 簽帳金融卡、索尼參投的 Startale 自託管卡、兩張臺灣銀行加密卡，以及更名後的 ARQ（前 DolarApp）。",
+      "url": "/zh-TW/cards/",
+      "icon": "/social/brand-card.png"
     },
     "en": {
-      "title": "🔔 [Deep Dive] BitMart's Malicious Exit: Withdrawals Frozen, Funds Missing",
-      "body": "How BitMart's wind-down froze withdrawals, triggered a staff revolt, and left fund flows unanswered — with a sourced timeline and a holder checklist.",
-      "url": "/en/articles/bitmart-collapse-forensic-review/",
-      "icon": "/organization-logo.png"
+      "title": "🔔 [New Cards] Ten Added — Directory Now 135",
+      "body": "X Corp.'s X Money debit card, a self-custodial card from Sony-backed Startale, two crypto-rewards cards from Taiwanese banks, and ARQ (formerly DolarApp).",
+      "url": "/en/cards/",
+      "icon": "/social/brand-card.png"
     }
   },
-  "publishedAt": "2026-10-12T17:09:06.717Z"
+  "publishedAt": "2026-10-13T04:21:07.454Z"
 }

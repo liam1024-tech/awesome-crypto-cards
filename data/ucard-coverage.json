@@ -1,17 +1,17 @@
 {
   "title": "U卡观察资料库覆盖快照",
-  "snapshotDate": "2026-10-03",
+  "snapshotDate": "2026-10-14",
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 135,
-    "current": 125,
-    "kycRequired": 111,
+    "total": 153,
+    "current": 142,
+    "kycRequired": 128,
     "kycConditional": 5,
     "kycUnknown": 9,
     "noKycVerified": 0,
-    "closed": 10,
-    "officialSources": 510
+    "closed": 11,
+    "officialSources": 564
   },
   "rows": [
     {
@@ -120,8 +120,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
-      "verified": "2026-09-27",
+      "sourceCount": 3,
+      "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/kast/"
     },
     {
@@ -153,7 +153,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 5,
+      "sourceCount": 8,
       "verified": "2026-09-27",
       "profileUrl": "https://ucard.observer/cards/wirex/"
     },
@@ -186,7 +186,7 @@
       "kycLabel": "停服 / 不适用",
       "status": "closed",
       "statusLabel": "已停服 · 历史档案",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-09-27",
       "profileUrl": "https://ucard.observer/cards/cypher/"
     },
@@ -197,7 +197,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-09-27",
       "profileUrl": "https://ucard.observer/cards/send-card/"
     },
@@ -264,7 +264,7 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 4,
-      "verified": "2026-10-11",
+      "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/card-fi/"
     },
     {
@@ -681,8 +681,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
-      "verified": "2026-09-27",
+      "sourceCount": 4,
+      "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/safepal-fiat24-card/"
     },
     {
@@ -990,7 +990,7 @@
       "status": "closed",
       "statusLabel": "已停服 · 历史档案",
       "sourceCount": 2,
-      "verified": "2026-09-29",
+      "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/dupay-card-archive/"
     },
     {
@@ -1176,8 +1176,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
-      "verified": "2026-10-02",
+      "sourceCount": 5,
+      "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/bitrefill-card/"
     },
     {
@@ -1441,7 +1441,7 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 3,
-      "verified": "2026-10-13",
+      "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/waldenpay-virtual-card/"
     },
     {
@@ -1454,6 +1454,204 @@
       "sourceCount": 3,
       "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/ustarpay-virtual-card/"
+    },
+    {
+      "id": "onekey-card-archive",
+      "name": "OneKey Card（历史档案）",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/onekey-card-archive/"
+    },
+    {
+      "id": "wildcard-yeka",
+      "name": "WildCard（野卡）",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 3,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/wildcard-yeka/"
+    },
+    {
+      "id": "phemex-card",
+      "name": "Phemex Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 6,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/phemex-card/"
+    },
+    {
+      "id": "shacom-hashkey-card",
+      "name": "上海商业银行 × HashKey 联名信用卡",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 7,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/shacom-hashkey-card/"
+    },
+    {
+      "id": "backpack-card",
+      "name": "Backpack Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/backpack-card/"
+    },
+    {
+      "id": "sanctum-cloud-card",
+      "name": "Sanctum Cloud Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/sanctum-cloud-card/"
+    },
+    {
+      "id": "based-card",
+      "name": "Based Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/based-card/"
+    },
+    {
+      "id": "deblock-card",
+      "name": "Deblock Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/deblock-card/"
+    },
+    {
+      "id": "belo-lux-card",
+      "name": "belo LUX Virtual Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/belo-lux-card/"
+    },
+    {
+      "id": "lemon-credit-card",
+      "name": "Lemon Bitcoin-Backed Credit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/lemon-credit-card/"
+    },
+    {
+      "id": "world-card",
+      "name": "World Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/world-card/"
+    },
+    {
+      "id": "coinbase-one-card",
+      "name": "Coinbase One Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/coinbase-one-card/"
+    },
+    {
+      "id": "brighty-card",
+      "name": "Brighty App Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/brighty-card/"
+    },
+    {
+      "id": "zeal-card",
+      "name": "Zeal Visa Debit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/zeal-card/"
+    },
+    {
+      "id": "walt-card",
+      "name": "Walt Crypto Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/walt-card/"
+    },
+    {
+      "id": "bakkt-thredd-card",
+      "name": "Bakkt & Thredd Stablecoin Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/bakkt-thredd-card/"
+    },
+    {
+      "id": "mpcvault-card",
+      "name": "MPCVault Corporate Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/mpcvault-card/"
+    },
+    {
+      "id": "breet-card",
+      "name": "Breet Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-14",
+      "profileUrl": "https://ucard.observer/cards/breet-card/"
     },
     {
       "id": "fasset-card",

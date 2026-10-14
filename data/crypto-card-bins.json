@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-11",
+  "verified": "2026-10-13",
   "scope": "已审计U卡 BIN 码与赞助行透视数据",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "bins": [
@@ -180,9 +180,9 @@
       "type": "Prepaid",
       "typeLabel": "经典预付卡 (Visa Prepaid)",
       "level": "Classic",
-      "sponsorBank": "Transact Payments Malta Limited",
-      "country": "MT",
-      "countryName": "马耳他 (欧盟)",
+      "sponsorBank": "Wallester AS",
+      "country": "EE",
+      "countryName": "爱沙尼亚 (欧盟)",
       "currency": "EUR",
       "threeDS": "支持 (Bitrefill App 验证)",
       "stripeRating": 4,
@@ -300,7 +300,7 @@
       "type": "Debit",
       "typeLabel": "自托管智能合约借记卡 (Self-Custodial Safe)",
       "level": "Classic",
-      "sponsorBank": "Monerium / SaltPay / Transact",
+      "sponsorBank": "Monavate",
       "country": "EEA",
       "countryName": "欧洲经济区",
       "currency": "EUR",
@@ -310,10 +310,10 @@
       "stripeNote": "自托管 Safe 智能合约钱包直扣，链上 EURe 欧元代币清算。",
       "walletMainland": "条件支持",
       "walletMainlandNote": "仅建议欧洲本地或跨境纯欧元消费场景使用。",
-      "status": "active",
-      "statusLabel": "🟢 正常活跃",
-      "riskLevel": "低风险 (Low)",
-      "notes": "首张与以太坊链上自托管 Safe 合约直连的真实 Visa 借记卡。"
+      "status": "winddown",
+      "statusLabel": "🟠 清算清退",
+      "riskLevel": "清退中 (Sunsetting)",
+      "notes": "首张与以太坊链上自托管 Safe 合约直连的真实 Visa 借记卡。官方已公告消费者卡与网页应用于 2026-12-20 23:59 UTC 停止服务，新注册早已关闭；发卡方 Monavate。"
     },
     {
       "bin": "559666",
@@ -403,13 +403,13 @@
       "threeDS": "已不可用",
       "stripeRating": 1,
       "stripeScore": "全面拒付 (Blocked)",
-      "stripeNote": "智能合约资金失窃后平台倒闭，BIN 码已被卡组织彻底注销。",
+      "stripeNote": "被 Nium 收购后按公告清退，卡片已注销、BIN 码不再可用。",
       "walletMainland": "不可用",
       "walletMainlandNote": "已全线停服。",
       "status": "closed",
-      "statusLabel": "⛔ 已停服暴雷 (Discontinued)",
-      "riskLevel": "已暴雷/死卡 (Graveyard)",
-      "notes": "智能合约漏洞引发挤兑风暴，白标机构紧急拔线，已收录《停服公墓》。"
+      "statusLabel": "⛔ 已停服 (Discontinued)",
+      "riskLevel": "已停服/死卡 (Discontinued)",
+      "notes": "2026-08-08 卡片关闭、2026-09-06 平台关停；官方公告为收购后清退，未提及安全事件。已收录《停服公墓》。"
     },
     {
       "bin": "553437",
