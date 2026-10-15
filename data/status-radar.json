@@ -3268,7 +3268,7 @@
     },
     {
       "id": "ubot-maicoin-card",
-      "name": "聯邦銀行 MaiCoin 聯名卡",
+      "name": "联邦银行 MaiCoin 联名卡",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（Signature 等级）",
@@ -3286,7 +3286,7 @@
     },
     {
       "id": "kgi-crypto-rewards-card",
-      "name": "凱基銀行 幣享卡",
+      "name": "凯基银行 币享卡",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard",

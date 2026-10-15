@@ -928,7 +928,7 @@
         ],
         [
           "注册、KYC 认证与绑定手机钱包全流程指南",
-          "申请 RedotPay 卡的标准办理路径分为以下环节：第一步，注册账号（Sign up）：访问 RedotPay 官网或下载官方 App（iOS 支持外区 App Store，安卓支持 Google Play 或官网下载官方 APK），使用常用邮箱或手机号注册；第二步，完成 KYC 身份认证：准备合规有效证件（支持中国台湾身分證/台灣護照、香港身份證及众多海外合规国家护照），在 App 内拍摄证件正反面并完成 3D 人脸活体扫描，通常 5–15 分钟内自动完成初审；第三步，充值资产：在资产页面选择充值 USDT 或 USDC（支持 TRC20、ERC20、BSC、Arbitrum、Polygon 等多链通道），几分钟内到账；第四步，申请卡片：在卡片列表选择「申请虚拟卡」（支付 $10 开卡费），系统即时分配 16 位 Visa 卡号、到期时间与 CVV；若需要实体卡（$100）需填写海外真实收件地址与联系方式等待平邮/快递；第五步，绑定 Apple Pay / Google Pay：在 App 内卡片页面点击「添加到 Apple 钱包 / Google 钱包」，秒级完成 Tokenization 激活，即可在线上线下畅通无阻消费。",
+          "申请 RedotPay 卡的标准办理路径分为以下环节：第一步，注册账号（Sign up）：访问 RedotPay 官网或下载官方 App（iOS 支持外区 App Store，安卓支持 Google Play 或官网下载官方 APK），使用常用邮箱或手机号注册；第二步，完成 KYC 身份认证：准备合规有效证件（支持中国台湾身份证/台湾护照、香港身份证及众多海外合规国家护照），在 App 内拍摄证件正反面并完成 3D 人脸活体扫描，通常 5–15 分钟内自动完成初审；第三步，充值资产：在资产页面选择充值 USDT 或 USDC（支持 TRC20、ERC20、BSC、Arbitrum、Polygon 等多链通道），几分钟内到账；第四步，申请卡片：在卡片列表选择「申请虚拟卡」（支付 $10 开卡费），系统即时分配 16 位 Visa 卡号、到期时间与 CVV；若需要实体卡（$100）需填写海外真实收件地址与联系方式等待平邮/快递；第五步，绑定 Apple Pay / Google Pay：在 App 内卡片页面点击「添加到 Apple 钱包 / Google 钱包」，秒级完成 Tokenization 激活，即可在线上线下畅通无阻消费。",
           [
             4,
             5,
@@ -16431,9 +16431,9 @@
       "modified": "2026-10-13",
       "verified": "2026-10-13",
       "id": "ubot-maicoin-card",
-      "name": "聯邦銀行 MaiCoin 聯名卡",
-      "aliases": "聯邦 MaiCoin 聯名卡 Union Bank MaiCoin 聯名卡 U-coin 加密回饋 台灣 信用卡 MAX 幣託",
-      "mark": "聯",
+      "name": "联邦银行 MaiCoin 联名卡",
+      "aliases": "聯邦 MaiCoin 聯名卡 联邦 MaiCoin 联名卡 Union Bank MaiCoin 聯名卡 U-coin 加密回饋 加密回馈 台灣 台湾 信用卡 MAX 幣託 币托",
+      "mark": "联",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -16445,7 +16445,7 @@
       "fee": "正卡年费 NT$2,000、附卡 NT$1,000；首年免年费，之后申办电子账单或年消费达 NT$60,000 即可免次年年费。海外交易按国际组织规定可能另收手续费，具体以银行公告为准。",
       "rewards": "基础回馈 0.5% U 币，按指定条件分级最高 4.5%；U 币可在 MaiCoin / MAX 生态兑换比特币、以太币、USDT、USDC 或 MAX 代币，最低兑换门槛 100 U 币。加码档位与适用商户由银行当期活动公告决定，会更新。",
       "paymentCompatibility": {
-        "sourceName": "聯邦銀行 MaiCoin 聯名卡",
+        "sourceName": "联邦银行 MaiCoin 联名卡",
         "network": "Visa",
         "issuer": "聯邦銀行 Union Bank of Taiwan（官方活动页署名）",
         "region": "台湾，需通过银行信用卡征审",
@@ -16527,7 +16527,7 @@
       ],
       "faq": [
         [
-          "聯邦銀行 MaiCoin 聯名卡是加密卡吗？",
+          "联邦银行 MaiCoin 联名卡是加密卡吗？",
           "它是联邦银行发行的 Visa 信用卡，回馈以 U 币发放并可在 MaiCoin / MAX 生态兑换加密资产；卡片本身不是稳定币充值消费卡。"
         ],
         [
@@ -16565,9 +16565,9 @@
       "modified": "2026-10-13",
       "verified": "2026-10-13",
       "id": "kgi-crypto-rewards-card",
-      "name": "凱基銀行 幣享卡",
-      "aliases": "凱基 幣享卡 KGI 幣享卡 KGI Bank crypto rewards card 台灣 信用卡 加密回饋 BitoPro MAX",
-      "mark": "凱",
+      "name": "凯基银行 币享卡",
+      "aliases": "凱基 幣享卡 凯基 币享卡 KGI 幣享卡 KGI Bank crypto rewards card 台灣 台湾 信用卡 加密回饋 加密回馈 BitoPro MAX",
+      "mark": "凯",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -16579,7 +16579,7 @@
       "fee": "正卡年费 NT$3,000、附卡 NT$1,500；首年免年费，之后按银行公告的减免条件可免次年年费。",
       "rewards": "国内消费 1%、海外消费 2%，另加海外交易手续费回馈，合计约 3.5%；指定类别另有最高 12%–15% 的加码点数。点数可在合作的台湾交易所兑换比特币、以太币、USDT、USDC。加码类别与档位由银行当期活动决定，会更新。",
       "paymentCompatibility": {
-        "sourceName": "凱基銀行 幣享卡",
+        "sourceName": "凯基银行 币享卡",
         "network": "Mastercard",
         "issuer": "凱基銀行 KGI Bank（官方产品页署名）",
         "region": "台湾，需通过银行信用卡征审",
@@ -16662,7 +16662,7 @@
       ],
       "faq": [
         [
-          "凱基幣享卡是加密卡吗？",
+          "凯基银行 币享卡是加密卡吗？",
           "它是凯基银行发行的 Mastercard 信用卡，点数可在合作交易所兑换加密资产；卡片本身不是稳定币充值消费卡。"
         ],
         [

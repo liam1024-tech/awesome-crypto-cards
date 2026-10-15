@@ -2346,9 +2346,9 @@
     },
     {
       "id": "ubot-maicoin-card",
-      "name": "聯邦銀行 MaiCoin 聯名卡",
+      "name": "联邦银行 MaiCoin 联名卡",
       "clientType": "Web 账户可用，卡片以 App 为主",
-      "appName": "聯邦行動銀行（UNION BANK OF TAIWAN）",
+      "appName": "联邦行动银行（UNION BANK OF TAIWAN）",
       "webSupport": "Web 账户可用，卡片以 App 为主",
       "appStoreChinaAvailable": "Yes",
       "appStoreCoverage": 147,
@@ -2366,9 +2366,9 @@
     },
     {
       "id": "kgi-crypto-rewards-card",
-      "name": "凱基銀行 幣享卡",
+      "name": "凯基银行 币享卡",
       "clientType": "Web 账户可用，卡片以 App 为主",
-      "appName": "凱基銀行（KGI BANK）",
+      "appName": "凯基银行（KGI BANK）",
       "webSupport": "Web 账户可用，卡片以 App 为主",
       "appStoreChinaAvailable": "Yes",
       "appStoreCoverage": 26,
