@@ -77,8 +77,8 @@ All dataset files in this repository are exported directly from our automated bu
 | [`data/status-radar.json`](data/status-radar.json) | JSON | 158 Cards | Live card lifecycle status radar (Active, Degraded, Paused, Winding Down, Closed), emergency delisting risk alerts, and policy changelogs. |
 | [`data/card-changelogs.csv`](data/card-changelogs.csv) | CSV | 298 Events | Chronological audit log of historical policy and fee shifts (cashback asset conversions, minimum withdrawal limits, lockups, fee updates). |
 | [`data/cashback-comparison.csv`](data/cashback-comparison.csv) | CSV | Tier Scenarios | Nominal cashback comparison modeling across $1,000, $3,000, and $5,000 monthly spend brackets. |
-| [`data/app-privacy-matrix.csv`](data/app-privacy-matrix.csv) | CSV | 146 Cards | Audit of mobile app stores (App Store / Google Play coverage, China App Store availability), web portal options, self-service account deletion, and GDPR compliance ratings. |
-| [`data/app-privacy-matrix.json`](data/app-privacy-matrix.json) | JSON | 146 Cards | JSON matrix of crypto card mobile presence, store direct availability, and statutory AML account closure paths. |
+| [`data/app-privacy-matrix.csv`](data/app-privacy-matrix.csv) | CSV | 151 Cards | Audit of mobile app stores (App Store / Google Play coverage, China App Store availability), web portal options, self-service account deletion, and GDPR compliance ratings. |
+| [`data/app-privacy-matrix.json`](data/app-privacy-matrix.json) | JSON | 151 Cards | JSON matrix of crypto card mobile presence, store direct availability, and statutory AML account closure paths. |
 
 ### Quick Data Loading Example
 
