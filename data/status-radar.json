@@ -3778,6 +3778,16 @@
       ]
     },
     {
+      "id": "kazepay-card",
+      "name": "KazePay Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard",
+      "model": "中心化托管预付卡架构：稳定币充值至平台钱包后划转至卡片额度，刷卡实时换汇扣款；已入卡资金专款专用无法反向提回链上",
+      "verified": "2026-10-15",
+      "changelogs": []
+    },
+    {
       "id": "fasset-card",
       "name": "Fasset Card",
       "stage": "active",

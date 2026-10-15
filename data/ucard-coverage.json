@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 153,
-    "current": 142,
-    "kycRequired": 128,
+    "total": 154,
+    "current": 143,
+    "kycRequired": 129,
     "kycConditional": 5,
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 11,
-    "officialSources": 570
+    "officialSources": 575
   },
   "rows": [
     {
@@ -582,7 +582,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-09-28",
       "profileUrl": "https://ucard.observer/cards/tevau-card/"
     },
@@ -1652,6 +1652,17 @@
       "sourceCount": 2,
       "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/breet-card/"
+    },
+    {
+      "id": "kazepay-card",
+      "name": "KazePay Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 4,
+      "verified": "2026-10-15",
+      "profileUrl": "https://ucard.observer/cards/kazepay-card/"
     },
     {
       "id": "fasset-card",

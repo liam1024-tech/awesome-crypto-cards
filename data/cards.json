@@ -809,15 +809,15 @@
       "verified": "2026-10-08",
       "id": "redotpay",
       "name": "RedotPay",
-      "aliases": "redot 红点 红点卡",
+      "aliases": "redot 红点 红点卡 fees review sign up 手续费 开卡教程 费率",
       "mark": "R",
       "group": "独立钱包与支付卡",
       "status": "regional",
-      "intro": "稳定币支付卡，提供虚拟卡与实体卡。当前官方资料已公开开卡、ATM、换汇、特定商户交易费、地区限制和 Pro 返现条件。",
+      "intro": "稳定币预付 Visa 卡，提供虚拟卡与实体卡，普通用户 0 月费/0 年费；支持原生一键绑定 Apple Pay / Google Pay，公布虚拟卡 $10、实体卡 $100、充值 0%、消费与 FX 1.2%、ATM 2% 完整费率表。",
       "model": "平台账户内稳定币支付",
       "network": "具体卡网络与币种以获批卡片为准",
-      "region": "需年满 18 岁并完成身份与地址核验。当前发卡限制名单包含中国大陆、新加坡、美国等；马来西亚未列入该名单，但不代表必然获批。",
-      "fee": "虚拟卡 10 美元、实体卡 100 美元；ATM、跨币种及加密资产转换另收费，部分指定商户交易还可能收 1.5%。",
+      "region": "需年满 18 岁并完成身份与地址核验。当前发卡限制名单包含中国大陆、新加坡、美国等；支持台湾身分证/护照、香港及海外合规证件申请。",
+      "fee": "虚拟卡 $10、实体卡 $100（普通用户 0 月费/0 年费）；加密资产充值免平台手续费，消费本币约 1.2%、非 USD 换汇 FX 1.2%，加密资产自动结算 1%；特定商户 1.5%（月前 3 笔免）；ATM 取现 2%（USD 卡月超 1 万部分 3%）。可选 Pro 会员月费 $12.90 / 年费 $129。",
       "rewards": "RedotPay Pro 为月付 12.90 美元或年付 129 美元；Apple Pay / Google Pay 合格消费返 3% USDs，每月上限 18 USDs。",
       "facts": [
         [
@@ -918,6 +918,24 @@
       ],
       "sections": [
         [
+          "全维度费用结构与使用成本明细",
+          "RedotPay 费用体系包含五大模块：① 开卡工本费：标准虚拟 Visa 卡一次性 $10 USD，实体物理芯片卡一次性 $100 USD（普通用户无月费与年费；若订阅 RedotPay Pro 会员则为月付 $12.90 / 年付 $129）；② 充值入卡费率：链上充值 USDT、USDC、BTC、ETH 免平台手续费（仅支付公链矿工 gas 费）；消费结算时加密资产自动划扣兑换费为 1%；③ 刷卡消费与外汇手续费：本币交易手续费约 1.2%，非卡片本币结算外汇交易（FX Markup）收取 1.2% 换汇手续费；部分指定高风险/金融类商户加收 1.5%（每笔最低 $0.50，每个自然月前 3 笔交易免除）；④ ATM 取款手续费：HKD 卡取现手续费为 2%；USD 卡每月 10,000 美元额度内收取 2%，超出部分按 3% 计收；ATM 当地机具可能会加收本地服务费；⑤ 闲置与维护成本：无账户闲置费与月租。",
+          [
+            1,
+            7,
+            8
+          ]
+        ],
+        [
+          "注册、KYC 认证与绑定手机钱包全流程指南",
+          "申请 RedotPay 卡的标准办理路径分为以下环节：第一步，注册账号（Sign up）：访问 RedotPay 官网或下载官方 App（iOS 支持外区 App Store，安卓支持 Google Play 或官网下载官方 APK），使用常用邮箱或手机号注册；第二步，完成 KYC 身份认证：准备合规有效证件（支持中国台湾身分證/台灣護照、香港身份證及众多海外合规国家护照），在 App 内拍摄证件正反面并完成 3D 人脸活体扫描，通常 5–15 分钟内自动完成初审；第三步，充值资产：在资产页面选择充值 USDT 或 USDC（支持 TRC20、ERC20、BSC、Arbitrum、Polygon 等多链通道），几分钟内到账；第四步，申请卡片：在卡片列表选择「申请虚拟卡」（支付 $10 开卡费），系统即时分配 16 位 Visa 卡号、到期时间与 CVV；若需要实体卡（$100）需填写海外真实收件地址与联系方式等待平邮/快递；第五步，绑定 Apple Pay / Google Pay：在 App 内卡片页面点击「添加到 Apple 钱包 / Google 钱包」，秒级完成 Tokenization 激活，即可在线上线下畅通无阻消费。",
+          [
+            4,
+            5,
+            9
+          ]
+        ],
+        [
           "普通用户的费用怎样拆",
           "先把开卡费、资产转换费、跨币种费、ATM 费和指定商户费分开。虚拟卡 10 美元或实体卡 100 美元只是一次性发行费，不代表之后的交易都免费。",
           [
@@ -974,6 +992,22 @@
         ]
       ],
       "faq": [
+        [
+          "RedotPay 虚拟卡与实体卡的详细手续费是多少？有月费吗？",
+          "普通用户享 0 月费 / 0 年费。主要费用包括：虚拟卡开卡费 $10，实体卡 $100；加密货币充值入账免费；交易费与非本币外汇（FX）费率均为 1.2%；加密资产自动兑换费 1%；特定商户加收 1.5%（每月前 3 笔豁免）；ATM 取现 2%（USD 卡每月超 $10,000 部分收 3%）。"
+        ],
+        [
+          "RedotPay 怎么注册与申请开卡？支持哪些地区与证件？",
+          "在官网或 App 注册后提交合规身份证明（支持台湾身分证、台湾护照、香港身份证及海外合规国家护照）完成人脸识别 KYC。发卡限制名单包括中国大陆、新加坡、美国等。审核通过后充值 USDT 支付开卡费即可即时生成虚拟卡。"
+        ],
+        [
+          "RedotPay 能绑定 Apple Pay 和 Google Pay 吗？消费体验如何？",
+          "官方原生深度支持 Apple Pay 与 Google Pay。在 App 内一键推送添加至系统钱包后，支持全球所有 Visa 感应支付商户碰一碰消费，在线上海外 AI 订阅（如 ChatGPT、Claude、Midjourney）、App Store 及流媒体平台扣款成功率高。"
+        ],
+        [
+          "RedotPay 实体卡如何申请与在 ATM 取现？",
+          "在 App 内支付 $100 申请实体卡并填写有效寄送地址，收到卡片后在 App 内输入卡号最后 4 位与设置 6 位 ATM PIN 码完成激活。可在全球任何标有 Visa / Plus 标识的 ATM 机提取当地法定货币现金，费率为 2%–3% 另加机具服务费。"
+        ],
         [
           "RedotPay 虚拟卡和实体卡多少钱？",
           "当前官方开卡页列虚拟卡 10 美元、实体卡 100 美元，均为一次性发行费；促销或 Pro 减免需满足对应条件。"
@@ -6906,6 +6940,8 @@
       ],
       "id": "gate-card",
       "name": "Gate Card (US)",
+      "pageTitle": "Gate Card (US) U卡：费用、KYC、返现与申请地区（2026）",
+      "pageTitleEn": "Gate Card (US) Review 2026: Fees, KYC & Countries",
       "intro": "Gate US 与 Bridge / Stripe 推出的虚拟 Visa 卡，合资格用户可用支持的稳定币余额消费并加入 Apple Pay / Google Wallet；其资格限 Gate US 账户计划。",
       "model": "Gate US 账户稳定币余额 / 虚拟 Visa",
       "network": "Visa；Lead Bank 发行，Bridge 管理并使用 Stripe Issuing",
@@ -7429,9 +7465,9 @@
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
-      "aliases": "Tevau USDT Visa card crypto wallet",
+      "aliases": "Tevau USDT Visa card crypto wallet review fees sign up 手数料 年会費 vs bybit 注册 费用",
       "mark": "T",
-      "kycNote": "Tevau 官方卡页明确标记需要 KYC。",
+      "kycNote": "Tevau 官方卡页明确标记需要 KYC 实名认证。",
       "facts": [
         [
           "卡片形态",
@@ -7441,18 +7477,25 @@
           ]
         ],
         [
-          "公开费率",
-          "产品页列交易、充值、FX 和 ATM 费；个别场景仍提示可能有网络或处理成本。",
+          "公开费率与 0 年会费",
+          "产品页公布虚拟卡 $20、实体卡 $100，0 月费与 0円 年会费；充值 1%、美元消费 $0.20+0.5%、FX 1.2%、ATM 取现 1.9%。",
           [
             0
           ]
         ],
         [
           "申请资格",
-          "明确需要 KYC；可申请国家应在账户创建及验证时确认。",
+          "明确需要 KYC；支持多国护照与身份证件认证，亚洲多地居民可提交审核。",
           [
             0,
             1
+          ]
+        ],
+        [
+          "闲置与注销规则",
+          "90 天无交易收取 $3，此后每 30 天 $1；虚拟卡连续 4 个月无交易可能关闭且开卡费不退。",
+          [
+            0
           ]
         ],
         [
@@ -7465,6 +7508,30 @@
       ],
       "sections": [
         [
+          "全维度费用结构与手续费核算（0円年会费与各档费率）",
+          "Tevau 提供透明的手续费（手数料）明细：① 开卡工本费：标准虚拟卡一次性 $20 USD，实体塑料卡 $100 USD，另有 Metal 金属卡 $199 USD 与 24K Gold 限量卡 $499 USD；② 月费与年会费（年会費）：终身 0 USD / 0 円（无月租与年费，持卡零维护成本）；③ 充值手续费：链上 USDT 充值入卡费率为 1%；④ 消费与换汇手续费：美元消费按每笔 $0.20 + 0.5% 计收，非美元本币交易（如日元 JPY、新台币 TWD、欧元 EUR）加收约 1.2% FX 换汇手续费；⑤ ATM 取现手续费（ATM 引き出し手数料）：仅实体卡支持全球 ATM 取款，费率为 1.9%（虚拟卡不支持 ATM 提现）；⑥ 闲置费用：连续 90 天无交易收取 $3，此后每 30 天收取 $1，虚拟卡若连续 4 个月无交易可能被系统注销且开卡费不退。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "注册开卡与手机钱包激活全流程（Sign up 至 Apple Pay）",
+          "开通并激活 Tevau Card 的标准操作流程分为五步：第一步，注册账户（Sign up）：访问 Tevau 官网或下载官方 App（iOS 支持国区与海外 App Store 搜索下载，安卓提供官方 APK 与 Google Play），使用常用邮箱或手机号注册并设置安全密码；第二步，身份认证（KYC 证件认证）：进入账户安全中心提交有效护照（Passport）或官方认可身份证件完成实名核验与人脸活体自拍，亚洲及日本用户可顺利审核；第三步，链上入金：在钱包内获取专属 USDT 充值地址（支持 Tron 等公链），按需充值稳定币；第四步，选卡激活：在卡片中心支付开卡工本费（如 $20 虚拟卡）即时生成 16 位 Visa 卡号、有效期与 CVV；第五步，绑定 Apple Pay / Google Pay：在 App 内一键推送或在手机系统钱包中手动添加卡号，完成 Visa 令牌化认证，即可在线下 POS 机碰一碰感应消费或在线订阅 ChatGPT、Claude、App Store 等海外服务。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Tevau 与 Bybit Card 的核心差异对照（vs Bybit）",
+          "针对社群与搜索中高频出现的 Tevau 与 Bybit Card 对比，二者定位完全不同：① 发行机制与准入门槛：Bybit Card 深度绑定 Bybit 交易所现货与理财账户，但严格限制在欧洲经济区（EEA）、英国及澳洲等合规司法辖区，必须提供海外真实水电账单居留证明（POA），普通亚洲/中国用户难以合规申领；Tevau 则是独立预付 Visa 卡，支持全球多国护照 KYC，准入门槛显著更低；② 费用结构差异：Bybit Card 免开卡费且提供最高 2%–10% 的消费积分回馈，日常使用成本极低；Tevau 虚拟卡收取 $20 开卡费、充值收取 1%、且无高额常驻返现，但其优势在于无需海外居留地址即可即开即用、且 App 可在中国区 App Store 直接下载。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
           "把 Visa 全球受理与发卡范围分开",
           "Tevau 产品页宣传在众多 Visa 商户可消费，但各国居民能否开户和领卡取决于 KYC 与当地合规；先在 App 核对居住地。",
           [
@@ -7475,21 +7542,33 @@
       ],
       "faq": [
         [
-          "Tevau Card 免 KYC 吗？",
-          "不是，官方卡页明确标注需要 KYC。"
+          "Tevau Card 的详细手续费（手数料）是多少？有年会费（年会費）吗？",
+          "Tevau 采用 0 年会费 / 0 月费机制（0円 / 0 USD）。主要费用包括：虚拟卡开卡费一次性 $20，实体卡 $100；USDT 充值入卡费率 1%；美元消费每笔 $0.20 + 0.5%，非美元外汇换汇手续费（FX）1.2%；实体卡 ATM 取现手续费 1.9%。注意账户若连续 90 天无交易会产生 $3 闲置费，建议随充随用。"
         ],
         [
-          "Tevau Card 有哪些费用？",
-          "官网列有交易、充值、外汇和 ATM 费用；建议在充值前再次核对 App 显示。"
+          "Tevau Card 怎么注册与申请激活？支持哪些证件？",
+          "注册需下载 Tevau App，使用邮箱或手机号注册后提交个人身份证件（支持护照 Passport）与人脸活体检测完成 KYC。通过后充值 USDT 并支付开卡工本费，虚拟卡秒级核发，可即刻添加到 Apple Pay 或 Google Pay 使用。"
+        ],
+        [
+          "Tevau Card 和 Bybit Card 相比（vs Bybit）有什么区别？哪个更好？",
+          "两张卡面向不同用户群体：Bybit Card 是交易所直连借记卡，免开卡费且有消费返现，但硬性要求欧洲 EEA、英国或澳洲的海外居住证明（POA），亚洲本土居民无法直接申领；Tevau Card 是独立的 USDT 预付 Visa 卡，支持更广泛的护照 KYC 准入并直接上架中国区 App Store，但有 $20 开卡费和 1% 充值费，更适合没有海外居留证明但急需稳定币过桥消费的用户。"
+        ],
+        [
+          "日本用户可以申请 Tevau Card 吗？在日本如何使用？",
+          "可以。Tevau 支持日本及亚洲多国居民持有效护照完成 KYC 验证。核发后的虚拟卡支持添加至 Apple Pay，在日本罗森（Lawson）、7-Eleven、超市等支持 Visa Contactless（碰一碰）的 POS 机均可直接感应结算，系统按实时日元汇率自动扣减 USDT 余额。"
+        ],
+        [
+          "Tevau Card 免 KYC 吗？",
+          "不是，官方卡页明确标注需要 KYC 实名认证，所有用户均需提交真实证件方可核发卡片。"
         ]
       ],
       "id": "tevau-card",
       "name": "Tevau Card",
-      "intro": "Tevau App 内的 USDT 预付 Visa 卡，提供虚拟卡和实体卡；官网公布充值、交易、外汇和 ATM 费率，并标注申请需要 KYC。",
+      "intro": "Tevau App 内的 USDT 预付 Visa 卡，提供虚拟卡和实体卡，终身 0 月费/0円年会费；支持 Apple Pay / Google Pay，公布充值 1%、美元消费 $0.20+0.5%、FX 1.2% 与 ATM 1.9% 费率。",
       "model": "先将 USDT 充值进 Tevau 钱包 / 卡账户，再以卡支付",
       "network": "Visa；Tevau 卡计划，地区发行安排以 App 条款为准",
-      "region": "Tevau 宣称可在 Visa 受理地消费，但可申请国家需在注册和 KYC 时确认；消费网络覆盖不是卡片发行资格。",
-      "fee": "公开费率另列虚拟卡一次性 $20、实体卡 $100、Metal $199、24K Gold $499。虚拟卡不能 ATM 取现；实体卡可用 ATM。无交易 90 天后闲置费 $3，之后每 30 天 $1；虚拟卡连续 4 个月无交易可能关闭且不退开卡费。交易、充值和 FX 费仍应在 App 最终核对。",
+      "region": "Tevau 宣称可在全球 Visa 受理地消费，支持亚洲多国护照 KYC；消费网络覆盖不等于免审核发卡，具体国家资格在 App 注册时确认。",
+      "fee": "虚拟卡一次性 $20、实体卡 $100、Metal $199、24K Gold $499（终身 0 月费 / 0円 年会费）；USDT 充值 1%、美元消费 $0.20 + 0.5%、非 USD 换汇（FX）1.2%、ATM 取现 1.9%（限实体卡）。90 天无交易后闲置费 $3，其后每 30 天 $1；连续 4 个月无交易虚拟卡可能注销。",
       "rewards": "未核实到普遍适用的持续消费返现。",
       "sources": [
         {
@@ -7499,6 +7578,10 @@
         {
           "title": "Tevau：官方卡片说明与资格指南",
           "url": "https://www.tevau.co/tevau-card-review/"
+        },
+        {
+          "title": "Bybit：卡片费用与对比参考",
+          "url": "https://www.bybit.com/en/help-center/article/Fees-and-Spending-Limits-Bybit-Card"
         }
       ],
       "paymentCompatibility": {
@@ -8746,34 +8829,34 @@
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
-      "aliases": "Trustee Plus crypto card Mastercard USDT USDC",
+      "aliases": "Trustee Plus crypto card Mastercard USDT USDC fees review sign up 申请 费率 教程 手续费",
       "mark": "T",
       "kycNote": "Trustee Plus 官方办卡指引要求完成身份验证后申请；不应因为钱包可下载就认定卡片无需 KYC。",
       "facts": [
         [
-          "发行成本",
-          "当前官方费用页列发卡费 10 USD。曾有限时返还活动，结束后不能当作长期免费。",
+          "发行成本与月费",
+          "当前官方费用页列发卡费 10 EUR（曾有限时返还活动，结束后按标准 10 欧计提），无账户月维护费与年费。",
           [
             0
           ]
         ],
         [
-          "充值与消费",
-          "USDT / USDC 充值卡余额收 0.5%，刷卡消费列 0%。",
+          "充值与刷卡手续费",
+          "USDT / USDC 划转充值卡余额收 0.5%，EUR 本币刷卡消费列 0%，非 EUR 交易收约 1.5%–2% FX。",
           [
             0
           ]
         ],
         [
-          "ATM 与提现",
-          "官方当前说明 ATM 功能不可用；提取 EUR 到卡收费 2 EUR + 2%。",
+          "ATM 与法币提现",
+          "官方当前说明 ATM 功能不可用（ATM unavailable）；提取 EUR 到外部银行卡收费 2 EUR + 2%。",
           [
             0
           ]
         ],
         [
-          "身份和实体卡",
-          "办卡前需按 Trustee Plus 指引完成账户验证；实体卡服务和配送地区另有限制。",
+          "身份验证与实体卡",
+          "办卡前需按 Trustee Plus 指引完成账户 KYC 验证；实体卡服务和配送地区依属地卡计划受限。",
           [
             1,
             2
@@ -8781,6 +8864,22 @@
         ]
       ],
       "sections": [
+        [
+          "全维度费用结构与使用成本核算",
+          "Trustee Plus 官方费率标准明确透明：① 开卡工本费：标准虚拟卡发卡费为 10 EUR（约 10 USD），官方此前偶有限时达标返还活动，但标准状态应按 10 欧计提；实体卡若推出另收物流制卡费；② 账户管理费与月费：0 EUR / 0 USD（免月费与年费）；③ 充值手续费：外部加密资产（USDT、USDC、BTC、ETH）充入 Trustee 钱包免费，从钱包余额充值划转至支付卡收取 0.5% 充值手续费；④ 刷卡消费手续费：欧元（EUR）结算消费手续费为 0%（官方免刷卡手续费）；非欧元外汇结算（FX）换汇费率约在 1.5%–2% 区间；⑤ ATM 取现：官方费用表明确标注 ATM 现金取现功能目前不可用（ATM unavailable）；⑥ 法币提现手续费：提取 EUR 到外部银行卡收费为 2 EUR + 2%。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "注册开卡与绑定 Apple Pay 全流程操作指引",
+          "申请与激活 Trustee Plus Card 的标准步骤如下：第一步，下载安装：在 iOS App Store 或 Google Play 搜索并下载 Trustee Plus 官方 App；第二步，账号注册：使用有效手机号码获取短信验证码完成基础注册；第三步，实名身份验证（KYC）：在「Profile」安全中心提交官方要求的有效国际护照或属地身份证明，拍摄证件原件并完成面部活体识别；第四步，钱包入金：通过链上转账将 USDT 或 USDC 存入 Trustee Plus 钱包；第五步，申请开卡：在底部导航「Cards」界面选择「Get Card」，支付 10 欧元开卡工本费，虚拟 Mastercard 秒级生成并显示卡号、有效期与 CVV；第六步，加入手机钱包：点击「Add to Apple Wallet」或 Google Pay，完成银行令牌化绑定后，即可在全球万事达受理网点碰一碰消费或进行跨境电商支付。",
+          [
+            0,
+            1
+          ]
+        ],
         [
           "免费刷卡不等于免费使用",
           "常规费用中的卡片消费是 0%，但办卡和 USDT / USDC 充值分别有费用；ATM 当前不可用。此前“满足消费即可退开卡费”的活动有结束日期，不应继续按免费卡宣传。",
@@ -8791,25 +8890,37 @@
       ],
       "faq": [
         [
+          "Trustee Plus Card 的各项手续费是多少？有月费吗？",
+          "Trustee Plus 标准虚拟卡开卡费为 10 EUR，免月费与维护费（0 EUR）；USDT/USDC 充值至卡收取 0.5%，欧元刷卡消费 0% 手续费；非欧元交易产生约 1.5%–2% 汇率换算费；提取欧元至银行卡收取 2 EUR + 2%；ATM 取现当前不可用。"
+        ],
+        [
+          "Trustee Plus Card 申请需要哪些 KYC 证件与居住条件？",
+          "需年满 18 岁，在 App 内提交有效护照（Passport）及官方要求的合规身份信息并完成活体检测。支持乌克兰、欧洲及部分受支持地区的合规证件申请，具体资格以 App 内提交时系统展示的可用国家列表为准。"
+        ],
+        [
+          "Trustee Plus Card 怎么申请开卡？支持 Apple Pay 吗？",
+          "支持。下载官方 App 并完成 KYC 认证后，充值 USDT 并支付 10 欧元开卡费即可秒级获取虚拟万事达卡，App 原生支持一键添加到 Apple Pay 和 Google Pay 进行线下非接触式与免密闪付。"
+        ],
+        [
+          "Trustee Plus Card 为什么不能在 ATM 取现？",
+          "Trustee Plus 官方最新资费表明确标注 ATM 现金取现功能目前为不可用状态（ATM unavailable）。该卡主要设计定位为线上电商支付与线下 Apple Pay / Google Pay 扫码与感应刷卡，不建议用于线下提取法币现金。"
+        ],
+        [
           "Trustee Plus Card 需要 KYC 吗？",
           "需要按官方申请流程完成验证。"
         ],
         [
           "Trustee Plus Card 开卡免费吗？",
-          "标准费用页列 $10；若看到活动返还，应核对有效日期和账户资格。"
-        ],
-        [
-          "Trustee Plus Card 能 ATM 取现吗？",
-          "官方费用页当前标注 ATM 现金提现功能不可用。"
+          "标准费用页列 10 EUR；若看到活动返还，应核对有效日期和账户资格。"
         ]
       ],
       "id": "trustee-plus-card",
       "name": "Trustee Plus Card",
-      "intro": "Trustee Plus 提供通过 USDT / USDC 余额充值的U卡。官方费表列开卡 $10、充值费 0.5%、消费手续费 0%；ATM 现金提现功能当前不可用。",
+      "intro": "Trustee Plus 提供通过 USDT / USDC 余额充值的预付 Mastercard。官方费表列开卡 10 EUR、充值 0.5%、EUR 消费手续费 0%、0 月费与年费；支持 Apple Pay / Google Pay，ATM 取现当前不可用。",
       "model": "USDT / USDC 充值至单独卡余额",
       "network": "支付卡；卡网络、发卡国家及 Apple / Google Pay 可用性以账户内实际卡计划为准",
       "region": "申请入口和实体卡配送依账户居住地与卡计划开放情况；官方公开费用页未提供完整国家清单，办卡前在 App 核对。",
-      "fee": "官方费表列开卡 10 USD、USDT / USDC 充值 0.5%、消费 0%；ATM 取现当前不可用；EUR 提取至卡为 2 EUR + 2%。",
+      "fee": "标准虚拟卡开卡费 10 EUR（约 10 USD），0 月费与 0 年费；USDT / USDC 充值卡余额 0.5%，EUR 刷卡消费 0% 手续费；非 EUR 外币消费换汇 FX 约 1.5%–2%；ATM 取现当前不可用；提取 EUR 至外部银行卡为 2 EUR + 2%。",
       "rewards": "所核对的官方费用与办卡页面未列持续消费返现；先不要按活动或旧邀请码估算长期奖励。",
       "sources": [
         {
@@ -9175,6 +9286,8 @@
       ],
       "id": "gate-card-global",
       "name": "Gate Card（国际版）",
+      "pageTitle": "Gate Card U卡：费用、KYC、返现与申请地区（2026）",
+      "pageTitleEn": "Gate Card Review 2026: Fees, KYC & Countries",
       "intro": "Gate Card 国际版连接 Gate Pay 账户，官方说明有 Visa 或 Mastercard 等多种卡选项，并支持虚拟和实体卡。该资料与现有 Gate US Card 分开记录，因为发行方、国家资格和费率各异。",
       "model": "Gate Pay / Spot 账户资产按卡片规则转换为法币消费",
       "network": "不同卡种可能为 Visa 或 Mastercard；按账户卡片协议为准",
@@ -12316,6 +12429,8 @@
       ],
       "id": "infini-personal-card",
       "name": "Infini Pro / AI / Max Card",
+      "pageTitle": "Infini Card (Pro / AI / Max) U卡：费用、KYC、返现与申请地区（2026）",
+      "pageTitleEn": "Infini Card (Pro / AI / Max) Review 2026: Fees & KYC",
       "paymentCompatibility": {
         "sourceName": "Infini Pro / AI / Max Card",
         "network": "以适用卡版本为准",
@@ -19539,6 +19654,155 @@
       },
       "url": "https://ucard.observer/cards/breet-card/",
       "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-15",
+      "modified": "2026-10-15",
+      "verified": "2026-10-15",
+      "id": "kazepay-card",
+      "name": "KazePay Card",
+      "aliases": "KazePay kaze card kazecard KazeStar KazeGo KazeWay KazeDigi KazeGen KazePay加密卡 万事达 Visa",
+      "mark": "K",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "强制实名认证。虚拟卡要求基础身份核验（身份证或护照，审核通常 24 小时内完成）；实体卡申领与跨境邮寄要求完整高级 KYC。",
+      "intro": "KazePay 是由香港 INFI TECH 运营、METABANK INC 及 OuiTrust 等持牌机构提供清算支持的 Web3 加密借记卡平台。平台采用多卡种细分矩阵（涵盖日常生活 KazeStar、商旅出行 KazeGo、AI 生产力订阅 KazeWay、开发者 KazeGen、数字游民综合卡 KazeDigi 等），支持在 Solana、Tron、BSC、Base、Arbitrum 等 8 条公链上充值 USDT/USDC，虚拟卡支持绑定 Apple Pay、Google Pay 及支付宝，刷卡时自动毫秒级结算法币。",
+      "model": "中心化托管预付卡架构：稳定币充值至平台钱包后划转至卡片额度，刷卡实时换汇扣款；已入卡资金专款专用无法反向提回链上",
+      "network": "Visa / Mastercard",
+      "region": "全球 210+ 国家与地区（受限法域如被制裁国家除外；中国大陆居民支持通过身份验证，支持部分跨境与数字订阅场景）",
+      "fee": "0 月费；虚拟卡开卡费依卡种约 $0.25–$49，实体卡工本费约 $100–$150（运费自理）；平台消费交易费 0%，单笔授权处理费约 $0.25–$0.50；卡片充值费 1.8%–2.2%（实体卡 2%）；非 USD 外汇转换费约 1.5%–3%；实体卡 ATM 取现手续费 2%（单笔最低 $1）。",
+      "rewards": "基础日常消费无固定百分比现金返现；主要提供好友邀请返佣计划（Friends Referral Program）、品牌大使权益及平台新手活动奖励。",
+      "paymentCompatibility": {
+        "sourceName": "KazePay Card",
+        "network": "Visa / Mastercard",
+        "issuer": "METABANK INC / OuiTrust / KazePay 合作发卡网络",
+        "region": "全球 210+ 国家与地区（受限管辖区除外）",
+        "researchDate": "2026-10-15",
+        "applePay": {
+          "status": "official",
+          "detail": "官方虚拟卡支持添加至 Apple Pay（App 内发起并通过绑定邮箱/短信 OTP 验证即可激活）；实体卡明确不支持 Apple Pay。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "虚拟卡原生支持 Google Pay 移动端碰一碰支付；实体卡不支持加入手机钱包。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "官方专门推出 KazeWay 与 KazeDigi 专用卡段，深度优化 ChatGPT Plus、Claude (Anthropic)、Midjourney、Notion、GitHub 等海外 AI 与 SaaS 生产力平台订阅。"
+        }
+      },
+      "facts": [
+        [
+          "多卡矩阵细分场景",
+          "KazePay 放弃了一刀切模式，推出多款专用虚拟卡：KazeStar 针对日常零售与餐饮（单日限额最高 $250,000）；KazeWay 专攻 ChatGPT Plus、Notion 等 AI 订阅（单月限额 $1,000,000）；KazeGo 专攻机票酒店与境外打车；KazeDigi 兼顾苹果、谷歌及微信支付宝跨境商户。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "8 大公链稳定币多链直充",
+          "支持在 BSC、Solana、Tron、Base、Arbitrum、Avalanche、Aptos、Ethereum 等 8 条主流公链存入 USDT 和 USDC，充值无需复杂跨链桥跨链，降低入金网络磨损。",
+          [
+            1
+          ]
+        ],
+        [
+          "双向资金隔离与充值单向性",
+          "资金存入 KazePay Wallet 后，需划转到卡片才可消费。官方明确规定，一旦从 Wallet 充值到 Card，该部分资金只能用于刷卡消费，无法再反向提现或链上转账；仅留在 Wallet 未充卡的余额支持链上提现。",
+          [
+            1
+          ]
+        ],
+        [
+          "实体卡与虚拟卡功能边界",
+          "虚拟卡支持 Apple Pay 与 Google Pay 碰一碰，但不支持 ATM 取现且商户退款不保证到账；实体卡支持全球 ATM 取现（日限 $1,500，月限 $15,000，手续费 2% min $1）并支持正常退款，但实体卡目前不支持添加进手机移动钱包。",
+          [
+            1
+          ]
+        ],
+        [
+          "慢雾 MistTrack 链上反洗钱风控",
+          "在充值端集成慢雾 MistTrack KYT 风险引擎，对充值钱包地址进行实时合规筛查，识别暗网、混币服务、黑客洗钱等高风险资金，确保合规发卡通道长期稳定。",
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "发卡与合规清算背景",
+          "KazePay 母公司为 KAZEFI，香港运营实体为 INFI TECH（登记号 75447118），技术发行方为 METABANK INC（编号 20231581273）。其实体卡激活系统深度依托欧洲持牌支付机构 OuiTrust 进行合规清算，通过多 BIN 赞助模式实现全球 210 多个国家与地区的商户受理。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "使用成本与综合磨损核算",
+          "持卡人实际消费成本由三部分组成：① 充值划转费率 1.8%–2.2%（实体卡 2%）；② 部分卡段适用的单笔 $0.25–$0.50 授权费；③ 涉及非 USD/EUR 结算时的发卡行外汇转换加价（约 1.5%–3%）。小额频繁消费建议核对每笔固定授权费对总支出的占比。",
+          [
+            1
+          ]
+        ],
+        [
+          "中国大陆用户适用场景提示",
+          "中国大陆居民可通过身份证或护照完成合规 KYC。KazeDigi 卡段在官方说明中测试支持绑定支付宝与微信支付在部分跨境商户消费，并可用作 OpenAI、Claude、海外应用商店与域名服务器续费；但实体卡因外币卡清算政策，无法在国内普通内卡 POS 机具大额消费，且外汇监管风控依然适用。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "KazePay 卡片支持 Apple Pay 和 Google Pay 吗？",
+          "虚拟卡支持，可以在 App 内获取卡片信息并添加至 Apple 钱包或 Google 钱包；但实体卡目前不支持绑定手机移动钱包，仅支持实体刷卡/插卡及 ATM 存取。"
+        ],
+        [
+          "KazePay 卡里的钱可以提现回我的 Web3 钱包吗？",
+          "不可以。充入卡片账户（Card Balance）的资金仅供刷卡消费，不可反向提现。只有保存在 KazePay 平台钱包（Wallet Balance）中的余额才允许发起链上提币。"
+        ],
+        [
+          "申请 KazePay 需要什么认证资料？",
+          "强制要求实名认证（KYC）。申领虚拟卡需上传身份证或护照照片并填写基本信息；申领实体卡需完成高级认证并提供收件地址，经合规审核后安排国际快递寄送。"
+        ],
+        [
+          "KazePay 适合哪些用户？",
+          "非常适合需要支付海外 AI 订阅（如 ChatGPT、Claude、Midjourney）、软件开发工具（GitHub、云服务器）、数字游民商旅出行以及习惯使用 USDT/USDC 结算日常开销的 Web3 用户。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "KazePay 官方网站与产品中心（2026-10-15 核对）",
+          "url": "https://kazepay.com"
+        },
+        {
+          "title": "KazePay 常见问题与费率规范（FAQ & User Guide, 2026-10-15 核对）",
+          "url": "https://kazepay.com/faq/"
+        },
+        {
+          "title": "KazePay 用户条款与合规声明（Terms & Conditions, 2026-10-15 核对）",
+          "url": "https://kazepay.com/terms-and-conditions/"
+        },
+        {
+          "title": "KazePay Card 官方卡面素材核查",
+          "url": "https://kazepay.com/crypto-cards/"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/kazepay-card.webp",
+        "file": "kazepay-card.webp",
+        "imageUrl": "https://kazepay.com/wp-content/uploads/2026/03/kazepay-virtual-cards-Star.png",
+        "sourcePage": "https://kazepay.com/crypto-cards/",
+        "version": "KazeStar 官方卡面",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/kazepay-card/",
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-10-11",
