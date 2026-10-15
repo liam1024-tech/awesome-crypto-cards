@@ -3892,7 +3892,15 @@
       "network": "Visa / Mastercard",
       "model": "中心化托管预付卡架构：稳定币充值至平台钱包后划转至卡片额度，刷卡实时换汇扣款；已入卡资金专款专用无法反向提回链上",
       "verified": "2026-10-15",
-      "changelogs": []
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Web3 预付卡平台 KazePay 多卡矩阵（KazeStar/Go/Way）",
+          "note": "完成 KazePay 官方虚拟卡与实体卡全维度核验：多卡种细分日常、AI 订阅（KazeWay 专攻 ChatGPT Plus 与 Claude Pro）与商旅场景，支持 8 条主流公链充值 USDT/USDC，虚拟卡支持 Apple Pay 与 Google Pay 闪付。"
+        }
+      ]
     },
     {
       "id": "fasset-card",
