@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 154,
-    "current": 143,
-    "kycRequired": 129,
+    "total": 158,
+    "current": 147,
+    "kycRequired": 133,
     "kycConditional": 5,
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 11,
-    "officialSources": 575
+    "officialSources": 585
   },
   "rows": [
     {
@@ -1418,7 +1418,7 @@
       "kycLabel": "需要 KYC",
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/peanut-card/"
     },
@@ -1649,9 +1649,53 @@
       "kycLabel": "需要 KYC",
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-14",
       "profileUrl": "https://ucard.observer/cards/breet-card/"
+    },
+    {
+      "id": "dtcpay-card",
+      "name": "dtcpay Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-15",
+      "profileUrl": "https://ucard.observer/cards/dtcpay-card/"
+    },
+    {
+      "id": "efy-card",
+      "name": "EFY Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-15",
+      "profileUrl": "https://ucard.observer/cards/efy-card/"
+    },
+    {
+      "id": "bitflyer-credit-card",
+      "name": "bitFlyer クレカ",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-15",
+      "profileUrl": "https://ucard.observer/cards/bitflyer-credit-card/"
+    },
+    {
+      "id": "littio-card",
+      "name": "Littio Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-15",
+      "profileUrl": "https://ucard.observer/cards/littio-card/"
     },
     {
       "id": "kazepay-card",

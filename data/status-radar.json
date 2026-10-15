@@ -234,6 +234,13 @@
       "verified": "2026-10-11",
       "changelogs": [
         {
+          "date": "2026-10-15",
+          "type": "reward",
+          "tag": "返现阶梯",
+          "title": "公布 AVAX 阶梯返现标准，正式支持 Apple Pay 闪付",
+          "note": "Ethena Pay 官方更新返现细则：返现统一以 AVAX 代币每日分发；Standard 档享前 $2,500 消费 4% 返现；Pro 档前 $8,000 享 4.5%；VIP 档前 $20,000 享 5%。同时在移动端正式实装 Apple Pay 快捷支付。"
+        },
+        {
           "date": "2026-10-11",
           "type": "reward",
           "tag": "海外实测",
@@ -287,6 +294,13 @@
       "verified": "2026-10-07",
       "changelogs": [
         {
+          "date": "2026-10-15",
+          "type": "reward",
+          "tag": "权益体系",
+          "title": "上线 4XPNLR 推荐返佣体系与 XPL 阶梯返现",
+          "note": "Plasma One 推出 Lite（$0开卡最高2%）、Core（最高3%）与 Platinum（最高4%，AI订阅10%）会员阶梯，返现以 XPL 代币结算；激活推荐码 4XPNLR 享有专属发卡队列与手续费优惠。"
+        },
+        {
           "date": "2026-10-07",
           "type": "reward",
           "tag": "限时活动",
@@ -332,6 +346,13 @@
       "model": "平台账户内稳定币支付",
       "verified": "2026-10-08",
       "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "feature",
+          "tag": "Pro会员",
+          "title": "推出 RedotPay Pro 会员与墨西哥比索（MXN）SPEI 本地通道",
+          "note": "上线 Pro 会员月费 $12.90 / 年费 $129，享 Apple Pay 3% USDs 返还及前 $1,000 ATM 免手续费；同时接入墨西哥 SPEI 本地银行清算与 Nium 跨境出金合作。"
+        },
         {
           "date": "2026-10-08",
           "type": "feature",
@@ -399,6 +420,13 @@
       "model": "交易所关联支付卡",
       "verified": "2026-10-13",
       "changelogs": [
+        {
+          "date": "2026-10-05",
+          "type": "reward",
+          "tag": "返现收紧",
+          "title": "Bybit Card 返现新政：仅限加密货币直接结算享返现，法币余额消费 0 积分",
+          "note": "Bybit 官方自 2026-10-05 10:00 UTC 起实施返现新规：仅限以加密货币直接扣款的合格交易享受返现与消费积分；使用法币余额消费全面取消返现资格。资格以商户最终清算入账日为准。"
+        },
         {
           "date": "2026-10-05",
           "type": "reward",
@@ -672,6 +700,13 @@
       "model": "按地区区分的钱包卡",
       "verified": "2026-10-11",
       "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "compliance",
+          "tag": "号段与KYC",
+          "title": "透视 53710058 号段：Sutton Bank 企业采购卡；大陆护照可开户",
+          "note": "Bitget Wallet Card 实测卡段为 53710058，底层由美国 Sutton Bank 发行，属性为 Mastercard Corporate Purchasing（企业采购信用卡）。实测目前仅支持中国大陆有效护照（Passport）完成 KYC 申领，大陆身份证已暂停受理。"
+        },
         {
           "date": "2026-10-11",
           "type": "feature",
@@ -3774,6 +3809,78 @@
           "tag": "新增收录",
           "title": "收录 Breet Card：西非合规 OTC 平台推出 Visa 卡，获 PCI DSS 4.0.1 最高金融安全认证",
           "note": "西非自动化加密交易平台 Breet 针对尼日利亚与加纳市场推出的 Visa 支付卡，通过 PCI DSS 4.0.1 权威金融安全审计，支持本地用户将稳定币与代币极速清算为本地法币用于日常跨境线上线下消费。"
+        }
+      ]
+    },
+    {
+      "id": "dtcpay-card",
+      "name": "dtcpay Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa Infinite（支持虚拟卡与物理实体卡；支持 Apple Pay 与 Google Wallet）",
+      "model": "持牌托管钱包即时折算借记卡：稳定币与数字资产在刷卡消费时实时清算为法币扣除",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录新加坡 MAS 持牌机构 dtcpay Visa Infinite 无限卡",
+          "note": "完成新加坡大型支付机构（MPI）dtcpay 官方 Visa Infinite 借记卡核验，确认支持 USDT、USDC、BTC、ETH 实时兑换为新币/美元扣款，原生支持 Apple Pay 与全球机场贵宾室礼遇。"
+        }
+      ]
+    },
+    {
+      "id": "efy-card",
+      "name": "EFY Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡与物理实体卡；支持 Apple Pay 与 Google Pay）",
+      "model": "多币种持牌托管账户借记卡：支持 USD₮ 与 USA₮ 稳定币在本地消费时实时结算法币",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Tether 战略投资的萨尔瓦多持牌 EFY Visa 借记卡",
+          "note": "完成萨尔瓦多 DASP 持牌金融机构 EFY Finance 官方 Visa 卡核验，获 Tether 种子轮战略投资，支持 USD₮/USA₮ 原生消费，支持 Apple Pay 与 Google Pay。"
+        }
+      ]
+    },
+    {
+      "id": "bitflyer-credit-card",
+      "name": "bitFlyer クレカ",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（无卡号安全设计；支持 Apple Pay、QUICPay 与 Mastercard Contactless）",
+      "model": "交易所联名信用卡：日元消费记账并享有免息期，刷卡返佣自动折算为比特币存入交易所账户",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录日本 bitFlyer × 新生银行 Aplus 比特币返还 Mastercard 信用卡",
+          "note": "完成日本合规交易所 bitFlyer 与新生银行旗下 Aplus 合作发行的官方信用卡核验，支持日元计价消费并自动按 0.5%–1.0% 返还比特币至交易所托管账户，支持 Apple Pay 与 QUICPay。"
+        }
+      ]
+    },
+    {
+      "id": "littio-card",
+      "name": "Littio Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard Gold（支持虚拟卡与实体卡；支持 Apple Pay 与 Google Pay）",
+      "model": "数字美元钱包借记卡：资金在 Circle 监管的 USDC 账户中生息，刷卡时实时扣除",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录哥伦比亚数字美元平台 Littio Mastercard 金卡",
+          "note": "完成拉美数字美元新银行 Littio 官方万事达金卡核验，依托 Pomelo 发卡架构与 Circle USDC/EURC 结算，美元/欧元消费 0% FX 换汇费，闲置资金享 Bóvedas 金库生息，支持 Apple Pay 与 Google Pay。"
         }
       ]
     },

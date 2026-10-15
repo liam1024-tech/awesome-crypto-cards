@@ -5923,9 +5923,14 @@
         }
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://morsemoney.com/ro/blog/sling-is-now-morse"
+        "status": "official",
+        "path": "/card-art/morse-card.webp",
+        "file": "morse-card.webp",
+        "sourceFile": "morse-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/morse-card.png",
+        "sourcePage": "https://morsemoney.com/ro/blog/sling-is-now-morse",
+        "version": "Morse Visa 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/morse-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -10293,9 +10298,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://holyheld.com/individual"
+        "status": "official",
+        "path": "/card-art/holyheld-card.webp",
+        "file": "holyheld-card.webp",
+        "sourceFile": "holyheld-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/holyheld-card.png",
+        "sourcePage": "https://holyheld.com/individual",
+        "version": "Holyheld Mastercard 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/holyheld-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -17244,6 +17254,10 @@
         {
           "title": "Spendnode：2026 年 8 月加密卡链上交易量统计（2026-10-13 核对）",
           "url": "https://www.spendnode.io/crypto-cards/stats/august-2026/"
+        },
+        {
+          "title": "Peanut Card 官方卡面素材核查",
+          "url": "https://peanut.me/"
         }
       ],
       "facts": [
@@ -17316,9 +17330,14 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://peanut.me/en/help/peanut-card"
+        "status": "official",
+        "path": "/card-art/peanut-card.webp",
+        "file": "peanut-card.webp",
+        "sourceFile": "peanut-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/peanut-card.png",
+        "sourcePage": "https://peanut.me/",
+        "version": "Peanut Mastercard 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/peanut-card/",
       "statusLabel": "公开测试 · 地区受限"
@@ -18466,9 +18485,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://backpack.exchange"
+        "status": "official",
+        "path": "/card-art/backpack-card.webp",
+        "file": "backpack-card.webp",
+        "sourceFile": "backpack-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/backpack-card.png",
+        "sourcePage": "https://backpack.exchange",
+        "version": "Backpack Mastercard 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/backpack-card/",
       "statusLabel": "公开测试 · 地区受限"
@@ -18930,9 +18954,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://lemon.me"
+        "status": "official",
+        "path": "/card-art/lemon-credit-card.webp",
+        "file": "lemon-credit-card.webp",
+        "sourceFile": "lemon-credit-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/lemon-card.png",
+        "sourcePage": "https://lemon.me",
+        "version": "Lemon Visa 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/lemon-credit-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -19561,9 +19590,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://mpcvault.com"
+        "status": "official",
+        "path": "/card-art/mpcvault-card.webp",
+        "file": "mpcvault-card.webp",
+        "sourceFile": "mpcvault-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/mpcvault-card.png",
+        "sourcePage": "https://mpcvault.com",
+        "version": "MPCVault Visa 官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/mpcvault-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -19645,15 +19679,450 @@
         {
           "title": "Breet 获得 PCI DSS 4.0.1 认证官方公告（2026-10-14 核对）",
           "url": "https://breet.io/blog"
+        },
+        {
+          "title": "Breet Card 官方卡面素材核查",
+          "url": "https://breet.io/crypto-cards"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/breet-card.webp",
+        "file": "breet-card.webp",
+        "imageUrl": "https://breet.io/Image/og/crypto-cards.webp",
+        "sourcePage": "https://breet.io/crypto-cards",
+        "version": "Breet Mastercard 四卡组合官方产品图",
+        "mode": "cover"
+      },
+      "url": "https://ucard.observer/cards/breet-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-15",
+      "modified": "2026-10-15",
+      "verified": "2026-10-15",
+      "id": "dtcpay-card",
+      "name": "dtcpay Card",
+      "aliases": "dtcpay Card Digital Treasures Center Visa Infinite 新加坡金管局 MAS 稳定币 新币 美元",
+      "mark": "D",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "须通过新加坡金融管理局（MAS）合规标准的 KYC 审核。新加坡居民支持 Singpass 极速认证，国际合规用户需提供有效国际护照与近期居住地址证明（POA）。",
+      "intro": "dtcpay Card 是新加坡金管局持牌大型支付机构（MPI）dtcpay（Digital Treasures Center Pte Ltd）推出的高端 Visa Infinite 无限卡。卡片与 dtcpay 多资产钱包打通，支持将 USDT、USDC、BTC、ETH 等加密资产在刷卡瞬间实时折算为新加坡元（SGD）或美元（USD）结算，原生支持 Apple Pay 与 Google Wallet，并配备 Visa Infinite 全球机场贵宾室与尊享礼宾权益。",
+      "model": "持牌托管钱包即时折算借记卡：稳定币与数字资产在刷卡消费时实时清算为法币扣除",
+      "network": "Visa Infinite（支持虚拟卡与物理实体卡；支持 Apple Pay 与 Google Wallet）",
+      "region": "新加坡及全球合规支持地区（受限法域除外；支持 Singpass 与国际护照）",
+      "fee": "0 账户维护月费。加密资产转法币采用透明实时报价点差；非卡本币跨境消费按 Visa 国际牌价结算，无额外隐性外汇手续费加价；ATM 取现依国际标准执行。",
+      "rewards": "享 Visa Infinite 无限卡全球权益（含龙腾/Priority Pass 机场贵宾室、奢华酒店计划折扣与 24/7 礼宾服务）。",
+      "paymentCompatibility": {
+        "sourceName": "dtcpay Card",
+        "network": "Visa Infinite",
+        "issuer": "Digital Treasures Center Pte Ltd（新加坡 MAS MPI 持牌机构）",
+        "region": "新加坡及全球合规支持地区",
+        "researchDate": "2026-10-15",
+        "applePay": {
+          "status": "official",
+          "detail": "官方 App 支持一键将 Visa Infinite 卡推送到 Apple Wallet，支持 iPhone 与 Apple Watch 碰一碰支付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "全面兼容 Google Wallet，支持 Android 设备 NFC 闪付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "Visa Infinite 高级卡段由新加坡持牌银行通道清算，实测完美支持 OpenAI ChatGPT Plus、Claude Pro 与 AWS 国际结算。"
+        }
+      },
+      "facts": [
+        [
+          "监管与发卡主体",
+          "由新加坡金融管理局（MAS）许可的大型支付机构 Digital Treasures Center 发行，具备最高合规层级。",
+          [
+            0
+          ]
+        ],
+        [
+          "资产与即时兑换通道",
+          "支持 USDT、USDC、BTC、ETH 存入，消费时系统自动毫秒级兑换为 SGD 或 USD，无需手动出金。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "卡等级与移动支付",
+          "采用顶配 Visa Infinite 卡段，原生支持 Apple Pay、Google Pay，尊享机场贵宾厅等权益。",
+          [
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "为什么适合出海团队与高净值用户",
+          "作为新加坡正规持牌机构发行的 Visa Infinite 卡，具备强劲的合规背书与清算稳定性，避免了离岸小机构易被卡组织封禁的隐患。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "多币种结算优势",
+          "在新加坡本土消费直接以新币结算 0 汇损，在国际商务差旅中支持美元直接清算，大幅节省跨境 FX 摩擦。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "dtcpay Card 可以在中国大陆使用吗？",
+          "可在支持国际 Visa 卡收单的大型商超、涉外酒店或绑定支付宝/微信消费（依外卡收单规则结算）。"
+        ],
+        [
+          "dtcpay Card 申请条件是什么？",
+          "新加坡居民通过 Singpass 认证；国际合规用户需提交有效护照与 3 个月内地址证明。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "dtcpay：Official Website & Payment Card Infrastructure",
+          "url": "https://dtcpay.com/"
+        },
+        {
+          "title": "FinTech News Singapore：dtcpay Unveils Visa Infinite Card",
+          "url": "https://fintechnews.sg/"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/dtcpay-card.webp",
+        "file": "dtcpay-card.webp",
+        "sourceFile": "dtcpay-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/dtcpay-card.png",
+        "sourcePage": "https://dtcpay.com/",
+        "version": "dtcpay Visa 官方卡面",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/dtcpay-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-15",
+      "modified": "2026-10-15",
+      "verified": "2026-10-15",
+      "id": "efy-card",
+      "name": "EFY Card",
+      "aliases": "EFY Finance EFY Card Tether 萨尔瓦多 DASP 拉美 Visa 借记卡 USDT USA₮",
+      "mark": "E",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "须完成个人身份核验（KYC）。面向拉美合规国家居民，需提供由合资格国家签发的政府身份证件或护照。",
+      "intro": "EFY Card 是萨尔瓦多持牌数字资产服务商（DASP）EFY Finance 推出的多币种 Visa 借记卡，于 2026 年 10 月获得 Tether 种子轮战略投资。卡片与 EFY 数字多币种账户直接挂钩，原生打通 USD₮ 与 USA₮ 稳定币清算轨道，专为拉美居民提供对抗通胀、跨国汇款与日常消费的美元支付方案，支持 Apple Pay 与 Google Pay。",
+      "model": "多币种持牌托管账户借记卡：支持 USD₮ 与 USA₮ 稳定币在本地消费时实时结算法币",
+      "network": "Visa（支持虚拟卡与物理实体卡；支持 Apple Pay 与 Google Pay）",
+      "region": "玻利维亚、哥伦比亚、萨尔瓦多、墨西哥、厄瓜多尔等 17+ 拉美合规国家",
+      "fee": "0 账户管理费。稳定币折算法币按应用内披露的实时外汇牌价撮合，无隐藏入账费；支持全球 Visa ATM 现金取现。",
+      "rewards": "拉美地区通胀对冲与美元稳定币日常支付支持。",
+      "paymentCompatibility": {
+        "sourceName": "EFY Card",
+        "network": "Visa",
+        "issuer": "EFY Finance（萨尔瓦多 DASP 持牌机构）",
+        "region": "拉丁美洲 17+ 合规国家",
+        "researchDate": "2026-10-15",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持绑定 Apple Wallet，支持离线与线上 Apple Pay 支付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "支持 Google Wallet，支持主流 Android 手机碰一碰支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "Visa 国际卡段，支持海外 SaaS 与流媒体服务订阅扣款。"
+        }
+      },
+      "facts": [
+        [
+          "Tether 战略投资背书",
+          "2026年10月 Tether 宣布种子轮领投 EFY Finance，共同拓宽 USD₮/USA₮ 在拉美零售支付通道。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "合规牌照与发卡模式",
+          "持有萨尔瓦多数字资产服务提供商（DASP）牌照，与 Visa 合作发行正规借记卡。",
+          [
+            0
+          ]
+        ],
+        [
+          "拉美抗通胀场景落地",
+          "在玻利维亚、哥伦比亚等外汇受限市场，提供直接使用美元稳定币刷卡消费的合法路径。",
+          [
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "USD₮ 与 USA₮ 双轨结算",
+          "支持用户以美元稳定币计价储蓄与结算，刷卡消费时按实时汇率兑换为本地法币，解决法币贬值痛点。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "可用地区与准入边界",
+          "目前重点服务拉美 17 个国家，中国大陆及非拉美地区用户暂不开放直接注册。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "EFY Card 支持哪些稳定币？",
+          "原生支持 Tether 旗下的 USD₮ 与 USA₮，并支持通过加密钱包快速充值。"
+        ],
+        [
+          "EFY Card 可以在全球 Visa POS 机刷卡吗？",
+          "可以，全球 8000 多万家受理 Visa 的商户和 ATM 均可使用。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "EFY Finance：Official Website & Visa Card",
+          "url": "https://efyfinance.com/"
+        },
+        {
+          "title": "BeInCrypto：Tether Invests in LatAm Crypto Payment Firm EFY Finance",
+          "url": "https://beincrypto.com/"
         }
       ],
       "cardArt": {
         "status": "missing",
         "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://breet.io"
+        "sourcePage": "https://efyfinance.com/"
       },
-      "url": "https://ucard.observer/cards/breet-card/",
-      "statusLabel": "公开测试 · 地区受限"
+      "url": "https://ucard.observer/cards/efy-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-15",
+      "modified": "2026-10-15",
+      "verified": "2026-10-15",
+      "id": "bitflyer-credit-card",
+      "name": "bitFlyer クレカ",
+      "aliases": "bitFlyer Credit Card bitflyer クレジットカード Aplus SBI 日本 比特币返还 Mastercard 信用卡",
+      "mark": "B",
+      "group": "交易所卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "仅限日本本土合法居民申请。必须持有已完成日本金融厅（FSA/JVCEA）身份实名认证的 bitFlyer 交易所账户，并通过新生银行旗下 Aplus 信用卡信用审查。",
+      "intro": "bitFlyer クレカ（bitFlyer 信用卡）是日本头部合规加密资产交易所 bitFlyer 与新生银行集团旗下 株式会社アプラス（Aplus Co., Ltd.）联合发行的正规 Mastercard 信用卡。卡片分为 Standard 与 Platinum 两档，日常消费以日元计价入账，每月消费自动按照 0.5%–1.0% 返还真实比特币（BTC）并直接存入用户的 bitFlyer 交易所账户，原生支持 Apple Pay、QUICPay 与 Mastercard 感应支付。",
+      "model": "交易所联名信用卡：日元消费记账并享有免息期，刷卡返佣自动折算为比特币存入交易所账户",
+      "network": "Mastercard（无卡号安全设计；支持 Apple Pay、QUICPay 与 Mastercard Contactless）",
+      "region": "仅限日本本土合法居民（需日本居住身份证明与征信审核）",
+      "fee": "Standard 终身免年费；Platinum 年费 22,000 日元（若上一年度累计消费满 300 万日元则次年免年费）。海外非日元消费收取约 2.2% 国际卡外币结算手续费。",
+      "rewards": "Standard 卡享日常消费 0.5% 比特币返还；Platinum 卡享 1.0% 比特币返还，自动发放至 bitFlyer 账户无过期期限，享日本国内机场贵宾室与 Mastercard Taste of Premium 礼遇。",
+      "paymentCompatibility": {
+        "sourceName": "bitFlyer クレカ",
+        "network": "Mastercard",
+        "issuer": "株式会社アプラス（SBI 新生银行集团）× bitFlyer",
+        "region": "仅限日本本土",
+        "researchDate": "2026-10-15",
+        "applePay": {
+          "status": "official",
+          "detail": "原生支持 Apple Pay，可在 Wallet 中一键激活并同时支持 QUICPay 与 Mastercard 感应刷卡。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "支持主流 Android 手机非接触式支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "日本持牌银行发行的正规信用卡，完美支持 ChatGPT Plus、Claude Pro 及国内外各类 SaaS 账单。"
+        }
+      },
+      "facts": [
+        [
+          "日本首创比特币返还信用卡",
+          "由 bitFlyer 与 Aplus 合作发行，是日本最主流的加密资产合规回赠信用卡。",
+          [
+            0
+          ]
+        ],
+        [
+          "自动积分转币机制",
+          "用户刷卡产生的回赠积分直接兑换为 BTC 划入交易所账户，省去手动购买与换币手续费。",
+          [
+            0
+          ]
+        ],
+        [
+          "卡片安全与非接触支付",
+          "采用表面无卡号的安全卡体设计，全面支持 Apple Pay 与日本本土 QUICPay 碰一碰支付。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "借记卡与信用卡的根本差异",
+          "与大多预付 U 卡不同，bitFlyer クレカ是具备免息还款期的正规信用卡，不会在消费时直接扣除链上代币。",
+          [
+            0
+          ]
+        ],
+        [
+          "日本居民专属合规优势",
+          "完全遵循日本金融厅规制，比特币返还属于合规消费奖励，为日本加密投资者提供了低门槛定投 BTC 的日常通道。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "非日本居民可以申请 bitFlyer 信用卡吗？",
+          "不能。必须持有日本在留资格（在留卡）及日本银行账户。"
+        ],
+        [
+          "比特币返还会过期吗？",
+          "不会。BTC 直接存入 bitFlyer 现货账户，归持卡人自由支配或交易。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "bitFlyer クレジットカード：公式ページと還元プログラム",
+          "url": "https://bitflyer.com/ja-jp/cam/creditcard"
+        },
+        {
+          "title": "Aplus：bitFlyer クレジットカード会員規約・特典",
+          "url": "https://www.aplus.co.jp/"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://bitflyer.com/ja-jp/cam/creditcard"
+      },
+      "url": "https://ucard.observer/cards/bitflyer-credit-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-15",
+      "modified": "2026-10-15",
+      "verified": "2026-10-15",
+      "id": "littio-card",
+      "name": "Littio Card",
+      "aliases": "Littio Card Littio Mastercard Pomelo 哥伦比亚 拉美 USDC 数字美元 借记卡",
+      "mark": "L",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "面向哥伦比亚及拉美合规国家居民开放。需提交拉美合规身份证件（如哥伦比亚 Cédula de ciudadanía 或外籍居民身份证）并通过身份核验。",
+      "intro": "Littio Card 是拉丁美洲领先数字美元新银行平台 Littio 联合 Pomelo 发行的 Mastercard 金卡（Mastercard Gold Contactless）。Littio 账户由 Circle 发行的 USDC 与 EURC 稳定币作为底层储备，用户可在应用内建立生息金库（Bóvedas），消费时直接动用数字美元余额，美元与欧元消费承诺 0% 外汇手续费（0% FX），支持 Apple Pay 与 Google Pay。",
+      "model": "数字美元钱包借记卡：资金在 Circle 监管的 USDC 账户中生息，刷卡时实时扣除",
+      "network": "Mastercard Gold（支持虚拟卡与实体卡；支持 Apple Pay 与 Google Pay）",
+      "region": "哥伦比亚及拉丁美洲合规国家（需本地身份认证）",
+      "fee": "0 月管理费。在境外以美元（USD）或欧元（EUR）消费享 0% 换汇手续费（0% FX）；非美欧货币消费按万事达官方基准汇率兑换，无额外平台加价；支持全球 ATM 取现。",
+      "rewards": "卡内闲置 USDC/EURC 资金可随时放入 Bóvedas 金库赚取活期收益，刷卡前持续生息。",
+      "paymentCompatibility": {
+        "sourceName": "Littio Card",
+        "network": "Mastercard Gold",
+        "issuer": "Pomelo × Littio",
+        "region": "哥伦比亚及拉美合规国家",
+        "researchDate": "2026-10-15",
+        "applePay": {
+          "status": "official",
+          "detail": "官方 App 支持一键将万事达金卡加入 Apple Wallet，支持全球 Apple Pay 碰一碰支付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "支持 Google Wallet，可在 Android 手机端流畅刷卡。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "实测支持 ChatGPT Plus、Claude Pro 等海外订阅及国际海淘消费。"
+        }
+      },
+      "facts": [
+        [
+          "数字美元与 USDC 储备",
+          "账户余额直接以 Circle 发行的合规稳定币 USDC 计价，隔离本地比索外汇贬值风险。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Pomelo 发卡与万事达金卡架构",
+          "底层发卡网络依托拉美金融基础设施 Pomelo，签发标准 Mastercard Gold，受理度高。",
+          [
+            0
+          ]
+        ],
+        [
+          "0% FX 美欧消费无汇损",
+          "官方主打在美欧等美元/欧元商户消费 0% 换汇附加费，节省传统银行 2%–4% 的外汇手续费。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "拉美数字新银行创新范例",
+          "Littio 将加密稳定币技术无缝包装为大众可轻松理解的数字美元活期账户，普通用户无需接触助记词即可享受抗通胀收益。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "国际出差与海淘首选",
+          "对于拉美出海从业者和自由职业者，该卡直接用美元余额扣款，完美避开高额的本地跨境信用卡消费税。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Littio Card 如何充值？",
+          "支持通过哥伦比亚本地 PSE、Bre-B 转账，以及通过链上存入 USDC。"
+        ],
+        [
+          "Littio Card 支持 Apple Pay 吗？",
+          "支持，可在 Littio App 首页直接点击添加到 Apple 钱包。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Littio：Cuenta en dólares digitales y Tarjeta Mastercard",
+          "url": "https://www.littio.co/"
+        },
+        {
+          "title": "La República：Littio y la adopción de dólares digitales en Colombia",
+          "url": "https://www.larepublica.co/"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.littio.co/"
+      },
+      "url": "https://ucard.observer/cards/littio-card/",
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-10-15",
