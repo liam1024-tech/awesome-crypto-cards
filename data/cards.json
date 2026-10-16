@@ -20117,9 +20117,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://efyfinance.com/"
+        "status": "official",
+        "path": "/card-art/efy-card.webp",
+        "file": "efy-card.webp",
+        "sourceFile": "efy-card.png",
+        "imageUrl": "https://www.efyfinance.com/assets/cards/efy-card-dig-black.webp",
+        "sourcePage": "https://efyfinance.com/",
+        "version": "efy Visa 官方数字卡面（官网直出）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/efy-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -20836,6 +20841,821 @@
       },
       "url": "https://ucard.observer/cards/cardano-card-archive/",
       "statusLabel": "已停服 · 历史档案"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "picnic-card",
+      "name": "Picnic Visa Card",
+      "aliases": "Picnic Visa Card usepicnic Gnosis Chain Safe Monerium Web3 IBAN Apple Pay 自托管 美元 欧元 借记卡",
+      "mark": "P",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "遵循国际反洗钱合规要求，支持有效个人法定身份证件完成身份核验，无繁琐居住证明（POA）障碍。",
+      "intro": "Picnic Visa Card（usepicnic.com）是一款基于 Gnosis Chain 的自托管 Web3 支付借记卡。底层结合 Safe 智能合约多签账户与冰岛持牌电子货币机构 Monerium 提供的合规个人 Web3 欧元/美元 IBAN 账户，打通链上资产与现实银行系统。用户资产完全由链上智能合约自托管，支持 Pix、ACH、SEPA 与链上加密货币直充，开卡立即可绑定 Apple Pay 与 Google Pay 进行全球非接触式闪付消费。",
+      "model": "Gnosis Chain Safe 智能合约自托管 + Monerium 欧洲持牌 Web3 IBAN：链上持有 EURe/USDe，刷卡即时通过 Visa 扣减",
+      "network": "Visa（支持虚拟卡与实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "region": "全球 180 多个国家和地区开放（包括拉美巴西 Pix、美国与欧洲合规法域）",
+      "fee": "0 账户月费，0 卡片年费；支持免手续费链上充值，法币与外币结算执行 Visa 实时汇率。",
+      "rewards": "自托管账户去中心化资管保障；享 Visa 国际标准借记卡全球商户受理与部分生态活动回馈。",
+      "paymentCompatibility": {
+        "sourceName": "Picnic Visa Card",
+        "network": "Visa",
+        "issuer": "Gnosis Chain Safe 与 Monerium（欧盟持牌 EMI）合作发行",
+        "region": "全球 180+ 国家和地区（含拉美、美国与欧洲等）",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "官方原生支持一键推送到 Apple Wallet，支持 iPhone 和 Apple Watch 碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方支持 Google Wallet，兼容 Android 设备 NFC 非接触式线下支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持国际标准 3D Secure 认证，稳定支持 OpenAI ChatGPT Plus、Claude Pro 等海外订阅。"
+        }
+      },
+      "facts": [
+        [
+          "Safe 智能合约自托管架构",
+          "用户私钥自持，卡片扣款仅直接触发 Gnosis Chain 上的 Safe 智能合约，无中心化挪用或拔线风险。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Monerium 合规 Web3 IBAN 直通",
+          "由受欧盟监管的持牌机构 Monerium 提供链上绑定的 IBAN 账户，支持 SEPA/ACH 与链上原生欧元 EURe 一键互通。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "多通道无摩擦出入金",
+          "除加密货币充值外，原生打通巴西 Pix 本地快捷支付与欧美主流清算网络。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "自托管安全架构与传统预付卡对比",
+          "多数预付 U卡要求把稳定币提前转入离岸中心化卡账户，一旦通道被吊销资金即面临冻结。Picnic 将资产保留在用户自持的 Safe 智能合约中，只有在发生实际 Visa 刷卡清算时才触发链上划转。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "日常消费与 Apple Pay 体验",
+          "虚拟卡生成后可秒级推送至 Apple Wallet，无论是线下商超机具碰一碰闪付，还是海外应用内购买，均享有原生国际借记卡的刷卡体验。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Picnic Visa Card 是谁发行的？",
+          "底层由 Gnosis Chain 智能账户与欧洲合规持牌电子货币机构（EMI）Monerium 联合构建，依托 Visa 清算网络发行。"
+        ],
+        [
+          "Picnic Card 支持绑定 Apple Pay 吗？",
+          "支持。App 内支持一键推送添加至 Apple Wallet 与 Google Wallet，无需实体卡即可在支持 Visa 感应的 POS 机上触碰消费。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Picnic 官方网站：Self-Custody Visa Card & Web3 Accounts",
+          "url": "https://usepicnic.com"
+        },
+        {
+          "title": "Monerium：EU Licensed Electronic Money Institution on Gnosis Chain",
+          "url": "https://monerium.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://usepicnic.com"
+      },
+      "url": "https://ucard.observer/cards/picnic-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "woocard-visa",
+      "name": "WooCard",
+      "aliases": "WooCard woocard io Telegram Mini-App Visa 预付卡 免KYC AI Agent API 匿名 虚拟卡",
+      "mark": "W",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "conditional",
+      "kycNote": "支持轻量级隐私准入方案（提供免 KYC 试用额度档位），高阶额度档位支持国际身份快速核验。",
+      "intro": "WooCard（woocard.io）是专为 Telegram 生态与 AI Agent 自动化打造的 Visa 国际预付卡。全流程嵌入 Telegram Mini-App，无需下载独立应用即可秒级开卡、链上多币种充值（USDT、USDC、BTC、ETH、TRX）与实时接收 3DS 动态短信。同时支持 Apple Pay 与 Google Pay 碰一碰支付，并开放高权限开发者 API，允许自主 AI Agent 程序化开卡与自动化采购。",
+      "model": "Telegram 原生轻量钱包直通 Visa 预付卡：支持多链稳定币即时充值，提供开发者自动化 API",
+      "network": "Visa（支持虚拟卡，原生支持 Apple Pay 与 Google Pay）",
+      "region": "全球大部分地区可用（受制裁国家除外）",
+      "fee": "0 月费，无账户维护费；充值手续费约 2.8%，加密货币兑换摩擦约 0.1%，POS 消费执行 Visa 汇率。",
+      "rewards": "支持高达 $200,000/月的高额消费上限；提供 AI Agent 开发者返佣与生态推广激励。",
+      "paymentCompatibility": {
+        "sourceName": "WooCard",
+        "network": "Visa",
+        "issuer": "Telegram 生态技术集成联合持牌 Visa 发卡机构",
+        "region": "全球大部分国家和地区（国际通用）",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "支持加入 Apple Wallet，可在支持 Visa Contactless 的线下 POS 终端碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "支持绑定 Google Pay，兼容主流 Android 设备非接触式刷卡。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "自带完整 3D Secure 认证且短信在 Telegram 机器人秒级推送，实测支持 ChatGPT Plus、Claude Pro 等订阅。"
+        }
+      },
+      "facts": [
+        [
+          "Telegram Mini-App 一键发卡",
+          "无需在手机上额外安装臃肿的 App，直接在 Telegram 聊天内调起小程序完成发卡与余额管理。",
+          [
+            0
+          ]
+        ],
+        [
+          "多链充值与极速 3DS 验证",
+          "支持 TRC20/ERC20/BEP20 等多链充值，网上消费遇到 3DS 动态验证码时直接由 TG 机器人毫秒级推送。",
+          [
+            0
+          ]
+        ],
+        [
+          "开发者与 AI Agent 专属 API",
+          "提供完善的 RESTful API 接口，允许自动化脚本与 AI 智能体自主调用完成卡片开立、充值与 SaaS 费用代扣。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "Telegram 生态卡片的便携与隐私优势",
+          "在 Telegram 内完成发卡与资产充值，极大降低了传统金融 App 的合规摩擦与数据泄露风险，小额场景免去繁杂认证。",
+          [
+            0
+          ]
+        ],
+        [
+          "AI Agent 自动化支付场景拓展",
+          "随着 AI Agent 走向自主执行任务，WooCard 提供的 API 让智能体拥有了合法的 Visa 支付凭证，可自主购买算力与 API 接口。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "申请 WooCard 需要提供身份证或护照吗？",
+          "基础试用档位支持轻量级隐私开卡，适合日常小额与订阅开销；若需开通更高月度限额（如数万美元级别），需配合完成合规实名认证。"
+        ],
+        [
+          "WooCard 验证码怎么接收？",
+          "所有 3DS 刷卡确认码均在 Telegram 官方 Bot 中实时推送，无需实体手机 SIM 卡。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "WooCard 官方网站与 Telegram 支付入口",
+          "url": "https://woocard.io"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://woocard.io"
+      },
+      "url": "https://ucard.observer/cards/woocard-visa/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "coinw-card",
+      "name": "CoinW Card",
+      "aliases": "CoinW Card coinw 交易所卡 Visa Mastercard 实时扣款 USDT 出金 借记卡",
+      "mark": "C",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需完成 CoinW 交易所账户实名认证（KYC Level 1 / Level 2），支持多国护照与合规身份证明。",
+      "intro": "CoinW Card 是全球主流加密货币交易所 CoinW 官方推出的 Visa / Mastercard 国际支付卡。卡片直接连接 CoinW 交易所账户资金池，持卡人在全球消费时，系统实时将现货、理财或交易收益账户中的 USDT 自动兑换为法币完成结算，无需提前手动卖币出金。支持线上 3DS 国际网购、海外 AI 订阅，并支持绑定 Apple Pay 与 Google Pay 进行便捷移动支付。",
+      "model": "交易所账户原生直连卡：以 CoinW 现货/理财账户 USDT 余额为底层清算资金，刷卡即时划转兑换",
+      "network": "Visa / Mastercard（提供虚拟卡与实体卡，支持 Apple Pay 与 Google Pay）",
+      "region": "面向 CoinW 国际合规覆盖地区用户开放（不面向受限法域居民）",
+      "fee": "0 账户月费，虚拟卡免工本费；刷卡实时结算按实时汇率兑换，无繁杂隐性月度扣费。",
+      "rewards": "支持结合 CoinW 交易 VIP 等级减免充提手续费，尊享交易所专属活动与交易返佣权益。",
+      "paymentCompatibility": {
+        "sourceName": "CoinW Card",
+        "network": "Visa / Mastercard",
+        "issuer": "CoinW Exchange 联合持牌 BaaS 发卡行",
+        "region": "CoinW 国际合规支持地区（亚太/拉美/欧洲等）",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持推送到 Apple Wallet，支持 iOS 设备非接触式刷卡消费。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "兼容 Google Wallet，支持全球主流 Android 手机 NFC 感应支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "具备标准 3DS 验证，支持 OpenAI ChatGPT Plus、Claude Pro 等海外商户扣费。"
+        }
+      },
+      "facts": [
+        [
+          "交易所余额实时划扣",
+          "消费时直接扣减 CoinW 账户内的 USDT 余额，省去传统 P2P OTC 卖币遭遇银行卡冻结的烦恼。",
+          [
+            0
+          ]
+        ],
+        [
+          "国际双卡组织支持",
+          "提供 Visa 与 Mastercard 两种渠道卡段，方便用户根据具体商户场景自由选用。",
+          [
+            0
+          ]
+        ],
+        [
+          "合规中心化资管保障",
+          "发卡方为运营多年且持有多地合规金融牌照的头部加密交易所，账户资金合规隔离。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "为什么交易所原生卡是安全出金首选",
+          "相比第三方不知名白标小卡，交易所官方卡最大的优势在于资金无需流转至外部不受监管的资金池，且消费即清算，彻底规避 OTC 冻卡风险。",
+          [
+            0
+          ]
+        ],
+        [
+          "与 Bybit Card / Gate Card 的定位差异",
+          "CoinW Card 面向全球更广泛的现货与合约交易者，其开卡门槛亲民，适合将日常交易盈利无缝转化为全球消费力。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "申请 CoinW Card 需要质押平台币吗？",
+          "常规虚拟卡申请不需要大额质押平台币，只需完成基础交易所 KYC 认证并充值满足最低消费保证金即可。"
+        ],
+        [
+          "刷卡消费扣的是什么币种？",
+          "默认实时扣减 CoinW 现货账户中的 USDT 资产，系统依国际汇率自动转为当地法币结算。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CoinW 交易所官方卡片服务与申请指南",
+          "url": "https://www.coinw.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.coinw.com"
+      },
+      "url": "https://ucard.observer/cards/coinw-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "swapster-card",
+      "name": "Swapster Card",
+      "aliases": "Swapster Card swapster fi Telegram Bot SwapsterBot 虚拟卡 TON USDT Apple Pay 支付卡",
+      "mark": "S",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "conditional",
+      "kycNote": "支持分级身份验证（Tiered KYC），基础小额消费支持快速免证件开启，大额消费支持标准合规认证。",
+      "intro": "Swapster Card（swapster.fi）是深度整合 Telegram 生态与多链非托管钱包的创新加密预付卡。用户可通过 Telegram 官方机器人（@SwapsterBot）或独立移动客户端秒级申请 Visa / Mastercard 虚拟卡。支持以 TON、USDT、USDC、BTC、ETH 等主流数字资产即时充值，消费手续费低至 0%，全面支持 Apple Pay 与 Google Pay 触碰式线下闪付，并稳定支持各类国际 AI 工具与流媒体订阅。",
+      "model": "Telegram 机器人 / 移动 App 直通 Visa/Mastercard 预付卡：支持 TON 与多链稳定币即时充值",
+      "network": "Visa / Mastercard（提供虚拟预付卡，原生支持 Apple Pay 与 Google Pay）",
+      "region": "全球多国和地区通用（受制裁管辖区除外）",
+      "fee": "0 月费，无年费；消费刷卡 0% 交易手续费，卡片充值费约 2.5%，汇率依国际卡组织结算。",
+      "rewards": "免交易手续费政策，支持 TON 生态激励与空投返现活动。",
+      "paymentCompatibility": {
+        "sourceName": "Swapster Card",
+        "network": "Visa / Mastercard",
+        "issuer": "Swapster 联合持牌卡片清算合作方",
+        "region": "全球主要地区开放（国际多法域通用）",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "支持一键添加至 Apple Wallet，支持 iPhone / Apple Watch 碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "兼容 Google Wallet，支持 Android 设备全球 NFC 触碰消费。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持 3DS 安全验证，短信在 Telegram 机器人即时弹出，实测支持 ChatGPT Plus、Claude 等海外订阅。"
+        }
+      },
+      "facts": [
+        [
+          "Telegram 机器人秒级交互",
+          "通过 @SwapsterBot 即可完成所有卡片操作，查余额、看卡号、收验证码全在聊天界面内完成。",
+          [
+            0
+          ]
+        ],
+        [
+          "TON 生态深度兼容",
+          "不仅支持常规 EVM 稳定币，还原生打通 Telegram TON 钱包快速入金，极速确认。",
+          [
+            0
+          ]
+        ],
+        [
+          "刷卡 0% 交易费",
+          "官方在刷卡消费环节免收交易手续费，仅在充值时收取透明的通道处理费。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "TON 与 Telegram 用户的轻便支付选择",
+          "对于重度使用 Telegram 的 Web3 用户，Swapster 提供了极佳的使用体验，无需繁杂的开卡步骤即可让钱包资产直接用于线下消费。",
+          [
+            0
+          ]
+        ],
+        [
+          "海外订阅与防风控建议",
+          "由于 3DS 验证码直接由机器人极速送达，在订阅 OpenAI、Netflix 等对动态验证要求严格的平台时，成功率显著高于普通预付卡。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Swapster 虚拟卡可以添加 Apple Pay 吗？",
+          "可以。虚拟卡开通后会提供完整卡号、CVV 与有效期，支持直接绑定至 Apple Pay 与 Google Wallet。"
+        ],
+        [
+          "怎么向 Swapster 卡充值？",
+          "在 @SwapsterBot 中选择 Deposit，系统生成专属充值地址，支持发送 TON、USDT（TRC20/ERC20/BEP20）等代币，到账后即时转为可用消费额度。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Swapster 官方网站：Multi-currency Crypto Cards & Telegram Bot",
+          "url": "https://swapster.fi"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://swapster.fi"
+      },
+      "url": "https://ucard.observer/cards/swapster-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "helios-reserve-card",
+      "name": "Helios Reserve Credit Card",
+      "aliases": "Helios Reserve Credit Card heliosreserve heliosfinance Morpho 借贷信用卡 不卖币消费 BTC返现 Rain Visa",
+      "mark": "H",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需通过合作方 Rain 的合规身份验证（KYC），支持多国国际有效法定证件。",
+      "intro": "Helios Reserve Credit Card（heliosreserve.xyz）是基于 Morpho 去中心化借贷协议打造的创新型真·加密信用卡（Rain Visa）。其核心机制为“抵押不卖币消费”：持卡人将比特币（BTC）或代币化生息资产（如 Canton Coin）存入链上审计智能合约作为质押品，获取循环 Visa 信用授信额度。用户在避免触发应税卖币事件的同时获取即时流动性，日常刷卡消费更可赚取原生比特币（BTC）返现，并原生兼容 Apple Pay 与 Google Pay。",
+      "model": "DeFi 非托管抵押借贷信用卡：以 Morpho 链上金库为抵押获取 Visa 信用授信，资产不离链且消费返原生 BTC",
+      "network": "Visa（支持虚拟卡与奢华实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "region": "全球 100 多个主流合规国家和地区（受制裁地区除外）",
+      "fee": "0 账户月费，免卡片年费；借贷利息依 Morpho 链上资金池实时浮动利率计算，POS 刷卡按 Visa 汇率清算。",
+      "rewards": "日常合规消费最高享 2% 原生比特币（BTC）真实返现，直接发入链上自托管钱包。",
+      "paymentCompatibility": {
+        "sourceName": "Helios Reserve Credit Card",
+        "network": "Visa",
+        "issuer": "Helios Finance 与 Rain（Visa 主会员）/ Morpho 借贷网络",
+        "region": "全球 100+ 合规国家和地区",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "原生支持推送到 Apple Wallet，支持 iPhone / Apple Watch 碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "原生支持 Google Wallet，支持全球 Android 设备非接触刷卡。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "由 Rain 提供机构级底层清算，支持 OpenAI、Claude 及海外云服务稳定结算。"
+        }
+      },
+      "facts": [
+        [
+          "真正的链上抵押信用卡",
+          "不同于预付借记卡，Helios 是基于信用额度的信用卡，日常消费由信贷协议垫付，每月统一结算还款。",
+          [
+            0
+          ]
+        ],
+        [
+          "Morpho 借贷协议风控",
+          "底层质押资产存入透明且经过严格安全审计的 Morpho 金库，链上实时计算健康度因子（Health Factor）。",
+          [
+            0
+          ]
+        ],
+        [
+          "原生比特币返现回馈",
+          "消费返利直接以真实 BTC 形式发放至链上钱包，拒绝虚构空气积分。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "为什么说抵押借贷卡是 Web3 支付新趋势",
+          "长期看好加密资产的持币者最忌讳在牛市前夕卖币变现。Helios 实现了“币依然在链上赚涨幅，线下消费照样花”的双赢架构。",
+          [
+            0
+          ]
+        ],
+        [
+          "信用健康度与清算风险提示",
+          "借贷消费必须关注底层抵押资产价格波动。若加密货币行情发生剧烈回撤，持卡人需及时补仓或还款，防止抵押物触发清算。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Helios Reserve Card 是一张借记卡还是信用卡？",
+          "这是一张真正的加密资产抵押信用卡。用户以加密货币作为保证金获得信用授信额度，刷卡由借贷池即时清算，无需预先卖出代币。"
+        ],
+        [
+          "消费返现给的是什么？",
+          "所有符合资格的消费均返还真实的比特币（BTC），直接计入链上钱包，无繁琐提现门槛。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Helios Reserve 官方网站：Borrow Against Crypto with Visa Credit",
+          "url": "https://heliosreserve.xyz"
+        },
+        {
+          "title": "Morpho：Decentralized Lending Infrastructure & Smart Contracts",
+          "url": "https://morpho.org"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://heliosreserve.xyz"
+      },
+      "url": "https://ucard.observer/cards/helios-reserve-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "payy-card",
+      "name": "Payy Card",
+      "aliases": "Payy Card payy network 以太坊 ZK L2 零知识证明 隐私稳定币卡 Rain Visa 自托管 虚拟卡",
+      "mark": "P",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "采用零知识隐私保护合规核验（Privacy-Preserving KYC），既满足卡组织反洗钱合规，又最大化保护用户链上链下数据隔离。",
+      "intro": "Payy Card（payy.network）是全球首款基于以太坊零知识证明（ZK Layer-2）打造的隐私稳定币支付卡（Rain Visa）。被誉为“稳定币领域的隐私 Apple Pay”，Payy 运用先进的 ZK-SNARKs 技术，在保护用户链上钱包地址、资产余额与消费明细不向商户及公链浏览器公开的前提下，实现毫秒级 Visa POS 刷卡清算。持卡人自持私钥，支持直接在 Apple Pay 和 Google Wallet 中使用 USDC 触碰闪付。",
+      "model": "以太坊 ZK Layer-2 隐私自托管 + Rain Visa 支付清算：链上零知识加密 USDC 余额，刷卡端即时授权",
+      "network": "Visa（支持虚拟卡与物理实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "region": "全球多国合规测试与早期准入（分批开放支持地区）",
+      "fee": "0 账户月费，免卡片年费；ZK 链上转账极低 Gas，刷卡消费按 Visa 实时汇率直接结算。",
+      "rewards": "自持私钥与零知识隐私资管保障；享 Visa 国际卡专属权益与 Payy 早期网络空投活动。",
+      "paymentCompatibility": {
+        "sourceName": "Payy Card",
+        "network": "Visa",
+        "issuer": "Rain（Visa 主会员）与 Payy Network（ZK L2 网络）",
+        "region": "全球分批开放合规准入国家和地区",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "原生支持推送到 Apple Wallet，支持 iPhone / Apple Watch 碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "支持加入 Google Wallet，可在全球 Visa 感应终端进行非接触式支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持 3DS 国际安全校验，实测支持海外 SaaS、AI 平台与数字娱乐订阅。"
+        }
+      },
+      "facts": [
+        [
+          "零知识证明保护消费隐私",
+          "线下刷卡或线上支付时，商户与区块链数据分析机构无法将物理消费轨迹反向关联到用户的链上主钱包地址。",
+          [
+            0
+          ]
+        ],
+        [
+          "以太坊 ZK-Rollup 原生扩容",
+          "运行在专为稳定币微支付优化的 ZK L2 上，交易确认仅需毫秒级，且 Gas 消耗微乎其微。",
+          [
+            0
+          ]
+        ],
+        [
+          "Rain 机构级 Visa 合作",
+          "底层由 Visa 核心主会员 Rain 提供通道清算，确保全球超 1 亿家商户的稳定受理率。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "加密支付中的“链上隐私”痛点与解决",
+          "普通自托管卡在扣款时往往会在公链上暴露用户地址，任何转账记录均可被链上追踪。Payy 通过 ZK 技术彻底斩断了物理消费与链上资产的公开关联。",
+          [
+            0
+          ]
+        ],
+        [
+          "Apple Pay 触碰支付的顺畅融合",
+          "将 ZK 链上凭据与手机端 Secure Enclave 结合，在享受顶尖隐私保护的同时，保持了普通银行卡碰一碰秒付的流畅体验。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Payy Card 如何保护我的链上隐私？",
+          "Payy 在以太坊 ZK L2 网络上运行，交易金额、钱包地址与用户身份通过零知识数学证明进行加密验证，区块链浏览器上不会泄露你的消费流向与资产总额。"
+        ],
+        [
+          "可以在国内超市或线上商店刷卡吗？",
+          "可以。只要该商户支持 Visa 国际卡或 Apple Pay 感应支付，即可顺畅完成付款。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Payy Network 官方网站：The Privacy-First Stablecoin Card",
+          "url": "https://payy.network"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://payy.network"
+      },
+      "url": "https://ucard.observer/cards/payy-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "ontop-card",
+      "name": "Ontop Visa Card",
+      "aliases": "Ontop Visa Card getontop 新数字银行 跨境自由职业者 远程办公 稳定币 发薪卡 Mastercard BVNK",
+      "mark": "O",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "遵循国际数字银行标准 KYB / KYC 流程，支持 150 多个国家的自由职业者、远程雇员与企业员工合法申请。",
+      "intro": "Ontop Visa Card（getontop.com）是专为全球跨境雇员、自由职业者与远程团队打造的国际综合支付卡。平台不仅提供合规的美元银行账户与稳定币提现网络，更于 2026 年 10 月 15 日作为首发核心伙伴接入万事达（Mastercard）与 BVNK 联合推出的 Global Money Platform 全球稳定币清算网络。持卡人可将收到的美元或稳定币薪资一键存入 Ontop 卡中，全球 150+ 国家自由消费，并深度兼容 Apple Pay 与 Google Wallet。",
+      "model": "全球数字银行个人账户 + 稳定币薪资清算直通 Visa/Mastercard：支持加密发薪与现实日常消费即时打通",
+      "network": "Visa / Mastercard（提供虚拟卡与实体卡，支持 Apple Pay 与 Google Wallet）",
+      "region": "全球 150 多个国家和地区开放合规申请（覆盖拉美、亚太、非洲与欧美）",
+      "fee": "0 开卡费，0 账户维护月费；本地法币消费 0 手续费，跨境外汇兑换按国际清算牌价执行。",
+      "rewards": "尊享全球远程办公生态权益折扣，支持合规高额薪资出入金与企业级财务管理。",
+      "paymentCompatibility": {
+        "sourceName": "Ontop Visa Card",
+        "network": "Visa / Mastercard",
+        "issuer": "Ontop 与持牌银行机构 / BVNK Global Money Platform",
+        "region": "全球 150+ 国家和地区（面向跨境与远程工作者）",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "支持一键推送到 Apple Wallet，支持 iPhone / Apple Watch 碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "兼容 Google Wallet，支持全球 Android 终端非接触式移动支付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "拥有合规银行 BIN 码与 3DS 认证，稳定支持各类海外开发工具、SaaS 与 AI 订阅。"
+        }
+      },
+      "facts": [
+        [
+          "全球远程工作者首选发薪卡",
+          "服务覆盖 150 多个国家，帮助远程雇员合法合规将海外薪水转换为日常刷卡消费额度。",
+          [
+            0
+          ]
+        ],
+        [
+          "Mastercard & BVNK 战略首发伙伴",
+          "2026 年 10 月作为核心上线伙伴接入万事达与 BVNK 打造的全球稳定币企业与零售清算枢纽。",
+          [
+            0
+          ]
+        ],
+        [
+          "0 开卡费与 0 月费",
+          "个人虚拟卡开通完全免费，无隐藏账户管理费，有效降低自由职业者的资管摩擦。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "告别离岸灰色出金，拥抱合规发薪网络",
+          "许多出海自由职业者通过 P2P 卖 USDT 经常面临国内账户冻结的巨大困扰。Ontop 通过正规数字银行发薪架构，让稳定币资金合规落地为国际卡消费。",
+          [
+            0
+          ]
+        ],
+        [
+          "跨平台多币种无缝流动",
+          "无论雇主是通过 ACH、Wire、SEPA 电汇还是 USDT/USDC 支付报酬，都能快速集中在 Ontop 账户内随时刷卡消费。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "个人自由职业者可以申请 Ontop Card 吗？",
+          "可以。Ontop 支持全球个人签约远程工作者、外包开发者与跨境电商从业者在线开户并免费领取虚拟卡。"
+        ],
+        [
+          "支持绑定 Apple Pay 线下刷卡吗？",
+          "支持。虚拟卡开通后可即时添加至 Apple Pay 与 Google Wallet，在全球支持 Visa/Mastercard 感应的机具上刷卡。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Ontop 官方网站：Global Payroll & Visa Cards for Remote Workers",
+          "url": "https://getontop.com"
+        },
+        {
+          "title": "BVNK & Mastercard：Global Money Platform Launch Partnership",
+          "url": "https://bvnk.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://getontop.com"
+      },
+      "url": "https://ucard.observer/cards/ontop-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-16",
+      "modified": "2026-10-16",
+      "verified": "2026-10-16",
+      "id": "straitsx-visa",
+      "name": "StraitsX Visa Card",
+      "aliases": "StraitsX Visa Card straitsx 新加坡 金管局 MAS MPI 稳定币卡 XSGD XUSD USDC 借记卡",
+      "mark": "S",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "遵循新加坡金融管理局（MAS）反洗钱及合规标准，完成法定实名核验（KYC / KYB）。",
+      "intro": "StraitsX Visa Card（straitsx.com）是由新加坡金融管理局（MAS）持牌大型支付机构（MPI）StraitsX 与 Visa 官方深度直连合作推出的原生稳定币支付卡计划。依托在东南亚年处理逾 60 亿美元的合规体量，StraitsX Visa 支持将原生法定稳定币 XSGD（新加坡元稳定币）、XUSD 及 USDC 在全球 1 亿多家 Visa 商户进行即时点对点清算扣减。支持 Apple Pay 与 Google Wallet，为亚太及全球合规数字资产用户提供最高标准的法币稳定币直通消费通道。",
+      "model": "新加坡金管局持牌 MPI 稳定币直清 Visa 卡：支持 XSGD、XUSD、USDC 毫秒级转换为本地法币清算",
+      "network": "Visa（支持虚拟卡与物理实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "region": "以亚太为核心，扩展至全球 100 多个合规开放市场",
+      "fee": "0 账户月费；稳定币与新加坡元/美元清算执行机构级透明牌价，依 Visa 国际网络汇率结算。",
+      "rewards": "新加坡 MAS 持牌机构主权级安全合规背书；享 Visa 国际卡优选商户权益与亚太合规生态赋能。",
+      "paymentCompatibility": {
+        "sourceName": "StraitsX Visa Card",
+        "network": "Visa",
+        "issuer": "StraitsX（MAS 持牌主要支付机构）与 Visa 官方直连",
+        "region": "新加坡及全球 100+ 合规国家和地区",
+        "researchDate": "2026-10-16",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持一键推送到 Apple Wallet，可在全球 Visa 终端触碰刷卡消费。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "兼容 Google Wallet，支持 Android 手机 NFC 感应闪付。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "具备顶级银行机构 3DS 校验通道，实测全面兼容 OpenAI、Claude 及海外云端服务。"
+        }
+      },
+      "facts": [
+        [
+          "新加坡 MAS 持牌主要支付机构（MPI）",
+          "由受新加坡金融管理局牌照严格监管的金融科技机构 StraitsX 官方发行，资金受法规隔离保护。",
+          [
+            0
+          ]
+        ],
+        [
+          "原生稳定币直接消费",
+          "支持以 XSGD（新元稳定币）及主流美元稳定币直接结算，避免二次兑换汇损。",
+          [
+            0
+          ]
+        ],
+        [
+          "Visa 官方战略直连网络",
+          "由 Visa 直接提供清算接口与数字卡 Tokenization 赋能，全球 1 亿多家商户无缝受理。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "亚洲最高监管标准下的稳定币卡范本",
+          "在众多离岸野鸡发卡平台频频暴雷的背景下，StraitsX 提供了极少数拥有全球顶级金融中心（新加坡）官方牌照背书的合规安全港。",
+          [
+            0
+          ]
+        ],
+        [
+          "东南亚与全球跨国消费的最佳桥梁",
+          "不仅在新加坡本地享有无与伦比的受理便利度，跨国差旅或线上海外采购时，XSGD 与 USDC 均能秒级转换为对应币种扣款。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "StraitsX Visa Card 安全吗？",
+          "非常安全。发卡主体 StraitsX 持有新加坡金管局（MAS）颁发的主要支付机构（MPI）牌照，所有稳定币储备资产均受正规银行独立存管。"
+        ],
+        [
+          "支持用什么币种还款或充值？",
+          "支持直接以链上 XSGD、XUSD 与 USDC 进行充值，亦支持新加坡本地 PayNow 与银行转账渠道。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "StraitsX 官方网站：Licensed Stablecoin Infrastructure & Visa Card",
+          "url": "https://www.straitsx.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.straitsx.com"
+      },
+      "url": "https://ucard.observer/cards/straitsx-visa/",
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-10-15",

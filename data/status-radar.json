@@ -4015,6 +4015,13 @@
       "verified": "2026-10-15",
       "changelogs": [
         {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "卡面收录",
+          "title": "补上官方原生正面平视数字卡面",
+          "note": "在 EFY Finance 官方主站（efyfinance.com）提取并验证原生 1536×969 高清平视 WebP 卡面（标准 1.585:1 银行卡比例），带银白色 VISA 标识与官方 efy 标识。已生成 200w/400w 响应式图像并在全站展示。"
+        },
+        {
           "date": "2026-10-15",
           "type": "product",
           "tag": "新品收录",
@@ -4149,6 +4156,150 @@
           "tag": "上线",
           "title": "EMURGO 与 Wirex 合作推出 Visa 多链支付卡",
           "note": "Cardano 生态开发机构 EMURGO 与 Wirex 合作上线 Cardano Card，嵌入 Wirex App，面向其覆盖的 130 多个国家和地区，支持以 ADA、BTC、ETH、USDC 等资产在受理 Visa 的商户消费。"
+        }
+      ]
+    },
+    {
+      "id": "picnic-card",
+      "name": "Picnic Visa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡与实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "Gnosis Chain Safe 智能合约自托管 + Monerium 欧洲持牌 Web3 IBAN：链上持有 EURe/USDe，刷卡即时通过 Visa 扣减",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录基于 Safe 智能合约与 Monerium IBAN 的 Picnic Visa 卡",
+          "note": "完成 Picnic 官方 Visa 借记卡核验：确认采用 Gnosis Chain Safe 智能合约自托管架构、冰岛持牌机构 Monerium Web3 IBAN、支持 Pix/ACH/SEPA 与 Apple Pay 触碰支付，0 月费与 0 年费。"
+        }
+      ]
+    },
+    {
+      "id": "woocard-visa",
+      "name": "WooCard",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "Telegram 原生轻量钱包直通 Visa 预付卡：支持多链稳定币即时充值，提供开发者自动化 API",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Telegram 原生集成与 AI Agent 赋能的 WooCard Visa 预付卡",
+          "note": "完成 WooCard 官方 Telegram Mini-App 核验：确认支持 Telegram 内一键开卡、多链稳定币充值、极速 3DS 验证码推送、Apple Pay 闪付与专属 AI Agent 自动化程序化调用 API。"
+        }
+      ]
+    },
+    {
+      "id": "coinw-card",
+      "name": "CoinW Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard（提供虚拟卡与实体卡，支持 Apple Pay 与 Google Pay）",
+      "model": "交易所账户原生直连卡：以 CoinW 现货/理财账户 USDT 余额为底层清算资金，刷卡即时划转兑换",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 CoinW 交易所官方直连 Visa/Mastercard 借记卡",
+          "note": "完成 CoinW 官方支付卡核验：确认支持直接划扣交易所内 USDT 现货及理财余额、实时兑换法币清算、免手动 OTC 出金、支持 Apple Pay / Google Pay 与 3DS 线上订阅。"
+        }
+      ]
+    },
+    {
+      "id": "swapster-card",
+      "name": "Swapster Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard（提供虚拟预付卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "Telegram 机器人 / 移动 App 直通 Visa/Mastercard 预付卡：支持 TON 与多链稳定币即时充值",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录支持 TON 与 Telegram Bot 的 Swapster 预付卡",
+          "note": "完成 Swapster 官方预付卡与 @SwapsterBot 核验：确认支持 Telegram 机器人秒级管理、TON 原生生态充值、刷卡消费 0% 交易费，以及 Apple Pay 碰一碰线下支付。"
+        }
+      ]
+    },
+    {
+      "id": "helios-reserve-card",
+      "name": "Helios Reserve Credit Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡与奢华实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "DeFi 非托管抵押借贷信用卡：以 Morpho 链上金库为抵押获取 Visa 信用授信，资产不离链且消费返原生 BTC",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录基于 Morpho 链上借贷抵押的 Helios Reserve 信用卡",
+          "note": "完成 Helios Reserve 官方信用卡核验：确认基于 Morpho 去中心化借贷金库实现“抵押不卖币消费”、日常消费享原生比特币（BTC）真实返现、Rain 机构级 Visa 清算与 Apple Pay 支持。"
+        }
+      ]
+    },
+    {
+      "id": "payy-card",
+      "name": "Payy Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡与物理实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "以太坊 ZK Layer-2 隐私自托管 + Rain Visa 支付清算：链上零知识加密 USDC 余额，刷卡端即时授权",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录基于以太坊 ZK L2 零知识隐私的 Payy Visa 卡",
+          "note": "完成 Payy Network 官方 ZK 稳定币卡核验：确认依托零知识证明技术隔离链上主钱包与现实消费轨迹、私钥自持、Rain Visa 机构级清算并原生支持 Apple Pay 闪付。"
+        }
+      ]
+    },
+    {
+      "id": "ontop-card",
+      "name": "Ontop Visa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard（提供虚拟卡与实体卡，支持 Apple Pay 与 Google Wallet）",
+      "model": "全球数字银行个人账户 + 稳定币薪资清算直通 Visa/Mastercard：支持加密发薪与现实日常消费即时打通",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录跨境自由职业者发薪卡 Ontop Visa 并关注 Mastercard/BVNK 合作",
+          "note": "完成 Ontop 官方 Visa 卡核验：确认支持 150+ 国家合规远程工作者、0 开卡费 0 月费、Apple Pay 支持，并作为首发伙伴接入 2026-10-15 上线的 Mastercard & BVNK Global Money Platform。"
+        }
+      ]
+    },
+    {
+      "id": "straitsx-visa",
+      "name": "StraitsX Visa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡与物理实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "新加坡金管局持牌 MPI 稳定币直清 Visa 卡：支持 XSGD、XUSD、USDC 毫秒级转换为本地法币清算",
+      "verified": "2026-10-16",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录新加坡金管局持牌机构 StraitsX 官方直连 Visa 卡计划",
+          "note": "完成 StraitsX 官方稳定币 Visa 计划核验：确认由新加坡 MAS 持牌主要支付机构（MPI）发行、Visa 官方直连清算、支持原生 XSGD 与 USDC 毫秒级扣费并支持 Apple Pay。"
         }
       ]
     },

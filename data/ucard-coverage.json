@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 162,
-    "current": 150,
-    "kycRequired": 136,
-    "kycConditional": 5,
+    "total": 170,
+    "current": 158,
+    "kycRequired": 142,
+    "kycConditional": 7,
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 12,
-    "officialSources": 602
+    "officialSources": 613
   },
   "rows": [
     {
@@ -1740,6 +1740,94 @@
       "sourceCount": 4,
       "verified": "2026-10-15",
       "profileUrl": "https://ucard.observer/cards/cardano-card-archive/"
+    },
+    {
+      "id": "picnic-card",
+      "name": "Picnic Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/picnic-card/"
+    },
+    {
+      "id": "woocard-visa",
+      "name": "WooCard",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/woocard-visa/"
+    },
+    {
+      "id": "coinw-card",
+      "name": "CoinW Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/coinw-card/"
+    },
+    {
+      "id": "swapster-card",
+      "name": "Swapster Card",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/swapster-card/"
+    },
+    {
+      "id": "helios-reserve-card",
+      "name": "Helios Reserve Credit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/helios-reserve-card/"
+    },
+    {
+      "id": "payy-card",
+      "name": "Payy Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/payy-card/"
+    },
+    {
+      "id": "ontop-card",
+      "name": "Ontop Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/ontop-card/"
+    },
+    {
+      "id": "straitsx-visa",
+      "name": "StraitsX Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-16",
+      "profileUrl": "https://ucard.observer/cards/straitsx-visa/"
     },
     {
       "id": "kazepay-card",
