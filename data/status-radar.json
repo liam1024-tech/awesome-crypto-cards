@@ -531,8 +531,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard / Crypto Life",
       "model": "自托管钱包扣款",
-      "verified": "2026-10-07",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "暂停范围",
+          "title": "暂停新申请的地区是美国与英国，不只美国",
+          "note": "官方产品页写明「Signups for MetaMask Card in the US and the UK are temporarily closed」。本站此前只记录了美国，本次补上英国。暂停针对新申请，已持卡用户不受影响；页面另列约 45 个在支持清单内的国家和地区，其余地区可加入等待名单。"
+        },
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "费公布",
+          "title": "Metal 实体卡 $199/年，虚拟卡免费",
+          "note": "官方产品页给出两档价格：虚拟卡免费，Metal 实体卡 $199/年，且 Metal 仅在部分支持地区提供。此前本页只写「虚拟卡与 Metal 须分别核对费用」，现按官方公布价记录；兑换与链上成本仍另计。"
+        },
         {
           "date": "2026-10-07",
           "type": "feature",
@@ -563,8 +577,22 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；公告称卡片由 Monavate 发行，Gnosis Pay 提供项目管理",
       "model": "Safe 智能账户连接的 Visa 消费卡（已公告退出）",
-      "verified": "2026-10-13",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2027-06-18",
+          "type": "compliance",
+          "tag": "售后窗口",
+          "title": "持卡人支持结束于 2027-06-18，退款与拒付支持延续到 2028-06-12",
+          "note": "正式终止通知列明两项在卡停用之后仍然有效的支持窗口：一般持卡人支持结束于 2027-06-18 23:59 UTC，退款、争议与拒付的支持结束于 2028-06-12 23:59 UTC。卡片 2026-12-20 停用不等于争议与退款同时终止，Monavate 的法定义务与投诉渠道也不受该日期限制。"
+        },
+        {
+          "date": "2026-12-20",
+          "type": "compliance",
+          "tag": "待办事项",
+          "title": "官方要求在 12 月 20 日前导出交易记录并整理订阅清单",
+          "note": "正式通知要求持卡人下载或导出交易记录、记下卡号后四位与有效期，并建议在截止日前整理订阅与定期扣款清单、逐一通知商户更换付款方式。网页 App 关闭后这些数据不再可取回，属于必须在截止日前完成的动作；官方也建议在此之前确认自己能在不依赖网页 App 的情况下访问 Safe 账户。"
+        },
         {
           "date": "2026-12-20",
           "type": "incident",
@@ -751,8 +779,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa / Mastercard；依地区和卡片计划而异",
       "model": "自托管钱包（私钥由用户持有）+ 关联 Visa / Mastercard 卡；Wirex 不持有私钥",
-      "verified": "2026-09-27",
+      "verified": "2026-10-15",
       "changelogs": [
+        {
+          "date": "2026-09-30",
+          "type": "compliance",
+          "tag": "账户迁移",
+          "title": "旧版 Wirex App 停止托管账户服务，卡片继续可用",
+          "note": "官方升级 FAQ 说明，自 2026-09-30 起旧版 Wirex App 不再支持交易及其他账户服务，仅保留只读模式，用户需迁移到 Wirex One 并领取合格数字资产。官方同时说明卡片「在升级前后均照常使用」，因此这是账户层迁移而非卡片停发。直接后果之一：合作卡 Cardano Card 因 Wirex 终止托管基础设施，宣布于 2026-10-31 停止服务。"
+        },
         {
           "date": "2026-08-10",
           "type": "reward",
@@ -1189,8 +1224,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 为发行方，Paera 运营卡账户",
       "model": "Rain Visa 预付账户；稳定币充值后消费",
-      "verified": "2026-10-12",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "档位补全",
+          "title": "定价页为三档：Basic 免费、Plus $29.99/月、Prestige $83/月或 $999/年",
+          "note": "官方定价页列出三档并分别给出 1% / 2% / 4% 返现、4% / 2% / 1% ATM 费与 $10,000 / $50,000 / $100,000 的日消费限额，开卡数量上限为 3 / 5 / 10 张，返现月上限为 $100 / $300 / $1,000。本站此前只记录了免费的 Basic 一档，费用侧因此少了两个付费档。官方在页尾声明这些条款在上线前仍可能变更。"
+        },
         {
           "date": "2026-10-07",
           "type": "feature",
@@ -1863,8 +1905,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 或 DCS 按居住地作为发卡合作方",
       "model": "USDC / USDT 充值后先转换为卡内 USD 余额",
-      "verified": "2026-10-08",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "非美元费率按发行方区分：Rain 1%、DCS 1.8%",
+          "note": "官方费用文档给出两个发行版本各自的外汇费：Rain 发行时非美元支付收 1%，DCS 发行时收 1.8%；Rain 的 ATM 非美元取现另收 $0.30 加 1%，DCS 卡不支持 ATM 取现。本站此前只写「发行和 FX 费用依地区版本」，没有给出数字，读者无法据此比较。文档中标注暂时不可用的只有 SG QR 与 PromptPay 两条出入金通道，与卡片申请资格无关。"
+        },
         {
           "date": "2026-10-08",
           "type": "feature",
@@ -2013,8 +2062,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Solayer Pay 产品计划",
       "model": "连接自托管钱包 / 稳定币余额，依产品版本授权消费",
-      "verified": "2026-10-04",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "费率更正",
+          "title": "充值费更正为 1%，跨境费更正为每笔 $0.10 加 1.5%",
+          "note": "官方费用页现列充值手续费 1%（本站此前记为 0.5%）、跨境及非美元交易每笔 $0.10 加 1.5%（此前记为 $0.10 加 1.75%）。两处都与官网现行数字不符，按官方更正。低额消费一栏为 $0.15，与跨境一栏是两项不同费用。"
+        },
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "卡种范围",
+          "title": "当前只发行虚拟卡，实体卡官方标为即将推出",
+          "note": "官方费用页写明该计划只发行数字（虚拟）卡，实体卡标注为 coming soon，因此产品页的实体卡入口不代表实体卡已可申请。另有两条使用限制值得注意：连续 6 个月不活跃的卡会被停用，需重新发行才能恢复；年费 $20 用于维持卡片有效状态。"
+        },
         {
           "date": "2026-10-04",
           "type": "fee",
@@ -2277,8 +2340,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；官方条款列 Third National 为发卡方",
       "model": "Cash 模式花账户余额；Credit 模式以资产作抵押借入稳定币消费",
-      "verified": "2026-10-07",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "incident",
+          "tag": "来源失效",
+          "title": "官方条款页与首页均已无法访问，3% 外汇费失去可核实的出处",
+          "note": "本次核对时官网 apex 域名及其条款页都无法建立连接（TLS 层被拒），首页、/terms 与 /card-terms 三条来源同时失效；docs 与 app 子域仍可访问，但其中没有卡片条款或费率内容。本页保留的「非美元外汇费最高 3%、跨境费最高 3%」因此不再有现行官方出处可核，暂按历史记录保留并改为待复核，不作为现行条款使用。"
+        },
         {
           "date": "2026-10-07",
           "type": "feature",
@@ -2644,13 +2714,27 @@
     },
     {
       "id": "infini-personal-card",
-      "name": "Infini Pro / AI / Max Card",
+      "name": "Infini Pro / Lite / Max Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
       "network": "官方个人卡页面未在摘要明确列出卡组织；以适用卡协议为准",
       "model": "Infini 账户中的稳定币余额连接虚拟消费卡",
-      "verified": "2026-10-04",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "卡种变更",
+          "title": "卡种为 Pro / Lite / Max，没有 AI 卡",
+          "note": "官方个人卡与商务卡页面现列 Pro、Lite、Max 三档，没有名为 AI 的卡种，本站此前记录的「AI」档属于已下线的旧命名。三档差异集中在外汇费：Pro 1%、Lite 3%、Max 0%（Max 另计 1% 跨境费）；Lite 不参与返现，是三档中成本最高、权益最少的一档。"
+        },
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "开卡费更正",
+          "title": "首卡免费，$10 是最低充值而不是发行费",
+          "note": "官方定价页写明「Your first card is free. Each personal or business account gets one free card across all card types」，并说明至少 $10 的首次充值会进入卡内余额，更高档次可能有更高门槛。本站此前把 $10 记为每卡发行费，属于把最低充值读成了开卡价。"
+        },
         {
           "date": "2026-10-04",
           "type": "feature",
@@ -2662,8 +2746,8 @@
           "date": "2026-09-20",
           "type": "feature",
           "tag": "多卡型矩阵",
-          "title": "全新推出 Pro / AI / Max 个人卡产品线",
-          "note": "全面升级合规通道，发行费 $10、月费 $0，Max 卡型提供 0% FX 汇损并支持大额日常消费。"
+          "title": "全新推出 Pro / Lite / Max 个人卡产品线",
+          "note": "升级合规通道，首卡免费、月费 $0，Max 卡型提供 0% FX 汇损并支持大额日常消费。2026-10-16 复核时档位名称为 Pro / Lite / Max，此前记录的「AI」档已不存在。"
         }
       ]
     },
@@ -2730,6 +2814,13 @@
       "model": "Solana 钱包授权 SPL 消费额度，交易时从自托管钱包扣款",
       "verified": "2026-10-04",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "卡面收录",
+          "title": "补上官方发布图中的真实卡面",
+          "note": "MoonPay 新闻室发布图（托管于其自有 CMS）含一张真实 MoonAgents 卡面，带 MoonAgents 字样与 Mastercard 标识。本页此前记录为「官方卡面待核」，现按发布图裁切收录。"
+        },
         {
           "date": "2026-07-27",
           "type": "feature",
@@ -3050,8 +3141,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；由 Qbitech (Interlace) 及合作持牌金融机构发行",
       "model": "Kem App 内 USDT 稳定币余额直接扣款，刷卡时按 1:1 USD 美元即时折算并清算",
-      "verified": "2026-10-05",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "reward",
+          "tag": "返现公布",
+          "title": "官网宣传 2% 返现并以 Tether Gold 结算",
+          "note": "官网明确宣传 2% 消费返现并写明以 Tether Gold 发放，另列合作商户加成：Talabat、Keeta、Noon 5%，Careem、Uber、Qatar Airways、Emirates、Etihad 3%。本站此前记录「未设常规固定全场景消费返现」，与官方现行宣传不符。以 Tether Gold 结算意味着到手的是贵金属代币而非现金，价值与兑付路径都不同于现金返现。官网另列 USDT 兑换美元 1.00% 的费用，此前未记录。"
+        },
         {
           "date": "2026-10-05",
           "type": "feature",
@@ -3068,8 +3166,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；由西班牙持牌电子货币机构 Pecunia Cards E.D.E., S.L.（Pecunpay）发行",
       "model": "独立欧元账户与西班牙 SEPA IBAN，支持通过 Bitnovo 加密资产充值或法币入金转为欧元预付卡结算",
-      "verified": "2026-10-07",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "方案调整",
+          "title": "方案改为 FREE / MOVE / PRO 三档，虚拟卡不再免费",
+          "note": "官方方案页现列三档：FREE €0、MOVE €0.99/月（€8.99/年）、PRO €9.99/月（€69.99/年）。虚拟卡工本费 €2.50、实体卡 €20，各档包含的卡数量不同（FREE 1 张、MOVE 2 张、PRO 4 张）。本站此前记为虚拟卡免费、实体卡 €19.99、Move 基础版无月费，与现行页面均不符。国际交易费率按目的地分为 1.75%（非欧元区）与 2%（世界其他地区），此前统一记为约 1.5%。"
+        },
         {
           "date": "2026-10-07",
           "type": "compliance",
@@ -3193,8 +3298,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Platinum；由 Signify Holdings Inc. 及其子公司 Nimbus LLC (Rain) 依据 Visa 许可合作发行",
       "model": "非托管多链稳定币钱包直连扣款；刷卡消费时由合作金融机构（Signify/Rain）实时清算稳定币并结算为法币；借记卡，不设中心化资金池沉淀",
-      "verified": "2026-10-09",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "报价撤回",
+          "title": "开卡与外汇费率不再公布固定数字，官方改列「Check app for the price」",
+          "note": "官方费率页现在把开卡、实体卡、补卡等项目统一列为「Check app for the price」，非美元刷卡的公开数字为 1.7% 加 $0.1，Emerald 订阅标注为「From just $5.59/month」。本站此前记录的 $10 开卡费、约 1.02% 外汇费与 $6.99 月费在现行页面上都不是公开报价。该页自身在非美元刷卡一格同时印出 1.7% 与 1.02% 且未说明两者关系，因此本页不替发行方选定一个数字，实际费率以 App 内报价为准。"
+        },
         {
           "date": "2026-10-09",
           "type": "product",
@@ -3450,10 +3562,17 @@
       "name": "WaldenPay 虚拟卡",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "官方产品页未明示卡组织。第三方资料称 Visa，但本次核对未获官方页面支撑，本站按未公布记录。",
+      "network": "官方产品页表述为 Visa / Mastercard 通道，未单独指定其中一家；卡组织由持牌合作方提供。",
       "model": "充值型虚拟卡：以加密货币充值后用于消费；官方未说明充值到消费之间的资产归属与托管结构",
       "verified": "2026-10-14",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "主体与费率公布",
+          "title": "官网已公布完整费率表与运营主体 BlueHouse Software B.V.",
+          "note": "官方产品页现给出完整费率表（一次性开卡费 $10、最低充值 $25、月维护费 $0、按滚动 30 天消费分七档递减的充值费 5%–3%），并写明运营主体为荷兰鹿特丹的 BlueHouse Software B.V.、通过持牌合作模式运行，卡组织表述为 Visa / Mastercard 通道。这推翻此前「官方未公布费率表」与「官方未公布发卡机构与合规主体」两条记录。运营主体与发卡实体仍是两件事：页面对发卡银行没有指名。"
+        },
         {
           "date": "2026-10-14",
           "type": "fee",
@@ -3585,8 +3704,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（虚拟卡与实体卡）",
       "model": "链上流动性质押资产（LST）实时兑换清算的自托管 Visa 借记卡：无需提前赎回质押资产，刷卡瞬间毫秒级兑换结算",
-      "verified": "2026-10-14",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "来源缺口",
+          "title": "官方站点已不再出现该卡内容，细节缺少发行方页面支撑",
+          "note": "本次核对时 sanctum.so 首页只涉及质押、Gateway 与 Ironforge，全文没有卡片内容，/cloud-card 与 /card 均返回 404；第二条来源为第三方汇总站而非发行方页面。本页记录的 StraitsX 清算、BasedApp 账户抽象、1% 换汇点差与 100+ 国家等细节因此缺少发行方页面支撑。信息未被证伪，暂按原记录保留并改为待复核，不作为已核实的现行条款使用。"
+        },
         {
           "date": "2026-10-14",
           "type": "product",
@@ -3603,8 +3729,22 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（虚拟卡与实体卡；支持 Apple Pay）",
       "model": "智能合约账户抽象自托管 Visa 借记卡：资产保留在链上私钥控制下，刷卡时由智能合约授权扣款",
-      "verified": "2026-10-14",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "费率更正",
+          "title": "非美元外汇加价按档位为 1.5% 与 0%，不是统一 1%",
+          "note": "官方费率页把非美元消费的外汇加价按档位区分：Premium 1.5%、Gold 0%。本站此前对全档位统一记为 1%，对 Gold 持卡人是记高了、对 Premium 持卡人是记低了。"
+        },
+        {
+          "date": "2026-10-16",
+          "type": "reward",
+          "tag": "奖励口径",
+          "title": "返现以 BASED 代币发放，Premium 2% / Gold 4%；美元余额收益尚未上线",
+          "note": "官方页脚写明返现以 BASED 代币发放，因此实际价值随 BASED 价格波动，不等值于同比例现金回馈。官方把「美元余额赚取收益」标注为 Coming in Fall 2026，属于自认尚未上线的功能，不应计入现行权益。"
+        },
         {
           "date": "2026-10-14",
           "type": "product",
@@ -3675,8 +3815,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（数字虚拟卡与实体卡；支持 Apple Pay 与 Google Pay）",
       "model": "基于 World Chain 账户抽象自托管智能钱包直扣的 Visa 借记卡：以 World ID 虹膜认证为安全底层",
-      "verified": "2026-10-14",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "来源缺口",
+          "title": "官方来源已不再出现「World Card」",
+          "note": "本次核对时 world.org 只讲 World Money 这一金融 App，toolsforhumanity.com 列出四个项目并提供 World App 页面，两者都没有提到卡片，也没有状态、开放地区或费用。本页记录的内测状态、「首批美国合规州开放测试」与 150M Visa 商户等表述因此缺少官方页面支撑。信息未被证伪，暂按原记录保留并改为待复核。"
+        },
         {
           "date": "2026-10-14",
           "type": "product",
@@ -3725,12 +3872,26 @@
     {
       "id": "zeal-card",
       "name": "Zeal Visa Debit Card",
-      "stage": "active",
-      "stageLabel": "🟢 正常活跃",
+      "stage": "winddown",
+      "stageLabel": "🟠 清算清退",
       "network": "Visa（虚拟卡与实体卡；原生支持 Apple Pay 与 Google Wallet）",
       "model": "Passkey 自托管智能合约钱包直扣 Visa 借记卡：资金在个人链上账户安全托管，刷卡零 FX 加价",
-      "verified": "2026-10-14",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-12-20",
+          "type": "incident",
+          "tag": "服务终结",
+          "title": "卡服务将于 2026-12-20 前结束，与 Gnosis Pay 终止安排同日",
+          "note": "Gnosis Pay 官方帮助中心写明「Zeal's card services will be wound up by 20 December 2026」，并提示用户在 20 日之前转出或提取资金。该日期与 Gnosis Pay 自身消费者卡及网页 App 的停止时间一致：同日 23:59 UTC 一并失效。本站因此把 Zeal 从在营地区卡改为收尾中记录。"
+        },
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "发行关系更正",
+          "title": "确认卡片由 Monavate 发行、Gnosis Pay 管理，返现亦出自 Gnosis Pay 体系",
+          "note": "Zeal 官方条款写明卡片由 Monavate Limited 依 VISA Europe 牌照发行、由 Gnosis Pay Co Ltd（英国注册公司）管理，返现计划由 Gnosis Pay 运营并以 GNO 在 Gnosis Chain 上发放。本站此前把 Zeal 记为独立卡片，未记录这层依赖关系；判断这类产品是否安全，要看底层发行与运营主体有没有退出，而不只看品牌方公告。"
+        },
         {
           "date": "2026-10-14",
           "type": "product",
@@ -3765,8 +3926,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa / Mastercard 合作清算网络",
       "model": "稳定币后台清算授信信用卡（Card-as-a-Service）：以稳定币作为底层实时清算与抵押网络",
-      "verified": "2026-10-14",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "来源迁移",
+          "title": "来源域名由 thredd.com 迁移至 thredd.ai",
+          "note": "thredd.com 现已 301 跳转至 www.thredd.ai，原域名下的新闻路径返回 404。Bakkt 与 Thredd 的稳定币结算信用卡即服务新闻稿现位于新域名，本页来源链接已随之更新。"
+        },
         {
           "date": "2026-10-14",
           "type": "product",
@@ -3799,10 +3967,17 @@
       "name": "Breet Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa（提供虚拟卡与实体卡）",
+      "network": "Mastercard（官方加密卡页表述为 crypto-powered Mastercard，含实体卡；页面入口为等待名单）",
       "model": "托管型加密变现钱包直扣 Visa 借记卡：专为西非本土日常消费与跨境电商支付打造",
-      "verified": "2026-10-14",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "卡组织更正",
+          "title": "卡组织为 Mastercard，申请入口为等待名单",
+          "note": "官方加密卡页多处写明 Mastercard（crypto-powered Mastercard、Premium Physical Mastercard、anywhere Mastercard is accepted），本站此前记为 Visa。同一页的行动按钮为「Join the Waitlist」，属上线前状态。页面未列出任何费率或返现数字，本页保留的 1.5% 跨境外汇结算手续费在本次核对中未获官网支撑，留待下次复核。"
+        },
         {
           "date": "2026-10-14",
           "type": "product",
@@ -3885,6 +4060,99 @@
       ]
     },
     {
+      "id": "imtoken-card",
+      "name": "imToken Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（支持虚拟卡，支持 Apple Pay、Google Pay、微信支付与支付宝）",
+      "model": "Arbitrum L2 链上非托管 NFT 账户直通瑞士银行 IBAN 借记卡：支持加密代币存入，刷卡即时清算为 EUR/USD/CHF/CNY",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "product",
+          "tag": "卡面收录",
+          "title": "补上官方卡片子站托管的正面平视卡面",
+          "note": "imToken 官方卡片子站（token.im/card）托管一张正面平视的 Mastercard 借记卡卡面，可直接取用。本页此前记录为「官方站点未公布可独立核验的正面平视卡面图」，与事实不符，本次更正并收录。该子站 HTML 对自动化访问返回 403，卡面改以同域静态资源核验。"
+        },
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录非托管钱包 imToken × 瑞士 Fiat24 银行 IBAN 万事达借记卡",
+          "note": "完成 imToken 官方万事达借记卡全维度核验：基于 Arbitrum L2 铸造个人账户 NFT 开启瑞士持牌银行个人独立 IBAN，支持微信支付、支付宝、Apple Pay 与 Google Pay，支持 USDT/USDC/ETH 等代币一键充值与多币种法币零加价兑换。"
+        }
+      ]
+    },
+    {
+      "id": "xplace-card",
+      "name": "XPlace Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa Platinum（支持虚拟卡与物理实体卡，原生支持 Apple Pay 与 Google Pay）",
+      "model": "Solana 链上非托管/去中心化借贷抵押消费卡：以生息抵押品获取 Visa 授信，资产不离链且持续赚取 DeFi 年化收益",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Solana Kamino 抵押不卖币消费卡 XPlace Visa Platinum",
+          "note": "完成 Solana 原生 PayFi 协议 XPlace 官方 Visa 白金卡核验：独创 Spend Without Selling 机制，将链上资产抵押在 Kamino 赚取 DeFi 年化收益同时享受实时消费授信，享最高 2% USDC 真实返现，原生支持 Apple Pay 与 Google Pay。"
+        }
+      ]
+    },
+    {
+      "id": "lydian-card",
+      "name": "Lydian Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa Platinum（支持虚拟卡与实体金属卡，支持 Apple Pay 与 Google Wallet）",
+      "model": "托管/混合型数字资产即时结算卡：支持 300+ 币种与稳定币，POS 端毫秒级清算扣除",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-15",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Tether & Cantor 战略支持的 Rain 清算卡 Lydian Visa Platinum",
+          "note": "完成 Lydian 官方 Visa 白金卡核验：获 Tether 与 Cantor Fitzgerald 战略投资，底层由 Rain 机构级网络清算，支持 300+ 种数字资产即时刷卡清算扣除与最高 1.5% 返现，全面支持 Apple Pay 与 Google Wallet。"
+        }
+      ]
+    },
+    {
+      "id": "cardano-card-archive",
+      "name": "Cardano Card（EMURGO × Wirex）",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
+      "network": "Visa；支持 Apple Pay / Google Pay",
+      "model": "多链加密资产直连 Visa 卡计划，卡与账户托管于 Wirex 体系内",
+      "verified": "2026-10-15",
+      "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "compliance",
+          "tag": "记录更正",
+          "title": "官方发布图确有卡面；不展示是政策选择，不是找不到",
+          "note": "EMURGO 的 2025 上线发布图含两张真实 Cardano Card 卡面。本页此前把不展示的原因记为「官方站点未公布可独立核验的正面平视卡面图」，与事实不符：真正的原因是政策——卡于 2026-10-31 停服，回溯展示上线期卡图会让读者以为仍可申请。记录已按实际原因更正。"
+        },
+        {
+          "date": "2026-10-15",
+          "type": "incident",
+          "tag": "停运公告",
+          "title": "官方公告 2026-10-31 停止服务，原因指向合作方托管基础设施退场",
+          "note": "Cardano Card 官方公告写明：合作方 Wirex「正转向非托管模式并停止其托管基础设施」，因此双方合作于 2026-10-31 结束，卡片同日停止服务。官方说明卡片在终止日之前可正常使用，并将在稍后公布后续安排；截至核验日未确认替代卡、新服务方或其他支付方式。停止原因与 Cardano 网络或 ADA 无关。"
+        },
+        {
+          "date": "2025-11-01",
+          "type": "product",
+          "tag": "上线",
+          "title": "EMURGO 与 Wirex 合作推出 Visa 多链支付卡",
+          "note": "Cardano 生态开发机构 EMURGO 与 Wirex 合作上线 Cardano Card，嵌入 Wirex App，面向其覆盖的 130 多个国家和地区，支持以 ADA、BTC、ETH、USDC 等资产在受理 Visa 的商户消费。"
+        }
+      ]
+    },
+    {
       "id": "kazepay-card",
       "name": "KazePay Card",
       "stage": "active",
@@ -3963,8 +4231,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Signature Corporate；官方公告称由 Rain 提供支持，公开卡片页未列具体发卡银行",
       "model": "Altitude 企业账户余额 / 稳定币支持的 Visa 公司卡",
-      "verified": "2026-10-11",
+      "verified": "2026-10-16",
       "changelogs": [
+        {
+          "date": "2026-10-16",
+          "type": "fee",
+          "tag": "费率补录",
+          "title": "非美元消费外汇费最高 1%",
+          "note": "官方卡片页写明「Purchases in currencies other than USD carry an FX fee of up to 1%」，并说明争议处理可能产生第三方费用且与结果无关。本站此前记录卡片页未列出外汇或跨境费用，属于漏记。"
+        },
         {
           "date": "2026-10-11",
           "type": "product",

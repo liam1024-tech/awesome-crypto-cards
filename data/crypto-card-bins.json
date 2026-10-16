@@ -25,7 +25,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "由 ether.fi 推出，底层基础架构由 Rain 提供；包含用户反馈的 45492423 号段。"
+      "notes": "由 ether.fi 推出，底层基础架构由 Rain 提供；包含用户反馈的 45492423 号段。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Partially supported",
+        "walletMainlandNote": "Community reports show it works for everyday overseas purchases and links to some mobile wallets; compatibility with WeChat Pay and Alipay in mainland China needs more data before it can be confirmed.",
+        "stripeNote": "A USD-region BIN with consistent reports of working for most overseas subscriptions and cloud services, so payment compatibility is relatively high.",
+        "riskLevel": "Low",
+        "notes": "Launched by ether.fi on Rain’s underlying infrastructure; covers the 45492423 range reported by users."
+      }
     },
     {
       "bin": "404038",
@@ -49,7 +57,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "RedotPay 经典主力卡段，全球商户受理度高，支持 Apple Pay 与 Google Pay 快捷绑定。"
+      "notes": "RedotPay 经典主力卡段，全球商户受理度高，支持 Apple Pay 与 Google Pay 快捷绑定。",
+      "en": {
+        "threeDS": "Supported (in-app dynamic confirmation)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Community reports it links to WeChat Pay and Alipay; transactions up to RMB 200 carry no surcharge, while domestic acquirers add a 3% cross-border channel fee above that.",
+        "stripeNote": "Community reports a very high success rate for ChatGPT Plus and Claude Pro; a real US tax-free-state billing address with a matching IP is recommended.",
+        "riskLevel": "Low",
+        "notes": "RedotPay’s long-standing main BIN, widely accepted by merchants worldwide, and supports adding to Apple Pay and Google Pay."
+      }
     },
     {
       "bin": "474447",
@@ -73,7 +89,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "RedotPay 实体卡与新批次虚拟卡段，BIN 归属清晰，支持离线挥卡闪付。"
+      "notes": "RedotPay 实体卡与新批次虚拟卡段，BIN 归属清晰，支持离线挥卡闪付。",
+      "en": {
+        "threeDS": "Supported (confirmed in app)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Works with WeChat Pay and Alipay, with in-person POS terminals in mainland China, and with ATMs that accept foreign cards for local-currency cash.",
+        "stripeNote": "Handles overseas online spending and SaaS subscriptions; network acceptance matches the standard for compliant European and Hong Kong BINs.",
+        "riskLevel": "Low",
+        "notes": "Covers RedotPay’s physical card and its newer virtual BINs, with clear BIN attribution and contactless tap-to-pay that works offline."
+      }
     },
     {
       "bin": "536467",
@@ -97,7 +121,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "中低风险 (Low-Med)",
-      "notes": "PokePay 早期主力万事达卡段，充值 USDT 自动兑换为 USD 实时入账。"
+      "notes": "PokePay 早期主力万事达卡段，充值 USDT 自动兑换为 USD 实时入账。",
+      "en": {
+        "threeDS": "Supported (SMS or email code)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Links to WeChat Pay and Alipay for spending; community reports success paying by QR at convenience stores and for food delivery.",
+        "stripeNote": "Works for OpenAI and Midjourney billing; because it is a prepaid card, the few platforms that block prepaid BINs outright may decline it.",
+        "riskLevel": "Low to medium",
+        "notes": "PokePay’s early main Mastercard BIN; USDT top-ups convert to USD and credit in real time."
+      }
     },
     {
       "bin": "556150",
@@ -121,7 +153,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "中低风险 (Low-Med)",
-      "notes": "新版 PokePay 万事达高级卡段，额度上限较高。"
+      "notes": "新版 PokePay 万事达高级卡段，额度上限较高。",
+      "en": {
+        "threeDS": "Supported (3-D Secure)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Links to WeChat Pay and Alipay for spending.",
+        "stripeNote": "Mastercard 3DS responses are stable, and it works with most overseas e-commerce platforms and with Apple Pay.",
+        "riskLevel": "Low to medium",
+        "notes": "The newer PokePay premium Mastercard prepaid BIN, with a higher spending ceiling."
+      }
     },
     {
       "bin": "489683",
@@ -145,7 +185,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "BingX 交易所官方卡，账户资金直连，消费无需手动提前划转。"
+      "notes": "BingX 交易所官方卡，账户资金直连，消费无需手动提前划转。",
+      "en": {
+        "threeDS": "Supported (push confirmation in app)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Links to WeChat Pay and Alipay for quick payment, settled at Visa’s cross-border rate.",
+        "stripeNote": "Cleared through Rain’s licensed infrastructure; pass rates with Stripe and mainstream overseas SaaS merchants are very high.",
+        "riskLevel": "Low",
+        "notes": "BingX’s official exchange card; account funds are connected directly, so no manual transfer is needed before spending."
+      }
     },
     {
       "bin": "485997",
@@ -169,7 +217,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "Rain Liquidity 旗舰 Visa 卡段，同时驱动 Plasma One 与 ether.fi Cash。"
+      "notes": "Rain Liquidity 旗舰 Visa 卡段，同时驱动 Plasma One 与 ether.fi Cash。",
+      "en": {
+        "threeDS": "Supported (real-time push in app)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Links to WeChat Pay and Alipay without friction, and works smoothly for everyday in-person QR payments and Apple Pay.",
+        "stripeNote": "The issuer offers cashback specifically for AI merchants, and it handles ChatGPT Plus, Claude, Cursor and Google One subscriptions reliably.",
+        "riskLevel": "Low",
+        "notes": "Rain Liquidity’s flagship Visa BIN, backing both Plasma One and ether.fi Cash."
+      }
     },
     {
       "bin": "406594",
@@ -193,7 +249,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "由欧洲老牌礼品卡与加密支付平台 Bitrefill 发行，受欧盟法规保护。"
+      "notes": "由欧洲老牌礼品卡与加密支付平台 Bitrefill 发行，受欧盟法规保护。",
+      "en": {
+        "threeDS": "Supported (verified in the Bitrefill app)",
+        "walletMainland": "Conditional",
+        "walletMainlandNote": "Some foreign-card channels allow linking to WeChat, but because it settles in euros it may incur a 1.5%–2% FX spread.",
+        "stripeNote": "Excellent acceptance with European merchants; if a US subscription triggers 3DS, the authorisation has to be approved in the app.",
+        "riskLevel": "Low",
+        "notes": "Issued by Bitrefill, the long-established European gift-card and crypto payment platform, under EU regulation."
+      }
     },
     {
       "bin": "493193",
@@ -217,7 +281,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "极低风险 (Very Low)",
-      "notes": "U卡领域标杆合规产品，由纽约持牌商业银行存款托管。"
+      "notes": "U卡领域标杆合规产品，由纽约持牌商业银行存款托管。",
+      "en": {
+        "threeDS": "Supported (banking-app OTP)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Works across the main international card-acquiring networks.",
+        "stripeNote": "Cleared through a traditional US commercial bank channel; works without friction across the US and with top-tier compliant merchants internationally.",
+        "riskLevel": "Very low",
+        "notes": "A compliance benchmark among crypto cards, with deposits held by a licensed New York commercial bank."
+      }
     },
     {
       "bin": "540524",
@@ -241,7 +313,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "首创借记卡与信贷额度一键切换，享受万事达最高尊贵等级待遇。"
+      "notes": "首创借记卡与信贷额度一键切换，享受万事达最高尊贵等级待遇。",
+      "en": {
+        "threeDS": "Supported (two-way confirmation in app)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Both WeChat Pay and Alipay accept international cards for quick payment.",
+        "stripeNote": "Cleared by a licensed Lithuanian EMI with free switching between debit and credit modes; works across Europe and the US.",
+        "riskLevel": "Low",
+        "notes": "The first card to switch between debit and a credit line with one tap, carrying Mastercard’s highest tier."
+      }
     },
     {
       "bin": "485953",
@@ -265,7 +345,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "Bybit 交易所官方发行的借记卡，仅向欧洲合规受限国家开放。"
+      "notes": "Bybit 交易所官方发行的借记卡，仅向欧洲合规受限国家开放。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Conditional",
+        "walletMainlandNote": "Can be linked to WeChat Pay and Alipay, but is subject to the European issuer’s cross-border risk controls.",
+        "stripeNote": "Suits mainstream European online and in-person merchants; mainland Chinese ID is not on the issuer’s supported list.",
+        "riskLevel": "Low",
+        "notes": "A debit card issued by the Bybit exchange, open only to the European countries where it is cleared to operate."
+      }
     },
     {
       "bin": "431404",
@@ -289,7 +377,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "已升级为 Wirex One 账户体系，支持多币种即时结算。"
+      "notes": "已升级为 Wirex One 账户体系，支持多币种即时结算。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Supports linking for quick spending as an international card.",
+        "stripeNote": "A long-established compliant crypto card, cleared through the Contis/Solaris banking system.",
+        "riskLevel": "Low",
+        "notes": "Now on the Wirex One account system, with instant multi-currency settlement."
+      }
     },
     {
       "bin": "408854",
@@ -313,7 +409,15 @@
       "status": "winddown",
       "statusLabel": "🟠 清算清退",
       "riskLevel": "清退中 (Sunsetting)",
-      "notes": "首张与以太坊链上自托管 Safe 合约直连的真实 Visa 借记卡。官方已公告消费者卡与网页应用于 2026-12-20 23:59 UTC 停止服务，新注册早已关闭；发卡方 Monavate。"
+      "notes": "首张与以太坊链上自托管 Safe 合约直连的真实 Visa 借记卡。官方已公告消费者卡与网页应用于 2026-12-20 23:59 UTC 停止服务，新注册早已关闭；发卡方 Monavate。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Conditional",
+        "walletMainlandNote": "Only advisable for local European spending or for purely euro-denominated cross-border payments.",
+        "stripeNote": "Debited directly from a self-custodial Safe smart-contract wallet and settled on-chain in the EURe euro token.",
+        "riskLevel": "Sunsetting",
+        "notes": "The first real Visa debit card wired directly to a self-custodial Safe contract on Ethereum. The issuer has announced that the consumer card and web app stop at 23:59 UTC on 2026-12-20, and new sign-ups closed long ago; the issuer is Monavate."
+      }
     },
     {
       "bin": "559666",
@@ -337,7 +441,15 @@
       "status": "warning",
       "statusLabel": "🟡 卡段高风控 (High Decline)",
       "riskLevel": "中高风险 (Medium-High)",
-      "notes": "DuPay 当前主力万事达预付卡段，存在一定风控磨损，请勿囤积过多充值余额。"
+      "notes": "DuPay 当前主力万事达预付卡段，存在一定风控磨损，请勿囤积过多充值余额。",
+      "en": {
+        "threeDS": "Supported (SMS verification)",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Can be linked to WeChat Pay and Alipay; transactions above RMB 200 carry a 3% cross-border channel fee.",
+        "stripeNote": "Heavily abused by scripted sign-up farming, so Stripe Radar declines are common; when using it with OpenAI, trying different clean IPs is advisable.",
+        "riskLevel": "Medium to high",
+        "notes": "DuPay’s current main Mastercard prepaid BIN, with some risk-control wear; do not stockpile a large top-up balance on it."
+      }
     },
     {
       "bin": "531847",
@@ -361,7 +473,15 @@
       "status": "closed",
       "statusLabel": "⛔ 已封禁停用 (Terminated)",
       "riskLevel": "已暴雷/死卡 (Graveyard)",
-      "notes": "早期 DuPay 匿名免 KYC 代付卡段，因批量滥用被卡组织拔线吊销，所有卡片已作废。"
+      "notes": "早期 DuPay 匿名免 KYC 代付卡段，因批量滥用被卡组织拔线吊销，所有卡片已作废。",
+      "en": {
+        "threeDS": "No 3DS",
+        "walletMainland": "No longer available",
+        "walletMainlandNote": "Blocked outright by mainland Chinese acquirers.",
+        "stripeNote": "This BIN sits on OpenAI’s and Stripe Radar’s permanent high-risk blacklist, and charges are blocked outright.",
+        "riskLevel": "Collapsed / dead BIN",
+        "notes": "An early DuPay no-KYC proxy-payment BIN; mass abuse led the card network to cut it off and revoke it, and every card is void."
+      }
     },
     {
       "bin": "428803",
@@ -385,7 +505,15 @@
       "status": "closed",
       "statusLabel": "⛔ 已停服暴雷 (Discontinued)",
       "riskLevel": "已暴雷/死卡 (Graveyard)",
-      "notes": "BitMart 停止运营，底层 BaaS 机构 PayrNet 暴雷注销，已收录《停服公墓》。"
+      "notes": "BitMart 停止运营，底层 BaaS 机构 PayrNet 暴雷注销，已收录《停服公墓》。",
+      "en": {
+        "threeDS": "No longer available",
+        "walletMainland": "Unavailable",
+        "walletMainlandNote": "The service is fully discontinued.",
+        "stripeNote": "The issuing bank went into insolvency proceedings and Visa has cancelled the cards network-wide.",
+        "riskLevel": "Collapsed / dead BIN",
+        "notes": "BitMart ceased operating and the underlying BaaS provider PayrNet collapsed and lost its licence; recorded in the Graveyard."
+      }
     },
     {
       "bin": "491277",
@@ -409,7 +537,15 @@
       "status": "closed",
       "statusLabel": "⛔ 已停服 (Discontinued)",
       "riskLevel": "已停服/死卡 (Discontinued)",
-      "notes": "2026-08-08 卡片关闭、2026-09-06 平台关停；官方公告为收购后清退，未提及安全事件。已收录《停服公墓》。"
+      "notes": "2026-08-08 卡片关闭、2026-09-06 平台关停；官方公告为收购后清退，未提及安全事件。已收录《停服公墓》。",
+      "en": {
+        "threeDS": "No longer available",
+        "walletMainland": "Unavailable",
+        "walletMainlandNote": "The service is fully discontinued.",
+        "stripeNote": "Wound down by announcement after the Nium acquisition; the cards are cancelled and the BIN is no longer usable.",
+        "riskLevel": "Discontinued / dead BIN",
+        "notes": "Cards closed on 2026-08-08 and the platform shut down on 2026-09-06; the official notice describes a wind-down after acquisition and mentions no security incident. Recorded in the Graveyard."
+      }
     },
     {
       "bin": "553437",
@@ -433,7 +569,15 @@
       "status": "closed",
       "statusLabel": "⛔ 已停止运营 (Discontinued)",
       "riskLevel": "已停止 (Closed)",
-      "notes": "早期硬件钱包厂商试水虚拟卡，后因合规与风控风险主动关停业务。"
+      "notes": "早期硬件钱包厂商试水虚拟卡，后因合规与风控风险主动关停业务。",
+      "en": {
+        "threeDS": "Retired",
+        "walletMainland": "Discontinued",
+        "walletMainlandNote": "The service has been retired.",
+        "stripeNote": "OneKey formally ended its virtual-card business during 2023–2024.",
+        "riskLevel": "Closed",
+        "notes": "An early hardware-wallet maker’s move into virtual cards, shut down voluntarily over compliance and risk-control concerns."
+      }
     },
     {
       "bin": "529567",
@@ -457,7 +601,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "中风险 (Medium)",
-      "notes": "多用于跨境出海广告投放与企业采购代扣。"
+      "notes": "多用于跨境出海广告投放与企业采购代扣。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Supported",
+        "walletMainlandNote": "Linking to WeChat Pay and Alipay is supported.",
+        "stripeNote": "A business-tier prepaid BIN: acceptable with commercial merchants, though personal subscriptions may run into risk controls.",
+        "riskLevel": "Medium",
+        "notes": "Mostly used for cross-border advertising spend and corporate procurement billing."
+      }
     },
     {
       "bin": "516416",
@@ -481,7 +633,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "原名 Advcash，专注于离岸电子钱包与加密充值出海服务。"
+      "notes": "原名 Advcash，专注于离岸电子钱包与加密充值出海服务。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Conditional",
+        "walletMainlandNote": "Usable on some Chinese channels that accept foreign cards.",
+        "stripeNote": "A long-established offshore payment provider settling in both euros and US dollars.",
+        "riskLevel": "Low",
+        "notes": "Formerly Advcash, focused on offshore e-wallets and crypto-funded cross-border services."
+      }
     },
     {
       "bin": "456725",
@@ -505,7 +665,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "Tangem 硬件钱包 App 独立支付账户，由 Rain 发行。"
+      "notes": "Tangem 硬件钱包 App 独立支付账户，由 Rain 发行。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Conditional",
+        "walletMainlandNote": "Requires completing Tangem Pay’s Sumsub KYC.",
+        "stripeNote": "Issued on Rain’s infrastructure and works with mainstream international online merchants and service subscriptions.",
+        "riskLevel": "Low",
+        "notes": "A separate payment account inside the Tangem hardware-wallet app, issued by Rain."
+      }
     },
     {
       "bin": "410039",
@@ -529,7 +697,15 @@
       "status": "active",
       "statusLabel": "🟢 正常活跃",
       "riskLevel": "低风险 (Low)",
-      "notes": "Avalanche 官方雪崩卡，支持 USDC / AVAX 质押实时扣款消费。"
+      "notes": "Avalanche 官方雪崩卡，支持 USDC / AVAX 质押实时扣款消费。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Mainland applications not accepted",
+        "walletMainlandNote": "Issuing regions are tightly restricted.",
+        "stripeNote": "Mainland Chinese applicants are explicitly excluded; among eligible regions merchant acceptance is very high.",
+        "riskLevel": "Low",
+        "notes": "Avalanche’s official card, which debits against USDC or AVAX collateral in real time."
+      }
     },
     {
       "bin": "428836",
@@ -553,7 +729,15 @@
       "status": "closed",
       "statusLabel": "⛔ 已停服注销 (Terminated)",
       "riskLevel": "已暴雷/死卡 (Graveyard)",
-      "notes": "早期匿名发卡服务，底层 BaaS 暴雷后全线作废注销。"
+      "notes": "早期匿名发卡服务，底层 BaaS 暴雷后全线作废注销。",
+      "en": {
+        "threeDS": "Unavailable",
+        "walletMainland": "Unavailable",
+        "walletMainlandNote": "The service is fully discontinued.",
+        "stripeNote": "Listed on the international card networks’ risk blacklist.",
+        "riskLevel": "Collapsed / dead BIN",
+        "notes": "An early anonymous issuing service; when the underlying BaaS provider collapsed, every card was voided and cancelled."
+      }
     },
     {
       "bin": "537100",
@@ -577,7 +761,15 @@
       "status": "active",
       "statusLabel": "🟢 活跃测试中",
       "riskLevel": "中风险 (Medium)",
-      "notes": "537100 属 Sutton Bank 企业采购卡段（非预付卡），Bitget 赴美新卡实测为 53710058。需注意持卡人为企业授权用卡人而非银行员工，缺乏个人消费者保护；网络关于万事达特许批量发卡及 Gate/GoPay 同源传闻已被核实为误读。"
+      "notes": "537100 属 Sutton Bank 企业采购卡段（非预付卡），Bitget 赴美新卡实测为 53710058。需注意持卡人为企业授权用卡人而非银行员工，缺乏个人消费者保护；网络关于万事达特许批量发卡及 Gate/GoPay 同源传闻已被核实为误读。",
+      "en": {
+        "threeDS": "Supported",
+        "walletMainland": "Partially supported",
+        "walletMainlandNote": "Works with Apple Pay tap-to-pay; linking to WeChat Pay and Alipay in mainland China is limited by the issuer’s corporate-card policy and by merchant category codes.",
+        "stripeNote": "A Sutton Bank corporate purchasing BIN, tested successfully with mainstream international merchants and SaaS subscription billing.",
+        "riskLevel": "Medium",
+        "notes": "537100 is a Sutton Bank corporate purchasing BIN, not a prepaid one, and the new US-facing Bitget card tests as 53710058. Note that the holder is an authorised user on a corporate account rather than a bank customer, so personal consumer protections do not apply; online claims of a Mastercard-licensed bulk-issuing arrangement, and of a shared origin with Gate and GoPay, were checked and are misreadings."
+      }
     }
   ]
 }

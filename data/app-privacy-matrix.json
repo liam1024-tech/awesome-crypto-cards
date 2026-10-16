@@ -1,8 +1,8 @@
 {
   "version": "2026-10-15",
-  "description": "全网 151 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
+  "description": "全网 154 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "totalAudited": 151,
+  "totalAudited": 154,
   "cards": [
     {
       "id": "ether-fi",
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "infini-personal-card",
-      "name": "Infini Pro / AI / Max Card",
+      "name": "Infini Pro / Lite / Max Card",
       "clientType": "Web 账户可用，卡片以 App 为主",
       "appName": "Infini: Crypto Card & Pay（Cynosure Technology LLC）",
       "webSupport": "Web 账户可用，卡片以 App 为主",
@@ -3023,6 +3023,66 @@
       "regulatoryFramework": "一般数据权利 / 他国法规",
       "privacyPolicyUrl": "https://littio.co/privacy-policy",
       "profileUrl": "https://ucard.observer/cards/littio-card/"
+    },
+    {
+      "id": "imtoken-card",
+      "name": "imToken Card",
+      "clientType": "Web 可用（含卡片）",
+      "appName": "imToken: BTC & ETH Wallet（IMTOKEN PTE. LTD.）；卡账户在 Fiat24 dApp",
+      "webSupport": "Web 可用（含卡片）",
+      "appStoreChinaAvailable": "No",
+      "appStoreCoverage": 174,
+      "appStoreUrl": "https://apps.apple.com/app/id1384798940",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=im.token.app",
+      "deletionMethod": "App/网页自助",
+      "deletionNote": "须本人在 Fiat24 dApp 自助关户：先把各币种余额清零，进入 Profile 点 Close Account，用钱包签名确认；关户后不能再开任何 Fiat24 账户；imToken 是自托管钱包，删除只在本地移除；Google Play 未提供删除方式",
+      "deletionSource": "https://docs.fiat24.com/user/account-types/individual-account",
+      "privacyScore": 6,
+      "privacyFriendliness": "较好",
+      "regulatoryFramework": "明确 GDPR",
+      "privacyPolicyUrl": "https://docs.fiat24.com/legal/privacy-policy",
+      "profileUrl": "https://ucard.observer/cards/imtoken-card/"
+    },
+    {
+      "id": "xplace-card",
+      "name": "XPlace Card",
+      "clientType": "仅 App",
+      "appName": "XPlace: Crypto Credit Card（Pontech GROUP L.L.C-FZ）",
+      "webSupport": "仅 App",
+      "appStoreChinaAvailable": "No",
+      "appStoreCoverage": 161,
+      "appStoreUrl": "https://apps.apple.com/app/id6747043956",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=x.place",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "条款 18.2：发邮件到 legal@x.place 申请关闭账户，并完成离场流程（须先还清 Credit 模式欠款）；钱包为非托管；Google Play 声明可申请删除",
+      "deletionSource": "https://docs.x.place/legal/legal/xplace-terms-and-conditions",
+      "privacyScore": 4,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "明确 GDPR",
+      "privacyPolicyUrl": "https://docs.x.place/legal/legal/xplace-privacy-policy",
+      "profileUrl": "https://ucard.observer/cards/xplace-card/"
+    },
+    {
+      "id": "lydian-card",
+      "name": "Lydian Card",
+      "clientType": "Web 可用（含卡片）",
+      "appName": "Lydian Wallet（TPG Payments Inc）",
+      "webSupport": "Web 可用（含卡片）",
+      "appStoreChinaAvailable": "Yes",
+      "appStoreCoverage": 148,
+      "appStoreUrl": "https://apps.apple.com/app/id6749316906",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.lydian.wallet",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "没有自助删除入口；美国卡条款写明可致电或写信要求关闭卡账户（关户不免除欠款）；国际版条款和隐私政策写可发邮件到 support@lydian.com 申请访问或删除数据；Google Play 声明可申请删除；Lydian Wallet 为非托管钱包，删除只在本地移除",
+      "deletionSource": "https://lydian.com/us-lydian-card-terms",
+      "privacyScore": 5,
+      "privacyFriendliness": "较好",
+      "regulatoryFramework": "明确 GDPR",
+      "privacyPolicyUrl": "https://lydian.com/privacy",
+      "profileUrl": "https://ucard.observer/cards/lydian-card/"
     }
   ]
 }
