@@ -20955,18 +20955,18 @@
       "verified": "2026-10-16",
       "id": "woocard-visa",
       "name": "WooCard",
-      "aliases": "WooCard woocard io Telegram Mini-App Visa 预付卡 免KYC AI Agent API 匿名 虚拟卡",
+      "aliases": "WooCard woocard io Telegram Mini-App Visa 预付卡 免KYC AI Agent API 匿名 虚拟卡 实体卡",
       "mark": "W",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "conditional",
       "kycNote": "支持轻量级隐私准入方案（提供免 KYC 试用额度档位），高阶额度档位支持国际身份快速核验。",
-      "intro": "WooCard（woocard.io）是专为 Telegram 生态与 AI Agent 自动化打造的 Visa 国际预付卡。全流程嵌入 Telegram Mini-App，无需下载独立应用即可秒级开卡、链上多币种充值（USDT、USDC、BTC、ETH、TRX）与实时接收 3DS 动态短信。同时支持 Apple Pay 与 Google Pay 碰一碰支付，并开放高权限开发者 API，允许自主 AI Agent 程序化开卡与自动化采购。",
+      "intro": "WooCard（woocard.io）是专为 Telegram 生态与 AI Agent 自动化打造的 Visa 国际预付卡体系。全流程嵌入 Telegram Mini-App，无需下载独立应用即可秒级开卡、链上多币种充值（USDT 等）与实时接收 3DS 动态验证。产品涵盖标准 USD 虚拟卡、VIP ATM 虚拟卡以及全球寄送的 USD 实体卡和批量实体卡套装。同时全面支持 Apple Pay 与 Google Pay 线下触碰支付，并开放高权限开发者 API，允许自主 AI Agent 程序化开卡与自动化采购。",
       "model": "Telegram 原生轻量钱包直通 Visa 预付卡：支持多链稳定币即时充值，提供开发者自动化 API",
-      "network": "Visa（支持虚拟卡，原生支持 Apple Pay 与 Google Pay）",
+      "network": "Visa（支持标准虚拟卡、VIP ATM 虚拟卡、实体卡及实体卡套装，支持 Apple Pay 与 Google Pay）",
       "region": "全球大部分地区可用（受制裁国家除外）",
-      "fee": "0 月费，无账户维护费；充值手续费约 2.8%，加密货币兑换摩擦约 0.1%，POS 消费执行 Visa 汇率。",
-      "rewards": "支持高达 $200,000/月的高额消费上限；提供 AI Agent 开发者返佣与生态推广激励。",
+      "fee": "0 月费，无账户维护费；标准虚拟卡开卡费 10 USDT（含 5 USD 初始余额，不可退还），VIP USD + ATM 虚拟卡开卡费 85 USDT（有效期 36 个月，每日最高 ATM 取现 750 USD）；充值币种为 USDT，最低充值 10 USD，充值手续费 0.5 USD + 3.2%；每笔交易授权费 0.3 USD；POS 消费执行 Visa 汇率。",
+      "rewards": "单卡每日消费限额高达 $200,000，单笔交易限额 $30,000，每月消费额度高达 $1,000,000；提供 AI Agent 开发者返佣与生态推广激励。",
       "paymentCompatibility": {
         "sourceName": "WooCard",
         "network": "Visa",
@@ -20988,15 +20988,22 @@
       },
       "facts": [
         [
-          "Telegram Mini-App 一键发卡",
-          "无需在手机上额外安装臃肿的 App，直接在 Telegram 聊天内调起小程序完成发卡与余额管理。",
+          "Telegram Mini-App 快速发卡与实体卡寄送",
+          "无需在手机上额外安装独立 App，直接在 Telegram 内调起小程序即时开卡，亦支持下单 USD 实体卡在全球线下刷卡，或订购 5/10/20 张实体卡套装寄送至同一地址分发。",
           [
             0
           ]
         ],
         [
-          "多链充值与极速 3DS 验证",
-          "支持 TRC20/ERC20/BEP20 等多链充值，网上消费遇到 3DS 动态验证码时直接由 TG 机器人毫秒级推送。",
+          "虚拟卡与 VIP ATM 双卡型配置",
+          "提供适用于 Apple/GPay 及线上消费的标准 USD 虚拟卡（10 USDT 开卡费含 5 USD 余额），以及支持全球 ATM 取现的高端 VIP USD + ATM 虚拟卡（85 USDT 开卡费，每日最高可取 750 USD）。",
+          [
+            0
+          ]
+        ],
+        [
+          "高额消费限额与充值费率明细",
+          "单笔交易限额高达 $30,000，单卡每日消费限额 $200,000，月度消费限额 $1,000,000；USDT 最低充值 10 USD，充值手续费 0.5 USD + 3.2%，单笔授权费 0.3 USD。",
           [
             0
           ]
@@ -21011,8 +21018,15 @@
       ],
       "sections": [
         [
-          "Telegram 生态卡片的便携与隐私优势",
-          "在 Telegram 内完成发卡与资产充值，极大降低了传统金融 App 的合规摩擦与数据泄露风险，小额场景免去繁杂认证。",
+          "虚拟卡与实体卡多矩阵产品形态",
+          "WooCard 在 Telegram Mini-App 内构建了完整的产品线：针对日常线上网购和 Apple Pay/Google Pay 的标准 USD 虚拟卡；支持全球 ATM 现钞取现的 VIP 美元卡；以及面向全球线下 POS 终端刷卡的实体 Visa 卡，更提供 5 张、10 张或 20 张的实体卡套装供批量寄送或团队分配。",
+          [
+            0
+          ]
+        ],
+        [
+          "清晰透明的费用参数与消费限额",
+          "开卡费用明确，标准虚拟卡 10 USDT 开卡即赠 5 USD 初始余额，VIP ATM 卡开卡费 85 USDT 并享每日 750 USD 取现额度。充值手续费为 0.5 USD + 3.2%，单笔交易限额达 $30,000，每日额度 $200,000，每月高达 $1,000,000，满足个人与企业高频大额支付需求。",
           [
             0
           ]
@@ -21027,8 +21041,16 @@
       ],
       "faq": [
         [
+          "WooCard 有哪些卡片类型可供选择？",
+          "平台在 Telegram Mini-App 内提供四类产品：① 适用于 Apple/GPay 及线上消费的标准 USD 虚拟卡（10 USDT 开卡含 5 USD 余额）；② VIP USD + ATM 虚拟卡（85 USDT 开卡，支持每日最高 750 USD ATM 取现）；③ 全球线下 POS 刷卡的 USD 实体 Visa 卡；④ 支持 5/10/20 张批量寄送的实体卡套装。"
+        ],
+        [
           "申请 WooCard 需要提供身份证或护照吗？",
           "基础试用档位支持轻量级隐私开卡，适合日常小额与订阅开销；若需开通更高月度限额（如数万美元级别），需配合完成合规实名认证。"
+        ],
+        [
+          "WooCard 的充值费用与消费限额是多少？",
+          "充值币种为 USDT，最低充值金额为 10 USD，充值手续费为 0.5 USD + 3.2%；单笔交易限额为 $30,000，单卡每日消费限额为 $200,000，每月消费限额为 $1,000,000，每笔交易授权费为 0.3 USD。"
         ],
         [
           "WooCard 验证码怎么接收？",
@@ -21042,9 +21064,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://woocard.io"
+        "status": "official",
+        "path": "/card-art/woocard-visa.webp",
+        "file": "woocard-visa.webp",
+        "sourceFile": "woocard-visa.png",
+        "imageUrl": "https://woocard.io",
+        "sourcePage": "https://woocard.io",
+        "version": "WooCard Visa 官方卡面（实测 Telegram Mini-App 官方签发卡样）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/woocard-visa/",
       "statusLabel": "地区受限 · 资格需核实"

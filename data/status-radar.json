@@ -4182,7 +4182,7 @@
       "name": "WooCard",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa（支持虚拟卡，原生支持 Apple Pay 与 Google Pay）",
+      "network": "Visa（支持标准虚拟卡、VIP ATM 虚拟卡、实体卡及实体卡套装，支持 Apple Pay 与 Google Pay）",
       "model": "Telegram 原生轻量钱包直通 Visa 预付卡：支持多链稳定币即时充值，提供开发者自动化 API",
       "verified": "2026-10-16",
       "changelogs": [
@@ -4190,8 +4190,8 @@
           "date": "2026-10-16",
           "type": "product",
           "tag": "新品收录",
-          "title": "收录 Telegram 原生集成与 AI Agent 赋能的 WooCard Visa 预付卡",
-          "note": "完成 WooCard 官方 Telegram Mini-App 核验：确认支持 Telegram 内一键开卡、多链稳定币充值、极速 3DS 验证码推送、Apple Pay 闪付与专属 AI Agent 自动化程序化调用 API。"
+          "title": "收录 Telegram 原生集成与 AI Agent 赋能的 WooCard Visa 预付卡并更新官方费率与卡面",
+          "note": "完成 WooCard 官方 Telegram Mini-App 深度核验并录入实测官方卡面：确认支持 10 USDT 标准虚拟卡（含 5 USD 余额）、85 USDT VIP ATM 虚拟卡（每日 ATM 最高取现 750 USD）、线下 USD 实体卡与 5/10/20 张实体卡套装；充值币种 USDT，最低充值 10 USD，充值手续费 0.5 USD + 3.2%，单卡每日消费限额 $200,000、单笔限额 $30,000、月度限额 $1,000,000，每笔交易授权费 0.3 USD，支持 Apple Pay 与 Google Pay。"
         }
       ]
     },
