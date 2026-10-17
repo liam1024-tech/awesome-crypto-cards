@@ -108,11 +108,11 @@
     {
       "cardId": "hi-debit-card",
       "cardName": "hi Debit Mastercard",
-      "stage": "closed",
-      "level": "critical",
-      "title": "⛔ 新发卡无限期暂停 · 权益全面冻结",
-      "summary": "hi 官方确认新 IBAN 与卡片申领已无限期暂停，所有借记卡返现与质押奖励均已冻结，底层通道重组停滞。",
-      "actionAdvice": "服务已处于停滞状态，新用户无法申领，存量持卡人请注意账户资产安全。",
+      "stage": "paused",
+      "level": "warning",
+      "title": "⚠️ 官方资料互相矛盾 · 借记卡奖励暂停中",
+      "summary": "帮助中心的激活指南写明虚拟借记卡现已可用，会员权益页却写明暂停所有借记卡奖励；hi.com 仍在推广卡片与个人 IBAN，但两个产品页均已 404。",
+      "actionAdvice": "卡片能否在 App 内看到入口取决于地区与账户状态；奖励暂不发放，大额充值前请先以 App 内客服书面答复为准。",
       "sourceUrl": "https://ucard.observer/cards/hi-debit-card/"
     },
     {
@@ -1109,7 +1109,7 @@
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；官方产品页确认支持 Apple Pay 与 Google Wallet",
-      "model": "稳定币余额 / Visa 消费卡",
+      "model": "MoneyGram App 内 USDC 美元稳定余额 / Visa 消费卡",
       "verified": "2026-10-13",
       "changelogs": [
         {
@@ -1640,8 +1640,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；按 Bitpanda Card 地区条款发行",
       "model": "Bitpanda 主 / 备用支付资产自动换为 EUR",
-      "verified": "2026-09-27",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "资格更正",
+          "title": "须居住在欧元区国家，Bankident 核验客户目前不能订卡",
+          "note": "官方卡片页 FAQ 写明申请者必须是欧元区国家的居民，且「customers that verify their identity via Bankident cannot order a card」；卡片只支持欧元计价。本站此前只写「需在 App 检查所在国家的申请入口」，低估了居住地门槛，也漏记了 Bankident 限制。补卡费用同一站点仍有两处写法（费用表 €5.90、FAQ €9.90），本页不选定其一。"
+        },
         {
           "date": "2026-07-12",
           "type": "reward",
@@ -1805,8 +1812,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "虚拟 Visa；Global 与 APAC 分属不同申请和费率版本",
       "model": "MEXC Fiat 账户余额支付；支持 USDT 转入后刷卡",
-      "verified": "2026-09-30",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "费率复核",
+          "title": "Global 版 0% 消费费优惠已于 2026-09-30 到期，官网两处费率口径仍不一致",
+          "note": "2026-10-17 复核时，官方产品页仍把 20 美元发行费标为划线价、现为 0 美元，并写服务费 0%；但 0% 消费费优惠的到期日 2026-09-30 已经过去。产品页没有再单独列出 Global 版到期后的交易费率，官网费率对比页仍写 Global 版 1% 交易费、0% 加密兑换费与 0% 额外外汇加价。本档不把限时 0% 当成现行费率，也不替官方在两种口径之间做选择；申请前以 App 显示的适用费率为准。"
+        },
         {
           "date": "2026-08-10",
           "type": "feature",
@@ -1997,18 +2011,46 @@
     {
       "id": "hi-debit-card",
       "name": "hi Debit Mastercard",
-      "stage": "closed",
-      "stageLabel": "⛔ 停服公墓",
-      "network": "Mastercard；实际持卡人与费用依据账户所属地区计划",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
+      "network": "Mastercard；帮助中心写明卡片可在全球 9,000 万家受理 Mastercard 的商户使用",
       "model": "hi App 内绑定资产余额的 Mastercard 借记卡（状态有冲突）",
-      "verified": "2026-10-04",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "状态更正",
+          "title": "从已停服改为待核：帮助中心写明虚拟卡可用，官网仍在推广卡片与 IBAN",
+          "note": "帮助中心 2026-06-30 更新的激活指南以「虚拟借记卡现已可用」开头，并给出核验地址、设置主次支付币种的激活步骤；帮助中心没有任何文章说明卡片申领被暂停。hi.com 的 Buy & Sell 页面至今仍在推广借记卡与个人 IBAN，但 /products/debit-card 与 /products/iban 均已 404，站点地图停留在 2022 年。本站此前把这条产品线记为已停服，依据是「官方确认新 IBAN 与卡片申领无限期暂停」，该表述在官方页面中找不到出处，现改为待核。"
+        },
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "记录更正",
+          "title": "恢复为待核状态：帮助中心写明虚拟卡可用，记录中的「申请无限期暂停」没有出处",
+          "note": "帮助中心 2026-06-30 更新的激活指南以「虚拟借记卡现已可用」开头并给出激活步骤，任何页面都没有说明卡片申领被暂停；hi.com 仍在推广借记卡与个人 IBAN，但这两个产品页已经 404、站点地图停留在 2022 年。本站此前把这条产品线记为已停服，缺乏官方依据，现改为待核。借记卡奖励仍然暂停。"
+        },
+        {
+          "date": "2026-08-01",
+          "type": "compliance",
+          "tag": "暂停申请",
+          "title": "暂停新卡申请通道",
+          "note": "官方披露发卡安排重构，等待新合规牌照与发卡通道重启。该说法在 2026-10-17 复核时未能在官方页面找到出处。"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "reward",
+          "tag": "返现冻结",
+          "title": "所有借记卡奖励暂停直至另行通知，同日激活指南却写明卡片可用",
+          "note": "会员权益页写明「We are revamping our rewards program and suspending all Debit card rewards until further notice」，适用于 HI 消费、加密消费、法币消费与订阅回赠四类奖励；奖励说明页也有同样提示。同一日期更新的激活指南却以「虚拟借记卡现已可用」开头，两份官方资料在同一天说法不同，这也是本页保持待核而非直接判为在营或停服的原因。"
+        },
         {
           "date": "2026-06-30",
           "type": "reward",
           "tag": "返现冻结",
           "title": "暂停新卡申请，借记卡返现全部冻结",
-          "note": "hi 官方帮助中心确认新 IBAN 与卡片申领无限期暂停，所有返现与质押奖励冻结。"
+          "note": "hi 官方于 2026-06-30 更新会员权益页，写明暂停所有借记卡奖励直至另行通知；同一日更新的激活指南则写明虚拟借记卡现已可用。同日两份官方资料说法不同。"
         }
       ]
     },
@@ -2538,10 +2580,24 @@
       "name": "PEXX Mastercard",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Mastercard；官方现行帮助页介绍虚拟卡",
+      "network": "官方页面标题同时列 Visa 与 Mastercard；卡片页正文未逐一说明实体卡与虚拟卡各自的卡组织",
       "model": "向 PEXX 卡账户充值 USD、USDT 或 USDC 后进行 Mastercard 消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "费率更正",
+          "title": "每笔卡交易 0.6% 平台费，非美元消费另收 1.2% 外汇加价",
+          "note": "官方卡片页写明「PEXX charges a 0.6% platform fee on every card transaction」，非美元消费另收 1.2% 外汇加价，并称没有隐藏费用。本站此前记录的 1.8% 处理费、每笔最高 $0.30 授权费与 $2 开卡费在现行页面上均已不再出现。同一页现已提供实体卡与虚拟卡两种形态，可加入 Apple Pay 与 Google Pay，此前记录的「实体卡即将推出」已过时。"
+        },
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "限额冲突",
+          "title": "卡片页称「目前没有消费限额」，帮助中心仍列每日 $30,000、每月 $70,000",
+          "note": "两张官方页面在同一天给出不同答案：卡片页 FAQ 写「There are currently no spending limits」，帮助中心限额文章（2026-10 上旬更新）列每日交易 $30,000、每月 $70,000。本页并列记录两处说法，实际额度以 App 内显示为准。"
+        },
         {
           "date": "2026-08-08",
           "type": "feature",
@@ -2601,8 +2657,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；官方营销资料说明其通过合作发行计划提供",
       "model": "USDT 充值至虚拟卡余额后按 Visa 网络消费",
-      "verified": "2026-10-04",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "档位补全",
+          "title": "卡片分 Adventure $9.99、Pioneer $999.99、Frontier $9999 三档",
+          "note": "官方卡片页把卡种分为三档：Adventure $9.99 开放申请；Pioneer $999.99 与 Frontier $9999 标注 Coming soon，分别附带金属卡与 U.S. 股票/ETF 交易免佣、USDT Vault 额外 10% / 20% APR。此前本页只记录了单张卡的价格，没有档位之间的差异；创建卡入口仍显示暂时维护。"
+        },
         {
           "date": "2026-09-20",
           "type": "feature",
@@ -2837,8 +2900,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Visa Platinum 虚拟卡",
       "model": "多链稳定币 1:1 存入充值至卡内法币（USD/EUR）余额进行 Visa 结算",
-      "verified": "2026-10-07",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "跨币种消费 1%、ATM 每月前 $200 免费、限额 $30,000，Pro $9.99/月",
+          "note": "帮助中心的费用表写明：同币种消费 0% 加价，其他币种 1%；ATM 每月前 $200 免费、之后 2%；卡片限额 $30,000；每日提款额度 Free 档 $2,000、Pro 档 $20,000。Pro 为 $9.99/月或 $99.99/年，前 $1,000 消费按每 $10 得 20 分（约 2%）。此前记录的「首笔消费 10% 返现」在官方页面不存在；帮助中心的 10% 指推荐人从被推荐人 Pro 订阅中获得的返点。"
+        },
         {
           "date": "2026-10-07",
           "type": "reward",
@@ -2866,6 +2936,13 @@
           "tag": "虚拟卡上线",
           "title": "推出稳定币 1:1 兑付 Virtual Visa Platinum 卡",
           "note": "支持多链稳定币充值，免月租，USD/EUR 本币消费享 0% FX 费率，支持绑定 Apple Pay 与 Google Pay。"
+        },
+        {
+          "date": "2026-09-16",
+          "type": "product",
+          "tag": "上线",
+          "title": "Pulsar 随 Arc 主网上线，向首批用户开放卡片、USD/EUR 账户与积分",
+          "note": "官方发布写明 Pulsar 于 2026-09-16 与 Arc 主网一同上线，开始迎接首批用户；官网首页目前仍保留「Get Early Access」入口，App Store 与 Google Play 已可下载。卡片相关服务由 Wirex 提供，帮助中心的限额文章明确适用于「通过 Pulsar 提供的 Wirex 支持服务」。"
         }
       ]
     },
@@ -2876,8 +2953,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；Mastercard Debit®（虚拟卡与 Fresh Mint 实体卡）",
       "model": "直连 xPortal 非托管钱包，由 xMoney 进行加密资产法币即时清算扣款",
-      "verified": "2026-10-07",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "限额冲突",
+          "title": "卡片页与官方费用 PDF 的限额、外汇费与 ATM 免费额度不一致",
+          "note": "卡片页写每日充值 €2,500、每月充值 €10,000、每日消费 €5,000、每月 ATM €500，前 €100 免费；Twispay 官方费用 PDF（生效 2024-07-02）写每日充值 €5,000、每月充值 €25,000、每日消费无上限、每月 ATM €2,500，前 €200 免费，外汇费「最高 2.5%」。两份文件都由官方发布，本页并列记录，不替发行方选定一个数字。另按 PDF 补记：虚拟卡前 3 张免费、之后每张 €3，实体卡 €9.99，国际配送 €12.99。"
+        },
         {
           "date": "2026-10-05",
           "type": "feature",
@@ -3105,8 +3189,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa",
       "model": "通过 Solana 钱包充值 SOL / USDC / USDT，刷卡时自动兑换为法定货币清算",
-      "verified": "2026-10-03",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "product",
+          "tag": "功能新增",
+          "title": "官网新增 AI Agent 专用 MCP 服务器：8 个工具，只查账与建单，不能转账",
+          "note": "SolCard 官网新增远程 MCP 服务器（app.solcard.cc/mcp），用 OAuth 授权而非 API Key。连接后 AI 助手获得 8 个工具：6 个只读（列出卡片、查单卡与余额、查交易与充值记录、查充值发票、查永久充值地址）与 2 个新建记录（生成永久充值地址、开充值发票）。官方明确没有转账、提现或划走资金的工具，充值仍由持卡人自己付款，完整卡号、CVC 与有效期不会发送给助手；授权可在账户的 Connected agents 中随时撤销。这是账户接入方式的变化，卡片的费用、KYC 与地区规则均未改变。"
+        },
         {
           "date": "2026-10-03",
           "type": "compliance",
@@ -3123,8 +3214,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；由持牌电子货币机构 Unlimit EU Ltd 合作发行",
       "model": "自托管钱包直接借记授权（Direct Debit Mandate）即时扣款；非托管借记卡，平台不控制用户私钥",
-      "verified": "2026-10-04",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "资格更正",
+          "title": "卡片只发给 EEA 与瑞士居民，并排除约 46 个国籍",
+          "note": "官方帮助中心文章（2026-07-03 更新）写明：居住在 EEA 或瑞士以外的用户不发卡，无论国籍；持有名单中国籍的用户也不发卡，无论居住地。名单含美国、阿联酋、土耳其、南非、越南、菲律宾、巴基斯坦、尼日利亚、摩洛哥等约 46 项，意大利与西班牙居民目前也可能仍显示「即将推出」。本站此前记录的「逐步扩展拉美部分地区」指的是钱包与账户业务，不是卡片发行。"
+        },
         {
           "date": "2026-10-04",
           "type": "feature",
@@ -3196,10 +3294,24 @@
       "name": "Fold Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；由 Sutton Bank（FDIC 成员行）通过 Stripe Issuing 合作发行",
+      "network": "Visa；借记卡由 Sutton Bank（FDIC 成员行）依 Visa U.S.A. 牌照发行，Fold 公司担任项目管理方",
       "model": "美元借记卡账户，支持 ACH / Direct Deposit 充值，刷卡消费自动按比例返还比特币（Satoshis）",
-      "verified": "2026-10-07",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "reward",
+          "tag": "记录更正",
+          "title": "借记卡基础返现 0.25%、按 Reserve 档位加码；1.5% 至 4% 与转盘属于比特币信用卡",
+          "note": "官方条款 19.6.2 写明 Prepaid Debit Card 的基础返现为 0.25%，Fold Reserve 会员按其档位获得更高比例，最高一档 3%，均设月上限；只有经 Visa 处理的签名交易计奖。1.5% 至 5% 的阶梯属于 Fold Bitcoin Credit Card 与 Reserve 的储蓄档位，Spin 转盘是推广活动。官方条款同一条还写明：借记卡由 Sutton Bank 发行，信用卡由 Celtic Bank 发行，Spending Account 由 Lead Bank 发行。"
+        },
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "费率公布",
+          "title": "ATM 每次 $3.50、国际交易每笔 $3.00，Reserve 余额满 $5,000 两项全免；即时入金与提现各 1.5%、每笔上限 $25",
+          "note": "官方条款的费用表给出上述数字，此前本页只写「依 ATM 网络收取」。Fold+ 会员（$100/年）已由 2026-09-21 生效的条款版本删除，现行权益按 Reserve 档位计算。官方同时写明不接受 ITIN，申请须为美国公民或合法永久居民并居住在美国 50 州或哥伦比亚特区。"
+        },
         {
           "date": "2026-10-07",
           "type": "feature",
@@ -3262,8 +3374,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；持牌金融机构依据 Mastercard 国际卡组织许可发行",
       "model": "自托管多链钱包直连充值；借记卡，不设中心化资产资金池沉淀；可选配备瑞士合规 IBAN 个人账户",
-      "verified": "2026-10-08",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "地区更正",
+          "title": "官方只说「美国可用」，「加州、纽约、得州等 30 多个州」无出处",
+          "note": "THORWallet 国家清单把美国列为一项，没有州级说明；页面只写卡片在 175+ 个国家可用，大多数国家即时开放、少数需额外验证、少量暂不支持。本站此前记录的具体州数在官网上找不到依据，已撤回，州级资格以官网清单与账户核验为准。"
+        },
         {
           "date": "2026-10-08",
           "type": "product",
@@ -3278,10 +3397,24 @@
       "name": "Tonhub Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；欧洲持牌金融机构依据 Visa 国际卡组织许可发行",
+      "network": "官方站点未写明卡组织；卡片由第三方「card partner」提供",
       "model": "Tonhub 链上非托管钱包直连扣款，交易时按需划扣 TON 与 USDT；借记卡，不设中心化资金池沉淀；支持配备个人专属 SEPA 银行账户",
-      "verified": "2026-10-09",
+      "verified": "2026-10-17",
       "changelogs": [
+        {
+          "date": "2026-10-17",
+          "type": "compliance",
+          "tag": "地区更正",
+          "title": "卡片面向 35 个国家与地区，含英国、瑞士、中国香港与中国台湾",
+          "note": "官方首页列出 35 个国家与地区：欧洲 28 个（含英国、瑞士），美洲有阿根廷与巴西，亚太有澳大利亚、新西兰、中国香港与中国台湾；中国大陆不在名单内。每月消费上限 €25,000。本站此前记录为「欧盟/EEA 居民、大中华区暂不开放」，与官方名单不符。"
+        },
+        {
+          "date": "2026-10-17",
+          "type": "fee",
+          "tag": "报价撤回",
+          "title": "官网不再公布卡片费率与卡组织，1.5% 手续费无现行出处",
+          "note": "官方首页只写每月消费上限 €25,000，没有开卡费、手续费条款，也没有说明卡片走哪个卡组织，只称卡片由「card partners」提供。本站此前记录的 1.5% 手续费与「Visa 官方许可」在现行页面找不到出处，已删除，改为以 App 内账户条款为准。"
+        },
         {
           "date": "2026-10-09",
           "type": "product",
