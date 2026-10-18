@@ -1,8 +1,8 @@
 {
   "version": "2026-10-16",
-  "description": "全网 162 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
+  "description": "全网 163 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "totalAudited": 162,
+  "totalAudited": 163,
   "cards": [
     {
       "id": "ether-fi",
@@ -3243,6 +3243,26 @@
       "regulatoryFramework": "一般数据权利 / 他国法规",
       "privacyPolicyUrl": "https://www.straitsx.com/legal/privacy-policy",
       "profileUrl": "https://ucard.observer/cards/straitsx-visa/"
+    },
+    {
+      "id": "kite-card",
+      "name": "Kite Card",
+      "clientType": "仅 App",
+      "appName": "Kite: Stablecoin Finance（Kite App Limited）",
+      "webSupport": "仅 App",
+      "appStoreChinaAvailable": "No",
+      "appStoreCoverage": 45,
+      "appStoreUrl": "https://apps.apple.com/app/id6760219505",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.kiteapplimited.app",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "须发邮件到 care@kiteapp.xyz 申请删除账户（隐私政策第 11 节、条款第 17 节），核实身份后关户，并删除或匿名化个人数据（法定保留数据除外，链上数据无法删除）；申请前要先提走全部资产，关户后可能无法再提现；卡片可在 App 内注销；钱包是非托管的，可在 More > Security & Privacy > Show Private Key 导出私钥；帮助中心没有 App 内删除账户的说明；Google Play 标注可申请删除",
+      "deletionSource": "https://www.kiteapp.xyz/legal/privacy-policy",
+      "privacyScore": 4,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "一般数据权利 / 他国法规",
+      "privacyPolicyUrl": "https://www.kiteapp.xyz/legal/privacy-policy",
+      "profileUrl": "https://ucard.observer/cards/kite-card/"
     }
   ]
 }
