@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 170,
-    "current": 159,
-    "kycRequired": 143,
+    "total": 171,
+    "current": 160,
+    "kycRequired": 144,
     "kycConditional": 7,
     "kycUnknown": 9,
     "noKycVerified": 0,
     "closed": 11,
-    "officialSources": 624
+    "officialSources": 644
   },
   "rows": [
     {
@@ -1077,8 +1077,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 7,
-      "verified": "2026-10-17",
+      "sourceCount": 9,
+      "verified": "2026-10-18",
       "profileUrl": "https://ucard.observer/cards/pulsar-card/"
     },
     {
@@ -1209,8 +1209,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 5,
-      "verified": "2026-10-17",
+      "sourceCount": 9,
+      "verified": "2026-10-18",
       "profileUrl": "https://ucard.observer/cards/bleap-card/"
     },
     {
@@ -1528,8 +1528,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
-      "verified": "2026-10-16",
+      "sourceCount": 9,
+      "verified": "2026-10-18",
       "profileUrl": "https://ucard.observer/cards/based-card/"
     },
     {
@@ -1839,6 +1839,17 @@
       "sourceCount": 4,
       "verified": "2026-10-15",
       "profileUrl": "https://ucard.observer/cards/kazepay-card/"
+    },
+    {
+      "id": "kite-card",
+      "name": "Kite Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 8,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/kite-card/"
     },
     {
       "id": "fasset-card",

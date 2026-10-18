@@ -493,7 +493,7 @@
       "pageTitle": "Plasma One（Plasma U卡）：发卡地区、实体卡申请条件、苹果返现与邀请码",
       "pageTitleEn": "Plasma One: Regions, Apple Cashback & Invite Code",
       "metaDescription": "Plasma One（Plasma U卡）全面评测：解答是否欧洲卡、发卡地区与支持国家、实体卡申请条件、Apple 消费返现与邀请码 4XPNLR 详细规则。核验日期 2026-09-29。",
-      "metaDescriptionEn": "Comprehensive review of Plasma One (Plasma UCard): European or offshore card origin, supported countries, physical card requirements, Apple Pay cashback, and invite code 4XPNLR rules.",
+      "metaDescriptionEn": "Plasma One (Plasma UCard) review: European or offshore card origin, supported countries, physical card rules, Apple Pay cashback, and invite code 4XPNLR.",
       "inviteLink": {
         "captured": "2026-09-24",
         "url": "https://www.plasma.org/download/4XPNLR",
@@ -3529,7 +3529,7 @@
       "pageTitle": "OKX Card（OKX U卡）：申请条件、即时返现与支持地区",
       "pageTitleEn": "OKX Card: Eligibility, Instant Cashback & Regions",
       "metaDescription": "OKX Card（OKX U卡）申请与评测：解答 OKX 有 U卡吗、申请条件与 KYC 门槛、即时返现最高 10% 规则、支持国家地区与消费币种。核验日期 2026-09-21。",
-      "metaDescriptionEn": "OKX Card (OKX UCard) application and review: does OKX have a crypto card, Level 2 KYC requirements, instant cashback tiers up to 10%, supported jurisdictions, and eligible stablecoins.",
+      "metaDescriptionEn": "OKX Card (OKX UCard) review: crypto card availability, Level 2 KYC, instant cashback up to 10%, supported jurisdictions, and eligible stablecoins.",
       "aliases": "okx pay USDC USDG USDT mastercard 欧易卡",
       "mark": "O",
       "group": "交易所卡",
@@ -13174,31 +13174,33 @@
     {
       "published": "2026-10-07",
       "modified": "2026-10-07",
-      "verified": "2026-10-17",
+      "verified": "2026-10-18",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
       "aliases": "Pulsar Money Card Visa virtual Pulsar Points cashback stablecoin",
       "mark": "P",
-      "intro": "Pulsar Money 是 2026-09-16 随 Arc 主网一同上线的多币种资金 App，提供以本人名义开立的 USD / EUR 账户、卡片消费、交易与积分奖励。卡片由 Wirex 提供技术与发卡支持，本月刚向首批用户开放，官网首页仍保留 Early Access 入口。官方公布的费用结构为：本币消费不加价、跨币种 1%、ATM 每月前 $200 免费。",
+      "intro": "Pulsar Money 是 2026-09-16 随 Arc 主网一同上线的多币种资金 App，提供以本人名义开立的 USD / EUR 账户、卡片消费、交易与积分奖励。卡片由 Wirex 提供技术与发卡支持；官方 2026-07-09 的发布稿写明 Pulsar 提供 virtual Visa cards，品牌素材中的卡面标注 Visa Platinum。官方公布的费用结构为：本币消费不加价、跨币种 1%、ATM 每月前 $200 免费。",
       "kycNote": "开通 Pulsar Money 虚拟卡须在官方应用内完成身份核验（KYC）；合规可支持国家及地区以应用内流程为准，受制裁地区不可用。",
       "model": "多链稳定币 1:1 存入充值至卡内法币（USD/EUR）余额进行 Visa 结算",
       "network": "Visa；Visa Platinum 虚拟卡",
-      "region": "按官方国家清单，卡片、USD ACH 入金与 EUR SEPA 入金各有独立的国家名单；例如尼日利亚在卡片名单内，但不在 USD ACH 或 EUR SEPA 名单内。是否符合以 App 内账户与 KYC 结果为准。",
-      "fee": "无月费、无开户费、无单独刷卡手续费，Apple Pay / Google Pay 不另收费。同币种消费 0% 加价，其他币种转换收 1%。ATM 每月前 $200 免费，超出部分收 2%（ATM 运营方费用另计）。卡片限额 $30,000；每日提款额度 Free 档 $2,000、Pro 档 $20,000。",
-      "rewards": "消费按 Pulsar Points 计奖：Free 档前 $500 每 $10 得 5 分（约 0.5%），Pro 档前 $1,000 每 $10 得 20 分（约 2%），之后按档位递减。Pro 订阅为 $9.99/月或 $99.99/年。2026 年 10 月另有双倍返点活动，属限期推广。",
+      "region": "卡片申请按官方国家清单：70 个国家/地区的居民可申请（2026-10-09 核对），欧洲 41、亚洲与中东 14、美洲 9、非洲 5、大洋洲 1；该清单是「申请资格」而非「使用范围」。USD ACH 账户支持 48 个国家/地区、EUR SEPA 账户支持 29 个；三份名单互相独立，例如尼日利亚在卡片名单内，但不在 ACH 或 SEPA 名单内。是否符合仍以 App 内 KYC 结果为准。",
+      "fee": "无月费、无开户费、无单独刷卡手续费，Apple Pay / Google Pay 不另收费。同币种消费 0% 加价，非本币消费的外汇转换费为 1%。ATM 每月前 $200 免费，超出部分收 2%（ATM 运营方费用另计）。官方 App Limits 按卡型列出限额：单笔消费 €30,000；每月消费 Virtual 与 Plastic 为 €30,000、Metal 为 €75,000；每日取现 Virtual 不适用、Plastic 与 Metal 为 €500，每月 €5,000。Pricing & Fees 页则把卡片限额写作 $30,000 USD，两处币种不同。银行转账每日上限 SEPA €50,000、Faster Payments £50,000；外部卡充值最低 $12/笔，未验证卡在新加坡境外每日 $15,000、在新加坡每日 $2,000，已验证卡每日 $25,000。账户提现每日额度 Free 档 $2,000、Pro 档 $20,000。",
+      "rewards": "最高约 2%：Pro 档前 $1,000 每 $10 得 20 分（约 2%），Free 档前 $500 每 $10 得 5 分（约 0.5%），之后按档位递减。Pro 订阅为 $9.99/月或 $99.99/年。积分可用于抵扣已完成的卡片消费，最高覆盖 100%，抵扣以 USDC 返还。2026 年 10 月另有双倍返点活动，属限期推广。",
       "facts": [
         [
           "充值与结算模型",
-          "Pulsar 是 2026-09-16 随 Arc 主网上线的多币种 App，官网首页仍显示 Early Access、App Store 与 Google Play 已可下载。卡片相关服务由 Wirex 提供，帮助中心明确写明限额适用于「通过 Pulsar 提供的 Wirex 支持服务」。官网没有公布卡片所走的卡组织，卡面也未出现在官方公开页面上。",
+          "Pulsar 是 2026-09-16 随 Arc 主网上线的多币种 App，官网首页仍显示 Early Access、App Store 与 Google Play 已可下载。卡片相关服务由 Wirex 提供，帮助中心明确写明限额适用于「通过 Pulsar 提供的 Wirex 支持服务」。官方 2026-07-09 的发布稿写明 Pulsar 提供 virtual Visa cards，品牌素材中的卡面标注 Visa Platinum；帮助中心与 2026-09-16 的上线稿都没有再提卡组织。本站此前记录「官网没有公布卡组织」，漏掉了这条更早的官方发布稿，已更正。",
           [
-            0
+            7,
+            5
           ]
         ],
         [
           "费用结构",
-          "无月费与开户费；同币种（USD、EUR）消费 0% 加价，其他币种收 1%；ATM 每月前 $200 免费、之后 2%；单笔与每月消费限额 $30,000。SEPA 与 ACH 出入金在官方支持的通道上不另收费。",
+          "无月费与开户费；同币种（USD、EUR）消费 0% 加价，非本币收 1% 外汇转换费；ATM 每月前 $200 免费、之后 2%。App Limits 页按卡型列出：单笔消费 €30,000；每月消费 Virtual 与 Plastic €30,000、Metal €75,000；每日取现 Virtual 不适用、Plastic 与 Metal €500，每月 €5,000。Pricing & Fees 页把卡片限额写作 $30,000 USD，与 App Limits 的 €30,000 币种不同。SEPA 与 ACH 出入金在官方支持的通道上不另收费。",
           [
+            8,
             3
           ]
         ],
@@ -13211,19 +13213,34 @@
         ],
         [
           "消费奖励与活动",
-          "奖励以 Pulsar Points 发放：Free 档前 $500 每 $10 得 5 分（约 0.5%），Pro 档前 $1,000 每 $10 得 20 分（约 2%），之后按档位递减，$10,000 以上统一约为 0.25%。Pro 为 $9.99/月或 $99.99/年。此前记录的「首笔消费 10% 返现、最多 500 分」在官方页面中找不到，已删除。",
+          "奖励以 Pulsar Points 发放：Pro 档前 $1,000 每 $10 得 20 分（约 2%），Free 档前 $500 每 $10 得 5 分（约 0.5%），之后按档位递减，$10,000 以上统一约为 0.25%。Pro 为 $9.99/月或 $99.99/年。积分可抵扣已完成的卡片消费，最高覆盖 100%，抵扣以 USDC 返还。此前记录的「首笔消费 10% 返现、最多 500 分」在官方页面中找不到，已删除。",
           [
-            4
+            4,
+            7
+          ]
+        ],
+        [
+          "卡片限额按卡型分三档",
+          "App Limits 文章按 Virtual / Plastic / Metal 三栏列出：单笔消费三档均为 €30,000；每月消费 Virtual 与 Plastic 为 €30,000、Metal 为 €75,000；每日取现 Virtual 不适用、Plastic 与 Metal 为 €500，每月 €5,000。Metal 的限额可按申请提高。Pricing & Fees 页把卡片限额写作 $30,000 USD，与 App Limits 的 €30,000 币种不同，本页并列记录。",
+          [
+            8
+          ]
+        ],
+        [
+          "国家清单是申请资格，不是使用范围",
+          "官方支持国家页列出卡片可申请的 70 个国家/地区（核对 2026-10-09），并明确这是 application eligibility list，不是可刷卡地区。USD ACH 账户支持 48 国、EUR SEPA 账户支持 29 国，三份名单各自独立。",
+          [
+            6
           ]
         ]
       ],
       "sections": [
         [
           "首笔消费返现与积分机制",
-          "Pulsar 的奖励是积分阶梯而不是首笔返现：支出越靠前，每 $10 的返点越高，Free 与 Pro 两档的最高返点分别出现在前 $500 与前 $1,000。Pro 的订阅成本约等于每月花满 $500 后的返还，因此是否订阅取决于月度消费量，而不是开卡时的一次性优惠。",
+          "Pulsar 的奖励是积分阶梯而不是首笔返现：支出越靠前，每 $10 的返点越高，Free 与 Pro 两档的最高返点分别出现在前 $500 与前 $1,000。Pro 的订阅成本约等于每月花满 $500 后的返还，因此是否订阅取决于月度消费量，而不是开卡时的一次性优惠。积分本身也可以直接抵扣已完成的卡片消费，最高覆盖 100%，以 USDC 返还。",
           [
             4,
-            3
+            7
           ]
         ]
       ],
@@ -13234,21 +13251,21 @@
         ],
         [
           "Pulsar Money 卡有什么费用？",
-          "无月费与开户费，App 内银行卡消费不另收费；同币种消费 0% 加价，其他币种收 1% 转换费；ATM 每月前 $200 免费，超出收 2%。"
+          "无月费与开户费，App 内银行卡消费不另收费；同币种消费 0% 加价，非本币收 1% 外汇转换费；ATM 每月前 $200 免费，超出收 2%。卡片消费与取现限额按 Virtual / Plastic / Metal 三档列在帮助中心的 App Limits 页。"
         ],
         [
           "Pulsar Money 的消费返现怎么算？",
-          "按 Pulsar Points 计：Free 档前 $500 每 $10 得 5 分（约 0.5%），Pro 档前 $1,000 每 $10 得 20 分（约 2%），之后递减。官网与帮助中心都没有「首笔消费 10%」的活动；帮助中心里的 10% 指推荐人从被推荐人 Pro 订阅中获得的返点。"
+          "按 Pulsar Points 计：Pro 档前 $1,000 每 $10 得 20 分（约 2%），Free 档前 $500 每 $10 得 5 分（约 0.5%），之后递减。积分可抵扣已完成的卡片消费，最高 100%，以 USDC 返还。官网与帮助中心都没有「首笔消费 10%」的活动；帮助中心里的 10% 指推荐人从被推荐人 Pro 订阅中获得的返点。"
         ]
       ],
       "id": "pulsar-card",
       "name": "Pulsar Money Card",
       "paymentCompatibility": {
         "sourceName": "Pulsar Money Virtual Visa Card",
-        "network": "官方页面标题同时列 Visa 与 Mastercard",
+        "network": "Visa（官方 2026-07-09 发布稿写明 virtual Visa cards；品牌卡面标注 Visa Platinum）",
         "issuer": "Wirex 提供的卡片服务；Pulsar 本身不是发卡机构",
-        "region": "按官方卡片国家名单，以 App 内 KYC 结果为准",
-        "researchDate": "2026-10-17",
+        "region": "卡片申请面向官方 70 个国家/地区；以 App 内 KYC 结果为准",
+        "researchDate": "2026-10-18",
         "applePay": {
           "status": "official",
           "detail": "官方明确支持添加至 Apple Pay 进行线下触碰支付及线上快捷买单。"
@@ -13273,7 +13290,7 @@
         },
         {
           "title": "Pulsar Money Card 官方卡面素材核查",
-          "url": "https://apps.apple.com/us/app/id6757467196"
+          "url": "https://pulsar.money/brand-kit"
         },
         {
           "title": "Pulsar Money 帮助中心：费用与限额——跨币种 1%、ATM 每月 $200 内免费（2026-10-17 核对）",
@@ -13284,22 +13301,36 @@
           "url": "https://help.pulsar.money/en/articles/16752652-pulsar-pro"
         },
         {
-          "title": "Pulsar Money 官方发布：Pulsar 于 2026-09-16 随 Arc 主网上线（2026-10-17 核对）",
-          "url": "https://pulsar.money/pulsar-goes-live"
+          "title": "Pulsar Money 官方发布：Pulsar 于 2026-09-16 随 Arc 主网上线（2026-10-18 核对；原短链已 404）",
+          "url": "https://pulsar.money/en/blog/pulsar-goes-live"
         },
         {
-          "title": "Pulsar Money：卡、SEPA、ACH 支持国家清单（数据截至 2026-07-15，发布于 2026-10-09）",
-          "url": "https://pulsar.money/supported-countries"
+          "title": "Pulsar Money：卡、USD ACH、EUR SEPA 支持国家清单——卡片 70 国、ACH 48 国、SEPA 29 国（卡片数据核对 2026-10-09；原短链已 404）",
+          "url": "https://pulsar.money/en/blog/pulsar-money-supported-countries"
+        },
+        {
+          "title": "Pulsar Money 官方发布：2026-07-09 上线稿写明提供 virtual Visa cards（2026-10-18 核对）",
+          "url": "https://pulsar.money/en/blog/pulsar-money-launches-on-arc"
+        },
+        {
+          "title": "Pulsar Money 帮助中心：Pulsar App Limits——按 Virtual / Plastic / Metal 列出消费与取现限额（2026-10-18 核对）",
+          "url": "https://help.pulsar.money/en/articles/17598741"
         }
       ],
       "cardArt": {
         "status": "official",
         "path": "/card-art/pulsar-card.webp",
         "file": "pulsar-card.webp",
-        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/e9/78/83e97880-b628-9f15-6f51-22377995f24a/App_Store_-_1260_x_2736_-_EN_-_11.png/1260x2736bb.png",
-        "sourcePage": "https://apps.apple.com/us/app/id6757467196",
-        "version": "Pulsar Money Visa Platinum 官方卡面（官方 App Store 图）",
-        "mode": "contain"
+        "imageUrl": "https://pulsar.money/brand-kit/assets/basic-card.png",
+        "sourcePage": "https://pulsar.money/brand-kit",
+        "version": "Pulsar Money Visa Platinum 官方卡面（官方品牌素材库 basic-card.png 裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 483,
+          "top": 237,
+          "width": 1034,
+          "height": 651
+        }
       },
       "url": "https://ucard.observer/cards/pulsar-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -14762,7 +14793,7 @@
     {
       "published": "2026-10-04",
       "modified": "2026-10-04",
-      "verified": "2026-10-17",
+      "verified": "2026-10-18",
       "id": "bleap-card",
       "name": "Bleap Card",
       "aliases": "Bleap Card Mastercard self-custodial non-custodial smart wallet Arbitrum USDC",
@@ -14774,15 +14805,15 @@
       "intro": "Bleap 是一款基于账户抽象（ERC-4337）与 Arbitrum 的自托管 Mastercard 借记卡，由塞浦路斯持牌 EMI 机构 Unlimit 发行。资金留存在用户独立自托管钱包中，刷卡时通过借记授权即时扣款清算，主打 0 开卡费、0 月费与 0% FX 汇率加价。",
       "model": "自托管钱包直接借记授权（Direct Debit Mandate）即时扣款；非托管借记卡，平台不控制用户私钥",
       "network": "Mastercard；由持牌电子货币机构 Unlimit EU Ltd 合作发行",
-      "region": "卡片仅向居住在欧洲经济区（EEA）或瑞士的用户发行，无论国籍；同时排除约 46 个国籍，无论居住地。名单包含美国、阿联酋、土耳其、南非、尼日利亚、巴基斯坦、菲律宾、越南、摩洛哥等。EEA 内也可能未开放，例如意大利、西班牙居民目前可能还看不到卡片入口。中国大陆不在卡片发行范围内。",
-      "fee": "虚拟卡开卡费 €0；无月费、年费或账户管理费。官方 0% 交易手续费与 0 FX 汇率加点（遵从 Mastercard 国际网络结算基准汇率）；ATM 费用依提款机运营方收取。",
-      "rewards": "指定精选合作商户刷卡消费可享最高 20% USDC 返现，返现直达自托管钱包。",
+      "region": "卡片仅向居住在欧洲经济区（EEA）或瑞士的用户发行，无论国籍；同时排除 45 个国籍，无论居住地。名单包含美国、阿联酋、土耳其、南非、尼日利亚、巴基斯坦、菲律宾、越南、摩洛哥等。EEA 内也可能未开放，例如意大利、西班牙居民目前可能还看不到卡片入口。中国大陆不在卡片发行范围内。",
+      "fee": "虚拟卡开卡费 €0；无月费、年费或账户管理费。官方费用表写明：SEPA 买入与卖出各 0%，刷卡消费不向用户收取 Bleap 费用；买卖与跨链另可能产生点差、网络费与处理费，均在确认前显示。官方称刷卡消费不另收 FX 费用，0% FX 加点；ATM 费用依提款机运营方收取。消费与取现限额见下方「卡片限额」一条。",
+      "rewards": "刷卡返现分三层：全部合格消费默认 1%（单笔上限 €500、每月消费额上限 €3,000）；Uber、Bolt 以及 Just Eat、Deliveroo、Uber Eats、Glovo、Bolt Food 等指定商户 3%（单笔上限 €50）；另有指定合作商户最高 20%，均有单独上限。返现以 USDC 发放至自托管钱包。经 Curve 支付的交易、MCC 被排除的商户、低于 €1 的交易不计返现。",
       "paymentCompatibility": {
         "sourceName": "Bleap Card",
         "network": "Mastercard",
         "issuer": "Unlimit EU Ltd (Central Bank of Cyprus 监管)",
-        "region": "欧洲经济区 (EEA) / 瑞士",
-        "researchDate": "2026-10-17",
+        "region": "欧洲经济区（EEA）与瑞士居民；排除 45 个国籍",
+        "researchDate": "2026-10-18",
         "applePay": {
           "status": "official",
           "detail": "官方帮助中心明确支持将虚拟卡添加至 Apple Pay。"
@@ -14814,48 +14845,72 @@
           "url": "https://www.bleap.finance/en-us/card"
         },
         {
-          "title": "Bleap 官方帮助中心：卡片发行资格——仅限 EEA 与瑞士居民，并排除 46 个国籍（2026-07-03 更新；2026-10-17 核对）",
-          "url": "https://help.bleap.finance/en/articles/15819307-who-is-eligible-for-the-bleap-card"
+          "title": "Bleap 官方帮助中心：卡片发行资格——仅限 EEA 与瑞士居民，并排除 45 个国籍（2026-07-03 更新；2026-10-18 核对；原 15819307 链接已 404）",
+          "url": "https://help.bleap.finance/en/articles/11088792-am-i-eligible-for-card"
+        },
+        {
+          "title": "Bleap 官方帮助中心：费用表——SEPA 买入与卖出 0%、刷卡不向用户收取 Bleap 费用（2026-10-18 核对）",
+          "url": "https://help.bleap.finance/en/articles/12097920-fees"
+        },
+        {
+          "title": "Bleap 官方帮助中心：卡片限额——ATM 每月 3 次 / €400、单笔 €10,000、每日 €15,000、每月 €30,000（2026-10-18 核对）",
+          "url": "https://help.bleap.finance/en/articles/11729680-card-limits"
+        },
+        {
+          "title": "Bleap 官方帮助中心：监管说明——钱包本身不受 MiCA 监管，卡相关服务受 MiCA 监管（2026-10-18 核对）",
+          "url": "https://help.bleap.finance/en/articles/15819596-regulatory-status"
+        },
+        {
+          "title": "Bleap 官方帮助中心：返现排除项——默认 1%、Uber/Bolt 3%、指定商户最高 20%、Curve 不计（2026-10-18 核对）",
+          "url": "https://help.bleap.finance/en/articles/14655112-cashback-exclusions"
         }
       ],
       "facts": [
         [
           "自托管与私钥所有权",
-          "Bleap 采用 ERC-4337 智能合约账户，用户保有资产私钥所有权；平台与发卡行不托管资金池，刷卡时触发即时授权扣划。",
+          "Bleap 采用 ERC-4337 智能合约账户，用户保有资产私钥所有权；平台与发卡行不托管资金池，刷卡时触发即时授权扣划。官方帮助中心的监管说明同时强调：Bleap 钱包是 unhosted wallet，钱包本身不受 MiCA 监管，也不享有 MiCA 的投资者保护。",
           [
             0,
-            2
+            7
           ]
         ],
         [
           "发卡主体与合规牌照",
-          "卡片由塞浦路斯央行监管的持牌电子货币机构 Unlimit EU Ltd 发行，符合欧盟 MiCA 及电子货币反洗钱合规框架。",
+          "卡片由塞浦路斯央行监管的持牌电子货币机构 Unlimit EU Ltd 发行。官方监管说明把服务拆成两层：钱包本身不受 MiCA 监管；与卡片消费相关的服务、法币买卖等受 MiCA 监管。本站此前笼统写作「符合欧盟 MiCA」，未区分哪一层受监管，已改为按官方口径分列。",
           [
             0,
-            2
+            2,
+            7
           ]
         ],
         [
           "费用结构与 0 FX 承诺",
-          "虚拟卡签发免费且无固定月费；官方承诺 0 交易费与 0% FX 外汇加点，按 Mastercard 官方清算汇率直接折算。",
+          "虚拟卡签发免费且无固定月费；官方费用表列 SEPA 买入与卖出各 0%，刷卡消费不向用户收取 Bleap 费用，并称 0% FX 加点、无境外交易费。买卖与跨链可能产生点差、网络费与处理费，ATM 运营方也可能另行收费；所有费用在确认前显示。",
           [
-            0,
-            1
+            5,
+            0
           ]
         ],
         [
           "身份验证与居住地门槛",
-          "卡片发行的双重门槛：必须居住在欧洲经济区或瑞士，且不得持有受限国籍。官方列出约 46 个受限国籍（含美国、阿联酋、土耳其、南非、越南、菲律宾、巴基斯坦、尼日利亚、摩洛哥等）。即使符合居住地，意大利、西班牙等 EEA 国家居民目前也可能仍显示「即将推出」。",
+          "卡片发行的双重门槛：必须居住在欧洲经济区或瑞士，且不得持有受限国籍。官方帮助中心列出 45 个受限国籍（含美国、阿联酋、土耳其、南非、越南、菲律宾、巴基斯坦、尼日利亚、摩洛哥等）。即使符合居住地，意大利、西班牙等 EEA 国家居民目前也可能仍显示「即将推出」。本站此前记为 46 个，逐项复核后为 45 个。",
           [
             4
           ]
         ],
         [
           "手机钱包与商户返现",
-          "虚拟卡激活后可即时绑定 Apple Pay 与 Google Pay 闪付；部分合作品牌消费最高享 20% USDC 返还。",
+          "虚拟卡激活后可即时绑定 Apple Pay 与 Google Pay 闪付。返现分三层：默认 1%（单笔上限 €500、每月 €3,000）、指定出行与外卖商户 3%（单笔上限 €50）、指定合作商户最高 20%。经 Curve 支付的交易、MCC 被排除的商户与低于 €1 的交易不计返现。",
           [
-            0,
-            1
+            8,
+            0
+          ]
+        ],
+        [
+          "卡片限额",
+          "官方帮助中心按滚动 30 天计算：ATM 每月 3 次、合计 €400；消费单笔 €10,000、每日 €15,000、每月 €30,000；转出单笔 €3,000、每日 €5,000、每月 €10,000；转入单笔 €2,000、每日 €5,000、每月 €7,000。超过任一限额的交易会被拒绝。",
+          [
+            6
           ]
         ]
       ],
@@ -14892,11 +14947,11 @@
         ],
         [
           "Bleap Card 有哪些手续费？",
-          "开卡免费、无月费，官方 0% 交易手续费和 0% FX 汇损加点。"
+          "开卡免费、无月费；官方费用表列 SEPA 买入与卖出各 0%，刷卡消费不向用户收取 Bleap 费用，并称 0% FX 加点。买卖与跨链可能产生点差、网络费与处理费，ATM 运营方也可能另行收费。"
         ],
         [
           "中国大陆居民可以申领 Bleap Card 吗？",
-          "不能。官方条款明确限定欧洲经济区（EEA）及瑞士等合规司法管辖区，中国大陆不在支持列表。"
+          "不能。官方帮助中心写明：居住在 EEA 或瑞士以外的用户不发卡，无论国籍；持有名单中国籍的用户也不发卡，无论居住地。中国大陆不在卡片发行范围内。"
         ]
       ],
       "cardArt": {
@@ -18845,34 +18900,34 @@
     {
       "published": "2026-10-14",
       "modified": "2026-10-14",
-      "verified": "2026-10-16",
+      "verified": "2026-10-18",
       "id": "based-card",
       "name": "Based Card",
-      "aliases": "Based Card basedapp based one xfers straitsx visa 新加坡 solana 智能合约卡",
+      "aliases": "Based Card Based Cash basedapp based one based visa card BASED 质押 稳定币卡",
       "mark": "B",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
-      "kycNote": "须完成合规身份认证（由新加坡持牌电子货币机构 StraitsX / Xfers Pte Ltd 处理）。",
-      "intro": "Based Card 是 BasedApp 推出的非托管智能合约 Visa 借记卡，由新加坡金管局持牌机构 Xfers Pte Ltd（StraitsX）依据 Visa 许可发行。卡片采用智能合约账户抽象架构，用户自托管持有 XSGD、USDC、USDT，资金始终在链上钱包控制下，全球 Visa 线上与线下商户无缝受理。",
-      "model": "智能合约账户抽象自托管 Visa 借记卡：资产保留在链上私钥控制下，刷卡时由智能合约授权扣款",
-      "network": "Visa（虚拟卡与实体卡；支持 Apple Pay）",
-      "region": "新加坡及东南亚核心市场为主，支持全球跨国漫游消费；受限法域除外",
-      "fee": "0 月费；虚拟卡免费。非美元消费的外汇加价按档位区分：Premium 1.5%、Gold 0%。ATM 取现依机具网络收取。",
-      "rewards": "合格消费返现按档位区分：Premium 2%、Gold 4%，以 BASED 代币发放。Gold 另有娱乐与 AI 类月度回赠上限与贵宾室次数。官方将「美元余额赚取收益」标注为 Coming in Fall 2026，属于尚未上线的能力。",
+      "kycNote": "须在 Based App 内完成 KYC，只接受护照或国民身份证；官方明确不接受驾照与选民证。KYC 审核通常 3 天内完成。",
+      "intro": "Based Cash（对外称 Based Visa Card）是 Based 交易 App 内的 Visa 借记卡：先在 App 内完成 KYC，再通过质押 $BASED 取得对应等级的卡。官方卡片文档列出三档：Based Orange（仅虚拟卡，2.5% 外汇加价、无返现，尚未上线）、HYPE（锁仓 10,000 $BASED，1.5% 外汇加价、2% 返现）与 Based Gold（锁仓 100,000 $BASED，0% 外汇加价、4% 返现，另含娱乐与 AI 订阅回赠和机场贵宾室）。返现与回赠以 $BASED 于每月月初发放，覆盖上一周期消费。",
+      "model": "卡内资产在消费时按固定顺序自动换算：稳定币（USDT、USDC、XSGD）→ SOL → HYPE → BASED。官方卡片文档称余额在刷卡瞬间按实时价格转换为当地法币，价格由 Chainlink 预言机与 Hyperliquid 链上价格共同确定。文档没有说明卡内余额是否由用户私钥自托管，也没有提到账户抽象或 ERC-4337；Based 官网把整体产品描述为 self-custody wallet。",
+      "network": "Visa（虚拟卡与实体卡；官方未公布发卡实体）",
+      "region": "官方称卡片除受限国家/地区外全球可用。Card Types 页列出 92 个受限国家/地区（标注生效 2026-08-01），包含美国、加拿大、中国大陆、中国香港、中国澳门、中国台湾、新加坡、澳大利亚、新西兰、印度、印度尼西亚、土耳其、阿联酋、沙特阿拉伯等；Card Basics 页的同一清单只有 80 个，缺少澳大利亚、埃及、中国香港、中国澳门、马尔代夫、新西兰、阿曼、沙特阿拉伯、斯里兰卡、中国台湾、突尼斯、越南 12 个。另据官方 FAQ：新加坡公民自 2025 年 11 月起不能使用该卡。",
+      "fee": "无月费、无开卡费与年费。非美元消费的外汇加价按档位：HYPE 1.5%、Based Gold 0%，尚未上线的 Based Orange 为 2.5%。智能兑换（Smart Convert）加密资产换法币收 1%、法币换法币收 0.5%；卡内 Swap 同样为 1% / 0.5%。稳定币充值免费，最低入金 $10。实体卡配送 HYPE $50、Based Gold 免费。连续 6 个月无交易后每月收取 $5 维护费，直至余额降至 $0、卡片终止。ATM 取现当前未开放，卡内余额直接提款也未开放。Based Orange 与 HYPE 的每日消费上限为 S$3,000，Based Gold 的上限更高。",
+      "rewards": "最高 4%：Based Gold 4%（每月上限 $100），HYPE 2%（每月上限 $20），Based Orange 无返现。返现以 $BASED 于每月月初发放，覆盖上一周期消费。Based Gold 另有 Netflix、Spotify、YouTube 娱乐回赠每月最高 $20，Claude、ChatGPT 等 AI 订阅回赠每月最高 $100，以及每年 4 次机场贵宾室；HYPE 的 AI 订阅回赠为每月最高 $10。开始解除质押后，所有返现与回赠停止。",
       "paymentCompatibility": {
         "sourceName": "Based Card",
         "network": "Visa",
-        "issuer": "Xfers Pte Ltd (StraitsX) 依 Visa 牌照发行",
-        "region": "新加坡及东南亚为主，全球可用",
-        "researchDate": "2026-10-16",
+        "issuer": "官方未公布发卡实体",
+        "region": "全球可用，92 个受限国家/地区除外；新加坡公民自 2025-11 起不可用",
+        "researchDate": "2026-10-18",
         "applePay": {
-          "status": "official",
-          "detail": "官方支持 Apple Pay，支持添加至 Apple 钱包使用触碰支付。"
+          "status": "conflict",
+          "detail": "官方两份文档冲突：Card Basics 的支付方式表写 Apple Pay 可用；Card FAQ 写「Currently Apple Pay is not supported」。"
         },
         "googlePay": {
           "status": "official",
-          "detail": "支持 Google Wallet 碰一碰消费。"
+          "detail": "Card Basics 的支付方式表写 Google Pay 可用；Card FAQ 补充部分 Android 机型不支持。"
         },
         "aiSubscriptions": {
           "status": "unknown",
@@ -18881,48 +18936,129 @@
       },
       "facts": [
         [
-          "非托管智能合约架构",
-          "持卡人资金无需存放在第三方中心化卡账户中，资产保留在自托管钱包内，刷卡时由智能合约触发扣划。",
+          "卡账户与自托管边界",
+          "官方卡片文档描述的是一个可同时持有多种资产的「卡账户」，消费时按稳定币 → SOL → HYPE → BASED 的顺序扣款，并在刷卡瞬间换算为当地法币。文档没有说明卡内余额是否由用户私钥自托管，也没有出现账户抽象或 ERC-4337 的表述；Based 官网把整体产品称为 self-custody wallet，但这一点不能直接推到卡账户。本站此前把卡片写成「非托管智能合约账户抽象」，官方资料没有这一表述，已改为按文档原文记录。",
           [
-            0,
+            1,
+            6
+          ]
+        ],
+        [
+          "发卡实体官方未公布",
+          "Based 的官方网站、卡片文档与 FAQ 都没有写明发卡银行或持牌机构。本站此前记录为「由新加坡金管局持牌机构 StraitsX（Xfers Pte Ltd）签发」，该说法在 Based 现行官方资料中找不到出处，已撤回；卡片实际由哪家机构发行，应以申领时收到的卡片协议为准。",
+          [
+            1,
+            7
+          ]
+        ],
+        [
+          "外汇加价按档位为 2.5%、1.5% 与 0%",
+          "官方费用表把非美元消费的外汇加价按卡等级区分：Based Orange 2.5%、HYPE 1.5%、Based Gold 0%。Based Orange 尚未上线，目前实际可申请的是后两档。本站此前只记录了 HYPE 与 Gold 两档，并沿用营销页的 Premium 名称，漏掉了 2.5% 的入门档。",
+          [
+            4,
             1
           ]
         ],
         [
-          "发卡持牌背景",
-          "由新加坡金管局受监管的电子货币发行机构 StraitsX（Xfers Pte Ltd）签发，具备严格法币清算合规性。",
+          "返现以 BASED 代币发放，按档位设上限",
+          "返现按档位：HYPE 2%（每月上限 $20）、Based Gold 4%（每月上限 $100），以 $BASED 于每月月初发放，覆盖上一周期消费；Based Orange 无返现。Based Gold 另有娱乐回赠每月最高 $20、AI 订阅回赠每月最高 $100 与每年 4 次机场贵宾室；HYPE 的 AI 订阅回赠为每月最高 $10。官方把「美元余额赚取收益」标注为 Coming in Fall 2026，属于尚未上线的能力。",
           [
-            0
+            1,
+            4
           ]
         ],
         [
-          "外汇加价按档位为 1.5% 与 0%，不是统一 1%",
-          "官方费率页把非美元消费的外汇加价按档位区分：Premium 为 1.5%，Gold 为 0%。本站此前对全档位统一记为 1%，对 Gold 持卡人是记高了、对 Premium 持卡人是记低了。",
+          "三级卡与锁仓门槛",
+          "卡片只能通过质押 $BASED 取得，不能直接购买。HYPE 需锁仓 10,000 $BASED、Based Gold 需锁仓 100,000 $BASED，均自兑换卡片起锁定 21 天；Based Orange 无需锁仓，但目前尚未上线。开始解除质押后，返现与回赠停止，卡片本身可用至到期。",
           [
-            2
+            1
           ]
         ],
         [
-          "返现以 BASED 代币发放，且尚未上线的能力已标注",
-          "官方页脚写明返现「distributed in BASED token」，Premium 2%、Gold 4%，因此返现的实际价值随 BASED 价格波动，不等于同比例的现金回馈。同一页把「美元余额赚取收益」标注为 Coming in Fall 2026，属于官方自认尚未上线的功能，不应写入现行权益。",
+          "闲置 6 个月后每月 $5 维护费",
+          "官方费用表写明：若卡片连续 6 个月没有交易，将每月收取 $5 维护费，直至卡内余额降至 $0，随后卡片被终止。这是本次核对新增的持续成本，比较年化成本时应计入。",
           [
-            2
+            4
+          ]
+        ],
+        [
+          "ATM 与卡内提款均未开放",
+          "官方 Card Basics 与 FAQ 都写明：ATM 取现目前未启用，Based 卡内的直接提款（withdrawals from the card）也尚未开放。本站此前只写「ATM 取现依机具网络收取」，与官方现行说明不符。",
+          [
+            3,
+            7
+          ]
+        ],
+        [
+          "每日消费上限 S$3,000",
+          "官方 Card Security 页写明：Based Orange 与 HYPE 的每日消费上限为 S$3,000，Based Gold 的上限更高；需要更高额度可联系官方逐个审核。",
+          [
+            5
+          ]
+        ],
+        [
+          "受限国家清单两份官方文件不一致",
+          "Card Types 页（标注生效 2026-08-01）列出 92 个受限国家/地区；Card Basics 页的同一清单只有 80 个，缺少澳大利亚、埃及、中国香港、中国澳门、马尔代夫、新西兰、阿曼、沙特阿拉伯、斯里兰卡、中国台湾、突尼斯与越南。两份文件都由官方发布，本页并列记录，并建议以 based.one/cash/availability 的查询结果为准。",
+          [
+            1,
+            3,
+            8
+          ]
+        ],
+        [
+          "新加坡公民自 2025 年 11 月起不可用",
+          "官方 FAQ 写明：自 2025 年 11 月起，新加坡公民不能使用 Based 卡。新加坡同时出现在两份受限国家清单中。本站此前把新加坡写成「核心市场」，与官方现行说明相反。",
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          "Apple Pay 支持状态两份官方文件冲突",
+          "Card Basics 的支付方式表把 Apple Pay 与 Google Pay 都列为 Available；Card FAQ 则写「Currently Apple Pay is not supported and some Android models are not supported with Google Pay」。两处均为官方页面，本页不替发行方选定一个答案，Apple Pay 支持状态按冲突记录。",
+          [
+            3,
+            7
           ]
         ]
       ],
       "sections": [
         [
-          "东南亚合规自托管卡的代表",
-          "作为新加坡本地成熟的 Web3 支付方案，Based Card 在 XSGD 新加坡元稳定币与美元稳定币之间具备极高的流动性转换效率。",
+          "稳定币优先的扣款顺序",
+          "Based 的卡账户把 XSGD 与 USDT、USDC 并列为优先扣款的稳定币。官方扣款顺序把这三种稳定币排在 SOL、HYPE 与 BASED 之前；官方费用表的建议也是保留稳定币余额，以避免触发 1% 的智能兑换费。",
           [
-            0
+            6,
+            4
+          ]
+        ],
+        [
+          "以锁仓换权益的卡等级体系",
+          "Based 的卡片不是按信用或收入分级，而是按 $BASED 锁仓量分级：HYPE 锁 10,000、Based Gold 锁 100,000，锁定 21 天。锁仓量决定外汇加价、返现比例与订阅回赠，因此持卡人的实际成本取决于其锁仓规模与是否持续质押；开始解除质押后权益立即停止。",
+          [
+            1
           ]
         ]
       ],
       "faq": [
         [
           "Based Card 是自托管的吗？",
-          "是的，基于账户抽象智能合约设计，资金始终受用户私钥掌控。"
+          "官方卡片文档描述的是卡账户与固定扣款顺序，没有说明卡内余额是否由用户私钥控制，也没有提到账户抽象或 ERC-4337。Based 官网把整体产品称为 self-custody wallet；卡片是否自托管应以申领时收到的卡片协议为准。"
+        ],
+        [
+          "Based Card 有哪些卡等级？",
+          "Based Orange（仅虚拟卡，2.5% 外汇加价、无返现，尚未上线）、HYPE（锁仓 10,000 $BASED，1.5% 外汇加价、2% 返现，每月上限 $20）与 Based Gold（锁仓 100,000 $BASED，0% 外汇加价、4% 返现，每月上限 $100）。"
+        ],
+        [
+          "中国大陆可以申请 Based Card 吗？",
+          "不可以。中国大陆出现在官方 Card Types 与 Card Basics 两份受限国家/地区清单中。"
+        ],
+        [
+          "新加坡可以申请 Based Card 吗？",
+          "不可以。新加坡在受限清单内，且官方 FAQ 写明新加坡公民自 2025 年 11 月起不能使用 Based 卡。"
+        ],
+        [
+          "Based Card 不用会被收费吗？",
+          "会。官方费用表写明：连续 6 个月没有交易后，每月收取 $5 维护费，直至卡内余额降至 $0，随后卡片被终止。"
         ]
       ],
       "sources": [
@@ -18931,12 +19067,36 @@
           "url": "https://based.one"
         },
         {
-          "title": "BasedApp 开发者文档与发卡条款（2026-10-14 核对）",
-          "url": "https://docs.basedapp.io"
+          "title": "Based 官方卡片文档：Card Types——三档卡、锁仓门槛、返现上限与受限国家清单（2026-10-18 核对）",
+          "url": "https://basedapp.gitbook.io/docs/card/card-types"
         },
         {
           "title": "Based Card 官方卡面素材核查",
           "url": "https://based.one/cash"
+        },
+        {
+          "title": "Based 官方卡片文档：Card Basics——KYC 证件、ATM 与提款状态、80 国受限清单（2026-10-18 核对）",
+          "url": "https://basedapp.gitbook.io/docs/card/card-basics"
+        },
+        {
+          "title": "Based 官方卡片文档：Fee Schedule——智能兑换 1% / 0.5%、按档位外汇加价、闲置 6 个月每月 $5（2026-10-18 核对）",
+          "url": "https://basedapp.gitbook.io/docs/card/card-benefits-and-fees/fee-schedule"
+        },
+        {
+          "title": "Based 官方卡片文档：Card Security——Orange 与 HYPE 每日消费上限 S$3,000（2026-10-18 核对）",
+          "url": "https://basedapp.gitbook.io/docs/card/card-security"
+        },
+        {
+          "title": "Based 官方卡片文档：Top up & Spend——扣款顺序、最低入金 $10、实时换汇（2026-10-18 核对）",
+          "url": "https://basedapp.gitbook.io/docs/card/top-up-and-spend"
+        },
+        {
+          "title": "Based 官方 FAQ：新加坡公民自 2025-11 起不可用卡；Apple Pay 支持状态与 Card Basics 冲突（2026-10-18 核对）",
+          "url": "https://basedapp.gitbook.io/docs/guides-and-faq/faq"
+        },
+        {
+          "title": "Based 官方可用性查询器：按居住国判断能否申请（2026-10-18 核对）",
+          "url": "https://based.one/cash/availability"
         }
       ],
       "cardArt": {
@@ -21944,6 +22104,187 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/kazepay-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-18",
+      "modified": "2026-10-18",
+      "verified": "2026-10-18",
+      "id": "kite-card",
+      "name": "Kite Card",
+      "aliases": "Kite Card kiteapp Kite App Kite 钱包 稳定币支付卡 Visa 预付卡 非托管钱包 MPC 加密卡",
+      "mark": "K",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "须在 Kite App 内完成身份核验：政府签发证件、自拍或活体检测，以及地址证明；官方条款写明生物识别由 Sumsub 处理，身份与自拍记录在业务关系结束后保留 7 年。申请时须年满 18 岁，并居住在 9 个支持国家之一。",
+      "intro": "Kite Card 是 Kite 钱包推出的 Visa 预付卡，用 USDC 或 USDT 充值后在受理 Visa 的商户消费。Kite 钱包为非托管钱包，官方称不持有用户私钥；卡片由持牌第三方合作伙伴发行，卡内余额以美元计价，与钱包余额分开管理。目前只发行虚拟卡，实体卡与 ATM 取现均标注为「即将推出」。",
+      "metaDescriptionEn": "Kite Card review: a Visa prepaid card for 9 markets (not mainland China or the US), $0 issuance, 0.53% top-ups and 1.8% FX. Check KYC and country rules.",
+      "model": "非托管钱包加预付卡的组合：USDC 或 USDT 从 Kite 钱包充值到独立的卡余额，并按 0.53% 换算为美元；刷卡从卡余额扣款，钱包私钥由用户掌握",
+      "network": "Visa（官方卡面标注 Visa Platinum）",
+      "region": "仅 9 个发卡市场可申请：澳大利亚、日本、马来西亚、菲律宾、新加坡、韩国、中国台湾、泰国与越南；中国大陆不在支持名单内。服务条款另将美国、古巴、伊朗、朝鲜、叙利亚、俄罗斯及乌克兰的克里米亚、顿涅茨克、卢甘斯克地区列为受限法域，并禁止用 VPN 或代理伪装所在地区。",
+      "fee": "开卡费、年费、虚拟卡与补卡费均为 $0；USDC/USDT 充值按 0.53% 换算为美元；美元消费无额外费用；非美元消费收 1.8% 外汇费。实体卡与 ATM 取现尚未开放，官方未公布相关费用。",
+      "rewards": "日常消费无固定基础返现；官方优惠页在 2026-11-30 前对指定商户提供 5% 返现，覆盖 Travala 旅行、Grab 打车、Netflix 与 YouTube Premium 等流媒体、Starlink、Figma 与 LinkedIn Premium 等生产力工具，以及「符合条件的 AI 订阅」，部分活动另设每月或单笔上限。",
+      "paymentCompatibility": {
+        "sourceName": "Kite Card",
+        "network": "Visa Platinum",
+        "issuer": "官方未公布；由持牌第三方合作伙伴发行",
+        "region": "仅 9 个发卡市场；受限法域除外",
+        "researchDate": "2026-10-18",
+        "applePay": {
+          "status": "official",
+          "detail": "官方帮助中心提供将 Kite 卡加入 Apple Pay 的分步指南，虚拟卡需手动输入卡号；添加免费，是否可用仍取决于所在国家或地区的 Apple Pay 支持情况。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方帮助中心提供加入 Google Wallet 的分步指南；一张卡同一时间只能绑定一个 Google 账户，所在国家或地区须支持 Google Wallet。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "官方优惠页把「符合条件的 AI 订阅」列入 5% 返现活动（至 2026-11-30），但未点名具体服务；实际扣款仍以商户网关是否接纳为准。"
+        }
+      },
+      "facts": [
+        [
+          "充值、余额与刷卡的资金路径",
+          "卡内余额与 Kite 钱包余额分开：USDC 或 USDT 从钱包充入卡片时按 0.53% 换算为美元，只有卡余额能用于消费；钱包为非托管，官方称不持有、不存储也无法访问用户私钥。",
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          "费用与消费限额",
+          "开卡、年费、虚拟卡与补卡均为 $0；美元消费无额外费用，非美元消费收 1.8% 外汇费。消费上限为每日 $50,000 或 50 笔、每年 $990,000 或 1,040 笔，以先到者为准，每日按 UTC+8 午夜重置；未结算的挂账交易也计入限额。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "发卡资格与 KYC",
+          "仅澳大利亚、日本、马来西亚、菲律宾、新加坡、韩国、中国台湾、泰国与越南 9 个市场可申请，须年满 18 岁并完成 App 内身份核验；官方条款列明需政府证件、自拍或活体检测与地址证明，生物识别由 Sumsub 处理。",
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          "仅虚拟卡，实体卡与 ATM 取现尚未开放",
+          "官方产品页把实体卡与 ATM 取现都列为「即将推出」；目前只发行虚拟卡，可加入 Apple Pay 与 Google Wallet，但不能取现。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "卡面、卡组织与发卡实体",
+          "官方卡面标注 Visa Platinum，产品页写明可在任何受理 Visa 的商户消费，覆盖 180 多个国家和地区的 1.5 亿以上商户；发卡实体与卡 BIN 官方未公布。",
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          "公司主体与监管口径",
+          "服务条款的签约方为香港注册的 Kite App Limited（公司编号 78561804）；官方明确 Kite 不是银行、交易所或托管机构，法币与发卡服务由持牌第三方合作伙伴提供。",
+          [
+            3
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "为什么归入链上与自托管",
+          "Kite 钱包是非托管钱包，官方称不持有用户私钥；卡片消费的是从该钱包充值到卡片的独立美元余额。与交易所卡不同，Kite 不托管链上资产，但在卡片这一层仍由持牌合作方执行法币清算与身份核验。",
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          "5% 返现是限期活动，不是基础费率",
+          "官方优惠页的 5% 返现覆盖旅行、打车、流媒体、Starlink 与生产力工具等指定商户，多数标注有效至 2026-11-30，部分还设每月或单笔上限；页面没有给出日常消费的固定基础返现比例。把活动比例当成长期费率会高估实际回报。",
+          [
+            6
+          ]
+        ],
+        [
+          "地区与合规边界",
+          "官方国家页只列出 9 个可发卡市场，并写明「Nine countries today, more on the way」；服务条款把美国、古巴、伊朗、朝鲜、叙利亚、俄罗斯及克里米亚、顿涅茨克、卢甘斯克地区列为受限法域，并禁止用 VPN 或代理伪装所在地区。中国大陆不在 9 个发卡市场内。",
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Kite Card 现在能申请吗？",
+          "可以，但仅限 9 个发卡市场：澳大利亚、日本、马来西亚、菲律宾、新加坡、韩国、中国台湾、泰国与越南。申请人须年满 18 岁，在 Kite App 内完成 KYC 后在 Card 页面申请。"
+        ],
+        [
+          "Kite Card 支持 Apple Pay 和 Google Pay 吗？",
+          "两者都支持。官方帮助中心分别提供加入 Apple Pay 与 Google Wallet 的分步指南；虚拟卡需手动输入卡号，添加免费，但是否可用取决于所在国家或地区的钱包服务支持。"
+        ],
+        [
+          "Kite Card 有实体卡吗？可以 ATM 取现吗？",
+          "目前没有。官方产品页与资格说明都把实体卡和 ATM 取现标注为「即将推出」，现阶段只发行虚拟卡。"
+        ],
+        [
+          "Kite Card 的手续费是多少？",
+          "开卡、年费、虚拟卡与补卡均为 $0；USDC/USDT 充值按 0.53% 换算，美元消费无额外费用，非美元消费收 1.8% 外汇费。"
+        ],
+        [
+          "Kite 钱包是自托管吗？",
+          "是。官方称 Kite 提供非托管钱包，不持有、不存储也无法访问用户私钥，用户自行负责保管私钥；但卡片消费使用单独充值的卡余额，不是直接刷链上资产。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Kite Card 产品页：费用、市场与卡组织（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/spend"
+        },
+        {
+          "title": "Kite 帮助中心：卡片资格与支持国家（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/help/getting-your-kite-card-what-it-is-eligibility"
+        },
+        {
+          "title": "Kite 帮助中心：卡片费用与限额（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/help/kite-card-fees-limits"
+        },
+        {
+          "title": "Kite 用户条款：受限法域、KYC 与非托管说明（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/legal/terms-conditions"
+        },
+        {
+          "title": "Kite 帮助中心：将卡片加入 Apple Pay（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/help/add-your-kite-card-to-apple-pay"
+        },
+        {
+          "title": "Kite 帮助中心：将卡片加入 Google Wallet（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/help/add-your-kite-card-to-google-wallet"
+        },
+        {
+          "title": "Kite 官方优惠页：指定商户 5% 返现（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/offers"
+        },
+        {
+          "title": "Kite 官方国家页：9 个发卡市场（2026-10-18 核对）",
+          "url": "https://kiteapp.xyz/card/countries"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/kite-card.webp",
+        "file": "kite-card.webp",
+        "sourceFile": "kite-card.svg",
+        "imageUrl": "",
+        "sourcePage": "https://kiteapp.xyz/spend",
+        "version": "Kite Visa Platinum 官方卡面（官方 stable-card.svg 矢量直出）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/kite-card/",
       "statusLabel": "地区受限 · 资格需核实"
     },
     {
