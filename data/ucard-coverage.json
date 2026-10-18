@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 179,
-    "current": 167,
-    "kycRequired": 149,
-    "kycConditional": 8,
+    "total": 191,
+    "current": 179,
+    "kycRequired": 160,
+    "kycConditional": 9,
     "kycUnknown": 10,
     "noKycVerified": 0,
     "closed": 12,
-    "officialSources": 666
+    "officialSources": 691
   },
   "rows": [
     {
@@ -21,8 +21,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 11,
-      "verified": "2026-10-11",
+      "sourceCount": 12,
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/ether-fi/"
     },
     {
@@ -32,8 +32,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 5,
-      "verified": "2026-10-11",
+      "sourceCount": 6,
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/ethena-pay/"
     },
     {
@@ -55,7 +55,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 16,
-      "verified": "2026-10-08",
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/redotpay/"
     },
     {
@@ -65,8 +65,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 5,
-      "verified": "2026-10-18",
+      "sourceCount": 6,
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/bybit/"
     },
     {
@@ -99,7 +99,7 @@
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
       "sourceCount": 7,
-      "verified": "2026-10-16",
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/gnosis-pay/"
     },
     {
@@ -142,8 +142,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 7,
-      "verified": "2026-10-11",
+      "sourceCount": 8,
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/bitget-wallet/"
     },
     {
@@ -781,7 +781,7 @@
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
       "sourceCount": 5,
-      "verified": "2026-10-04",
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/bitget-exchange-card/"
     },
     {
@@ -1606,7 +1606,7 @@
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
       "sourceCount": 3,
-      "verified": "2026-10-16",
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/zeal-card/"
     },
     {
@@ -1760,7 +1760,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 1,
-      "verified": "2026-10-16",
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/woocard-visa/"
     },
     {
@@ -1781,7 +1781,7 @@
       "kycLabel": "视发卡方要求核验",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "verified": "2026-10-16",
       "profileUrl": "https://ucard.observer/cards/swapster-card/"
     },
@@ -1918,6 +1918,138 @@
       "profileUrl": "https://ucard.observer/cards/trustxpay-txp/"
     },
     {
+      "id": "mercuryo-spend",
+      "name": "Spend by Mercuryo",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/mercuryo-spend/"
+    },
+    {
+      "id": "wisdomtree-prime-card",
+      "name": "WisdomTree Prime Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/wisdomtree-prime-card/"
+    },
+    {
+      "id": "crossfi-card",
+      "name": "CrossFi Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/crossfi-card/"
+    },
+    {
+      "id": "gemini-credit-card",
+      "name": "Gemini Credit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/gemini-credit-card/"
+    },
+    {
+      "id": "plutus-card",
+      "name": "Plutus Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/plutus-card/"
+    },
+    {
+      "id": "buenbit-card",
+      "name": "Buenbit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/buenbit-card/"
+    },
+    {
+      "id": "tap-global-card",
+      "name": "Tap Global Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/tap-global-card/"
+    },
+    {
+      "id": "coinjar-card",
+      "name": "CoinJar Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/coinjar-card/"
+    },
+    {
+      "id": "bitstore-card",
+      "name": "BitStore Card",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 1,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/bitstore-card/"
+    },
+    {
+      "id": "young-platform-card",
+      "name": "Young Platform Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/young-platform-card/"
+    },
+    {
+      "id": "bitnob-card",
+      "name": "Bitnob Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 1,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/bitnob-card/"
+    },
+    {
+      "id": "venga-card",
+      "name": "Venga Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/venga-card/"
+    },
+    {
       "id": "kazepay-card",
       "name": "KazePay Card",
       "kyc": "required",
@@ -1935,8 +2067,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 8,
-      "verified": "2026-10-18",
+      "sourceCount": 9,
+      "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/kite-card/"
     },
     {

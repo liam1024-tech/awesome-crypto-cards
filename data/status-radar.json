@@ -164,8 +164,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa",
       "model": "直接支付 / 抵押借款",
-      "verified": "2026-10-11",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "reward",
+          "tag": "返现与借款",
+          "title": "ETHFI 返现 7 天强制锁仓与 Direct Pay / Borrow 模式规范",
+          "note": "实测确认 Cash 卡两种扣款模式：Direct Pay（直接扣减可消费加密资产）与 Borrow Mode（以抵押物为基础产生借贷利息）。返现统一以 ETHFI 代币计价，自交易结算日起强制锁仓 7 天，账户满 $5 等值方可提现。国际刷卡底层接入 MoonPay 与 Banco Popular de Puerto Rico / Rain 清算。"
+        },
         {
           "date": "2026-10-11",
           "type": "reward",
@@ -231,8 +238,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "以获批卡计划为准",
       "model": "钱包担保型消费卡",
-      "verified": "2026-10-11",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "reward",
+          "tag": "返现明细",
+          "title": "确立 Avalanche 链上 AVAX 奖励阶梯与日结机制",
+          "note": "Ethena Spend Card 绑定 USDe / sUSDe 资产扣款，返现以 AVAX 代币在 Avalanche C-Chain 上按日结算发放：Standard 档前 $2,500 消费返 4%，超出返 1%；Pro 档前 $5,000 返 4.5%；VIP 档前 $10,000 返 5%。注意低于 $1 消费不返现，且 AVAX 存在二级市场币价波动。"
+        },
         {
           "date": "2026-10-15",
           "type": "reward",
@@ -344,8 +358,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "具体卡网络与币种以获批卡片为准",
       "model": "平台账户内稳定币支付",
-      "verified": "2026-10-08",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "fee",
+          "tag": "国内消费",
+          "title": "微信支付宝单笔 ≤200 元免手续费，超 200 元加收 3% 外卡通道费",
+          "note": "核验境内消费真实摩擦成本：绑定微信支付与支付宝消费时，单笔交易金额 ≤200 元人民币免收平台外卡费（仅产生 RedotPay 自身约 1.2% FX/换汇摩擦）；单笔超过 200 元人民币时，微信/支付宝向买家额外加收 3% 国际卡手续费，综合交易摩擦跃升至 4.2%+。建议大额消费拆单或使用微信商户聚合码。另：RedotPay Pro 会员享每月最高 18 USDs 的 Apple/Google Pay 3% 返还，PayPal/Stripe 商业入账收取 3%（最低 $1）。"
+        },
         {
           "date": "2026-10-15",
           "type": "feature",
@@ -418,8 +439,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "依地区卡计划核对",
       "model": "交易所关联支付卡",
-      "verified": "2026-10-18",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "reward",
+          "tag": "返现规则",
+          "title": "返现严格限定加密货币直接结算，扣除法币 0% 返现且 0 积分",
+          "note": "官方 2026-10-05 返现规则全面落地核实：合格消费返现与 Bybit Points 积分仅对以加密货币（USDT/BTC/ETH 等）直接扣款结算的交易生效；若扣减账户内持有的法币余额（EUR/USD/BRL 等），返现率为 0% 且不累积积分。100% 订阅返还（ChatGPT、Claude、Netflix 等）仅限 VIP 2 及以上用户享受，每类上限 $9.99–$20。"
+        },
         {
           "date": "2026-10-05",
           "type": "reward",
@@ -577,7 +605,7 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；公告称卡片由 Monavate 发行，Gnosis Pay 提供项目管理",
       "model": "Safe 智能账户连接的 Visa 消费卡（已公告退出）",
-      "verified": "2026-10-16",
+      "verified": "2026-10-19",
       "changelogs": [
         {
           "date": "2027-06-18",
@@ -599,6 +627,13 @@
           "tag": "服务终结",
           "title": "确认消费者卡与网页 App 于 12 月 20 日 23:59 UTC 停止工作",
           "note": "官方资料确认消费者卡与网页 App 都将于 2026-12-20 23:59 UTC 停止工作，与此前公告的终止时间一致。该日期之后 Gnosis Pay 的消费者侧服务不再可用，服务如何延续取决于账户能否迁移到合作 App。"
+        },
+        {
+          "date": "2026-10-19",
+          "type": "incident",
+          "tag": "停服公告",
+          "title": "官方公告消费者卡与网页端将于 2026-12-20 全面停止服务",
+          "note": "官方发布《Formal Notice: Closure of the Gnosis Pay Web App and Card (21 September 2026)》，确认全面转向 B2B 支付基础设施。消费者卡与网页 App 定于 2026-12-20 23:59 UTC 正式停止刷卡与登录。底层发卡行 Monavate 基础支持持续至 2027-06-18，争议退单支持至 2028-06-12。Safe 智能合约资产不受影响且随时可在 Gnosis Chain 链上提取。欧洲 EUR 用户可迁移至 Rebind（保留 Safe 架构），USD 用户建议迁移至 Picnic（Safe + Monerium IBAN）或 MiniPay。"
         },
         {
           "date": "2026-10-13",
@@ -724,10 +759,17 @@
       "name": "Bitget Wallet Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "部分方案为 Mastercard",
+      "network": "Mastercard（美国 Sutton Bank 发行万事达商业采购卡，BIN 53710058）",
       "model": "按地区区分的钱包卡",
-      "verified": "2026-10-11",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "compliance",
+          "tag": "号段核查",
+          "title": "Sutton Bank 万事达企业采购卡（537100）与护照 KYC 路径核实",
+          "note": "实测卡段为美国 Sutton Bank 发行的万事达商业采购卡（Mastercard Corporate Purchasing, BIN 53710058），采用企业授权持卡人（Authorized User）模式，不享有个人零售消费者法定保护。中国大陆用户可持中国有效护照完成实名认证，实测在人脸识别与提交时须关闭境外代理/VPN，否则易触发地理位置安全拦截。"
+        },
         {
           "date": "2026-10-15",
           "type": "compliance",
@@ -2232,8 +2274,15 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；旧交易所卡计划由 DCS / 合作卡方提供",
       "model": "Bitget 交易所账户资产支持的 Visa 卡消费",
-      "verified": "2026-10-04",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "incident",
+          "tag": "清退过渡",
+          "title": "主站已停发新卡，存量维持至到期，全面导向 Wallet Card",
+          "note": "Bitget 交易所主站（新加坡 DCS 合作通道）自 2026-08-01 起暂停新卡申请并进入到期清退过渡期，官方不再核发新卡或支持续期。官方引流通道已全面切换为 Bitget Wallet Card。"
+        },
         {
           "date": "2026-08-01",
           "type": "compliance",
@@ -4093,7 +4142,7 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa（虚拟卡与实体卡；原生支持 Apple Pay 与 Google Wallet）",
       "model": "Passkey 自托管智能合约钱包直扣 Visa 借记卡：资金在个人链上账户安全托管，刷卡零 FX 加价",
-      "verified": "2026-10-16",
+      "verified": "2026-10-19",
       "changelogs": [
         {
           "date": "2026-12-20",
@@ -4101,6 +4150,13 @@
           "tag": "服务终结",
           "title": "卡服务将于 2026-12-20 前结束，与 Gnosis Pay 终止安排同日",
           "note": "Gnosis Pay 官方帮助中心写明「Zeal's card services will be wound up by 20 December 2026」，并提示用户在 20 日之前转出或提取资金。该日期与 Gnosis Pay 自身消费者卡及网页 App 的停止时间一致：同日 23:59 UTC 一并失效。本站因此把 Zeal 从在营地区卡改为收尾中记录。"
+        },
+        {
+          "date": "2026-10-19",
+          "type": "incident",
+          "tag": "受限联动",
+          "title": "受 Gnosis Pay 基础设施退场影响，提请用户注意 12-20 节点",
+          "note": "Zeal Card 依托 Gnosis Pay 的 BaaS 结算底座运作。鉴于 Gnosis Pay 已官宣于 2026-12-20 关闭消费者卡片通道，建议持卡人密切关注 Zeal 官方关于通道迁移或换发通知，提前规划备用支付渠道并合理调配链上 Safe 资金。"
         },
         {
           "date": "2026-10-16",
@@ -4401,8 +4457,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（支持标准虚拟卡、VIP ATM 虚拟卡、实体卡及实体卡套装，支持 Apple Pay 与 Google Pay）",
       "model": "Telegram 原生轻量钱包直通 Visa 预付卡：支持多链稳定币即时充值，提供开发者自动化 API",
-      "verified": "2026-10-16",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "fee",
+          "tag": "官方费率",
+          "title": "标准虚拟卡 10 USDT 开卡费、VIP ATM 卡与实体卡套装核实",
+          "note": "Telegram Mini-App 官方收费标准核准：标准 USD 虚拟卡开卡费 10 USDT（内含 5 USD 初始余额，不可退），最低充值 10 USD，充值手续费 0.5 USD + 3.2%，单笔限额 $30,000，每日限额 $200,000，每月限额 $1,000,000，授权费 0.3 USD，有效期 36 个月。VIP USD + ATM 虚拟卡开卡费 85 USDT，支持每日最高 $750 ATM 取现与 Apple/Google Pay。同步提供全球寄送的 USD 实体 Visa 卡与 5/10/20 张实体卡套装。"
+        },
         {
           "date": "2026-10-16",
           "type": "product",
@@ -4665,6 +4728,126 @@
       ]
     },
     {
+      "id": "mercuryo-spend",
+      "name": "Spend by Mercuryo",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（万事达虚拟借记卡，支持 Apple Pay 与 Google Pay）",
+      "model": "非托管钱包直连架构：资产由用户硬件钱包或自托管私钥控制，刷卡时经 Quicko 与 Mastercard 清算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "wisdomtree-prime-card",
+      "name": "WisdomTree Prime Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（美国正规银行 Visa Debit 借记卡，实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "代币化货币市场基金（RWA）实时清算：持仓享受年化国债收益，刷卡时由 Stride Bank, N.A. 自动平仓",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "crossfi-card",
+      "name": "CrossFi Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（Visa 虚拟卡与实体卡，支持 Apple Pay 与 Google Pay）",
+      "model": "混合公链非托管智能合约：用户链上自主保管资产，刷卡时触发即时路由与 Visa 清算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "gemini-credit-card",
+      "name": "Gemini Credit Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（Mastercard World Elite 金属实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "正规循环信贷信用卡：由 WebBank 提供授信额度与清算，刷卡秒级结算加密货币返现",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "plutus-card",
+      "name": "Plutus Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（英国与欧洲合规 Visa Debit 借记卡，支持 Apple Pay 与 Google Pay）",
+      "model": "自托管钱包链上余额映射：资产留在个人 Web3 钱包，由 Modulr FS 提供账户与 Visa 清算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "buenbit-card",
+      "name": "Buenbit Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（万事达预付实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "交易所加密稳定币即时兑换清算：由 Pomelo 提供底层合规万事达预付卡网络",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "tap-global-card",
+      "name": "Tap Global Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（万事达借记实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "智能路由多币种即时撮合：由持牌机构 Moorwand 提供万事达借记卡清算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "coinjar-card",
+      "name": "CoinJar Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（万事达实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "交易所多币种即时兑换清算：由全球持牌机构 EML Payment Solutions 负责万事达网络",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "bitstore-card",
+      "name": "BitStore Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard（国际虚拟信用卡/借记卡段，支持绑定 PayPal 与海外主流钱包）",
+      "model": "加密法币预付充值网关清算：由 Alchemy Pay 提供跨境外卡清算底座",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "young-platform-card",
+      "name": "Young Platform Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（欧洲合规 Visa Debit 借记卡，支持 Apple Pay 与 Google Pay）",
+      "model": "欧洲合规电子货币账户清算：由 Modulr FS 提供专属 SEPA IBAN 与 Visa 清算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "bitnob-card",
+      "name": "Bitnob Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（国际虚拟 Visa 借记卡段，支持绑定各类主流国际支付网关）",
+      "model": "比特币闪电网络极速结算：链上/闪电网络入金瞬间生成美元虚拟预付借记卡",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "venga-card",
+      "name": "Venga Card",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
+      "network": "Mastercard（万事达借记卡，支持 Apple Pay 与 Google Pay 闪付）",
+      "model": "西班牙持牌 VASP 与欧盟 EMI 合作发卡：打通欧元 SEPA 账户与多链加密资产即时清算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
       "id": "kazepay-card",
       "name": "KazePay Card",
       "stage": "active",
@@ -4689,8 +4872,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（官方卡面标注 Visa Platinum）",
       "model": "非托管钱包加预付卡的组合：USDC 或 USDT 从 Kite 钱包充值到独立的卡余额，并按 0.53% 换算为美元；刷卡从卡余额扣款，钱包私钥由用户掌握",
-      "verified": "2026-10-18",
+      "verified": "2026-10-19",
       "changelogs": [
+        {
+          "date": "2026-10-19",
+          "type": "product",
+          "tag": "费率与限额",
+          "title": "虚拟卡 0.53% USDC 充值费与每日 $50,000 额度核验",
+          "note": "核验 Kite Card 现行费率体系：虚拟 Visa 卡充值手续费 0.53%（以 USDC 入金结算），单笔/每日最高消费额度高达 $50,000 USD，支持 Apple Pay 与海外 SaaS 订阅。官方实体卡与 ATM 功能仍在推进中。"
+        },
         {
           "date": "2026-10-18",
           "type": "product",
