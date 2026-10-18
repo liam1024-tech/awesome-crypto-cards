@@ -418,7 +418,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "依地区卡计划核对",
       "model": "交易所关联支付卡",
-      "verified": "2026-10-13",
+      "verified": "2026-10-18",
       "changelogs": [
         {
           "date": "2026-10-05",
@@ -1434,6 +1434,13 @@
       "model": "Morse 钱包 / 余额关联的虚拟 Visa 卡",
       "verified": "2026-10-06",
       "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "policy",
+          "tag": "规则更新",
+          "title": "Morse Card（原 Sling Card）数据保留期限与隐私合规复核",
+          "note": "完成 Morse Money 官方复核：更新 Avian Labs 隐私政策与数据保留期限说明（证件与自拍最长保留至关户后 5 年，未完成验证保留 3 年）；确认 Morse Card 仅限 16 个美洲支持国家居民申请。"
+        },
         {
           "date": "2026-09-27",
           "type": "compliance",
@@ -4510,6 +4517,150 @@
           "tag": "新品收录",
           "title": "收录新加坡金管局持牌机构 StraitsX 官方直连 Visa 卡计划",
           "note": "完成 StraitsX 官方稳定币 Visa 计划核验：确认由新加坡 MAS 持牌主要支付机构（MPI）发行、Visa 官方直连清算、支持原生 XSGD 与 USDC 毫秒级扣费并支持 Apple Pay。"
+        }
+      ]
+    },
+    {
+      "id": "decard-luminaries",
+      "name": "DeCard Luminaries",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（Visa Infinite 实体金属卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "D-Vault 智能托管账户结算：链上存入 USDT/USDC 作为信用额度背书，由新加坡 MAS 持牌机构 DCS Card Centre 清算结算",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录新加坡 MAS 持牌机构 DCS 官方发行的 DeCard Luminaries 顶级卡",
+          "note": "完成 DeCard Luminaries 官方核验：确认由新加坡金融管理局（MAS）持牌机构 DCS Card Centre 与 Visa 发行，采用 Visa Infinite 金属卡段，支持 D-Vault 稳定币托管、0% FX 跨境费率、最高 US$200/月返现与全球龙腾机场贵宾厅。"
+        }
+      ]
+    },
+    {
+      "id": "slush-card",
+      "name": "Slush Card",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
+      "network": "Visa（支持虚拟卡与实体芯片卡，支持 Apple Pay 与 Google Pay）",
+      "model": "Sui 链上自托管钱包直连：由 Mysten Labs 原生 Slush 钱包配合香港持牌 RedotPay 支付通道清算",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Mysten Labs (Sui) 官方钱包与 RedotPay 合作开发的 Slush Card",
+          "note": "完成 Slush Card 官方核验：确认深度整合 Mysten Labs 官方 Slush 自托管钱包（原 Sui Wallet），依托 RedotPay 合规清算底座，目前处于排队候补阶段（Waitlist），支持直接扣减 SUI 与 USDC-Sui 资产消费，支持 Apple Pay 与 Google Pay。"
+        }
+      ]
+    },
+    {
+      "id": "nudge-card",
+      "name": "Nudge Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（实体芯片卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "日本法币信用卡 + 链上稳定币还款：日常为标准 Visa 信用卡，支持使用链上 JPYC 结清账单",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录日本合规信用卡 Nudge Card（支持 Polygon 链上 JPYC 还款）",
+          "note": "完成日本 Nudge 株式会社与 JPYC 联名信用卡核验：确认持牌发行、永久免年费，创新性支持持卡人在链上使用 Polygon 网络的合规日元稳定币 JPYC 直接偿还 Visa 信用卡账单。"
+        }
+      ]
+    },
+    {
+      "id": "fv-bank-visa-card",
+      "name": "FV Bank Visa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持物理实体芯片卡与虚拟卡，支持 Apple Pay 与网银管理）",
+      "model": "合规离岸银行账户借记：稳定币存入数字资产库，实时折算为美元借记卡额度",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录波多黎各持牌国际金融机构 FV Bank 官方直发 Visa 借记与企业卡",
+          "note": "完成 FV Bank 官方 Visa 卡核验：确认具备 Visa Principal Member 主会员行直发资质，在受监管银行账户内打通 USD 法币与合规稳定币托管，支持全球 ATM 取现与 Apple Pay。"
+        }
+      ]
+    },
+    {
+      "id": "bitso-card",
+      "name": "Bitso Card",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
+      "network": "Mastercard（历史支持虚拟卡与实体卡，已停用）",
+      "model": "已停服：曾为交易所账户实时借记，由 Nvio Pagos México 运营清算",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "退市归档",
+          "title": "收录拉美 Bitso Card 停服历史档案（2025-05-26 停止服务）",
+          "note": "完成 Bitso Card 官方核验：确认该卡曾由 Bitso 联合万事达卡在墨西哥推出（Nvio Pagos 运营），已于 2025-05-26 正式停止服务；历史交易与对账单需至 nvio.mx 查询，Bitso 账户正常运营。"
+        }
+      ]
+    },
+    {
+      "id": "spritz-card",
+      "name": "Spritz Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（支持虚拟卡与实体卡，支持 Apple Pay 与 Google Wallet）",
+      "model": "多链自托管出金通道：直连链上自持钱包，按需触发智能合约充值与直接结清",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录多链非托管出金与账单支付卡 Spritz Card",
+          "note": "完成 Spritz Card 官方 Visa 卡核验：确认支持从 MetaMask、Phantom 等 Web3 自托管钱包多链直充，0 月费，并深度整合 Web3 Bill Pay 实现用链上资产一键偿还现实房贷、车贷与信用卡账单。"
+        }
+      ]
+    },
+    {
+      "id": "bfinance-card",
+      "name": "BFinance Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard（支持虚拟卡与实体卡，支持 Apple Pay 与 Google Pay）",
+      "model": "Telegram Mini-App 托管钱包：资产在 Bot 内管理，消费时实时清算",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Telegram 与 TON 生态 Mini-App 加密卡 BFinance Card",
+          "note": "完成 BFinance Card 官方核验：确认深度集成 Telegram 机器人与小程序，秒级完成 Visa/Mastercard 虚拟卡开立，支持 TON 与多链 USDT 充值，原生支持 Apple Pay 碰一碰闪付。"
+        }
+      ]
+    },
+    {
+      "id": "trustxpay-txp",
+      "name": "TrustxPay (TXP) Visa Platinum",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（宣传为 Visa Platinum 白金卡，个人卡未见申请入口）",
+      "model": "待核：官网未见个人账户体系，现为面向商户的支付编排架构",
+      "verified": "2026-10-18",
+      "changelogs": [
+        {
+          "date": "2026-10-18",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录面向商户 B2B 支付编排的 TrustxPay (TXP) 资料页",
+          "note": "完成 TrustxPay (TXP) 官方核验：曾宣布 Visa Platinum 白金卡，实测未见面向个人的客户端与申请入口，官网主页已全面转向商户 B2B 支付编排服务。"
         }
       ]
     },

@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 171,
-    "current": 160,
-    "kycRequired": 144,
-    "kycConditional": 7,
-    "kycUnknown": 9,
+    "total": 179,
+    "current": 167,
+    "kycRequired": 149,
+    "kycConditional": 8,
+    "kycUnknown": 10,
     "noKycVerified": 0,
-    "closed": 11,
-    "officialSources": 644
+    "closed": 12,
+    "officialSources": 666
   },
   "rows": [
     {
@@ -65,8 +65,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 4,
-      "verified": "2026-10-13",
+      "sourceCount": 5,
+      "verified": "2026-10-18",
       "profileUrl": "https://ucard.observer/cards/bybit/"
     },
     {
@@ -1828,6 +1828,94 @@
       "sourceCount": 1,
       "verified": "2026-10-16",
       "profileUrl": "https://ucard.observer/cards/straitsx-visa/"
+    },
+    {
+      "id": "decard-luminaries",
+      "name": "DeCard Luminaries",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/decard-luminaries/"
+    },
+    {
+      "id": "slush-card",
+      "name": "Slush Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 3,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/slush-card/"
+    },
+    {
+      "id": "nudge-card",
+      "name": "Nudge Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/nudge-card/"
+    },
+    {
+      "id": "fv-bank-visa-card",
+      "name": "FV Bank Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 3,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/fv-bank-visa-card/"
+    },
+    {
+      "id": "bitso-card",
+      "name": "Bitso Card",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
+      "sourceCount": 3,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/bitso-card/"
+    },
+    {
+      "id": "spritz-card",
+      "name": "Spritz Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/spritz-card/"
+    },
+    {
+      "id": "bfinance-card",
+      "name": "BFinance Card",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 3,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/bfinance-card/"
+    },
+    {
+      "id": "trustxpay-txp",
+      "name": "TrustxPay (TXP) Visa Platinum",
+      "kyc": "unknown",
+      "kycLabel": "官方未说明",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 3,
+      "verified": "2026-10-18",
+      "profileUrl": "https://ucard.observer/cards/trustxpay-txp/"
     },
     {
       "id": "kazepay-card",
