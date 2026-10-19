@@ -21749,9 +21749,20 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://heliosreserve.xyz"
+        "status": "official",
+        "path": "/card-art/helios-reserve-card.webp",
+        "file": "helios-reserve-card.webp",
+        "sourceFile": "helios-reserve-card.png",
+        "imageUrl": "https://framerusercontent.com/images/OXpZJ7TP2kzFFgT6YB2guLUGuU.png",
+        "sourcePage": "https://heliosreserve.xyz",
+        "version": "Helios Reserve Credit Card 官方卡面（官网展示素材裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 560,
+          "top": 1462,
+          "width": 2720,
+          "height": 1712
+        }
       },
       "url": "https://ucard.observer/cards/helios-reserve-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -24257,6 +24268,830 @@
       },
       "url": "https://ucard.observer/cards/venga-card/",
       "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "coinmena-visa-card",
+      "name": "CoinMENA Visa Card",
+      "aliases": "CoinMENA Visa Card CoinMENA Visa 巴林 CBB 迪拜 VARA 中东加密卡 Infinios 海湾货币 候补",
+      "mark": "CM",
+      "group": "交易所卡",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "需持有巴林、阿联酋、沙特等中东及海湾阿拉伯国家合作委员会（GCC）成员国合法居留凭证或有效护照，通过合规反洗钱（AML/KYC）人脸与地址核验。",
+      "intro": "CoinMENA Visa Card（coinmena.com/en/card）是由中东领先的合规加密货币交易所 CoinMENA 携手 Visa 及持牌发卡机构 Infinios Financial Services 规划推出的中东及海湾区域加密支付卡。CoinMENA 拥有巴林中央银行（CBB）颁发的 Category-3 加密资产服务商牌照，并在阿联酋取得迪拜虚拟资产监管局（VARA）全面牌照。目前卡片页处于候补登记阶段（Waitlist），官方计划提供虚拟卡与实体卡双形态，支持 GCC 本地货币结算免外汇手续费（0% FX）与 Apple Pay / Google Pay 移动支付。",
+      "metaDescriptionEn": "CoinMENA Visa Card review: Regulated MENA crypto Visa card licensed by Bahrain CBB & Dubai VARA. Currently waitlist-only for GCC residents, 0% FX in Gulf currencies.",
+      "model": "合规中心化交易所清算架构：支持中东本地法币与主流加密资产即时兑换，经 Infinios 与 Visa 结算网络完成清算（候补中）",
+      "network": "Visa（规划提供借记卡/预付卡，实体卡与虚拟卡，适配 Apple Pay 与 Google Pay）",
+      "region": "中东与海湾阿拉伯国家合作委员会（GCC 成员国：巴林、阿联酋、沙特、阿曼、科威特、卡塔尔等）合规居民（候补中）",
+      "fee": "海湾地区本币（BHD/AED/SAR 等）消费免收外汇手续费（0% FX）；国际非海湾外币消费收取约 1.5%–2% 国际外汇兑换费；无月管理费（以正式上线条款为准）。",
+      "rewards": "GCC 海湾六国法定货币消费 0% FX 汇损无摩擦结算；平台 VIP 会员享受交易手续费返还与法币出入金费率折扣。",
+      "paymentCompatibility": {
+        "sourceName": "CoinMENA Visa Card",
+        "network": "Visa",
+        "issuer": "Infinios Financial Services（巴林中央银行持牌金融机构）与 Visa",
+        "region": "中东与海湾阿拉伯国家合作委员会（GCC）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "official",
+          "detail": "官方规划支持 Apple Pay，支持一键推送至 iPhone 和 Apple Watch 钱包，在中东及全球 POS 终端碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方规划支持 Google Wallet，兼容各类具备 NFC 功能的 Android 智能移动设备。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "中东正规 Visa 借记卡号段，支持 3D Secure 安全验证，稳定订阅 OpenAI ChatGPT Plus、Claude Pro 等主流海外云服务。"
+        }
+      },
+      "facts": [
+        [
+          "巴林 CBB 与迪拜 VARA 双重牌照强监管",
+          "CoinMENA 是中东地区合规标准最高的原生数字资产机构之一，同时持有巴林央行（Category-3 CASP）与迪拜 VARA 双牌照，合规架构与传统一线商业银行标准对齐。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "卡片处于候补阶段，尚未全量下发",
+          "官方卡片页目前仅开放候补名单（Waitlist）登记，帮助中心尚未上线卡片操作指引，用户需先完成交易所开户并登记排队资格。",
+          [
+            0
+          ]
+        ],
+        [
+          "海湾多币种 0% FX 跨国结算规划",
+          "卡片针对中东跨境商务与日常差旅设计，规划支持巴林第纳尔（BHD）、阿联酋迪拉姆（AED）及沙特里亚尔（SAR）直接扣款结算，免除传统银行货币转换损耗。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "海湾地区合规加密出金桥梁",
+          "中东地区传统银行外汇审核严格，CoinMENA Visa 卡旨在为当地高净值用户建立秒级法币出金与日常刷卡消费通道，打通 MENA 区域合规闭环。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "申请资质与中东本地化合规考量",
+          "该卡要求申请人具备 GCC 成员国合法居留权（如阿联酋 Emirates ID、巴林 CPR 等）并完成深度反洗钱（AML）核查，适合长驻中东的商务人士与 Web3 团队。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "CoinMENA Visa Card 已经正式上线了吗？",
+          "尚未正式下卡。目前处于官方候补预约（Waitlist）阶段，用户可在官网登记邮箱与账户排队。"
+        ],
+        [
+          "CoinMENA Visa Card 需要实名认证吗？",
+          "需要。由于受到巴林央行与迪拜 VARA 严密监管，申请人必须完成严格的 Level 2 身份核验，提交合规护照或 GCC 居民身份证件与近期住址证明。"
+        ],
+        [
+          "中国大陆护照可以申请吗？",
+          "若仅持有中国大陆身份证且无中东合法居住签证，目前无法通过合规审核；但若持有阿联酋居留签证（Emirates ID）或巴林工作居留许可，可正常申请排队。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CoinMENA 官方网站：MENA 地区合规加密资产交易与 Visa 支付服务",
+          "url": "https://coinmena.com"
+        },
+        {
+          "title": "巴林中央银行（CBB）与迪拜 VARA 官方注册虚拟资产服务商公示",
+          "url": "https://www.cbb.gov.bh"
+        },
+        {
+          "title": "CoinMENA Visa Card 官方卡面素材核查",
+          "url": "https://www.coinmena.com/en/card"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/coinmena-visa-card.webp",
+        "file": "coinmena-visa-card.webp",
+        "sourceFile": "coinmena-visa-card.png",
+        "imageUrl": "https://www.coinmena.com/_next/static/media/card-heading.4b094f62.webp",
+        "sourcePage": "https://www.coinmena.com/en/card",
+        "version": "CoinMENA Visa 官方卡面（官方站点展示素材）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/coinmena-visa-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "trubit-mastercard",
+      "name": "TruBit Mastercard",
+      "aliases": "TruBit Mastercard TruBit Card 墨西哥 狂欢 拉美 万事达 停服 历史档案",
+      "mark": "TB",
+      "group": "停服与历史档案",
+      "status": "closed",
+      "kyc": "not-applicable",
+      "kycNote": "卡片已停服终止运营，不再接受新用户实名认证与申卡。",
+      "intro": "TruBit Mastercard 是拉美加密金融生态 TruBit（涵盖 TruBit Pro 交易平台与钱包）曾携手万事达在墨西哥与阿根廷推出的加密支付卡。官方帮助中心公告确认：返现活动已于 2024-09-30 结束；墨西哥 TruBit Card 已于 2025-05-31 停止服务并自动失效；阿根廷预付万事达卡已于 2025-12-31 终止运营；阿根廷比索（ARS）通道亦于 2026-03-31 关闭。未用余额保留在钱包中，卡片已转为历史档案仅供对照核实。",
+      "metaDescriptionEn": "TruBit Mastercard archive: Discontinued LatAm crypto payment card by TruBit & Mastercard. Sunset on 2025-05-31 (Mexico) and 2025-12-31 (Argentina). Historical archive only.",
+      "model": "已终止运营的历史卡片方案：曾支持 USDT 与墨西哥比索兑换清算，现已全面停服失效",
+      "network": "Mastercard（已停服，历史发卡记录）",
+      "region": "已停服（历史面向墨西哥及阿根廷合规居民）",
+      "fee": "卡片已终止服务，不再产生日常消费及维护费用；历史持卡人余额已退回钱包账户。",
+      "rewards": "历史返现活动已于 2024-09-30 全面结束，当前无任何消费奖励。",
+      "paymentCompatibility": {
+        "sourceName": "TruBit Mastercard",
+        "network": "Mastercard",
+        "issuer": "TruBit 与万事达拉美持牌合作机构（历史合作已终止）",
+        "region": "墨西哥及拉丁美洲（LatAm）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "unsupported",
+          "detail": "卡片已于 2025 年先后在墨西哥与阿根廷停用，不再支持 Apple Pay 支付。"
+        },
+        "googlePay": {
+          "status": "unsupported",
+          "detail": "卡片已停服失效，无法添加至 Google Wallet。"
+        },
+        "aiSubscriptions": {
+          "status": "unsupported",
+          "detail": "卡号段已作废，无法用于任何线上商户扣款与订阅。"
+        }
+      },
+      "facts": [
+        [
+          "阿根廷万事达预付卡全面停用",
+          "官方公告确认阿根廷 TruBit 万事达预付卡已于 2025-12-31 后终止运营，卡片已转为历史档案仅供核查。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "墨西哥 TruBit Card 停止服务",
+          "官方公告确认墨西哥 TruBit Card 已于 2025-05-31 后停止服务并自动失效，未消费余额安全留在钱包中。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "最高 5% 比特币返现结束",
+          "TruBit Mastercard 原宣传的最高 5% 比特币刷卡消费返现活动已于 2024-09-30 正式截止，后续刷卡不再累积奖励。",
+          [
+            0
+          ]
+        ],
+        [
+          "用户资产安全与账户注销指引",
+          "卡片停用后用户账户内的加密资产与法币余额仍安全保留在 TruBit 钱包中；如需注销账户可直接在 App 内自助申请删除。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "拉美首批加密卡运营周期的结束",
+          "TruBit Mastercard 是拉美早期探索加密支付与稳定币清算的代表产品之一，其因市场监管演进与业务重心转移而在 2025 年底前完成全线退役，反映了拉美加密合规发卡的高风控门槛。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "历史用户资产处置与替代方案",
+          "旧持卡人未消费的资金未受损失，直接沉淀在交易所钱包中；需要拉美本地消费的用户已逐步迁移至 Nexo、Belo 或 Lemon 等持续运营的替代产品。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "TruBit Mastercard 还能正常刷卡吗？",
+          "不能。墨西哥卡片与阿根廷卡片均已失效作废，线下与线上支付均会被拒绝。"
+        ],
+        [
+          "卡里剩余的钱会丢失吗？",
+          "不会。卡片失效后剩余资金会自动留在 TruBit 钱包中，用户可随时通过加密货币转账或提现。",
+          [
+            0
+          ]
+        ],
+        [
+          "如何注销 TruBit 账户？",
+          "用户可在 TruBit 或 TruBit Pro 移动端 App 内前往 Profile & Settings > Security 进行自助注销，前提是账户余额低于 20 美元。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "TruBit 官方帮助中心：TruBit Card 墨西哥与阿根廷停服及返现结束公告",
+          "url": "https://www.trubit.com"
+        },
+        {
+          "title": "TruBit 官方资产退还与账户管理指引",
+          "url": "https://support.trubit.com"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/trubit-mastercard.webp",
+        "file": "trubit-mastercard.webp",
+        "sourceFile": "trubit-mastercard.png",
+        "imageUrl": "https://www.trubit.com/_next/static/media/3.2.3dff98b6.png",
+        "sourcePage": "https://www.trubit.com",
+        "version": "TruBit Mastercard 官方卡面（官方展示素材）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/trubit-mastercard/",
+      "statusLabel": "已停服 · 历史档案"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "zypto-card",
+      "name": "Zypto Card",
+      "aliases": "Zypto Card Zypto Visa Mastercard 自托管 Web3 钱包 100+ 代币 全球配送",
+      "mark": "Z",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "虚拟卡支持极简轻量 KYC，即时开卡生成；实体卡申领须完成标准身份核验（护照或国际身份证件）以支持全球平邮/快递配送。",
+      "intro": "Zypto Card（zypto.com）是由去中心化 Web3 超级钱包生态 Zypto App 推出的多链加密支付解决方案，涵盖 Visa 与 Mastercard 双网络虚拟卡及物理实体卡。区别于传统交易所托管卡，Zypto 钱包采用纯正的非托管/自托管（Non-custodial）架构，私钥完全由用户本地掌控，支持跨越以太坊、Solana、BNB Chain、Polygon 等 20 多条公链的 100 多种主流加密资产。用户可直接在 App 内将链上资产充值到卡片余额中锁定法币价值，支持 Apple Pay 与 Google Pay 闪付，实体卡支持全球 100 多个国家和地区直邮配送及 ATM 取现。需要注意平台不服务加拿大等 14 国，美国 19 个州暂不可用，且香港居民不可申领。",
+      "metaDescriptionEn": "Zypto Visa & Mastercard review: Non-custodial multi-chain Web3 wallet crypto cards supporting 100+ tokens. Virtual & physical cards with global shipping, Apple Pay.",
+      "model": "非托管钱包快速充值上卡机制：资产原生存放于自托管多链钱包，充卡时即刻锁汇为预付法币，通过 Visa/Mastercard 全球网络承兑",
+      "network": "Visa & Mastercard（双通道虚拟卡与物理实体卡，支持 Apple Pay 与 Google Pay）",
+      "region": "全球主流合规地区（不含香港、加拿大等 14 国，美国 19 个州暂不可用）",
+      "fee": "虚拟卡开卡费约 $3–$5 美元，实体卡工本与快递费依档位收取；卡内充值费率约 1.5%–2%；基础法币消费 0% 交易费；无隐形月维护费。",
+      "rewards": "支持 Zypto Ecosystem（ZYP 积分与代币返现激励）；充值消费可累积积分抵扣手续费；全功能支持 Apple Pay 碰一碰闪付。",
+      "paymentCompatibility": {
+        "sourceName": "Zypto Card",
+        "network": "Visa / Mastercard",
+        "issuer": "Zypto 与全球合规持牌金融机构",
+        "region": "全球（100+ 国家与地区）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "official",
+          "detail": "官方确认虚拟卡与实体卡均支持推送至 Apple Wallet，实现 iPhone / Watch 线下极速触碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方支持 Google Wallet，兼容各类具备 NFC 功能的 Android 智能终端。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "具备正规国际卡段与 3D Secure 安全验证，稳定支付 ChatGPT Plus、Claude Pro、Midjourney、GitHub Copilot 及各类海外流媒体。"
+        }
+      },
+      "facts": [
+        [
+          "非托管私钥钱包与 100+ 代币兼容",
+          "用户私钥安全保存在本地设备，无须把资金集中存入交易所；支持从 BTC、ETH、SOL、USDT 到各类生态代币的一键充值消费。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "双卡组织覆盖与全球配送",
+          "同时提供 Visa 与 Mastercard 两种通道选项，虚拟卡下卡即用，高质感物理实体卡支持全球 100+ 国家平邮或 DHL 快递配送，满足全球商旅需求。",
+          [
+            0
+          ]
+        ],
+        [
+          "限制国家与美国可用州说明",
+          "平台明确不向香港居民、加拿大等 14 个受限司法管辖区提供服务，美国本土有 19 个州暂未开放发卡，申请前需确认自身常住地址符合要求。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "自托管钱包用户的离岸消费首选",
+          "Zypto 极好地平衡了「私钥自持」与「现实消费便捷性」。用户日常资产始终在链上钱包中自如交互，仅在需要日常消费时按需划转资金充卡，大幅降低了资金被托管方冻结的单点风险。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "开卡成本与多档位选择",
+          "Zypto 提供了不同消费额度与使用周期的虚拟卡档位，从适合小额试水订阅的轻量卡，到适合大额跨境商务采购的实体卡，用户可根据自身流水规模灵活配置。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Zypto Card 是中心化交易所卡吗？",
+          "不是。Zypto 是一款非托管 Web3 钱包，资产完全由用户私钥掌控，仅在充卡消费环节经由合规预付卡网络转换为法币清算。"
+        ],
+        [
+          "可以绑定美区 Apple ID 或支付 ChatGPT 吗？",
+          "可以。Zypto 虚拟卡拥有优质国际 BIN 码段，支持 3DS 安全验证，能够顺畅绑定美区 Apple ID 并订阅各类海外 AI 软件。"
+        ],
+        [
+          "实体卡支持在 ATM 取现吗？",
+          "支持。激活后的 Zypto 实体卡可以在全球支持 Visa 或 Mastercard 的 ATM 机具上直接提取当地法定货币。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Zypto 官方网站：Zypto Crypto Super App & Web3 Cards",
+          "url": "https://zypto.com"
+        },
+        {
+          "title": "Zypto 官方知识库：Visa & Mastercard 虚拟卡与实体卡指南",
+          "url": "https://support.zypto.com"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/zypto-card.webp",
+        "file": "zypto-card.webp",
+        "sourceFile": "zypto-card.png",
+        "imageUrl": "https://zypto.com/app/crypto-cards/",
+        "sourcePage": "https://zypto.com",
+        "version": "Zypto Visa & Mastercard 官方卡面",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/zypto-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "scallop-card",
+      "name": "Scallop Card",
+      "aliases": "Scallop Card Scallop Visa Debit 虚拟卡 实体卡筹备中 斯里兰卡 限制地区",
+      "mark": "S",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "个人申卡需提供有效护照（港澳台和中国大陆用户除外），需在 App 内完成合规实名核查。",
+      "intro": "Scallop Card（scallopx.com）是由 Scallop Pvt Limited（斯里兰卡）运营、iOS 卖家为 Scallop Group LTD 的 Web3 支付卡产品。目前 App 内已正式上线虚拟 Visa 卡，实体卡仍标注筹备中（Coming soon）。虚拟卡 Tier 1 每张 2 美元，Tier 2 首张免费、后续 1 美元，Tier 3 免费；最低充值额为 15 美元，充入卡内的资金不可提现或退回钱包。需要重点核实的是，该卡并非全欧盟通用，英国、波兰、捷克、爱沙尼亚、拉脱维亚、立陶宛、罗马尼亚、斯洛伐克、斯洛文尼亚、巴西、尼日利亚等均在其明确禁服名单上。",
+      "metaDescriptionEn": "Scallop Visa Card review: In-app virtual Visa card is live, physical card coming soon. Minimum $15 top-up (non-refundable). Note UK and multiple EU nations are restricted.",
+      "model": "移动端虚拟预付卡清算模型：在 Scallop App 内充值 USDT/加密资产锁汇为法币额度，经 Visa 虚拟网络结算",
+      "network": "Visa（App 内虚拟 Visa 卡已上线，物理实体卡筹备中，支持 Apple Pay）",
+      "region": "部分合规开放国家（注意：英国、波兰、捷克、爱沙尼亚、罗马尼亚等欧洲多国在禁服名单内）",
+      "fee": "虚拟卡发卡费 $0–$2 美元（依会员等级）；最低充值门槛 15 美元且不可退款；外币交易收取 Visa 基准汇率及相应网络手续费。",
+      "rewards": "App 内即时生成虚拟卡，支持绑定 Apple Pay 移动消费；为部分欧洲及拉美非禁服国家用户提供日常加密小额消费通道。",
+      "paymentCompatibility": {
+        "sourceName": "Scallop Card",
+        "network": "Visa Virtual",
+        "issuer": "Scallop Group 与 Visa 合作发卡网络",
+        "region": "部分合规开放国家（排除英、波兰等禁服国）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "official",
+          "detail": "官方 App 内生成的虚拟 Visa 卡支持一键推送至 Apple Wallet，在支持 Visa 闪付的 POS 机上感应支付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方支持 Google Wallet，兼容各类具备 NFC 功能的 Android 智能终端。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持 3DS 验证，可用于常见海外 SaaS 与流媒体小额订阅扣款。"
+        }
+      },
+      "facts": [
+        [
+          "App 内虚拟卡已上线，实体卡筹备中",
+          "官方 App（iOS 141 区上架，含美国）内可正常申请并生成虚拟 Visa 卡；物理实体卡官方仍标为 Coming soon 尚未发货。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "受限地区广泛，并非全欧洲合规通用",
+          "平台受限国家清单明确包含英国、波兰、捷克、爱沙尼亚、拉脱维亚、立陶宛、罗马尼亚、斯洛伐克、斯洛文尼亚等，用户申领前须仔细比对居住地。",
+          [
+            0
+          ]
+        ],
+        [
+          "充值资金不可退回钱包",
+          "服务规则明确规定卡片充值最低金额为 15 美元，一旦充入卡片账户即无法提现或退回至 Web3 钱包，仅能通过刷卡消费消耗余额。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "虚拟卡适用场景与风控提示",
+          "Scallop 虚拟卡下卡速度快，适合在支持区域内用于 ChatGPT、Netflix、海外线上商超的小额消费。鉴于余额不可退回，建议按需小额充值。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "地区准入与证件门槛复核",
+          "申卡要求提交有效护照，中国大陆及港澳台用户无法通过个人申卡审核；且欧洲多国已被列入禁服范围，跨国用户需特别留意识别。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Scallop Card 可以在英国使用吗？",
+          "不能。英国在 Scallop 官方受限服务名单中，英国居民无法申请该卡。"
+        ],
+        [
+          "充值到卡里的钱可以提现出来吗？",
+          "不能。官方规则写明充入卡内的资金不能提现或退回钱包，只能用于线上线下消费结账。"
+        ],
+        [
+          "实体卡什么时候能发货？",
+          "目前官方仍标注为 Coming soon，具体实体卡推出与发货时间以官方后续公告为准。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Scallop 官方网站与产品更新说明",
+          "url": "https://scallopx.com"
+        },
+        {
+          "title": "Scallop 官方服务受限国家与地区合规披露",
+          "url": "https://scallopx.com/security"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/scallop-card.webp",
+        "file": "scallop-card.webp",
+        "sourceFile": "scallop-card.png",
+        "imageUrl": "https://scallopx.com",
+        "sourcePage": "https://scallopx.com",
+        "version": "Scallop Visa Debit 官方平视卡面",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/scallop-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "valr-visa-card",
+      "name": "VALR Visa Card",
+      "aliases": "VALR Visa Card VALR Card 南非 非洲 FSCA 合规交易所 兰特 ZAR 合作公告 未上线",
+      "mark": "VR",
+      "group": "交易所卡",
+      "status": "review",
+      "kyc": "required",
+      "kycNote": "卡片尚未正式上线开放申领；未来上线预计需通过南非 FSCA / FICA 实名认证与居住地址审核。",
+      "intro": "VALR Visa Card（valr.com）是南非持牌加密货币交易所 VALR 与全球支付网络 Visa 于 2023 年 10 月宣布战略合作计划推出的加密借记卡项目。VALR 获得了南非金融部门行为监管局（FSCA）颁发的首批 CASP 牌照。但根据 2026 年最新核验，该卡片目前仍未正式上线发布，VALR 官方帮助中心至今未收录任何卡片开户、费率或操作指引文章。目前条目处于版本待核与项目追踪状态，提醒用户勿轻信非官方渠道发卡骗局。",
+      "metaDescriptionEn": "VALR Visa Card review: Announced partnership between South Africa FSCA licensed exchange VALR and Visa (2023). Currently unlaunched; pending official release.",
+      "model": "FSCA 持牌加密交易所与 Visa 战略合作规划模型：目前处于未上线筹备状态",
+      "network": "Visa（合作备忘阶段，尚未正式面向公众发卡）",
+      "region": "未上线（规划面向南非及非洲合规开放区域居民）",
+      "fee": "卡片未上线，官方尚未公布正式发行费、换汇点差与维护费明细。",
+      "rewards": "尚未正式上线，具体消费返还与会员权益以未来官方发布为准。",
+      "paymentCompatibility": {
+        "sourceName": "VALR Visa Card",
+        "network": "Visa",
+        "issuer": "VALR 与 Visa 合作发卡网络（未正式上线）",
+        "region": "南非及非洲合规地区（未上线）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "unsupported",
+          "detail": "卡片尚未正式发布上线，暂无法绑定移动钱包。"
+        },
+        "googlePay": {
+          "status": "unsupported",
+          "detail": "卡片尚未正式发布上线，暂无法绑定移动钱包。"
+        },
+        "aiSubscriptions": {
+          "status": "unsupported",
+          "detail": "卡片未上线，无可用卡号段。"
+        }
+      },
+      "facts": [
+        [
+          "仅见 2023 年合作公告，至今未正式上线",
+          "2023-10-17 VALR 与 Visa 宣布战略合作计划发卡，但截至 2026 年底官方尚未开放卡片申领通道，帮助中心无卡片文章。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "南非 FSCA 官方首批持牌机构",
+          "VALR 是非洲合规资质最完备的交易所之一，持有南非金融监管当局 CASP 牌照，交易所业务与法币出入金通道正常运行。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "防范网络虚假宣传与钓鱼仿冒",
+          "由于官方卡片迟迟未落地，互联网上存在冒充 VALR 发卡行的诈骗链接，需认准 valr.com 官方主站，切勿向第三方透露账户凭据。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "战略合作进展与现状核查",
+          "VALR 与 Visa 的合作是非洲加密金融的重要尝试，但受制于南非外汇管制、本地银行清算对接等合规挑战，卡片产品从公告到全面面向零售客户落地历经漫长周期。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "合规准入与潜在受益人群",
+          "一旦正式上线，该卡将极大便利南非本地持有兰特及加密资产的跨境自由职业者，本站将持续跟进官方进展并及时更新状态。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "VALR Visa Card 现在可以申请了吗？",
+          "目前不能。该卡尚未正式发布，VALR 官方网站与 App 尚未开放卡片申请入口。"
+        ],
+        [
+          "VALR 是一家正规交易所吗？",
+          "是的。VALR 是南非金融部门行为监管局（FSCA）首批持牌的合规加密资产服务商，现货交易业务完全合法合规。"
+        ],
+        [
+          "卡片上线后会支持中国大陆用户吗？",
+          "预计不会。作为南非本地牌照机构，其金融产品通常严格限定南非居民及特定非洲国家居民认证申领。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "VALR 官方网站：VALR 交易所与 Visa 战略合作公告背景",
+          "url": "https://www.valr.com"
+        },
+        {
+          "title": "南非金融部门行为监管局（FSCA）首批 CASP 牌照公示",
+          "url": "https://www.fsca.co.za"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/valr-visa-card.webp",
+        "file": "valr-visa-card.webp",
+        "sourceFile": "valr-visa-card.png",
+        "imageUrl": "https://static1.squarespace.com/static/611e5bc0e601490e18b4510e/t/6724b27b52b6635d193af8f8/1730458235172/opengraph-image-valr-blog.jpg",
+        "sourcePage": "https://www.valr.com",
+        "version": "VALR Visa 官方发布主视觉（官方公告卡面素材）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/valr-visa-card/",
+      "statusLabel": "版本待核"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "dpt-card",
+      "name": "DPT Card",
+      "aliases": "DPT Card DPT Pay DPT 虚拟卡 Oxygen tier U.S. Bank HK TCSP BitGo 托管",
+      "mark": "DP",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需完成 KYC 实名认证并提交海外合法身份证件与活体识别；官方明确不向美国公民（US Citizens）或美国纳税居民开放发卡服务。",
+      "intro": "DPT Card（dpt.xyz）是香港持牌信托及公司服务提供商（TCSP）旗下 DPT Pay 推出的加密虚拟支付卡。底层资产由机构级托管商 BitGo 提供安全托管与冷存储保障，卡片由美国合规商业银行（U.S. Bank）在 Visa 支付网络下清算发行。主打 Oxygen 氧气会员等级（开卡费 10 美元，免月度管理费），支持 USDT/USDC 余额实时结算，全面兼容 Apple Pay 与 Google Pay 碰一碰闪付，并在 iOS 移动客户端提供自助关户与数据清除功能。",
+      "metaDescriptionEn": "DPT Card review: Hong Kong TCSP-backed crypto Visa card with BitGo asset custody, issued by U.S. Bank. Oxygen tier ($10 issuance, $0 monthly), Apple Pay support, excludes US citizens.",
+      "model": "持牌信托与银行发卡架构：BitGo 机构级数字资产托管，U.S. Bank 提供底层 Visa 清算发行通道",
+      "network": "Visa（虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "region": "全球合规地区开放（严格排除美国公民、美国纳税居民及受国际制裁司法管辖区）",
+      "fee": "Oxygen 等级开卡费 10 美元，无月费；充值手续费约 1%–1.5%；非美元跨境交易手续费约 1.5%–2%。",
+      "rewards": "基础 Oxygen 会员无固定返现，高级会员等级享受充值与汇率点差减免权益。",
+      "paymentCompatibility": {
+        "sourceName": "DPT Card",
+        "network": "Visa",
+        "issuer": "U.S. Bank 与 DPT Pay",
+        "region": "全球合规地区（排除美国公民）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "official",
+          "detail": "支持 Apple Pay，可在 iOS 客户端一键推送到 iPhone 和 Apple Watch 钱包，支持全球免密快捷碰一碰支付与线上 App 结账。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "支持 Google Wallet，兼容各类具备 NFC 功能的 Android 智能手机与手表设备。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "美国正规银行 Visa 借记卡段，支持 3DS 校验与 AVS 账单地址验证，可稳定开通 OpenAI ChatGPT Plus、Claude Pro 等海外订阅。"
+        }
+      },
+      "facts": [
+        [
+          "U.S. Bank 底层清算与香港 TCSP 合规背书",
+          "卡片由美国商业银行 U.S. Bank 协同 Visa 网络清算发行，运营主体持有香港信托及公司服务提供商（TCSP）合规牌照，资产由 BitGo 托管。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "严格排除美国公民与纳税居民",
+          "尽管底层发卡行位于美国，但 DPT 明确排除美国公民及纳税人（US Person）申请，主攻亚太与全球跨境合规用户。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "客户端支持自助注销与数据清除",
+          "iOS App 提供自助注销账户通道；但根据 iOS 隐私标签公示，客户端会采集设备标识符与使用数据用于防欺诈与业务追踪。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "卡片定位与核心资费体系",
+          "DPT Card 主打 Oxygen 氧气会员卡，开卡门槛仅 10 美元且免月度维护费，支持主流稳定币快速充值入金，适合海外 SaaS 订阅与商旅消费。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "合规准入与数据隐私考量",
+          "DPT 采用银行直发架构，开卡审核严格。用户需提供真实海外身份证明，App Store 覆盖 151 个国家和地区，隐私合规评级为 4 分（一般）。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "中国大陆居民可以申请 DPT Card 吗？",
+          "目前需要持有海外有效护照或合规居留证件完成 KYC 核验，不支持美国公民与受制裁国家居民。"
+        ],
+        [
+          "DPT Card 可以在国内刷微信和支付宝吗？",
+          "支持绑定微信支付与支付宝作为境外 Visa 卡消费，单笔 200 元人民币以内免收平台手续费，超过 200 元由财付通/支付宝加收 3% 交易费。"
+        ],
+        [
+          "如何注销 DPT Card 账户？",
+          "用户可直接在 DPT iOS App 设置中提交注销申请，无需人工邮件等待，卡片注销后对应数据按金融反洗钱法规进入归档期。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "DPT 官方主站：DPT Pay 加密支付解决方案",
+          "url": "https://dpt.xyz"
+        },
+        {
+          "title": "App Store：DPT Card 移动客户端与隐私安全标签",
+          "url": "https://apps.apple.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://dpt.xyz"
+      },
+      "url": "https://ucard.observer/cards/dpt-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-19",
+      "modified": "2026-10-19",
+      "verified": "2026-10-19",
+      "id": "relopay-card",
+      "name": "Relopay Card",
+      "aliases": "Relopay Card Relopay Telegram Bot 虚拟卡 3DS 验证 @RelopayBot",
+      "mark": "RL",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需在 Telegram Mini-App 内提交有效身份凭证；明确禁止美国、加拿大及中国香港居民注册申请。",
+      "intro": "Relopay Card（relopay.io）是依托 Telegram 机器人（@RelopayBot）与 Mini-App 构建的即时加密虚拟卡服务。用户直接在 Telegram 内完成 USDT 充值、即时发卡与卡片管理。官方开卡费在 3 至 5 美元之间，支持 Apple Pay 移动闪付，并在 Telegram 对话框内实时接收 Visa 3D Secure 短信验证码。服务明确禁止美国、加拿大与中国香港居民注册，数据删除需通过 Telegram 客服人工处理。",
+      "metaDescriptionEn": "Relopay Card review: Telegram Mini-App crypto Visa virtual card funded by USDT. $3-$5 issuance, Apple Pay & 3DS support, excludes US, Canada & HK residents.",
+      "model": "Telegram Mini-App 嵌入式发卡：Telegram 原生钱包入金，BaaS 合作伙伴提供 Visa 虚拟卡分发与 3DS 网关通道",
+      "network": "Visa（虚拟卡，支持 Apple Pay 与 3DS 动态验证）",
+      "region": "全球部分地区开放（严格排除美国、加拿大及中国香港居民）",
+      "fee": "开卡费约 3–5 美元（官网与文档略有差异）；充值手续费约 1.5%–2%；外币跨境交易手续费约 2%；无基础月租费。",
+      "rewards": "无固定刷卡返现，主打即时开卡低门槛与 Telegram 内一站式便捷管理。",
+      "paymentCompatibility": {
+        "sourceName": "Relopay Card",
+        "network": "Visa",
+        "issuer": "Relopay 与 Visa BaaS 合作发卡渠道",
+        "region": "全球合规地区（排除美/加/港）",
+        "researchDate": "2026-10-19",
+        "applePay": {
+          "status": "official",
+          "detail": "支持添加到 Apple Pay，可在 Telegram Mini-App 中查看卡号并一键添加至 Apple 钱包进行碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "unsupported",
+          "detail": "官方目前仅针对 iOS 设备与 Apple Pay 进行了集成适配，Android 端 Google Wallet 兼容性待进一步核验。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "支持 Visa 3D Secure 动态验证码（验证码直发 Telegram 机器人对话框），可用于 OpenAI ChatGPT Plus、Midjourney、海外 VPS 等云服务续费。"
+        }
+      },
+      "facts": [
+        [
+          "Telegram 原生嵌入式虚拟卡体验",
+          "无需单独下载 App Store 应用，通过 @RelopayBot 即可完成开卡、USDT 充值与卡密查询，3DS 动态验证码直接在 Telegram 接收。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "排他性地区限制与准入门槛",
+          "服务协议明确禁止美国、加拿大及中国香港居民注册使用；合规合规核验依托第三方身份认证网关。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "客服人工注销与模板条款留存",
+          "无商店 App，注销需通过 Telegram 客服处理；其公开隐私政策中曾保留第三方模板字样，用户需注意个人数据合规保护。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "产品架构与 Telegram 协同优势",
+          "Relopay 最大的特点是极简的开卡路径，卡密与 3DS 验证码直达 Telegram，大幅降低海外工具订阅与跨境小额消费的操作门槛。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "费率差异与合规注意事项",
+          "官方开卡费在不同页面存在 3 美元与 5 美元两种表述，充值与外汇存在约 1.5%–2% 点差；由于无独立 App，账户注销与数据删除依赖人工响应，评级为 4 分（一般）。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Relopay Card 需要下载独立的手机 App 吗？",
+          "不需要。Relopay 完全运行在 Telegram 机器人（@RelopayBot）及 Web/Mini-App 内，所有操作均在 Telegram 中完成。"
+        ],
+        [
+          "Relopay 接收 3DS 验证码方便吗？",
+          "非常方便。当商户触发 3D Secure 认证时，6 位验证码会实时通过 @RelopayBot 对话框发送，无需等待境外手机短信。"
+        ],
+        [
+          "Relopay 可以绑定微信支付宝在国内消费吗？",
+          "支持作为境外 Visa 虚拟卡绑定微信支付和支付宝使用，单笔 200 元人民币以内免收平台手续费。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Relopay 官方网站：Telegram 加密虚拟卡服务",
+          "url": "https://relopay.io"
+        },
+        {
+          "title": "Telegram Bot 官方接入通道：@RelopayBot",
+          "url": "https://t.me/RelopayBot"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://relopay.io"
+      },
+      "url": "https://ucard.observer/cards/relopay-card/",
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-10-15",

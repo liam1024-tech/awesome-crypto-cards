@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 191,
-    "current": 179,
-    "kycRequired": 160,
+    "total": 198,
+    "current": 185,
+    "kycRequired": 166,
     "kycConditional": 9,
     "kycUnknown": 10,
     "noKycVerified": 0,
-    "closed": 12,
-    "officialSources": 691
+    "closed": 13,
+    "officialSources": 706
   },
   "rows": [
     {
@@ -2048,6 +2048,83 @@
       "sourceCount": 2,
       "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/venga-card/"
+    },
+    {
+      "id": "coinmena-visa-card",
+      "name": "CoinMENA Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 3,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/coinmena-visa-card/"
+    },
+    {
+      "id": "trubit-mastercard",
+      "name": "TruBit Mastercard",
+      "kyc": "not-applicable",
+      "kycLabel": "停服 / 不适用",
+      "status": "closed",
+      "statusLabel": "已停服 · 历史档案",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/trubit-mastercard/"
+    },
+    {
+      "id": "zypto-card",
+      "name": "Zypto Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/zypto-card/"
+    },
+    {
+      "id": "scallop-card",
+      "name": "Scallop Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/scallop-card/"
+    },
+    {
+      "id": "valr-visa-card",
+      "name": "VALR Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/valr-visa-card/"
+    },
+    {
+      "id": "dpt-card",
+      "name": "DPT Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/dpt-card/"
+    },
+    {
+      "id": "relopay-card",
+      "name": "Relopay Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-19",
+      "profileUrl": "https://ucard.observer/cards/relopay-card/"
     },
     {
       "id": "kazepay-card",

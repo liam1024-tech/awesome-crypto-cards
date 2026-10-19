@@ -4848,6 +4848,76 @@
       "changelogs": []
     },
     {
+      "id": "coinmena-visa-card",
+      "name": "CoinMENA Visa Card",
+      "stage": "paused",
+      "stageLabel": "⏸️ 暂停申领",
+      "network": "Visa（规划提供借记卡/预付卡，实体卡与虚拟卡，适配 Apple Pay 与 Google Pay）",
+      "model": "合规中心化交易所清算架构：支持中东本地法币与主流加密资产即时兑换，经 Infinios 与 Visa 结算网络完成清算（候补中）",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "trubit-mastercard",
+      "name": "TruBit Mastercard",
+      "stage": "closed",
+      "stageLabel": "⛔ 停服公墓",
+      "network": "Mastercard（已停服，历史发卡记录）",
+      "model": "已终止运营的历史卡片方案：曾支持 USDT 与墨西哥比索兑换清算，现已全面停服失效",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "zypto-card",
+      "name": "Zypto Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa & Mastercard（双通道虚拟卡与物理实体卡，支持 Apple Pay 与 Google Pay）",
+      "model": "非托管钱包快速充值上卡机制：资产原生存放于自托管多链钱包，充卡时即刻锁汇为预付法币，通过 Visa/Mastercard 全球网络承兑",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "scallop-card",
+      "name": "Scallop Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（App 内虚拟 Visa 卡已上线，物理实体卡筹备中，支持 Apple Pay）",
+      "model": "移动端虚拟预付卡清算模型：在 Scallop App 内充值 USDT/加密资产锁汇为法币额度，经 Visa 虚拟网络结算",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "valr-visa-card",
+      "name": "VALR Visa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（合作备忘阶段，尚未正式面向公众发卡）",
+      "model": "FSCA 持牌加密交易所与 Visa 战略合作规划模型：目前处于未上线筹备状态",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "dpt-card",
+      "name": "DPT Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "model": "持牌信托与银行发卡架构：BitGo 机构级数字资产托管，U.S. Bank 提供底层 Visa 清算发行通道",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
+      "id": "relopay-card",
+      "name": "Relopay Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（虚拟卡，支持 Apple Pay 与 3DS 动态验证）",
+      "model": "Telegram Mini-App 嵌入式发卡：Telegram 原生钱包入金，BaaS 合作伙伴提供 Visa 虚拟卡分发与 3DS 网关通道",
+      "verified": "2026-10-19",
+      "changelogs": []
+    },
+    {
       "id": "kazepay-card",
       "name": "KazePay Card",
       "stage": "active",
