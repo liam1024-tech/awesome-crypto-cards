@@ -113,17 +113,16 @@ console.log(`Verified active no-KYC cards: ${noKycCards.length}`); // 0
 
 ## 🔬 Dataset Coverage & Methodology
 
-As of **2026-10-12**:
-- **Total Brand Profiles**: 124
-- **Active / Current Status**: 114
-- **Discontinued / Closed Records**: 10 *(Historical references preserved to warn users against inactive products like BitMart Card or Morph Black)*
-- **KYC Verification Breakdown**:
-  - `KYC Required`: 101 brands
-  - `Conditional / Issuer Discretion`: 5 brands
-  - `Not Applicable / Self-custody`: 10 brands
-  - `Not Stated in Public Documentation`: 8 brands
+As of **2026-10-20**:
+- **Total Brand Profiles**: 205
+- **Active / Current Status**: 192
+- **Discontinued / Closed Records**: 13 *(Historical references preserved to warn users against inactive products like BitMart Card or Morph Black)*
+- **KYC Verification Breakdown** (active profiles):
+  - `KYC Required`: 173 brands
+  - `Conditional / Issuer Discretion`: 9 brands
+  - `Not Stated in Public Documentation`: 10 brands
   - `Verified No-KYC Mainstream Active Cards`: **0** *(Warning: Platforms claiming "100% No-KYC Visa/Mastercard" without identity checks typically operate via unauthorized sub-bins or violate card scheme compliance)*
-- **Total Official Source Links**: 438 verified URLs
+- **Total Official Source Links**: 721 verified URLs
 
 ---
 

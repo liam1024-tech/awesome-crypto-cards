@@ -82,6 +82,31 @@ try {
     return cells.join('|');
   }).join('\n');
 
+  // The coverage summary is prose, so the per-row pass above never touched it and
+  // it kept advertising 124 profiles long after the catalogue passed 200. Rebuild
+  // it from the coverage snapshot that ships in the same commit, so the README
+  // cannot contradict its own data. The KYC lines mirror the site's coverage
+  // report: all four figures are counted among active (non-closed) profiles, and
+  // `not-applicable` is omitted because every such profile is closed.
+  const coverage = await readJson('ucard-coverage.json');
+  const counts = coverage.counts;
+  const methodology = [
+    `As of **${today}**:`,
+    `- **Total Brand Profiles**: ${counts.total}`,
+    `- **Active / Current Status**: ${counts.current}`,
+    `- **Discontinued / Closed Records**: ${counts.closed} *(Historical references preserved to warn users against inactive products like BitMart Card or Morph Black)*`,
+    `- **KYC Verification Breakdown** (active profiles):`,
+    `  - \`KYC Required\`: ${counts.kycRequired} brands`,
+    `  - \`Conditional / Issuer Discretion\`: ${counts.kycConditional} brands`,
+    `  - \`Not Stated in Public Documentation\`: ${counts.kycUnknown} brands`,
+    `  - \`Verified No-KYC Mainstream Active Cards\`: **${counts.noKycVerified}** *(Warning: Platforms claiming "100% No-KYC Visa/Mastercard" without identity checks typically operate via unauthorized sub-bins or violate card scheme compliance)*`,
+    `- **Total Official Source Links**: ${counts.officialSources} verified URLs`
+  ].join('\n');
+  readme = readme.replace(
+    /(## 🔬 Dataset Coverage & Methodology\n\n)[\s\S]*?(?=\n---)/,
+    `$1${methodology}\n`
+  );
+
   await writeFile(readmePath, readme, 'utf8');
   console.log(`README.md updated: ${count} cards, verified as of ${today}.`);
 } catch (err) {
