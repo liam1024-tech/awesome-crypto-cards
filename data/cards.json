@@ -17521,6 +17521,10 @@
         {
           "title": "The Paypers：SoFi Tech Solutions 与 Orbi 将在墨西哥推出加密链接卡（2026-10-13 核对）",
           "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/sofi-tech-solutions-and-orbi-to-launch-crypto-linked-card-in-mexico"
+        },
+        {
+          "title": "Orbi × SoFi Tech Solutions Mastercard 官方卡面素材核查",
+          "url": "https://orbi.finance/"
         }
       ],
       "facts": [
@@ -17581,9 +17585,13 @@
         ]
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://tech.sofi.com/news/sofi-tech-solutions-orbi-mastercard-launch-crypto-linked-card-mexico/"
+        "status": "official",
+        "path": "/card-art/orbi-sofi-mastercard.webp",
+        "file": "orbi-sofi-mastercard.webp",
+        "imageUrl": "https://orbi.finance/assets/card-control.webp",
+        "sourcePage": "https://orbi.finance/",
+        "version": "Orbi Mastercard 官方卡面（官网与 App Store 资产提取）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/orbi-sofi-mastercard/",
       "statusLabel": "版本待核"
@@ -25091,6 +25099,799 @@
         "sourcePage": "https://relopay.io"
       },
       "url": "https://ucard.observer/cards/relopay-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "invity-card",
+      "name": "Invity Card",
+      "aliases": "Invity Card Invity Trezor SatoshiLabs Visa Debit 比特币返现 捷克央行 MiCA 合规 自托管 Round-up",
+      "mark": "IN",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需持有欧盟/欧洲经济区（EEA）成员国合规居留证件或有效护照，完成捷克国家银行（ČNB）与欧盟 MiCA 框架下的反洗钱（AML/KYC）实名认证。",
+      "intro": "Invity Card（invity.io）是由全球传奇硬件冷钱包 Trezor 母公司 SatoshiLabs 旗下金融科技平台 Invity 推出的合规加密 Visa 借记卡。Invity 已获得捷克国家银行（ČNB）全面监管并在欧盟《加密资产市场法案》（MiCA）框架下合规运营，资产安全引入机构级托管商 BitGo 协同防护。持卡人可直接将欧元（EUR）或比特币（BTC）接入全球 Visa 商户网络消费，核心特色包括独创的「比特币零钱自动定投（Bitcoin Round-up）」功能（刷卡消费时将消费零钱四舍五入自动买入比特币），并在 2026-11-30 前满足每月定投门槛的先锋用户可锁定终身最高 1.5% 比特币消费返现。官方规划于 2027 年第一季度正式向 Apple Pay 与 Google Pay 移动钱包推送原生集成。",
+      "metaDescriptionEn": "Invity Card review: SatoshiLabs & Trezor-backed European Visa Debit Card regulated under EU MiCA by the Czech National Bank. Spend EUR/BTC with up to 1.5% lifetime Bitcoin cashback and Bitcoin Round-up.",
+      "model": "自托管冷钱包与受监管借记清算融合模型：Trezor Suite 原生资产交互，捷克央行监管下的法币与比特币即时清算网关",
+      "network": "Visa（实体 Visa 借记卡与 App 虚拟卡，官方规划 2027 Q1 全面适配 Apple Pay 与 Google Pay）",
+      "region": "捷克、德国、奥地利、法国等欧洲经济区（EEA）合规成员国居民",
+      "fee": "免月度账户维护费；欧元区境内消费免收交易手续费；外汇跨境兑换按 Visa 基准汇率结算；卡片制作与物流配送依选择标准收取。",
+      "rewards": "终身最高 1.5% 比特币（BTC）消费返现（需在 2026-11-30 前达成资格）；独家 Bitcoin Round-up 消费零钱自动滚存定投机制。",
+      "paymentCompatibility": {
+        "sourceName": "Invity Card",
+        "network": "Visa Debit",
+        "issuer": "SatoshiLabs / Invity Finance（捷克央行监管机构）与 Visa",
+        "region": "欧洲经济区（EEA）",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方已明确路线图，将于 2027 年第一季度（Q1 2027）正式推送支持 Apple Pay，支持 iPhone 与 Apple Watch 触碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方规划于 2027 年第一季度正式上线 Google Wallet 集成，兼容各类具备 NFC 的 Android 移动终端。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "欧洲标准合规商业银行 Visa 借记卡号段，支持 3D Secure 安全验证，稳定订阅 ChatGPT Plus、Claude Pro 等国际主流服务。"
+        }
+      },
+      "facts": [
+        [
+          "捷克央行 ČNB 与欧盟 MiCA 牌照严格监管",
+          "Invity Finance 是捷克首批在《加密资产市场法案》（MiCA）下获得完全合规监管资质的 CASP 机构，严格对齐欧盟一线反洗钱与资金托管标准。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Trezor / SatoshiLabs 自托管生态无缝协同",
+          "卡片深度融合 Trezor 硬件钱包与 Trezor Suite 生态，用户既可享受冷钱包自托管私钥的极致安全，又能在日常消费时一键调拨资金。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "独创 Bitcoin Round-up 零钱定投机制",
+          "引入类似传统微储蓄的 Round-up 机制，用户刷卡消费的零钱会自动凑整并兑换为比特币存入钱包，实现「日常花钱即存比特币」。",
+          [
+            0
+          ]
+        ],
+        [
+          "2026-11-30 前先锋用户终身 1.5% 返现",
+          "官方为首批上线用户推出先锋权益，在 2026 年 11 月 30 日前开通储蓄策略（每月投资达标）即可锁定终身最高 1.5% 比特币返还。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "硬件冷钱包巨头的现实支付闭环",
+          "SatoshiLabs 创造了世界上第一款硬件钱包 Trezor，而 Invity Card 则代表了其从单纯的资产存储向合规日常支付的重要跨越。通过捷克央行合规背书，持卡人无须将资产长期暴露在中心化交易所即可实现小额快捷出金。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "资费架构与移动支付上线时间表",
+          "卡片本身无月租费，但用户需注意目前移动端 Apple Pay 与 Google Pay 处于开发适配阶段，官方预定于 2027 年第一季度上线，现阶段实体卡刷卡与线上 3DS 支付已全面就绪。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Invity Card 必须配合 Trezor 硬件钱包使用吗？",
+          "Invity 移动应用与卡片可独立操作，但与 Trezor Suite 及硬件设备配合时能获得最佳的安全防护与自托管资产划转体验。"
+        ],
+        [
+          "如何获得终身 1.5% 的比特币返现？",
+          "用户需在 2026 年 11 月 30 日前通过 Invity 官方应用申请激活卡片，并满足每月定投（如月度储蓄策略达成）即可永久保留最高 1.5% BTC 返现资格。"
+        ],
+        [
+          "中国大陆居民可以申领 Invity Card 吗？",
+          "目前仅向欧洲经济区（EEA）合法居民开放，中国大陆护照若无欧洲长期居留或合法居留签证，无法通过 ČNB 的 AML 合规核验。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Invity 官方网站：Invity Visa Debit Card & Bitcoin Accumulation",
+          "url": "https://invity.io"
+        },
+        {
+          "title": "SatoshiLabs 官方新闻：Invity 获捷克国家银行（ČNB）MiCA 牌照合规资质",
+          "url": "https://satoshilabs.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://invity.io"
+      },
+      "url": "https://ucard.observer/cards/invity-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "codecoin-visa-card",
+      "name": "CodeCoin Visa Card",
+      "aliases": "CodeCoin Visa Card CodeCoin CUSD AIFC 哈萨克斯坦 曼谷世行年会 后量子加密 8%返现",
+      "mark": "CC",
+      "group": "独立钱包与支付卡",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "需提供有效国际护照与活体核验，通过哈萨克斯坦阿斯塔纳国际金融中心（AIFC）合规反洗钱及客户身份核验。",
+      "intro": "CodeCoin Visa Card（codecoinx.com）是由持牌数字资产机构 CodeCoin 在 2026 年 10 月 19 日泰国曼谷国际货币基金组织（IMF）与世界银行年会期间重磅发布的全球首款后量子加密 Visa 消费卡。CodeCoin 持有哈萨克斯坦阿斯塔纳国际金融中心（AIFC / AFSA）颁发的合规数字支付工具发行牌照，采用受监管的合规数字资产 CUSD 作为清算基准，率先将后量子密码学（Post-Quantum Cryptography）算法集成到底层资产防护与跨国支付结算链路中。卡片支持高达 8% 的阶梯消费返现，可在全球 Visa 商户即时承兑，并原生兼容 Apple Pay 与 Google Pay 触碰闪付。",
+      "metaDescriptionEn": "CodeCoin Visa Card review: World's first post-quantum encrypted Visa card licensed by AIFC, unveiled at IMF/World Bank Bangkok meetings. Settles in CUSD with up to 8% cashback.",
+      "model": "AIFC 持牌数字支付清算模型：合规稳定工具 CUSD 结算，集成后量子加密跨国防护与 Visa 实时通道",
+      "network": "Visa（虚拟卡与高防护实体卡，全面兼容 Apple Pay 与 Google Pay）",
+      "region": "中亚、东南亚及全球合规开放区域（AIFC 牌照监管覆盖范围）",
+      "fee": "免账户月度维护费；CUSD 充值与结算 0 摩擦费；非基准货币结算按 Visa 国际网络汇率与清算手续费执行。",
+      "rewards": "最高 8% 消费返现（根据资产配置与质押活跃等级阶梯累积）；享受后量子级别资产安全存储与跨境无缝支付。",
+      "paymentCompatibility": {
+        "sourceName": "CodeCoin Visa Card",
+        "network": "Visa",
+        "issuer": "CodeCoin 与 AIFC 持牌支付网络",
+        "region": "国际合规开放地区",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方发布确认原生支持 Apple Pay，支持一键推送到 iPhone 与 Apple Watch 钱包，在全球 POS 机上快速触碰支付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方原生兼容 Google Wallet，支持各类配备 NFC 功能的 Android 智能终端。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "正规 Visa 国际卡段，支持 3DS 安全校验，稳定扣缴 ChatGPT Plus、Claude Pro、Midjourney 等跨国数字服务账单。"
+        }
+      },
+      "facts": [
+        [
+          "AIFC 持牌合规机构与曼谷 IMF 年会发布",
+          "2026-10-19 在泰国曼谷举行的 IMF 与世界银行年会上正式公布，拥有哈萨克斯坦阿斯塔纳国际金融中心（AIFC / AFSA）数字支付工具牌照。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "全球首创后量子加密安全架构",
+          "将后量子密码学（PQC）抗量子计算破译算法引入资产托管与跨境清算协议中，防范未来量子计算机对传统非对称加密的潜在威胁。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "合规数字资产 CUSD 实时清算与高额返现",
+          "依托合规基准稳定工具 CUSD 进行 1:1 计价清算，消费返现比例最高可达 8%，并全面打通全球 Visa 消费网络。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "后量子时代的安全金融支付探索",
+          "随着量子计算技术的加速演进，传统基于 RSA / ECC 的金融密码体系面临长期挑战。CodeCoin Visa 卡首次将抗量子加密落地在消费者支付卡端，具有重要的前沿风向标意义。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "CUSD 稳定工具与多币种消费适用性",
+          "CUSD 作为受 AIFC 监管的数字支付工具，既规避了非合规代币剧烈波动的风险，又保留了链上资金的高流动性，适合注重长期资产安全的科技从业者与跨国商务人士。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "什么是后量子加密（Post-Quantum Cryptography）？",
+          "指能够抵御已知量子计算机攻击的新一代加密数学算法，CodeCoin 将其用于交易签名和多重身份核验，保障资产在未来十年以上的抗破译性。"
+        ],
+        [
+          "CodeCoin Visa Card 可以在哪些商户刷卡？",
+          "可在全球超过 1.5 亿家支持 Visa 支付的线上商户与线下实体 POS 机上刷卡结账，支持免密触碰闪付与 ATM 取现。"
+        ],
+        [
+          "最高 8% 的返现是如何领取的？",
+          "返现以 CUSD 或等值资产直接存入 CodeCoin 钱包账户，返现比例由账户内 CUSD 持仓规模和月度消费等级共同决定。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "CodeCoin 官方网站：Quantum-Encrypted Visa Card & CUSD",
+          "url": "https://www.codecoinx.com"
+        },
+        {
+          "title": "GlobeNewswire：CodeCoin 于 2026 IMF/世行年会发布首款量子加密 Visa 卡",
+          "url": "https://www.globenewswire.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.codecoinx.com"
+      },
+      "url": "https://ucard.observer/cards/codecoin-visa-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "okx-credit-card-us",
+      "name": "OKX Credit Card",
+      "aliases": "OKX Credit Card OKX US WebBank Utah Paxos USDG 信用卡 美区 0年费 10%返现 候补名单",
+      "mark": "OK",
+      "group": "交易所卡",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "需持有美国合法身份证明（SSN 或 ITIN）、美国真实居住地址，通过美国联邦银行合规 CIP/KYC 审核与资信核验。",
+      "intro": "OKX Credit Card（okx.com/en-us）是由全球领先交易所 OKX 携手美国知名工业银行 WebBank（犹他州盐湖城持牌银行）面向美国市场重磅推出的合规加密信用卡。不同于欧洲区发行的 OKX Mastercard 借记卡，该产品采用正规循环信用额度机制，享有 0 美元年费（$0 Annual Fee），并深度整合了由合规信托机构 Paxos 发行的合规美元稳定币 USDG（Global Dollar）。持卡人可享受高达 2%–10% 的 USDG 消费返现，并可在 App 内开启自动还款功能，直接使用生息的 USDG 余额冲抵信用卡账单，在享受高额消费奖励的同时实现闲置资金的全天候收益。目前该卡已正式开放美国全境排队候补名单（Waitlist）。",
+      "metaDescriptionEn": "OKX Credit Card review: US crypto credit card issued by WebBank (Utah). $0 annual fee, 2%–10% USDG cashback, auto-repayment from Paxos USDG. US waitlist now open.",
+      "model": "美国联邦工业银行信贷清算架构：WebBank 提供授信借贷支持，OKX Pay 账户内 Paxos USDG 稳定币自动清偿账单",
+      "network": "Visa / Mastercard（正规美国循环信用卡，支持 Apple Pay 与 Google Pay 闪付）",
+      "region": "美国（US 开放州居民，目前处于官方 Waitlist 排队开放阶段）",
+      "fee": "0 年费（$0 Annual Fee）；美国境内常规刷卡 0 手续费；逾期还款及境外外币刷卡费率遵循 WebBank 信用卡公开条款。",
+      "rewards": "2% 至 10% USDG 稳定币消费返现（依 OKX Pay 资产层级与消费类别浮动）；存入 OKX Pay 的闲置 USDG 可享稳健年化收益。",
+      "paymentCompatibility": {
+        "sourceName": "OKX Credit Card",
+        "network": "Visa / Mastercard",
+        "issuer": "WebBank（犹他州盐湖城持牌银行）与 OKX",
+        "region": "美国（US）",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方确认原生支持 Apple Pay，可在下卡后一键推送至 iPhone 与 Apple Watch 钱包，畅享全美无接触快速闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方原生支持 Google Wallet，兼容所有具备 NFC 功能的 Android 手机与智能可穿戴设备。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "美国顶级本土银行循环信用卡号段（Prime BIN），100% 顺畅开通 OpenAI ChatGPT Plus、Claude Pro、Midjourney、AWS 及全美各类严苛订阅。"
+        }
+      },
+      "facts": [
+        [
+          "美国 WebBank 犹他州持牌发卡与 0 年费",
+          "发卡行为美国老牌工业银行 WebBank（亦为 Gemini Credit Card 的发卡行），合规信用资质过硬，全系免收年费与基础月费。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Paxos USDG 深度赋能与 2%–10% 返现",
+          "奖励由 Paxos 发行并受监管机构认可的合规稳定币 USDG（Global Dollar）结算发放，返现比例高达 2%–10%，打通稳定币生息与消费生态。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "USDG 自动还款与独立于欧洲借记卡",
+          "支持将 OKX 账户内存放的 USDG 设定为月度自动还款来源，资金在还款日前可持续生息；注意该产品为美国独占信用卡，与欧洲 EEA 借记卡为完全独立的银行产品线。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "美式合规信贷与 Web3 稳定币的深度共鸣",
+          "OKX 与 WebBank 的合作是继 Coinbase、Gemini 之后美国加密信贷领域的又一里程碑。通过引入 Paxos USDG 稳定币作为底层返现与清偿标的，彻底改变了传统信用卡刷卡奖励易受代币行情大幅波动的弊端。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "申请门槛与候补名单说明",
+          "目前卡片面向美国本土合规居民开放 Waitlist 登记。用户需完成符合美国银行保密法（BSA）的实名核验（包含 SSN），建议有美区真实信用记录的用户尽早登记排队。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "OKX Credit Card 与欧洲 OKX Card 有何区别？",
+          "欧洲版为借记卡（Debit Card），消费时直接划扣代币转换为欧元；美国版为 WebBank 签发的正规循环信用卡（Credit Card），先消费后以 USDG 或美元还款。"
+        ],
+        [
+          "什么是 USDG？它安全吗？",
+          "USDG（Global Dollar）是由纽约受监管金融机构 Paxos 发行的美元合规稳定币，拥有 100% 美元现金及短期美债储备，具备机构级安全与合规透明度。"
+        ],
+        [
+          "非美国居民或中国大陆用户可以申请吗？",
+          "不可以。该信用卡严格受美国银行与金融法规监管，必须具备美国有效 SSN/ITIN 以及本地常住地址证明。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "OKX 官方网站：OKX Credit Card & Paxos USDG 奖励计划",
+          "url": "https://www.okx.com"
+        },
+        {
+          "title": "Doctor of Credit：OKX 携手 WebBank 开放美国加密信用卡候补名单",
+          "url": "https://www.doctorofcredit.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://www.okx.com"
+      },
+      "url": "https://ucard.observer/cards/okx-credit-card-us/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "geegpay-card",
+      "name": "Geegpay USD Virtual Card",
+      "aliases": "Geegpay USD Virtual Card Geegpay Raenest 虚拟 Visa 卡 Apple Pay 20000美元日限额 0充值费",
+      "mark": "GG",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需提交有效国际护照或合法身份证件进行在线实名认证；额度与单日消费上限依 Level 1 至 Level 5 认证层级动态晋升。",
+      "intro": "Geegpay USD Virtual Card（geegpay.biz / raenest.com）是由跨境金融服务平台 Raenest 推出的美元虚拟 Visa 借记卡，专注于为全球自由职业者、远程办公人员及跨国数字游民提供零摩擦外币出海消费体验。卡片全面打通链上稳定币与传统法币账户，支持直接通过区块链存入原生 USDC 与 USDT 并在多币种账户间无缝调拨。其最大的创新在于采用「直接余额扣款机制」实现 0% 充值手续费（免除了繁琐的充卡中转步骤），免月度账户维护费，一次性开卡费仅 3 美元。卡片原生支持 Apple Pay 与 Google Pay 触碰闪付，并在最高合规等级下支持每日最高 20,000 美元（每月 60,000 美元）的高额度消费，是订阅海外 AI 服务与跨境采购的顶级利器。",
+      "metaDescriptionEn": "Geegpay USD Virtual Card review: Raenest-powered Visa virtual card with Apple Pay & Google Pay. Direct USDC/USDT funding, zero top-up fee, and up to $20,000 daily limit.",
+      "model": "全球多币种合规账户直扣模型：由 Raenest 提供外汇资金架构，支持链上原生稳定币直存与 Visa 国际虚拟借记网络清算",
+      "network": "Visa（虚拟借记卡，官方原生支持 Apple Pay 与 Google Pay）",
+      "region": "全球合规开放市场（覆盖非洲、拉美、东南亚及主要离岸自由职业国家，排除受国际制裁地区）",
+      "fee": "一次性开卡费 $3.00；无月费与年费（$0/月）；账户直接扣款免充值手续费（0% Funding Fee）；每笔交易收取 $0.70 处理费；非美商户跨境交易费约 2% + $0.40。",
+      "rewards": "直接从多币种余额扣款无资金锁死，零充值手续费，高达 $20,000/天的消费额度，全面支持 Apple Pay 实体 POS 闪付。",
+      "paymentCompatibility": {
+        "sourceName": "Geegpay USD Virtual Card",
+        "network": "Visa",
+        "issuer": "Raenest 与 Visa 合作发卡网络",
+        "region": "全球合规地区",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方原生支持 Apple Pay，虚拟卡生成后可一键推送至 iPhone / Apple Watch 钱包，在海外所有 Visa 触碰终端感应支付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方原生兼容 Google Wallet，支持各类配备 NFC 功能的 Android 智能手机与手表。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "高信用评级美国/国际 Visa 借记卡号段，支持 3DS 安全校验，实测秒级开通并稳定续费 OpenAI ChatGPT Plus、Claude Pro、Midjourney、AWS 与 Google Cloud。"
+        }
+      },
+      "facts": [
+        [
+          "超高消费额度最高可达每日 20,000 美元",
+          "平台根据用户认证级别（KYC Level 1–5）提供阶梯限额，完成最高级别核验的用户每日消费额度高达 $20,000 美元，月限额达 $60,000 美元。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "直接余额划扣与 0% 充值手续费",
+          "颠覆传统预付卡需要单独「充卡」的繁琐流程，卡片直接连接 Raenest 钱包核心余额，随刷随扣，充值费率为 0%。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "链上稳定币 USDC/USDT 直充入金",
+          "除了支持跨国 ACH/Wire/SEPA 电汇入金外，还原生支持链上直接存入 USDC 与 USDT，几分钟内即可将加密资产转换为可刷卡的美元余额。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "跨境远程开发者与自由职业者的首选",
+          "Geegpay / Raenest 针对跨国自由职业者和数字创作者痛点设计，不仅解决了离岸资金收款难题，更通过 Visa 虚拟卡赋予用户直连全球消费网络的能力，支持绑定 Apple Pay 极大拓宽了实体线下消费场景。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "透明资费与使用注意事项",
+          "卡片无月租费，但单笔成功交易收取 $0.70 固定处理费，若在非美国或特定币种商户刷卡会有 2% 跨境处理费。建议持卡人尽量用于美元商户或集中大额消费以摊薄固定单笔费率。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Geegpay 虚拟卡可以添加进 Apple Pay 吗？",
+          "可以。官方虚拟 Visa 卡完整支持 Apple Pay 和 Google Pay，直接在手机钱包中添加后可在支持 NFC 的 POS 机上碰一碰结账。"
+        ],
+        [
+          "如何提升 Geegpay 卡片的每日消费额度？",
+          "额度随账户 KYC 等级提升：Level 1 单日 $7,000；Level 3 单日 $12,000；最高 Level 5 单日可达 $20,000（每月最高 $60,000）。"
+        ],
+        [
+          "账户内直接存放加密资产会被冻结吗？",
+          "Geegpay / Raenest 遵循正规国际反洗钱合规准则，只要资金来源于合规链上钱包或正当自由职业报酬并完成真实 KYC，资产受到合法合规保护。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Raenest 官方网站：Geegpay USD Virtual Card & Apple Pay 支付指南",
+          "url": "https://raenest.com"
+        },
+        {
+          "title": "Geegpay 帮助中心：卡片资费明细、限额等级与交易处理规则",
+          "url": "https://support.raenest.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://raenest.com"
+      },
+      "url": "https://ucard.observer/cards/geegpay-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "grey-card",
+      "name": "Grey Virtual Card",
+      "aliases": "Grey Virtual Card Grey Finance 虚拟卡 Visa Mastercard USD Apple Pay 4美元 0月费 USDC",
+      "mark": "GR",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需提供海外合规身份证件或有效护照并完成活体核验，支持全球多数新兴市场与跨国自由职业者注册。",
+      "intro": "Grey Virtual Card（grey.co）是由专注于全球新兴市场跨境金融服务的 Grey Finance 推出的美元虚拟支付卡，提供 Visa 与 Mastercard 双网络选择。平台将多币种海外银行账户（USD/EUR/GBP）与虚拟发卡深度打通，持卡人可直接通过 USDC 稳定币存入美元账户，享受秒级入金即刻消费的流畅体验。其 Visa 虚拟卡原生支持 Apple Pay 与 Google Pay 碰一碰闪付，开卡费仅需 4–5 美元，全系享有 0 美元月度管理费（$0 Monthly Fee）。由于具备优质的美国商业银行清算卡段，Grey 虚拟卡在 OpenAI ChatGPT Plus、Claude Pro、Midjourney、Netflix 及各类跨国在线支付场景中具备极高的扣款成功率。",
+      "metaDescriptionEn": "Grey Virtual Card review: Multi-currency USD virtual Visa & Mastercard by Grey Finance. $4 creation fee, $0 monthly fee, Apple Pay supported, direct USDC deposits.",
+      "model": "跨境多币种银行账户与双网络发卡架构：USD/EUR/GBP 综合法币钱包，USDC 稳定币直充与 Visa/Mastercard 实时清算",
+      "network": "Visa & Mastercard（双网络虚拟卡：Visa 原生支持 Apple Pay，Mastercard 覆盖广泛线上商户）",
+      "region": "全球合规开放国家（拉美、非洲、东南亚及欧洲合规地区，受支持国家用户均可开通）",
+      "fee": "开卡工本费约 $4.00–$5.00（Mastercard 4 美元，Visa 5 美元）；0 月租与维护费（$0/月）；美元同币种消费 0% 交易费；非美元跨境交易收约 2% 结算费用。",
+      "rewards": "直接支持链上 USDC 存入，0 月费轻负担，Visa 虚拟卡全面支持 Apple Pay 实体店碰一碰闪付。",
+      "paymentCompatibility": {
+        "sourceName": "Grey Virtual Card",
+        "network": "Visa / Mastercard",
+        "issuer": "Grey Finance 及其持牌银行合作伙伴",
+        "region": "全球合规地区",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方 Visa 虚拟卡原生支持 Apple Pay，一键绑定 iPhone 与 Apple Watch 钱包即可在线下实体 POS 机触碰付款；Mastercard 虚拟卡暂未开放该功能。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "Visa 虚拟卡原生支持 Google Wallet，兼容各类具备 NFC 的 Android 设备。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "纯正美元卡段与完善的 3D Secure 认证支持，100% 顺畅订阅 OpenAI ChatGPT Plus、Claude Pro、Midjourney、GitHub 及海外流媒体。"
+        }
+      },
+      "facts": [
+        [
+          "Visa 与 Mastercard 双网络通道可选",
+          "Grey 贴心地提供了两种网络卡片：Visa 虚拟卡主打移动钱包（支持 Apple Pay / Google Pay），Mastercard 虚拟卡主打低开卡费（仅需 4 美元），满足不同用户诉求。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "链上 USDC 直接充值入金",
+          "用户可以直接从链上钱包转账 USDC 存入 Grey 美元账户，资金即时到账并可立即划转至虚拟卡内消费，规避了传统电汇入金的高昂手续费。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "0 月费与极低开卡持有成本",
+          "卡片没有任何月费、年费或账户闲置费，只需一次性支付 $4–$5 美元开卡费用即可长期持有，特别适合用来绑定日常固定订阅服务。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "新兴市场跨境从业人员的数字收付枢纽",
+          "Grey Finance 在全球自由职业者群体中口碑卓著，不仅提供专属的欧美本地银行账号接收薪酬，其虚拟卡更是打通了最后一公里的消费承兑，彻底消除了地域金融歧视带来的支付阻碍。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "版本选型建议与费用核对",
+          "需要在线下商超或出境旅游使用手机闪付的用户，务必选择开通「Visa」虚拟卡；若仅用于线上软件订阅，Mastercard 虚拟卡开卡费仅需 4 美元，性价比极高。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Grey 虚拟卡如何绑定 Apple Pay？",
+          "开通 Grey Visa 虚拟卡后，在 Grey App 内复制卡号、有效期与 CVV，打开 iPhone「钱包」App 点击右上角「+」输入卡片信息完成验证即可。"
+        ],
+        [
+          "Grey 支持哪些币种充值？",
+          "支持存入 USDC 加密稳定币，亦支持通过本地银行转账或欧美 ACH / Wire / SEPA 存入 USD、EUR、GBP 等法定货币。"
+        ],
+        [
+          "Grey 虚拟卡可以修改账单地址吗？",
+          "卡片配置了正规的美国商业账单地址，在订阅 OpenAI 或海外云服务时，建议填入 App 内给出的对应账单地址以确保 AVS 验证通过。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Grey 官方网站：Multi-Currency Virtual Cards for Global Citizens",
+          "url": "https://grey.co"
+        },
+        {
+          "title": "Grey 知识库：Visa 与 Mastercard 虚拟卡功能对比、资费与 Apple Pay 指南",
+          "url": "https://support.grey.co"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://grey.co"
+      },
+      "url": "https://ucard.observer/cards/grey-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "lemon-card-argentina",
+      "name": "Lemon Card Visa Prepaga",
+      "aliases": "Lemon Card Lemon Cash Argentina 阿根廷 Visa Prepaga 预付卡 2%比特币返现 0开卡费 200万用户",
+      "mark": "LM",
+      "group": "交易所卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需持有阿根廷合规国家身份证（DNI）或合法纳税识别号（CUIT/CUIL），在 Lemon App 内完成实名生物人脸比对。",
+      "intro": "Lemon Card Visa Prepaga（lemon.me）是阿根廷现象级 Web3 加密钱包 Lemon Cash 发行的官方国际 Visa 预付借记卡，在阿根廷及拉美地区拥有超过 200 万活跃持卡人。卡片提供即时生成的虚拟卡与做工精美的物理实体卡双重形态，完全免收开卡工本费与账户月度维护费（$0 费用）。其最引人瞩目的核心功能是「2% 比特币消费返现（2% Bitcoin Cashback）」——当持卡人选择使用钱包内的加密资产（如 USDT、USDC、BTC、ETH）支付时，每笔消费将自动兑付法币并即时返还高达 2% 的真比特币存入个人资产账户。卡片全面支持 Apple Pay 与 Google Wallet，并无缝兼容阿根廷境内的 interoperable QR 聚合扫码支付，是拉美加密货币融入日常生活消费的标杆典范。",
+      "metaDescriptionEn": "Lemon Card Argentina review: Flagship Visa prepaid card by Lemon Cash with 2M+ users. 2% Bitcoin cashback on crypto spend, $0 issuance, $0 monthly fee, Apple Pay supported.",
+      "model": "拉美合规交易所即时清算模型：支持比索（ARS）与加密资产自由切换，消费时自动秒级撮合兑付并通过 Visa 国际网络清算",
+      "network": "Visa（国际预付卡 Tarjeta Prepaga Internacional Visa，物理实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
+      "region": "阿根廷（Argentina）合规居民及拉美持牌开放市场",
+      "fee": "免发卡费与开卡费（$0）；免月度维护费与年费（$0）；阿根廷本地刷卡消费 0% 交易费；加密货币消费包含实时市价转换汇率点差。",
+      "rewards": "加密货币消费享受高达 2% 的比特币（BTC）即时返现；支持 Lemon Earn 账户余额闲置生息；支持全拉美与全球 Visa 商户。",
+      "paymentCompatibility": {
+        "sourceName": "Lemon Card Visa Prepaga",
+        "network": "Visa",
+        "issuer": "Lemon Cash（阿根廷国家合规虚拟资产服务商）与 Visa",
+        "region": "阿根廷（Argentina）",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持 Apple Pay，阿根廷持卡人可在 Lemon App 中将虚拟卡或实体卡一键推送至 Apple 钱包，在线下 POS 终端碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方原生兼容 Google Wallet，支持各类具备 NFC 功能的 Android 智能移动设备。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "国际 Visa 预付卡段，支持 3DS 认证，稳定扣缴 ChatGPT Plus、Claude Pro、Spotify、Netflix 等跨国数字订阅。"
+        }
+      },
+      "facts": [
+        [
+          "阿根廷加密支付龙头与 200 万+ 用户体量",
+          "Lemon Cash 是阿根廷普及率最高的合规 Web3 平台之一，持卡人规模突破 200 万，在阿根廷日常商超、咖啡馆与出行中随处可见。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "加密资产消费享最高 2% 比特币返现",
+          "持卡人可自由设置扣款偏好，当选择直接扣除 USDT/USDC 等数字资产结账时，系统自动将最高 2% 的消费额以比特币形式返还至用户账户。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "完全免费的卡片发行与零月费承诺",
+          "虚拟卡开通立等可用，物理实体卡申领与寄送完全免费，无任何隐形月租或年费，极大降低了大众使用加密支付的门槛。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "抗击拉美本地高通胀的消费生活方式",
+          "在阿根廷高通胀经济背景下，Lemon Card 允许用户将工资即刻转换为美元稳定币（USDT/USDC）保值，仅在消费结账瞬间按需兑换比索，同时持续累积比特币资产，构建了完美的通胀对冲消费闭环。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "本地合规准入与境外用户限制",
+          "Lemon 受到阿根廷国家证券委员会（CNV）与金融信息部门（UIF）的严格监管，申请必须绑定阿根廷本地 DNI 身份信息，暂不面向无阿根廷居留凭证的纯境外用户开放。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Lemon Card 是信用卡还是借记卡？",
+          "Lemon Card 在法律与清算网络上属于 Visa 国际预付借记卡（Tarjeta Prepaga Internacional），不能透支，消费金额直接从钱包可用余额中扣除。"
+        ],
+        [
+          "比特币返现是如何发放的？有上限吗？",
+          "返现按笔即时计入用户的 Lemon 比特币钱包；根据官方最新条款，每月设有合理的返现上限额度，可在 App「Beneficios」中随时查看。"
+        ],
+        [
+          "可以用 Lemon Card 支付海外美元账单吗？",
+          "可以。Lemon Card 是全球通用的国际 Visa 卡，支持线上跨国交易与海外商户结算，结算时按阿根廷外汇与税务法规计算相应汇率。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Lemon 官方网站：Lemon Card Visa Prepaga Internacional",
+          "url": "https://lemon.me"
+        },
+        {
+          "title": "Lemon 官方条款：Tarjeta Prepaga 资费标准与 2% 比特币返现规则",
+          "url": "https://help.lemon.me"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://lemon.me"
+      },
+      "url": "https://ucard.observer/cards/lemon-card-argentina/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-20",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
+      "id": "ripio-card-argentina",
+      "name": "Ripio Card Argentina",
+      "aliases": "Ripio Card Ripio Card Argentina Visa Prepaga 预付卡 3%返现 USDT BTC ETH 0维护费",
+      "mark": "RP",
+      "group": "交易所卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "需持有阿根廷合规国家身份证（DNI）或巴西居民税号（CPF），完成 Ripio 平台合规 KYC/AML 身份与人脸活体认证。",
+      "intro": "Ripio Card Argentina（ripio.com）是拉丁美洲历史最悠久的合规加密资产先驱企业 Ripio 携手 Visa 推出的旗舰预付借记卡。作为拉美 Web3 基础设施的领跑者，Ripio 在阿根廷及巴西受到多项金融合规监管。该卡片提供即时虚拟卡与高品质实体卡双重形态，拥有 0 发行费、0 寄送费及 0 月度账户维护费（$0 Cost）的亲民资费结构。其核心优势在于极其灵活的「多币种加密消费返现机制」——持卡人使用加密货币（USDT、BTC、ETH 等）结算消费时，可享受高达 2%–3% 的消费返现，且用户可自由选择返现资产类别（如直接返还 USDT、BTC 或 ETH）。卡片全面兼容 Apple Pay 与 Google Wallet 触碰闪付，为拉美用户搭建了安全合规的链上资产日常消费桥梁。",
+      "metaDescriptionEn": "Ripio Card Argentina review: Flagship Visa prepaid card by Latin America's pioneer Ripio. 2%–3% crypto cashback in USDT/BTC/ETH, $0 maintenance, Apple Pay & Google Pay.",
+      "model": "拉美先驱合规加密生态清算架构：支持法币比索与主流公链加密代币即时清算，经 Visa 全球支付网络承兑",
+      "network": "Visa（国际预付借记卡 Tarjeta Prepaga Visa Internacional，支持物理实体卡与虚拟卡，适配 Apple Pay 与 Google Wallet）",
+      "region": "阿根廷（Argentina）及巴西等拉美合规开放市场居民",
+      "fee": "免发卡工本费；免实体卡配送费；免月维护费与年费（$0/月）；本地法币刷卡免手续费；加密资产结账按实时清算汇率扣划。",
+      "rewards": "加密资产消费享受 2%–3% 返现（可在 App 内自由指定返还 USDT、BTC 或 ETH）；支持 Ripio Earn 资产理财生息。",
+      "paymentCompatibility": {
+        "sourceName": "Ripio Card Argentina",
+        "network": "Visa",
+        "issuer": "Ripio（拉美持牌合规加密金融集团）与 Visa",
+        "region": "阿根廷（Argentina）及巴西",
+        "researchDate": "2026-10-20",
+        "applePay": {
+          "status": "official",
+          "detail": "官方原生支持 Apple Pay，阿根廷与巴西合规持卡人可在 Ripio App 中一键将卡片添加至 Apple 钱包，在线下实体店感应闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方支持 Google Wallet，兼容各类具备 NFC 功能的 Android 智能终端。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "国际 Visa 预付卡段，支持 3DS 校验，实测可顺畅绑定与扣费 ChatGPT Plus、Claude Pro、Midjourney、Steam 及海外线上商户。"
+        }
+      },
+      "facts": [
+        [
+          "拉美十余年合规老牌巨头背书",
+          "Ripio 创立于 2013 年，是拉美最早且最知名的区块链金融机构之一，拥有完备的阿根廷 CNV 虚拟资产服务商（VASP）资质与多国牌照。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "自选币种高额返现（USDT / BTC / ETH）",
+          "区别于大多数仅返还单一资产的卡片，Ripio 允许用户在 App 内自定义返现币种，刷卡消费可自由选择获得稳定的 USDT 还是高弹性的 BTC / ETH，最高返现达 3%。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "0 门槛发卡与实体卡免邮寄送",
+          "官方提供免开卡费、免年费与免月度维护费的「三免」政策，虚拟卡几秒生成，实体卡免费配送上门，极大降低了用户进入门槛。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "多币种自由配置的 Web3 消费利器",
+          "Ripio Card 赋予了用户极大的资产自主权。用户不仅可以在 App 内根据汇率波动灵活选择扣款账户（比索或加密资产），还能自主决定将消费返现投入何种代币，兼顾抗通胀与长期资产积累。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "合规要求与阿根廷居民身份审核",
+          "该卡片严格遵循拉美本地金融反洗钱与外汇合规要求，申卡人需提供阿根廷国家身份证（DNI）或对应支持国家税务证明，非居民暂无法直接申请。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Ripio Card 的返现币种可以随时修改吗？",
+          "可以。用户可在 Ripio App 的卡片设置界面随时切换返现偏好，选择将返现即时结算为 USDT、BTC 或 ETH。"
+        ],
+        [
+          "Ripio 实体卡如何在境外取现？",
+          "激活实体卡并设置 PIN 码后，可在全球任何贴有 Visa 标识的 ATM 机具上提取当地法定货币，取现限额可在 App 内自行调节。"
+        ],
+        [
+          "用 Ripio Card 支付比索需要扣税吗？",
+          "在阿根廷境内刷卡消费时，遵循阿根廷现行法币交易税费政策；若扣划加密货币，系统会在结算明细中清晰展示折算比率与法币账面金额。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Ripio 官方网站：Ripio Card Visa Prepaga Internacional",
+          "url": "https://ripio.com"
+        },
+        {
+          "title": "Ripio 官方帮助中心：Tarjeta Ripio 申领指引、返现机制与资费说明",
+          "url": "https://help.ripio.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://ripio.com"
+      },
+      "url": "https://ucard.observer/cards/ripio-card-argentina/",
       "statusLabel": "地区受限 · 资格需核实"
     },
     {

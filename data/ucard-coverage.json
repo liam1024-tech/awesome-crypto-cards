@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 198,
-    "current": 185,
-    "kycRequired": 166,
+    "total": 205,
+    "current": 192,
+    "kycRequired": 173,
     "kycConditional": 9,
     "kycUnknown": 10,
     "noKycVerified": 0,
     "closed": 13,
-    "officialSources": 706
+    "officialSources": 721
   },
   "rows": [
     {
@@ -1407,7 +1407,7 @@
       "kycLabel": "需要 KYC",
       "status": "review",
       "statusLabel": "版本待核",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/orbi-sofi-mastercard/"
     },
@@ -2125,6 +2125,83 @@
       "sourceCount": 2,
       "verified": "2026-10-19",
       "profileUrl": "https://ucard.observer/cards/relopay-card/"
+    },
+    {
+      "id": "invity-card",
+      "name": "Invity Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/invity-card/"
+    },
+    {
+      "id": "codecoin-visa-card",
+      "name": "CodeCoin Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/codecoin-visa-card/"
+    },
+    {
+      "id": "okx-credit-card-us",
+      "name": "OKX Credit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/okx-credit-card-us/"
+    },
+    {
+      "id": "geegpay-card",
+      "name": "Geegpay USD Virtual Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/geegpay-card/"
+    },
+    {
+      "id": "grey-card",
+      "name": "Grey Virtual Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/grey-card/"
+    },
+    {
+      "id": "lemon-card-argentina",
+      "name": "Lemon Card Visa Prepaga",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/lemon-card-argentina/"
+    },
+    {
+      "id": "ripio-card-argentina",
+      "name": "Ripio Card Argentina",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-10-20",
+      "profileUrl": "https://ucard.observer/cards/ripio-card-argentina/"
     },
     {
       "id": "kazepay-card",
