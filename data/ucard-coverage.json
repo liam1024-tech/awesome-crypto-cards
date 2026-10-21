@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 205,
-    "current": 192,
-    "kycRequired": 173,
+    "total": 210,
+    "current": 197,
+    "kycRequired": 178,
     "kycConditional": 9,
     "kycUnknown": 10,
     "noKycVerified": 0,
     "closed": 13,
-    "officialSources": 721
+    "officialSources": 744
   },
   "rows": [
     {
@@ -110,7 +110,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-09-27",
+      "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/nexo/"
     },
     {
@@ -869,7 +869,7 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 3,
-      "verified": "2026-10-13",
+      "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/solflare-card/"
     },
     {
@@ -1474,7 +1474,7 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 3,
-      "verified": "2026-10-14",
+      "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/wildcard-yeka/"
     },
     {
@@ -1705,7 +1705,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-10-15",
+      "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/imtoken-card/"
     },
     {
@@ -1737,7 +1737,7 @@
       "kycLabel": "需要 KYC",
       "status": "closed",
       "statusLabel": "已停服 · 历史档案",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "verified": "2026-10-15",
       "profileUrl": "https://ucard.observer/cards/cardano-card-archive/"
     },
@@ -1891,7 +1891,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-18",
       "profileUrl": "https://ucard.observer/cards/spritz-card/"
     },
@@ -1914,7 +1914,7 @@
       "status": "review",
       "statusLabel": "版本待核",
       "sourceCount": 3,
-      "verified": "2026-10-18",
+      "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/trustxpay-txp/"
     },
     {
@@ -1991,7 +1991,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 2,
-      "verified": "2026-10-19",
+      "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/tap-global-card/"
     },
     {
@@ -2133,7 +2133,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/invity-card/"
     },
@@ -2166,7 +2166,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/geegpay-card/"
     },
@@ -2202,6 +2202,61 @@
       "sourceCount": 2,
       "verified": "2026-10-20",
       "profileUrl": "https://ucard.observer/cards/ripio-card-argentina/"
+    },
+    {
+      "id": "rain-spend",
+      "name": "Rain Spend Corporate Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 4,
+      "verified": "2026-10-21",
+      "profileUrl": "https://ucard.observer/cards/rain-spend/"
+    },
+    {
+      "id": "gate-money-card",
+      "name": "Gate Money Visa Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 3,
+      "verified": "2026-10-21",
+      "profileUrl": "https://ucard.observer/cards/gate-money-card/"
+    },
+    {
+      "id": "benpay-card",
+      "name": "BenPay Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "beta",
+      "statusLabel": "公开测试 · 地区受限",
+      "sourceCount": 4,
+      "verified": "2026-10-21",
+      "profileUrl": "https://ucard.observer/cards/benpay-card/"
+    },
+    {
+      "id": "cardex-card",
+      "name": "Cardex Crypto Debit Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 4,
+      "verified": "2026-10-21",
+      "profileUrl": "https://ucard.observer/cards/cardex-card/"
+    },
+    {
+      "id": "wanttopay-card",
+      "name": "Wanttopay Virtual Card",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 4,
+      "verified": "2026-10-21",
+      "profileUrl": "https://ucard.observer/cards/wanttopay-card/"
     },
     {
       "id": "kazepay-card",

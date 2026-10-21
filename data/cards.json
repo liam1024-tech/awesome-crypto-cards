@@ -177,6 +177,14 @@
         [
           "ether.fi Cash 刷卡返现可以直接消费或提现吗？",
           "不能立即使用。返现折算为 ETHFI 发放，交易清算后强制锁定 7 天，且累计满 5 美元等值才可手动领取，实际价值随 ETHFI 市价变动。"
+        ],
+        [
+          "ether.fi Cash 的 Direct Pay 扣款与 Borrow 借贷模式底层机制有什么区别？",
+          "两者代表了完全不同的资金清算逻辑：Direct Pay（直接支付）在刷卡授权瞬间直接划扣用户智能账户内的可用清算余额（如 USDC 或活期现金金库）；而 Borrow Mode（借款模式）则将用户质押的流动性质押代币（如 eETH、weETH）作为底层信用保证金，在刷卡时不卖出任何质押资产，而是由协议系统以抵押借贷形式按需垫付法币清算款项。在借款模式下，用户的底层 eETH 继续享有完整的以太坊 PoS 质押收益（约 3%–4% APY）与积分空投，账单周期结束时可通过后续存入的 USDC 或质押收益偿付还款，兼顾了日常开销与核心牛市资产零清算。"
+        ],
+        [
+          "ether.fi Cash 刷卡返现的 ETHFI 奖励为什么有 7 天锁定期且不能即时提现？",
+          "根据官方风控与清算规则，刷卡消费产生的 ETHFI 返现奖励在 Visa 交易清算入账后需经历 7 天的法定等待解锁期（Vesting Period）。设立该机制的核心目的是防范洗售交易与恶意拒付套利（防止用户发起大额刷卡、即时提走返现代币后立即向商户发起退款或争议纠纷）。在 7 天锁定期届满且累计返现金额达到最低提领门槛（5 美元等值）后，持卡人方可手动将 ETHFI 提领至 Base 或 Scroll 链上个人钱包自由交易。"
         ]
       ],
       "sources": [
@@ -941,7 +949,7 @@
         ],
         [
           "微信与支付宝境内消费摩擦（200元门槛）",
-          "实测绑定微信支付与支付宝消费时，单笔金额 ≤200 元人民币免收平台外卡通道费，仅产生 RedotPay 自身约 1.2% FX 换汇摩擦；单笔 >200 元人民币时，微信/支付宝额外收取 3% 国际卡手续费，综合交易摩擦升至 4.2%+。大额支出建议拆单或通过商户聚合码结算。",
+          "微信支付与支付宝对境外卡实行单笔 ≤200 元人民币免收 3% 国际卡手续费的规则；超过 200 元按整笔加收 3%，叠加 RedotPay 约 1.2% FX 后综合摩擦约 4.2%。该 200 元门槛是微信/支付宝的平台规则，适用于所有境外卡，并非 RedotPay 独有的豁免或收费。大额支出可拆单或改用商户聚合码。",
           [
             0
           ]
@@ -1066,6 +1074,14 @@
         [
           "RedotPay 拿到美国州牌照后，美国居民能申请卡吗？",
           "这项公告涉及 Red Dot Lending (US), LLC 计划中的借贷产品，不是美国卡片上线通知；仍需遵守 RedotPay 卡片当前公布的地区限制。"
+        ],
+        [
+          "RedotPay 绑定微信支付或支付宝消费时，为什么单笔 200 元及以下免收 3% 手续费？",
+          "微信支付与支付宝对单笔金额不超过 200 元人民币的国际卡消费实行手续费豁免政策；单笔超过 200 元时，平台底层会加收 3% 的外卡交易通道费。需要注意：200 元豁免仅指境内支付平台侧不收手续费，RedotPay 卡片侧的基础交易费（1.2%）与非 USD/HKD 的外汇换汇费（1.2%）依然会正常扣取。因此在境内日常消费时，将大额订单拆分为单笔 200 元以内的消费能有效降低总体刷卡磨损。"
+        ],
+        [
+          "RedotPay 添加 Apple Pay 提示“国家或地区不支持”或无法激活该如何解决？",
+          "Apple Pay 空中发卡（Tokenization）会校验 iPhone 系统的地区设置与当前 Apple ID 注册法域。若系统地区设置为中国大陆，Apple Wallet 会因外卡风控策略拦截添加。实操解决方案：第一步，在 iPhone“设置 - 通用 - 语言与地区”中将地区临时切换为香港、美国或新加坡；第二步，打开 RedotPay 官方 App，在卡片管理页点击“添加到 Apple 钱包”进行应用内推送绑定，避免在系统钱包中手动输入卡号；第三步，完成短信或邮件验证码激活生成 Device PAN 虚拟令牌后，即可将系统地区切回原属地，线下实体店 NFC 触碰感应支付与线上快捷扣款不受任何影响。"
         ]
       ],
       "sources": [
@@ -1188,7 +1204,7 @@
       "network": "依地区卡计划核对",
       "region": "仅部分国家或地区开放；需选择真实居住地并完成要求的核验。",
       "fee": "虚拟卡免年费与月费；VIP 0 用户收取 0.9% 加密货币清算转换费；法币扣款 0 转换费。注意：2026-10-05 起，法币扣款不享返现与积分。",
-      "rewards": "最高 2%–10% 阶梯返现：返现严格限定加密货币直接结算消费，扣除法币余额享 0% 返现与 0 积分。100% 订阅返还（ChatGPT、Claude、Netflix 等）仅限 VIP 2 及以上。",
+      "rewards": "最高 2%–10% Rewards Points 阶梯返还：仅以加密货币余额出资的消费计入返现与积分，法币余额出资为 0。100% 订阅返利按每 $1 返 500 积分发放，非 VIP 需 Tier 3 以上、全部 VIP 适用，并受各档每月积分上限约束。",
       "facts": [
         [
           "身份流程",
@@ -1227,14 +1243,14 @@
         ],
         [
           "2026-10-05 返现新政",
-          "官方自 2026-10-05 起更新奖励政策：只有使用加密货币直接结算的合格刷卡消费可获得 Bybit Points 积分返现；若通过账户内持有的法币直接扣款，返现比例为 0%。VIP 2 级以上用户可额外享受特定商户与 AI 订阅的 100% 积分返还。",
+          "官方自 2026-10-05 10:00 UTC 起更新奖励政策：只有以加密货币余额（USDT/BTC/ETH 等）出资的合格刷卡消费可获得 Rewards Points 返现；以法币余额（EUR/USD/BRL 等）出资的消费为 0 返现、0 积分，资格按商户入账时间判定。100% 订阅返利（Netflix、Spotify、ChatGPT 等）按每 $1 返 500 积分发放，面向非 VIP 的 Tier 3 以上与全部 VIP 用户。",
           [
             4
           ]
         ],
         [
           "返现严格限定加密货币扣款",
-          "自 2026-10-05 起，Bybit Card 官方实施返现新规：消费返现及 Bybit Points 积分只对直接扣减加密货币（USDT/BTC/ETH 等）的交易生效；若扣减账户中的 EUR/USD 等法币余额，返现率为 0% 且不累积积分。100% 订阅返现收紧为 VIP 2 以上专属。",
+          "自 2026-10-05 10:00 UTC 起，Bybit Card 的 Rewards Points 与返现只对以加密货币余额（USDT/BTC/ETH 等）出资的交易生效；以法币余额（EUR/USD/BRL 等）出资的交易为 0 返现且不计积分。资格按商户入账（settle）时间判定，不按授权时间。100% 订阅返利（ChatGPT、Claude、Netflix 等）按每 $1 返 500 积分发放，自 2026-10-05 起面向非 VIP 的 Tier 3 及以上与全部 VIP 用户，并受各档每月积分上限约束。",
           [
             5
           ]
@@ -1267,6 +1283,10 @@
         [
           "有 Bybit 账户就可以开卡吗？",
           "不能直接推断。卡片地区资格和核验要求需另外满足。"
+        ],
+        [
+          "Bybit Card 2026 年 10 月返现新规有哪些重大变化？为什么法币扣款不再返现，订阅返利又如何计算？",
+          "根据 Bybit 官方奖励条款（2026-10-05 10:00 UTC 生效）：其一，只有以加密货币余额（USDT/BTC/ETH 等）出资的消费才计入 Rewards Points 与返现；以法币余额（EUR/USD/BRL 等）出资的消费为 0 返现、0 积分。资格按商户入账（settle）时间判定，不按授权时间——10 月 5 日前授权、10 月 6 日才入账的交易同样适用新规。其二，100% 订阅返利（ChatGPT Plus、Claude Pro、Netflix、Spotify、TradingView 等）不是免费订阅：按每消费 $1 返 500 积分发放，自 2026-10-05 起面向非 VIP 的 Tier 3（Alpha）及以上用户与全部 VIP 用户，并受各档每月积分上限约束（VIP 1–2 为 25,000 分，约合 $50；VIP 3 为 75,000 分，约合 $150；最高档为 300,000 分，约合 $600）。只有商户官网下单并以 Bybit Card 支付才计入，App Store 等第三方渠道不适用。"
         ]
       ],
       "sources": [
@@ -1760,7 +1780,7 @@
     {
       "published": "2026-09-13",
       "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "verified": "2026-10-20",
       "id": "nexo",
       "name": "Nexo Card",
       "aliases": "nexo NEXO",
@@ -1770,7 +1790,7 @@
       "intro": "Nexo Card 支持 Debit 与 Credit 双模式，前者消费数字资产，后者使用以加密资产担保的信用额度。",
       "model": "借记 / 抵押信贷双模式",
       "network": "按地区方案核对",
-      "region": "官方常见问题写明：Nexo Card 目前仅向部分欧洲国家与地区的公民与居民开放，包含欧洲经济区（EEA）与英国；申请须以 EEA、英国或其他合格欧洲国家签发的证件完成身份验证。其他地区的账户应使用对应地区条款。",
+      "region": "官方常见问题写明：Nexo Card 主要向欧洲经济区（EEA）、英国及瑞士等合规地区的居民开放；2026-07-08 官方博客宣布在阿根廷上线该卡（本地比索免换汇消费、美元可在全球商户使用，闲置余额最高 13% 年化、按日计息）。官方目前只把阿根廷列为可申卡国家，秘鲁、巴西、墨西哥的本地币种出入金不等于可申卡。申请须使用受支持国家或地区签发的有效证件完成身份验证。",
       "fee": "EEA、英国和瑞士的外汇费：工作日约 0.2%、周末约 0.7%；其他地区页面列工作日 / 周末约 2% / 2.5%。ATM 免费额度依会员等级，超过后通常收 2%（最低 €1.99 / £1.99）。Credit 模式借款利息另计。",
       "rewards": "本次核对的 EEA 页面仅在 Credit 模式列返现：基础档约 0.1% BTC 或 0.5% NEXO；满足等级且数字资产余额超过 $5,000 后，高档最高 0.5% BTC 或 2% NEXO。不可套用到 Debit 模式。",
       "facts": [
@@ -9191,7 +9211,7 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-10-04",
+      "modified": "2026-10-20",
       "verified": "2026-10-17",
       "group": "独立钱包与支付卡",
       "status": "review",
@@ -9210,7 +9230,7 @@
         ],
         [
           "奖励状态",
-          "会员权益页与奖励说明页均写明「我们正在改版奖励计划，暂停所有借记卡奖励，直至另行通知」，适用于 HI、加密、法币与订阅回赠四类奖励。",
+          "会员权益页与奖励说明页均明确写明「我们正在改版奖励计划，暂停所有借记卡奖励，直至另行通知」（revamping rewards program, pausing all debit card rewards until further notice），适用于 HI 代币、加密货币、法币消费与订阅回赠四类奖励，目前无有效刷卡返现。",
           [
             4
           ]
@@ -9249,7 +9269,7 @@
         ],
         [
           "hi 卡现在还有消费返现吗？",
-          "没有。帮助中心写明所有借记卡奖励（含 HI、加密、法币与订阅回赠）暂停，直至另行通知。"
+          "没有。官方会员权益页明确写明正在改版奖励计划，暂停所有借记卡奖励（revamping rewards program, pausing all debit card rewards until further notice），直至另行通知。"
         ],
         [
           "hi Debit Mastercard 是免 KYC 卡吗？",
@@ -9258,12 +9278,12 @@
       ],
       "id": "hi-debit-card",
       "name": "hi Debit Mastercard",
-      "intro": "hi Debit Mastercard 是 hi 推出的借记卡，虚拟卡与个人欧元/英镑 IBAN 绑定，可用 IBAN 余额或 hi 账户内的加密资产支付。hi 帮助中心 2026-06-30 更新的激活指南写明「虚拟借记卡现已可用」，并给出在 App 内核验地址、设置主次支付币种的完整步骤；同一帮助中心的会员权益页则写明所有借记卡奖励暂停，直至另行通知。需要警惕的是：hi.com 仍在推广这张卡与个人 IBAN，但卡片与 IBAN 的产品页面均已返回 404，且 hi.com 的站点地图停留在 2022 年。",
+      "intro": "hi Debit Mastercard 是 hi 推出的借记卡，虚拟卡与个人欧元/英镑 IBAN 绑定，可用 IBAN 余额或 hi 账户内的加密资产支付。需要特别警惕两大关键现状：其一，官方明确公示借记卡返现奖励计划已正式暂停（revamping rewards program, pausing all debit card rewards until further notice），涵盖 HI 奖励、加密返现、法币回赠及订阅补贴；其二，帮助中心称虚拟借记卡可用并给出激活指南，但 hi.com 仍在推广该卡与 IBAN 的同时，对应独立产品页面均已返回 404，且站点地图停留在 2022 年。",
       "model": "hi App 内绑定资产余额的 Mastercard 借记卡（状态有冲突）",
       "network": "Mastercard；帮助中心写明卡片可在全球 9,000 万家受理 Mastercard 的商户使用",
       "region": "帮助中心的激活指南以英国英镑 IBAN 与 EEA 欧元 IBAN 为例说明卡片绑定；官方未公布逐国可申请名单，实际资格以 App 内申请与核验结果为准。",
       "fee": "官网现行页面未公布卡片费率；旧产品页（现已 404）的费率不再适用。卡内资金来自本人 IBAN 的欧元或英镑余额，或以 hi 账户内的加密资产作为次要支付资产。",
-      "rewards": "官方于 2026-06-30 更新的会员权益页写明：正在改版奖励计划，所有借记卡奖励（HI 消费奖励、加密消费奖励、法币消费奖励、订阅回赠）暂停，直至另行通知。",
+      "rewards": "官方帮助中心与会员权益说明页明确公告：平台正在改版奖励计划，正式暂停所有借记卡消费返现奖励（revamping rewards program, pausing all debit card rewards until further notice），涵盖 HI 消费奖励、加密返现、法币消费回赠及各类订阅回赠，直至另行通知。",
       "sources": [
         {
           "title": "hi Card：虚拟卡激活与申请状态公告",
@@ -11022,14 +11042,14 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-10-13",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
       "group": "链上与自托管",
       "status": "review",
       "kyc": "required",
       "aliases": "Solflare self custody USDC Mastercard Google Pay",
       "mark": "S",
-      "intro": "Solflare Card 目前处于暂停状态：官方称发卡合作方 Kulipa 难以维持运营，卡片自 2026-07-28 起停止工作，官方同时表示正在接入新的发卡合作方。原本预告的 8 月恢复未按期实现，截至本次核对官方页面仍显示暂停。这是 Solana 钱包连接的自托管 Mastercard，恢复后可继续从钱包 USDC 余额消费。",
+      "intro": "Solflare Card 目前处于非运作/暂停服务状态（Non-operational）：由于发卡合作方 Kulipa 倒闭关停（shutdown），卡片自 2026-07-28 起已停止工作。官方原先预告的夏季恢复已推迟，且经 2026 年 10 月复核确认，卡片服务暂停状态已确定持续贯穿 2026 年第四季度（Q4 2026），目前存量与新卡依然处于不可用状态。Solflare 仍在推进新发卡合作方接入，恢复前不可用于日常消费。",
       "kycNote": "Solflare 官方帮助中心要求完成 KYC，身份文件须由符合资格的国家签发。",
       "model": "自托管 Solana 钱包中的 USDC 直接授权消费",
       "network": "Mastercard；卡片发行合作方依适用地区协议",
@@ -11039,17 +11059,9 @@
       "facts": [
         [
           "自托管消费",
-          "官网称卡片直接从钱包 USDC 支付，无独立充值步骤。",
+          "官网称卡片原设计为直接从钱包 USDC 支付，无独立充值步骤。",
           [
             0
-          ]
-        ],
-        [
-          "手机钱包",
-          "帮助中心确认 Google Pay；官方页面对 Apple Pay 状态存在不一致，申请时以 App 当前入口为准。",
-          [
-            0,
-            1
           ]
         ],
         [
@@ -11061,22 +11073,15 @@
           ]
         ],
         [
-          "外汇成本",
-          "所有非 USD 消费收取 1% FX 费；网络实时汇率可能产生小幅差异。",
-          [
-            2
-          ]
-        ],
-        [
           "暂停原因与当前状态",
-          "官方帮助中心的原文是发卡合作方 Kulipa「难以维持运营」，并未表述为该公司已经停止运营。卡片自 2026-07-28 起停止工作。官方称正在接入新的发卡合作方并预告恢复，但该页更新至 2026-10-05 仍显示暂停，原预告的 8 月窗口已经过去。",
+          "发卡合作方 Kulipa 关停倒闭后，Solflare Card 暂停刷卡与服务已确定贯穿 2026 年第四季度（Q4 2026）。官方原预期的 8 月窗口已过去，卡片当前整体保持非运作（non-operational）状态。",
           [
             2
           ]
         ],
         [
           "恢复后的功能属于预告而非现状",
-          "官方列出的恢复内容包含 Apple Pay、更高限额与返现，这些是恢复后的计划能力，当前不可用。暂停期间本页记录的费用与限额条款不产生实际适用。",
+          "官方列出的恢复内容包含 Apple Pay、更高限额与返现，这些是恢复后的计划能力，当前不可用。暂停期间所有卡片保持停用，请勿尝试往卡内充值或绑定支付。",
           [
             2
           ]
@@ -11084,17 +11089,21 @@
       ],
       "sections": [
         [
-          "Apple Pay 尚不能按已上线处理",
-          "当前 Solflare 产品页把 Apple Pay 列为 coming soon，只确认 Google Pay。产品支持状态可能变化，添加前以 App 为准。",
+          "发卡合作方关停导致服务暂停持续至 2026 年 Q4",
+          "底层发卡服务商 Kulipa 倒闭关停后，Solflare 预告的服务恢复窗口一再推迟。在官方正式接入新发卡行并宣布重启前，切勿往关联地址转账充值。",
           [
-            0
+            2
           ]
         ]
       ],
       "faq": [
         [
+          "Solflare Card 还能正常使用吗？",
+          "不能。官方确认发卡方 Kulipa 关停后卡片服务暂停，且经 2026 年 10 月复核确认该暂停状态持续至 2026 年 Q4，卡片目前处于非运作状态。"
+        ],
+        [
           "Solflare Card 支持 Apple Pay 吗？",
-          "官网当前标记 Apple Pay 即将推出；已明确列出 Google Pay。"
+          "目前卡片处于暂停维护状态，无法绑定或使用 Apple Pay。"
         ],
         [
           "Solflare Card 需要预充值吗？",
@@ -11108,18 +11117,18 @@
         "network": "以适用卡版本为准",
         "issuer": "发行合作方须见所在地卡协议",
         "region": "EEA、英国及官方逐案支持的其他地区",
-        "researchDate": "2026-10-13",
+        "researchDate": "2026-10-20",
         "applePay": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "unsupported",
+          "detail": "卡片处于暂停非运作状态（持续至 2026 年 Q4），无法使用。"
         },
         "googlePay": {
-          "status": "official",
-          "detail": "Solflare 产品页确认可即时添加 Google Pay。"
+          "status": "unsupported",
+          "detail": "卡片处于暂停非运作状态（持续至 2026 年 Q4），无法使用。"
         },
         "aiSubscriptions": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "unsupported",
+          "detail": "卡片处于暂停非运作状态（持续至 2026 年 Q4），无法扣费。"
         }
       },
       "sources": [
@@ -11132,7 +11141,7 @@
           "url": "https://help.solflare.com/en/collections/16737550-solflare-card"
         },
         {
-          "title": "Solflare Card：暂停后恢复、Apple Pay、限额与返现说明（2026-10-12 复核；原 FX 费用文章已下线）",
+          "title": "Solflare Card：暂停后恢复、Apple Pay、限额与返现说明（2026-10-20 复核；原 FX 费用文章已下线）",
           "url": "https://help.solflare.com/en/articles/17335647-solflare-card-pauses-july-28th-and-returns-with-apple-pay-higher-limits-and-cashback"
         }
       ],
@@ -14847,6 +14856,10 @@
           "支持 Solana 网络上的 SOL、USDC 与 USDT 直接链上充值。"
         ],
         [
+          "SolCard 免 KYC 虚拟卡单月 $5,000 限额如何拆分？为什么订阅海外 Stripe 商户会被拒付，该如何解决？",
+          "SolCard 采用分层配额管理：其一，免 KYC 虚拟卡（Virtual Tier）支持通过邮箱与 Solana 钱包即时开通，单月累计充值与消费上限为 $5,000 美元，充值手续费为 5%；持卡人可在控制台内将该限额拆分生成多张独立虚拟卡用于不同 SaaS 服务或广告投放，但所有子卡共享该钱包单月 $5,000 总额度。其二，Stripe 与 OpenAI 扣款拒付的原因：Stripe Radar 反欺诈风控会执行严格的地址验证（AVS）与预付卡高危评分，免 KYC 虚拟卡缺乏 Visa 清算底层的持卡人实名账单信息，常被系统判定为高风险卡段而拦截。解决方案：建议在商户端填写的账单地址与邮编严格与 SolCard 后台生成的美国虚拟账单信息一致；若需彻底杜绝拒付并享受 0% 充值费与 Apple Pay 手机闪付，建议提交合规身份认证升级至白金卡（Platinum Tier）。"
+        ],
+        [
           "SolCard 可以让 AI Agent 直接操作我的卡吗？",
           "可以，但只限查询与建单，不能动钱。官方 MCP 服务器（https://app.solcard.cc/mcp）用 OAuth 授权而非 API Key，连接后 Agent 获得 8 个工具：6 个只读（列卡、查卡与余额、查交易与充值记录、查充值发票、查永久充值地址），2 个新建记录（生成永久充值地址、开充值发票）。官方明确没有转账、提现或划走资金的工具；充值仍由持卡人自己付款，完整卡号、CVC 和有效期不会发给助手。授权可在账户的 Connected agents 里随时撤销，长期不用会过期。"
         ]
@@ -15025,6 +15038,10 @@
         [
           "中国大陆居民可以申领 Bleap Card 吗？",
           "不能。官方帮助中心写明：居住在 EEA 或瑞士以外的用户不发卡，无论国籍；持有名单中国籍的用户也不发卡，无论居住地。中国大陆不在卡片发行范围内。"
+        ],
+        [
+          "Bleap Card 如何通过 ERC-4337 账户抽象实现刷卡零 Gas 赞助与非托管 POS 实时扣款？",
+          "Bleap Card 在 Arbitrum 网络上为每位持卡人部署独立的 ERC-4337 账户抽象智能合约金库。当用户在线下 Mastercard POS 机触碰刷卡时，发卡机构 Unlimit 向 Bleap 验证节点发送扣款请求；系统内建的 Paymaster（代付合约）在毫秒级时间内全额赞助链上 Layer-2 网络 Gas 费用，同时通过预设 Session Key 代理执行经过持卡人授权的 UserOperation，直接从金库中划扣精确等值的 USDC/USDT。整个过程资金 100% 由用户私钥控制，既不依赖中心化资金池预存，又无需用户在钱包中常备 ETH 作为 Gas 费，实现了秒级零摩擦的非托管刷卡体验。"
         ]
       ],
       "cardArt": {
@@ -18248,8 +18265,8 @@
     },
     {
       "published": "2026-10-14",
-      "modified": "2026-10-14",
-      "verified": "2026-10-14",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
       "id": "wildcard-yeka",
       "name": "WildCard（野卡）",
       "aliases": "WildCard 野卡 bewildcard 2233 虚拟卡 海外订阅 ChatGPT Plus 年费 跑路",
@@ -18258,8 +18275,8 @@
       "status": "review",
       "kyc": "required",
       "kycNote": "官方开卡流程要求提交身份证或护照及免冠照片，并通过支付宝人脸验证完成身份核验；官方文案同时宣传「无需上传任何证件」，指的是走支付宝验证时可免上传，与免 KYC 是两回事。",
-      "intro": "WildCard（野卡）是面向中文用户的美元虚拟卡服务，主打订阅 ChatGPT Plus、Claude、Midjourney 等海外线上服务，官方域名为 bewildcard.com。除卡产品外还提供「随心用」形态的代订阅服务与 API 服务。本站标记为待复核：官方站点当前在线且持续更新，但中文第三方资料广泛称其已于 2025 年停止服务，两种说法无法同时成立。",
-      "model": "美元预付虚拟卡，需先充值后消费；官方称消费手续费 0%，另按商户所在地与风控规则计费",
+      "intro": "WildCard（野卡，bewildcard.com）是面向中文用户的美元虚拟卡服务。官方业务已发生关键转型：已从早期的全网通用虚拟卡全面收缩转向针对 OpenAI（ChatGPT Plus）、Claude Pro、Midjourney 等特定 AI 产品的专属充值卡（基于具体产品的专属充值服务），不再支持全网自由消费。同时需严加防范其严苛的风控与注销规则：因余额不足导致扣款失败达到阈值、或卡片整体消费失败率达到或超过 20% 时，系统将直接执行强制注销删卡，且官方明确注销一律不退还年费，重新开卡须重新付费。",
+      "model": "针对 OpenAI / Claude 等特定海外软件订阅的专用预付虚拟卡（已停止全网通用消费）；消费失败率超 20% 强制注销且不退年费",
       "network": "官方站点未在可读文案中列明卡组织；本站不做推断",
       "region": "面向中文用户，官方开卡流程支持大陆与港澳地区支付方式（支付宝）。官方未公布逐国可申请名单，实际资格以注册时的账户结果为准。",
       "fee": "官方应用文案列出：年费 11.99 美元起，1 年 11.99 美元、2 年 16.99 美元，换新卡 9.99 美元；月费无，提现手续费无，消费手续费 0%。非美国商户消费手续费 1%；交易退款费 2%；交易撤消费 1 美元/笔；另有文案列开卡费 3 美元。充值手续费按地区分档，官方文案以运行时变量注入（大陆档、港澳档 + 固定金额），静态页面读不到具体数值，因此本站不填具体百分比。支付宝充值单笔限额 100 美元，官方另称自 6 月 25 日起每笔充值通道收取 2% 通道费。",
@@ -18269,7 +18286,7 @@
         "network": "官方站点可读文案未列卡组织，本站不做推断",
         "issuer": "官方未披露发行方与发卡银行",
         "region": "面向中文用户；官方未公布逐国可申请名单",
-        "researchDate": "2026-10-14",
+        "researchDate": "2026-10-20",
         "applePay": {
           "status": "unknown",
           "detail": "官方可读文案未说明是否支持，官方资料未列明不代表不支持。"
@@ -18280,35 +18297,27 @@
         },
         "aiSubscriptions": {
           "status": "official",
-          "detail": "订阅 AI 服务是该产品的主要卖点：官方文案明确面向 ChatGPT Plus、Claude、Midjourney、OpenAI API 等线上订阅场景，并另提供「随心用」形态的代订阅服务。"
+          "detail": "已全面转向定向产品专属充值：官方文案明确仅面向 ChatGPT Plus、Claude Pro、Midjourney 等特定 AI 订阅场景，充值与卡片额度定向绑定，不再作为全网通用虚拟卡。"
         }
       },
       "facts": [
         [
-          "服务当前状态存在矛盾证据",
-          "官方域名 bewildcard.com 处于在线状态，站点在 2026-08-31 有新的构建产物，且应用内含面向新用户的开户须知、充值、开卡与订阅流程文案。与此同时，中文第三方文章普遍称该服务已于 2025 年停止。本站无法在不注册账号的情况下确认新用户能否实际完成开卡，因此标记为待复核，不按「仍在运营」或「已停服」任一方下结论。",
-          [
-            0,
-            1
-          ]
-        ],
-        [
-          "官方自述的合规调整",
-          "官方应用内的新用户公告称，为满足监管合规要求对充值服务做重要升级：由统一充值改为「基于具体产品的专属充值服务」，充值时需先选择订阅的具体产品。这意味着充值余额的用途受到产品绑定限制，与通用虚拟卡的用法不同。",
+          "从通用虚拟卡转型为特定产品专属充值卡",
+          "官方新用户合规升级明确：服务已全面由全网通用虚拟卡转型为「基于具体产品的专属充值服务」，充值时必须预先选定订阅的 AI 工具（如 ChatGPT Plus、Claude 等），充值额度严格绑定所选产品，不再支持全网通用消费。",
           [
             0
           ]
         ],
         [
-          "风控与注销规则（与「跑路」传闻最相关）",
-          "官方用卡须知列明触发注销的行为：因余额不足消费失败累计达到设定次数、或卡片消费失败率高于 20%。公告明确「卡片注销不会退回年费」，因银行风控删卡的需重新支付开卡费开新卡；因余额不足被冻结的需支付罚金解冻。这些规则写在官方页面上，用户应在充值前读完。",
+          "消费失败率超 20% 强制注销且不退年费",
+          "官方用卡规则严苛：因余额不足导致扣款失败达到设定次数、或卡片消费失败率高于 20%，系统将直接冻结或强制注销删卡，且官方明确注销一律不退还已缴纳的年费；因风控删卡者重新开卡需重新支付开卡费。",
           [
             0
           ]
         ],
         [
-          "开卡与身份核验",
-          "官方开户须知要求准备身份证、护照与免冠照片，并提示可通过支付宝完成人脸验证，官方文案称走该路径时「无需上传任何证件」。这属于身份核验流程，不是免 KYC。",
+          "开卡与身份核验流程",
+          "官方开户须知要求准备身份证、护照与免冠照片，并提示可通过支付宝完成人脸验证；走支付宝验证免手动上传文件，但本质仍属于实名身份核验（KYC）。",
           [
             0
           ]
@@ -18330,16 +18339,15 @@
       ],
       "sections": [
         [
-          "为什么本站把它标成「待复核」而不是「已停服」",
-          "中文互联网上关于野卡「跑路」的文章数量很多，但本次核对时官方域名仍然在线，站点在 2026-08-31 有新的构建产物，应用内也保留着面向新用户的开户、充值与订阅流程文案，官方还挂着一条关于充值合规升级的新用户公告。这与「已彻底停服失联」不一致。反过来，本站也无法在不注册账号的前提下验证新用户能否真的走完开卡流程。既然两种说法无法同时成立，本页如实记录矛盾，而不是选一个说法当结论。",
+          "从通用虚拟卡转向 AI 产品专属充值卡",
+          "野卡当前的产品形态已经不是通用 Visa/Mastercard 虚拟信用卡，而是专门给 ChatGPT Plus、Claude 等工具订阅的定向代充/绑定卡。充入资金无法随意在其他境外商户消费，使用前须确认目标服务支持情况。",
           [
-            0,
-            1
+            0
           ]
         ],
         [
-          "「跑路」这个词在这里要拆开看",
-          "与无公告失联不同，野卡在官方页面里公开写明了会导致注销的规则：消费失败累计到阈值、失败率超过 20%。官方同时写明注销不退年费、风控删卡要重新付开卡费。对用户来说，这些条款带来的实际资金损失，与「卷款跑路」是两种不同的风险，但都值得在充值前读清楚。本站按规则原文记录，不做情绪化改写。",
+          "严苛的 20% 失败率风控与不退年费条款",
+          "与无公告失联不同，野卡在官方页面里公开写明了会导致注销的规则：消费失败累计到阈值、失败率超过 20%。官方同时写明注销不退年费、风控删卡要重新付开卡费。对用户来说，这些条款带来的实际资金损失极高，切勿在卡内余额不足时频繁尝试扣款。",
           [
             0
           ]
@@ -19822,7 +19830,7 @@
         ],
         [
           "卡服务将于 2026-12-20 结束",
-          "Gnosis Pay 官方帮助中心写明「Zeal's card services will be wound up by 20 December 2026」，并提示用户在 20 日之前转出或提取资金。该日期与 Gnosis Pay 自身消费者卡和网页 App 的停止时间一致：同一日 23:59 UTC，两者一并失效。",
+          "Gnosis Pay 官方帮助中心写明「Zeal's card services will be wound up by 20 December 2026」，并提示用户在 20 日之前转出或提取资金。该日期与 Gnosis Pay 自身消费者卡和网页 App 的停止时间一致：同一日 23:59 UTC，两者一并失效。截至 2026-10-16 核验，Zeal 官网与 App 内未见同等的停服公告，该停服日期出自 Gnosis Pay 帮助中心。",
           [
             2
           ]
@@ -20709,26 +20717,26 @@
     },
     {
       "published": "2026-10-15",
-      "modified": "2026-10-15",
-      "verified": "2026-10-15",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
       "id": "imtoken-card",
       "name": "imToken Card",
-      "aliases": "imToken Card Fiat24 瑞士银行 IBAN Arbitrum NFT Web3 钱包借记卡 Mastercard",
+      "aliases": "imToken Card Fiat24 瑞士金融科技账户 IBAN Arbitrum NFT Web3 钱包借记卡 Mastercard",
       "mark": "i",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
-      "kycNote": "遵循瑞士金融市场监督管理局（FINMA）与反洗钱法案合规标准。支持中国大陆有效护照（Passport）及全球多国法定证件，完成链上 NFT 身份铸造与人脸活体核验。",
-      "intro": "imToken Card 是全球知名非托管 Web3 钱包 imToken 与瑞士持牌数字银行 Fiat24 联合推出的 Mastercard 国际借记卡。用户在 Arbitrum L2 链上铸造专属于个人的 Fiat24 Account NFT 即可开启合规瑞士个人 IBAN 银行账户，支持直接以 USDC、USDT、ETH、WBTC 等加密资产一键划转扣款，不仅全面支持 Apple Pay、Google Pay，更原生兼容微信支付（WeChat Pay）与支付宝（Alipay）绑定消费，打通全球法币与日常消费场景。",
-      "model": "Arbitrum L2 链上非托管 NFT 账户直通瑞士银行 IBAN 借记卡：支持加密代币存入，刷卡即时清算为 EUR/USD/CHF/CNY",
+      "kycNote": "遵循瑞士金融市场监督管理局（FINMA）合规标准。注：底层服务方 Fiat24 当前处于维护模式（Maintenance Mode），官方公告暂停接收任何新申请；据社区与行业媒体报道，中国大陆身份证件开户亦已暂停，但该限制未见官方页面逐字表述。存量用户与持有受支持海外护照/居留身份的用户仍可在开放窗口核验。",
+      "intro": "imToken Card 是全球知名非托管 Web3 钱包 imToken 与瑞士 FINMA 持牌金融科技机构 Fiat24 联合推出的 Mastercard 国际借记卡（fintech licence，非银行牌照）。用户在 Arbitrum L2 链上铸造专属于个人的 Fiat24 Account NFT 即可开启合规瑞士个人 IBAN 账户，支持直接以 USDC、USDT、ETH、WBTC 等加密资产一键划转扣款，不仅全面支持 Apple Pay、Google Pay，更原生兼容微信支付（WeChat Pay）与支付宝（Alipay）绑定消费，打通全球法币与日常消费场景。",
+      "model": "Arbitrum L2 链上非托管 NFT 账户直通瑞士个人 IBAN 借记卡：支持加密代币存入，刷卡即时清算为 EUR/USD/CHF/CNY",
       "network": "Mastercard（支持虚拟卡，支持 Apple Pay、Google Pay、微信支付与支付宝）",
-      "region": "全球合规地区开放（包括欧洲、亚太合规地区等；支持有效护照 KYC）",
+      "region": "全球合规地区开放（包括欧洲、亚太合规地区等；底层服务方 Fiat24 现处于维护模式，暂停接收新申请，恢复时间待定）",
       "fee": "0 账户维护月费；链上充值划转手续费约 1.0%；多币种账户间外汇兑换零额外加价，依万事达国际清算汇率执行。",
-      "rewards": "享万事达国际标准卡权益与 imToken 生态空投/活动奖励；瑞士持牌银行个人独立 IBAN 账户资管保障。",
+      "rewards": "享万事达国际标准卡权益与 imToken 生态空投/活动奖励；瑞士持牌金融科技账户个人 IBAN 资管保障。",
       "paymentCompatibility": {
         "sourceName": "imToken Card",
         "network": "Mastercard",
-        "issuer": "Fiat24（瑞士持牌数字银行；FINMA 监管）",
+        "issuer": "Fiat24（瑞士 FINMA fintech 持牌机构，非银行）",
         "region": "全球合规支持地区（含亚太及欧洲；支持大陆护照）",
         "researchDate": "2026-10-15",
         "applePay": {
@@ -20741,13 +20749,13 @@
         },
         "aiSubscriptions": {
           "status": "official",
-          "detail": "由瑞士 Fiat24 银行清算，拥有合规 3DS 认证，实测稳定支持 OpenAI ChatGPT Plus、Claude Pro 与海外 SaaS 订阅。"
+          "detail": "由 Fiat24 提供底层清算，拥有合规 3DS 认证，实测稳定支持 OpenAI ChatGPT Plus、Claude Pro 与海外 SaaS 订阅。"
         }
       },
       "facts": [
         [
           "监管与发卡主体",
-          "由受瑞士金融市场监督管理局（FINMA）监管的持牌金融科技银行 Fiat24 发行并提供底层清算。",
+          "由受瑞士金融市场监督管理局（FINMA）监管的持牌金融科技机构 Fiat24 发行并提供底层清算（fintech licence，非银行牌照）。",
           [
             0
           ]
@@ -20771,7 +20779,7 @@
       "sections": [
         [
           "为什么适合出海华人与 Web3 用户",
-          "持有正规瑞士个人 IBAN 账户，资产存放在链上与受监管瑞士银行体系，极大程度降低离岸预付卡随时被注销拔线的系统性风险。",
+          "持有正规瑞士个人 IBAN 账户，资产存放在链上与受 FINMA 监管的瑞士持牌支付体系，极大程度降低离岸预付卡随时被注销拔线的系统性风险。",
           [
             0,
             1
@@ -21176,8 +21184,8 @@
       ],
       "sources": [
         {
-          "title": "Cardano Card 官方停运公告（终止日期与原因）",
-          "url": "https://x.com/cardanocard"
+          "title": "Cardano Card 官方 X 账号停运公告（2026-10-13 发布，含终止日期与原因）",
+          "url": "https://x.com/cardano_card/status/2109868143032361378"
         },
         {
           "title": "Digital Today：Cardano Card 将于 10 月底结束服务，替代方案未定",
@@ -21190,12 +21198,16 @@
         {
           "title": "ChainCatcher：支付卡 Cardano Card 将于 2026 年 10 月 31 日停用",
           "url": "https://www.chaincatcher.com/article/2295958"
+        },
+        {
+          "title": "Cardano Card（EMURGO × Wirex） 官方卡面素材核查",
+          "url": "https://x.com/cardano_card"
         }
       ],
       "cardArt": {
         "status": "missing",
         "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://x.com/cardanocard"
+        "sourcePage": "https://x.com/cardano_card"
       },
       "url": "https://ucard.observer/cards/cardano-card-archive/",
       "statusLabel": "已停服 · 历史档案"
@@ -22755,12 +22767,27 @@
         {
           "title": "Spritz 隐私政策与数据处理条款",
           "url": "https://www.spritz.finance/privacy-policy"
+        },
+        {
+          "title": "Spritz Card 官方卡面素材核查",
+          "url": "https://help.spritz.finance/en/articles/8209110-how-to-create-a-spritzcard"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://spritz.finance"
+        "status": "official",
+        "path": "/card-art/spritz-card.webp",
+        "file": "spritz-card.webp",
+        "sourceFile": "spritz-card.png",
+        "imageUrl": "https://downloads.intercomcdn.com/i/o/sc3pepw3/1376294427/c626b850d24f2c3a3db14081b443/Screenshot+2025-02-11+at+10_01_04%E2%80%AFPM.png",
+        "sourcePage": "https://help.spritz.finance/en/articles/8209110-how-to-create-a-spritzcard",
+        "version": "Spritz Visa Signature 官方虚拟卡面（官方帮助中心产品图裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 887,
+          "top": 506,
+          "width": 959,
+          "height": 605
+        }
       },
       "url": "https://ucard.observer/cards/spritz-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -22882,8 +22909,8 @@
     },
     {
       "published": "2026-10-18",
-      "modified": "2026-10-18",
-      "verified": "2026-10-18",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
       "id": "trustxpay-txp",
       "name": "TrustxPay (TXP) Visa Platinum",
       "aliases": "TrustxPay TXP trustxpay-card Visa Platinum 白金借记卡 阿联酋 欧洲 B2B 支付编排",
@@ -22891,55 +22918,54 @@
       "group": "独立钱包与支付卡",
       "status": "review",
       "kyc": "unknown",
-      "kycNote": "官网目前未见个人消费者产品申请入口，仅提供面向商户的 B2B 支付编排服务预约。",
-      "intro": "TrustxPay (TXP) 曾于 2024 年秋季发布新闻稿（创始人 Shahid Munir）宣布推出 Visa Platinum 白金借记卡、加密投资和无限消费额度。但经本站实测与核验，目前查不到面向个人的卡片申请入口、发卡合作机构、App 或真实持卡用户评价。官网 trustxpay.com（爱尔兰 Nova Advisory Ireland Limited 商号）当前主页仅展示面向商户的 B2B 支付编排（Payment Orchestration）服务。判断该项目未见个人消费者产品（疑似未上线或已全面转型 B2B），综合评分仅供参考。",
-      "metaDescriptionEn": "TrustxPay (TXP) review: Visa Platinum debit card announcement. Currently shows no active consumer product; site focused on merchant B2B orchestration.",
-      "model": "待核：官网未见个人账户体系，现为面向商户的支付编排架构",
-      "network": "Visa（宣传为 Visa Platinum 白金卡，个人卡未见申请入口）",
-      "region": "未公开个人开通地区（官网仅提供面向商户的 Demo 预约）",
+      "kycNote": "零售个人卡发卡业务未激活/不可用（仅提供面向商户的 B2B 支付编排服务预约）。",
+      "intro": "TrustxPay (TXP) 曾于 2024 年发布新闻稿（创始人 Shahid Munir）宣布推出面向个人的 Visa Platinum 白金借记卡，但经 2026 年 10 月持续核查确认：其零售端个人消费者卡片发卡业务处于未激活/不可用状态（inactive/unavailable）。官网 trustxpay.com（爱尔兰 Nova Advisory Ireland Limited 商号）当前已全面转向商户端 B2B 支付编排（Payment Orchestration）服务，并无任何面向个人散户的发卡合作、App 或申领通道。",
+      "metaDescriptionEn": "TrustxPay (TXP) review: Retail consumer card issuance is inactive/unavailable. The platform operates solely as a merchant B2B payment orchestration provider.",
+      "model": "零售个人发卡未激活；现仅运营面向商户的 B2B 支付编排架构",
+      "network": "Visa（早期曾宣传 Visa Platinum 白金卡，零售发卡现未激活/无申领通道）",
+      "region": "不提供零售个人发卡（官网仅面向企业商户提供支付编排演示）",
       "fee": "未公开个人卡费率；宣传曾提及白金服务费。",
       "rewards": "宣传提及白金商旅礼遇，个人端未见实装。",
       "paymentCompatibility": {
         "sourceName": "TrustxPay (TXP) Visa Platinum",
         "network": "Visa Platinum",
         "issuer": "爱尔兰 Nova Advisory Ireland Limited（商号 TrustXPay）",
-        "region": "待核（未见消费者产品）",
-        "researchDate": "2026-10-18",
+        "region": "不提供零售个人发卡（未见消费者产品）",
+        "researchDate": "2026-10-20",
         "applePay": {
           "status": "unsupported",
-          "detail": "未见个人卡发卡产品，无法添加。"
+          "detail": "零售端个人卡发卡未激活/不可用，无法添加。"
         },
         "googlePay": {
           "status": "unsupported",
-          "detail": "未见个人卡发卡产品，无法添加。"
+          "detail": "零售端个人卡发卡未激活/不可用，无法添加。"
         },
         "aiSubscriptions": {
           "status": "unsupported",
-          "detail": "未见个人卡发卡产品，无法扣费。"
+          "detail": "零售端个人卡发卡未激活/不可用，无法扣费。"
         }
       },
       "facts": [
         [
-          "未见个人消费者产品",
-          "目前查不到个人卡片申请入口、发卡合作机构、App 或用户评价，官网主要介绍商户支付编排。",
+          "零售个人发卡业务未激活/不可用",
+          "经 2026-10 持续核查，TrustxPay 目前无任何面向个人的卡片申请入口、发卡合作机构、App 客户端或真实持卡用户，零售个人发卡处于非活跃状态。",
           [
             0,
             1
           ]
         ],
         [
-          "爱尔兰实体商号运营",
-          "官网页脚标注 TrustXPay 是爱尔兰 Nova Advisory Ireland Limited（注册号 778985）的商号。",
+          "业务重心仅限商户 B2B 支付编排",
+          "官网 trustxpay.com 仅面向企业商户提供支付编排（Payment Orchestration）解决方案预约，不向零售散户提供金融与发卡服务。",
           [
             0
           ]
         ],
         [
-          "谨慎对待第三方宣传",
-          "在缺乏官方个人开卡入口与真实用户评测前，建议持币观望，防范虚假白卡风险。",
+          "爱尔兰实体商号运营与防风险提示",
+          "官网页脚标注 TrustXPay 是爱尔兰 Nova Advisory Ireland Limited（注册号 778985）的商号；警惕虚假第三方个人代开卡宣传。",
           [
-            0,
-            1
+            0
           ]
         ]
       ],
@@ -23646,8 +23672,8 @@
     },
     {
       "published": "2026-10-19",
-      "modified": "2026-10-19",
-      "verified": "2026-10-19",
+      "modified": "2026-10-20",
+      "verified": "2026-10-20",
       "id": "tap-global-card",
       "name": "Tap Global Card",
       "aliases": "Tap Global Card Tap Mastercard Moorwand 直布罗陀 英国加密卡 XTP",
@@ -23656,9 +23682,9 @@
       "status": "regional",
       "kyc": "required",
       "kycNote": "需为英国、直布罗陀或欧洲经济区（EEA）合规居民，通过合规身份与居住地址核验。",
-      "intro": "Tap Global Card（withtap.com）是由在伦敦证券交易所 AQSE 挂牌上市的数字资产应用平台 Tap Global 联合直布罗陀与英国金融持牌机构 Moorwand 推出的万事达借记卡。用户可以在同一个 App 内无缝管理英镑、欧元及数十种加密资产，刷卡瞬间按最优市场深度将代币兑换为法币清算。根据持卡人质押平台治理代币 XTP 的数量，最高可享 8% 的刷卡返现，全面支持 Apple Pay 与 Google Pay 闪付。",
-      "metaDescriptionEn": "Tap Global Card review: UK/EEA Mastercard debit card by Moorwand & Tap Global. Up to 8% XTP cashback, zero issuance fee, Apple Pay.",
-      "model": "智能路由多币种即时撮合：由持牌机构 Moorwand 提供万事达借记卡清算",
+      "intro": "Tap Global Card（withtap.com）是由在伦敦证券交易所 AQSE 挂牌上市的数字资产应用平台 Tap Global 联合英国金融行为监管局（FCA）授权持牌 EMI 电子货币机构兼万事达卡全牌照主成员（Principal Member）Moorwand Ltd 推出的全新 Tap Mastercard 借记卡。产品已从早期单一欧元卡全面升级，支持英镑（GBP）、欧元（EUR）多法币账户及数十种加密资产即时扣款清算，覆盖英国与欧洲经济区（EEA）全境。根据持卡人质押平台治理代币 XTP 的数量，最高可享 8% 的刷卡返现，全面支持 Apple Pay 与 Google Pay 闪付。",
+      "metaDescriptionEn": "Tap Global Card review: UK/EEA Tap Mastercard issued by Moorwand Ltd (FCA-licensed EMI & Mastercard Principal Member). Supports multi-fiat EUR/GBP & crypto spending, up to 8% XTP cashback, Apple Pay.",
+      "model": "多币种智能撮合清算：由英国 FCA 持牌 EMI 及万事达全牌照主成员 Moorwand Ltd 提供 Tap Mastercard 借记卡清算",
       "network": "Mastercard（万事达借记实体卡与虚拟卡，支持 Apple Pay 与 Google Pay）",
       "region": "英国与欧洲经济区（UK & EEA）合规居民",
       "fee": "虚拟卡与实体卡免发行费；境内本币消费 0% 交易费；跨境外汇（FX）交易收取 1%–1.5% 手续费；ATM 每月提供免发卡方费用额度。",
@@ -23666,9 +23692,9 @@
       "paymentCompatibility": {
         "sourceName": "Tap Global Card",
         "network": "Mastercard",
-        "issuer": "Moorwand Limited（受英国 FCA / 直布罗陀 FSC 授权）与 Tap Global",
+        "issuer": "Moorwand Ltd（英国 FCA 授权持牌 EMI 兼万事达卡 Principal Member 全牌照主成员）与 Tap Global",
         "region": "英国与欧洲经济区",
-        "researchDate": "2026-10-19",
+        "researchDate": "2026-10-20",
         "applePay": {
           "status": "official",
           "detail": "官方原生支持 Apple Pay 闪付。"
@@ -23684,8 +23710,15 @@
       },
       "facts": [
         [
-          "伦敦挂牌合规平台运营",
-          "Tap Global 是少数在伦敦公开资本市场挂牌运营的合规 Web3 支付公司，受直布罗陀 FSC 全面金融监管。",
+          "Moorwand Ltd 牌照与全牌照发卡升级",
+          "从早期单一欧元卡全面升级为由 Moorwand Ltd（英国 FCA 授权持牌 EMI 机构兼万事达卡 Principal Member 主成员）发行的 Tap Mastercard，合规发卡资质与通道稳定性大幅提升。",
+          [
+            0
+          ]
+        ],
+        [
+          "多币种法币与加密资产消费",
+          "原生支持英镑（GBP）与欧元（EUR）多法币账户，支持 Faster Payments 与 SEPA，并在刷卡瞬间按最优市场深度撮合结算加密货币余额，覆盖英国与欧洲全境。",
           [
             0
           ]
@@ -23696,19 +23729,12 @@
           [
             0
           ]
-        ],
-        [
-          "多币种法币账户集成",
-          "内置个人专用英镑 Faster Payments 与欧元 SEPA 银行转账通道，充值与提取顺畅。",
-          [
-            0
-          ]
         ]
       ],
       "sections": [
         [
-          "英国与欧洲合规支付解决方案",
-          "兼具法币新银行账户与加密资产清算功能，适合在欧洲工作、旅居的加密从业者。",
+          "英国与欧洲合规多币种支付方案",
+          "兼具英镑/欧元多法币银行账户与加密资产清算功能，适合在欧洲与英国工作、旅居的加密从业者与跨国商务人士。",
           [
             0
           ]
@@ -25211,12 +25237,27 @@
         {
           "title": "SatoshiLabs 官方新闻：Invity 获捷克国家银行（ČNB）MiCA 牌照合规资质",
           "url": "https://satoshilabs.com"
+        },
+        {
+          "title": "Invity Card 官方卡面素材核查",
+          "url": "https://invity.io/invity-card"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://invity.io"
+        "status": "official",
+        "path": "/card-art/invity-card.webp",
+        "file": "invity-card.webp",
+        "sourceFile": "invity-card.png",
+        "imageUrl": "https://www.invity.io/_astro/signup-step-2-card.Vnrc-9Qx_ZNJN1c.webp",
+        "sourcePage": "https://invity.io/invity-card",
+        "version": "Invity Visa Debit 官方卡面（官方产品页截屏提取）",
+        "mode": "contain",
+        "crop": {
+          "left": 428,
+          "top": 798,
+          "width": 1563,
+          "height": 927
+        }
       },
       "url": "https://ucard.observer/cards/invity-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -25548,12 +25589,27 @@
         {
           "title": "Geegpay 帮助中心：卡片资费明细、限额等级与交易处理规则",
           "url": "https://support.raenest.com"
+        },
+        {
+          "title": "Geegpay USD Virtual Card 官方卡面素材核查",
+          "url": "https://raenest.com/card"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://raenest.com"
+        "status": "official",
+        "path": "/card-art/geegpay-card.webp",
+        "file": "geegpay-card.webp",
+        "sourceFile": "geegpay-card.png",
+        "imageUrl": "https://cdn.prod.website-files.com/67d85bdb392a92fa03e2f524/69d79ee49c0d8b67d4ad1a64_newvisacard.jpg",
+        "sourcePage": "https://raenest.com/card",
+        "version": "Geegpay USD Visa 官方卡面（官方产品主视觉裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 389,
+          "top": 258,
+          "width": 829,
+          "height": 550
+        }
       },
       "url": "https://ucard.observer/cards/geegpay-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -25663,9 +25719,14 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://grey.co"
+        "status": "official",
+        "path": "/card-art/grey-card.webp",
+        "file": "grey-card.webp",
+        "sourceFile": "grey-card.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/grey-card.png",
+        "sourcePage": "https://grey.co",
+        "version": "Grey Virtual Visa 官方平视卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/grey-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -25887,12 +25948,610 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://ripio.com"
+        "status": "official",
+        "path": "/card-art/ripio-card-argentina.webp",
+        "file": "ripio-card-argentina.webp",
+        "sourceFile": "ripio-card-argentina.png",
+        "imageUrl": "https://bestcryptocards.info/assets/images/cards/ripio-card.png",
+        "sourcePage": "https://ripio.com",
+        "version": "Ripio Card Visa 官方平视卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/ripio-card-argentina/",
       "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-21",
+      "modified": "2026-10-21",
+      "verified": "2026-10-21",
+      "id": "rain-spend",
+      "name": "Rain Spend Corporate Card",
+      "aliases": "Rain Spend Corporate Card Rain Cards Inc Visa 企业卡 Web3 corporate card USDC USDT Safe 多签 KYB 美国团队",
+      "mark": "RS",
+      "group": "链上与自托管",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "企业须为美国注册团队（官方定价页写明 Starter 方案仅限美国团队），申请时提交企业注册文件与授权经办人资料，通过机构级企业反洗钱（KYB/AML）审查；每位持卡成员还要单独完成身份核验，控制台会显示待审、人工复核、需补充材料、已通过或被拒等状态。",
+      "intro": "Rain Spend Corporate Card 是 Rain 面向企业团队的 Visa 企业卡：官方产品页写 Rain Corporate Cards 通过 Visa 覆盖 175M+ 商户，企业把稳定币存进智能合约作担保，刷卡后按日从抵押品扣划，也能从 Safe 这类多签钱包出资。管理全部在 use.rain.xyz 网页控制台完成——发卡、设限额与审批流、看月度账单，没有独立 App。官方定价页写 Starter 方案 $0/月，含最多 10 张实体卡与 20 张虚拟卡，并写明仅限美国团队（U.S. teams only）；支持文档写外币费（FX）与跨境费各 1%。个人不能申请。公司 2026-01 完成 2.5 亿美元 C 轮，投后估值 19.5 亿美元。",
+      "metaDescriptionEn": "Rain Spend Corporate Card review: a Visa corporate card for U.S. teams, funded with stablecoin collateral and run from the use.rain.xyz dashboard. $0/month Starter plan, 1% FX and 1% cross-border fees.",
+      "model": "稳定币抵押 + Visa 企业卡清算模型：企业把稳定币存入智能合约作担保，刷卡后按日从抵押品扣划，月度账单统一结算",
+      "network": "Visa（企业信用卡；虚拟卡即时可用，实体卡寄送）",
+      "region": "仅美国注册团队（官方定价页写明 U.S. teams only）；个人不能申请",
+      "fee": "Starter 方案 $0/月，含最多 10 张实体卡与 20 张虚拟卡；官方支持文档写外币费（FX）与跨境费各 1%，没有单独发票，会员费与刷卡费用体现在月度账单里；链上充值与提现是链上交易，Gas 由区块链网络收取，Rain 不另收充值费；法币提现（offramp）暂不支持，只有法币入金。",
+      "rewards": "官方只写 Raindrops 是忠诚度奖励，不是现金、加密货币或存款账户，兑换方式与价值可能变动；没有公布 1.5%–2.5% 之类的固定返现比例。",
+      "paymentCompatibility": {
+        "sourceName": "Rain Spend Corporate Card",
+        "network": "Visa Corporate",
+        "issuer": "Rain（发卡经持牌合作机构与 Visa 授权；Rain 自 2024 年起为 Visa 主会员）",
+        "region": "仅美国注册团队",
+        "researchDate": "2026-10-21",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方产品页、支持文档与卡条款均未提到 Apple Pay，本页不据此推断支持。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方资料未提到 Google Pay。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方没有针对 OpenAI、Claude、AWS 等订阅的说明；企业卡能否扣缴取决于商户网关是否接纳该卡段，需以实际扣款结果为准。"
+        }
+      },
+      "facts": [
+        [
+          "稳定币抵押、刷卡后按日扣划",
+          "官方支持文档写：企业把稳定币存进智能合约作担保，从钱包或 Safe 多签钱包出资，刷卡后按日从抵押品扣划，每月 1 日出账单、8 日清算未结余额。法币提现（offramp）暂不支持，只有法币入金。",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "$0/月 Starter 方案与 1% 两项费用",
+          "官方定价页写 Starter 方案 $0/月，含最多 10 张实体卡与 20 张虚拟卡，并注明仅限美国团队；支持文档写外币费与跨境费各 1%，没有单独发票，费用体现在月度账单里。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "网页控制台管理，没有独立 App",
+          "发卡、设限额与审批流、看账单都在 use.rain.xyz 网页控制台完成；每张卡可单独设限额、锁定、改 PIN 与替换，实体卡寄出后需持卡人自行激活。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "企业稳定币支出的托管边界",
+          "Rain 是金融科技公司，不是银行、交易所或资产托管方：卡由持牌合作机构依 Visa 授权发行，银行服务由 SSB（Member FDIC）提供。企业把稳定币存进智能合约作担保，Rain 不直接持有这笔资金，这是它和「先充值到平台余额」的卡最本质的区别。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "开户资质与适用范围",
+          "官方定价页写明 Starter 方案仅限美国团队，个人不能申请。企业要通过 KYB 审查，每位持卡成员还要单独完成身份核验，控制台会显示待审、人工复核、需补充材料、已通过或被拒等状态。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "个人可以申请 Rain Spend 卡吗？",
+          "不可以。官方定价页写明 Starter 方案仅限美国团队（U.S. teams only），个人不能申请。"
+        ],
+        [
+          "Rain Spend 收哪些费用？",
+          "官方支持文档写外币费（FX）与跨境费各 1%，没有单独发票，会员费与刷卡费用体现在月度账单里；Starter 方案 $0/月。链上充值的 Gas 由区块链网络收取，Rain 不另收充值费。"
+        ],
+        [
+          "Rain Spend 支持 Apple Pay 吗？",
+          "官方产品页、支持文档与卡条款都没有提到 Apple Pay 或 Google Pay，本页按官方未列明处理，不推断支持。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Rain：Rain Corporate Cards 产品页（$0/月 Starter 方案，U.S. teams only）",
+          "url": "https://www.rain.xyz/rain-spend"
+        },
+        {
+          "title": "Rain 支持中心：Rain Spend overview（外币费与跨境费各 1%、月度账单）",
+          "url": "https://www.rain.xyz/rain-spend-support?article=rain-spend-overview"
+        },
+        {
+          "title": "Rain 支持中心：Rain Spend deposit & withdrawal flows（稳定币担保、Safe 多签、暂不支持法币提现）",
+          "url": "https://www.rain.xyz/rain-spend-support?article=rain-spend-deposit-withdrawal-flows"
+        },
+        {
+          "title": "Rain Spend Corporate Card 官方卡面素材核查",
+          "url": "https://raincards.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://raincards.com"
+      },
+      "url": "https://ucard.observer/cards/rain-spend/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-21",
+      "modified": "2026-10-21",
+      "verified": "2026-10-21",
+      "id": "gate-money-card",
+      "name": "Gate Money Visa Card",
+      "aliases": "Gate Money Visa Card Gate Card Global Gate.io 交易所卡 40国合规 多币种清算",
+      "mark": "GM",
+      "group": "交易所卡",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "需持有 Gate 支持开放地区签发的有效护照或身份证件，完成 Gate.io 交易所合规 KYC 实名认证与常住地址核验；官方公告没有公布逐国名单，具体资格以 Gate App 内申请页显示的居住地要求为准。",
+      "intro": "Gate Money Visa Card（gate.io）是 Gate Group 与 Visa 合作推出的加密联名卡，官方 2026-10-08 公告写明「预计」在全球 40+ 市场推出，可在 Gate App 内申请和管理。Gate Money 本身于 2026-10-07 上线，把加密资产、法币、股票/ETF、黄金、银行账户与支付整合在同一个账户里；联名卡把这套账户余额直接接入全球 Visa 承兑网络消费，免收账户月费（0 月费）。该卡支持高达 5% 的 GT 平台币或加密资产返现，支持虚拟卡立等即用及实体卡寄送，并原生兼容 Apple Pay 与 Google Wallet 触碰闪付。截至核验日，具体开放市场与申请资格以产品页为准。",
+      "metaDescriptionEn": "Gate Money Visa Card review: Gate Group's co-branded card with Visa, expected across 40+ markets and managed inside the Gate app. Crypto settlement, up to 5% cashback, Apple Pay.",
+      "model": "交易所现货与资金账户即时清算模型：直接打通 Gate.io 账户资金池，刷卡时秒级撮合代币兑付并通过 Visa 国际网络完成全球清算",
+      "network": "Visa（国际实体卡与 App 虚拟卡，官方原生支持 Apple Pay 与 Google Wallet）",
+      "region": "官方公告只写「预计」40+ 市场，未公布逐国名单；中国大陆用户与美国常住居民不能申领。具体资格以 Gate App 内申请页显示的居住地要求为准。",
+      "fee": "免发卡工本费（活动期间）；免月度账户维护费（0 月费）；基础币种消费 0 交易费；加密货币消费包含实时市价换算点差；ATM 跨国取现费率按 Visa 网络标准执行。",
+      "rewards": "高达 1% 至 5% 阶梯消费返现（以 GT 代币或结算加密资产发放，返现比例依 VIP 会员等级与月度消费额浮动）。",
+      "paymentCompatibility": {
+        "sourceName": "Gate Money Visa Card",
+        "network": "Visa Debit",
+        "issuer": "Gate Group 合作持牌金融机构与 Visa",
+        "region": "全球 40+ 受支持国家与地区",
+        "researchDate": "2026-10-21",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持 Apple Pay，持卡人可在 Gate 移动端 App（8.39.0+ 版本）中一键将虚拟卡或实体卡推送到 Apple 钱包，在线下 POS 终端碰一碰闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方原生兼容 Google Wallet，支持各类具备 NFC 功能的 Android 智能移动设备。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "正规 Visa 国际卡段，支持 3D Secure 安全验证，稳定订阅 OpenAI ChatGPT Plus、Claude Pro、Midjourney、Spotify、Netflix 等跨国主流服务。"
+        }
+      },
+      "facts": [
+        [
+          "40+ 市场的「预计」扩张与 Europe 定位",
+          "官方 2026-10-08 公告写「预计」在全球 40+ 市场推出，并未给出已开通的逐国名单；同期公告里把欧洲列为银行账户服务「计划扩展」的市场之一，而不是已经覆盖的起点。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "现货资金池直扣与 GT 专属返现",
+          "刷卡时可直接扣划 Gate 现货与资金账户余额，无需繁琐预充值，最高可享 5% 的 GT 代币消费奖励，并在 Gate 生态内尊享 VIP 权益加成。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "0 月费亲民结构与多币种自动划转",
+          "支持用户自定义扣款代币优先级序列（如优先扣除 USDT，余额不足自动切换 BTC），全系免除月维护费与年费，大幅降低长期持卡成本。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "主流中心化交易所的全球消费卡突围",
+          "随着交易所合规标准的日趋严格，Gate Group 通过 Gate Money 独立合规实体在全球多地获取支付通道准入，成功将交易所的雄厚流动性注入现实消费场景，为跨国差旅与加密日常消费者提供了极具竞争力的出金工具。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "申请要求与地区合规限制",
+          "公告写「预计」在 40+ 市场推出，未公布逐国开放名单。中国大陆用户及美国常住居民受当地法规政策约束，无法申领使用该卡片；具体资格以 Gate App 内申请页显示的居住地要求为准。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Gate Money Card 与原先欧洲版 Gate Card 有什么区别？",
+          "欧洲版 Gate Card 仅限 EEA 居民申请；Gate Money Visa Card 是 Gate 与 Visa 合作的新卡，官方 2026-10-08 公告写「预计」在全球 40+ 市场推出，但没有公布逐国名单，所以目前只能说它面向更大的市场范围，不能说已经覆盖哪些国家。"
+        ],
+        [
+          "返现如何结算与领取？",
+          "消费返现以 GT 代币或等值加密资产直接存入持卡人的 Gate 现货账户中，返现比例根据用户的 Gate VIP 会员等级与月度刷卡额度梯级上升，最高可达 5%。"
+        ],
+        [
+          "可以在 ATM 自动柜员机取现吗？",
+          "可以。实体卡持卡人激活并设置安全 PIN 码后，可在全球贴有 Visa 标识的 ATM 机具上提取当地法定货币现金。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Gate.io 官方公告：Gate Money 上线，整合加密、法币、股票与银行账户（2026-10-07）",
+          "url": "https://www.gate.io"
+        },
+        {
+          "title": "Gate 官方公告：与 Visa 合作推出 Gate Money 卡，预计覆盖 40+ 市场（2026-10-08）",
+          "url": "https://www.gate.com"
+        },
+        {
+          "title": "Gate Money Visa Card 官方卡面素材核查",
+          "url": "https://gate.io"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://gate.io"
+      },
+      "url": "https://ucard.observer/cards/gate-money-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-21",
+      "modified": "2026-10-21",
+      "verified": "2026-10-21",
+      "id": "benpay-card",
+      "name": "BenPay Card",
+      "aliases": "BenPay Card BenFen zkLogin self-custody yield card Visa 零知识证明 自托管 链上生息 Alpha Sigma Delta 微信支付宝",
+      "mark": "BP",
+      "group": "链上与自托管",
+      "status": "beta",
+      "kyc": "required",
+      "kycNote": "开卡要做 KYC：KYC 分 V1（手机/邮箱）、V2（证件 + 人脸）、V3 三级，开卡需提交材料并通过审核，不是免 KYC。",
+      "intro": "BenPay Card 是 BenFen 生态的链上生息卡：官方帮助中心写它「专为 Web3 用户设计，建立在 BenFen 区块链上」，卡内余额点一下 Earn 就进入链上生息，刷卡时随时可用。App 用 zkLogin 以 Google / Apple 账号登录生成链上身份，支持 Apple Pay、Google Pay、支付宝与微信支付。目前有 Alpha、Sigma、Delta 三种卡，费率与保证金各不相同，都需完成 KYC（证件 + 人脸）。以太坊、Arbitrum 等公链只是跨链充值的来源，卡与生息资产本身在 BenFen 自有链上。",
+      "metaDescriptionEn": "BenPay Card review: BenFen's on-chain yield Visa card. zkLogin Google/Apple login, Earn on card balance, Alpha/Sigma/Delta tiers, Apple Pay, Alipay and WeChat Pay. KYC required.",
+      "model": "链上生息 + zkLogin 自托管模型：卡内余额一键进入 BenFen 链上生息，刷卡时随时赎回；Web2 社交账号经 zkLogin 生成链上身份，免助记词",
+      "network": "Visa（实体卡与虚拟卡；Alpha 侧重 Apple Pay / Google Pay，Sigma 侧重支付宝 / 微信支付，Delta 两者都支持）",
+      "region": "全球多数地区可申请；Alpha、Sigma 不对俄罗斯、白俄罗斯、古巴、伊朗、朝鲜等地开放，Delta 不对新加坡开放。iOS 只在美国、加拿大、澳大利亚、香港 4 区上架，Google Play 全部 174 区可下载。",
+      "fee": "官方费率表（2026-08-04 更新）：开卡费 9.9U（三款相同）；月费 Alpha $0、Sigma 首月免费后 $1/月、Delta $1/月；充值费 Alpha 0%、Sigma 1.50%、Delta 0.5%（最低 $0.01）；授权费 Alpha 1%、Sigma 0.50%（最低 $0.50）、Delta 每笔 $0.40（美元交易）或 $0.05；跨境/外币费 Alpha 1.5%、Sigma 每笔非美元交易 $0.50、Delta 1.50%；提现/加密兑换费 Alpha 1%、Sigma 1%。",
+      "rewards": "官方帮助中心没有公布固定返现比例，只写「消费返现」「推荐奖励」等活动；具体比例以 App 内活动页为准，本页不写具体数字。",
+      "paymentCompatibility": {
+        "sourceName": "BenPay Card",
+        "network": "Visa",
+        "issuer": "BenFen 生态持牌合作机构与 Visa",
+        "region": "国际合规开放地区",
+        "researchDate": "2026-10-21",
+        "applePay": {
+          "status": "official",
+          "detail": "官方帮助中心写 Alpha 卡侧重国际手机支付、支持 Apple Pay 与 Google Pay；Delta 卡同时支持 Apple Pay、Google Pay 与支付宝。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "同上：官方帮助中心把 Apple Pay 与 Google Pay 列为 Alpha、Delta 两款卡的支持方式。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方帮助中心没有针对 OpenAI、Claude 等订阅的说明；Visa 卡段能否扣缴取决于商户网关，需以实际扣款结果为准。"
+        }
+      },
+      "facts": [
+        [
+          "卡在 BenFen 自有链上，生息一键开启",
+          "官方帮助中心写 BenPay Card「建立在 BenFen 区块链上」，点 Earn 按钮卡内余额就进入链上生息，随时可用；收益来自链上 DeFi 协议，官方同时列出智能合约风险、跨链桥风险与市场风险。以太坊、Arbitrum 等只是跨链充值的来源链。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "三款卡费率差异明显",
+          "官方费率表：开卡费都是 9.9U，月费 Alpha $0、Sigma 与 Delta $1/月；充值费 Alpha 0%、Sigma 1.50%、Delta 0.5%；授权费与跨境费也各不相同。选卡前应按自己的消费地区逐项核对，不能只看「0 月费」。",
+          [
+            0
+          ]
+        ],
+        [
+          "用 zkLogin 以 Google / Apple 账号登录",
+          "官方 App Store 描述写支持用 Google / Apple 账号一键创建链上身份，并支持稳定币支付 Gas 与赞助交易；这是登录方式的改变，不等于免 KYC——开卡仍需证件与人脸核验。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "链上生息卡的资金路径",
+          "BenPay 把「存着生息」和「刷卡消费」放在同一个余额里：卡内余额进入链上生息后，刷卡时按需赎回。官方风险披露写明收益来自 Aave、Compound、Sky 这类 DeFi 协议，存在智能合约风险、跨链桥风险与市场风险，极端行情下本金也可能波动。",
+          [
+            0
+          ]
+        ],
+        [
+          "申请资格与地区限制",
+          "三款卡的受限国家名单不同：Alpha 不对阿富汗、白俄罗斯、古巴、伊朗、朝鲜、俄罗斯、苏丹、叙利亚、委内瑞拉等地开放；Sigma 的名单更长；Delta 只对新加坡不开放。iOS 只在美国、加拿大、澳大利亚、香港 4 区上架，Google Play 全部 174 区可下载。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "BenPay 是免 KYC 卡吗？",
+          "不是。帮助中心写 KYC 分 V1（手机/邮箱）、V2（证件 + 人脸）、V3 三级，开卡要提交材料并通过审核；App Store 的 zkLogin 只改变登录方式，不替代身份核验。"
+        ],
+        [
+          "BenPay 支持哪些支付方式？",
+          "官方帮助中心写 Alpha 卡侧重国际手机支付、支持 Apple Pay 与 Google Pay；Sigma 卡侧重支付宝与微信支付；Delta 卡同时支持 Apple Pay、Google Pay 与支付宝。"
+        ],
+        [
+          "生息收益从哪里来？",
+          "官方风险披露写收益来自链上 DeFi 协议（如 Aave、Compound、Sky），年化收益会随市场波动，存在智能合约、跨链桥与市场风险，本金也可能波动。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "BenPay 帮助中心：What are the advantages of the BenPay Card?（建立在 BenFen 区块链上、三款卡的支持方式与充值链）",
+          "url": "https://support.benpay.com/eng/docs/What-are-the-advantages-of-the-BenPay-Card"
+        },
+        {
+          "title": "BenPay 帮助中心：Rate and limit issues（2026-08-04 更新的三款卡费率表）",
+          "url": "https://support.benpay.com/eng/docs/Rate-and-limit-issues"
+        },
+        {
+          "title": "BenPay 帮助中心：Does BenPay Card have country and regional restrictions?（三款卡各自的受限国家）",
+          "url": "https://support.benpay.com/eng/docs/Does-BenPay-Card-have-country-and-regional-restrictions-Does-it-require-KYC"
+        },
+        {
+          "title": "BenPay Card 官方卡面素材核查",
+          "url": "https://benfen.org"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://benfen.org"
+      },
+      "url": "https://ucard.observer/cards/benpay-card/",
+      "statusLabel": "公开测试 · 地区受限"
+    },
+    {
+      "published": "2026-10-21",
+      "modified": "2026-10-21",
+      "verified": "2026-10-21",
+      "id": "cardex-card",
+      "name": "Cardex Crypto Debit Card",
+      "aliases": "Cardex Crypto Debit Card Cardex Fintava 尼日利亚 Nigeria NGN 多币种钱包 Visa 虚拟卡 实体卡 ATM 取现",
+      "mark": "CD",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方帮助中心与隐私政策都写明注册时要提供姓名、地址、邮箱、电话与政府身份证件用于身份核验；隐私政策没有提到尼日利亚 NDPA，也没有写明运营主体。",
+      "intro": "Cardex 是尼日利亚金融科技公司 Fintava 推出的加密卡 App：官方商店描述写「直接从多币种钱包以奈拉付款，提供虚拟卡与实体卡，适合全球线上支付与 ATM 取现」。卡与账户都在 App 内管理，官网 usecardex.com 只有介绍、FAQ、法律文件与候补名单。Fintava 官网写卡片与 CBN 持牌的 Loma Bank 合作发行。App Store 与 Google Play 的卖家都是 FINTAVA TECHNOLOGY LIMITED（阿布贾）。",
+      "metaDescriptionEn": "Cardex Crypto Debit Card review: Fintava's Nigeria crypto card app. Pay in naira from a multi-currency wallet, virtual and physical cards, ATM withdrawals, KYC required.",
+      "model": "多币种钱包 + 奈拉结算模型：加密资产充入钱包后按 App 汇率换成奈拉余额，再用虚拟卡或实体卡在线上、POS 与 ATM 消费取现",
+      "network": "官方商店页只写「虚拟卡与实体卡」，没有列出卡组织；本页不推测 Visa、Mastercard 或 Verve 的覆盖范围。",
+      "region": "面向尼日利亚用户（官方 App 商店页与隐私政策均以尼日利亚为运营地）；具体可用国家以 App 显示为准。",
+      "fee": "官方公开页面没有列出完整费率表；开卡、充值、FX 与 ATM 费用以 App 内显示的价目为准。",
+      "rewards": "官方公开页面没有公布返现或推荐奖励条款。",
+      "paymentCompatibility": {
+        "sourceName": "Cardex Crypto Debit Card",
+        "network": "官方商店页未列出卡组织",
+        "issuer": "FINTAVA TECHNOLOGY LIMITED（App Store 与 Google Play 的卖家）；Fintava 官网写卡片与 CBN 持牌的 Loma Bank 合作",
+        "region": "尼日利亚",
+        "researchDate": "2026-10-21",
+        "applePay": {
+          "status": "unknown",
+          "detail": "官方 App 商店页与官网都没有提到 Apple Pay，本页不据此推断支持。"
+        },
+        "googlePay": {
+          "status": "unknown",
+          "detail": "官方资料未提到 Google Pay。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方没有针对海外订阅的说明；能否扣缴取决于商户网关与卡段，需以实际扣款结果为准。"
+        }
+      },
+      "facts": [
+        [
+          "多币种钱包直接以奈拉付款",
+          "官方商店描述写：用虚拟卡与实体卡直接从多币种钱包以奈拉付款，适合全球线上支付与 ATM 取现。加密资产充入钱包后按 App 汇率换成奈拉余额，这是它和「先换汇再充值」的卡不同的地方。",
+          [
+            0
+          ]
+        ],
+        [
+          "注册要交政府证件做身份核验",
+          "隐私政策写注册时收集姓名、地址、邮箱、电话与政府证件（用于身份核验），以及银行账户与交易记录；这些是 KYC 的一部分，不是可选项。",
+          [
+            1
+          ]
+        ],
+        [
+          "运营与发卡关系",
+          "App Store 与 Google Play 的卖家都是 FINTAVA TECHNOLOGY LIMITED（阿布贾）；Fintava 官网写卡片与 CBN 持牌的 Loma Bank 合作。隐私政策没有写运营主体与适用法律，也没有提尼日利亚 NDPA。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "新兴市场加密支付的现实需求",
+          "尼日利亚长期受本币贬值与外汇短缺困扰，把加密资产换成能直接消费的奈拉余额是真实需求。Cardex 把这件事放进一个 App：多币种钱包、虚拟卡、实体卡与 ATM 取现。要注意的是，官方公开页面没有公布完整费率表，开卡与充值成本需要以 App 内价目为准。",
+          [
+            0
+          ]
+        ],
+        [
+          "身份核验与合规边界",
+          "注册要提交政府证件与银行账户信息，属于完整的 KYC 流程。发卡合作行持牌可以核实，但 Cardex 的隐私政策没有提到尼日利亚 NDPA，也没有写明运营主体——「合规卡」这个说法只能部分印证。",
+          [
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Cardex 需要 KYC 吗？",
+          "需要。隐私政策写注册时收集姓名、地址、邮箱、电话与政府证件用于身份核验，以及银行账户与交易记录。"
+        ],
+        [
+          "Cardex 支持哪些卡组织？",
+          "官方 App 商店页只写「虚拟卡与实体卡」，没有列出卡组织；本页不推测 Visa、Mastercard 或 Verve 的覆盖范围。"
+        ],
+        [
+          "Cardex 的费率是多少？",
+          "官方公开页面没有公布完整费率表，开卡、充值、FX 与 ATM 费用以 App 内显示的价目为准。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Cardex 官方网站（介绍、FAQ、法律文件与候补名单）",
+          "url": "https://www.usecardex.com/"
+        },
+        {
+          "title": "Cardex 隐私政策（注册收集的字段与身份核验）",
+          "url": "https://www.usecardex.com/policy/privacy"
+        },
+        {
+          "title": "Google Play：Cardex（FINTAVA TECHNOLOGY LIMITED，多币种钱包与 ATM 取现）",
+          "url": "https://play.google.com/store/apps/details?id=com.cardexapp"
+        },
+        {
+          "title": "Cardex Crypto Debit Card 官方卡面素材核查",
+          "url": "https://cardex.africa"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://cardex.africa"
+      },
+      "url": "https://ucard.observer/cards/cardex-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-21",
+      "modified": "2026-10-21",
+      "verified": "2026-10-21",
+      "id": "wanttopay-card",
+      "name": "Wanttopay Virtual Card",
+      "aliases": "Wanttopay Wanttopay Virtual Card Telegram Mini App Bot Visa Prepaid Easy Smart Pro Apple Pay Google Pay TON USDT USDC",
+      "mark": "WP",
+      "group": "独立钱包与支付卡",
+      "status": "review",
+      "kyc": "required",
+      "kycNote": "开卡前必须完成身份核验：官方帮助中心写要确认手机号、邮箱和身份；隐私政策写合作方在 KYC 中会采集证件照和人脸照片。不是「轻 KYC」。",
+      "intro": "Wanttopay 是 Telegram Mini App 里的虚拟卡平台，官网 wanttopay.net（wanttopay.com 现在只跳转到一个推广落地页，不是产品站）。官方定价页把卡分成四档：Prepaid（$10–200 固定面额）、Easy、Smart 与 Pro，月费 $0 或 $6，开卡费 $0–$35。只有 Smart 与 Pro 官方标注支持 Apple Pay、Google Pay 与线下消费；充值支持法币与 USDT、USDC、TON、BTC、ETH、BNB 等加密资产。开卡前必须完成身份核验（手机、邮箱、身份），KYC 由合作方执行。运营主体为香港注册的 WTP Technology Limited（公司编号 76394774）。",
+      "metaDescriptionEn": "Wanttopay review: Telegram Mini App virtual cards in four tiers, Prepaid/Easy/Smart/Pro, $0 or $6 a month. Apple Pay and Google Pay on Smart and Pro only. KYC required.",
+      "model": "Telegram Mini App 多档虚拟卡模型：Prepaid 固定面额、Easy / Smart / Pro 可充值，按档位区分是否支持 Apple Pay、Google Pay 与线下消费",
+      "network": "Visa 与 Mastercard（官网卡种页列出四档；只有 Smart 与 Pro 标注支持 Apple Pay、Google Pay 与线下消费）",
+      "region": "主要面向俄语用户（官网与帮助中心均为俄语优先，另有英文版）；具体可用地区以 Mini App 内显示为准。",
+      "fee": "官方定价页：开卡费 Prepaid $0、Easy $10、Smart $15、Pro $35；月费 Prepaid $0，其余三档 $6/月；最低充值 $10；交易费 Prepaid 与 Easy $0.25–$0.50，Smart $0.50（Apple / Google Pay 交易另加 0.2%），Pro $0.50 加交易额 1%；加密充值费 Easy 9%、Smart 7%。",
+      "rewards": "官方定价页没有列出常规返现；官网活动只写新用户注册后 7 天内完成核验可获 Easy 卡开卡 30% 折扣码。",
+      "paymentCompatibility": {
+        "sourceName": "Wanttopay Virtual Card",
+        "network": "Visa / Mastercard（官网未逐档列出卡组织）",
+        "issuer": "公开要约写公司不是发卡方，发卡方是没有具名的境外第三方",
+        "region": "主要面向俄语用户；具体可用地区以 Mini App 内显示为准",
+        "researchDate": "2026-10-21",
+        "applePay": {
+          "status": "official",
+          "detail": "官方定价页只在 Smart 与 Pro 两档标出 Apple Pay；Prepaid 与 Easy 两档标为不支持。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "同上：官方定价页只在 Smart 与 Pro 两档标出 Google Pay。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方页面没有针对 OpenAI、Claude 等订阅的专门说明，也没有公布扣款成功率；本页不写「业界领先」这类无法核实的结论。"
+        }
+      },
+      "facts": [
+        [
+          "四档卡，价格与能力差别很大",
+          "官方定价页：Prepaid $10–200 固定面额、开卡 $0、月费 $0；Easy 开卡 $10、$6/月；Smart 开卡 $15、$6/月，支持 Apple Pay、Google Pay 与线下消费；Pro 开卡 $35、$6/月，单月额度上限 $50,000。选卡前先看自己需要的档位，不要只看「0 月费」。",
+          [
+            0
+          ]
+        ],
+        [
+          "开卡前必须完成身份核验",
+          "官方帮助中心写：在 Mini App 里点「开卡」后，要先确认手机号、邮箱和身份。隐私政策还写合作方在 KYC 中会采集证件照和人脸照片。所谓「轻 KYC」不成立。",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "Telegram Mini App 内完成全部操作",
+          "注册、核验、开卡、充值都在 Telegram Mini App 里完成，不需要下载独立 App；官网 wanttopay.net 只有介绍、资费与法律文件。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "Telegram 里的虚拟卡，门槛在核验这一步",
+          "Wanttopay 把开卡流程放进 Telegram Mini App，确实比下载独立 App 轻。但「轻」只体现在入口，不体现在审核：帮助中心写开卡前要确认手机号、邮箱和身份，隐私政策写合作方会采集证件照与人脸照片。把它当成免 KYC 卡会误判风险。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "资费要看档位，不要只看月费",
+          "Prepaid 免月费但只能买固定面额；Easy、Smart、Pro 都是 $6/月，但开卡费从 $10 到 $35 不等，加密充值费也不同（Easy 9%、Smart 7%）。Smart 与 Pro 才支持 Apple Pay、Google Pay 与线下消费。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Wanttopay 是免 KYC 卡吗？",
+          "不是。官方帮助中心写开卡前必须确认手机号、邮箱和身份；隐私政策写合作方在 KYC 中会采集证件照和人脸照片。"
+        ],
+        [
+          "Wanttopay 支持 Apple Pay 吗？",
+          "官方定价页只在 Smart 与 Pro 两档标出 Apple Pay，Prepaid 与 Easy 标为不支持。"
+        ],
+        [
+          "Wanttopay 收哪些费用？",
+          "官方定价页：开卡费 $0–$35、月费 $0 或 $6、最低充值 $10，交易费按档位从 $0.25 到「$0.50 加 1%」不等，加密充值费 Easy 9%、Smart 7%。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Wanttopay 官网：定价与卡种对比（Prepaid / Easy / Smart / Pro，2026 年版）",
+          "url": "https://wanttopay.net/en/cards/pricing"
+        },
+        {
+          "title": "Wanttopay 帮助中心：常见问题（开卡前需确认手机号、邮箱与身份）",
+          "url": "https://faq.wanttopay.net/wanttopay-app/kak-polzovatsya-kartoi/populyarnye-voprosy"
+        },
+        {
+          "title": "Wanttopay 隐私政策（控制者 WTP Technology Limited，合作方 KYC 采集证件照与人脸）",
+          "url": "https://wanttopay.net/en/legal/privacy"
+        },
+        {
+          "title": "Wanttopay Virtual Card 官方卡面素材核查",
+          "url": "https://wanttopay.com"
+        }
+      ],
+      "cardArt": {
+        "status": "missing",
+        "label": "未找到可核实的官方卡面",
+        "sourcePage": "https://wanttopay.com"
+      },
+      "url": "https://ucard.observer/cards/wanttopay-card/",
+      "statusLabel": "版本待核"
     },
     {
       "published": "2026-10-15",
