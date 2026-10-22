@@ -1,8 +1,8 @@
 {
-  "version": "2026-10-21",
-  "description": "全网 206 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
+  "version": "2026-10-22",
+  "description": "全网 208 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "totalAudited": 206,
+  "totalAudited": 208,
   "cards": [
     {
       "id": "ether-fi",
@@ -4123,6 +4123,46 @@
       "regulatoryFramework": "一般数据权利 / 他国法规",
       "privacyPolicyUrl": "https://wanttopay.net/en/legal/privacy",
       "profileUrl": "https://ucard.observer/cards/wanttopay-card/"
+    },
+    {
+      "id": "slash-card",
+      "name": "Slash Card",
+      "clientType": "仅 App",
+      "appName": "Slash App（Slash Vision Japan K.K.）",
+      "webSupport": "仅 App",
+      "appStoreChinaAvailable": "No",
+      "appStoreCoverage": 1,
+      "appStoreUrl": "https://apps.apple.com/jp/app/id6762424443",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.slashvision.slash",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "帮助中心《解約についてのご案内》：须距最后一次用卡约 1 周以上、无未结算消费、卡内余额为 0（最后一张卡要全部提回钱包），再通过页面底部的解約依頼表单提交姓名、注册邮箱与卡号后四位；客服处理完成后发通知邮件，随后自行剪断实体卡的 IC 芯片；年费不退，再次使用需重新走本人确认与发卡流程。注销后交易明细仍可在 App 内查看。帮助中心没有单独的数据删除入口，隐私政策只写可向窗口请求删除",
+      "deletionSource": "https://slash-card.zendesk.com/hc/ja/articles/5398399202334",
+      "privacyScore": 4,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "一般数据权利 / 他国法规",
+      "privacyPolicyUrl": "https://slash.vision/privacy",
+      "profileUrl": "https://ucard.observer/cards/slash-card/"
+    },
+    {
+      "id": "cryptopay-kz",
+      "name": "#CryptoPay",
+      "clientType": "Web 账户可用，卡片以 App 为主",
+      "appName": "bcc.kz（JSC Bank CenterCredit）",
+      "webSupport": "Web 账户可用，卡片以 App 为主",
+      "appStoreChinaAvailable": "No",
+      "appStoreCoverage": 174,
+      "appStoreUrl": "https://apps.apple.com/kz/app/id743617904",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=kz.bcc.starbanking",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "隐私政策写可要求销毁个人数据或撤回同意，须提交书面申请：可到银行网点办理，或发到 info@bcc.kz、拨打 505；书面申请按银行内部规程与哈萨克斯坦法律规定的期限处理。官方 #CryptoPay 页面没有写关卡入口；卡片是绑在 bcc.kz 账户上的数字卡，关卡与销户需通过银行渠道办理；Google Play 标注可申请删除数据",
+      "deletionSource": "https://www.bcc.kz/personal/privacy-policy/",
+      "privacyScore": 2,
+      "privacyFriendliness": "较差",
+      "regulatoryFramework": "一般数据权利 / 他国法规",
+      "privacyPolicyUrl": "https://www.bcc.kz/personal/privacy-policy/",
+      "profileUrl": "https://ucard.observer/cards/cryptopay-kz/"
     }
   ]
 }

@@ -2022,8 +2022,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-09-13",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "id": "tria",
       "name": "Tria Card",
       "aliases": "tria signature premium",
@@ -2034,21 +2034,21 @@
       "model": "钱包关联卡计划",
       "network": "按获批卡计划核对",
       "region": "卡片和收费依地区及卡协议确认，本页主要核对平台返现条款。",
-      "fee": "年费和卡费应查适用卡协议，平台返现条款不是完整费率表。",
+      "fee": "官方产品页按 Lite、Pro、Max 三档列出返现：Lite 首 $1,000/月 1.5%、其后 0.5%；Pro 首 $1,000/月 4.5%、其后 1%；Max 首 $2,000/月 6%、其后 1%。卡费与年费另见适用卡协议：官方卡协议列 Virtual $25、Plastic $109、Metal $250，FX 最高 3%、ATM $2 + 3%。法务页《card-cashback-terms》仍沿用 Virtual / Signature / Premium 旧档名，并写首档上限 $100，与产品页的 $1,000 不一致，两处口径未统一。",
       "rewards": "Virtual 首 100 美元 1.5%；Signature 首 1,000 美元 4.5%；Premium 首 2,000 美元 6%，超额降档。",
       "facts": [
         [
           "超额消费",
-          "Virtual 超额部分为 0.5%；Signature 与 Premium 超额部分为 1%。",
+          "Lite 超额部分为 0.5%；Pro 与 Max 超额部分为 1%。",
           [
-            0
+            2
           ]
         ],
         [
           "时间边界",
-          "该分段规则从 2026-06-01 起适用，历史无月度消费上限规则不应继续套用。",
+          "该分段规则从 2026-06-01 起适用，历史无月度消费上限规则不应继续套用。官方产品页与法务页对首档上限的写法不一致（$1,000 与 $100），下单前以申请页显示的当期条款为准。",
           [
-            0
+            2
           ]
         ],
         [
@@ -2103,17 +2103,18 @@
         "issuer": "依卡协议",
         "region": "依地区与卡协议",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页在 Lite / Pro / Max 三档均列出 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页在 Lite / Pro / Max 三档均列出 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -4772,8 +4773,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -4856,17 +4857,18 @@
         "issuer": "Rain Liquidity",
         "region": "排除 🇨🇳大陆等多国",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页称虚拟卡可加入 Apple Wallet，并可立即使用；实体卡不支持 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Google Pay，并称虚拟卡可加入 Google Wallet。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -5489,8 +5491,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -5565,17 +5567,18 @@
         "issuer": "Lead Bank 发行 / Bridge 管理",
         "region": "Airtm 支持市场（拉美为主）",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -5705,8 +5708,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -5796,17 +5799,18 @@
         "issuer": "Lead Bank 发行 / Bridge 管理",
         "region": "🇺🇸、🇲🇽",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方帮助页列 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方帮助页列 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -6604,8 +6608,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -6688,17 +6692,18 @@
         "issuer": "Bridge 与地区发行合作方",
         "region": "支持国家清单（含 🇺🇸），当前为虚拟卡",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方帮助页列 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方帮助页列 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -7469,8 +7474,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -7545,17 +7550,18 @@
         "issuer": "Baanx（🇺🇸 与 Cross River Bank）",
         "region": "EEA、🇬🇧🇺🇸🇨🇦🇨🇭🇨🇴🇲🇽🇧🇷",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -7571,10 +7577,10 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "链上与自托管",
-      "status": "regional",
+      "status": "winddown",
       "kyc": "unknown",
       "aliases": "1inch crypto debit Mastercard Crypto Life Baanx stablecoin card",
       "mark": "1",
@@ -7625,15 +7631,15 @@
       ],
       "id": "oneinch-card",
       "name": "1inch Card",
-      "intro": "1inch 与 Crypto Life / Baanx 合作的预付 Mastercard，由 Monavate 发行。支持的加密资产在刷卡时转换为法币，可通过 Apple Pay、Google Pay 以及 ATM 使用。",
+      "intro": "1inch Card 是 1inch 与 Crypto Life / Baanx 合作、由 Monavate 发行的预付 Mastercard，支持的加密资产在刷卡时转换为法币。官方帮助中心已宣布该卡计划停服：新用户注册关闭，现有卡片与账户暂时仍可使用，最迟于 2026 年 12 月 18 日终止；官方建议持卡人尽早提取或消费卡内余额。",
       "model": "1inch / CL Card 账户内加密资产即时兑换",
       "network": "Mastercard；Monavate 发行，Crypto Life / Baanx 运营服务",
-      "region": "官方帮助页称主要面向符合资格的欧盟国家，具体国家与功能以申请页面为准；钱包服务支持范围不能替代卡片资格。",
+      "region": "官方帮助页称主要面向符合资格的欧盟国家。该计划已停止接受新用户：现有卡片可用至 2026-12-18 前后，具体时间由发行方与提供方决定，不再受理新申请。",
       "fee": "费用由 CL 卡计划及所在国家确定；1inch 官方帮助页指向产品页获取当前费用，没有单一全球价目。",
       "rewards": "未核实到 1inch Card 面向所有用户的常驻返现规则。",
       "sources": [
         {
-          "title": "1inch：Card 产品页、支持资产与发行合作方",
+          "title": "1inch 官方 Card 产品页（现已 301 跳转至停服常见问题）",
           "url": "https://1inch.com/card"
         },
         {
@@ -7643,6 +7649,10 @@
         {
           "title": "1inch：卡片服务条款",
           "url": "https://1inch.com/assets/1inch_com_terms_of_use.pdf"
+        },
+        {
+          "title": "1inch 官方帮助中心：Card 停服常见问题（新注册已关闭，最迟 2026-12-18 终止）",
+          "url": "https://help.1inch.com/en/articles/17662416-1inch-card-faq"
         }
       ],
       "paymentCompatibility": {
@@ -7661,7 +7671,8 @@
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -7673,7 +7684,7 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/oneinch-card/",
-      "statusLabel": "地区受限 · 资格需核实"
+      "statusLabel": "运营收尾 · 状态待核"
     },
     {
       "published": "2026-09-27",
@@ -8489,8 +8500,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -8585,17 +8596,18 @@
         "issuer": "PECUNIA CARDS EDE / PECUNPAY（🇪🇸）",
         "region": "仅 EEA（部分属地除外）",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方产品页列 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -9335,8 +9347,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -9441,17 +9453,18 @@
         "issuer": "依地区",
         "region": "🇺🇸（除 LA、NY、属地）；🇬🇧 另有计划",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方借记卡页列 Apple Pay，但原文带「when available」条件，不保证所有地区可用。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方借记卡页列 Google Pay，但原文带「when available」条件，不保证所有地区可用。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-10-22"
       },
       "cardArt": {
         "status": "official",
@@ -10569,8 +10582,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -10641,14 +10654,14 @@
         "network": "以适用卡版本为准",
         "issuer": "Nimbus LLC d/b/a Third National（官方帮助中心列示）",
         "region": "需完成 KYC；产品可用性依本地规则及合作方",
-        "researchDate": "2026-09-29",
+        "researchDate": "2026-10-22",
         "applePay": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方首页列 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方首页列 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
@@ -11631,8 +11644,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -11643,7 +11656,7 @@
       "model": "Ripio 账户内选择加密资产或 BRL 余额，交易时扣款",
       "network": "Visa；巴西预付卡计划",
       "region": "本条目核对的是 Ripio 巴西产品；其他拉美国家可能有不同卡型、条款和可申请条件。",
-      "fee": "官方巴西条款列开卡及年费为零；ATM 每笔 R$6.90，第二次起补发费 R$9.99。",
+      "fee": "官方巴西条款列开卡及年费为零；ATM 每笔 R$6.90，第二次起补发费 R$9.99。条款第 13.10 条另写：以外币消费时，合作方将在交易金额上加收 5% 的费用；条款没有逐字写明由持卡人承担，下单前应以 App 报价确认。",
       "rewards": "官方资料列用加密资产消费 2% 返 USDT、BTC 或 ETH；用 BRL 消费 0.5%。新用户优惠须另看活动期限。",
       "facts": [
         [
@@ -11656,16 +11669,15 @@
         ],
         [
           "费用",
-          "官方条款列开卡和年费为零、ATM 每笔 R$6.90；第二次起补发卡 R$9.99。",
+          "官方条款列开卡和年费为零、ATM 每笔 R$6.90；第二次起补发卡 R$9.99。第 13.10 条另列外币消费加收 5%，但未逐字写明由持卡人承担，应按 App 实际报价理解。",
           [
             1
           ]
         ],
         [
           "返现",
-          "以加密资产支付列 2% 返现，以 BRL 支付列 0.5%；新账户前 30 天较高返现属于优惠，不应当作永久基础费率。",
+          "以加密资产支付列 2% 返现，以 BRL 支付列 0.5%；新账户前 30 天较高返现属于优惠，不应当作永久基础费率。条款另列返现上限为每月 R$500。",
           [
-            0,
             1
           ]
         ],
@@ -11704,7 +11716,7 @@
         "network": "以适用卡版本为准",
         "issuer": "Ripio 与 DOCK Instituição de Pagamento 合作；以当地卡条款为准",
         "region": "巴西产品版本；账户需通过当地申请资格审核",
-        "researchDate": "2026-09-29",
+        "researchDate": "2026-10-22",
         "applePay": {
           "status": "official",
           "detail": "Ripio 官方产品页列 Apple Pay。"
@@ -11985,8 +11997,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-09-29",
-      "verified": "2026-09-29",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -11997,7 +12009,7 @@
       "model": "向 Offramp 账户从支持网络充值稳定币，转换后用 Visa 余额消费",
       "network": "Visa Signature（官方卡 FAQ）；发行合作方依用户适用协议",
       "region": "用 App 内的可用性检查器按国家查询；网站未用单一全球名单保证所有地区都能申请。",
-      "fee": "官方主页当前称虚拟卡免开卡费和年费、外币消费约 1.5%、ATM 取现约 2%；实体卡运费视地区而定。",
+      "fee": "官方帮助中心列：虚拟卡开卡与年费 $0，实体卡首次申请 $100、补卡 $100；非 USD 消费 1.5%；ATM 取现 2%，仅实体卡支持，虚拟卡不能取现。",
       "rewards": "未查到统一持续返现。",
       "facts": [
         [
@@ -12016,9 +12028,9 @@
         ],
         [
           "费用",
-          "官网费用说明列非 USD 消费 1.5%，ATM 取现 2%；虚拟卡无发行 / 年费。",
+          "官方帮助中心列虚拟卡开卡与年费 $0、实体卡首次申请 $100、补卡 $100；非 USD 消费 1.5%；ATM 取现 2% 且仅实体卡支持。官网营销页没有完整费率，费用以帮助中心与申请页为准。",
           [
-            0
+            1
           ]
         ],
         [
@@ -12057,7 +12069,7 @@
         "network": "以适用卡版本为准",
         "issuer": "Offramp 与金融服务合作方提供；持卡协议应确认具体发行实体",
         "region": "以官方 App 可用性检查器查询居住地",
-        "researchDate": "2026-09-29",
+        "researchDate": "2026-10-22",
         "applePay": {
           "status": "unknown",
           "detail": "本轮查阅的官方资料未列明；不代表不支持。"
@@ -19479,16 +19491,19 @@
         {
           "title": "Lemon 帮助中心信用条款（2026-10-14 核对）",
           "url": "https://help.lemon.me"
+        },
+        {
+          "title": "Lemon Bitcoin-Backed Credit Card 官方卡面素材核查",
+          "url": "https://lemon.me/lemon_card"
         }
       ],
       "cardArt": {
         "status": "official",
         "path": "/card-art/lemon-credit-card.webp",
         "file": "lemon-credit-card.webp",
-        "sourceFile": "lemon-credit-card.png",
-        "imageUrl": "https://bestcryptocards.info/assets/images/cards/lemon-card.png",
-        "sourcePage": "https://lemon.me",
-        "version": "Lemon Visa 官方卡面",
+        "imageUrl": "https://framerusercontent.com/images/dROAONgAD1dLN4nQbbj8HP3gJs.webp?width=1024&height=1024",
+        "sourcePage": "https://lemon.me/lemon_card",
+        "version": "Lemon Bitcoin-Backed Credit Card 官方卡面（黑色 Visa 信用卡，官网产品图）",
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/lemon-credit-card/",
@@ -21214,20 +21229,20 @@
     },
     {
       "published": "2026-10-16",
-      "modified": "2026-10-16",
-      "verified": "2026-10-16",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
       "id": "picnic-card",
       "name": "Picnic Visa Card",
       "aliases": "Picnic Visa Card usepicnic Gnosis Chain Safe Monerium Web3 IBAN Apple Pay 自托管 美元 欧元 借记卡",
       "mark": "P",
       "group": "独立钱包与支付卡",
-      "status": "regional",
+      "status": "winddown",
       "kyc": "required",
       "kycNote": "遵循国际反洗钱合规要求，支持有效个人法定身份证件完成身份核验，无繁琐居住证明（POA）障碍。",
       "intro": "Picnic Visa Card（usepicnic.com）是一款基于 Gnosis Chain 的自托管 Web3 支付借记卡。底层结合 Safe 智能合约多签账户与冰岛持牌电子货币机构 Monerium 提供的合规个人 Web3 欧元/美元 IBAN 账户，打通链上资产与现实银行系统。用户资产完全由链上智能合约自托管，支持 Pix、ACH、SEPA 与链上加密货币直充，开卡立即可绑定 Apple Pay 与 Google Pay 进行全球非接触式闪付消费。",
       "model": "Gnosis Chain Safe 智能合约自托管 + Monerium 欧洲持牌 Web3 IBAN：链上持有 EURe/USDe，刷卡即时通过 Visa 扣减",
       "network": "Visa（支持虚拟卡与实体卡，原生支持 Apple Pay 与 Google Pay）",
-      "region": "全球 180 多个国家和地区开放（包括拉美巴西 Pix、美国与欧洲合规法域）",
+      "region": "官方帮助中心写明：自 2026-09-22 起暂停新卡首次申请，预计 2026 年 10 月底恢复，恢复初期只提供虚拟卡；此前已开卡的账户不受影响。现有卡片可用至 2026-12-20 23:59 UTC，之后转入 Gnosis Pay 新版本基础设施，账户与余额不变，但需要重新绑定 Apple Pay / Google Pay。",
       "fee": "0 账户月费，0 卡片年费；支持免手续费链上充值，法币与外币结算执行 Visa 实时汇率。",
       "rewards": "自托管账户去中心化资管保障；享 Visa 国际标准借记卡全球商户受理与部分生态活动回馈。",
       "paymentCompatibility": {
@@ -21235,7 +21250,7 @@
         "network": "Visa",
         "issuer": "Gnosis Chain Safe 与 Monerium（欧盟持牌 EMI）合作发行",
         "region": "全球 180+ 国家和地区（含拉美、美国与欧洲等）",
-        "researchDate": "2026-10-16",
+        "researchDate": "2026-10-22",
         "applePay": {
           "status": "official",
           "detail": "官方原生支持一键推送到 Apple Wallet，支持 iPhone 和 Apple Watch 碰一碰闪付。"
@@ -21309,6 +21324,10 @@
         {
           "title": "Monerium：EU Licensed Electronic Money Institution on Gnosis Chain",
           "url": "https://monerium.com"
+        },
+        {
+          "title": "Picnic 官方帮助中心：新卡申请暂停（2026-09-22 起，现有卡可用至 2026-12-20 23:59 UTC）",
+          "url": "https://help.usepicnic.com/hc/picnic/articles/novos-pedidos-cartao-picnic-temporariamente-pausados"
         }
       ],
       "cardArt": {
@@ -21322,7 +21341,7 @@
         "mode": "contain"
       },
       "url": "https://ucard.observer/cards/picnic-card/",
-      "statusLabel": "地区受限 · 资格需核实"
+      "statusLabel": "运营收尾 · 状态待核"
     },
     {
       "published": "2026-10-16",
@@ -23225,12 +23244,20 @@
         {
           "title": "Stride Bank, N.A. 官方金融服务资质与合规条款",
           "url": "https://www.stridebank.com"
+        },
+        {
+          "title": "WisdomTree Prime Card 官方卡面素材核查",
+          "url": "https://web.archive.org/web/2026/https://www.wisdomtreeprime.com/debit-card/"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://www.wisdomtreeprime.com"
+        "status": "official",
+        "path": "/card-art/wisdomtree-prime-card.webp",
+        "file": "wisdomtree-prime-card.webp",
+        "imageUrl": "https://web.archive.org/web/20240525035127im_/https://www.wisdomtreeprime.com/wp-content/uploads/img-debitCard-floatingCard@2x.png",
+        "sourcePage": "https://web.archive.org/web/2026/https://www.wisdomtreeprime.com/debit-card/",
+        "version": "WisdomTree Prime Visa Debit 官方卡面（官网存档，现站 Cloudflare 403）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/wisdomtree-prime-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -23977,12 +24004,20 @@
         {
           "title": "Bit.Store 官方网站：BitStore Crypto Card",
           "url": "https://bitstore.com"
+        },
+        {
+          "title": "BitStore Card 官方卡面素材核查",
+          "url": "https://bitstore.com/"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://bitstore.com"
+        "status": "official",
+        "path": "/card-art/bitstore-card.webp",
+        "file": "bitstore-card.webp",
+        "imageUrl": "https://bitstore.com/assets/choose-img2-d0526c2f.png",
+        "sourcePage": "https://bitstore.com/",
+        "version": "Bit.Store Mastercard 官方产品图（官网 $0 开卡展示图）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/bitstore-card/",
       "statusLabel": "公开测试 · 地区受限"
@@ -25005,12 +25040,26 @@
         {
           "title": "App Store：DPT Card 移动客户端与隐私安全标签",
           "url": "https://apps.apple.com"
+        },
+        {
+          "title": "DPT Card 官方卡面素材核查",
+          "url": "https://dpt.xyz/"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://dpt.xyz"
+        "status": "official",
+        "path": "/card-art/dpt-card.webp",
+        "file": "dpt-card.webp",
+        "imageUrl": "https://dpt.xyz/assets/og-image.png",
+        "sourcePage": "https://dpt.xyz/",
+        "version": "DPT oxygen 与 DPT obsidian 官方卡面（官网首屏图裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 190,
+          "top": 165,
+          "width": 810,
+          "height": 310
+        }
       },
       "url": "https://ucard.observer/cards/dpt-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -25833,12 +25882,20 @@
         {
           "title": "Lemon 官方条款：Tarjeta Prepaga 资费标准与 2% 比特币返现规则",
           "url": "https://help.lemon.me"
+        },
+        {
+          "title": "Lemon Card Visa Prepaga 官方卡面素材核查",
+          "url": "https://lemon.me/lemon_card"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://lemon.me"
+        "status": "official",
+        "path": "/card-art/lemon-card-argentina.webp",
+        "file": "lemon-card-argentina.webp",
+        "imageUrl": "https://framerusercontent.com/images/eKvvSxgjEkmBpejnsuEro28N1K8.webp?width=805&height=929",
+        "sourcePage": "https://lemon.me/lemon_card",
+        "version": "Lemon Card Visa Prepaga 官方卡面（青绿色 Visa 预付卡，区别于黑色 Bitcoin 信用卡）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/lemon-card-argentina/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -26067,16 +26124,16 @@
         {
           "title": "Rain 支持中心：Rain Spend deposit & withdrawal flows（稳定币担保、Safe 多签、暂不支持法币提现）",
           "url": "https://www.rain.xyz/rain-spend-support?article=rain-spend-deposit-withdrawal-flows"
-        },
-        {
-          "title": "Rain Spend Corporate Card 官方卡面素材核查",
-          "url": "https://raincards.com"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://raincards.com"
+        "status": "official",
+        "path": "/card-art/rain-spend.webp",
+        "file": "rain-spend.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/69af05389f32bed4dc0b35e0/69ea45176643a4cca6a7ebef_rain_xyz_card_stack_poster.0000000.jpg",
+        "sourcePage": "https://www.rain.xyz/rain-spend",
+        "version": "Rain Spend 企业卡官方产品图（粉色卡面，俯拍平视）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/rain-spend/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -26305,13 +26362,17 @@
         },
         {
           "title": "BenPay Card 官方卡面素材核查",
-          "url": "https://benfen.org"
+          "url": "https://www.benpay.com/card"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://benfen.org"
+        "status": "official",
+        "path": "/card-art/benpay-card.webp",
+        "file": "benpay-card.webp",
+        "imageUrl": "https://static.benfen.org/kyc/assets/header-cards-CfJkEMYT.png",
+        "sourcePage": "https://www.benpay.com/card",
+        "version": "BenPay Alpha / Sigma / Delta 三档官方卡面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/benpay-card/",
       "statusLabel": "公开测试 · 地区受限"
@@ -26420,16 +26481,22 @@
         {
           "title": "Google Play：Cardex（FINTAVA TECHNOLOGY LIMITED，多币种钱包与 ATM 取现）",
           "url": "https://play.google.com/store/apps/details?id=com.cardexapp"
-        },
-        {
-          "title": "Cardex Crypto Debit Card 官方卡面素材核查",
-          "url": "https://cardex.africa"
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://cardex.africa"
+        "status": "official",
+        "path": "/card-art/cardex-card.webp",
+        "file": "cardex-card.webp",
+        "imageUrl": "https://www.usecardex.com/images/img__27.webp",
+        "sourcePage": "https://www.usecardex.com/",
+        "version": "Cardex 官方实拍卡面（官网首屏图裁切，持卡手指在画面下缘）",
+        "mode": "contain",
+        "crop": {
+          "left": 1150,
+          "top": 0,
+          "width": 1270,
+          "height": 775
+        }
       },
       "url": "https://ucard.observer/cards/cardex-card/",
       "statusLabel": "地区受限 · 资格需核实"
@@ -26539,19 +26606,279 @@
         {
           "title": "Wanttopay 隐私政策（控制者 WTP Technology Limited，合作方 KYC 采集证件照与人脸）",
           "url": "https://wanttopay.net/en/legal/privacy"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/wanttopay-card.webp",
+        "file": "wanttopay-card.webp",
+        "imageUrl": "https://cdn.prod.website-files.com/694996e037aa67c737cd0977/6a1c7c23fcc5c2be704fa5ea_5a2cff3aa60c265eb9ff07837c1be652_cards1%201.webp",
+        "sourcePage": "https://wanttopay.net/en/cards/pricing",
+        "version": "Wanttopay Prepaid / Smart / Easy / Pro 四档官方卡面",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/wanttopay-card/",
+      "statusLabel": "版本待核"
+    },
+    {
+      "published": "2026-10-22",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
+      "id": "slash-card",
+      "name": "Slash Card",
+      "aliases": "Slash Card Slash Vision Japan 日本 Japan Visa USDC ステーブルコイン 稳定币 信用卡 Solana Ethereum 个人编号卡 マイナンバーカード",
+      "mark": "SL",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方帮助中心写申请对象为 18 岁以上、居住在日本、且能用个人编号卡（マイナンバーカード）完成本人确认的人；申请流程写明可用个人编号卡或驾照核验，驾照核验在发照后改过姓名或地址的情况下不可用。",
+      "intro": "Slash Card 是日本 Slash Vision Japan K.K. 发行的 Visa 卡，官方首页称其为「日本首张可用稳定币支付的信用卡」。用法是把 Solana 或 Ethereum 上的 USDC 充进 App 钱包，再划到卡片余额消费；官方帮助中心另列 Base、Arbitrum、HyperEVM 为「即将支持」。虚拟卡在 App 内即时发行，实体卡需 1–10 天寄达。需要注意两项官方明写的限制：帮助中心把 Apple Pay 与 Google Pay 列在「目前不支持的功能」里，也不能在 ATM 取现。App 于 2026-10-14 在日本 App Store 上架。",
+      "metaDescriptionEn": "Slash Card review: Japan's USDC-funded Visa card from Slash Vision Japan. 2.2% settlement fee, FX fee waived, 3,000 USDC monthly cap. No Apple Pay or Google Pay. Japan residents only.",
+      "model": "USDC 预充值 + Visa 信用卡清算模型：先把 Solana / Ethereum 上的 USDC 充进 App 钱包，再划入卡片余额，刷卡时按 App 显示的换算汇率结算",
+      "network": "Visa（官方首页写可在全球 Visa 加盟店使用；虚拟卡与实体卡两种）",
+      "region": "仅限日本在住者，需年满 18 岁并通过个人编号卡或驾照完成本人确认；官方未公布其他国家的申请通道。",
+      "fee": "官方首页：虚拟卡发行费 20 USDC，实体卡 70 USDC（活动期 35 USDC），两者首年免年费、第二年起 20 USDC/年。官方帮助中心另列结算手续费 2.2%，汇兑手续费 1% 目前限期 0%。月消费上限 3,000 USDC（官方标注约合 50 万日元）。",
+      "rewards": "官方首页与帮助中心都没有公布消费返现比例；目前只有好友推荐奖励，官方另写「Card Rank」会员等级制度即将推出。",
+      "paymentCompatibility": {
+        "sourceName": "Slash Card",
+        "network": "Visa",
+        "issuer": "Slash Vision Japan K.K.（官方页面未公布发卡银行或 BIN 归属）",
+        "region": "日本",
+        "researchDate": "2026-10-22",
+        "applePay": {
+          "status": "unsupported",
+          "detail": "官方帮助中心《Slash Cardの付帯サービスについて》把 Apple Pay 列在「目前不支持的功能」中。"
+        },
+        "googlePay": {
+          "status": "unsupported",
+          "detail": "同一篇帮助中心把 Google Pay 与 Apple Pay 一并列为目前不支持。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方没有针对 OpenAI、Claude 等订阅的说明；虚拟卡可用于线上支付，但能否扣缴取决于商户网关，需以实际扣款结果为准。"
+        }
+      },
+      "facts": [
+        [
+          "结算手续费 2.2%，汇兑手续费目前限期 0%",
+          "官方帮助中心《Slash Cardの決済手数料について》写：结算时收取 Slash 事务手续费 2.2%，Slash 汇兑手续费 1% 目前作为限期优惠为 0%。实际结算金额以 App 交易详情页显示的换算汇率为准。",
+          [
+            0
+          ]
+        ],
+        [
+          "官方明写不支持 Apple Pay 与 Google Pay",
+          "帮助中心《Slash Cardの付帯サービスについて》把国内与海外旅行保险、ETC 卡、法人卡、家族卡、ATM 取现、Apple Pay、Google Pay 一并列为「目前不支持的功能」，并写正在研究扩充。这条对习惯手机闪付的用户是硬限制。",
+          [
+            0
+          ]
+        ],
+        [
+          "月消费上限 3,000 USDC",
+          "官方帮助中心写月消费上限为 3,000 USDC（官方标注约合 50 万日元）。卡内余额与钱包余额分开管理，可从卡片余额划回钱包余额，但官方未公布单独的余额上限。",
+          [
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "充值路径与可用的链",
+          "Slash 把资金分成两层：连接源钱包（接続元ウォレット）与卡片余额钱包。用户先把 USDC 从自己的钱包转入 App 钱包，再从 App 钱包划到卡片余额。官方首页列出 Solana 与 Ethereum 已支持，Base、Arbitrum、HyperEVM 标注为即将支持；帮助中心另有在 App 内把 Ethereum 上的 USDC 跨链到 Solana 的教程。这条路径意味着卡片不是直接扣链上钱包，用户需要主动充值。",
+          [
+            2
+          ]
+        ],
+        [
+          "PayPay 通道在 2026 年 8 月后改变",
+          "官方帮助中心写：2026-08-31 起，PayPay 停止接受除 PayPay 卡与部分三井住友卡之外的信用卡直接付款；2026-09-01 起，Slash Card 只能在 PayPay App 内购买「他社カード利用券」来间接使用，已登记为付款方式的卡也不能再直接扣款。这项变化由 PayPay 的规则调整引起，不是 Slash 单方面停用。",
+          [
+            3
+          ]
+        ],
+        [
+          "注销会作废卡内余额",
+          "官方帮助中心《解約についてのご案内》写：注销完成后卡号立即失效，卡内剩余余额随之失效，原则上不退款、也不能转到其他卡；已缴年费按法令要求之外不予退还，也不按月折算。注销前需确认余额为 0，并等最后一笔消费清算完成。",
+          [
+            4
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Slash Card 支持 Apple Pay 吗？",
+          "不支持。官方帮助中心《Slash Cardの付帯サービスについて》把 Apple Pay 与 Google Pay 列在目前不支持的功能里，并写正在研究扩充。"
+        ],
+        [
+          "Slash Card 收哪些费用？",
+          "官方首页：虚拟卡 20 USDC、实体卡 70 USDC（活动期 35 USDC），首年免年费、第二年起 20 USDC/年。官方帮助中心另列结算手续费 2.2%，汇兑手续费 1% 目前限期 0%。"
+        ],
+        [
+          "中国大陆居民可以申请 Slash Card 吗？",
+          "官方帮助中心写申请对象是 18 岁以上、居住在日本、且能用个人编号卡完成本人确认的人；没有公布日本以外的申请通道。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Slash Card 官方首页（Visa、USDC 充值、虚拟卡 20 USDC / 实体卡 70 USDC、首年免年费）",
+          "url": "https://card.slash.vision/"
         },
         {
-          "title": "Wanttopay Virtual Card 官方卡面素材核查",
-          "url": "https://wanttopay.com"
+          "title": "Slash 官方帮助中心：Slash Cardの決済手数料について（结算手续费 2.2%、汇兑手续费限期 0%）",
+          "url": "https://slash-card.zendesk.com/hc/ja/articles/5621014471966"
+        },
+        {
+          "title": "Slash 官方帮助中心：カードの利用上限はいくらでしょうか？（月消费上限 3,000 USDC）",
+          "url": "https://slash-card.zendesk.com/hc/ja/articles/5314339573918"
+        },
+        {
+          "title": "Slash 官方帮助中心：Slash Cardの付帯サービスについて（明确列出不支持 Apple Pay 与 Google Pay）",
+          "url": "https://slash-card.zendesk.com/hc/ja/articles/5307371375390"
+        },
+        {
+          "title": "Slash 官方帮助中心：Slash CardをPayPayでご利用いただく方法（2026-08-31 起 PayPay 停止信用卡直接付款）",
+          "url": "https://slash-card.zendesk.com/hc/ja/articles/5626208834078"
+        },
+        {
+          "title": "Slash 官方帮助中心：解約についてのご案内（注销后卡内余额失效、年费不退还）",
+          "url": "https://slash-card.zendesk.com/hc/ja/articles/5398399202334"
+        },
+        {
+          "title": "Slash 官方帮助中心：年齢制限はありますか？（18 岁以上日本在住、需个人编号卡本人确认）",
+          "url": "https://slash-card.zendesk.com/hc/ja/articles/5256836715038"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/slash-card.webp",
+        "file": "slash-card.webp",
+        "imageUrl": "https://card.slash.vision/assets/image/pic/card-physical-new.png",
+        "sourcePage": "https://card.slash.vision/",
+        "version": "Slash 官方首页实体卡产品图（Visa 标志与芯片可见）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/slash-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-10-22",
+      "modified": "2026-10-22",
+      "verified": "2026-10-22",
+      "id": "cryptopay-kz",
+      "name": "#CryptoPay",
+      "aliases": "#CryptoPay CryptoPay Bank CenterCredit Банк ЦентрКредит 哈萨克斯坦 Kazakhstan KZT ATAIX Eurasia Mastercard USDT 数字卡 POS",
+      "mark": "CP",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方 FAQ 写：需先在 ATAIX Eurasia 加密交易所注册并完成身份核验（KYC），取得「Инвестор」或「Премиум」身份后才能在 bcc.kz App 内开卡；开卡后还要在 App 内确认同意书。",
+      "intro": "#CryptoPay 是哈萨克斯坦 Bank CenterCredit（Банк ЦентрКредит）发行的 Mastercard 数字卡，与加密交易所 ATAIX Eurasia 的钱包绑定：刷卡时交易所按实时汇率卖出 USDT 换成坚戈（KZT）入账，用户看到的是普通坚戈消费。官方 FAQ 写明卡片只能用于线下 POS 终端消费，线上支付不可用；目前用于支付的加密资产只有 USDT。发卡费 10,000 ₸（仅哈萨克斯坦居民）、服务费 5,000 ₸，卡有效期 8 年，基础返现 0.5%。这张卡的意义在于它由持牌银行自己发行，而不是加密公司找合作行挂靠。",
+      "metaDescriptionEn": "CryptoPay review: Bank CenterCredit's Mastercard for Kazakhstan, spending USDT from an ATAIX Eurasia wallet at POS terminals. 10,000 KZT issuance, 5,000 KZT servicing, 0.5% cashback. No online payments.",
+      "model": "银行数字卡 + 交易所钱包直连模型：USDT 留在 ATAIX Eurasia 交易所钱包，刷卡时按交易所汇率卖出并折算成坚戈入账，卡片本身是 KZT 账户",
+      "network": "Mastercard（官方页面标注为 Mastercard 尊享卡，含机场贵宾厅、旅行保险等权益）",
+      "region": "面向哈萨克斯坦居民；官方 Tariffs 区块写发卡费 10,000 ₸ 适用于 РК（哈萨克斯坦共和国）居民。",
+      "fee": "官方 Tariffs 区块：卡种为数字卡，账户币种 KZT，发卡费 10,000 ₸（哈萨克斯坦居民）、服务费 5,000 ₸、有效期 8 年。官方 FAQ 另写充值免费、消费免费；加密资产按交易所汇率换算成坚戈结算。官方未公布跨境或外币交易的单独加价比例。",
+      "rewards": "官方页面写基础返现 0.5%，适用于全部消费（Базовый кешбэк 0,5% на все покупки）；另有单独的返现计划 PDF，具体档位与上限以该文件与银行当期条款为准。",
+      "paymentCompatibility": {
+        "sourceName": "#CryptoPay",
+        "network": "Mastercard",
+        "issuer": "Bank CenterCredit（Банк ЦентрКредит，哈萨克斯坦持牌银行，自行发行）",
+        "region": "哈萨克斯坦",
+        "researchDate": "2026-10-22",
+        "applePay": {
+          "status": "official",
+          "detail": "官方页面写可将 #CryptoPay 加入 Apple Pay、Google Pay 或 Samsung Pay 使用。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "同一段官方说明列出 Google Pay；此外银行站内另有独立的 Google Pay 说明页。"
+        },
+        "aiSubscriptions": {
+          "status": "unsupported",
+          "detail": "官方 FAQ 明确写卡片只能用于线下 POS 终端消费，线上支付不可用（Онлайн-оплата через #CryptoPay недоступна），因此不能用于在线订阅。"
+        }
+      },
+      "facts": [
+        [
+          "只能线下 POS 消费，线上支付不可用",
+          "官方 FAQ 在「Что можно оплачивать через #CryptoPay?」与「Какие лимиты по #CryptoPay?」两处都写：可用于超市、商店、药店等线下 POS 终端，线上支付不可用。这条限制同时排除了电商与在线订阅。",
+          [
+            0
+          ]
+        ],
+        [
+          "USDT 按交易所汇率折算成坚戈",
+          "官方 FAQ 写刷卡时加密资产 USDT 会被卖出，资金立即入账，消费体验与普通卡一致；换算按 ATAIX Eurasia 交易所的汇率执行，扣款币种是坚戈（KZT）。官方注明目前可用于支付的只有 USDT。",
+          [
+            0
+          ]
+        ],
+        [
+          "额度取决于交易所身份等级",
+          "官方 FAQ 写基础月额度为 500,000 ₸；通过「Инвестор」资格确认后可提升至 45,000,000 ₸。开卡前提是 ATAIX Eurasia 账户已完成 KYC 并取得「Инвестор」或「Премиум」身份。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "持牌银行自己发卡，不是挂靠",
+          "哈萨克斯坦的加密卡多由交易所或钱包公司找合作行发行，发卡行通常不出现在产品页上。#CryptoPay 不同：产品页、费率表与 FAQ 都在 Bank CenterCredit 自己的站点上，Mastercard 权益（LoungeKey 每年最多 10 次、Fast Track、最高 150 万美元旅行医疗保险）也由银行直接列出。这条差别决定了出现争议时找谁。",
+          [
+            1
+          ]
+        ],
+        [
+          "资金路径：币在交易所，卡在银行",
+          "USDT 并不进入银行账户，而是留在 ATAIX Eurasia 的交易所钱包里；刷卡时交易所卖出 USDT、把坚戈划到银行卡上。充值可以走加密货币、法币转账后再换成 USDT，或直接在 bcc.kz App 的「Криптовалюта」区块操作。这意味着卡片本身不持有加密资产，用户承担的是交易所托管风险与银行账户风险两层。",
+          [
+            0
+          ]
+        ],
+        [
+          "8 年有效期与换卡安排",
+          "官方 Tariffs 区块写卡片有效期为 8 年，卡种为数字卡（Цифровая），没有实体卡选项。官方未公布到期换卡是否收费，也未公布挂失补卡的费用；这些需以银行当期费率为准。",
+          [
+            1
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "#CryptoPay 可以在线上消费吗？",
+          "不可以。官方 FAQ 两处都写只能用于线下 POS 终端，线上支付不可用（Онлайн-оплата недоступна）。"
+        ],
+        [
+          "#CryptoPay 支持哪些手机钱包？",
+          "官方页面写可加入 Apple Pay、Google Pay 或 Samsung Pay；三者都由银行在同一个产品页上列出。"
+        ],
+        [
+          "#CryptoPay 收哪些费用？",
+          "官方 Tariffs 区块：发卡费 10,000 ₸（哈萨克斯坦居民）、服务费 5,000 ₸、有效期 8 年；官方 FAQ 写充值免费、消费免费。加密资产按 ATAIX Eurasia 交易所汇率折算成坚戈。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "#CryptoPay 官方产品页（Bank CenterCredit：发卡费 10,000 ₸、服务费 5,000 ₸、0.5% 返现、Apple / Google / Samsung Pay）",
+          "url": "https://www.bcc.kz/personal/cards/cryptopay/"
+        },
+        {
+          "title": "#CryptoPay 官方费率 PDF（2026 年 1 月归档，卡种、币种与有效期）",
+          "url": "https://www.bcc.kz/static/bcc-kz-storage/storage/app/media/For%20Individuals%20tarrifs/2026/jan/ru/card-crypto.pdf"
+        },
+        {
+          "title": "#CryptoPay 官方返现计划 PDF（基础 0.5% 之外的档位与条件）",
+          "url": "https://www.bcc.kz/static/bcc-kz-storage/storage/app/media/cards/cryptopay/%D0%9A%D0%B5%D1%88%D0%B1%D1%8D%D0%BA%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B4%D0%BB%D1%8F%20Cryptopay_ru%202.pdf"
         }
       ],
       "cardArt": {
         "status": "missing",
         "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://wanttopay.com"
+        "sourcePage": "https://www.bcc.kz/personal/cards/cryptopay/"
       },
-      "url": "https://ucard.observer/cards/wanttopay-card/",
-      "statusLabel": "版本待核"
+      "url": "https://ucard.observer/cards/cryptopay-kz/",
+      "statusLabel": "地区受限 · 资格需核实"
     },
     {
       "published": "2026-10-15",

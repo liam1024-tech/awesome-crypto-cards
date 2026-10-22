@@ -795,8 +795,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "按获批卡计划核对",
       "model": "钱包关联卡计划",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "compliance",
+          "tag": "资料核验",
+          "title": "档位更名为 Lite / Pro / Max，补列卡费与手机钱包支持",
+          "note": "官方产品页现按 Lite、Pro、Max 三档列出返现与 Apple Pay、Google Pay；卡协议列 Virtual $25、Plastic $109、Metal $250，FX 最高 3%、ATM $2 + 3%。法务页《card-cashback-terms》仍用旧档名，并写首档上限 $100，与产品页的 $1,000 不一致，两处口径未统一。"
+        },
         {
           "date": "2026-06-01",
           "type": "reward",
@@ -1307,7 +1314,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；由 Rain Liquidity 提供卡计划",
       "model": "USDC / AVAX 支持的 Rain Visa 卡账户",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-07-15",
@@ -1436,7 +1443,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行，Bridge 管理",
       "model": "Airtm 账户余额充值 / USD 虚拟 Visa",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-07-15",
@@ -1486,7 +1493,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行、Bridge 管理",
       "model": "UniFi USD 账户；刷卡时卖出账户稳定币并结算法币",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-07-18",
@@ -1644,7 +1651,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡计划与地区发行合作方",
       "model": "Exodus Pay / XO Cash 账户连接的 Visa 卡",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-08-30",
@@ -1812,7 +1819,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "卡网络和发卡合作方依地区条款；CL Card 由 Baanx 提供",
       "model": "Ledger Wallet 资产转入 CL Card 账户后消费",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-06-20",
@@ -1826,12 +1833,19 @@
     {
       "id": "oneinch-card",
       "name": "1inch Card",
-      "stage": "active",
-      "stageLabel": "🟢 正常活跃",
+      "stage": "winddown",
+      "stageLabel": "🟠 清算清退",
       "network": "Mastercard；Monavate 发行，Crypto Life / Baanx 运营服务",
       "model": "1inch / CL Card 账户内加密资产即时兑换",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "incident",
+          "tag": "服务终结",
+          "title": "1inch 官方宣布 Card 计划停服，最迟 2026-12-18 终止",
+          "note": "官方帮助中心写明「The 1inch Card programme is being discontinued」：新注册已关闭，现有卡片与账户暂时仍可使用，最迟于 2026-12-18 终止，官方建议持卡人尽早提取或消费余额。原产品页 1inch.com/card 现已 301 跳转至该常见问题页。"
+        },
         {
           "date": "2026-07-10",
           "type": "feature",
@@ -1984,7 +1998,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；PECUNIA CARDS EDE / PECUNPAY 为卡片及支付账户发行与管理方",
       "model": "Bit2Me 钱包资产消费；加密资产支付时按服务规则转换为 EUR",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-06-18",
@@ -2183,7 +2197,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "美国新卡为 Visa；英国计划与美国版本的网络、费用和奖励应分开核对",
       "model": "从 Uphold 钱包内所选现金、稳定币、加密或金属资产扣款",
-      "verified": "2026-09-27",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-08-15",
@@ -2468,7 +2482,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Karta 页面列第三方持牌合作发行安排",
       "model": "自托管钱包充值账户余额，再使用 Visa 卡消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-22",
       "changelogs": [
         {
           "date": "2026-07-05",
@@ -2700,8 +2714,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；巴西预付卡计划",
       "model": "Ripio 账户内选择加密资产或 BRL 余额，交易时扣款",
-      "verified": "2026-09-29",
+      "verified": "2026-10-22",
       "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "fee",
+          "tag": "条款补录",
+          "title": "补录外币消费 5% 与返现每月 R$500 上限",
+          "note": "官方条款第 13.10 条写以外币消费时合作方将在交易金额上加收 5%，第 13.6.3 条写返现上限为每月 R$500；此前费率字段只按营销页记录，遗漏了这两项。条款未逐字写明 5% 由持卡人承担，页面按提示口径表述。"
+        },
         {
           "date": "2026-08-12",
           "type": "fee",
@@ -2775,8 +2796,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Signature（官方卡 FAQ）；发行合作方依用户适用协议",
       "model": "向 Offramp 账户从支持网络充值稳定币，转换后用 Visa 余额消费",
-      "verified": "2026-09-29",
+      "verified": "2026-10-22",
       "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "fee",
+          "tag": "费率更正",
+          "title": "实体卡为 $100 一次性费用，不是按地区计的运费",
+          "note": "官方帮助中心列实体卡首次申请 $100、补卡 $100，虚拟卡开卡与年费 $0；ATM 取现 2% 仅实体卡支持，虚拟卡不能取现。此前费率字段写「实体卡运费视地区而定」，低估了实际成本。"
+        },
         {
           "date": "2026-09-05",
           "type": "feature",
@@ -4543,12 +4571,19 @@
     {
       "id": "picnic-card",
       "name": "Picnic Visa Card",
-      "stage": "active",
-      "stageLabel": "🟢 正常活跃",
+      "stage": "winddown",
+      "stageLabel": "🟠 清算清退",
       "network": "Visa（支持虚拟卡与实体卡，原生支持 Apple Pay 与 Google Pay）",
       "model": "Gnosis Chain Safe 智能合约自托管 + Monerium 欧洲持牌 Web3 IBAN：链上持有 EURe/USDe，刷卡即时通过 Visa 扣减",
-      "verified": "2026-10-16",
+      "verified": "2026-10-22",
       "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "product",
+          "tag": "暂停申请",
+          "title": "暂停新卡首次申请，现有卡可用至 2026-12-20 并迁移至新版基础设施",
+          "note": "官方帮助中心写明自 2026-09-22 起暂停新卡首次申请（补卡、挂失换卡仍可联系客服），预计 2026 年 10 月底恢复且初期只发虚拟卡；现有卡片可用至 2026-12-20 23:59 UTC，之后以升级方式迁移到 Gnosis Pay 新版本基础设施，账户与余额不变，但需重新绑定 Apple Pay / Google Pay。"
+        },
         {
           "date": "2026-10-16",
           "type": "product",
@@ -5439,6 +5474,42 @@
           "tag": "新品收录",
           "title": "收录 Telegram Mini App 发卡的 Wanttopay 虚拟卡",
           "note": "完成 Wanttopay Virtual Card 官方核验：官网为 wanttopay.net，Telegram Mini App 内完成注册、核验与开卡；四档卡 Prepaid / Easy / Smart / Pro，开卡费 $0–$35、月费 $0 或 $6，只有 Smart 与 Pro 支持 Apple Pay、Google Pay 与线下消费；开卡前必须完成身份核验。"
+        }
+      ]
+    },
+    {
+      "id": "slash-card",
+      "name": "Slash Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（官方首页写可在全球 Visa 加盟店使用；虚拟卡与实体卡两种）",
+      "model": "USDC 预充值 + Visa 信用卡清算模型：先把 Solana / Ethereum 上的 USDC 充进 App 钱包，再划入卡片余额，刷卡时按 App 显示的换算汇率结算",
+      "verified": "2026-10-22",
+      "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录日本 Slash 的 USDC 充值 Visa 卡",
+          "note": "完成 Slash Card 官方核验：Slash Vision Japan 发行，官方首页称其为日本首张可用稳定币支付的信用卡，用 Solana / Ethereum 上的 USDC 充值；虚拟卡 20 USDC、实体卡 70 USDC（活动期 35 USDC），首年免年费、第二年起 20 USDC/年；帮助中心另列结算手续费 2.2%、汇兑手续费限期 0%、月消费上限 3,000 USDC。帮助中心明确把 Apple Pay 与 Google Pay 列在目前不支持的功能里，也不能在 ATM 取现。"
+        }
+      ]
+    },
+    {
+      "id": "cryptopay-kz",
+      "name": "#CryptoPay",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（官方页面标注为 Mastercard 尊享卡，含机场贵宾厅、旅行保险等权益）",
+      "model": "银行数字卡 + 交易所钱包直连模型：USDT 留在 ATAIX Eurasia 交易所钱包，刷卡时按交易所汇率卖出并折算成坚戈入账，卡片本身是 KZT 账户",
+      "verified": "2026-10-22",
+      "changelogs": [
+        {
+          "date": "2026-10-22",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录哈萨克斯坦 Bank CenterCredit 的 #CryptoPay Mastercard",
+          "note": "完成 #CryptoPay 官方核验：由哈萨克斯坦持牌银行 Bank CenterCredit 自行发行，绑定 ATAIX Eurasia 交易所钱包，刷卡时按交易所汇率卖出 USDT 折算成坚戈入账；发卡费 10,000 ₸（哈萨克斯坦居民）、服务费 5,000 ₸、有效期 8 年，基础返现 0.5%，支持 Apple Pay、Google Pay 与 Samsung Pay。官方 FAQ 明确写只能线下 POS 消费、线上支付不可用，目前可用于支付的只有 USDT。"
         }
       ]
     },
