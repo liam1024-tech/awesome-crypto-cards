@@ -1050,6 +1050,13 @@
       "verified": "2026-10-23",
       "changelogs": [
         {
+          "date": "2026-10-24",
+          "type": "product",
+          "tag": "邀请披露",
+          "title": "Cashi 资料页公开标注邀请链接与邀请码，并写明官方奖励口径",
+          "note": "新增邀请链接 refer.cashi.com/wenhui1924（2026-10-24 打开时跳转至 App 下载页）与邀请码 wenhui1924，链接带 sponsored 标记，利益关系写入 /about/。Cashi 官网的推荐计划写明受邀人获得开户奖励、邀请人在受邀人消费满 $50 后获得 $5，另有面向推广方的联盟计划按受邀人交易额计酬；单笔邀请的具体条件与期限官方未在公开页面写明，资料页按此并列记录，不写成固定奖励承诺。"
+        },
+        {
           "date": "2026-10-23",
           "type": "fee",
           "tag": "资料更正",
@@ -1285,8 +1292,15 @@
       "stageLabel": "⛔ 停服公墓",
       "network": "Visa（历史产品；官方帮助页曾列 Google Pay）",
       "model": "已停服历史产品；原以 BitMart 账户资产即时兑换后支付",
-      "verified": "2026-09-28",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "status",
+          "tag": "退市归档",
+          "title": "BitMart 公布初步清退方案与法院时间表，公告未提及卡片",
+          "note": "此前只记录平台停运，没有后续安排。2026-09-30 官方发布 Initial Indicative Proposal and Roadmap：用户余额按 2026-07-26 至记录时点的加权均价折算为美元金额，由法院指定的管理官核定，用户可在一次性分配、Restitution Token 与 Continuum Token 之间选择或组合；管理层计划在 2026 年 12 月至 2027 年 1 月向相关法院提交方案，交易平台计划于 2027-01-31 15:59 UTC 正式结束运营。该公告没有提及 BitMart Card，卡片服务仍无恢复安排。"
+        },
         {
           "date": "2026-09-28",
           "type": "incident",
@@ -1317,8 +1331,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Infinite；公开条款一处称 Rain 发行，另一处将 Third National 定义为 Issuer，实际发行方须以个人卡协议和卡背信息确认",
       "model": "自托管钱包中的 USDC 作为抵押，消费记入信用卡账单并按月结算",
-      "verified": "2026-09-29",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "fee",
+          "tag": "档位补全",
+          "title": "Moto 官网只售 Full 会员（$2,500/年或 $250/月），Lite 档已不可购买",
+          "note": "此前按条款文件记录 Lite 与 Full 两档并列在售。官网与报名弹窗当前只列 Full：2,500 美元/年或 250 美元/月，年付含两个月免费，新会员 15 天试用，首张实体卡含在会员权益内、额外补办 250 美元。条款文件（2026-09-11 更新）仍定义 Lite 档 50 美元/月或 500 美元/年、实体卡 250 美元、外币交易费最高 2.2%，但官网与 App Store 文案都已不再提供该档。两者冲突且官方未作说明，因此记录为「Lite 目前无法购买」而不是删除 Lite 条款。"
+        },
         {
           "date": "2026-09-05",
           "type": "feature",
@@ -3993,8 +4014,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（官方帮助页口径）",
       "model": "自托管虚拟借记卡：资产留在用户自己的钱包中，消费时扣减 USDC 余额；卡本身为虚拟卡",
-      "verified": "2026-10-13",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "compliance",
+          "tag": "资格更正",
+          "title": "更正 Peanut 的身份核验方与地区限制：由 Rain 执行，帮助页未列排除国家",
+          "note": "此前记录称开卡身份核验由 Sumsub 执行，并列有约 17 个不支持国家。帮助页当前写「Rain, our card program partner, runs the identity check for the card」——Rain 是卡片计划合作方而非银行——并且只写「Card access is subject to eligibility requirements」，称卡可在任何接受 Visa 的地方使用，没有列出任何国家或地区清单；页面也未列出证件清单。地区与核验方均已按页面更正，先前那 17 个排除国家在该页面上已找不到。"
+        },
         {
           "date": "2026-10-13",
           "type": "product",
@@ -4383,7 +4411,7 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa（虚拟卡与实体卡；原生支持 Apple Pay 与 Google Wallet）",
       "model": "Passkey 自托管智能合约钱包直扣 Visa 借记卡：资金在个人链上账户安全托管，刷卡零 FX 加价",
-      "verified": "2026-10-19",
+      "verified": "2026-10-25",
       "changelogs": [
         {
           "date": "2026-12-20",
@@ -4391,6 +4419,13 @@
           "tag": "服务终结",
           "title": "卡服务将于 2026-12-20 前结束，与 Gnosis Pay 终止安排同日",
           "note": "Gnosis Pay 官方帮助中心写明「Zeal's card services will be wound up by 20 December 2026」，并提示用户在 20 日之前转出或提取资金。该日期与 Gnosis Pay 自身消费者卡及网页 App 的停止时间一致：同日 23:59 UTC 一并失效。本站因此把 Zeal 从在营地区卡改为收尾中记录。"
+        },
+        {
+          "date": "2026-10-25",
+          "type": "status",
+          "tag": "服务终结",
+          "title": "Zeal 已被 ether.fi 收购，官网要求 2026-12-01 前转出资产，卡片通道运行到 12-20",
+          "note": "此前记录称 Zeal 官网未见与 Gnosis Pay 同等的停服公告，并把停服写成「发生在 Zeal 身上」的外部事件；2026-10-25 复核时 Zeal 官网已自行发布公告，写明「Zeal has been acquired by ether.fi」、账户与私钥及资金不转移给 ether.fi、App 正在收尾，并要求用户最迟在 2026-12-01 前转出资产。这与 Gnosis Pay 帮助中心所写的卡片服务 2026-12-20 结束是两个不同期限：前者是用户处理资产的截止日，后者是卡片通道的停止日，官方没有把两者等同，本站此前把两个日期混为一谈。"
         },
         {
           "date": "2026-10-19",
@@ -5271,8 +5306,15 @@
       "stageLabel": "⏸️ 暂停申领",
       "network": "Mastercard（万事达借记卡，支持 Apple Pay 与 Google Pay 闪付）",
       "model": "西班牙持牌 VASP 与欧盟 EMI 合作发卡：打通欧元 SEPA 账户与多链加密资产即时清算",
-      "verified": "2026-10-19",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "fee",
+          "tag": "报价撤回",
+          "title": "撤回 Venga 的免月费与 0% 欧元区交易费：官方写明费用上线时才公布",
+          "note": "此前把免月费、欧元区 0% 交易费与非欧元万事达外汇费记为已定条款。官方页面当前处于 Coming Soon，明确写「The final fees and terms for the Venga Card will be announced at the launch」，返现也写「Cashback and other rewards are among the features we're exploring」，没有任何已公布的比例或权益。三项费用数字均无页面依据，已全部撤回，改为「上线时公布」；等候名单只用于排队获取早期访问，页面没有承诺返现。"
+        },
         {
           "date": "2026-10-19",
           "type": "product",
@@ -5289,8 +5331,15 @@
       "stageLabel": "⏸️ 暂停申领",
       "network": "Visa（规划提供借记卡/预付卡，实体卡与虚拟卡，适配 Apple Pay 与 Google Pay）",
       "model": "合规中心化交易所清算架构：支持中东本地法币与主流加密资产即时兑换，经 Infinios 与 Visa 结算网络完成清算（候补中）",
-      "verified": "2026-10-19",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "fee",
+          "tag": "费率更正",
+          "title": "撤回 CoinMENA 的 1.5%–2% 外汇费：官方卡页只写零费用",
+          "note": "此前记录「国际非海湾外币消费约 1.5%–2%」。官方卡页当前写「Your card is totally FREE」与「ZERO fees」，声明 CoinMENA 不收管理费或处理费，仅提示第三方费用可能另计，页面没有列出任何外汇或跨境费率，也没有区分海湾本币与外币消费。该 1.5%–2% 数字在页面上没有依据，已移除；正式上线条款公布前不再记录具体 FX 数字。"
+        },
         {
           "date": "2026-10-19",
           "type": "product",
@@ -5475,8 +5524,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（虚拟卡与高防护实体卡，全面兼容 Apple Pay 与 Google Pay）",
       "model": "AIFC 持牌数字支付清算模型：合规稳定工具 CUSD 结算，集成后量子加密跨国防护与 Visa 实时通道",
-      "verified": "2026-10-23",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "reward",
+          "tag": "报价撤回",
+          "title": "撤回 CodeCoin 的 8% 返现，卡组织按官网改为 JCB 与 UnionPay",
+          "note": "此前记录「最高 8% 消费返现」并记卡组织为 Visa。官方首页只写「Available on JCB and UnionPay」，没有提到 Visa 或 Mastercard，也没有列出任何返现比例，只有「核心场景交易成本低于 1%」的费用表述。8% 返现与 Visa 卡组织两项都与官网不符，均已按官网口径更正；返现改为等待官方公布奖励条款。卡片 id 中的 visa 是收录时的历史命名，未改动以免断链。"
+        },
         {
           "date": "2026-10-20",
           "type": "product",
@@ -5491,10 +5547,17 @@
       "name": "OKX Credit Card",
       "stage": "paused",
       "stageLabel": "⏸️ 暂停申领",
-      "network": "Visa / Mastercard（正规美国循环信用卡，支持 Apple Pay 与 Google Pay 闪付）",
+      "network": "Mastercard（官网只写 Mastercard，未提及 Visa；由 WebBank 发行，支持 Apple Pay 与 Google Pay 闪付）",
       "model": "美国联邦工业银行信贷清算架构：WebBank 提供授信借贷支持，OKX Pay 账户内 Paxos USDG 稳定币自动清偿账单",
-      "verified": "2026-10-20",
+      "verified": "2026-10-25",
       "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "compliance",
+          "tag": "资料更正",
+          "title": "更正 OKX 美国卡的卡组织：官网只写 Mastercard，未提及 Visa",
+          "note": "此前记「Visa / Mastercard」。官网美国 OKX Card 页写「Powered by Mastercard®」「The OKX Card is issued by WebBank」，卡组织只写 Mastercard，全文未提及 Visa。年费一项也一并更正：页面没有公布年费金额，只写 Terms apply，此前的「0 年费」在页面上找不到对应表述，现改为未公布。「信用卡」的产品定位保留不改——页面没有否认也没有确认，Auto repayment 的表述不足以推翻记录。"
+        },
         {
           "date": "2026-10-20",
           "type": "product",
@@ -6088,6 +6151,24 @@
           "tag": "新品收录",
           "title": "收录哥伦比亚 Plenti 的多币种卡",
           "note": "完成 Plenti 官方核验：官方写无管理费与无佣金（「Sin cuota de manejo ni comisiones」），卡可在 200 多个国家与 1 亿以上商户使用，可加入 Apple Pay 与 Google Wallet，账户支持美元、欧元与哥伦比亚比索余额。页面文字没有点名卡组织，官方卡面素材标注 Visa；外汇、ATM 与充值费率均未公布。"
+        }
+      ]
+    },
+    {
+      "id": "regolith-card",
+      "name": "Regolith Cards",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（Online Payment Card，新加坡发行）与 Mastercard（Travel Card，美国发行）；Travel Card 官方标注支持 Apple Pay 与 Google Pay",
+      "model": "投资平台账户内发卡：USDT 充值到平台余额后开卡，Online 卡用于线上，Travel 卡另支持线下与 Apple Pay / Google Pay",
+      "verified": "2026-10-25",
+      "changelogs": [
+        {
+          "date": "2026-10-25",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Regolith 的两张美元卡：Visa Online Payment Card 与 Mastercard Travel Card",
+          "note": "完成 Regolith 官方核验：2026-09-22 公告在测试期结束后向全部平台客户开放两张卡，Online Payment Card 为新加坡发行的 Visa、开卡费 $100，Travel Card 为美国发行的 Mastercard、开卡费 $150，2026-10-01 前的上线活动五折；两张卡都是美元账户，可用 USDT 经 TRC20、ERC20 或 BSC 充值（最低 $30），每次充值收 $3 AML 筛查费加 3.5% 或 3.9%，无月费，官方公告未列外汇加价。平台未公布运营主体名称与牌照，官网声明自身不是注册经纪商、投资顾问或众筹门户，身份核验由 Veriff 提供。同一域名的俄语卡页仍在售 2022 年版欧元 Mastercard（$190/年、充值 3.6%），与公告不是同一代产品，本站以公告为准并记录这处冲突。因无独立评测、主体与牌照未公布，状态记为待核。"
         }
       ]
     },

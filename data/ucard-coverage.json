@@ -1,17 +1,17 @@
 {
   "title": "U卡观察资料库覆盖快照",
-  "snapshotDate": "2026-10-24",
+  "snapshotDate": "2026-10-25",
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 225,
-    "current": 211,
-    "kycRequired": 189,
+    "total": 226,
+    "current": 212,
+    "kycRequired": 190,
     "kycConditional": 10,
     "kycUnknown": 12,
     "noKycVerified": 0,
     "closed": 14,
-    "officialSources": 796
+    "officialSources": 803
   },
   "rows": [
     {
@@ -285,8 +285,8 @@
       "kycLabel": "停服 / 不适用",
       "status": "closed",
       "statusLabel": "已停服 · 历史档案",
-      "sourceCount": 12,
-      "verified": "2026-09-28",
+      "sourceCount": 13,
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/bitmart-card/"
     },
     {
@@ -297,7 +297,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 3,
-      "verified": "2026-09-29",
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/moto-card/"
     },
     {
@@ -1419,7 +1419,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 4,
-      "verified": "2026-10-13",
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/peanut-card/"
     },
     {
@@ -1429,7 +1429,7 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "verified": "2026-10-13",
       "profileUrl": "https://ucard.observer/cards/x-money-card/"
     },
@@ -1605,8 +1605,8 @@
       "kycLabel": "需要 KYC",
       "status": "winddown",
       "statusLabel": "运营收尾 · 状态待核",
-      "sourceCount": 3,
-      "verified": "2026-10-19",
+      "sourceCount": 4,
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/zeal-card/"
     },
     {
@@ -2046,7 +2046,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 2,
-      "verified": "2026-10-19",
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/venga-card/"
     },
     {
@@ -2057,7 +2057,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 3,
-      "verified": "2026-10-19",
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/coinmena-visa-card/"
     },
     {
@@ -2145,7 +2145,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 2,
-      "verified": "2026-10-23",
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/codecoin-visa-card/"
     },
     {
@@ -2155,8 +2155,8 @@
       "kycLabel": "需要 KYC",
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
-      "sourceCount": 2,
-      "verified": "2026-10-20",
+      "sourceCount": 3,
+      "verified": "2026-10-25",
       "profileUrl": "https://ucard.observer/cards/okx-credit-card-us/"
     },
     {
@@ -2444,6 +2444,17 @@
       "sourceCount": 2,
       "verified": "2026-10-24",
       "profileUrl": "https://ucard.observer/cards/plenti-card/"
+    },
+    {
+      "id": "regolith-card",
+      "name": "Regolith Cards",
+      "kyc": "required",
+      "kycLabel": "需要 KYC",
+      "status": "review",
+      "statusLabel": "版本待核",
+      "sourceCount": 3,
+      "verified": "2026-10-25",
+      "profileUrl": "https://ucard.observer/cards/regolith-card/"
     },
     {
       "id": "fasset-card",

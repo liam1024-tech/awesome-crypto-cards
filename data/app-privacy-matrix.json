@@ -1,8 +1,8 @@
 {
-  "version": "2026-10-24",
-  "description": "全网 221 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
+  "version": "2026-10-25",
+  "description": "全网 222 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "totalAudited": 221,
+  "totalAudited": 222,
   "cards": [
     {
       "id": "ether-fi",
@@ -4423,6 +4423,26 @@
       "regulatoryFramework": "一般数据权利 / 他国法规",
       "privacyPolicyUrl": "https://www.plenti.com.co/en-us/tratamiento-de-datos",
       "profileUrl": "https://ucard.observer/cards/plenti-card/"
+    },
+    {
+      "id": "regolith-card",
+      "name": "Regolith Card（Online Visa / Travel Mastercard）",
+      "clientType": "Web 可用（含卡片）",
+      "appName": "regolith.com 网页个人中心（Cards 栏目）；商店 App「Regolith - Investment & Stocks」（Info Air LLC）暂不含卡片",
+      "webSupport": "Web 可用（含卡片）",
+      "appStoreChinaAvailable": "Yes",
+      "appStoreCoverage": 175,
+      "appStoreUrl": "https://apps.apple.com/app/id6446579509",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.regolith",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "隐私政策写可登录账户在设置里更新或删除部分个人信息，也可发邮件申请访问、更正或删除；没找到注销账户的具体入口或帮助文章；Google Play 数据安全页写可以申请删除数据",
+      "deletionSource": "https://regolith.com/privacy",
+      "privacyScore": 3,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "一般数据权利 / 他国法规",
+      "privacyPolicyUrl": "https://regolith.com/privacy",
+      "profileUrl": "https://ucard.observer/cards/regolith-card/"
     }
   ]
 }
