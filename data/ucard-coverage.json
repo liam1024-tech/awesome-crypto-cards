@@ -11,7 +11,7 @@
     "kycUnknown": 12,
     "noKycVerified": 0,
     "closed": 14,
-    "officialSources": 878
+    "officialSources": 879
   },
   "rows": [
     {
@@ -32,8 +32,8 @@
       "kycLabel": "需要 KYC",
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
-      "sourceCount": 6,
-      "verified": "2026-10-30",
+      "sourceCount": 7,
+      "verified": "2026-11-02",
       "profileUrl": "https://ucard.observer/cards/ethena-pay/"
     },
     {

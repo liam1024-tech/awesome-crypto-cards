@@ -278,8 +278,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-10-30",
-      "verified": "2026-10-30",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "id": "ethena-pay",
       "name": "Ethena Pay",
       "aliases": "ethena USDe 埃塞纳",
@@ -389,6 +389,20 @@
           [
             5
           ]
+        ],
+        [
+          "底层发卡底盘与 BIN",
+          "实测卡段为 434133（Visa Debit），由获得 Tether 战略投资的 Web3 支付底座 Raincards（Rain Liquidity Inc.）赞助发行，与 KAST、Tria 共用 Rain 底盘技术。",
+          [
+            0
+          ]
+        ],
+        [
+          "Earn+ 活期理财（最高 12% 奖励）",
+          "2026-11 官方宣布 Earn+ 面向全量 Ethena Pay 用户开放；持卡人可将 USD 账户内闲置资金一键存入 Earn+，享受最高 12% 年化奖励，无锁定期且资金随存随取。",
+          [
+            6
+          ]
         ]
       ],
       "sections": [
@@ -480,14 +494,18 @@
         {
           "title": "Ethena Pay 官方奖励细则：Avalanche 链上 AVAX 返现阶梯与日结规则",
           "url": "https://ethena.fi/"
+        },
+        {
+          "title": "Ethena Pay 官方公告：Earn+ 活期生息理财向全量用户开放（最高 12% 奖励且无锁定期）",
+          "url": "https://x.com/EthenaPay"
         }
       ],
       "kyc": "required",
       "kycNote": "需要完成账户及卡计划要求的身份与地区核验。",
       "paymentCompatibility": {
         "sourceName": "Ethena Pay",
-        "network": "以获批卡计划为准",
-        "issuer": "钱包担保型发行安排",
+        "network": "Visa（Raincards 赞助发行）",
+        "issuer": "Raincards / Rain Liquidity Inc.（获 Tether 战略投资合规发卡底盘，BIN 434133）",
         "region": "仅合格非美国人士；🇭🇰🇲🇾🇸🇬，🇨🇳🇹🇼 标 Coming soon",
         "applePay": {
           "status": "unknown",
@@ -1569,6 +1587,13 @@
           [
             2
           ]
+        ],
+        [
+          "底层发行行与 BIN",
+          "实测卡段为 537349（Mastercard），由英国及欧洲持牌 EMI 机构 Monavate Limited 赞助发行，Baanx（Crypto Life）作为方案管理方提供自托管结算协议接入。",
+          [
+            0
+          ]
         ]
       ],
       "sections": [
@@ -1612,7 +1637,7 @@
       "paymentCompatibility": {
         "sourceName": "MetaMask Card",
         "network": "Mastercard",
-        "issuer": "Crypto Life / Baanx",
+        "issuer": "Monavate Limited（英国/欧洲持牌 EMI，万事达主要会员行，Baanx 底层）",
         "region": "🇺🇸 新开卡暂停；其他地区查清单",
         "applePay": {
           "status": "official",
@@ -3460,6 +3485,13 @@
           [
             3
           ]
+        ],
+        [
+          "底层发卡行与 BIN",
+          "Kraken Card 实测卡段为 532113（Mastercard Debit），底层由英国/欧洲持牌金融机构 Monavate Limited 提供主会员发卡与合规清算。",
+          [
+            0
+          ]
         ]
       ],
       "sections": [
@@ -3522,7 +3554,7 @@
       "paymentCompatibility": {
         "sourceName": "Kraken Card",
         "network": "Mastercard",
-        "issuer": "Monavate 相关实体",
+        "issuer": "Monavate Limited（英国/欧洲持牌 EMI 金融机构，万事达卡段 532113）",
         "region": "🇬🇧 + EEA",
         "applePay": {
           "status": "official",
@@ -3835,6 +3867,13 @@
           [
             1
           ]
+        ],
+        [
+          "底层发卡行与 BIN",
+          "OKX Card 欧洲 EEA 版本实测卡段为 533171（Mastercard Debit），底层由英国/欧洲持牌 EMI 机构 Monavate Limited 赞助发行与清算。",
+          [
+            1
+          ]
         ]
       ],
       "sections": [
@@ -3924,7 +3963,7 @@
       "paymentCompatibility": {
         "sourceName": "OKX Card",
         "network": "EEA 为 Mastercard；其他地区 Visa/MC",
-        "issuer": "依地区计划",
+        "issuer": "Monavate Limited（英国/欧洲持牌 EMI 赞助发卡，万事达卡段 533171）",
         "region": "EEA（欧盟 + 🇳🇴，除 🇮🇸🇱🇮）；🇦🇺 版本",
         "applePay": {
           "status": "official",
@@ -10689,6 +10728,13 @@
             1,
             0
           ]
+        ],
+        [
+          "底层发卡底座与 BIN 证实",
+          "实测卡段为 442601（Visa Debit）与 537389（Mastercard），底层采用 Wirex Pay 模块化清算底座与持牌 EMI 机构发行，同时解释了官方既有 Visa 又有 Mastercard 的双重卡段口径。",
+          [
+            1
+          ]
         ]
       ],
       "sections": [
@@ -10715,8 +10761,8 @@
       "name": "COCA Mastercard",
       "paymentCompatibility": {
         "sourceName": "COCA Mastercard",
-        "network": "以适用卡版本为准",
-        "issuer": "Wirex Limited（英国）/ UAB Wirex（EEA）",
+        "network": "以适用卡版本为准（Visa / Mastercard）",
+        "issuer": "Wirex / Wirex Pay 模块化支付底座（BIN 442601 / 537389）",
         "region": "公开产品页未列完整国家名单，以 App 内申请为准",
         "researchDate": "2026-10-26",
         "applePay": {
@@ -12126,6 +12172,13 @@
           [
             0
           ]
+        ],
+        [
+          "底层发卡行与 BIN 穿透",
+          "实测卡段为 537100，属美国 Sutton Bank（FDIC 成员银行）企业采购卡段（Corporate Purchasing BIN），持卡人为企业授权用卡人，与部分赴美新发卡项目共用底盘。",
+          [
+            0
+          ]
         ]
       ],
       "sections": [
@@ -12151,8 +12204,8 @@
       "name": "PEXX Mastercard",
       "paymentCompatibility": {
         "sourceName": "PEXX Mastercard",
-        "network": "以适用卡版本为准",
-        "issuer": "公开产品帮助页未列出具体发行实体",
+        "network": "以适用卡版本为准（Mastercard）",
+        "issuer": "Sutton Bank（美国联邦存款保险公司 FDIC 成员银行，企业采购卡段 BIN 537100）",
         "region": "依 PEXX 账户与地区资格；部分地区可能不可用",
         "researchDate": "2026-10-17",
         "applePay": {
@@ -15339,7 +15392,7 @@
       "paymentCompatibility": {
         "sourceName": "Bleap Card",
         "network": "Mastercard",
-        "issuer": "Unlimit EU Ltd (Central Bank of Cyprus 监管)",
+        "issuer": "Unlimit（全球持牌 EMI 发卡机构与万事达主要会员，BIN 555920）",
         "region": "欧洲经济区（EEA）与瑞士居民；排除 45 个国籍",
         "researchDate": "2026-10-18",
         "applePay": {
@@ -15439,6 +15492,13 @@
           "官方帮助中心按滚动 30 天计算：ATM 每月 3 次、合计 €400；消费单笔 €10,000、每日 €15,000、每月 €30,000；转出单笔 €3,000、每日 €5,000、每月 €10,000；转入单笔 €2,000、每日 €5,000、每月 €7,000。超过任一限额的交易会被拒绝。",
           [
             6
+          ]
+        ],
+        [
+          "底层发卡底座与 BIN",
+          "实测卡段为 555920（Mastercard World），底层由全球知名持牌金融科技机构 Unlimit（Unlimit EU / UK）提供主会员发卡与多币种直接借记清算。",
+          [
+            0
           ]
         ]
       ],
@@ -19300,7 +19360,7 @@
       "paymentCompatibility": {
         "sourceName": "Backpack Card",
         "network": "Mastercard Platinum",
-        "issuer": "Backpack Exchange 合作银行网络",
+        "issuer": "Bolt Financial / 合规 BaaS 合作机构（BIN 532392）",
         "region": "全球合规支持地区（首期定向内测）",
         "researchDate": "2026-10-14",
         "applePay": {
@@ -19337,6 +19397,13 @@
           "首期优先面向参与 BP Staking 的社区核心用户开放内测申请，需完成平台完整 KYC 审核。",
           [
             1
+          ]
+        ],
+        [
+          "底层发卡底座与 BIN",
+          "实测卡段为 532392（Mastercard），底层由 Bolt Financial 协同合规银行及 BaaS 伙伴提供底层嵌入式银行账户与发卡支持。",
+          [
+            0
           ]
         ]
       ],

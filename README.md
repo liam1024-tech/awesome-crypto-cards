@@ -69,13 +69,13 @@ All dataset files in this repository are exported directly from our automated bu
 | File Path | Format | Records | Description |
 | :--- | :--- | :--- | :--- |
 | [`data/cards.json`](data/cards.json) | JSON | 233 Cards | Complete profiles: metadata, fee schedules, KYC notes, bullet facts, and verified official source URLs. |
-| [`data/crypto-card-bins.json`](data/crypto-card-bins.json) | JSON | 24 BINs | Audited crypto card BIN numbers, card types (Debit/Prepaid), sponsor banks, 3DS, Stripe acceptance ratings, and delisting risk flags. Each record carries an `en` block giving English for the six prose fields that are otherwise Chinese (`threeDS`, `walletMainland`, `walletMainlandNote`, `stripeNote`, `riskLevel`, `notes`); `name`, `sponsorBank` and `stripeRating` are identifiers already in Latin script. |
-| [`data/crypto-card-bins.csv`](data/crypto-card-bins.csv) | CSV | 24 BINs | CSV equivalent of the verified crypto card BIN directory and sponsor bank mapping. |
+| [`data/crypto-card-bins.json`](data/crypto-card-bins.json) | JSON | 43 BINs | Audited crypto card BIN numbers, card types (Debit/Prepaid), sponsor banks, 3DS, Stripe acceptance ratings, and delisting risk flags. Each record carries an `en` block giving English for the six prose fields that are otherwise Chinese (`threeDS`, `walletMainland`, `walletMainlandNote`, `stripeNote`, `riskLevel`, `notes`); `name`, `sponsorBank` and `stripeRating` are identifiers already in Latin script. |
+| [`data/crypto-card-bins.csv`](data/crypto-card-bins.csv) | CSV | 43 BINs | CSV equivalent of the verified crypto card BIN directory and sponsor bank mapping. |
 | [`data/ucard-coverage.csv`](data/ucard-coverage.csv) | CSV | 233 Cards | Dataset coverage snapshot: KYC status, product operating state, official source counts, and review timestamps. |
 | [`data/ucard-coverage.json`](data/ucard-coverage.json) | JSON | 233 Cards | JSON equivalent of the coverage snapshot, including summary aggregate counts. |
 | [`data/payment-compatibility.csv`](data/payment-compatibility.csv) | CSV | 233 Cards | Matrix of network, issuer, BIN classification, Apple Pay, Google Pay, and AI subscription support. |
 | [`data/status-radar.json`](data/status-radar.json) | JSON | 233 Cards | Live card lifecycle status radar (Active, Degraded, Paused, Winding Down, Closed), emergency delisting risk alerts, and policy changelogs. |
-| [`data/card-changelogs.csv`](data/card-changelogs.csv) | CSV | 670 Events | Chronological audit log of historical policy and fee shifts (cashback asset conversions, minimum withdrawal limits, lockups, fee updates). |
+| [`data/card-changelogs.csv`](data/card-changelogs.csv) | CSV | 671 Events | Chronological audit log of historical policy and fee shifts (cashback asset conversions, minimum withdrawal limits, lockups, fee updates). |
 | [`data/cashback-comparison.csv`](data/cashback-comparison.csv) | CSV | Tier Scenarios | Nominal cashback comparison modeling across $1,000, $3,000, and $5,000 monthly spend brackets. |
 | [`data/app-privacy-matrix.csv`](data/app-privacy-matrix.csv) | CSV | 229 Cards | Audit of mobile app stores (App Store / Google Play coverage, China App Store availability), web portal options, self-service account deletion, and GDPR compliance ratings. |
 | [`data/app-privacy-matrix.json`](data/app-privacy-matrix.json) | JSON | 229 Cards | JSON matrix of crypto card mobile presence, store direct availability, and statutory AML account closure paths. |
@@ -122,7 +122,7 @@ As of **2026-11-02**:
   - `Conditional / Issuer Discretion`: 10 brands
   - `Not Stated in Public Documentation`: 12 brands
   - `Verified No-KYC Mainstream Active Cards`: **0** *(Warning: Platforms claiming "100% No-KYC Visa/Mastercard" without identity checks typically operate via unauthorized sub-bins or violate card scheme compliance)*
-- **Total Official Source Links**: 878 verified URLs
+- **Total Official Source Links**: 879 verified URLs
 
 ---
 

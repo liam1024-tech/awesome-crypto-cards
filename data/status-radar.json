@@ -276,8 +276,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "以获批卡计划为准",
       "model": "钱包担保型消费卡",
-      "verified": "2026-10-30",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "feature",
+          "tag": "理财上线",
+          "title": "Ethena Pay 向所有用户开放 Earn+，活期享最高 12% 奖励且无锁定期",
+          "note": "Ethena Pay 官方宣布 Earn+ 活期理财功能已正式面向全体用户开放。持卡人可将 USD 账户内闲置资金一键划转至 Earn+，享受最高 12% 年化奖励（无锁定期限制，资金随存随取），让日常消费储备金在刷卡消费前持续产生收益。"
+        },
         {
           "date": "2026-10-30",
           "type": "compliance",
