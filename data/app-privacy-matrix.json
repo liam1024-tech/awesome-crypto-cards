@@ -1,8 +1,8 @@
 {
-  "version": "2026-10-26",
-  "description": "全网 226 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
+  "version": "2026-11-02",
+  "description": "全网 228 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "totalAudited": 226,
+  "totalAudited": 228,
   "cards": [
     {
       "id": "ether-fi",
@@ -4523,6 +4523,46 @@
       "regulatoryFramework": "一般数据权利 / 他国法规",
       "privacyPolicyUrl": "https://www.usetimon.com/privacy",
       "profileUrl": "https://ucard.observer/cards/timon-card/"
+    },
+    {
+      "id": "bitwala-card",
+      "name": "Bitwala Visa Card（Visa 借记卡）",
+      "clientType": "仅 App",
+      "appName": "Bitwala: Crypto Wallet & Card（Bitwala GmbH；iOS 德区名「Bitwala: Krypto Wallet & Karte」）",
+      "webSupport": "仅 App",
+      "appStoreChinaAvailable": "No",
+      "appStoreCoverage": 29,
+      "appStoreUrl": "https://apps.apple.com/app/id1454003161",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.bitwala.app",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "没有 App 内自助入口：要在帮助中心点 Submit a Request 用注册邮箱提交关户申请，或发邮件到 support@bitwala.com；免费，Bitwala 会转给合作方 Lightspark，最晚一个月内关户并发邮件确认；Google Play 数据安全页写可以申请删除数据",
+      "deletionSource": "https://support.bitwala.com/hc/en-gb/articles/14480235653138-Close-account",
+      "privacyScore": 4,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "明确 GDPR",
+      "privacyPolicyUrl": "https://bitwala.com/privacy-policy",
+      "profileUrl": "https://ucard.observer/cards/bitwala-card/"
+    },
+    {
+      "id": "volet-card",
+      "name": "Volet Card（亚太实体卡，USD 预付 Mastercard）",
+      "clientType": "Web 可用（含卡片）",
+      "appName": "Volet.com 网页账户 + Android App「Volet.com」（Google Play 开发者 Softkontrast, Lda，葡萄牙）",
+      "webSupport": "Web 可用（含卡片）",
+      "appStoreChinaAvailable": "N/A",
+      "appStoreCoverage": "",
+      "appStoreUrl": "",
+      "googlePlayCoverage": 174,
+      "googlePlayUrl": "https://play.google.com/store/apps/details?id=com.volet.android",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "帮助中心（2026-10-29 更新）写要联系客服申请关户；用户协议却写可以在个人账户里自己关户，两者不一致；关户后账户最多保留 5 年，期间可以申请恢复；隐私政策写可以在帮助区提交工单或发邮件给 DPO 申请删除个人数据；Google Play 数据安全页写可以申请删除数据",
+      "deletionSource": "https://support.volet.com/hc/en-us/articles/4405944039698-Closing-your-account",
+      "privacyScore": 4,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "明确 GDPR",
+      "privacyPolicyUrl": "https://volet.com/privacy-notice",
+      "profileUrl": "https://ucard.observer/cards/volet-card/"
     }
   ]
 }

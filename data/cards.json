@@ -856,8 +856,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-10-30",
-      "verified": "2026-10-30",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "id": "redotpay",
       "name": "RedotPay",
       "aliases": "redot 红点 红点卡 fees review sign up 手续费 开卡教程 费率",
@@ -971,6 +971,13 @@
           "微信支付与支付宝对境外卡实行单笔 ≤200 元人民币免收 3% 国际卡手续费的规则；超过 200 元按整笔加收 3%，叠加 RedotPay 约 1.2% FX 后综合摩擦约 4.2%。该 200 元门槛是微信/支付宝的平台规则，适用于所有境外卡，并非 RedotPay 独有的豁免或收费。大额支出可拆单或改用商户聚合码。",
           [
             0
+          ]
+        ],
+        [
+          "Binance Pay 已不能用于 RedotPay",
+          "据 crypto.news 报道，Binance 以商户合作方复核为由，自 2026-04-03 起停止对 RedotPay 的支付功能；依赖 Binance Pay 给 RedotPay 充值的用户需改走链上转账等其他入金方式。",
+          [
+            17
           ]
         ]
       ],
@@ -1100,6 +1107,10 @@
         [
           "RedotPay 添加 Apple Pay 提示“国家或地区不支持”或无法激活该如何解决？",
           "Apple Pay 空中发卡（Tokenization）会校验 iPhone 系统的地区设置与当前 Apple ID 注册法域。若系统地区设置为中国大陆，Apple Wallet 会因外卡风控策略拦截添加。实操解决方案：第一步，在 iPhone“设置 - 通用 - 语言与地区”中将地区临时切换为香港、美国或新加坡；第二步，打开 RedotPay 官方 App，在卡片管理页点击“添加到 Apple 钱包”进行应用内推送绑定，避免在系统钱包中手动输入卡号；第三步，完成短信或邮件验证码激活生成 Device PAN 虚拟令牌后，即可将系统地区切回原属地，线下实体店 NFC 触碰感应支付与线上快捷扣款不受任何影响。"
+        ],
+        [
+          "RedotPay 要上市了吗？",
+          "尚未上市。彭博 2026-10-26 报道称其考虑在 2026 年底前向美国 SEC 秘密递交 IPO 申请，并在洽谈估值 40 亿至 50 亿美元的上市前融资；时间表可能变化，RedotPay 未回应。上市进展不影响卡片现有条款。"
         ]
       ],
       "sources": [
@@ -1166,6 +1177,14 @@
         {
           "title": "RedotPay 官方卡面素材核查",
           "url": "https://www.redotpay.com/card"
+        },
+        {
+          "title": "The Paypers：RedotPay 据报考虑年底前秘密递交美国 IPO（2026-10-27，援引彭博 10-26 报道）",
+          "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/redotpay-reportedly-prepares-confidential-us-ipo-filing-by-year-end"
+        },
+        {
+          "title": "crypto.news：RedotPay 估值与 Binance 诉讼、停止 Binance 支付功能（2026-09-28）",
+          "url": "https://crypto.news/redotpay-eyes-5-billion-valuation-as-us-ipo-preparations-continue/"
         }
       ],
       "kyc": "required",
@@ -2729,7 +2748,7 @@
     {
       "published": "2026-09-13",
       "modified": "2026-10-04",
-      "verified": "2026-10-04",
+      "verified": "2026-11-02",
       "id": "ready",
       "name": "Ready Card",
       "aliases": "ready argent starknet",
@@ -2987,7 +3006,7 @@
     {
       "published": "2026-09-21",
       "modified": "2026-09-21",
-      "verified": "2026-09-27",
+      "verified": "2026-11-02",
       "id": "send-card",
       "name": "Send Card",
       "aliases": "send send.it USDC Base Wirex 发送卡",
@@ -3533,8 +3552,8 @@
     },
     {
       "published": "2026-09-21",
-      "modified": "2026-10-10",
-      "verified": "2026-10-10",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "id": "minipay-card",
       "name": "MiniPay Card",
       "aliases": "minipay opera celo USDT USDC cUSD digital gold",
@@ -3618,6 +3637,14 @@
           [
             2
           ]
+        ],
+        [
+          "Gnosis Pay 停运不等于 MiniPay 停卡",
+          "Gnosis Pay 将于 2026-12-20 停止的是自营消费者卡与网页 App；其帮助中心写明 MiniPay 通过企业卡平台为部分居民提供卡服务，合作方迁移到新平台的时间由各合作方另行通知。MiniPay 卡片页仍写 Gnosis Pay 为项目管理方、Monavate 为发卡方，未提及迁移。",
+          [
+            5,
+            6
+          ]
         ]
       ],
       "sections": [
@@ -3680,6 +3707,14 @@
         {
           "title": "MiniPay：Card Cashback Terms（2026-08-25）",
           "url": "https://minipay.to/minipay-card-cashback-terms-of-service"
+        },
+        {
+          "title": "Gnosis Pay 帮助中心：直营卡停运与合作方卡迁移时间表（2026-11-02 核对）",
+          "url": "https://help.gnosispay.com/hc/en-us/articles/53246151768596"
+        },
+        {
+          "title": "MiniPay：虚拟卡页，发卡方、返现与早期访问（2026-11-02 核对）",
+          "url": "https://www.minipay.to/virtual-card"
         }
       ],
       "paymentCompatibility": {
@@ -5260,7 +5295,7 @@
     {
       "published": "2026-09-27",
       "modified": "2026-09-27",
-      "verified": "2026-09-27",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -6637,8 +6672,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-10-06",
-      "verified": "2026-10-06",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -6668,6 +6703,13 @@
           [
             0,
             2
+          ]
+        ],
+        [
+          "发卡行与手机钱包",
+          "官方卡片页写明卡片由 Lead Bank 依 Visa 许可发行，Bridge（Stripe 旗下）为项目管理方，Wayex 为平台方；申请人须年满 18 岁；可在 App 内直接加入 Apple Pay 与 Google Pay。实体卡配送与补卡费用页面仍标注待定（TBD）。",
+          [
+            0
           ]
         ]
       ],
@@ -6719,17 +6761,18 @@
         "issuer": "Bridge 卡协议",
         "region": "全球版 + 🇦🇺 版本",
         "applePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方卡片页写明可在 App 内直接将卡片加入 Apple Pay。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方卡片页写明可在 App 内直接将卡片加入 Google Pay。"
         },
         "aiSubscriptions": {
           "status": "unknown",
           "detail": "官方资料未列明；不代表不支持。"
-        }
+        },
+        "researchDate": "2026-11-02"
       },
       "cardArt": {
         "status": "official",
@@ -6862,8 +6905,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-10-04",
-      "verified": "2026-10-04",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -6892,6 +6935,13 @@
           [
             1,
             2
+          ]
+        ],
+        [
+          "官网称 44 国开放，但未列名单",
+          "Dollarize 官网（2026-11-02 核对）称已在 44 个国家开放，但没有列出国家名单；虚拟卡可立即使用，实体卡仅限未具名的「参与国家」；卡片从美元余额扣款，页面未提及稳定币，也未写明发卡合作方。",
+          [
+            0
           ]
         ]
       ],
@@ -7112,7 +7162,7 @@
     {
       "published": "2026-09-27",
       "modified": "2026-10-06",
-      "verified": "2026-10-06",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -7728,7 +7778,7 @@
     {
       "published": "2026-09-27",
       "modified": "2026-10-23",
-      "verified": "2026-10-23",
+      "verified": "2026-11-02",
       "group": "链上与自托管",
       "status": "winddown",
       "kyc": "unknown",
@@ -7845,8 +7895,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-09-28",
-      "verified": "2026-09-28",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -7886,6 +7936,20 @@
         [
           "开卡、ATM 与闲置费",
           "官方卡页列虚拟卡 $20、实体卡 $100、Metal $199、24K Gold $499；虚拟卡不可 ATM 取现。90 天无交易后收 $3，此后每 30 天 $1；虚拟卡连续 4 个月无交易可能关闭且开卡费不退。",
+          [
+            0
+          ]
+        ],
+        [
+          "ATM 与消费限额",
+          "官方卡片页（2026-09-19 最后更新）列出：ATM 每日上限塑料卡 $3,000、金属卡与金卡 $3,750，每月上限塑料卡 $10,000、金属卡与金卡 $112,500；单笔消费上限虚拟卡与塑料卡 $3,000,000、金属卡与金卡 $80,000。",
+          [
+            0
+          ]
+        ],
+        [
+          "小额与失败交易收费",
+          "每月前 3 笔被拒交易免费，之后每笔 $0.5；每月前 5 笔 $3 以下的小额预授权免费，之后每笔 $0.2；注销卡片收 $2。同页对金属卡与金卡的充值优惠一处写「免充值费」、一处写「每月最多 5 次 5 折」，以 App 为准。",
           [
             0
           ]
@@ -8115,7 +8179,7 @@
     {
       "published": "2026-09-27",
       "modified": "2026-10-23",
-      "verified": "2026-10-23",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "winddown",
       "kyc": "unknown",
@@ -8229,8 +8293,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-10-30",
-      "verified": "2026-10-30",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "group": "交易所卡",
       "status": "regional",
       "kyc": "required",
@@ -8272,6 +8336,13 @@
           "返现 FAQ（2026-10-05 更新）在同一页列三张表：CIS 等市场的低档表（0.5%–2%，上限 $20）、其他市场表（1%–3%，上限 $50），以及统一三档表（月消费低于 $100 返 1.5%、$100–$1,000 返 2%、达到 $1,000 返 3%，上限 $100 等值）。页面没有说明统一表是否已在所有市场取代两张旧表，因此本站并列记录，不据单表承诺固定比例。",
           [
             2
+          ]
+        ],
+        [
+          "委内瑞拉分批开放",
+          "Bloomberg Línea 2026-08-05 报道：Binance 经客服声明确认 Binance Card 在委内瑞拉按批次逐步开放，并非所有用户都能立即申请；刷卡时从账户内加密资产余额自动换汇扣款。",
+          [
+            5
           ]
         ]
       ],
@@ -8327,6 +8398,10 @@
         {
           "title": "Binance Card Global 官方卡面素材核查",
           "url": "https://www.binance.com/en/support/faq/detail/8ff23b2c0d2b4f8ea524affc8c0a1392"
+        },
+        {
+          "title": "Bloomberg Línea：Binance 在委内瑞拉分批开放 Binance Card（2026-08-05）",
+          "url": "https://www.bloomberglinea.com/latinoamerica/venezuela/binance-despliega-su-tarjeta-en-venezuela-en-un-mercado-impulsado-por-el-auge-de-las-stablecoins/"
         }
       ],
       "paymentCompatibility": {
@@ -10303,7 +10378,7 @@
     {
       "published": "2026-09-29",
       "modified": "2026-10-04",
-      "verified": "2026-10-19",
+      "verified": "2026-11-02",
       "group": "交易所卡",
       "status": "winddown",
       "kyc": "required",
@@ -10915,8 +10990,8 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-10-08",
-      "verified": "2026-10-08",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
@@ -10958,6 +11033,13 @@
           [
             0,
             1
+          ]
+        ],
+        [
+          "官网口径前后不一",
+          "官网页面描述中写覆盖 60+ 国家、正文写 170+ 国家，FAQ 又写凡支持 Apple Pay 或 Google Pay 的地方均可使用；合规表述一处为「MiCA-ready」、一处为「fully MiCA-compliant」。KYC 由 Sumsub 提供。申请资格仍应以 App 为准。",
+          [
+            0
           ]
         ]
       ],
@@ -31123,6 +31205,299 @@
       },
       "group": "独立钱包与支付卡",
       "url": "https://ucard.observer/cards/altitude-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-11-02",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
+      "id": "bitwala-card",
+      "name": "Bitwala Visa Card",
+      "aliases": "Bitwala Bitwala Card Bitwala Visa 比特币卡 BTC 借记卡 欧洲 EEA 加密卡 Nuri",
+      "mark": "B",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方 FAQ 写明申请人须持有已验证的 Bitwala 账户并居住在欧洲经济区（EEA）；卡片页未列出具体证件类型与核验步骤。",
+      "intro": "Bitwala Visa Card 是德国加密钱包 Bitwala 的 Visa 借记卡，提供虚拟卡与实体卡，可直接用账户里的 BTC、ETH、USDC 或欧元消费。仅面向居住在欧洲经济区的已验证用户；服务条款写明卡片由 Wallester AS（爱沙尼亚）发行，虚拟 IBAN 与虚拟资产服务由 Lightspark Payments Europe AS 提供。",
+      "model": "钱包账户关联借记卡：账户内可持有欧元、BTC、ETH 与 USDC，刷卡时从所选余额扣款，加密资产消费按笔收费并即时换成欧元结算",
+      "network": "Visa（借记卡）",
+      "region": "仅限居住在欧洲经济区（EEA）且已完成账户验证的用户；中国大陆、马来西亚、美国等 EEA 以外地区居民不可申请。",
+      "fee": "开户与月费免费；虚拟卡一次性 €0.99，实体卡一次性 €9.99（跟踪邮寄 €4.99、快递 €39.99）；欧元消费免费，用加密资产消费每笔 €0.20 + 1%；ATM 取现每笔 €2 + 1%。外汇费率官方未单独说明。",
+      "rewards": "官方卡片页未列出任何返现或奖励计划。",
+      "paymentCompatibility": {
+        "sourceName": "Bitwala Visa Card",
+        "network": "Visa",
+        "issuer": "Wallester AS（爱沙尼亚）",
+        "region": "仅 EEA 居民",
+        "researchDate": "2026-11-02",
+        "applePay": {
+          "status": "official",
+          "detail": "官方 FAQ 称 Apple Pay 只能通过 Curve 注册后使用，卡片本身不能直接加入 Apple Pay。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方 FAQ 写明 Google Pay 现已可用。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的扣款情况。"
+        }
+      },
+      "facts": [
+        [
+          "可直接消费的余额",
+          "官方卡片页写明可用 BTC、ETH、USDC 或欧元在受理 Visa 的商户消费，也可在 App 内一键把加密资产换成欧元。",
+          [
+            0
+          ]
+        ],
+        [
+          "加密资产消费按笔收费",
+          "欧元消费免费；用加密资产消费每笔收 €0.20 + 1%，小额高频消费时固定的 €0.20 占比较高。",
+          [
+            0
+          ]
+        ],
+        [
+          "申请资格",
+          "官方 FAQ：任何拥有已验证 Bitwala 账户且居住在 EEA 的用户均可申请；EEA 以外地区不在申请范围内。",
+          [
+            0
+          ]
+        ],
+        [
+          "手机钱包",
+          "Google Pay 可直接使用；Apple Pay 只能通过 Curve 注册后间接使用。",
+          [
+            0
+          ]
+        ],
+        [
+          "发卡方与限额",
+          "服务条款写明卡片由 Wallester AS 发行；帮助中心列出消费限额每天 €10,000、每月 €15,000，ATM 取现每天 €350、每月 €3,000，ATM 每笔 €2 + 1%。土耳其、阿联酋、沙特、尼日利亚、俄罗斯等 40 多个国家和地区不能用卡。",
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "适合谁",
+          "适合居住在欧洲经济区、希望直接用 BTC 或 USDC 消费、又想保留欧元账户的用户。加密资产消费每笔都有 €0.20 + 1% 的费用，先把加密资产换成欧元再刷卡，可以避开这笔按笔收费。",
+          [
+            0
+          ]
+        ],
+        [
+          "需要留意的地方",
+          "取现限额较低（每天 €350），且土耳其、阿联酋等 40 多个国家和地区不能用卡，出行前应先核对；外汇费率官方未单独说明。iOS 隐私标签显示会用使用数据追踪用户。",
+          [
+            3
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "Bitwala Visa Card 在中国大陆或马来西亚能申请吗？",
+          "不能。官方 FAQ 写明仅限居住在欧洲经济区（EEA）的已验证用户申请。"
+        ],
+        [
+          "用 BTC 刷卡要多少手续费？",
+          "官方卡片页写明用加密资产消费每笔 €0.20 + 1%；用欧元余额消费免费。"
+        ],
+        [
+          "支持 Apple Pay 吗？",
+          "不能直接添加。官方称 Apple Pay 只能通过 Curve 注册后使用；Google Pay 可直接使用。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Bitwala：Visa 卡产品页，费用、资格与 FAQ（2026-11-02 核对）",
+          "url": "https://bitwala.com/card"
+        },
+        {
+          "title": "Bitwala 官网：钱包与卡片概览",
+          "url": "https://www.bitwala.com/"
+        },
+        {
+          "title": "Bitwala：服务条款，发卡方 Wallester AS 与 Lightspark 服务（2026-11-02 核对）",
+          "url": "https://bitwala.com/terms-of-use"
+        },
+        {
+          "title": "Bitwala 帮助中心：限额、不可用国家与邮寄费（2026-11-02 核对）",
+          "url": "https://support.bitwala.com/hc/en-gb"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/bitwala-card.webp",
+        "file": "bitwala-card.webp",
+        "imageUrl": "https://framerusercontent.com/images/Y7qgw86efUOHAgGpjJGoWyd45Y.png?width=1520&height=1026",
+        "sourcePage": "https://bitwala.com/card",
+        "version": "官方卡片页产品图裁切：黑色 Bitwala Visa 借记卡正面（原图为白、黑两张平视卡叠放）",
+        "mode": "contain",
+        "crop": {
+          "left": 306,
+          "top": 266,
+          "width": 1142,
+          "height": 717
+        }
+      },
+      "url": "https://ucard.observer/cards/bitwala-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-11-02",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
+      "id": "volet-card",
+      "name": "Volet Card",
+      "aliases": "Volet Volet.com 加密钱包卡 预付卡 Mastercard Visa USDT 充值 亚太 马来西亚 新加坡 欧洲 虚拟卡",
+      "mark": "V",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "required",
+      "kycNote": "官方卡片页要求完成 Volet.com 账户验证与地址验证；未列出证件类型等具体步骤。",
+      "intro": "Volet Card 是 Volet.com 钱包（前身 Advcash）的预付卡，分为亚太实体卡、欧洲实体卡、欧洲虚拟卡与全球数字卡。用户先把 USDT、USDC、BTC 等加密资产充入 Volet.com 并兑换为法币余额，再从法币钱包给卡片充值。发卡机构未公开；运营主体按用户协议分为加拿大 Queensland Foreign Exchange, Inc. 与哥斯达黎加 Second February Limitada。",
+      "model": "托管钱包加预付卡：加密资产充入 Volet.com 后兑换为法币或稳定币余额，再从法币钱包给卡片充值；亚太卡只能从法币钱包充值",
+      "network": "Mastercard（亚太卡、全球数字卡）；欧洲卡按国家发 Visa 或 Mastercard",
+      "region": "亚太实体卡面向澳大利亚、日本、菲律宾、新西兰、泰国、新加坡、马来西亚、柬埔寨、越南与韩国公民，以及持有合格长期或永久居留文件的用户；欧洲实体卡面向欧盟、瑞士、挪威、土耳其与以色列的已验证用户。中国大陆未列入任何一类卡的申请名单。",
+      "fee": "亚太卡：卡费 5 美元、月费 1 美元、充值 1.5% + 1 美元、换汇 3.5%；欧洲实体卡：卡费 5 美元或欧元、充值 1% + 1、POS 消费免费；欧洲虚拟卡：卡费 1 美元或欧元、充值 1% + 1；全球数字卡：卡费 5 美元、充值 2.5% + 1 美元。USDT / USDC 充值到法币余额每笔 1 美元。",
+      "rewards": "官方卡片页与费用页未列出返现或奖励计划。",
+      "paymentCompatibility": {
+        "sourceName": "Volet Card",
+        "network": "Mastercard / Visa",
+        "issuer": "官方未公布发卡机构",
+        "region": "亚太 10 国公民或合格居民；欧洲卡限欧盟、瑞士、挪威、土耳其、以色列",
+        "researchDate": "2026-11-02",
+        "applePay": {
+          "status": "unsupported",
+          "detail": "官方卡片页写明亚太卡与欧洲卡目前不能绑定 Apple Pay、Google Pay 或类似移动支付。"
+        },
+        "googlePay": {
+          "status": "unsupported",
+          "detail": "官方卡片页写明目前不能绑定 Google Pay。"
+        },
+        "aiSubscriptions": {
+          "status": "unknown",
+          "detail": "官方未说明 AI 订阅类商户的扣款情况。"
+        }
+      },
+      "facts": [
+        [
+          "加密资产如何进入卡片",
+          "USDT、USDC、BTC、ETH 等可充入 Volet.com；USDT 或 USDC 自动兑换到法币或稳定币余额时每笔收 1 美元。亚太卡只能从法币钱包充值。",
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          "亚太卡费用与限额",
+          "卡费 5 美元、月费 1 美元、充值 1.5% + 1 美元、换汇 3.5%；每日充值上限 6,500 美元。每月 22,000 美元的上限在 FAQ 里写作充值上限，在费用表里写作单笔消费上限，两处口径不一致。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "欧洲卡费用",
+          "实体卡 5 美元或欧元、虚拟卡 1 美元或欧元，充值 1% + 1，POS 消费免费；实体卡免费普通配送约 2 至 6 周、无物流追踪。",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "不支持手机钱包",
+          "官方卡片页明确写明目前不能绑定 Apple Pay、Google Pay 或类似服务。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "运营主体已知，发卡机构未公开",
+          "隐私声明与用户协议列出两个运营主体：加拿大 Queensland Foreign Exchange, Inc.（MSB 登记号 M23153297）与哥斯达黎加 Second February Limitada；不为美国公民和永久居民开户。卡片发卡机构仍未公开，帮助中心只称「持牌金融机构」。",
+          [
+            4
+          ]
+        ],
+        [
+          "只能从平台内充值",
+          "亚太卡只能从 Volet.com 法币钱包充值；从平台外直接打款到卡上不会入账，卡片还可能被冻结。卡片有效期 3 年，可普通邮寄或 DHL 快递。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "适合谁",
+          "马来西亚、新加坡、泰国等亚太 10 国公民，想用 USDT 充值、换成美元后实体卡消费或取现的用户。充值、月费和 3.5% 换汇叠加后成本偏高，不适合大额或高频的外币消费。",
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          "风险提示",
+          "官网没有公开发卡机构与受监管主体，限额在 FAQ 和费用表之间也有冲突；大额充值前应先在 App 内确认条款，并考虑小额试用。",
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "马来西亚人能申请 Volet 卡吗？",
+          "可以申请亚太实体卡。官方列出的合格公民包括马来西亚，持合格长期或永久居留文件的用户也可申请，需先完成 Volet.com 账户与地址验证。"
+        ],
+        [
+          "Volet 卡能用 USDT 充值吗？",
+          "不能直接充入卡片。USDT 先充入 Volet.com 并兑换为法币余额（每笔 1 美元），再从法币钱包给卡充值，亚太卡另收 1.5% + 1 美元充值费。"
+        ],
+        [
+          "能绑定 Apple Pay 或 Google Pay 吗？",
+          "不能。官方卡片页写明亚太卡与欧洲卡目前都不支持。"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "Volet：亚太预付卡页，资格、费用与 FAQ（2026-11-02 核对）",
+          "url": "https://volet.com/cards/asia-pacific"
+        },
+        {
+          "title": "Volet：欧洲卡页，资格、费用与配送（2026-11-02 核对）",
+          "url": "https://volet.com/cards/europe"
+        },
+        {
+          "title": "Volet：个人账户费用表",
+          "url": "https://volet.com/personal/fees"
+        },
+        {
+          "title": "Volet.com 官网",
+          "url": "https://volet.com/"
+        },
+        {
+          "title": "Volet：隐私声明，加拿大与哥斯达黎加两个运营主体（2026-11-02 核对）",
+          "url": "https://volet.com/privacy-notice"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/volet-card.webp",
+        "file": "volet-card.webp",
+        "imageUrl": "https://volet.com/new/_next/static/media/assets/pages/cards/cards/asia-pacific.5c2400f80ff25650894a8c624d55bf27.svg",
+        "sourcePage": "https://volet.com/cards/asia-pacific",
+        "version": "官方卡片页亚太预付卡正面卡面（SVG 矢量直出）",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/volet-card/",
       "statusLabel": "地区受限 · 资格需核实"
     }
   ]

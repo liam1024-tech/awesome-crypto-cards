@@ -431,8 +431,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "具体卡网络与币种以获批卡片为准",
       "model": "平台账户内稳定币支付",
-      "verified": "2026-10-30",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "compliance",
+          "tag": "公司动态",
+          "title": "RedotPay 据报考虑年底前秘密递交美国 IPO，Binance 诉讼仍在进行",
+          "note": "彭博 2026-10-26 报道（The Paypers 10-27 转述）：RedotPay 考虑在 2026 年底前向 SEC 秘密递交 IPO 申请，并洽谈估值 40 亿至 50 亿美元的上市前融资，公司未回应。此前 Binance 关联方在香港索赔约 4.73 亿美元，RedotPay 否认指控；Binance 已于 2026-04-03 停止对 RedotPay 的支付功能。均为公司与诉讼动态，卡片费率与申请条件未因此改变。"
+        },
         {
           "date": "2026-10-30",
           "type": "fee",
@@ -1091,7 +1098,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "旧 Lite 帮助资料列 Mastercard",
       "model": "Base 链自托管账户 / 社群专属 Community Cards",
-      "verified": "2026-10-04",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-08-15",
@@ -1148,7 +1155,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；由 Wirex 提供卡片基础设施",
       "model": "USDC 充值的数字 Visa 卡",
-      "verified": "2026-09-27",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-08-31",
@@ -1279,8 +1286,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Gnosis Pay 为项目管理方，Monavate 相关实体发卡",
       "model": "自托管稳定币钱包余额",
-      "verified": "2026-10-10",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "architecture",
+          "tag": "风险澄清",
+          "title": "Gnosis Pay 自营卡停运不影响 MiniPay 卡，迁移时间待通知",
+          "note": "Gnosis Pay 自营消费者卡 2026-12-20 停止；其帮助中心将 MiniPay 列为合作方卡，合作方迁移新平台的日期由各合作方通知。MiniPay 卡片页（2026-11-02 核对）仍显示早期访问申请、Monavate 发卡、Gnosis Pay 项目管理、最高 5% 返现，未提及迁移。"
+        },
         {
           "date": "2026-10-10",
           "type": "reward",
@@ -1606,7 +1620,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 卡发行基础设施",
       "model": "Takenos 数字美元账户 / Rain Visa 卡",
-      "verified": "2026-09-27",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-07-08",
@@ -1878,8 +1892,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡协议列有 Wayex 计划",
       "model": "Wayex 稳定币 / 多币种账户关联 Visa",
-      "verified": "2026-10-06",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "product",
+          "tag": "资料补全",
+          "title": "Wayex 公开发卡行 Lead Bank，确认支持 Apple Pay 与 Google Pay",
+          "note": "官方卡片页（2026-11-02 核对）费率与本站记录一致：开卡与月费 $0、USD 消费 0%、非 USD 1.5%、USDC / DAI 1:1、USDT 充值 0.1%。补上发卡行 Lead Bank（Visa 许可）、Bridge 项目管理、18 岁年龄要求与 Apple Pay / Google Pay 支持；实体卡配送与补卡费仍标注待定。"
+        },
         {
           "date": "2026-10-04",
           "type": "fee",
@@ -1914,8 +1935,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Bridge 卡协议入口",
       "model": "Dollarize 美元账户 / Visa 卡；稳定币关联路径待核",
-      "verified": "2026-10-04",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "region",
+          "tag": "地区口径",
+          "title": "Dollarize 官网称 44 国开放，未列具体国家",
+          "note": "官网（2026-11-02 核对）写已在 44 个国家开放、实体卡限参与国家，但没有国家名单，也没有卡片费率；本站此前依据的 Bridge 卡协议（预付法币卡、单笔上限 $2,000）仍是唯一公开的卡片条款。"
+        },
         {
           "date": "2026-06-30",
           "type": "feature",
@@ -1971,7 +1999,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Lead Bank 发行、Bridge 项目管理（依卡协议）",
       "model": "Sendwave 钱包稳定币余额在刷卡交易时兑换为卡上 USD",
-      "verified": "2026-10-06",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-10-04",
@@ -2110,7 +2138,7 @@
       "stageLabel": "🟠 清算清退",
       "network": "Mastercard；Monavate 发行，Crypto Life / Baanx 运营服务",
       "model": "1inch / CL Card 账户内加密资产即时兑换",
-      "verified": "2026-10-23",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-10-23",
@@ -2142,8 +2170,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Tevau 卡计划，地区发行安排以 App 条款为准",
       "model": "先将 USDT 充值进 Tevau 钱包 / 卡账户，再以卡支付",
-      "verified": "2026-09-28",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "fee",
+          "tag": "资料补全",
+          "title": "Tevau 补上 ATM 与消费限额、拒付与小额预授权费",
+          "note": "官方卡片页（页面标注 2026-09-19 最后更新）的费率与本站记录一致；补上 ATM 每日 $3,000 / $3,750、每月 $10,000 / $112,500，单笔消费上限，以及被拒交易 $0.5、小额预授权 $0.2、注销卡片 $2。金属卡与金卡的充值优惠在页面内两处写法不一致，已注明。"
+        },
         {
           "date": "2026-09-28",
           "type": "fee",
@@ -2192,7 +2227,7 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；Bridge 曾提供卡计划",
       "model": "美元账户 / Visa 卡（运营收尾状态未明确）",
-      "verified": "2026-10-23",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-10-23",
@@ -2224,8 +2259,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；卡与支付服务由 Immersve Limited 提供",
       "model": "Binance 账户资产作为担保的 Immersve Mastercard",
-      "verified": "2026-10-30",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "region",
+          "tag": "地区开放",
+          "title": "Binance Card 在委内瑞拉分批开放",
+          "note": "Bloomberg Línea 2026-08-05 报道，Binance 经客服声明确认在委内瑞拉逐步开放 Binance Card，开放范围由 Binance 通知；报道未写明卡片类型与发卡方。这是 Google 趋势中 Binance Card 搜索量最大的来源（2026-11-02 核对）。"
+        },
         {
           "date": "2026-10-30",
           "type": "reward",
@@ -2802,7 +2844,7 @@
       "stageLabel": "🟠 清算清退",
       "network": "Visa；旧交易所卡计划由 DCS / 合作卡方提供",
       "model": "Bitget 交易所账户资产支持的 Visa 卡消费",
-      "verified": "2026-10-19",
+      "verified": "2026-11-02",
       "changelogs": [
         {
           "date": "2026-10-19",
@@ -2990,8 +3032,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa / Mastercard（依地区与卡计划，官网页面口径并不完全一致）",
       "model": "Kolo 钱包资产在付款时转换后结算",
-      "verified": "2026-10-08",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "compliance",
+          "tag": "口径核对",
+          "title": "Kolo 官网覆盖国家数与 MiCA 表述前后不一",
+          "note": "官网（2026-11-02 核对）同时出现 60+ 与 170+ 两个覆盖国家数，并把 MiCA 状态分别写作「MiCA-ready」与「fully MiCA-compliant」；2% BTC 奖励与 0% 稳定币加价表述与本站记录一致，发卡机构仍未公开。"
+        },
         {
           "date": "2026-10-08",
           "type": "compliance",
@@ -7286,6 +7335,42 @@
           "tag": "财务工具",
           "title": "支持在 App 内下载对账单、卡账单与转账凭证，Altitude Accounting 接入 Xero",
           "note": "Altitude 官方更新：账户对账单、卡账单与转账确认可直接在 App 内下载；Altitude Accounting 与 Xero 打通，可连接 Xero 并做科目映射。属企业卡才有的财务工作流能力。"
+        }
+      ]
+    },
+    {
+      "id": "bitwala-card",
+      "name": "Bitwala Visa Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa（借记卡）",
+      "model": "钱包账户关联借记卡：账户内可持有欧元、BTC、ETH 与 USDC，刷卡时从所选余额扣款，加密资产消费按笔收费并即时换成欧元结算",
+      "verified": "2026-11-02",
+      "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Bitwala Visa Card（EEA）",
+          "note": "核对 Bitwala 官方卡片页、服务条款与帮助中心：Visa 虚拟卡与实体卡，可用 BTC、ETH、USDC 或欧元消费；仅限 EEA 已验证用户；Wallester AS 发卡；虚拟卡 €0.99、实体卡 €9.99，加密资产消费每笔 €0.20 + 1%，ATM 每笔 €2 + 1%（每天限 €350）；无返现。"
+        }
+      ]
+    },
+    {
+      "id": "volet-card",
+      "name": "Volet Card",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Mastercard（亚太卡、全球数字卡）；欧洲卡按国家发 Visa 或 Mastercard",
+      "model": "托管钱包加预付卡：加密资产充入 Volet.com 后兑换为法币或稳定币余额，再从法币钱包给卡片充值；亚太卡只能从法币钱包充值",
+      "verified": "2026-11-02",
+      "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 Volet Card（亚太与欧洲预付卡）",
+          "note": "核对 Volet 官方卡片页、费用表与隐私声明：亚太 Mastercard 实体卡面向马来西亚等 10 国公民，卡费 5 美元、月费 1 美元、充值 1.5% + 1 美元、换汇 3.5%；欧洲卡按国家发 Visa 或 Mastercard；均不支持 Apple Pay 与 Google Pay；运营主体为加拿大与哥斯达黎加两家公司，发卡机构未公开。"
         }
       ]
     }
