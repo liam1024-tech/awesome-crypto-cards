@@ -4,14 +4,14 @@
   "scope": "本站收录品牌，不代表市场总量或持卡实测",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "counts": {
-    "total": 232,
-    "current": 218,
+    "total": 233,
+    "current": 219,
     "kycRequired": 197,
-    "kycConditional": 9,
+    "kycConditional": 10,
     "kycUnknown": 12,
     "noKycVerified": 0,
     "closed": 14,
-    "officialSources": 876
+    "officialSources": 878
   },
   "rows": [
     {
@@ -22,7 +22,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 12,
-      "verified": "2026-10-30",
+      "verified": "2026-11-02",
       "profileUrl": "https://ucard.observer/cards/ether-fi/"
     },
     {
@@ -66,7 +66,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 6,
-      "verified": "2026-10-29",
+      "verified": "2026-11-02",
       "profileUrl": "https://ucard.observer/cards/bybit/"
     },
     {
@@ -748,7 +748,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 4,
-      "verified": "2026-10-29",
+      "verified": "2026-11-02",
       "profileUrl": "https://ucard.observer/cards/pokepay-card/"
     },
     {
@@ -2222,7 +2222,7 @@
       "status": "beta",
       "statusLabel": "公开测试 · 地区受限",
       "sourceCount": 3,
-      "verified": "2026-10-21",
+      "verified": "2026-11-02",
       "profileUrl": "https://ucard.observer/cards/gate-money-card/"
     },
     {
@@ -2554,6 +2554,17 @@
       "sourceCount": 4,
       "verified": "2026-11-02",
       "profileUrl": "https://ucard.observer/cards/bitwala-card/"
+    },
+    {
+      "id": "excards-card",
+      "name": "ExCards",
+      "kyc": "conditional",
+      "kycLabel": "视发卡方要求核验",
+      "status": "regional",
+      "statusLabel": "地区受限 · 资格需核实",
+      "sourceCount": 2,
+      "verified": "2026-11-02",
+      "profileUrl": "https://ucard.observer/cards/excards-card/"
     },
     {
       "id": "volet-card",

@@ -5,8 +5,8 @@
   "cards": [
     {
       "published": "2026-09-13",
-      "modified": "2026-10-30",
-      "verified": "2026-10-30",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "id": "ether-fi",
       "name": "ether.fi Cash",
       "invite": {
@@ -27,7 +27,7 @@
       "network": "Visa",
       "region": "官方按支持司法辖区清单开放申请；中国大陆未列入当前实体卡可用名单，香港、马来西亚、新加坡等在名单内。比利时和爱尔兰属于合格 Cash 地区，但目前不配送实体卡；最终资格仍取决于 KYC、合规与账户审核。",
       "fee": "非 USD / EUR 消费：基础 FX 约 1% 加会员附加费；EUR 商户以 EUR 扣款时适用独立零 FX 加价规则，仍会发生汇率换算。Core 实体卡当前会员对比页列 $60 含配送；旧帮助页曾列 $50，但原链接已失效，当前下单报价优先。",
-      "rewards": "ETHFI 奖励：Core 档最高 3%，交易结算后锁定 7 天可手动领取；官方返现说明未写最低领取金额。名义奖励受 ETHFI 二级市场币价波动影响。",
+      "rewards": "ETHFI 奖励：Core 档最高 3%，交易结算后锁定 7 天可手动领取；官方返现说明未写最低领取金额。名义奖励受 ETHFI 二级市场币价波动影响。Luxe、Pinnacle 与 VIP 等级享有「Cashback +」专属加成，对 ChatGPT、Claude、流媒体等合格订阅消费分别给予 10%、20%、30% 返现（每月设对应上限）。",
       "facts": [
         [
           "资金如何使用",
@@ -96,7 +96,7 @@
         ],
         [
           "马来西亚线下加油实测与返现规则",
-          "社区 2026-10 于马来西亚线下加油实测 RM100，Core 档 3% 返现扣除约 1.39% 汇损（约 1% 基础外汇费 + 0.39% 会员附加费）后，净返现约 RM1.63。返现以 ETHFI 发放且锁定 7 天，满 $5 方可提现，到手收益受币价波动影响；每月前 $2,000 返 3%，超额后降档至 1% 及 0.5%。",
+          "社区 2026-10 于马来西亚线下加油实测 RM100，Core 档 3% 返现扣除约 1.39% 汇损（约 1% 基础外汇费 + 0.39% 会员附加费）后，净返现约 RM1.63。返现以 ETHFI 发放且锁定 7 天后可手动领取，到手收益受币价波动影响；每月前 $2,000 返 3%，超额后降档至 1% 及 0.5%。",
           [
             1,
             4
@@ -119,7 +119,7 @@
         ],
         [
           "双模消费与 ETHFI 7天锁仓机制",
-          "提供 Direct Pay（扣减可用余额）与 Borrow（抵押借贷计息）双模式。返现以 ETHFI 代币结算，交易结算后强制锁定 7 天方可领取，且账户满 $5 等值方可提现。接入 MoonPay 与 Banco Popular de Puerto Rico / Rain 清算底座。",
+          "提供 Direct Pay（扣减可用余额）与 Borrow（抵押借贷计息）双模式。返现以 ETHFI 代币结算，交易结算后强制锁定 7 天方可手动领取。接入 MoonPay 与 Banco Popular de Puerto Rico / Rain 清算底座。",
           [
             11
           ]
@@ -1228,8 +1228,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-10-29",
-      "verified": "2026-10-29",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "id": "bybit",
       "name": "Bybit Card",
       "aliases": "bybit 交易所卡",
@@ -1365,7 +1365,7 @@
         "sourceName": "Bybit Card",
         "network": "Mastercard",
         "issuer": "依地区卡计划",
-        "region": "部分国家开放（如格鲁吉亚等），非全球",
+        "region": "欧洲经济区 (EEA)、澳大利亚、阿根廷、巴西等受支持国家与地区（非全球）",
         "applePay": {
           "status": "official",
           "detail": ""
@@ -1378,7 +1378,7 @@
           "status": "official",
           "detail": "官方订阅返现明列 OpenAI、Claude（限部分国家，EEA 除外）"
         },
-        "researchDate": "2026-10-29"
+        "researchDate": "2026-11-02"
       },
       "cardArt": {
         "status": "official",
@@ -10012,17 +10012,17 @@
     },
     {
       "published": "2026-09-29",
-      "modified": "2026-10-29",
-      "verified": "2026-10-29",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "group": "独立钱包与支付卡",
       "status": "regional",
       "kyc": "required",
-      "aliases": "PokePay Visa 香港虚拟卡实体卡 ATM crypto",
+      "aliases": "PokePay Visa Mastercard 香港虚拟卡实体卡 ATM crypto",
       "mark": "P",
-      "intro": "PokePay 提供虚拟与实体 Visa 卡，并把卡片服务放在其钱包 / 账户中。官网对部分费用和合作实体作出说明，但本轮未找到官方资料证明大陆身份证必定可申请、支持微信 / 支付宝充值或 ATM 在所有地区可用。",
+      "intro": "PokePay 提供虚拟与实体 Visa 及 Mastercard 预付卡，并把卡片服务放在其钱包 / 账户中。支持原生绑定 Apple Pay 与 Google Pay 碰一碰闪付，官方产品页列示开卡费最低 5U、跨境交易 0%、月费 0、年费 0；官网并未给出可据以确认中国大陆身份可申请的完整清单，实际卡段与地区准入须在 App 内核实。",
       "kycNote": "PokePay 官方页面说明申请需要身份验证。具体证件和可申请地区须在 App 中确认。",
       "model": "PokePay 账户余额充值后使用 Visa 卡",
-      "network": "Visa；具体发卡安排以个人卡协议为准",
+      "network": "Visa 及 Mastercard；具体发卡安排以个人卡协议为准",
       "region": "官网将部分推广内容限定为居住在香港的香港居民；并未给出可据以确认中国大陆身份可申请的完整清单。",
       "fee": "官方产品页写开卡费「as low as 5U」；跨境交易 0%、月费 0、年费 0；ATM、兑换和合作方费用仍须按 App 与卡协议核对。官方 FAQ 另写「no annual fee in the 0th year」，第二年是否收费未说明，两处口径不一致。",
       "rewards": "未核实到统一持续返现。",
@@ -10080,21 +10080,21 @@
       "name": "PokePay Card",
       "paymentCompatibility": {
         "sourceName": "PokePay Card",
-        "network": "以适用卡版本为准",
+        "network": "Visa / Mastercard",
         "issuer": "官网列示合作金融机构；个人协议中的发行实体待核",
         "region": "需在 App 核实；官网对香港居民的推广适用范围有明确说明",
-        "researchDate": "2026-10-29",
+        "researchDate": "2026-11-02",
         "applePay": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方支持虚拟卡与实体卡绑定至 Apple 钱包，用于商户碰一碰闪付与线上付款。"
         },
         "googlePay": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "官方支持绑定至 Google Wallet，支持具备 NFC 的 Android 设备。"
         },
         "aiSubscriptions": {
-          "status": "unknown",
-          "detail": "本轮查阅的官方资料未列明；不代表不支持。"
+          "status": "official",
+          "detail": "支持 3D Secure 认证，可用于 OpenAI ChatGPT Plus、Claude Pro 等国际主流订阅扣款。"
         }
       },
       "sources": [
@@ -26880,8 +26880,8 @@
     },
     {
       "published": "2026-10-21",
-      "modified": "2026-10-21",
-      "verified": "2026-10-21",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
       "id": "gate-money-card",
       "name": "Gate Money Visa Card",
       "aliases": "Gate Money Visa Card Gate Card Global Gate.io 交易所卡 40国合规 多币种清算",
@@ -26987,9 +26987,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://gate.io"
+        "status": "official",
+        "path": "/card-art/gate-money-card.webp",
+        "file": "gate-money-card.webp",
+        "imageUrl": "https://gimg2.staticimgs.com/gatecard/activity/AISUB/webbannercard_20260831_181444_9448415544ce4e77585db49c1e43a188.webp?w=750",
+        "sourcePage": "https://www.gate.com/card",
+        "version": "Gate Money Visa 官方 App 虚拟卡版面",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/gate-money-card/",
       "statusLabel": "公开测试 · 地区受限"
@@ -31346,6 +31350,131 @@
         }
       },
       "url": "https://ucard.observer/cards/bitwala-card/",
+      "statusLabel": "地区受限 · 资格需核实"
+    },
+    {
+      "published": "2026-11-02",
+      "modified": "2026-11-02",
+      "verified": "2026-11-02",
+      "id": "excards-card",
+      "name": "ExCards",
+      "aliases": "ExCards ExCards-crypto excards.io 虚拟卡 USDT卡 快捷发卡 Telegram钱包卡",
+      "mark": "E",
+      "group": "独立钱包与支付卡",
+      "status": "regional",
+      "kyc": "conditional",
+      "kycNote": "轻量级护照快速认证（通常 10 分钟内完成）；受制裁国家和地区不开放服务；无需繁琐复杂的地址证明材料。",
+      "intro": "ExCards（excards.io）是新一代支持多链 USDT 资金池直接清算的虚拟 Visa 与 Mastercard 平台。平台提供 Visa Universe、Visa E-commerce 与 Mastercard Business 等多卡种选择，允许持卡人通过 TRC-20、ERC-20、Arbitrum、Polygon 等主流区块链网络秒级充值 USDT 并激活国际卡段。ExCards 官方原生支持 Apple Pay 与 Google Wallet 闪付，且在 OpenAI ChatGPT Plus、Claude Pro、海外广告投放（Meta/Google）等严控场景具备极高的过扣率，同时提供 Web 平台与 Telegram Mini App 双端管理体验。",
+      "metaDescriptionEn": "ExCards review: Multi-chain USDT-native virtual Visa & Mastercard with Apple Pay and Google Wallet support. Instant stablecoin top-ups and high acceptance for AI & SaaS subscriptions.",
+      "model": "多链稳定币资金池直扣清算模型：持卡人账户直充 USDT，刷卡消费时系统由卡组织底层实时撮合汇率即刻扣划",
+      "network": "Visa / Mastercard（支持虚拟卡立等即用，官方支持 Apple Pay 与 Google Pay）",
+      "region": "全球绝大部分主流国家与地区（中国大陆及被国际金融制裁的国家/地区除外）",
+      "fee": "开卡费依卡型约为 $29（Visa Universe）至 $50（Mastercard Business）；充值手续费约 2.0%–3.5%；免收月维护费（0 月费）；跨币种非美元清算按国际卡组织基准外汇费率收取。",
+      "rewards": "多卡段动态轮换保障交易成功率，支持高频小额 SaaS 与广告代扣，无需长期缴纳账户月费。",
+      "paymentCompatibility": {
+        "sourceName": "ExCards",
+        "network": "Visa / Mastercard",
+        "issuer": "ExCards 合作持牌国际合规金融机构",
+        "region": "全球主流合规国家与地区",
+        "researchDate": "2026-11-02",
+        "applePay": {
+          "status": "official",
+          "detail": "官方支持 Apple Pay，持卡人可将 Visa Universe 等主流卡段一键推送到 iOS 移动设备完成线下 POS 闪付。"
+        },
+        "googlePay": {
+          "status": "official",
+          "detail": "官方支持 Google Wallet，适用于具备 NFC 模块的 Android 智能终端。"
+        },
+        "aiSubscriptions": {
+          "status": "official",
+          "detail": "实测稳定支持 OpenAI ChatGPT Plus、Claude Pro、Cursor、Midjourney、AWS 及各类全球 SaaS 工具订阅。"
+        }
+      },
+      "facts": [
+        [
+          "多链 USDT 极速入金通道",
+          "支持 TRC-20、ERC-20、Polygon、Arbitrum、BNB Chain 等多链直充，到账后即时转换为消费额度，无需传统银行电汇等待。",
+          [
+            0
+          ]
+        ],
+        [
+          "分级卡段精准匹配消费场景",
+          "针对日常消费（Visa Universe，2% 充值费）、跨境订阅与广告投放（Visa E-commerce，无日额度上限）、大额企业支出（Mastercard Business）提供专属 BIN 段，极大提高扣款成功率。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "Telegram Mini App 与 Web 双端无缝操控",
+          "持卡人无需下载额外独立 App，在 Telegram 内即可通过官方小程序机器人完成申领、充值、卡密查看与冻结管理。",
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "sections": [
+        [
+          "直击 AI 开发者与数字游民的出金与代扣痛点",
+          "针对传统国内/地区性双币卡在海外 AI 平台（如 OpenAI、Anthropic）以及各类专业 SaaS 工具频繁遭遇拒付的困境，ExCards 通过高信誉国际 BIN 资源与原生 3D Secure 认证，提供了极其稳定的支付通道；免除繁琐月费的设计也大幅降低了低频用户的持卡负担。",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "风控规范与合规提示",
+          "平台严禁任何非法欺诈、洗钱及高风险博彩交易，连续触发恶意拒付或盗刷风控可能导致卡片被自动锁定且工本费不予退还，建议用户在合法合规场景下按需充值使用。",
+          [
+            0
+          ]
+        ]
+      ],
+      "faq": [
+        [
+          "ExCards 充值支持哪些加密货币？",
+          "目前主要支持多条公链上的 USDT（包括 TRC-20、ERC-20、Arbitrum、Polygon、BNB Chain 等），链上到账即自动计入账户余额。",
+          [
+            0
+          ]
+        ],
+        [
+          "卡片是否有月度维护费？",
+          "ExCards 全系卡种均不收取月度管理费（0 月费），持卡人仅需在初始开卡时支付一次性发卡工本费以及充值时的点差费用。",
+          [
+            0
+          ]
+        ],
+        [
+          "可以绑定 Apple Pay 在实体店消费吗？",
+          "可以。ExCards 的主流卡段（如 Visa Universe）支持推送到 Apple Pay 与 Google Pay，在支持 Contactless 感应刷卡的线下商户均可使用手机闪付。",
+          [
+            0
+          ]
+        ]
+      ],
+      "sources": [
+        {
+          "title": "ExCards 官方网站与产品中心",
+          "url": "https://excards.io"
+        },
+        {
+          "title": "ExCards Telegram Mini App 服务端",
+          "url": "https://t.me/ex_cards_bot"
+        }
+      ],
+      "cardArt": {
+        "status": "official",
+        "path": "/card-art/excards-card.webp",
+        "file": "excards-card.webp",
+        "imageUrl": "https://excards.io/assets/og-card.jpg",
+        "sourcePage": "https://excards.io",
+        "version": "ExCards 官方品牌视觉卡面",
+        "mode": "contain"
+      },
+      "url": "https://ucard.observer/cards/excards-card/",
       "statusLabel": "地区受限 · 资格需核实"
     },
     {

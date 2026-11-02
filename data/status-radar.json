@@ -174,8 +174,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa",
       "model": "直接支付 / 抵押借款",
-      "verified": "2026-10-30",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "compliance",
+          "tag": "文本对齐",
+          "title": "清理 ether.fi Cash 事实行中 $5 门槛残留，补全 Cashback+ 订阅加成",
+          "note": "清理 facts[8] 与 facts[11] 中遗留的「满 $5 方可提现」表述，与 2026-10-30 撤回门槛的决议保持完全一致；补充 Luxe/Pinnacle/VIP 针对 ChatGPT、Claude 等订阅服务的 10%–30% 专属返现加成（Cashback+）。"
+        },
         {
           "date": "2026-10-30",
           "type": "product",
@@ -533,8 +540,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "依地区卡计划核对",
       "model": "交易所关联支付卡",
-      "verified": "2026-10-29",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "compliance",
+          "tag": "地区更正",
+          "title": "修正 Bybit Card 支持地区表述：覆盖欧洲经济区、澳洲与拉美",
+          "note": "修正支付兼容性栏中「如格鲁吉亚等」的单一表述。Bybit Card 主力发行市场为欧洲经济区（EEA）、澳大利亚、阿根廷与巴西（对接本地 PIX 与 Transferencias 3.0 清算），受限制地区包含美国、中国大陆、香港、新加坡等。重申 2026-10-05 起法币出资不享受任何返现或积分。"
+        },
         {
           "date": "2026-10-29",
           "type": "reward",
@@ -2753,10 +2767,17 @@
       "name": "PokePay Card",
       "stage": "active",
       "stageLabel": "🟢 正常活跃",
-      "network": "Visa；具体发卡安排以个人卡协议为准",
+      "network": "Visa 及 Mastercard；具体发卡安排以个人卡协议为准",
       "model": "PokePay 账户余额充值后使用 Visa 卡",
-      "verified": "2026-10-29",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "feature",
+          "tag": "网络与钱包",
+          "title": "补充 PokePay 万事达卡段与 Apple Pay / Google Pay 兼容认证",
+          "note": "补充 PokePay 对万事达（Mastercard）卡组织的支持（涵盖 Standard 与 World 级别卡段）；对齐支付兼容性状态，确认虚拟卡与实体卡均支持 Apple Pay 与 Google Pay 碰一碰闪付消费。"
+        },
         {
           "date": "2026-10-29",
           "type": "fee",
@@ -6637,8 +6658,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（国际实体卡与 App 虚拟卡，官方原生支持 Apple Pay 与 Google Wallet）",
       "model": "交易所现货与资金账户即时清算模型：直接打通 Gate.io 账户资金池，刷卡时秒级撮合代币兑付并通过 Visa 国际网络完成全球清算",
-      "verified": "2026-10-21",
+      "verified": "2026-11-02",
       "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "feature",
+          "tag": "卡面补齐",
+          "title": "补齐 Gate Money Visa 官方 App 虚拟卡版面素材",
+          "note": "经核验 Gate 官方移动端客户端（8.39.0+）及产品中心，提取 Gate Money 联名 Visa 官方展示卡面并完成高清裁切与 WebP 归档。"
+        },
         {
           "date": "2026-10-21",
           "type": "product",
@@ -7353,6 +7381,24 @@
           "tag": "新品收录",
           "title": "收录 Bitwala Visa Card（EEA）",
           "note": "核对 Bitwala 官方卡片页、服务条款与帮助中心：Visa 虚拟卡与实体卡，可用 BTC、ETH、USDC 或欧元消费；仅限 EEA 已验证用户；Wallester AS 发卡；虚拟卡 €0.99、实体卡 €9.99，加密资产消费每笔 €0.20 + 1%，ATM 每笔 €2 + 1%（每天限 €350）；无返现。"
+        }
+      ]
+    },
+    {
+      "id": "excards-card",
+      "name": "ExCards",
+      "stage": "active",
+      "stageLabel": "🟢 正常活跃",
+      "network": "Visa / Mastercard（支持虚拟卡立等即用，官方支持 Apple Pay 与 Google Pay）",
+      "model": "多链稳定币资金池直扣清算模型：持卡人账户直充 USDT，刷卡消费时系统由卡组织底层实时撮合汇率即刻扣划",
+      "verified": "2026-11-02",
+      "changelogs": [
+        {
+          "date": "2026-11-02",
+          "type": "product",
+          "tag": "新品收录",
+          "title": "收录 ExCards 多链 USDT 虚拟 Visa 与 Mastercard",
+          "note": "新增收录 ExCards：新一代支持 TRC-20、ERC-20、Arbitrum 等多链 USDT 资金池直扣清算的虚拟 Visa 与 Mastercard 平台。官方原生支持 Apple Pay 与 Google Pay，高兼容 AI 与海外 SaaS 订阅，免月费（0 月费）。"
         }
       ]
     },

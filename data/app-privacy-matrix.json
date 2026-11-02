@@ -1,8 +1,8 @@
 {
   "version": "2026-11-02",
-  "description": "全网 228 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
+  "description": "全网 229 款U卡移动客户端形态、全球双应用商店覆盖、中国区 App Store 直接上架状态、自主注销账号路径与隐私合规评分开源矩阵",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "totalAudited": 228,
+  "totalAudited": 229,
   "cards": [
     {
       "id": "ether-fi",
@@ -4563,6 +4563,26 @@
       "regulatoryFramework": "明确 GDPR",
       "privacyPolicyUrl": "https://volet.com/privacy-notice",
       "profileUrl": "https://ucard.observer/cards/volet-card/"
+    },
+    {
+      "id": "excards-card",
+      "name": "ExCards（虚拟 Visa / Mastercard，USDT 充值）",
+      "clientType": "纯 Web/PWA",
+      "appName": "app.excards.io 网页端（PWA）+ Telegram 小程序（官网按钮指向 @excards_bot，关于页写 @ex_cards_bot）",
+      "webSupport": "纯 Web/PWA",
+      "appStoreChinaAvailable": "N/A",
+      "appStoreCoverage": "",
+      "appStoreUrl": "",
+      "googlePlayCoverage": "",
+      "googlePlayUrl": "",
+      "deletionMethod": "需联系客服/邮件/表单",
+      "deletionNote": "目前不能自助删除：网页端“个人资料 → 安全”里有“Delete account”按钮，但前端代码里这个按钮只弹出“This section will be available soon”（即将推出）的提示；官网隐私政策写可以通过 app.excards.io 申请删除数据（受法定保留期限制），服务条款写“如果有关户功能”，可以按平台流程申请关户，要先处理完未完成的交易；实际只能找 app.excards.io 内的客服聊天或 Telegram @excards_support 申请；卡费、充值手续费和授权费都不退",
+      "deletionSource": "https://excards.io/privacy.html",
+      "privacyScore": 3,
+      "privacyFriendliness": "一般",
+      "regulatoryFramework": "一般数据权利 / 他国法规",
+      "privacyPolicyUrl": "https://excards.io/privacy.html",
+      "profileUrl": "https://ucard.observer/cards/excards-card/"
     }
   ]
 }
