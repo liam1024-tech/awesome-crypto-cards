@@ -385,8 +385,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；产品页称 Rain 按 Visa 许可发行，国际卡条款则将 Third National 定义为 Issuer；具体发行方以个人卡协议和卡背为准",
       "model": "自托管稳定币余额",
-      "verified": "2026-10-31",
+      "verified": "2026-11-03",
       "changelogs": [
+        {
+          "date": "2026-11-03",
+          "type": "compliance",
+          "tag": "权益调整",
+          "title": "早期 Core 免费推广权益提前终止并统一进入 14 天降级宽限期",
+          "note": "官方已向早期获赠免单或 1 年 Core 权益的用户推送到期通知（Your Core promotion is ending）：Core 促销权益将于 14 天后结束并自动降级为免费 Lite 方案，未主动订阅或锁仓 XPL 的账户届时回退基础费率；自托管稳定币余额与卡片消费不受影响，但 $500 以上大额返现与 5% AI 返现权益下线。实体卡在宽限期内仍可免工本费/邮费申请。"
+        },
         {
           "date": "2026-10-31",
           "type": "feature",
