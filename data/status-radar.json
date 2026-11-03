@@ -191,6 +191,13 @@
           "note": "官方 ATM 限额与费用页写虚拟卡可通过 Apple Pay 或 Google Pay 在非接 ATM 使用，范围限于该场景。官方返现说明只写 7 天锁定后手动领取，没有写最低领取金额；此前记录的「5 美元等值」在该页找不到依据，已撤回。这不代表其他场景支持手机钱包。"
         },
         {
+          "date": "2026-10-30",
+          "type": "feature",
+          "tag": "域名支付",
+          "title": "推出短域名 Tag 支付收款功能，支持瑞士法郎 ZCHF 刷卡与质押",
+          "note": "ether.fi Cash 上线专属 Tag 身份识别（VIP 档短至 3 字符，Core 档 6 字符），支持直接通过名称转账与收款；同时全面整合瑞士法郎稳定币 ZCHF，支持使用 ZCHF 刷卡消费或以其为抵押借入 USDC。"
+        },
+        {
           "date": "2026-10-29",
           "type": "fee",
           "tag": "限额更正",
@@ -378,8 +385,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；产品页称 Rain 按 Visa 许可发行，国际卡条款则将 Third National 定义为 Issuer；具体发行方以个人卡协议和卡背为准",
       "model": "自托管稳定币余额",
-      "verified": "2026-10-30",
+      "verified": "2026-10-31",
       "changelogs": [
+        {
+          "date": "2026-10-31",
+          "type": "feature",
+          "tag": "币种扩展",
+          "title": "实装 ETH 与 HYPE 等多链资产一键入金与即时刷卡",
+          "note": "Plasma One 移动端正式支持 ETH 以及 Hyperliquid 生态代币 HYPE 等多资产一键充值与直接刷卡消费，进一步丰富了非稳定币原生链上资产的消费场景。"
+        },
         {
           "date": "2026-10-30",
           "type": "compliance",
@@ -460,6 +474,13 @@
           "tag": "费用口径更正",
           "title": "RedotPay 卡片本币消费改为免交易费",
           "note": "官方费用帮助页（2026-07-27 更新）把卡片本币交易列为 No fee，其他币种交易收 1.2%，加密资产转换收 1%。此前主费用字段、费用分区和首条 FAQ 把本币消费写成约 1.2%，与官方表不符。本轮同步更正简介、费用、事实行、费用分区、FAQ 与微信/支付宝门槛说明。"
+        },
+        {
+          "date": "2026-10-30",
+          "type": "feature",
+          "tag": "AI 识别",
+          "title": "转账汇款新增 AI 智能解析，支持粘贴文本或截图拍照自动填单",
+          "note": "RedotPay 移动端在添加转账收款人流程中加入 AI 识别技术，持卡人可直接粘贴收款信息或拍摄银行单据照片，AI 自动完成表单信息提取与填入。"
         },
         {
           "date": "2026-10-20",
@@ -935,8 +956,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "按获批卡计划核对",
       "model": "钱包关联卡计划",
-      "verified": "2026-10-22",
+      "verified": "2026-10-29",
       "changelogs": [
+        {
+          "date": "2026-10-29",
+          "type": "compliance",
+          "tag": "清算路线",
+          "title": "披露路线图：技术栈全线卡片拟于 2027 年底前接入 XRPL RLUSD 清算",
+          "note": "Tria 披露长期底层结算演化计划，正推进旗下发卡技术栈支持的所有加密卡在 2027 年底前全面整合 Ripple 官方美元稳定币 RLUSD（运行于 XRP Ledger 链上）进行底层合规清算。"
+        },
         {
           "date": "2026-10-22",
           "type": "compliance",
@@ -967,8 +995,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa 或 Mastercard（官方卡页按地区与发卡方而定）；美国实测为 Sutton Bank 发行的万事达企业采购卡（BIN 53710058）",
       "model": "按地区区分的钱包卡",
-      "verified": "2026-10-30",
+      "verified": "2026-11-01",
       "changelogs": [
+        {
+          "date": "2026-11-01",
+          "type": "feature",
+          "tag": "虚拟账户",
+          "title": "上线美欧虚拟银行账户，实体卡限时降价至 $25 并支持 Robinhood Chain",
+          "note": "Bitget Wallet 推出支持 ACH、Fedwire 与 SEPA 清算的 USD 与 EUR 个人虚拟银行账户；实体卡工本费降至 $25，并在 11 月 30 日前为前 1,000 名新申领且消费满 $100 的用户返还 $15；卡片新增支持在 Robinhood Chain 上使用 ETH 与 USDG 充值。"
+        },
         {
           "date": "2026-10-30",
           "type": "fee",
@@ -1385,8 +1420,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（合作公告口径）",
       "model": "XDC 上自托管 USDC",
-      "verified": "2026-10-26",
+      "verified": "2026-10-27",
       "changelogs": [
+        {
+          "date": "2026-10-27",
+          "type": "feature",
+          "tag": "交易筛选",
+          "title": "交易明细上线按账户、交易类型与清算状态多维筛选",
+          "note": "OrbitX Pay 客户端对账中心升级，交易明细列表新增支持按资金账户、类型（消费/充值/提现）以及清算完成状态进行组合筛选过滤。"
+        },
         {
           "date": "2026-10-08",
           "type": "feature",
@@ -1585,6 +1627,13 @@
           "tag": "月费豁免条件补充",
           "title": "Tangem Plus 月费也可通过 Yield Mode $65,000 资产豁免",
           "note": "官方 Tangem Pay 页面列 Plus 月费豁免条件为每月 $4,500 消费或在 Yield Mode 中持有 $65,000 资产。此前只记录消费豁免路径。Prestige 仍标为 Coming soon，不能当作现行权益。"
+        },
+        {
+          "date": "2026-10-28",
+          "type": "reward",
+          "tag": "限时返现",
+          "title": "推出全品类消费 10% 返现限时活动（持续至 11 月 2 日）",
+          "note": "Tangem Pay 推出全量消费大促，持卡人在 11 月 2 日前使用 Tangem Pay 刷卡消费的所有合格支出均可享受 10% 消费返现。"
         },
         {
           "date": "2026-10-16",
@@ -1981,8 +2030,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；按居住地由 Rain 或 Wirex 提供发行服务",
       "model": "Solid 账户余额 / Rain 或 Wirex 持牌合作卡账户",
-      "verified": "2026-10-23",
+      "verified": "2026-11-01",
       "changelogs": [
+        {
+          "date": "2026-11-01",
+          "type": "feature",
+          "tag": "欧元生息",
+          "title": "上线 Byzantine 最高 6% 欧元活期理财与独立 IBAN 虚拟账户",
+          "note": "Solid 联合 Byzantine 推出最高 6% APY 的欧元活期理财；同时提供配备个人独立 IBAN 的欧元虚拟银行账户，充值资金以 EURC 稳定币结算；Wirex 现有持卡人免除二次 KYC。"
+        },
         {
           "date": "2026-10-23",
           "type": "fee",
@@ -2897,8 +2953,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Signature；由获授权第三方发卡",
       "model": "自托管钱包资产作支持；USDC 即时付款或按固定利率分期",
-      "verified": "2026-10-30",
+      "verified": "2026-11-01",
       "changelogs": [
+        {
+          "date": "2026-11-01",
+          "type": "feature",
+          "tag": "代币化股票",
+          "title": "首推支持 Coinbase 代币化美股质押的信用卡，上线信用卡电子账单",
+          "note": "Exa 宣布在 Base 链 Web 端（Exa Blue）推出首款支持质押 Coinbase 代币化美股的加密信用卡（移动端 App 即将推出）；同时上线完整的信用卡电子对账单（Statements）查看与导出功能。"
+        },
         {
           "date": "2026-10-30",
           "type": "compliance",
@@ -2936,8 +2999,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Mastercard；由 Wirex Limited (英国) / UAB Wirex (EEA) 发行",
       "model": "非托管 MPC 钱包直连 Wirex Mastercard 预付卡结算",
-      "verified": "2026-10-26",
+      "verified": "2026-10-28",
       "changelogs": [
+        {
+          "date": "2026-10-28",
+          "type": "feature",
+          "tag": "对账工具",
+          "title": "卡片详情文档中心上线自定义周期账户与对账单导出",
+          "note": "COCA 移动端更新：用户在「Card Details」->「Documents」中可按任意自定义历史时间范围生成并导出账户与卡片的官方对账单（Statements），便于报税与收支复核。"
+        },
         {
           "date": "2026-10-26",
           "type": "region",
@@ -3722,8 +3792,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Visa Platinum 虚拟卡",
       "model": "多链稳定币 1:1 存入充值至卡内法币（USD/EUR）余额进行 Visa 结算",
-      "verified": "2026-10-30",
+      "verified": "2026-11-01",
       "changelogs": [
+        {
+          "date": "2026-11-01",
+          "type": "reward",
+          "tag": "返现与理财",
+          "title": "11月1日调整返现档位（最高4%），上线 Pulsar Earn 链上借贷生息",
+          "note": "Pulsar 11 月 1 日起调整消费返现结构：Free 免费档最高返 2%、Pro 档最高返 4%；同时正式上线 Pulsar Earn 链上生息功能，接入由 Steakhouse 在 Arc 网络上精选的 Morpho 借贷协议。"
+        },
         {
           "date": "2026-10-30",
           "type": "compliance",
@@ -4332,8 +4409,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Visa Platinum Business 商业信用卡；Reap Technologies 合作发行",
       "model": "稳定币（USDT/USDC）质押授信企业商业信用卡，按账期清算直接对冲数字资产，无需提前出金法币",
-      "verified": "2026-10-26",
+      "verified": "2026-10-28",
       "changelogs": [
+        {
+          "date": "2026-10-28",
+          "type": "feature",
+          "tag": "AI财务",
+          "title": "推出 Reap Business Account MCP，支持 AI Agent 自主管理企业费用",
+          "note": "企业卡服务商 Reap 正式发布 Reap Business Account MCP（Model Context Protocol），使自主运行的 AI Agent 智能体能够连接企业账户，在设定权限内自动执行报销、账单支付与开支核对。"
+        },
         {
           "date": "2026-10-26",
           "type": "region",
@@ -4474,8 +4558,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Platinum；由持牌金融机构合作方（含 Rain / 授权发卡行）依据 Visa 许可发行",
       "model": "直连外部自托管钱包或 Oobit 账户免预充值直接划扣；消费时触发即时 DEX/流动性结算折算法币；借记卡，不设中心化沉淀资金",
-      "verified": "2026-10-23",
+      "verified": "2026-10-31",
       "changelogs": [
+        {
+          "date": "2026-10-31",
+          "type": "feature",
+          "tag": "跨境汇款",
+          "title": "单一账户支持 SWIFT、SEPA、UPI、Pix 及微信/支付宝多通道转账",
+          "note": "Oobit 账户完成全球多通道资金清算整合，支持用户直接向全球银行与本地钱包发起汇款，覆盖国际 SWIFT、欧洲 SEPA、印度 UPI、巴西 Pix 以及中国大陆微信支付与支付宝。"
+        },
         {
           "date": "2026-10-23",
           "type": "status",
@@ -4722,6 +4813,13 @@
           "tag": "资格与钱包更正",
           "title": "Peanut 卡为虚拟卡，钱包支持视地区而定",
           "note": "官方帮助页称 Peanut Card 仅有虚拟形态，首次申请需账户至少有 $10 余额；在当地支持时，可手动加入 Apple Pay 或 Google Pay。页面没有列出约 17 个排除地区，也未将产品称为 beta。本站撤回这些未获当前页面支持的说法，并将地区准入保留为按申请资格审核。"
+        },
+        {
+          "date": "2026-10-27",
+          "type": "product",
+          "tag": "免密开放",
+          "title": "废除邀请码与候补排队机制，向所有用户全面开放注册",
+          "note": "自托管稳定币卡 Peanut 宣布全面取消邀请码（Invite Code）与 Waitlist 排队限制，任何用户下载移动客户端、认领专属用户名即可直接开卡使用。"
         },
         {
           "date": "2026-10-25",
@@ -5497,6 +5595,13 @@
           "note": "官方页面称虚拟卡已可用，Silver 实体卡已上线，Gold 与 Platinum 实体卡标为 coming soon。此前把 Platinum 实体卡写成已可用，属于把档位权益与实体卡交付进度混为一谈，现更正。"
         },
         {
+          "date": "2026-10-30",
+          "type": "incident",
+          "tag": "信贷预警",
+          "title": "Uber等出行享5%返现；因底层 Kamino 暂停借贷夜间曾短暂熔断信贷功能",
+          "note": "XPlace 为 Gold 与 Platinum 会员实装 Uber、Sixt 与 Wheely 出行专属 5% 返现；同时记录一次协议依赖风险事件：因底层借贷协议 Kamino 暂停借贷业务，XPlace 信用卡信贷授信在 10 月 29 日至 30 日夜间短暂暂停，现款自扣消费未受影响。"
+        },
+        {
           "date": "2026-10-23",
           "type": "fee",
           "tag": "资料更正",
@@ -5591,6 +5696,13 @@
           "tag": "返现结束与重新开放",
           "title": "Picnic 记录 GNO 返现已于 2026-01-31 结束，10 月底恢复仍是预期",
           "note": "官方帮助中心写明 GNO 返现活动已于 2026-01-31 23:59 结束。新卡首次申请自 2026-09-22 起暂停，官方只表示预计 2026 年 10 月底恢复，未给出已确认日期；现有卡可用至 2026-12-20 23:59 UTC。"
+        },
+        {
+          "date": "2026-10-30",
+          "type": "feature",
+          "tag": "多币种盒子",
+          "title": "Little Boxes 扩充巴西雷亚尔与欧元，上线 Euro Box 活期生息",
+          "note": "拉美加密卡 Picnic 升级资金管理功能「Little Boxes」，在原有美元储蓄之外新增巴西雷亚尔（BRL）与欧元（EUR）隔离子账户，并正式上线 Euro Box 欧元活期理财生息功能。"
         },
         {
           "date": "2026-10-23",
@@ -6647,8 +6759,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（企业信用卡；虚拟卡即时可用，实体卡寄送）",
       "model": "稳定币抵押 + Visa 企业卡清算模型：企业把稳定币存入智能合约作担保，刷卡后按日从抵押品扣划，月度账单统一结算",
-      "verified": "2026-10-21",
+      "verified": "2026-10-31",
       "changelogs": [
+        {
+          "date": "2026-10-31",
+          "type": "product",
+          "tag": "生态合作",
+          "title": "Rain 赋能 SeatGeek 票务扣款及 Blackbird 餐饮 Visa 联名卡 FlyCard",
+          "note": "Raincards 发卡底层技术接入 SeatGeek 与克利夫兰骑士队（Cavs）的 Game Day 消费项目；同时为餐厅社交金融平台 Blackbird 赋能 Visa 联名卡 FlyCard（支持在全美任意接受 Visa 的餐厅消费并赚取链上积分，候补名单已开放）。"
+        },
         {
           "date": "2026-10-21",
           "type": "product",
@@ -6751,8 +6870,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa（官方首页写可在全球 Visa 加盟店使用；虚拟卡与实体卡两种）",
       "model": "USDC 预充值 + Visa 信用卡清算模型：先把 Solana / Ethereum 上的 USDC 充进 App 钱包，再划入卡片余额，刷卡时按 App 显示的换算汇率结算",
-      "verified": "2026-10-22",
+      "verified": "2026-10-29",
       "changelogs": [
+        {
+          "date": "2026-10-29",
+          "type": "reward",
+          "tag": "广告权益",
+          "title": "针对 AppLovin 广告支出推出最高 5% 返现及最高 $50,000 抵扣金",
+          "note": "日本 Slash 面向移动营销与出海广告主推出 AppLovin 专属激励，在 AppLovin 平台进行广告代扣消费最高享 5% 返现，并可申请最高 50,000 美元的 AppLovin 投放抵扣积分。"
+        },
         {
           "date": "2026-10-22",
           "type": "product",
@@ -7348,8 +7474,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa Signature Corporate；官方公告称由 Rain 提供支持，公开卡片页未列具体发卡银行",
       "model": "Altitude 企业账户余额 / 稳定币支持的 Visa 公司卡",
-      "verified": "2026-10-16",
+      "verified": "2026-10-29",
       "changelogs": [
+        {
+          "date": "2026-10-29",
+          "type": "feature",
+          "tag": "批量支付",
+          "title": "上线多币种批量付款，MCP 协议对接 QuickBooks 实现一键对账",
+          "note": "企业加密卡 Altitude 上线批量支付功能，支持一次性向全球供应商或承包商跨币种划款；其 MCP（Model Context Protocol）工具正式与 QuickBooks MCP 联动，支持通过单条 AI 提示词自动同步所有财务流水。"
+        },
         {
           "date": "2026-10-16",
           "type": "fee",
