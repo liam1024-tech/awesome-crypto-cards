@@ -283,8 +283,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "以获批卡计划为准",
       "model": "钱包担保型消费卡",
-      "verified": "2026-11-02",
+      "verified": "2026-11-03",
       "changelogs": [
+        {
+          "date": "2026-11-03",
+          "type": "feature",
+          "tag": "规模里程碑",
+          "title": "Ethena Pay 内测阶段刷卡交易额突破 500 万美元，官方披露 10 月生态月报",
+          "note": "Ethena 官方 10 月生态报告披露：Ethena Pay 在 Beta 内测阶段的刷卡总流水（Card Volume）已正式跨越 500 万美元（$5M）门槛；同月已全面实装 Earn+ 一键最高 12% 活期理财（无锁定期），并作为底层白标机构（Ethena Whitelabel）协助合作伙伴 ether.fi 推出原生稳定币生态。"
+        },
         {
           "date": "2026-11-02",
           "type": "feature",
