@@ -283,7 +283,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "以获批卡计划为准",
       "model": "钱包担保型消费卡",
-      "verified": "2026-11-03",
+      "verified": "2026-11-04",
       "changelogs": [
         {
           "date": "2026-11-03",
@@ -473,7 +473,7 @@
       "stageLabel": "🟢 正常活跃",
       "network": "具体卡网络与币种以获批卡片为准",
       "model": "平台账户内稳定币支付",
-      "verified": "2026-11-02",
+      "verified": "2026-11-04",
       "changelogs": [
         {
           "date": "2026-11-02",
@@ -481,6 +481,13 @@
           "tag": "公司动态",
           "title": "RedotPay 据报考虑年底前秘密递交美国 IPO，Binance 诉讼仍在进行",
           "note": "彭博 2026-10-26 报道（The Paypers 10-27 转述）：RedotPay 考虑在 2026 年底前向 SEC 秘密递交 IPO 申请，并洽谈估值 40 亿至 50 亿美元的上市前融资，公司未回应。此前 Binance 关联方在香港索赔约 4.73 亿美元，RedotPay 否认指控；Binance 已于 2026-04-03 停止对 RedotPay 的支付功能。均为公司与诉讼动态，卡片费率与申请条件未因此改变。"
+        },
+        {
+          "date": "2026-10-31",
+          "type": "feature",
+          "tag": "AI智能体支付",
+          "title": "整合 Tempo MPP 协议，支持 AI Agent 自主调用稳定币清算",
+          "note": "RedotPay 联合 Stripe 与 Paradigm 孵化的支付公链 Tempo，深度整合 Machine Payments Protocol (MPP) 机器支付协议，支持 AI 智能体自主通过 RedotPay Connect 与 Skill 完成商品比价、自动下单与稳定币即时清算。"
         },
         {
           "date": "2026-10-30",
@@ -1633,8 +1640,15 @@
       "stageLabel": "🟢 正常活跃",
       "network": "Visa；Rain 为发行方，Paera 运营卡账户",
       "model": "Rain Visa 预付账户；稳定币充值后消费",
-      "verified": "2026-10-30",
+      "verified": "2026-11-04",
       "changelogs": [
+        {
+          "date": "2026-11-03",
+          "type": "reward",
+          "tag": "活动结束",
+          "title": "Tangem Pay 全品类 10% 返现限时活动于 11 月 2 日正式收官",
+          "note": "Tangem Pay 为期一周的全品类消费 10% 返现大促于 2026-11-02 23:59 UTC 结束，返现恢复至 Basic 1%（月上限 $100）与 Plus 2%（月上限 $300）标准阶梯。"
+        },
         {
           "date": "2026-10-30",
           "type": "fee",

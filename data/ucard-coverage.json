@@ -33,7 +33,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 7,
-      "verified": "2026-11-03",
+      "verified": "2026-11-04",
       "profileUrl": "https://ucard.observer/cards/ethena-pay/"
     },
     {
@@ -55,7 +55,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 18,
-      "verified": "2026-11-02",
+      "verified": "2026-11-04",
       "profileUrl": "https://ucard.observer/cards/redotpay/"
     },
     {
@@ -319,7 +319,7 @@
       "status": "regional",
       "statusLabel": "地区受限 · 资格需核实",
       "sourceCount": 5,
-      "verified": "2026-10-30",
+      "verified": "2026-11-04",
       "profileUrl": "https://ucard.observer/cards/tangem-pay/"
     },
     {

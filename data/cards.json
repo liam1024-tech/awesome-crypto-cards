@@ -278,8 +278,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-11-03",
-      "verified": "2026-11-03",
+      "modified": "2026-11-04",
+      "verified": "2026-11-04",
       "id": "ethena-pay",
       "name": "Ethena Pay",
       "aliases": "ethena USDe 埃塞纳",
@@ -874,8 +874,8 @@
     },
     {
       "published": "2026-09-13",
-      "modified": "2026-11-02",
-      "verified": "2026-11-02",
+      "modified": "2026-11-04",
+      "verified": "2026-11-04",
       "id": "redotpay",
       "name": "RedotPay",
       "aliases": "redot 红点 红点卡 fees review sign up 手续费 开卡教程 费率",
@@ -3021,9 +3021,19 @@
         "researchDate": "2026-10-30"
       },
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://cypherhq.io/help/cards/how-do-i-get-a-physical-card/"
+        "status": "official",
+        "path": "/card-art/cypher.webp",
+        "file": "cypher.webp",
+        "imageUrl": "https://cypherhq.io/_astro/002-e2ae34d111.B2WnbkZr_11Vmes.webp",
+        "sourcePage": "https://cypherhq.io/help/cards/how-do-i-get-a-physical-card/",
+        "version": "Cypher Card Visa Platinum 官方金属卡面（官网帮助中心素材裁切）",
+        "mode": "contain",
+        "crop": {
+          "left": 299,
+          "top": 106,
+          "width": 506,
+          "height": 319
+        }
       },
       "url": "https://ucard.observer/cards/cypher/",
       "statusLabel": "已停服 · 历史档案"
@@ -5073,8 +5083,8 @@
     },
     {
       "published": "2026-09-27",
-      "modified": "2026-10-30",
-      "verified": "2026-10-30",
+      "modified": "2026-11-04",
+      "verified": "2026-11-04",
       "group": "链上与自托管",
       "status": "regional",
       "kyc": "required",
@@ -21845,9 +21855,13 @@
         }
       ],
       "cardArt": {
-        "status": "missing",
-        "label": "未找到可核实的官方卡面",
-        "sourcePage": "https://x.com/cardano_card"
+        "status": "official",
+        "path": "/card-art/cardano-card-archive.webp",
+        "file": "cardano-card-archive.webp",
+        "imageUrl": "https://www.cardanocard.io/brand/standard-card.png",
+        "sourcePage": "https://www.cardanocard.io/",
+        "version": "Cardano Card Visa 官方标准卡面（官网品牌资源）",
+        "mode": "contain"
       },
       "url": "https://ucard.observer/cards/cardano-card-archive/",
       "statusLabel": "已停服 · 历史档案"
