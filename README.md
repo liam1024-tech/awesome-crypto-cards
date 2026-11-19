@@ -20,6 +20,7 @@ Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data upda
 - 🧮 **[Fee & Cashback Calculator](https://ucard.observer/tools/fee-calculator/)** — Calculate real monthly net costs factoring in issuance, FX fees, top-up haircuts, and reward tiers.
 - 📱 **[Mobile Wallets & AI Subscriptions Matrix](https://ucard.observer/compare/payment-compatibility/)** — Full compatibility table for Apple Pay, Google Pay, OpenAI, and Anthropic Claude.
 - 🛡️ **[Stripe AI Subscription Guide](https://ucard.observer/articles/stripe-ai-subscription-guide/)** — In-depth guide to bypassing Stripe risk controls (IP alignment, zero-tax US billing addresses, BIN management).
+- 🇺🇸 **[Best Crypto Debit Cards 2026 Guide](https://ucard.observer/en/guides/best-crypto-debit-cards/)** & **[Live Status Radar](https://ucard.observer/en/tools/status-radar/)** — English 6-card benchmark test and real-time status/delisting tracking for 336+ crypto cards.
 - 🇨🇳 **[简体中文主站](https://ucard.observer)** · 🇭🇰 **[繁體中文主站](https://ucard.observer/zh-TW/)** · 🇺🇸 **[English Edition](https://ucard.observer/en/)**
 
 ---
@@ -45,13 +46,13 @@ Maintained by [UCard Observer (U卡观察)](https://ucard.observer) · Data upda
 | Card Brand | Network | Funding & Custody Model | KYC Requirement | Base Fees (Issuance / FX) | Cashback Rewards | Apple / Google Pay | AI Subscriptions (GPT / Claude) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[ether.fi Cash](https://ucard.observer/cards/ether-fi/)** | Visa | Direct Pay / Collateral Borrow | Required (ID/Passport) | Free virtual / ~1% base FX | Up to 3% in ETHFI | ✅ Official Support | ✅ Verified Support |
-| **[Plasma One](https://ucard.observer/cards/plasma-one/)** | Visa / MC | Lite / Core / Platinum Account | Required | Free virtual / 0–1% FX | 0.25%–1% in XPL | ✅ Official Support | ✅ Verified Support |
+| **[Plasma One](https://ucard.observer/cards/plasma-one/)** | Visa | Standard / Premium / Platinum | Required | Standard Free ($600–$2,500/yr) / 0%–1% FX | 1% / 2% / 3% in XPL ($200–$500 AI allowance) | ✅ Official Support | ✅ Verified Support |
 | **[Bitrefill Card](https://ucard.observer/cards/bitrefill-card/)** | Mastercard | Non-custodial crypto top-up (EEA) | Required (EEA Residents) | €0 Virtual / 0% EUR spend (1.5% FX) | 1%–2% in Bitcoin (BTC) | ✅ Official Support | ✅ Verified (Non-EUR 1.5% FX) |
 | **[RedotPay](https://ucard.observer/cards/redotpay/)** | Visa / MC | Centralized stablecoin balance | Required (Face/ID/Address) | $10 Virtual, $100 Physical / 1.2% FX | 3% USDs (Pro Plan, $18 cap) | ✅ Official Support | ✅ Verified Support |
 | **[Rizon Card](https://ucard.observer/cards/rizon-card/)** | Visa | Non-custodial multi-chain USDC/USDT | Required (ID/Passport) | $10 Virtual / ~1.02% base FX | Up to 2.5% cashback | ✅ Official Support | ✅ Verified Support |
 | **[Oobit Card](https://ucard.observer/cards/oobit-card/)** | Visa | Direct self-custody wallet (MetaMask/Phantom) | Required (Face/ID) | $0 Virtual / 1% transaction fee | Up to 1%–5% cashback | ✅ Official Support | ✅ Verified Support |
 | **[Solayer Pay](https://ucard.observer/cards/solayer-pay/)** | Visa | Self-custody Solana USDC | Required (In-app check) | On-chain authorization / App quote | Variable | ✅ Official Support | ◐ Community tested |
-| **[BingX Card](https://ucard.observer/cards/bingx-card/)** | Visa | Exchange USDT balance | Required (BingX Account) | Free virtual / 1.5% transaction | Tiers up to 3%–5% USDT | ◐ Region dependent | ◐ Community tested |
+| **[BingX Card](https://ucard.observer/cards/bingx-card/)** | Visa | Exchange USDT balance | Required (BingX Account) | Free virtual ($199 metal) / 1.5% transaction | Up to 2% (Virtual) / 3%–5% (Metal) | ◐ Region dependent | ◐ Community tested |
 | **[Bybit Card](https://ucard.observer/cards/bybit/)** | Mastercard | Exchange account balance (EEA/APAC) | Required (Level 2 KYC) | Free virtual / 0.5% exchange fee | 2%–10% points | ✅ Official Support | ◐ Region dependent |
 | **[Krak Card (US)](https://ucard.observer/cards/krak-card-us/)** | Visa | Centralized Krak account balance | Required (Eligible US residents) | $0 monthly / non-US FX disputed | 0.5%–2% by balance tier | ✅ Official Support | ◐ Unconfirmed |
 | **[Fasset Card](https://ucard.observer/cards/fasset-card/)** | Visa | USDT top-up, USD balance | Required (Varies by region) | 9.99 USDT issuance / 0% spend | OWN Points (unpriced) | ✅ Official Support | ◐ Unconfirmed |
